@@ -6,7 +6,7 @@ jsons = {}
 sents = {}
 
 # read streusle.sst
-with open('streusle.sst','r') as tsv:
+with open('streusle_v3.sst','r') as tsv:
     for line in tsv:
         row = line.split('\t')
         print( row )
@@ -46,6 +46,6 @@ for f in files:
                 print(jsons[id]['labels'][str(t)])
 
 # read streusle.sst
-with open('streusle_v2.sst','w+') as tsv:
+with open('streusle_v4.sst','w+') as tsv:
     for id in sorted(token_ids):
         tsv.write(id+'\t'+sents[id]+'\t'+json.dumps(jsons[id])+'\n')
