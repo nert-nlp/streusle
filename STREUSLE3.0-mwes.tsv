@@ -1,0 +1,2673 @@
+   2 # 1	_	NN CD
+   1 '07 ford fusion	_	CD NNP NNP
+   1 ( 989 ) 755-1109	_	-LRB- CD -RRB- CD
+   2 09 xf	_	CD NNP
+   1 14th street	_	NNP NNP
+   1 17th street	_	NN NN
+   1 2 star	_	CD NN
+   1 2 star	_	CD NNS
+   1 2001 nissan frontier	_	CD NNP NNP
+   1 2004 x - type	_	CD NN HYPH NN
+   1 2009 xf	_	CD NNP
+   1 2010 genesis	_	CD NNP
+   1 2010 hyundai genesis	_	CD NNP NNP
+   1 21st st	_	NNP NNP
+   1 3 fold	_	CD NN
+   1 3 star	_	CD NN
+   1 360 restraunt	_	CD NN
+   1 4 - ever	_	GW HYPH RB
+   1 4 - year college	_	CD HYPH NN NNS
+   1 4 star	_	CD NNS
+   5 5 star	_	CD NN
+   4 5 star	_	CD NNS
+   1 800 number	_	CD NN
+   4 a +	_	NN SYM
+   1 a +	_	NNP SYM
+   1 a ++	_	NN SYM
+   1 a +++	_	DT SYM
+   1 a +++	_	NN SYM
+   1 a ++++	_	NN SYM
+   1 a +++++	_	NN SYM
+   1 a ++++++++++++++++++	_	DT SYM
+   1 a - team	_	NN HYPH NN
+   2 a / c	_	NN HYPH NN
+  13 a bit	_	DT NN
+   2 a bunch	_	DT NN
+   1 a class garage doors	_	NNP NNP NNP NNPS
+   1 a class garage doors dr services	_	NNP NNP NNP NNPS NN NNS
+  12 a couple	_	DT NN
+   1 a dong	_	NNP NNP
+  13 a few	_	DT JJ
+   1 a few	_	DT NN
+   1 a gem of a	~	DT NN IN DT
+   1 a good few	_	DT JJ JJ
+   1 a handful	_	DT NN
+   1 a hoot	_	DT NN
+   1 a least	_	RB RBS
+  11 a little	_	DT JJ
+   6 a little	_	DT NN
+   1 a little bit	_	DT JJ NN
+   1 a long time	~	DT JJ NN
+  32 a lot	_	DT NN
+   1 a must	_	DT NN
+   1 a nervous wreck	_	DT JJ NN
+   4 a number	_	DT NN
+   1 a number of	~	DT NN IN
+   1 a pleasure	_	DT NN
+   2 a shame	_	DT NN
+   1 a short time	_	DT JJ NN
+   1 a slice of heaven	_	DT NN IN NN
+   1 a stretch	_	DT NN
+   1 a to - do	_	DT NN HYPH NN
+   1 a ton	_	DT NN
+   1 a touch	_	DT NN
+   1 a treat	_	DT NN
+   1 a trying time	_	DT JJ NN
+   1 a ward dance centre	_	GW NNP NNP NNP
+   2 a while	_	DT NN
+   1 able and willing	~	JJ CC JJ
+   1 about to	_	JJ TO
+   1 about to	_	RB TO
+   1 above all	_	IN DT
+   1 above the call of duty	_	IN DT NN IN NN
+   3 accord to	_	VBG IN
+   1 across the board	_	IN DT NN
+   1 add bonus	~	VBN NN
+   1 add insult to injury	_	VB NN IN NN
+   1 add on	_	VB RP
+   1 add to	~	VBG IN
+   1 adelphi hotel	_	NNP NNP
+   1 advanced auto parts	_	NNP NNP NNP
+   1 adventure tour	_	NN NN
+   1 african - american	_	JJ HYPH JJ
+   1 after all	_	RB RB
+   1 after be say and do	~	IN VBD VBN CC VBN
+   1 agree on	~	VBD IN
+   1 ahead of time	_	RB IN NN
+   1 air conditioning	_	NN NN
+   1 air conditioning	_	NNP NNP
+   1 air duct	_	NN NN
+   1 air filter	_	NN NN
+   2 alan 's	_	NNP POS
+   1 alan grissom	_	NNP NNP
+   1 all about	_	RB IN
+   1 all about	~	RB IN
+   1 all have to do be	~	DT VBP TO VB VBZ
+   1 all in a matter of	~	RB IN DT NN IN
+   1 all in one	_	DT IN CD
+   1 all inclusive	_	RB JJ
+   1 all kidding aside	_	DT NN RB
+   1 all kind	_	DT NN
+   1 all of	_	DT IN
+   5 all over	_	RB IN
+   1 all round	_	RB RB
+   4 all the time	_	PDT DT NN
+   2 all the way	_	PDT DT NN
+   1 all together	_	GW RB
+   1 all you can ask	_	DT PRP MD VB
+   1 allen tire	_	NNP NNP
+   1 allentown post office	_	NNP NNP NNP
+   3 along with	_	IN IN
+   1 alta moda	_	NNP NNP
+   1 amelia gentle dentistry	_	NNP NNP NNP
+   1 american cheese	_	JJ NN
+   1 american express	_	NNP NNP
+   1 american pride irrigation & landscaping	_	NNP NNP NNP CC NNP
+   1 among others	_	IN NNS
+   1 amusement parks	_	NN NNS
+   1 an arm and a leg	_	DT NN CC DT NN
+   1 and company	_	CC NN
+   1 and now	_	CC RB
+   1 and with good reason	~	CC IN JJ NN
+   1 and yet	_	CC CC
+   1 angry lobster	_	JJ NN
+   1 animal lover	~	NN NN
+   1 anna maria jose mudo	_	NNP NNP NNP NNP
+   1 anna marie	_	NNP NNP
+   1 answer phone	~	VBD NN
+   1 answer question	~	VBD NNS
+   1 answer question	~	VBG NNS
+   1 antipasto misto	_	NN NN
+   1 any longer	_	RB RBR
+   1 any more	_	RB RBR
+   1 any one	_	DT NN
+   1 anytime soon	~	NN RB
+   1 aortic stenosis	_	JJ NN
+   2 apart from	_	RB IN
+   1 arancini di riso	_	NN NN NN
+   2 argue with	~	VB IN
+   1 around back	_	IN NN
+   1 around the clock	_	IN DT NN
+   2 around the corner	~	IN DT NN
+   1 around the edge	~	IN DT NNS
+   1 art school	_	NN NN
+   1 as an example	_	IN DT NN
+   1 as as possible	~	RB IN JJ
+   1 as far as	_	RB RB IN
+   2 as if	_	IN IN
+   2 as long as	_	RB RB IN
+   2 as possible	~	IN JJ
+   5 as soon as	_	RB RB IN
+   2 as to	_	IN IN
+   1 as usual	~	IN JJ
+  12 as well	_	RB RB
+   6 as well as	_	RB RB IN
+   1 ashdown horse transport	_	NNP NNP NNP
+   2 aside from	_	RB IN
+   5 ask for	~	VB IN
+   8 ask for	~	VBD IN
+   1 ask for	~	VBN IN
+   1 ask for	~	VBP IN
+   1 ask for back	_	VBD IN RB
+   1 ask question	~	VBP NNS
+   1 assembly line	_	NN NN
+   1 associate with	~	VBN IN
+   1 aswered phone	_	VBD NN
+   1 aswering question	~	VBG NNS
+   1 at a premium	_	IN DT NN
+   9 at all	_	RB RB
+   1 at all costs	_	IN DT NNS
+   1 at all times	~	IN DT NNS
+   7 at best	_	RB RBS
+   1 at fault	_	IN NN
+   1 at first	_	RB RBS
+  12 at least	_	RB RBS
+   1 at night	_	IN NN
+   1 at one point	_	IN CD NN
+   1 at peace	_	IN NN
+   1 at that	_	IN DT
+   1 at the last minute	_	IN DT JJ NN
+   2 at this point	_	IN DT NN
+   1 at times	_	IN NNS
+   1 at which point	_	IN WDT NN
+   1 atlanta paperback book printing	_	NNP NNP NNP NNP
+   1 atlantic wireless	_	NNP NNP
+   2 attend to	_	VBN IN
+   2 attention to detail	_	NN IN NN
+   1 auto glass	_	NN NN
+   1 auto glass repair shop	~	NN NN NN NN
+   1 auto repair	_	NN NN
+   1 auto shop	_	NN NNS
+   3 auto towing	_	NNP NNP
+   1 avail of	_	VBD IN
+   1 award dance centre	_	NNP NNP NNP
+   1 back ache	_	NN NNS
+   1 back and forth	_	RB CC RB
+   1 back for more	~	RB IN JJR
+   3 back in	~	RB IN
+   1 back office	_	JJ NN
+   2 back pain	_	NN NN
+   1 back to	_	RB IN
+   1 back to back	_	NN IN NN
+   1 back up	_	VB RP
+   1 back yard	_	JJ NN
+   1 bad for business	~	JJ IN NN
+   1 bait and switch	_	NN CC NN
+   1 bait and switch	_	VB CC VBG
+   1 ball pit	_	NN NN
+   1 ball square cafe	_	NNP NNP NNP
+   1 banana split	_	NN NN
+   1 bandera road	_	NNP NNP
+   1 bang for buck	_	NN IN NN
+   1 bar - b - que	_	NN HYPH NN HYPH NN
+   1 bar and grill	_	NN CC NN
+   1 barbara quimba	_	NNP NNP
+   1 barn dance	_	NN NN
+   1 barrett motor cars of san antonio	_	NNP NNP NNPS IN NNP NNP
+   1 barry s auto tech	_	NNP POS NNP NNP
+   1 barton car wash	_	NNP NNP NNP
+   1 bascom light rail	_	NNP NNP NNP
+   2 base on	_	VBN IN
+   1 base on	~	VBN IN
+   1 bathing suit	_	NN NN
+   1 battery park pest	_	NNP NNP NNP
+   1 bay rd	_	NNP NNP
+   1 bay ridge	_	NNP NNP
+   1 bay view	_	NNP NNP
+   1 bayside chiropractic	_	NNP NNP
+   1 bbq chicken pizza	_	NN NN NN
+   1 bc / bs	_	NNP HYPH NNP
+   1 be a big baby	_	VBD DT JJ NN
+   1 be a gem	~	VBZ DT NN
+   1 be a hassle	_	VBD DT NN
+   3 be a joke	_	VBZ DT NN
+   1 be a nice touch	_	VBZ DT JJ NN
+   1 be a no brainer	_	VBD DT NN NN
+   1 be a pain	_	VBZ DT NN
+   1 be a plus	_	VBZ DT NN
+   1 be about	_	VBZ IN
+   1 be first call	_	VB JJ NN
+   1 be happy camper	_	VBZ JJ NN
+   1 be in	_	VBD RB
+   1 be in	_	VBZ IN
+   2 be in for a treat	_	VBD IN IN DT NN
+   1 be in hands	_	VBD IN NNS
+   1 be in hands	_	VBZ IN NNS
+   1 be inclined	_	VB JJ
+   1 be into	_	VBP IN
+   1 be make to	_	VBP VBN TO
+   1 be no more	_	VBZ RB RBR
+   1 be no stranger to	_	VBP DT NN IN
+   1 be not to be miss	~	VBP RB TO VB VBN
+   1 be out of	_	VBD IN IN
+   1 be out of this world	_	VBP IN IN DT NN
+   1 be put off by	~	VB VBN RP IN
+   1 be rude	_	VBG JJ
+   1 be say and do	_	VBD VBN CC VBN
+   6 be suppose to	_	VBD VBN TO
+   2 be suppose to	_	VBP VBN TO
+   1 be sure	_	VB JJ
+   1 be sure to	_	VB JJ TO
+   1 be the epitome of	_	VBD DT NN IN
+   1 be the for you	~	VBZ DT IN PRP
+   1 be there / do that	_	VBN RB XX VBN DT
+   1 be there for	_	VBN RB IN
+   1 be through	_	VBN IN
+  15 be to	_	VBN IN
+   2 be to die for	_	VBP TO VB IN
+   1 be too	_	VBN IN
+   1 be up	_	VBZ RB
+   1 be wrong with	~	VBD JJ IN
+   1 be you kid me	~	VBP PRP VBG PRP
+   1 bear and raise	~	VBN CC VBN
+  10 because of	_	IN IN
+   1 beg to differ	_	VBP TO VB
+   1 beginning yoga with brittany	_	NN NN IN NNP
+   1 behind the scene	_	IN DT NNS
+   1 behind the wheel	_	IN DT NN
+   1 belgian tavern	_	JJ NN
+   1 believe in	_	VB IN
+   1 believe in yourself	~	VB IN PRP
+   1 believe it or not	_	VB PRP CC RB
+   1 believe me	_	VB PRP
+   1 bellevue , wa.	~	NNP , NNP
+   1 belong to	_	VBD IN
+   1 below zero	~	IN CD
+   1 bench test	_	NN VB
+   1 best and affordable tour operators and tours agents	_	NNP CC NNP NNP NNPS CC NNPS NNPS
+   1 best of the best	_	JJS IN DT JJS
+   1 better believe	_	RBR VB
+   1 better business bureau	_	JJR NN NN
+   1 better off	_	JJR RP
+   1 better than ever	~	JJR IN RB
+   1 beware of	~	VB IN
+   1 bexar county tax office	_	NNP NNP NNP NNP
+   1 big box store	_	JJ NN NN
+   1 big buck	_	JJ NNS
+   1 big deal	_	JJ NN
+   1 big deal	~	JJ NN
+   1 big rig	_	JJ NN
+   1 big toe	_	JJ NNS
+   1 birthday card	_	NN NN
+   1 birthday party	_	NN NN
+   1 birthday party	_	NN NNS
+   1 bistro tallulah	_	NNP NNP
+   1 bite the dust	_	VBZ DT NN
+   2 bj s	_	NNP POS
+   1 black bean	_	JJ NNS
+   1 black belt	_	JJ NN
+   1 blacken catfish	_	VBN NN
+   1 blood pressure	_	NN NN
+   3 bloody mary	_	JJ NN
+   1 bloody mary mix	~	JJ NN NN
+   1 bloom legal	_	NNP NNP
+   1 bloom onion	_	VBG NN
+   1 blow away	_	VBD RB
+   1 blow away	_	VBN RB
+   1 blow dry out	~	VB VBP RP
+   1 blow glass	_	VBN NN
+   1 blow out	_	VBP RP
+   1 blower fan	_	NN NN
+   1 blue book	_	NNP NNP
+   1 blue cross	_	NNP NNP
+   1 blue cross / blue shield	_	NNP NNP HYPH NNP NNP
+   1 blue water bridge duty free	_	NNP NNP NNP NNP NNP
+   1 blue water bridges	_	NNP NNP NNPS
+   1 bmw 330i	_	NNP NNP
+   1 bmw z3	_	NNP NNP
+   1 bon appetit	_	UH UH
+   1 book a reservation	_	VB DT NN
+   1 boothbay harbor	_	NNP NNP
+   2 both side	~	DT NNS
+   2 bother with	~	VB IN
+   2 bottom line	_	JJ NN
+   2 boy in blue	_	NNS IN JJ
+   1 bradley chevron	_	NNP NNP
+   1 bradley food and beverage	_	NNP NNP CC NNP
+   1 brain dead	_	NN JJ
+   1 braman honda	_	NNP NNP
+   1 bramen honda	_	NNP NNP
+   1 branch out	_	VB RP
+   1 brand new	_	RB JJ
+   1 break down	_	VBD RP
+   1 break down and	_	VB RP CC
+   1 break the bank	_	VB DT NN
+   2 brickell honda	_	NNP NNP
+   1 brief on	_	VB IN
+   1 bright futures	_	NNP NNPS
+   1 bright star tours	_	NNP NNP NNPS
+   1 bright star tours and travels	_	NNP NNP NNPS CC NNPS
+   1 bring back	_	VB RB
+   1 bring back	_	VBD RB
+   1 bring back	~	VB RB
+   2 bring back	~	VBD RB
+   1 bring in	_	VB RB
+   2 bring in	_	VBD RB
+   1 bring in	_	VBP RB
+   1 bring up	_	VBD RP
+   1 britt 's	_	NNP POS
+   1 britt 's pizza	_	NNP POS NNP
+   1 bruise ego	_	VBD NN
+   1 buckingham condominiums	_	NNP NNPS
+   1 buffalo wings	_	NNP NNS
+   1 bull fighting	_	NN NN
+   1 burch 's karate	_	NNP POS NNP
+   1 burger and fries	~	NN CC NNS
+   1 burger king	_	NNP NNP
+   1 bus boy	_	NN NN
+   1 bus line	_	NN NNS
+   1 bus route	~	NN NN
+   1 business cards	_	NN NNS
+   1 but do n't let that fool you	~	CC VB RB VB DT VB PRP
+   1 but then again	~	CC RB RB
+   1 buy from	~	VBG IN
+   1 buyer beware	_	NN VB
+   1 buyer beware	~	NN VB
+   1 by any stretch of the imagination	_	IN DT NN IN DT NN
+   9 by far	_	IN RB
+   1 by the time	~	IN DT NN
+   2 by the way	_	IN DT NN
+   1 c on	_	VB RB
+   1 ca n't be beat	~	MD RB VB VBN
+   1 ca n't enough	~	MD RB RB
+   1 ca n't get enough	_	MD RB VB JJ
+   1 ca n't go wrong	_	MD RB VB RB
+   1 ca n't thank enough	~	MD RB VB RB
+   1 ca n't wait	_	MD RB VB
+   1 caffe bella italia	_	NNP NNP NNP
+   1 caldwell insurance	_	NNP NNP
+   1 call back	_	NN RB
+   2 call back	_	VB RB
+   2 call back	_	VB RP
+   3 call back	_	VBD RB
+   1 call back	_	VBZ RB
+   1 call in	_	VB RP
+   2 call in	_	VBD RP
+   1 call in sick	_	VBD RB JJ
+   1 call up	_	VBD RP
+   1 call up	_	VBG RP
+   1 camps bay	_	NNPS NNP
+   1 can be assure	_	MD VB VBN
+   1 can not	_	MD RB
+   1 can not be beat	~	MD RB VB VBN
+   1 can not say enough	_	MD RB VB JJ
+   1 can not wait	_	MD RB VB
+   2 can not wait	~	MD RB VB
+   1 can see forever	~	MD VB RB
+   1 canadian outback	_	NNP NNP
+   1 canal walk	_	NNP NNP
+   1 canyon road	_	NNP NNP
+   1 capable of	_	JJ IN
+   1 car accident	_	NN NN
+   2 car dealer	_	NN NN
+   1 car model	~	NN NN
+   1 car wash	_	NN NN
+   1 car wash	_	NN NNS
+   1 care about	~	VBP IN
+   1 care about	~	VBZ IN
+   1 care receive	_	NN VBD
+   1 carnegie mellon	_	NNP NNP
+   2 carry out	_	VB RP
+   1 carry out	_	VBD RP
+   1 catch in traffic	~	VBN IN NN
+   1 catch my eye	_	VBD PRP$ NN
+   2 catch up	_	VB RP
+   1 catch up with	~	VB RP IN
+   1 cause of death	~	NN IN NN
+   1 cayuga st.	_	NNP NNP
+   1 center city philly	_	NNP NNP NNP
+   1 central iowa	_	NNP NNP
+   1 cesar gracie	_	NNP NNP
+   1 chain restaurant	~	NN NN
+   1 chamberlain road hull	_	NNP NNP NNP
+   1 chance be	_	NNS VBP
+   1 change lightbulb	_	VBD NN
+   2 change mind	_	VB NN
+   1 charge a dime	_	VB DT NN
+   1 charge for	_	VBD IN
+   2 cheap hotel rome	_	NNP NNP NNP
+   1 check - in	_	NN HYPH NN
+   1 check - out	_	NN HYPH NN
+   1 check - out	_	VB HYPH RP
+   1 check back	_	VBD RB
+   1 check back with	~	VBD RB IN
+   2 check card	_	NN NN
+   1 check engine light	_	VB NN NN
+   1 check for	~	VBG IN
+   1 check in	_	NN NN
+   2 check in	_	VB RP
+   1 check in	_	VBD RP
+   1 check on	~	VBD IN
+   1 check out	_	NN NN
+   7 check out	_	VB RP
+   1 check out	_	VBD RP
+   2 check out	_	VBG RP
+   1 check out	_	VBN RP
+   1 check ups	_	NN NNS
+   1 check with	~	VB IN
+   1 chennai , india	~	NNP , NNP
+   2 chest of drawers	_	NN IN NNS
+   1 chicken cordon - blu	_	NN NN HYPH NN
+   1 chicken finger	_	NN NNS
+   1 chicken salad	_	NNP NN
+   1 child molester	_	NN NNS
+   1 child predator	_	NN NNS
+   1 chili relleno	_	NN NN
+   1 chili s	_	NNP POS
+   2 china delight	_	NNP NNP
+   1 chocolate lava cake	_	NN NN NN
+   1 chocolate mousse	_	NN NN
+   1 christmas tree	_	NNP NNS
+   1 cigar lounge	_	NN NN
+   1 cinema 21	_	NNP CD
+   1 cj and company	~	NNP CC NN
+   1 clark county school district	_	NNP NNP NNP NNP
+   1 clarkson university	_	NNP NNP
+   1 class act	_	NN NN
+   4 clean up	_	VBN RP
+   1 cleaning lady	_	NN NN
+   2 client base	_	NN NN
+   2 close to	_	JJ IN
+   1 closing time	~	NN NN
+   1 club sandwich	_	NN NN
+   1 cn tower	_	NNP NNP
+   1 co worker	_	AFX NNS
+   1 coffee store	_	NN NN
+   2 collection agency	_	NN NN
+   1 color me phat	_	VB PRP JJ
+   1 columbia river	_	NNP NNP
+   1 come across	_	VB RB
+   2 come across	_	VBN IN
+   1 come across	_	VBZ RB
+   1 come and go	_	VBD CC VBD
+   1 come apart	_	VBG RB
+   1 come away from	_	VBD RB IN
+   1 come back	_	VB RB
+   3 come back	_	VBD RB
+   1 come by	_	VB RB
+   1 come by	_	VBD RB
+   1 come down	_	VB RB
+   1 come for a visit	~	VBZ IN DT NN
+   1 come from	_	VB IN
+   1 come from	_	VBZ IN
+   1 come from	~	VBG IN
+   1 come home to	_	VBD RB IN
+   1 come in	_	VB RB
+   2 come in	_	VBD IN
+   7 come in	_	VBD RB
+   1 come in	_	VBG RB
+   1 come in	_	VBP RB
+   1 come in	~	VBD RB
+   2 come in	~	VBG RB
+   1 come in town	~	VBD IN NN
+   1 come in under	_	VBD RB IN
+   1 come off the bones	~	VBZ IN DT NNS
+   1 come on	_	VB RP
+   1 come out	_	VB RB
+   7 come out	_	VBD RB
+   1 come out of mouth	~	VB IN IN NN
+   1 come out of mouth	~	VB IN IN NNS
+   1 come over	_	VB RB
+   1 come over	_	VBD RB
+   1 come over	_	VBP RB
+   1 come over budget	_	VBD IN NN
+   2 come through	_	VBD RB
+   1 come through	_	VBN RB
+   1 come through	_	VBZ RP
+   1 come time	_	VBD NN
+   1 come to	_	VBN TO
+   1 come up	_	VBD RB
+   1 come upon	_	VBD IN
+   1 come with	_	VB IN
+   1 come with	_	VBD IN
+   2 comfort zone	_	NNP NNP
+   1 comment on	~	VBP IN
+   1 common courtesy	_	JJ NN
+   1 common misconception	~	JJ NN
+   1 common room	_	JJ NN
+   1 compact 's	_	NNP POS
+   5 compare to	_	VBN IN
+   1 compare to	~	VBN IN
+   1 compliment on	~	VBN IN
+   1 computer network	_	NN NN
+   1 computer person	_	NN NNS
+   1 concerned with	_	JJ IN
+   1 concrete fact	~	JJ NNS
+   1 consist of	_	VBZ IN
+   1 console pros	_	NNP NNPS
+   1 contact information	_	NN NN
+   1 convenience store	_	NN NN
+   1 cookie cutter	_	NN NN
+   1 cope with	~	VB IN
+   1 corking fee	_	NN NN
+   1 corona dryer	_	NNP NNS
+   1 corporate client	~	JJ NNS
+   1 cost effective	~	NN JJ
+   1 costumer service	_	NN NN
+   1 could n't be farther from the truth	~	MD RB VB RBR IN DT NN
+   1 could not recommend enough	_	MD RB VB RB
+   1 count on	_	VB IN
+   1 country girl	_	NN NN
+   1 couple with	_	VBN IN
+   1 couple with	~	VBN IN
+   1 cover up	_	VB RP
+   1 cowboy boot	_	NN NNS
+   1 crab rangoon	_	NN NN
+   1 craft wonderland	_	NN NN
+   1 cranmore dental and implant clinic	_	NNP NNP CC NNP NNP
+   1 crap hole	_	NN NN
+   3 credit card	_	NN NN
+   1 credit card minimum	_	NN NN NN
+   1 credit cards	_	NN NNS
+   1 credit score	_	NN NN
+   1 creekside apartments	_	NNP NNPS
+   1 criminal attorney	_	JJ NN
+   1 criminal defense attorney	_	JJ NN NN
+   2 criminal defense lawyer	_	JJ NN NN
+   1 cross check	_	VB VBZ
+   1 cross examine	_	VB VBD
+   1 crust on broad	_	NNP IN NNP
+   2 cuban coffee	_	JJ NN
+   1 cup of coffee	~	NN IN NN
+   1 cup of joe	_	NN IN NN
+   1 customer relations	_	NN NNS
+  31 customer service	_	NN NN
+   1 cut deal	_	VBD NNS
+   1 cut deal	_	VBG NNS
+   1 cut down	_	VBZ RP
+   1 cut hair	_	VBZ NN
+   1 cut nail	_	VBD NNS
+   1 cut short	_	VBP JJ
+   1 cycle city	_	NNP NNP
+   1 daily special	~	JJ NNS
+   1 damage to	~	NN IN
+   1 dance floor	_	NN NN
+   1 dave terrell	_	NNP NNP
+   1 david bundren	_	NNP NNP
+   1 days inn	_	NNPS NNP
+   1 dead battery	~	JJ NN
+   1 dead on	_	JJ JJ
+   1 deal in	_	VBG IN
+   7 deal with	_	VB IN
+   1 deal with	_	VBD IN
+   4 deal with	_	VBG IN
+   2 deal with	_	VBN IN
+   1 deal with	_	VBP IN
+   1 deal with	~	VB IN
+   1 deal with	~	VBG IN
+   1 deal with	~	VBP IN
+   1 deb watson	_	NNP NNP
+   1 decline in	_	NN IN
+   2 decor and you	_	NNP CC NNP
+   1 deep condition	_	RB VBD
+   2 deep tissue	_	JJ NN
+   1 deli sandwich	_	NN NNS
+   1 dental care	_	JJ NN
+   1 dental work	_	JJ NN
+   1 depend on	_	VBG IN
+   1 desperate for	_	JJ IN
+   1 despite the fact	_	IN DT NN
+   1 destiny allison	_	NNP NNP
+   1 detail job	~	NN NN
+   1 dfw metro area	_	NNP NN NN
+   1 different than	_	JJ IN
+   1 dine in	_	VB RB
+   2 dining room	_	NN NN
+   1 dining room table	~	NN NN NN
+   1 dinner plate	_	NN NNS
+   1 direction take	_	NN VB
+   1 disagree with	~	VBD IN
+   1 disappointed in	_	JJ IN
+   2 disappointed with	_	JJ IN
+   1 discuss the matter	~	VB DT NN
+   2 do a favor	_	VB DT NN
+   3 do a job	_	VB DT NN
+   6 do a job	_	VBD DT NN
+   1 do a job	~	VB DT NN
+   2 do a job	~	VBD DT NN
+   1 do an job	~	VBZ DT NN
+   1 do better	_	VB RBR
+   3 do business	_	VB NN
+   1 do business	~	VBD NN
+   1 do business with	_	VBG NN IN
+   1 do hair	_	VBZ NN
+   1 do insurance	~	VBG NN
+   1 do introduction	_	VBN NNS
+   1 do introduction	_	VBP NNS
+   1 do it	_	VBD PRP
+   1 do job	_	VB NN
+   1 do job	_	VBN NN
+   1 do job	_	VBP NN
+   1 do job	~	VB NN
+   4 do job	~	VBD NN
+   2 do job	~	VBN NN
+   1 do job	~	VBP NN
+   1 do job	~	VBZ NN
+   1 do n't be surprised	~	VB RB VB JJ
+   1 do n't even get me start	_	VBP RB RB VB PRP VBN
+   1 do n't even think about	~	VBP RB RB VB IN
+   1 do n't forget	~	VB RB VB
+   1 do n't forget	~	VBP RB VB
+   1 do n't get catch up in the hype	~	VB RB VB VBN RP IN DT NN
+   1 do n't give a darn	~	VBP RB VB DT NN
+   1 do n't judge a book by it cover	~	VB RB VB DT NN IN PRP$ NN
+   1 do n't let fool you	~	VB RB VB VB PRP
+   1 do nothing	~	VB NN
+   1 do one on us	~	VBD CD IN PRP
+   1 do paperwork	_	VBG NN
+   1 do re-wiring	_	VBG NN
+   2 do repair	~	VB NN
+   1 do research	_	VBG NN
+   1 do services	~	VBD NNS
+   1 do so	_	VBD RB
+   1 do surgery	_	VBD NN
+   1 do wonder for	_	VBN NNS IN
+   1 do work	_	VB NN
+   3 do work	_	VBD NN
+   1 do work	_	VBG NN
+   1 do work	_	VBP NN
+   1 do yourself a favor	_	VB PRP DT NN
+   1 doctor 's office	_	NN POS NN
+   1 doctor bogomilsky	_	NNP NNP
+   2 doctor gonzales	_	NNP NNP
+   2 doctor hank	_	NNP NNP
+   1 doctor stout	_	NNP NNP
+   1 dog fix	~	NN VBN
+   1 dogwood grill cheese	_	NN VBN NN
+   1 dos base	_	NNP VBN
+   1 double bed	_	JJ NNS
+   1 down fall	_	GW NN
+   1 down side	_	NN NN
+   1 down the road	_	IN DT NN
+   1 down to earth	_	RB IN NN
+   1 dr david nelson	_	NNP NNP NNP
+   1 dr greenwalt	_	NNP NNP
+   1 dr joseph	_	NNP NNP
+   1 dr mcdonald	_	NNP NNP
+   2 dr nelson	_	NNP NNP
+   2 dr. aster	_	NNP NNP
+   1 dr. chao	_	NNP NNP
+   1 dr. christopher t. strzalka	_	NNP NNP NNP NNP
+   1 dr. cooper	_	NNP NNP
+   1 dr. de barros	_	NNP NNP NNP
+   1 dr. deters	_	NNP NNP
+   1 dr. dorn	_	NNP NNP
+   1 dr. faris	_	NNP NNP
+   1 dr. ghassemlou	_	NNP NNP
+   2 dr. liau	_	NNP NNP
+   1 dr. lucy nichols	_	NNP NNP NNP
+   3 dr. mann	_	NNP NNP
+   1 dr. obina	_	NNP NNP
+   1 dr. olbina	_	NNP NNP
+   1 dr. rohatgi	_	NNP NNP
+   2 dr. romanick	_	NNP NNP
+   2 dr. ruona	_	NNP NNP
+   4 dr. shady	_	NNP NNP
+   1 dr. stiefvater	_	NNP NNP
+   1 dr. strzalka	_	NNP NNP
+   2 dr. taylor	_	NNP NNP
+   2 dr. wallen	_	NNP NNP
+   1 dr. white	_	NNP NNP
+   1 dress maker	_	NN NN
+   1 drive force	_	VBG NN
+   1 drive in	_	VBG RB
+   3 drop off	_	VBD RP
+   1 drop off	_	VBP RP
+   1 drop the issue	_	VBD DT NN
+   1 drs. ali	_	NNP NNP
+   1 drug seeker	~	NN NN
+   1 drug seeker	~	NN NNS
+   1 drving up	_	VBG RB
+   1 dry out	_	VBN RP
+   1 dry out	_	VBP RP
+  10 due to	_	IN IN
+   1 dumb friends league	_	NNP NNPS NNP
+   1 dupont circle	_	NNP NNP
+   1 e-commerce solution	~	NN NNS
+   1 each and every one of	_	DT CC DT CD IN
+   1 each other	_	DT JJ
+   2 eagle transmission	_	NNP NNP
+   1 early on	_	RB RB
+   1 east bay	_	NNP NNP
+   1 east coast	_	JJ NN
+   1 easy mark	~	JJ NN
+   1 easy to work with	~	JJ TO VB IN
+   1 eco friendly	_	AFX JJ
+   1 egg drop soup	_	NNP NNP NNP
+   1 egg roll	_	NN NNS
+   1 eggs benedict	_	NNS NN
+   2 el paradero	_	NNP NNP
+   1 electric outlet	_	JJ NN
+   1 elite flyers	_	NNP NNPS
+   2 emission test	_	NNS NN
+   1 enchilada sauce	_	NN NN
+   1 end up	_	VB RP
+   5 end up	_	VBD RP
+   1 end up	_	VBP RP
+   1 end up with	_	VBP RP IN
+   2 endo sushi	_	NNP NNP
+   1 energy burn	~	NN VB
+   1 energy saving	~	NN NN
+   1 enough say	_	JJ VBN
+   1 enrol in	~	VBD IN
+   1 enrol in	~	VBN IN
+   1 environmentally conscious	~	RB JJ
+   1 environmentally friendly	_	RB JJ
+   1 eternally grateful	~	RB JJ
+   1 eva marie	_	NNP NNP
+   1 even if	_	RB IN
+   1 even tho	_	RB IN
+   3 even though	_	RB IN
+   1 even up	_	VBN RP
+   1 ever again	_	RB RB
+   1 evergreen parkway	_	NNP NNP
+   1 every one	_	DT NN
+   2 every thing	_	DT NN
+   1 exceed expectation	~	VBZ NNS
+   1 except for	_	IN IN
+   1 excuse for	_	NN IN
+   1 exhaust motor	~	NN NN
+   1 experience have	_	NNS VBN
+   1 fabric book	_	NN NNS
+   1 face with	_	VBN IN
+   2 faith in	_	NN IN
+   1 fall for	_	VB IN
+   1 fall head over heel for	~	VBD NN IN NNS IN
+   1 fall in love	_	VB IN NN
+   1 fall in luv	~	VBN IN NN
+   1 fall into trap	~	VBN IN NN
+   1 fall off	~	VBG RB
+   1 fall under	_	VBZ IN
+   2 family bagels	_	NNP NNPS
+   1 family business	_	NN NN
+   1 family emergency	_	NN NN
+   1 family fun	_	NN NN
+   1 family oriented	~	NN JJ
+   1 family own	~	NN VBN
+   1 family own and operate	~	NN VBN CC VBN
+   1 family practice	_	NN NN
+   1 fancy flowers	_	NNP NNPS
+   1 far from	_	RB IN
+   2 farrell electric	_	NNP NNP
+   1 fashion accessory	_	NN NNS
+   1 fast and friendly	~	JJ CC JJ
+   3 fast food	_	JJ NN
+   1 federal sts.	_	NNP NNPS
+   1 feel about	~	VBP IN
+   1 feel good	_	VB JJ
+   1 feel like a number	_	VB IN DT NN
+   1 feel like a number	_	VBZ IN DT NN
+   1 feel like it	_	VBP IN PRP
+   1 feel need for	_	VBG NN IN
+   1 felt like	_	VBD IN
+   1 felt the need	_	VBN DT NN
+   1 fend for	_	VB IN
+   1 fidelity leasing	_	NNP NNP
+   2 figure out	_	VB RP
+   1 fill role	_	VBN NN
+   2 fill up	_	VB RP
+   1 fill up	_	VBD RP
+   1 fill with	_	VBN IN
+   1 fill with	~	VBN IN
+   1 filler vegetable	_	NN NNS
+   1 find a spot	~	VBD DT NN
+   1 find out	_	VB RP
+   2 find out	_	VBD RP
+   1 finger lick	_	NN VBG
+   1 finish job	~	VBD NN
+   1 fire alarm	_	NN NN
+   1 fire drill	_	NN NN
+   1 first - time	_	JJ HYPH NN
+   2 first class	_	JJ NN
+   1 first glass window	_	NNP NNP NNP
+   1 first of all	_	RB IN DT
+   1 first of all	_	RB IN PDT
+   1 first run	_	JJ NN
+   1 first time	_	JJ NN
+   1 fitness 500	_	NNP NNP
+   1 fitness center	_	NN NN
+   2 fitness unlimited	_	NNP NNP
+   1 five - star	_	CD HYPH NN
+   1 five star	_	CD NNS
+   1 fix - up	_	VBN HYPH RP
+   1 fix flats	~	VBG NNS
+   1 fix hair	~	VBD NN
+   1 fix problem	_	VB NN
+   1 flagship cvts	_	NNP NNP
+   1 flat - screen tv	_	JJ HYPH NN NN
+   1 flea market	_	NN NN
+   1 flying squirrels	_	NNP NNPS
+   2 foie gras	_	NN NN
+   1 follow - up	_	NN HYPH NN
+   1 follow - up	_	VB HYPH RP
+   1 follow rule	~	VBD NNS
+   1 followup visit	~	NN NN
+   1 for age	_	IN NN
+   1 for all need	~	IN PDT NNS
+   1 for chrisssake	_	IN NN
+   2 for example	_	IN NN
+   1 for free	_	IN JJ
+   1 for free	~	IN JJ
+   1 for get that	_	GW VB DT
+   1 for instance	_	IN NN
+   1 for nothing	~	IN NN
+   3 for some reason	~	IN DT NN
+   3 for sure	_	IN JJ
+   1 for the most part	_	IN DT JJS NN
+   1 for the sake of	_	IN DT NN IN
+   1 fort lee	_	NNP NNP
+   1 fort smith	_	NNP NNP
+   1 fort worth	_	NNP NNP
+   1 fountain dental practice	_	NNP NNP NNP
+   2 fraiser 's	_	NNP POS
+   1 fran pcs	_	NNP NNPS
+   1 frank mcclelland	_	NNP NNP
+   1 franklin high school	_	NNP NNP NNP
+   1 french fries	_	JJ NNS
+   1 french tip	_	JJ NNS
+   1 fresh design studio	_	NNP NNP NNP
+   1 from begiinning	_	IN NN
+   2 from hell	_	IN NNP
+   1 from standpoint	_	IN NN
+   1 from start to finish	_	IN NN IN NN
+   2 from start to finish	~	IN NN IN NN
+   6 front desk	_	JJ NN
+   1 front desk	_	NN NN
+   1 front door	_	JJ NN
+   1 front staff	_	NN NN
+   1 fry egg	_	VBN NN
+   1 fry plantain	_	VBN NNS
+   1 fry rice	_	VBN NN
+   1 fuel economy	_	NN NN
+   1 fuji sushi	_	NNP NNP
+   1 full - time	_	JJ HYPH NN
+   2 full price	_	JJ NN
+   1 fun and game	_	NN CC NNS
+   1 g 1	_	NN CD
+   1 gain entry	_	VB NN
+   1 galleries lafayette	_	NNPS NNP
+   3 garage door	_	NN NN
+   1 garage door	_	NN NNS
+   1 garage pros	_	NNP NNPS
+   1 garbage bag	_	NN NNS
+   1 gare du nord	_	NNP NNP NNP
+   1 garment district	_	NNP NNP
+   1 gas mileage	_	NN NN
+   1 gear box	_	NN NN
+   1 gem of a	~	NN IN DT
+   1 geno 's	_	NNP POS
+   1 german bedding	_	JJ NN
+   1 get a flat	_	VBP DT NN
+   1 get act together	_	VBP NN JJ
+   1 get along with	_	VB RB IN
+   1 get answer	_	VBD NN
+   1 get appointment	_	VB NN
+   1 get away	_	VB RB
+   1 get away with	_	VB RB IN
+   1 get bill	~	VBD NN
+   1 get business	_	VBG NN
+   1 get busy	_	VBZ JJ
+   1 get by	_	VB RB
+   1 get call	_	VBD NN
+   1 get catch up in	_	VB VBN RP IN
+   1 get chance	_	VB NN
+   1 get confuse	~	VBD VBN
+   1 get confused	_	VBD JJ
+   1 get correct	_	VB JJ
+   1 get discount	_	VB NNS
+   4 get do	_	VB VBN
+   1 get do	_	VBD VBN
+   2 get do	_	VBP VBN
+   1 get do	~	VB VBN
+   1 get fail	_	VB VBN
+   2 get healthy	_	VB JJ
+   1 get home	_	VBP RB
+   1 get in	_	VBD IN
+   1 get in car accident	_	VBD IN NN NN
+   1 get in the door	_	VB IN DT NN
+   1 get in touch with	_	VB IN NN IN
+   1 get in touch with	~	VB IN NN IN
+   1 get infection	_	VBD NNS
+   1 get into	_	VB IN
+   1 get into	_	VBG IN
+   1 get into an accident	_	VBP IN DT NN
+   2 get it	_	VB PRP
+   1 get mad at	_	VBP JJ IN
+   1 get nail do	_	VB NNS VBN
+   1 get nail fill	_	VB NNS VBN
+   1 get off	_	VBP RB
+   1 get older	_	VBG JJR
+   1 get on the phone	_	VB IN DT NN
+   1 get on the phone	~	VB IN DT NN
+   1 get out	_	VBG RB
+   1 get over	_	VB IN
+   1 get over it	~	VB IN PRP
+   1 get pay	_	VBG VBN
+   1 get picture	_	VBD NNS
+   1 get replace	_	VB VBN
+   1 get result	_	VB NNS
+   1 get result	_	VBN NNS
+   1 get service	~	VBP NN
+   1 get suck into	_	VB VBN IN
+   1 get ta	_	VBN TO
+   1 get take in	~	VB VBN RB
+   1 get tattoo	~	VB NN
+   1 get the hell	_	VB DT NN
+   1 get the hell out of	~	VB DT NN IN IN
+   1 get the job done	_	VBZ DT NN JJ
+   1 get through	_	VBN IN
+   3 get to	_	VBD IN
+   1 get to	_	VBN TO
+   1 get to	~	VBD IN
+   1 get to know	~	VBP TO VB
+   1 get to talk	~	VBD IN VBG
+   1 get to work	_	VB IN NN
+   1 get treatment	_	VBG NNS
+   1 get unlock	_	VB VBN
+   1 get up	_	VB RP
+   1 get upgrade to	_	VBD VBN IN
+   1 get used to	_	VBG JJ IN
+   1 get work	_	VB VBG
+   1 get worse	~	VBG JJR
+   1 gift card	_	NN NN
+   2 gift certificate	_	NN NN
+   1 giovanni ristorante	_	NNP NNP
+   1 girl night	_	NNS NN
+   2 give a call	_	VB DT NN
+   1 give a chance	_	VB DT NN
+   1 give a crap	_	VBP DT NN
+   1 give a crap about	~	VBP DT NN IN
+   1 give a darn	_	VB DT NN
+   1 give a phone call	~	VBN DT NN NN
+   3 give a try	_	VB DT NN
+   1 give alternative	_	VBN NN
+   1 give and take	_	NN CC NN
+   2 give chance	_	VB NN
+   1 give chance	_	VBN NN
+   1 give chance	_	VBP NN
+   1 give deal	_	VBD NN
+   1 give description	_	VBZ NNS
+   1 give discount	~	VB NN
+   1 give explanation	_	VBN NN
+   1 give feeling	_	VBD NN
+   1 give heebee gee bee	~	VBZ NN NN NNS
+   1 give instructions	_	VBG NNS
+   1 give it shot	_	VB PRP NN
+   1 give liberty	_	VBN NN
+   1 give massage	_	VB NN
+   1 give opinion	_	VBG NNS
+   1 give price	~	VBD NN
+   1 give quote	_	VB NN
+   1 give quote	_	VBD NN
+   1 give ride	_	VBD NN
+   1 give second chance	~	VB JJ NN
+   1 give ten star	~	VB CD NNS
+   1 give test	_	VBD NNS
+   1 give the gift of	~	VB DT NN IN
+   1 give the go ahead	_	VBD DT NN NN
+   1 give the opportunity	_	VBN DT NN
+   1 give the run around	_	VBD DT NN NN
+   1 give tip	_	VBD NN
+   1 give tip	_	VBD NNS
+   1 give try	~	VBN NNS
+   1 give up	_	VB RP
+   4 give up	_	VBD RP
+   1 glitch in system	~	NN IN NNS
+   2 go - to	_	VB HYPH IN
+   2 go above and beyond	_	VBD RB CC RB
+   1 go above and beyond	_	VBP RB CC RB
+   1 go ahead	_	VB RB
+   1 go ahead and	~	VB RB CC
+   1 go along	_	VBD RB
+   1 go back	_	VB RB
+   1 go back	_	VBG RB
+   1 go cry	_	VB VB
+   1 go down	_	VB RB
+   1 go down hill	_	VBN GW RB
+   1 go downhill	_	VBN RB
+   1 go for it	_	VB IN PRP
+   1 go forward	_	VBG RB
+   3 go in	_	VBD RB
+   1 go in	~	VBD RB
+   1 go in	~	VBP RB
+   1 go off	_	VBN RP
+   1 go on	_	VBD RB
+   2 go on	_	VBG RP
+   1 go on a trip	_	VBD IN DT NN
+   1 go on and on	_	VB RB CC RB
+   1 go out	_	VBD RB
+   2 go out	_	VBD RP
+   1 go out	_	VBZ RP
+   1 go out of business	_	VB IN IN NN
+   2 go out of way	_	VBD IN IN NN
+   1 go out the door	_	VBZ IN DT NN
+   2 go over	_	VB IN
+   1 go ski	_	VB VBG
+   1 go so far as to say	_	VBD RB RB IN TO VB
+   1 go the extra mile	_	VB DT JJ NN
+   1 go the extra mile	_	VBD DT JJ NN
+   1 go through	_	VB IN
+   1 go through	_	VBD IN
+   2 go through	_	VBG IN
+   1 go through	_	VBN IN
+   1 go through	_	VBZ IN
+   1 go thru	_	VB IN
+  25 go to	_	VBG TO
+   1 go to	~	VB IN
+   1 go to	~	VBD IN
+   2 go to	~	VBG IN
+   1 go to heck	_	VB IN NN
+   1 go to school	_	VB IN NN
+   1 go to school	_	VBP IN NN
+   1 go to school	~	VBG IN NN
+   1 go to the bathroom	~	VBP IN DT NN
+   1 go to work	_	VBD TO VB
+   1 go with	_	VB IN
+   1 go with	_	VBD IN
+   1 go wrong	_	VBD JJ
+   1 god forbid	_	NNP VB
+   1 gold award	_	NN NN
+   1 gold coast	_	NNP NNP
+   2 gon na	_	VBG TO
+   1 good and bad	_	JJ CC JJ
+   1 good fun	~	JJ NN
+   1 good job	_	JJ NN
+   1 good luck	_	JJ NN
+   1 good name	~	JJ NN
+   1 good night s sleep	_	JJ NN POS NN
+   1 good night s sleep get	~	JJ NN POS NN VB
+   1 good or bad	~	JJ CC JJ
+   1 good work	~	JJ NN
+   1 google maps	_	NNP NNPS
+   1 grammar structure	_	NN NN
+   1 grandma slice	_	NN NN
+   2 graphic design	_	JJ NN
+   1 great deal of	_	JJ NN IN
+   1 great ear	_	JJ NN
+   1 great guy	~	JJ NN
+   1 great job	~	JJ NN
+   1 green bay	_	NNP NNP
+   1 green buffet	_	NNP NNP
+   1 green curry	_	JJ NN
+   1 greenfield ave	_	NNP NNP
+   1 grizzly 700	_	NNP NNP
+   1 grocery shop	_	NN NN
+   1 grocery store	_	NN NN
+   1 grocery store	_	NN NNS
+   1 grow out	_	VBG RB
+   1 grow up	_	VB RP
+   2 grow up	_	VBD RP
+   1 gulf coast siding	_	NNP NNP NNP
+   1 gustavo guerra	_	NNP NNP
+   1 hair by nivine	_	NNP IN NNP
+   1 hair cut	_	NN VBN
+   1 hair cut	~	NN VBN
+   1 hair loss	_	NN NN
+   1 hair style	_	NN NN
+   1 hair style	~	NN NN
+   1 half truth	_	JJ NNS
+   1 ham 's	_	NNP POS
+   2 ham s	_	NNP POS
+   1 hands - down	_	NNS HYPH RB
+   3 hands down	_	NNS RB
+   1 hands on	_	NNS RB
+   1 hang out	_	VB RP
+   1 hang up	_	VBD RP
+   1 hang up on	_	VBD RP IN
+   1 happen in	_	VBD RB
+   1 happen on to	_	VBD IN IN
+   1 happen to	_	VB TO
+   1 happen to	_	VBZ TO
+   1 happy new year	_	JJ JJ NN
+   1 happy with	_	JJ IN
+   1 happy with	_	JJR IN
+   1 happy with	~	JJ IN
+   1 hard drive	_	JJ NN
+   1 hard times	_	JJ NNS
+   2 hard work	_	JJ NN
+   1 hard work	~	RB VBG
+   1 haul off	_	VBN RP
+   1 have a bite	_	VBP DT NN
+   1 have a clue	_	VBZ DT NN
+   1 have a pedicure	_	VBD DT NN
+   2 have a problem	_	VBD DT NN
+   2 have a time	_	VBD DT NN
+   1 have a time	_	VBG DT NN
+   1 have a way with	_	VBZ DT NN IN
+   1 have an gift for	_	VBZ DT NN IN
+   1 have blowout	_	VBD NN
+   1 have check	~	VB VB
+   1 have come a long way	~	VBZ VBN DT JJ NN
+   1 have complaint	_	VBP NNS
+   1 have cut	_	VBN NNS
+   1 have do	_	VB VBN
+   2 have do	_	VBD VBN
+   1 have doubt	_	VBP NN
+   1 have doubt	_	VBP NNS
+   2 have experience	_	VB NN
+   1 have experience	_	VBD NN
+   1 have experience	_	VBG NNS
+   1 have experience	_	VBN NN
+   1 have experience	_	VBN NNS
+   2 have experience	_	VBP NN
+   1 have experience w	_	VB NN IN
+   1 have fun	_	VB NN
+   1 have fun	_	VBG NN
+   1 have hair cut	_	VB NN VBN
+   1 have in mind	_	VBD IN NN
+   1 have issue	_	VBP NNS
+   1 have issue	_	VBZ NNS
+   1 have issue with	_	VBN NN IN
+   1 have it	_	VBD PRP
+   1 have need for	_	VB NN IN
+   1 have on	_	VBD RB
+   1 have option	_	VB NNS
+   1 have pedicure	_	VBD NN
+   1 have pedicure	_	VBN NNS
+   1 have plan	_	VBZ VBN
+   1 have problem	_	VBD NN
+   1 have problem	_	VBD NNS
+   1 have problem	_	VBG NN
+   2 have problem	_	VBN NN
+   1 have problem with	_	VBD NN IN
+   1 have problem with	_	VBN NNS IN
+   1 have problem with	_	VBP NNS IN
+   1 have replace	_	VBD VB
+   1 have sense of	~	VBP NN IN
+   1 have something to hide	~	VBP NN TO VB
+   1 have spay	_	VBD VBN
+   1 have surgery	_	VBD NN
+   1 have the audacity	_	VBD DT NN
+   1 have the pleasure	_	VB DT NN
+   1 have time	_	VBD NN
+   1 have time	~	VB NN
+  16 have to	_	VB TO
+  31 have to	_	VBD TO
+   5 have to	_	VBG TO
+   2 have to	_	VBN TO
+  26 have to	_	VBP TO
+   2 have to	_	VBZ TO
+   1 have to do with	_	VBD TO VB IN
+   2 have to offer	_	VBZ TO VB
+   1 have to offer	~	VBP TO VB
+   1 have to offer	~	VBZ TO VB
+   1 have to say	_	VBD TO VB
+   2 have to say	_	VBP TO VB
+   3 have to say	~	VBP TO VB
+   1 have to say	~	VBZ TO VB
+   1 have warning	~	VBD NN
+   1 have work do	~	VBP NN VBN
+   1 have yet to	_	VBP RB TO
+   1 head over heel	_	NN IN NNS
+   2 health care proxy	_	NNP NNP NNP
+   1 health inspector	_	NN NN
+   1 healthy dose	_	JJ NN
+   1 heart pound	~	NN VBD
+   1 heaven on earthhhhhhh	~	NN IN NNP
+   1 heebee gee bee	_	NN NN NNS
+   1 hellada gallery	_	NNP NNP
+   3 help out	_	VB RP
+   1 help through	_	VBN IN
+   1 help with	~	VB IN
+   1 here 's the scoop	_	RB VBZ DT NN
+   2 hickory furniture mart	_	NNP NNP NNP
+   3 hidden gem	~	JJ NN
+   1 high - end	_	JJ HYPH NN
+   1 high - rise	_	JJ HYPH NN
+   1 high class	_	JJ NN
+   1 high class	~	JJ NN
+   1 high dollar	_	JJ NN
+   3 high end	_	JJ NN
+   1 high hope	_	JJ NNS
+   1 high quality	~	JJ NN
+   3 high school	_	JJ NN
+   1 high tech	_	JJ NN
+   1 highly recomended	~	RB VBN
+  14 highly recommend	~	RB VB
+   2 highly recommend	~	RB VBD
+  10 highly recommend	~	RB VBN
+  18 highly recommend	~	RB VBP
+   1 highly recommend to	~	RB VBP IN
+   2 highly recommended	~	RB JJ
+   1 hit and miss	_	NN CC NN
+   1 hit or miss	_	NN CC NN
+   1 hit the ground	_	VBD DT NN
+   1 hit the nail on the head	_	VBD DT NN IN DT NN
+   1 hit up	_	VBG RP
+   1 hoa salon	_	NNP NNP
+   1 hobby lobby	_	NNP NNP
+   1 hold up	_	VB RP
+   1 holderness road	_	NNP NNP
+   1 hole in the wall	_	NN IN DT NN
+   1 holiday dinner	_	NN NN
+   1 holy cow	_	JJ NN
+   1 hom - excel	_	NNP HYPH NNP
+   1 home - cook	_	NN HYPH VBN
+   1 home - excel	_	NNP HYPH NNP
+   3 home delivery service	_	NNP NNP NNP
+   2 home inspector	_	NN NN
+   2 home make	_	NN VBN
+   1 home renovation	~	NN NN
+   2 home team	_	NN NN
+   1 honest wrok	_	JJ NN
+   1 honka log homes	_	NNP NNP NNPS
+   1 hop city	_	NNP NNP
+   1 hop hing	_	NNP NNP
+   1 hormel 's chili	_	NNP POS NN
+   1 horror story	~	NN NNS
+   1 hostess stand	_	NN NN
+   1 hot iron	_	NNP NNP
+   1 hot topic	_	NNP NNP
+   1 hot towel	~	JJ NN
+   1 house of joy	_	NN IN NNP
+   1 house of joy chinese restaurant	_	NN IN NNP NNP NNP
+   1 household appliance	~	NN NNS
+   1 how to	_	WRB TO
+   1 hr office	_	NNP NNP
+   1 hurry up	_	VB RP
+   1 husband and wife	~	NN CC NN
+   1 hustle and bustle	_	NN CC NN
+   1 i - 24	_	NNP HYPH NNP
+   1 i be raise on this	~	PRP VBD VBN IN DT
+   1 i ca nt speak for	_	PRP MD RB VB IN
+   1 i figure	_	PRP VBP
+   1 i hate to say	_	PRP VBP TO VB
+   1 i might add	_	PRP MD VB
+   1 i might add	~	PRP MD VB
+   1 i move ca - los angeles movers	_	PRP VBP NNP HYPH NNP NNP NNPS
+   1 ice cold	~	JJ JJ
+   1 ice cream	_	NN NN
+   1 ice machine	_	NN NN
+   1 identity theft	_	NN NN
+   1 if ever	_	IN RB
+   1 if that	~	IN DT
+   1 in & out	~	RB CC RB
+   1 in a matter of	_	IN DT NN IN
+   1 in addition	_	IN NN
+   1 in addition to	_	IN NN IN
+   1 in and around	~	IN CC RB
+   1 in and out	_	NNP CC NNP
+   2 in between	_	IN IN
+   3 in business	_	IN NN
+   2 in case	~	IN NNS
+   1 in deed	_	GW RB
+   1 in detail	_	IN NN
+   1 in essence	_	IN NN
+   1 in every way	_	IN DT NN
+   1 in experience	_	IN NN
+   8 in fact	_	IN NN
+   4 in front of	_	IN NN IN
+   2 in general	_	IN JJ
+   1 in hope to	_	IN NNS TO
+   1 in hurry	_	IN NN
+   1 in itself	_	IN PRP
+   1 in large part	_	IN JJ NN
+   1 in large part to	~	IN JJ NN IN
+   1 in life	~	IN NN
+   1 in limbo	_	IN NN
+   1 in line	_	IN NN
+   1 in love	_	IN NN
+   1 in love with	~	IN NN IN
+   1 in my opinion	_	IN PRP$ NN
+   1 in my opinon	_	IN PRP$ NN
+   1 in need	_	IN NN
+   1 in need of	_	IN NN IN
+   1 in no time	_	IN DT NN
+   1 in no time	~	IN DT NN
+   2 in opinion	_	IN NN
+   1 in other words	_	IN JJ NNS
+   1 in pain	_	IN NN
+   1 in particlular	_	IN JJ
+   2 in person	_	IN NN
+   1 in search of	_	IN NN IN
+   1 in spite of	_	IN NN IN
+   4 in stock	_	IN NN
+   1 in terms of	_	IN NNS IN
+   1 in that	_	IN DT
+   1 in the best interest	_	IN DT JJS NNS
+   1 in the end	_	IN DT NN
+   1 in the light	_	IN DT NN
+   1 in the mean time	_	IN DT GW NN
+   1 in the middle of	_	IN DT NN IN
+   1 in the midst of	_	IN DT NN IN
+   1 in the process of	~	IN DT NN IN
+   1 in the words of	~	IN DT NNS IN
+   1 in the world	_	IN DT NN
+   2 in the world	~	IN DT NN
+   1 in this day	_	IN DT NN
+   1 in this day and age	_	IN DT NN CC NN
+   1 in time	_	IN NN
+   2 in time of need	_	IN NN IN NN
+   1 in today 's world	~	IN NN POS NN
+   1 in touch	_	IN NN
+   8 in town	_	IN NN
+   1 in traffic	_	IN NN
+   1 increase in	~	NN IN
+   1 india heritage tours	_	NNP NN NNS
+   1 inford media	_	NNP NNP
+   1 infra structure	_	AFX NN
+   2 ingrown toenail	_	JJ NN
+   1 inspection sticker	~	NN NN
+   5 instead of	_	RB IN
+   4 interested in	_	JJ IN
+   1 interested in	~	JJ IN
+   1 interior mall	_	NNP NNP
+   1 interview for	~	NNS IN
+   1 introduce to	~	VB IN
+   1 introduce to	~	VBN IN
+   1 invest vanguard	_	VBD NNP
+   1 involve in	_	VBN IN
+   1 jack -s	_	NNP POS
+   1 jamaica way	_	NNP NNP
+   1 james bateman	_	NNP NNP
+   1 james bond	_	NNP NNP
+   2 jana kueck	_	NNP NNP
+   1 japaneiro 's	_	NNP POS
+   1 jaw drop	_	NN VBD
+   1 jazz club	_	NN NN
+   1 jazz club	_	NNP NNP
+   1 jiffy lube	_	NNP NNP
+   1 jim smith	_	NNP NNP
+   1 jimmy rig	_	NN VBD
+   2 jiu - jitsu	_	NN HYPH NN
+   1 job do	_	NN VBN
+   2 job do	~	NN VBD
+   1 job well do	~	NN RB VBN
+   1 judge by	~	VBG IN
+   1 judge of	~	NN IN
+   1 jump - start	_	NN HYPH VB
+   1 juno and open	_	NNP CC NNP
+   1 just about	_	RB IN
+   2 just about	_	RB RB
+   3 just autos	_	NNP NNPS
+   1 just for fun fabrics	_	RB IN NNP NNPS
+   1 just like	~	RB IN
+   1 just like family	_	NNP NNP NNP
+   1 just miss	~	RB VBD
+   1 kal tire	_	NNP NNP
+   1 kansas city	_	NNP NNP
+   1 karla ferguson - granger	_	NNP NNP HYPH NNP
+   1 karol bagh	_	NNP NNP
+   1 kc chiefs	_	NNP NNPS
+   1 keep come	_	VB VBG
+   1 keep from	_	VB IN
+   1 keep in mind	_	VB IN NN
+   1 keep it up	_	VB PRP RP
+   1 keep maintain	_	VB VBN
+   1 keep run	_	VBD VBG
+   1 keep safe	_	VBG JJ
+   1 keep sake	_	NN NN
+   1 keep say	~	VBD VBG
+   1 keep your eyes open	_	VB PRP$ NNS JJ
+   1 kelvin trimmers	_	NNP NNPS
+   1 key performance indicator	_	JJ NN NNS
+   1 kick back	_	VB RB
+   1 kid meal	_	NN NN
+   1 kid s meal	_	NN POS NNS
+   1 kids first west chester	_	NNPS RB NNP NNP
+   1 kind of	_	RB RB
+   1 kingston upon hull	_	NNP IN NNP
+   1 kiss *ss	~	VB NN
+   2 kitchen aid	_	NNP NNP
+   1 knights inn	_	NNPS NNP
+   1 know better	_	VB RBR
+   1 know for	_	VBN IN
+   1 know job	_	VBP NN
+   2 know stuff	_	VBP NN
+   1 know stuff	_	VBZ NN
+   1 know what 're get into	~	VB WP VBP VBG IN
+   1 know what do	_	VBP WP VBG
+   1 know what they 're do	_	VB WP PRP VBP VBG
+   1 kobey s	_	NNP POS
+   1 kumon parents	_	NNP NNPS
+   1 kung pao chicken	_	NN NN NN
+   1 kusal goonewardena	_	NNP NNP
+   1 kwik kar	_	NNP NNP
+   1 la crosse	_	NNP NNP
+   1 la hacienda	_	NNP NNP
+   2 la jolla	_	NNP NNP
+   1 lab coat	_	JJ NNS
+   2 lace up	_	VB RP
+   1 lack - luster	_	JJ HYPH JJ
+   1 lack of	~	NN IN
+   1 lady room	_	NNS NN
+   1 laid - back	_	JJ HYPH JJ
+   3 lake forest tots	_	NNP NNP NNPS
+   1 lake st. louis	_	NNP NNP NNP
+   1 landscape by hiro	_	NNP IN NNP
+   5 last minute	_	JJ NN
+   1 last name	_	JJ NN
+   1 law offices of armando villega	_	NNP NNPS IN NNP NNP
+   1 lawrence , ks	~	NNP , NNP
+   1 le petit	_	NNP NNP
+   1 lead the way	_	VBD DT NN
+   1 lead to believe	_	VBD TO VB
+   1 learn about	~	VBG IN
+   1 leave a lot to be desire	_	VBD DT NN TO VB VBN
+   1 leave a lot to be desire	~	VBZ DT NN TO VB VBN
+   1 leave behind	~	VBD RB
+   1 leave comment	_	VBD NN
+   1 leave it at that	_	VB PRP IN DT
+   1 leave no stone unturned	_	VBG DT NN JJ
+   1 leave number	_	VBD NN
+   1 leave to be desire	_	VBZ TO VB VBN
+   1 leon 's	_	NNP POS
+   7 less than	_	JJR IN
+   1 let alone	_	RB RB
+   2 let alone	_	VB RB
+   1 let down	_	VBD RP
+   1 let down	_	VBZ RP
+   5 let know	_	VB VB
+   1 let know	_	VBG VB
+   1 lewiston , ny	~	NNP , NNP
+   1 liberty construction	_	NNP NNP
+   1 lie right to face	~	VBD RB IN NN
+   1 life coach	_	NN NN
+   1 life threaten	~	NN VBG
+   1 lightning fast	_	NN JJ
+   1 like a human being	_	IN DT JJ NN
+   1 like it	_	VBP PRP
+   1 like say	_	IN VBD
+   1 line dancing	_	NN NN
+   2 line up	_	NN NN
+   1 line up	_	VBP RP
+   1 liquor license	~	NN NN
+   3 listen to	~	VB IN
+   3 listen to	~	VBD IN
+   1 listen to	~	VBN IN
+   1 little do know	_	RB VBD VB
+   1 little farmer	_	NNP NNP
+   1 little kid	~	JJ NNS
+   1 live through	_	VB IN
+   1 live up to	_	VBP RP IN
+   1 live up to name	~	VBP RP IN NN
+   1 living room	_	NN NN
+   1 lo and behold	_	UH CC UH
+   1 lo mein	_	NN NN
+   1 local authorities	~	JJ NNS
+   1 local business	_	JJ NN
+   1 locally own	_	RB VBN
+   1 locker room	_	NN NN
+   1 locker rooms	_	NN NNS
+   1 locust street	_	NNP NNP
+   1 lodge complaint	_	VB NN
+   1 logan circle	_	NNP NNP
+   1 london aquarium	_	NNP NNP
+   1 long beach	_	NNP NNP
+   1 long day	~	JJ NN
+   1 long gone	_	RB JJ
+   1 long time	~	JJ NN
+   1 look at	~	VB IN
+   1 look at	~	VBD IN
+   1 look at	~	VBG IN
+   1 look at	~	VBP IN
+   1 look for	_	VBG IN
+   1 look for	~	VB IN
+  12 look for	~	VBG IN
+   1 look forward to	_	VB RB IN
+   1 look forward to	_	VBP RB IN
+   1 look forward to	_	VBZ RB IN
+   1 look know further	_	VB RB RBR
+   1 look like	_	VBZ IN
+   1 look to	_	VBG TO
+   2 look to	~	VBG TO
+   1 look up	_	VBG RP
+   1 lots more	~	NNS JJR
+   1 love stout	_	NNP NNP
+   1 love to death	~	VBP IN NN
+   2 lovely nails	_	NNP NNP
+   1 ltake for	_	VB IN
+   1 lucky panda	_	NNP NNP
+   1 luv always	_	NN RB
+   1 luv show	_	NN VBD
+   1 mac and cheese	_	NN CC NN
+   1 mackinaw tourist	_	NNP NNP
+   1 magic act	_	NN NN
+   1 main feature	_	JJ NN
+   2 main room	_	JJ NN
+   1 make a buck	_	VBG DT NN
+   1 make a mistake	_	VBN DT NN
+   1 make a point	_	VBD DT NN
+   1 make a point of	~	VBD DT NN IN
+   1 make appointment	_	VB NN
+   1 make appointment	~	VBD NN
+   1 make cash	_	VB NN
+   1 make complaint	_	VB NN
+   1 make decision	_	VBD NN
+   1 make due	_	VB VB
+   1 make feel	_	VB VBP
+   1 make for	_	VBD IN
+   1 make friend	_	VBD NNS
+   1 make good	_	VBN JJ
+   2 make it	_	VB PRP
+   1 make it back	~	VB PRP RB
+   2 make mistake	_	VBD NN
+   1 make money	_	VBP NN
+   1 make order	_	VB NN
+   1 make order	_	VBD NN
+   1 make recommendation for	_	VBD NN IN
+   1 make repair	_	VB NN
+   1 make sale	_	VB NN
+   7 make sure	_	VB JJ
+   1 make sure	_	VBZ JJ
+   1 make the	_	VB DT
+   1 make the drive	_	VB DT NN
+   1 make time	_	VBD NN
+   1 make trip	_	VBP NN
+   1 make up	_	VB RP
+   2 make up	_	VBP RP
+   2 make up for	_	VB RP IN
+   1 malcolm smith motorsports	_	NNP NNP NNPS
+   1 male pattern baldness	_	JJ NN NN
+   2 mama mia 's	_	NNP NNP POS
+   1 man of word	_	NN IN NN
+   1 mani pedi	_	NN NN
+   1 many thanks	_	JJ NNS
+   2 many thanks	~	JJ NNS
+   1 marek dzida	_	NNP NNP
+   1 mark up	_	NN NN
+   1 mark up	_	VB RP
+   1 mass - market	_	JJ HYPH NN
+   1 massage therapist	_	NN NN
+   1 massage therapist	~	NN NN
+   1 master key	_	NN VBG
+   2 max 's	_	NNP POS
+   2 medical care	_	JJ NN
+   1 medical school	_	JJ NN
+   1 mediocre at best	~	JJ RB RBS
+   1 medium duty	_	NN NN
+   1 meet need	~	VB NNS
+   1 meet with	_	VB IN
+   1 member card	_	NN NN
+   1 men s and boy barber	_	NNS POS CC NNS NNS
+   3 mental health	_	JJ NN
+   1 mess up	_	VBD RP
+   1 mess up	_	VBN RP
+   4 mezza luna	_	NN NN
+   1 mezza luna	_	NN NNS
+   1 mfj inc	_	NNP NNP
+   1 mi pueblo	_	NNP NNP
+   1 michael chestney	_	NNP NNP
+   1 michelin star	_	NNP NN
+   1 middle - eastern	_	JJ HYPH JJ
+   1 middle aged	_	JJ JJ
+   1 middle school	_	NN NN
+   1 midtown reston	_	NNP NNP
+   1 might as well	_	MD RB RB
+   1 military road	_	NNP NNP
+   1 mind - blowing	_	NN HYPH JJ
+   2 mind blow	_	NN VBG
+   1 mingle with	_	VB IN
+   1 mini cooper	_	NNP NNP
+   1 miss informed	_	AFX JJ
+   1 mix bag	_	VBN NN
+   1 mix up	_	VBN RP
+   1 mixed bag	_	JJ NN
+   1 mobile mechanics	_	JJ NNS
+   1 mobile number	_	JJ NN
+   1 modell 's	_	NNP POS
+   1 mom / pop	_	NNP HYPH NNP
+   1 money back	_	NN RB
+   1 money hungry	_	NN JJ
+   3 month old	_	NN JJ
+   1 month old	_	NN NNS
+   1 moo shu	_	NN NN
+   3 more like	_	RBR IN
+   1 more often than not	_	RBR RB IN RB
+   4 more than	_	JJR IN
+   1 more than could bear	~	JJR IN MD VB
+   1 morelias enchilada	_	NN NNS
+   1 morningside road	_	NNP NNP
+   1 morse red line	~	NNP NNP NNP
+   1 most of all	_	RBS IN DT
+   1 mother plucker	_	NNP NNP
+   1 mouth water	_	NN VBG
+   1 move in	_	VBD RB
+   1 move in	~	VBD RB
+   1 move out	_	VBD RP
+   1 move out	_	VBG RB
+   1 mr. guerra	_	NNP NNP
+   1 mr. pozza	_	NNP NNP
+   1 mr. squeege	_	NNP NNP
+   1 mr. villega	_	NNP NNP
+   1 mrs closs	_	NNP NNP
+   1 mrs. lynda mcmanus	_	NNP NNP NNP
+   1 mrs. tolchin	_	NNP NNP
+   1 ms. sue	_	NNP NNP
+   1 must be do something right	~	MD VB VBG NN RB
+   1 must read	~	MD VB
+   1 my self	_	GW PRP
+   1 n't budge	_	RB VB
+   1 nail drill	_	NN NN
+   1 nail it	_	VBD PRP
+   1 nail polish	_	NN NN
+   1 national home furnishings	_	NNP NNP NNP
+   1 ncaa final 4	_	NNP JJ CD
+   1 need help	~	VBG NN
+   1 neptune platter	_	NNP NN
+   1 never again	~	RB RB
+   2 never mind	_	RB VB
+   1 new born	_	JJ JJ
+   1 new china	_	NNP NNP
+   3 new jersey	_	NNP NNP
+   1 new lease on life	_	JJ NN IN NN
+   1 new providence	_	NNP NNP
+   1 new year s eve	_	NNP NNP POS NNP
+   3 new york	_	NNP NNP
+   1 new york pizza	_	NNP NNP NN
+   1 new york style pizza	_	NNP NNP NN NN
+   1 new yorkedness	_	NN NN
+   1 new yorker	_	NNP NNP
+   1 next - door neighbor	_	JJ HYPH NN NN
+   2 next door	_	JJ NN
+   1 next to	_	IN IN
+   1 next to	_	JJ IN
+   2 next to	_	RB IN
+   1 nibble on	~	VB IN
+   1 nice and	~	JJ CC
+   1 nice and clean	~	JJ CC JJ
+   1 nice and quiet	~	JJ CC JJ
+   1 niche market	_	NN NN
+   1 nick 's	_	NNP POS
+   1 nidd design	_	NNP NNP
+   1 night out	_	NN RB
+   2 night out	~	NN RB
+   1 nitrogen love stout	_	NNP NNP NNP
+   1 no amount of can	~	DT NN IN MD
+   1 no big deal	_	DT JJ NN
+   1 no big deal	~	DT JJ NN
+   1 no choice but to	~	DT NN IN TO
+   1 no homo	_	DT NN
+   1 no joke	_	DT NN
+   3 no matter	_	RB RB
+   1 no need to	~	DT NN TO
+   1 no one	_	DT CD
+   2 no one	_	DT NN
+   1 no other than	_	DT JJ IN
+   1 no problem	_	DT NN
+   1 no problem	~	DT NN
+   1 noble driving school	_	NNP NNP NNP
+   1 non refundable	_	AFX JJ
+   1 none of the above	_	NN IN DT JJ
+   1 noonan 's liquor	_	NNP POS NNP
+   2 north county	_	NNP NNP
+   1 not a to be find	_	RB DT TO VB VBN
+   2 not even	_	RB RB
+   1 not even	~	RB RB
+   4 not only	_	RB RB
+   1 not so	~	RB RB
+   1 not sure	~	RB JJ
+   1 not that great	~	RB RB JJ
+   3 not to mention	_	RB TO VB
+   4 nothing but	_	NN IN
+   1 nova scotia	_	NNP NNP
+   1 nt bother	~	RB VB
+   1 number 1	_	NN CD
+   1 number 1 choice	_	NN CD NN
+   1 nw hospital	_	NNP NN
+   1 ny jets	_	NNP NNPS
+   1 nyc pizza	_	NNP NN
+   1 nyc style pizza	_	NNP NN NN
+   1 of all time	_	IN DT NN
+   6 of course	_	RB RB
+   1 of late	_	IN RB
+   2 of the year	~	IN DT NN
+   2 of the year	~	IN DT NNP
+   1 off of	_	IN IN
+   1 off of	_	RB IN
+   1 off road	_	IN NN
+   1 off road parking	~	IN NN NN
+   1 offer bang for buck	~	VBZ NN IN NN
+   1 offer service	~	VBG NN
+   1 oh - so	_	RB HYPH RB
+   7 oil change	_	NN NN
+   3 oil change	_	NN NNS
+   1 oil pressure	~	NN NN
+   1 oil tank	_	NN NN
+   1 old fashion	_	JJ NN
+   1 old fashioned	_	JJ JJ
+   1 old school	_	JJ NN
+   1 old time	_	JJ NN
+   1 olive garden	_	NNP NNP
+   1 on a basis	_	IN DT NN
+   2 on a budget	_	IN DT NN
+   1 on a note	_	IN DT NN
+   1 on a whim	_	IN DT NN
+   1 on and on	_	RB CC RB
+   1 on business	_	IN NN
+   1 on call	_	IN NN
+   1 on campus	_	IN NN
+   1 on completion	~	IN NN
+   2 on duty	_	IN NN
+   1 on hold	_	IN NN
+   1 on line	_	IN NN
+   1 on menu	~	IN NN
+   1 on occasions	~	IN NNS
+   1 on own	_	IN JJ
+   1 on purpose	_	IN NN
+   1 on schedule	_	IN NN
+   1 on shelf	_	IN NN
+   1 on staff	_	IN NN
+   1 on the cheap	_	IN DT JJ
+   1 on the lookout	_	IN DT NN
+   1 on the lookout for	~	IN DT NN IN
+   1 on the market	_	IN DT NN
+   1 on the other hand	_	IN DT JJ NN
+   1 on the phone	_	IN DT NN
+   1 on the planet	_	IN DT NN
+   4 on the side	_	IN DT NN
+   1 on the spot	_	IN DT NN
+   1 on the street	~	IN DT NN
+   1 on the way	_	IN DT NN
+  10 on time	_	IN NN
+   3 on top of	_	IN NN IN
+   1 on way	_	IN NN
+   2 once again	_	RB RB
+   1 one - on - one	_	CD HYPH IN HYPH CD
+   2 one - star	_	CD HYPH NN
+   1 one - way street	_	CD HYPH NN NN
+   1 one bit	_	CD NN
+   1 one by one	_	CD IN CD
+   1 one more thing	_	CD JJR NN
+   2 one star	_	CD NN
+   1 opera plaza	_	NNP NNP
+   1 operation run	~	NN VBG
+   1 or else	_	CC RB
+   2 or so	_	CC RB
+   1 orange chicken	_	NN NN
+   3 other than	_	JJ IN
+   2 other than	_	RB IN
+   1 out - of - place	_	IN HYPH IN HYPH NN
+   1 out - of - town	_	IN HYPH IN HYPH NN
+   1 out front	_	RB RB
+  16 out of	_	IN IN
+   3 out of business	_	IN IN NN
+   1 out of control	_	IN IN NN
+   1 out of date	_	IN IN NN
+   1 out of price range	~	IN IN NN NN
+   1 out of site	_	IN IN NN
+   1 out of the ordinary	_	IN IN DT JJ
+   1 out of the way	_	IN IN DT NN
+   2 out of town	_	IN IN NN
+   1 out of way	_	IN IN NN
+   1 out standing	_	GW JJ
+   2 out ta	_	IN IN
+   1 out ta this world	_	IN IN DT NN
+   3 out there	_	RB RB
+   1 out to eat	~	RB TO VB
+   1 outside of	_	IN IN
+   1 outside of	_	RB IN
+   1 over and above the call of duty	~	IN CC IN DT NN IN NN
+   1 over and over again	~	RB CC RB RB
+   1 over charge	_	AFX VBN
+   1 over cook	_	AFX VBN
+   1 over cooked	_	GW JJ
+   1 over power	_	GW VB
+   4 over priced	_	GW JJ
+   1 over proofed	_	RB JJ
+   4 over the phone	_	IN DT NN
+   2 over the years	_	IN DT NNS
+   1 overcome issue	_	VBN NNS
+   1 own and operate	_	VBN CC VBN
+   1 owner operator	~	NN NN
+   1 oxford , england	_	NNP , NNP
+   1 pack up	_	VB RP
+   1 pack up and leave	~	VB RP CC VB
+   1 pad thai	_	NN NN
+   1 pad thai	_	NNP NNP
+   1 pain med	_	NN NNS
+   1 pam gillies	_	NNP NNP
+   1 panic attack	_	NN NN
+   1 pardon my french	_	VB PRP$ NNP
+   1 parisian croissant	_	JJ NNS
+   3 parking lot	_	NN NN
+   1 parking space	_	NN NNS
+   3 pass away	_	VBD RB
+   1 pass away in sleep	~	VBD RB IN NN
+   1 pass on	_	VBN RP
+   1 pass the time	_	VB DT NN
+   1 pass up	_	VB RP
+   1 pat test	_	NN VBN
+   1 pat testing	_	NNP NNP
+   1 patient see	_	NNS VBN
+   1 patio world	_	NNP NNP
+   3 pay attention	_	VB NN
+   1 pay attention	_	VBN NN
+   1 pay attention to	_	VB NN IN
+   1 pay attention to	~	VB NN IN
+   1 pay attention to detail	~	VB NN IN NN
+   1 pay cash	_	VBD NN
+   1 pay cash for	~	VBD NN IN
+   1 pay for	_	VBD IN
+   1 pay for	~	VBD IN
+   1 peachstate powersports	_	NNP NNPS
+   1 peking garden	_	NNP NNP
+   1 perfect in every way	~	JJ IN DT NN
+   1 perform inquires	~	VB NNS
+   1 person watching	_	NNS NN
+   1 peter barrett	_	NNP NNP
+   1 pets discount	_	NNPS NNP
+   1 petting zoo	_	NN NN
+   1 phet and g&g automotive	_	NNP CC NNP NNP
+   5 phone call	_	NN NN
+   1 phone call return	_	NN NNS VBN
+   1 phone numbers	_	NN NNS
+   2 physical address	~	JJ NN
+   7 pick up	_	VB RP
+   4 pick up	_	VBD RP
+   2 pick up	_	VBG RP
+   1 pick up	_	VBN RP
+   1 pick up	_	VBP RP
+   1 picky eater	~	JJ NNS
+   1 picture take	~	NNS VBD
+   1 pie guy	_	NNP NNP
+   1 pipe hot	_	VBG JJ
+   1 pizza hut	_	NNP NNP
+   1 pizza place	_	NN NN
+   1 pizza roll	_	NN NN
+   1 pizza roll	_	NN NNS
+   1 place order	_	VB NN
+   1 place packed	_	NN JJ
+   1 plan of action	~	NN IN NN
+   1 plan on	~	VBG IN
+   1 plan on	~	VBP IN
+   1 play dumb	_	VBD JJ
+   1 play music	~	VBG NN
+   1 pleasantly surprise	~	RB VBN
+   1 pleasantly surprised	~	RB JJ
+   1 please with	~	JJ IN
+   5 pleased with	_	JJ IN
+   1 pleasure to work with	~	NN TO VB IN
+   1 plenty to	~	NN TO
+   1 point out	_	VBD RP
+   1 pool cover	_	NN NNS
+   1 pool service	_	NN NN
+   1 pop - up	_	VB HYPH RP
+   1 pop in	_	VBD RB
+   1 pork and rice	~	NN CC NN
+   1 portion generous	_	NNS JJ
+   1 prefer to	_	VBD IN
+   1 present with	_	VBN IN
+   1 press for	_	VBD IN
+   1 prestige hino	_	NNP NNP
+   1 pretty good	~	RB JJ
+   1 pretty sure	~	RB JJ
+   1 price cut	_	NNS VBN
+   1 price give	~	NN VBD
+   1 price out of	_	VBG IN IN
+   1 price point	_	NN NN
+   1 price quote	_	NN NN
+   3 price range	_	NN NN
+   1 price tag	_	NN NN
+   1 pride on	_	VBP IN
+   1 primary care	_	JJ NN
+   1 prime rib	_	JJ NN
+   1 print out	_	VBD RP
+   1 professional driving school	_	NNP NNP NNP
+   1 professional help	_	JJ NN
+   1 prominent builder	_	JJ NNS
+   1 prominent builders	_	NNP NNPS
+   2 property management	_	NN NN
+   1 proud of	~	JJ IN
+   1 proud owner	~	JJ NN
+   1 provide care	~	VBN NN
+   1 provide service	_	VBD NN
+   2 provide with	_	VBD IN
+   1 providence aesthetics and medical spa	_	NNP NNPS CC NNP NNP
+   1 prudential steamboat realty	_	NNP NNP NNP
+   1 pry bar	_	NN NN
+   1 pull - up	_	NN HYPH NN
+   1 pull into	~	VB IN
+   1 pull out	_	VBD RB
+   1 pull over	_	VBN RB
+   1 pull tooth out	_	VB NN RB
+   1 pumpkin spice latte	_	NN NN NN
+   1 pure breed	_	JJ NN
+   1 pure pilate	_	JJ NN
+   1 purple goose	_	NNP NNP
+   1 purple hull pea	_	JJ NN NNS
+   1 put at ease	_	VBD IN NN
+   1 put at ease	_	VBG IN NN
+   2 put down	_	VB RP
+   1 put down	_	VBG RP
+   1 put hair on chest	_	VBD NN IN NN
+   1 put heart in	_	VBZ NN IN
+   1 put in	_	VB IN
+   1 put in charge	_	VBN IN NN
+   1 put into	_	VBD IN
+   1 put it	_	VBN RB
+   1 put off	_	VBN RP
+   1 put on	_	VB RB
+   1 put on a pedestal	_	VB IN DT NN
+   1 put on hold	_	VBN IN NN
+   1 put out	_	VBZ RB
+   1 put up with	_	VB RP IN
+   1 put up with	_	VBG RP IN
+   1 put up with hassle	~	VBG RP IN NN
+   1 qualitech computers	_	NNP NNPS
+   1 quality of care	~	NN IN NN
+   1 queen bed	_	NN NN
+   1 quick and timely	~	JJ CC JJ
+   1 quick on foot	_	JJ IN NN
+   1 quiet down	_	VB RP
+   1 quit smoking	_	VBG NN
+   1 quite a bit	_	PDT DT NN
+   2 quite a bit	~	PDT DT NN
+   1 quite a few	~	PDT DT JJ
+   1 quite a while	~	PDT DT NN
+   1 qwest dsl	_	NNP NNP
+   1 r&l plumbing services	_	NNP NNP NNP
+   1 r. morris	_	NNP NNP
+   1 rachel mcinnis	_	NNP NNP
+   1 radison - warwick	_	NNP HYPH NNP
+   2 radison warwick	_	NNP NNP
+   1 rage taco & rage burrito	_	VBG NNP CC VBG NNP
+   1 raina 's	_	NNP POS
+   1 raise on	_	VBN IN
+   1 ralph 's	_	NNP POS
+   1 ralph 's market	_	NNP POS NNP
+   2 range rover sport	_	NNP NNP NNP
+   2 rather than	_	RB IN
+   1 rather then	_	RB IN
+   1 rave review	_	JJ NNS
+   2 ray 's pizza	_	NNP POS NNP
+   1 ready for	_	JJ IN
+   1 real of	~	RB IN
+   2 rear window	_	JJ NN
+   1 reccommend to	_	VB IN
+   1 recoment to	~	VB IN
+   1 recommend highly	~	VB RB
+   1 recommend highly	~	VBP RB
+   1 recommend to	~	VB IN
+   1 recommend to	~	VBN IN
+   1 record label	_	NN NN
+   1 red curry	_	JJ NN
+   1 red line	_	NNP NNP
+   1 red sox	_	NNP NNPS
+   1 reek of	~	VBZ IN
+   1 refer to	_	VBG IN
+   1 refer to	_	VBN IN
+   1 refer to	~	VBP IN
+   1 regardless of	_	RB IN
+   1 rent out	_	VB RP
+   1 rent out	_	VBD RP
+   1 renton wa	~	NNP NNP
+   1 repeat customer	_	JJ NNS
+   1 rescue puppy	_	NN NN
+   1 restore faith in	~	VBN NN IN
+   1 return favor	_	VB NN
+   1 rhino 700	_	NNP NNP
+   1 richard joule	_	NNP NNP
+   1 richmond city limit	_	NNP NN NNS
+   1 richmond ukrops	_	NNP NNP
+   1 ride on rails	_	VBG IN NNS
+   3 right away	_	RB RB
+   1 right off the bat	_	RB IN DT NN
+   1 right then and there	~	RB RB CC RB
+   1 right to face	_	RB IN NN
+   1 ring bell	_	VB NN
+   1 ring up	_	VBD RP
+   1 rip - off	_	NN HYPH NN
+   1 rip off	_	NN NN
+   1 rip off	_	VB RP
+   2 rip off	_	VBN RP
+   1 rip out	_	VBD RP
+   1 rip out	_	VBN RP
+   2 rittenhouse square	_	NNP NNP
+   1 road construction	_	NN NN
+   2 road test	_	NN NN
+   1 robin talley	_	NNP NNP
+   1 rocky m. lange	_	NNP NNP NNP
+   1 rod jacobsen	_	NNP NNP
+   1 roger m.	_	NNP NNP
+   1 roll up crepes	_	NNP NNP NNPS
+   1 room key	~	NN NN
+   2 room temperature	_	NN NN
+   1 rt 1	_	NNP CD
+   1 rub it it	_	VB PRP RP
+   1 run credit score	~	VB NN NN
+   2 run down	_	VBN RP
+   1 run for the hill	_	VB IN DT NNS
+   1 run on	_	NNP NNP
+   1 run on	_	VBG IN
+   1 run rough	_	VBD RB
+   1 rust out	_	VBN RP
+   1 ruth chris	_	NNP NNP
+   1 s. 10th	_	NNP NNP
+   1 sacre coeur	_	NNP NNP
+   1 sad face	_	JJ NN
+   1 saginaw , michigan	~	NNP , NNP
+   1 salad bar	_	NN NN
+   2 sales guy	_	NN NN
+   1 sales guy	_	NNS NN
+   1 sales lady	_	NNS NNS
+   1 sales man	_	NNS NN
+   1 sales manager	_	NNS NN
+   2 sales men	_	NNS NNS
+   1 sales person	_	NNS NN
+   1 sales pitch	_	NNS NN
+   1 salsa verde	_	NN NN
+   1 sam mones	_	NNP NNP
+   1 sam s club	_	NNP POS NN
+   1 samantha fox	_	NNP NNP
+   1 same old	_	JJ JJ
+   2 san antonio	_	NNP NNP
+   1 san francisco	_	NNP NNP
+   1 san jose	_	NNP NNP
+   1 san mateo avenue	_	NNP NNP NNP
+   1 sand hill park	_	NNP NNP NNP
+   4 santa fe	_	NNP NNP
+   1 santa rosa	_	NNP NNP
+   1 saratoga springs	_	NNP NNPS
+   1 sardine can	_	NN NN
+   1 satellite tv	_	NN NN
+   1 saucey 's	_	NNP POS
+   1 save from	~	VBD IN
+   1 save hassle	~	VB NN
+   1 save time	~	VB NN
+   1 save trip	_	VB NN
+   2 save yourself the trouble	~	VB PRP DT NN
+   1 say no	_	VB UH
+   1 say sorry	_	VBD JJ
+   1 scent flower	_	VBN NNS
+   1 scharffen berger	_	NNP NNP
+   1 scordia , sicily	~	NNP , NNP
+   1 scott larson	_	NNP NNP
+   1 scrap metal	_	NN NN
+   1 scrummy yummy	_	NNP NNP
+   1 sear's automotives	_	NNP NNP
+   2 search engine optimization	_	NN NN NN
+   1 search high and low	_	VBG RB CC RB
+   2 second chance	_	JJ NN
+   1 second hand smoke	_	JJ NN NN
+   1 second home	_	JJ NN
+   3 second home	_	NNP NNP
+   1 see decline in	~	VBN NN IN
+   1 see the sun	_	VB DT NN
+   1 seek out	_	VBP RP
+   1 seem like	_	VBZ IN
+   1 seem to me	~	VBZ IN PRP
+   1 self service	_	NN NN
+   1 sell by date	~	VB RB NN
+   1 send over	_	VBD RP
+   1 send over	_	VBN RB
+   1 sense of humor	_	NN IN NN
+   1 sense of humour	_	NN IN NN
+   1 serve as	~	VBD IN
+   1 service fee	_	NN NN
+   1 service office	_	NN NN
+   1 service papers	_	NN NNS
+   1 service receive	~	NN VBD
+   1 set apart	_	VBZ RB
+   1 set out	_	VBD RP
+   2 set up	_	NN NN
+   2 set up	_	VB RP
+   1 set up	_	VBN RP
+   1 seth bloom	_	NNP NNP
+   1 seth k	_	NNP NNP
+   1 settle for	~	VBD IN
+   1 sheet metal	_	NN NN
+   1 shell out	_	VB RP
+   1 shoot the breeze	_	VBG DT NN
+   1 shop around	_	VBD RB
+   1 shopping center	_	NN NN
+   1 short of that	_	RB IN DT
+   1 short pump	_	NNP NNP
+   4 show up	_	VB RP
+   3 show up	_	VBD RP
+   2 show up	_	VBZ RP
+   1 shower head	_	NN NNS
+   1 showroom floor	_	NN NN
+   1 shree ghatkopar bhatia mitra mandal	_	NNP NNP NNP NNP NNP
+   1 shrimp satay	_	NN NN
+   1 shrimp scampi	_	NN NN
+   1 shut down	_	VBN RP
+   1 shut off	_	VBN RP
+   1 shut up	_	VB RP
+   1 sign in	_	VB RP
+   1 sign in	_	VBD RP
+   1 sign name	~	VB NN
+   1 sign names	~	VBG NNS
+   2 sign up	_	VBD RP
+   1 sign up	_	VBN RP
+   2 signs of saltford	_	NNPS IN NNP
+   1 silver member	_	NN NN
+   1 sinking feeling	_	NN NN
+   1 sister - in - law	_	NN HYPH IN HYPH NN
+   1 sister in law	_	NN IN NN
+   1 sit - abouts	_	NN HYPH NNS
+   1 sit and wait around	~	VB CC VB RB
+   1 sit around	_	VBG RB
+   1 sit down	_	VB RB
+   1 sit up	_	VB RP
+   1 situation be in	_	NN VBD IN
+   1 sky pod	_	NN NN
+   1 sky pod elevator	~	NN NN NN
+   1 sleep through the night	~	VB IN DT NN
+   2 slice pizza	_	NNP NNP
+   1 small town	_	JJ NN
+   1 smoke shop	_	NN NN
+   1 smokehouse burger	_	NN NN
+   1 smoker s haven	_	NN POS NN
+   1 so - so	_	JJ HYPH JJ
+   1 so call	_	RB VBN
+   4 so far	_	RB RB
+   1 so long	_	RB RB
+   1 so that	_	IN IN
+   1 soccer mom	_	NN NN
+   2 social medium	_	JJ NN
+   1 social security numbers	_	JJ NN NNS
+   1 sofa bed	_	NN NN
+   1 solana beach	_	NNP NNP
+   1 some place	_	DT NN
+   1 sort of	_	RB RB
+   1 sort out	_	VB RP
+   1 sort out	_	VBD RP
+   1 sound off	_	VBP RP
+   1 soup and salad	~	NN CC NN
+   1 south bend	_	NNP NNP
+   1 south florida	_	JJ NNP
+   1 south philly	~	NNP NNP
+   1 southern californian	~	JJ NNP
+   1 spaghetti alla barese	_	NN NN NN
+   1 spare rib	_	NN NNS
+   2 spay and neuter	_	NN CC NN
+   1 speak to	~	VB IN
+   3 speak to	~	VBN IN
+   1 speak with	~	VBD IN
+   1 spears roofing	_	NNP NNP
+   1 specialize in	_	VBP IN
+   1 specialize in	_	VBZ IN
+   1 spend time	_	VBD NN
+   1 spice up	_	VBP RP
+   1 spill the whisky	_	VB DT NNP
+   1 split , croatia	_	NNP , NNP
+   1 sport bar	_	NNS NN
+   1 spot - on	_	JJ HYPH JJ
+   1 spot on	_	JJ JJ
+   1 spray for	_	VBD IN
+   2 spread the word	_	VB DT NN
+   1 spread the word	_	VBG DT NN
+   1 sprecher 's	_	NNP POS
+   1 spring clip	_	NN NNS
+   1 spring mountain	_	NNP NNP
+   1 spring roll	_	NN NNS
+   1 springfield , il	_	NNP , NNP
+   1 sq ft	_	JJ NNS
+   1 squeeze in	_	VBD RP
+   1 sr - 22	_	NN HYPH CD
+   1 srd pat testing	_	NNP NNP NNP
+   1 st. charles mall	_	NNP NNP NNP
+   1 st. thomas the apostle	_	NNP NNP DT NNP
+   1 stainless steel	_	NNP NNP
+   1 stand around	_	VB RB
+   1 stand around	_	VBG RB
+   1 stand for	_	VBD IN
+   1 stand in line	~	VB IN NN
+   1 stand the test of time	_	VBZ DT NN IN NN
+   1 start out	_	VB RP
+   1 start out	_	VBD RP
+   1 start to finish	_	NN IN NN
+   2 state inspection	_	NN NN
+   1 state of the art	_	NN IN DT NN
+   1 staten island computers	_	NNP NNP NNPS
+   2 stay away	_	VB RB
+   2 stay away from	~	VB RB IN
+   1 steak house	_	NN NN
+   1 steele electric	_	NNP NNP
+   1 steep price	~	JJ NNS
+   1 steering wheel	_	NN NN
+   1 step it up notch	_	VBP PRP RP NN
+   1 step take	_	NN VBZ
+   1 step up to the plate	_	VBD RP IN DT NN
+   1 stephanie fairchild	_	NNP NNP
+   1 steven starr	_	NNP NNP
+   1 stevens creek	_	NNP NNP
+   1 stick to	_	VB IN
+   1 stick up	_	VBN RP
+   1 stick up	_	VBZ RP
+   1 stick with	_	VB IN
+   1 stick with	_	VBN IN
+   1 sticker price	_	NN NN
+   1 stock up	_	VBP RP
+   1 stokes street	_	NNP NNP
+   1 stony point	_	NNP NNP
+   1 stop by	_	VB IN
+   1 stop by	_	VB RB
+   1 stop by	_	VBP IN
+   3 stop in	_	VB RB
+   2 stop in	_	VBD RB
+   1 stop in	_	VBP RB
+   1 stop make sense	_	VB VBG NNP
+   1 straight edge	_	JJ NN
+   1 stress out	_	VBN RP
+   2 strip mall	_	NN NN
+   1 strobe light	_	NN NN
+   1 student body	_	NN NN
+   1 student tour india package	_	NNP NNP NNP NNP
+   1 stumble across	_	VB IN
+   1 sub par	_	AFX JJ
+   1 subway sandwiches	_	NNP NNPS
+   2 such as	_	JJ IN
+   1 suck at	~	VBP IN
+   1 suck it up	_	VB PRP RP
+   1 sum up	_	VB RP
+   1 sum up with	~	VB RP IN
+   1 summer vacation	~	NN NNS
+   1 sun devil auto	_	NNP NNP NNP
+   1 sun toyota	_	NNP NNP
+   1 super 8	_	NNP NNP
+   1 supreme being	_	JJ NNS
+   1 sure enough	_	RB RB
+   1 sushi bar	_	NN NN
+   1 sushi lover	_	NNP NNP
+   1 sussman kia	_	NNP NNP
+   1 suzanne , vancouver	_	NNP , NNP
+   1 sweet as pie	_	JJ IN NN
+   2 sweet potato	_	JJ NN
+   1 t 's	_	NNP POS
+   1 t 's cafe	_	NNP POS NNP
+   1 taco mac	_	NNP NNP
+   1 taj mahal	_	NNP NNP
+   1 take - out	_	NN HYPH NN
+   1 take a bite	_	VBD DT NN
+   1 take a chance on	_	VBD DT NN IN
+   1 take a while	~	VBD DT NN
+   1 take approach	_	VB NN
+   1 take as far as can	_	VB RB RB IN MD
+   1 take away	_	NN NN
+   1 take back	_	VB RB
+   1 take back	_	VBD RB
+   1 take break	_	VB NN
+   8 take care of	_	VB NN IN
+   2 take care of	_	VBD NN IN
+   1 take care of	_	VBG NN IN
+   4 take care of	_	VBN NN IN
+   1 take courage	_	VBD NN
+   1 take down number	_	VBG RP NN
+   1 take forever	_	VBD RB
+   1 take heed	_	VB NN
+   6 take in	_	VBD RB
+   2 take in	_	VBN RB
+   1 take into account	_	VBG IN NN
+   1 take it	_	VB PRP
+   1 take name	_	VBD NN
+   1 take of	_	VBP IN
+   1 take off	_	VBD RP
+   1 take off	_	VBG RP
+   2 take off	_	VBN RP
+   1 take on	_	VB RP
+   1 take on	_	VBD RP
+   1 take order	_	VBG NN
+   3 take out	_	NN NN
+   1 take out	_	VBD RB
+   1 take out	_	VBN RB
+   1 take out to	~	VBD RB IN
+   1 take over	_	VBZ RB
+   1 take picture	~	VB NNS
+   2 take pride	_	VBP NN
+   1 take the plunge with	_	VB DT NN IN
+   4 take the time	_	VB DT NN
+   7 take the time	_	VBD DT NN
+   5 take time	_	VBD NN
+   2 take time	_	VBZ NN
+   1 take time away	_	VBG NN RB
+   1 take time off of	_	VB NN IN IN
+   1 take try	_	VBD NNS
+   1 take walk ins	_	VB NN NNS
+   1 talk down	_	VBP RB
+   1 talk down to	_	VBP RB IN
+   1 talk down to	~	VBP RB IN
+   1 talk into	_	VBP IN
+   1 talk to	~	VBG IN
+   1 talk to	~	VBZ IN
+   1 talk with	~	VB IN
+   1 tanglewood apartments	_	NNP NNPS
+   2 tap water	_	NN NN
+   1 tax payer	_	NN NNS
+   1 tea back	~	NN NNS
+   1 tea spoon	_	NN NN
+   1 teacup chihuahua	_	NN NN
+   1 team building	_	NN NN
+   1 team texas construction	_	NNP NNP NNP
+   1 ted jurek	_	NNP NNP
+   2 telephone number	_	NN NN
+   1 tell so	~	VBD RB
+   1 tell the truth	_	VB DT NN
+   1 tell to face	_	VBZ IN NN
+   1 ten star	_	CD NNS
+   1 tension and worry	~	NN CC NNS
+   1 test - drive	_	NN HYPH VB
+   2 test drive	_	NN NN
+   1 test drive	_	NN NNS
+   1 test drive	_	NN VB
+   1 test drive	_	NN VBD
+   1 test out	_	VB RP
+   3 texas roadhouse	_	NNP NNP
+   1 thank - you	_	VBP HYPH PRP
+   1 thank god	_	VBP NNP
+   1 thank you	_	VB PRP
+  25 thank you	_	VBP PRP
+   3 thanks again	_	NN RB
+   1 thanks guy	_	NN NNS
+   3 thanks to	_	NN IN
+   1 that 's amore	_	DT VBZ NNP
+   1 that be say	_	DT VBG VBN
+   1 that say	_	DT VBN
+   1 the best part of	_	DT JJS NN IN
+   1 the better part of	_	DT JJR NN IN
+   1 the brick	_	DT NNP
+   1 the creative workshop	_	DT NNP NNP
+   1 the extra mile go	_	DT JJ NN VBD
+   2 the fact that	_	DT NN IN
+   1 the fan	_	DT NN
+   1 the gables	_	DT NNP
+   1 the grill	_	DT NNP
+   1 the hilton	_	DT NNP
+   1 the holy grail	_	DT JJ NN
+   3 the laundry tub	_	DT NNP NNP
+   1 the law office of dale gribow	_	DT NN NNS IN NNP NNP
+   1 the libido band	_	DT NN NN
+   1 the looking glass	_	DT NNP NNP
+   1 the most important day of life	_	DT RBS JJ NN IN NN
+   1 the new kid on the block	_	DT JJ NN IN DT NN
+   1 the next big thing	_	DT JJ JJ NN
+   1 the other day	_	DT JJ NN
+   1 the other way around	_	DT JJ NN RB
+   1 the point	_	DT NN
+   1 the rams	_	DT NNPS
+   2 the real deal	_	DT JJ NN
+   1 the real thing	_	DT JJ NN
+   1 the rest be history	_	DT NN VBD NN
+   1 the same	_	DT JJ
+   1 the thing be	_	DT NN VBZ
+   1 the usual	_	DT JJ
+   1 the willow lounge	_	DT NNP NNP
+   1 the world revolve around	_	DT NN VBZ IN
+   1 then again	_	RB RB
+   1 then again	~	RB RB
+   1 there 's no excuse for	~	EX VBZ DT NN IN
+   1 these days	_	DT NNS
+   2 these guy	~	DT NNS
+   1 think of	_	VB IN
+   1 think of	_	VBN IN
+   1 think of	~	VBD IN
+   1 think so	_	VB RB
+   1 throw birthday party	~	VBD NN NN
+   1 throw out	_	VB RP
+   1 thumb up	_	NNS RB
+   1 tiger heating	_	NNP NNP
+   1 tiger heating and air	_	NNP NNP CC NNP
+   1 tight corner	_	JJ NNS
+   1 time and again	_	NN CC RB
+   1 time of year	_	NN IN NN
+   1 time spend	~	NN VBN
+   1 tintman nationwide tints ltd	_	NNP NNP NNPS NNP
+   1 tip top	_	JJ JJ
+   2 tire gooroo	_	NNP NNP
+   1 to bad	_	RB JJ
+   1 to be clear	_	TO VB JJ
+   1 to be desire	_	TO VB VBN
+   1 to be honest	_	TO VB JJ
+   1 to begin with	_	TO VB IN
+   2 to boot	_	TO VB
+   1 to date	_	IN NN
+   1 to death	_	IN NN
+   1 to do	_	TO VB
+   1 to eat	_	TO VB
+   1 to end	_	IN NN
+   2 to go	_	TO VB
+   1 to go box	~	TO VB NN
+   1 to my surprise	_	IN PRP$ NN
+   1 to show for	_	TO VB IN
+   1 to start off with	_	TO VB RP RB
+   1 to the point	_	IN DT NN
+   1 toilet seat	_	NN NN
+   1 tone down	_	VBN RP
+   1 too much	_	RB JJ
+   1 too much trouble	_	RB JJ NN
+   1 top - rank	_	NN HYPH VBN
+   6 top notch	_	JJ NN
+   1 top quality	~	JJ NN
+   1 top to bottom	_	NN IN NN
+   1 tortilla soup	_	NN NN
+   1 tow truck	_	NN NN
+   1 town bagel	_	NNP NNP
+   1 toyota venza	_	NNP NNP
+   1 track down	_	VB RP
+   1 track down	_	VBD RP
+   1 trade - in	_	NN HYPH NN
+   1 trader joe 's	_	NNP NNP POS
+   1 traffic light	_	NN NN
+   1 travel the world	~	VB DT NN
+   1 treat like dirt	_	VBN IN NN
+   1 treat to	~	VBN IN
+   1 trio 's	_	NNP POS
+   1 troy , mo	~	NNP , NNP
+   1 true to words	_	JJ IN NNS
+   1 trust gut	_	VBD NN
+   1 trust me	_	VB PRP
+   1 trust me	~	VB PRP
+   1 trust the midas touch	_	VB DT NNP NN
+   2 trust with	_	VB IN
+   1 trust with	_	VBG IN
+   1 trust with	_	VBP IN
+   1 try on	_	VBD RP
+   1 try on	_	VBG RP
+   1 try out	_	VB RP
+   1 try out	_	VBN RP
+   1 try to say	_	VBG TO VB
+   1 try to tell	_	VBD TO VB
+   1 turn down	_	VBD RP
+   1 turn into	_	VBD IN
+   1 turn on	_	VBD RP
+   1 turn out	_	VB RP
+   3 turn out	_	VBD RP
+   1 turn out	_	VBZ RP
+   1 turn over to	_	VBD RP IN
+   1 turn to	_	VBG IN
+   1 tussey mountain tree plantation	_	NNP NNP NNP NNP
+   1 two thumb up	_	CD NNS RB
+   1 u of r	_	NNP IN NNP
+   1 u. penn	_	NNP NNP
+   1 ufc fighter	_	NNP NN
+   1 under circumstances	_	IN NNS
+   1 under warranty	_	IN NN
+   1 unheard of	_	JJ RB
+   1 united air duct	_	NNP NNP NNP
+   1 united air duct cleaning	_	NNP NNP NNP NNP
+   1 up - and - down	~	JJ HYPH CC HYPH JJ
+   1 up and down	~	IN CC IN
+   1 up and down	~	RB CC RB
+   2 up and run	_	RB CC VBG
+   1 up front	_	IN NN
+   1 up front	_	JJ JJ
+   2 up front	_	RB RB
+   1 up to date	_	IN IN NN
+   1 up to par	_	IN IN NN
+   1 up to standard	_	IN IN NNS
+   1 urgent care	_	JJ NN
+   1 us news	_	NNP NNP
+   1 use on	_	VB IN
+   1 use on	~	VBG IN
+   1 use services	~	VBG NNS
+   9 use to	_	VBD TO
+   1 used to	_	JJ IN
+   1 utc la jolla	_	NNP NNP NNP
+   1 valentine s	_	NNP POS
+   1 vcu medical center	_	NNP NNP NNP
+   1 veggie dog	_	NN NNS
+   1 vehicle wrap	_	NN NN
+   1 vic canever	_	NNP NNP
+   2 video cable	_	NN NN
+   1 vintage hostel	_	NNP NNP
+   1 visakha industrial gases pvt. ltd.	_	NNP NNP NNPS NNP NNP
+   1 voice opinion	~	VB NN
+   1 waffle maker	_	NN NN
+   1 wait around	_	VB RB
+   1 wait for	_	VB IN
+   1 wait for	~	VB IN
+   3 wait for	~	VBG IN
+   1 wait for	~	VBP IN
+   1 wait on	_	VBG IN
+   1 wait person	~	NN NN
+   5 wait staff	_	NN NN
+   1 waiting area	_	NN NN
+   1 waiting room	_	NN NN
+   2 waiting staff	_	NN NN
+   1 wake up	_	VBN RP
+   1 wal mart	_	NNP NNP
+   1 walk - in	_	NN HYPH NN
+   1 walk against drugs and alcohol	_	NNP IN NNPS CC NNP
+   1 walk around	_	VBZ RB
+   1 walk away	_	VBD RB
+   1 walk out	_	VB RB
+   2 walk out	_	VBD RB
+   1 walk through	_	VBD IN
+   1 walking distance	_	NN NN
+   1 walking distance	~	NN NN
+   1 want to	_	VB TO
+   1 warm up	_	VB RP
+   1 warm up	_	VBN RP
+   2 warner family	_	NNP NNP
+   1 warwick township	_	NNP NNP
+   1 wash 'n fold	_	VB CC VB
+   1 waste money	~	VB NN
+   1 waste of time	_	NN IN NN
+   7 waste time	_	VB NN
+   1 waste time	_	VBG NN
+   1 waste time	~	VB NN
+   2 watch out	_	VB RP
+   2 watch out for	~	VB RP IN
+   1 way to go	_	NN TO VB
+   2 web site	_	NN NN
+   2 wedding day	_	NN NN
+   1 wedding gallery	_	NNP NNP
+   1 week - end	_	NN HYPH NNS
+   1 weight loss	_	NN NN
+   1 well - being	_	RB HYPH NN
+   1 well - done	_	RB HYPH JJ
+   4 well do	_	RB VBN
+   1 well feed	_	RB VBN
+   1 well know	_	RB VBN
+   1 well spend	~	RB VBN
+   1 well worth it	~	RB JJ PRP
+   1 wenatchee hill	_	NNP NNS
+   3 west indian	_	JJ JJ
+   1 west valley	_	NNP NNP
+   1 what a joke	~	WP DT NN
+   3 wheel lock	_	NN NN
+   1 when it come to	_	WRB PRP VBD IN
+   1 when it come to	_	WRB PRP VBZ IN
+   1 whether or not	_	IN CC RB
+   1 whether or not	~	IN CC RB
+   1 white page	_	JJ NNS
+   1 who - know - what	_	WP HYPH VBZ HYPH WP
+   1 who give a crap	_	WP VBZ DT NN
+   1 who know	_	WP VBZ
+   1 who would have	_	WP MD VB
+   1 who would have guess	~	WP MD VB VBN
+   1 whole foods	_	NNP NNP
+   1 whole new lease on life	~	RB JJ NN IN NN
+   1 why in the hell	_	WRB IN DT NN
+   1 wife and kid	_	NN CC NNS
+   1 wildernest inn	_	NNP NNP
+   1 wildwood , nj	_	NNP , NNP
+   1 will and grace	_	NNP CC NNP
+   1 william and mary	_	NNP CC NNP
+   1 willow lounge	_	NNP NNP
+   1 window pane	_	NN NNS
+   1 windsheild washer fluid	_	NN NN NN
+   1 wine flight	_	NN NN
+   1 wine glasses	_	NN NNS
+   1 wine tasting	_	NN NN
+   1 wine tasting	_	NN NNS
+   1 wing night	~	NN NN
+   1 winter park	_	NNP NNP
+   1 winterowd fine art	_	NNP NNP NNP
+   1 wisconsin ave	_	NNP NNP
+   1 wisdom teeth	_	NN NN
+   1 with fly colors	_	IN VBG NNS
+   1 with good reason	_	IN JJ NN
+   1 with the exception of	_	IN DT NN IN
+   1 with the way it be	_	IN DT NN PRP VBZ
+   1 within walking distance	~	IN NN NN
+   1 without a doubt	_	IN DT NN
+   1 without doubt	~	IN NN
+   1 witness protection program	_	NN NN NN
+   1 wonderful wild wildernest inn	_	JJ JJ NNP NNP
+   1 wood grain	_	NN NN
+   1 woodland hills	_	NNP NNPS
+   1 worht every penny	_	JJ DT NN
+   1 work do	_	NN VBD
+   1 work do	_	NN VBZ
+   1 work do	~	NN VBP
+   1 work every angle	_	VB DT NN
+   1 work for	~	VBD IN
+   1 work for me	_	VBZ IN PRP
+   1 work hard	~	VB RB
+   1 work on	_	VBD IN
+   2 work on	~	VB IN
+   1 work on	~	VBG IN
+   1 work on	~	VBN IN
+   2 work out	_	VBG RP
+   1 work out	_	VBP RP
+   1 work perform	_	NN VBD
+   1 work perform on	~	NN VBD IN
+   1 work staff	_	NN NN
+   1 work week	_	NN NN
+   9 work with	~	VB IN
+   5 work with	~	VBD IN
+   2 work with	~	VBG IN
+   3 work with	~	VBN IN
+   3 work with	~	VBP IN
+   1 world 's fair museum	_	NNP POS NNP NN
+   1 world 's finest donair	_	NNP POS NNP NNP
+   1 world hats mart	_	NNP NNPS NNP
+   1 world series	_	NN NNS
+   1 world traveler	_	NN NN
+   1 worst of all	~	RBS IN DT
+   4 worth every penny	_	JJ DT NN
+   1 worth every penny	_	JJ JJ NN
+   4 worth it	_	JJ PRP
+   1 worth time	_	JJ NN
+   2 would like	_	MD VB
+   1 would like to thank	~	MD VB TO VB
+   1 wrapping paper	_	NN NN
+   1 write in stone	_	VBN IN NN
+   1 write review	_	VBG NN
+   1 write review	~	VB NN
+   3 wrong with	_	JJ IN
+   1 wunderbar pet sitting	_	NNP NNP NNP
+   1 yampa valley	_	NNP NNP
+   1 yards brewery	_	NNP NNP
+   9 year old	_	NN JJ
+   1 year old	_	NN NNS
+   2 years old	_	NNS JJ
+   1 years run	~	NNS VBG
+   1 years to come	_	NNS TO VB
+   1 yell at	~	VBD IN
+   1 yell at	~	VBG IN
+   1 yellow curry	_	JJ NN
+   1 yellow lab	_	JJ NN
+   1 yet again	_	RB RB
+   1 yoga studio	~	NN NN
+   1 you 've get maids	_	PRP VBP VBN NNPS
+   1 you better believe	~	PRP RBR VB
+   1 you ca n't beat this	_	PRP MD RB VB DT
+   2 you get what you pay for	_	PRP VBP WP PRP VBP IN
+   2 you guy	_	PRP NNS
+   2 you guy	~	PRP NNS
+   1 youngstown sports grille	_	NNP NNP NNP
+   1 your self	_	GW PRP
+   1 yr old	_	NN NN
