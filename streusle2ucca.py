@@ -281,7 +281,7 @@ class SSTPassage:
                     ann_unit["children_tokens"].sort(key=itemgetter("id"), reverse=False)
                     annotation_units.append(ann_unit)
                     
-            return annotation_units
+        return annotation_units
         
     def refine(self):
         annotation_units = copy.deepcopy(self.annotation_units)
