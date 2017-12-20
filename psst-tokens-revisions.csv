@@ -508,9 +508,9 @@ ewtb.r.231203.6:28,with,,,Co-Agent,,Co-Agent,,,,"However , the bartenders / wait
 ewtb.r.235211.5:5,with,,,Co-Agent,,Co-Agent,,,,We have had many conversations |with| them and they have always been extremely patient with me as I tried on multiple hats in search of the right costumes for my magic act .
 ewtb.r.249123.2:11,with,,,Co-Agent,,Co-Agent,,,,"Employees seemed to be having a good time chatting and laughing |with| each other , while myself and other customers were completely ignored ."
 ewtb.r.260640.2:4,with,,,Co-Agent,,Co-Agent,,,,I had a conversation |with| the woman running this place in April 2010 .
-ewtb.r.272836.3:9,with,,,Co-Agent,,Co-Agent,,,,The white pages allowed me to get in touch |with| parents of my high school friends so that I could track people down one by one and the restaurant section is basically my cookbook .
-ewtb.r.308088.3:5,WITH,,,Co-Agent,,Co-Agent,,,,"I MAKE MONEY NOT DEAL |WITH| BROKERS "" Wow , can you believe in today s tough times this dealership would be looking for any way to move vehicles ."
-ewtb.r.308088.4:8,with,,,Co-Agent,,Co-Agent,,,,As a previous Internet Manager I would deal |with| anyone looking to buy a car for a profit and not care if they came in with a broker .
+ewtb.r.272836.3:9,with,,,Co-Agent,,Recipient,Co-Agent; MWE: get_in_touch~with,,,The white pages allowed me to get in touch |with| parents of my high school friends so that I could track people down one by one and the restaurant section is basically my cookbook .
+ewtb.r.308088.3:5,WITH,,,Co-Agent,,MWE: deal_with,,,,"I MAKE MONEY NOT DEAL |WITH| BROKERS "" Wow , can you believe in today s tough times this dealership would be looking for any way to move vehicles ."
+ewtb.r.308088.4:8,with,,,Co-Agent,,MWE: deal_with,,,,As a previous Internet Manager I would deal |with| anyone looking to buy a car for a profit and not care if they came in with a broker .
 ewtb.r.325741.4:3,with,,,Co-Agent,,Co-Agent,,,,Would do business |with| them again .
 ewtb.r.328828.8:5,with,,,Co-Agent,,Co-Agent,,,,I will NEVER do business |with| this company !
 ewtb.r.333243.2:9,with,,,Co-Agent,,Co-Agent,,,,"Working with Rod Jacobsen was my first experience working |with| a CPA , so I did not know what to expect ."
@@ -1543,7 +1543,7 @@ ewtb.r.117115.6:8,with,,,Instrument,,Instrument,,,,"Next , they tried to force t
 ewtb.r.217359.5:11,with,,,Instrument,,Instrument,,,,They make up excuses in hopes to confuse their policy holders |with| misinformation .
 ewtb.r.211797.7:31,without,,,Attribute,,Instrument,,,,"Hmmm ... A person can not call a company , if you have no idea its name ( since the designer is unknown ... SUPPOSEDLY ) , and order a gown |without| a dress name or style number ."
 ewtb.r.117115.8:26,behind,,,Location,leave behind,LEFT_BEHIND,,,,"My next - door neighbor heard the noise and turned on a light , thankfully scaring the two miscreants away ( they even left their hammer |behind| ! ) ."
-ewtb.r.338429.10:2,across,,,Location,,Locus,ACROSS_FROM,,,The apartment |across| from mine belonged to a gang of hookers .
+ewtb.r.338429.10:2,across,,,Location,,Locus; MWE: across_from,Source,,,The apartment |across| from mine belonged to a gang of hookers .
 ewtb.r.118679.1:11,around,,,Location,,Locus,AROUND_THE_CORNER,,,I really want to like this place since I work right |around| the corner .
 ewtb.r.234261.4:5,around,,,Location,,Locus,AROUND_THE_CORNER,,,We live in the sub-division |around| the corner and after it happened and we brought it up at some neighborhood gatherings we discovered that several people from this neighborhood alone had pets go to Dr. Mann for surgical procedures and came back dead .
 ewtb.r.303922.5:15,around,,,Location,,Locus,AROUND_THE_CORNER,,,Such a convenient location as well with coffee shop and bradley food and beverage right |around| corner .
@@ -1584,6 +1584,7 @@ ewtb.r.038358.3:21,round,,T,2DArea,,Locus,Path,,,I would have had to because wit
 ewtb.r.018465.9:13,throughout,,T,2DArea,,Locus,Path,,,I wanted to be very blonde and instead he pulled my root color |throughout| my whole hair which is a gross mousey brown .
 ewtb.r.360937.2:27,thru,,I,1DTrajectory,,Locus,Path,,,"I must say , I was impressed with the size of the bar area and lounge , & I liked that you could see the brewery right |thru| the glass !"
 ewtb.r.107692.11:15,up,,,Location,,Locus,Path,,,I suggest you go up to Raging Taco & Raging Burrito a couple of blocks |up| the street or even Taco Mac .
+ewtb.r.338429.10:3,from,,,Location,across from,Locus; MWE: across_from,Source,,,The apartment across |from| mine belonged to a gang of hookers .
 ewtb.r.048644.3:5,from,,,Comparison/Contrast,farther from the truth: annotate source domain,Locus,Source,,,This could n't be farther |from| the truth .
 ewtb.r.183518.2:11,from,,,Location,missing FROM,Locus,Source,,,"For a long time , one big source of entertainment missing |from| the Richmond City Limits was a first - run multiplex ."
 ewtb.r.035726.5:6,from,,,Location,,Locus,Source,,,Even though I live pretty far |from| her office I still make the trip so my daughters will have the BEST !
@@ -2253,6 +2254,7 @@ ewtb.r.165032.2:15,in the light,,,Manner,,Manner,"not MWE, or ‘the’ not part
 ewtb.r.018465.1:3,from Hell,,,Source,FROM hell,Manner,Source,,,The Salon Experience |from| |Hell|
 ewtb.r.018465.16:5,from Hell,,,Source,FROM hell,Manner,Source,,,It was the salon experience |from| absolutely |Hell| .
 ewtb.r.018465.3:1,out of,,,StartState,be out of college,Manner,Source,,,Right |out| |of| college I called the salon and explained my situation .
+ewtb.r.133981.8:3,of,,,Stimulus,(“Our unit” is the Stimulus),Manner,Topic,,,Our unit reeks |of| old cigarette smoke and it started to become apparent a few weeks after we moved in .
 ewtb.r.234261.8:1,AT ALL COSTS,,,Extent,,Manner,,,,AVOID |AT| |ALL| |COSTS| .
 ewtb.r.251475.3:0,In,,,Manner,in _ words,Manner,,,,"|In| a few words ... I 'm pleasantly surprised that you can still find "" old school "" service out there where company care more about good name and customers than their pockets ..."
 ewtb.r.071650.9:41,in,,,Manner,in + manner,Manner,,,,I was able to cancel it but only after paying a $ 50 fee ( which the staff person who signed me up stated I would not have to pay if I had proof of moving ) and being spoken to |in| a very belittling manner .
@@ -2323,9 +2325,11 @@ ewtb.r.269560.1:43,more like,,,Comparison/Contrast,,MORE LIKE,ComparisonRef,,,Wa
 ewtb.r.196219.2:10,OF,MORE_OF,,Comparison/Contrast,more of = more like,MORE_OF,`d,,,"IT IS NOT A HIGH END STEAK HOUSE , MORE |OF| THE CUISINE BRETT ENJOYS IN MISSISSIPPI ."
 ewtb.r.369210.3:5,of,,,Quantity,,MWE: a_bit_of_a,,,,Bramen Honda was a bit |of| a hassle .
 ewtb.r.107692.9:8,with,,,Theme,deal with,MWE: deal_with,,,,"If you have gotten through ordering , dealing |with| the rude staff and if you followed the dumb rules , you are finally presented with what you came for .. some tacos that are "" ok , "" but definitely not worth putting up with all the hassle ."
+ewtb.r.116821.3:7,of,,,Theme,privative,MWE: devoid_of,,,,I thought the UK was completely devoid |of| good NYC style pizza .
 ewtb.r.030875.3:16,to,,,Experiencer,home to,MWE: home_to,,,,"Their location , the northwest corner of S. 10th & Federal Sts. , is now home |to| Slice Pizza ."
 ewtb.r.187266.12:21,of,,,Theme,,MWE: made_a_point_of,,,,I rrly seek the cehf out to introduce myself -- but the second time we went -- i made a point |of| asking our wait person to introduce my friend and myself to the chef to tell him just how good our meals were .
 ewtb.r.396880.3:8,to,,,Theme,treat to,MWE: treat_to,,,,"We got there , and we were treated |to| the free "" upgrade "" of a room with two double beds ."
+ewtb.r.121342.8:6,of,,,Theme,privative,MWE: void_of,,,,"Everything was bland , completely void |of| any spice or flavor ."
 ewtb.r.079375.8:7,as long as,,,Duration,,not MWE. first AS: Duration~>Identity; 2nd AS: ComparisonRef,,,,I will never go to another vet |as| |long| |as| I have animals .
 ewtb.r.382073.3:14,of,OFF_OF,,Location,,OFF_OF,,,,"It 's located in the huge HONKA Log Homes building , by Walmart off |of| Evergreen Parkway ."
 ewtb.r.192399.1:1,with,,,ProfessionalAspect,EmployerAsAccompanier,OrgRole,Accompanier,,,Kyle |with| Bullwark
@@ -3312,11 +3316,9 @@ ewtb.r.187266.4:15,by,,,Stimulus,,Stimulus,Causer,,,She was dead on -- this rest
 ewtb.r.275140.1:4,by,,,Stimulus,,Stimulus,Causer,,,I 'm really surprised |by| the negative reviews .
 ewtb.r.290594.4:8,by,,,Stimulus,,Stimulus,Causer,,,"I 've toured this place and was impressed |by| how clean the place was , and all the options for the dogs ."
 ewtb.r.313825.4:15,by,,,Stimulus,,Stimulus,Causer,,,The manager - Tiffany - is actually very nice so I 'm a bit surprised |by| other comments .
-ewtb.r.133981.8:3,of,,,Stimulus,(“Our unit” is the Stimulus),Manner,Topic,,,Our unit reeks |of| old cigarette smoke and it started to become apparent a few weeks after we moved in .
 ewtb.r.326649.5:2,at,,,Goal,look at,Stimulus,Direction,,,I look |at| some of these other comments & laugh because people think that the world revolves around them !
 ewtb.r.333672.3:14,at,,,Goal,look at,Stimulus,Direction,,,The sales men were very knowledgeable about every aspect of every car we looked |at| .
 ewtb.r.376503.2:37,at,,,Goal,look at,Stimulus,Direction,,,"Liberty construction shows up and it 's two guys ... all I get is 100 % sales pitch "" We 're the best ... we 're number 50 so we must be doing something right ... look |at| all these certificates that say we 're great "" ."
-ewtb.r.181771.6:22,for,,,Stimulus,,Stimulus,Direction,,,"We got to talking and he got me set up and I test drove with Craig and I fell head over heels |for| this car all I kept saying , "" was I got ta have it ! """
 ewtb.r.043020.8:19,at,,,Stimulus,,Stimulus,Direction,,,We then called the office and the man we spoke to said he 'd send someone out to look |at| it but could n't promise when - two weeks came and went and we heard nothing .
 ewtb.r.079375.2:13,at,,,Stimulus,,Stimulus,Direction,,,I recently took a rescue puppy to this Clinic and I was SHOCKED |at| how well Romeo and My family was treated .
 ewtb.r.101398.2:12,at,,,Stimulus,,Stimulus,Direction,,,The Bad : I was at Napa recently and was unpleasantly surprised |at| poor waiter svce and subpar food .
@@ -3326,6 +3328,7 @@ ewtb.r.181748.6:23,at,,,Stimulus,,Stimulus,Direction,,,"Essentially , I told him
 ewtb.r.290594.7:6,at,,,Stimulus,,Stimulus,Direction,,,Workers who do these introductions look |at| the interaction objectively ; and it 's good to see they are able and willing to say no if they feel there would be a problem .
 ewtb.r.319816.2:12,at,,,Stimulus,,Stimulus,Direction,,,"After happily visiting Sear's Automotives in the past , I was shocked |at| the horrible service received at their Greensboro location ."
 ewtb.r.323449.6:8,at,,,Stimulus,,Stimulus,Direction,,,"I was not impressed , and quite frustrated |at| their lack of rating for their courses ."
+ewtb.r.181771.6:22,for,,,Stimulus,,Stimulus,Direction,,,"We got to talking and he got me set up and I test drove with Craig and I fell head over heels |for| this car all I kept saying , "" was I got ta have it ! """
 ewtb.r.042012.6:8,for,,,Stimulus,,Stimulus,Explanation,,,I will 4 - ever be eternally grateful |for| their hospitality and luv that my Sicilian family showed me when I was there for 3 years .
 ewtb.r.270502.5:4,for,,,Stimulus,,Stimulus,Explanation,,,I 'm really thankful |for| the folks at HR Office .
 ewtb.r.022273.2:7,to,,,Beneficiary,attentive/attention to,Stimulus,Goal,,,But the servers do n't pay attention |to| you whether it 's busy or not .
@@ -3470,8 +3473,6 @@ ewtb.r.260640.3:13,to,,,Purpose,pay/charge,Theme,Purpose,,,She basically said if
 ewtb.r.349020.8:17,to,,,Purpose,pay/charge,Theme,Purpose,,,They told me that this is not under warranty and want to charge me $ 175 just |to| diagnose the problem !
 ewtb.r.349020.9:9,to,,,Purpose,pay/charge,Theme,Purpose,,,Who knows how much they want me to pay |to| fix this thing .
 ewtb.r.333243.5:23,to,,,Purpose,pay/charge to,Theme,Purpose,,,"I expected to pay for this service , but imagine my surprise when I received a bill for MORE than what I paid |to| have the original return prepared ."
-ewtb.r.116821.3:7,of,,,Theme,privative,MWE: devoid_of,,,,I thought the UK was completely devoid |of| good NYC style pizza .
-ewtb.r.121342.8:6,of,,,Theme,privative,MWE: void_of,,,,"Everything was bland , completely void |of| any spice or flavor ."
 ewtb.r.083459.2:9,between,,,Comparison/Contrast,decide BETWEEN,Theme,Whole,,,"Went there yesterday : we are trying to decide |between| two different Honda models , so we wanted to test - drive both back to back ."
 ewtb.r.186284.5:21,between,,,Comparison/Contrast,difference BETWEEN,Theme,Whole,,,"She is so talented , the flowers were arranged superbly and delicately , it is so obvious to see the difference |between| someone fully trained and skilled compared to others ."
 ewtb.r.122882.6:2,for,,,Theme,$COST for,Theme,,,,$ 80 |for| a dish that has about one small lobster tail and is full of filler vegetables !
@@ -3622,7 +3623,7 @@ ewtb.r.363685.7:8,with,,,Theme,help with,Theme,,,,"In other words , they do not 
 ewtb.r.262441.1:35,with,,,Theme,provide with,Theme,,,,"I phoned this company for advice on our office refurb and although we did not use them in the end ( as our building contractor carried out the electrical work ) , they provided me |with| plenty of useful information over an hour phone call and subsequently we are now using PJC as our electrical maintenance contractor ."
 ewtb.r.053248.1:1,with,,,Theme,quit with,Theme,,,,Quit |with| the overstatements !
 ewtb.r.017345.4:8,with,,,Theme,riddled with,Theme,,,,Flipped the square over and saw it riddled |with| green mold !!!!
-ewtb.r.135800.11:8,with,,,Theme,s.t. wrong with,Theme,,,,"They also claimed not to see anything wrong |with| the blower fan ( a seperate issue ) , but when I drove the car home I had the same symptoms ."
+ewtb.r.135800.11:8,with,,,Theme,s.t. wrong with,Theme,MWE: wrong~with,,,"They also claimed not to see anything wrong |with| the blower fan ( a seperate issue ) , but when I drove the car home I had the same symptoms ."
 ewtb.r.022533.6:8,with,,,Theme,waste time with,Theme,,,,I do n't want to waste my time |with| them .
 ewtb.r.280844.7:16,with,,,Theme,,Theme,,,,The sessions were nice and I felt relaxed after them but did not notice any changes |with| my cycles .
 ewtb.r.358063.3:7,like a human being,,,Comparison/Contrast,TreatAs,Theme; NOT MWE,ComparisonRef,,,Staff is very friendly they treat you |like| |a| |human| |being| and not just another patient .
@@ -3661,13 +3662,13 @@ ewtb.r.236648.2:7,in,,,Duration,,Time,Interval,,,Walked in and was out ta there 
 ewtb.r.319816.19:6,within,,,DeicticTime,achievement-preparation,Time,Interval,,,"They promised it 'd be done |within| an hour , so I waited in the lobby ."
 ewtb.r.326112.2:6,within,,,DeicticTime,achievement-preparation,Time,Interval,,,"I rang SRD PAT testing and |within| 3 hours Scot had come to my premises and PAT tested all my our Spill The Whisky barn dance band equipment , and supplied a certificate for only 70 p per unit ."
 ewtb.r.043020.5:0,Within,,,DeicticTime,,Time,Interval,,,|Within| a week we noticed one of the boards on our gate splitting where a nail had gone in .
+ewtb.r.225861.4:4,at times,,,Time,,Time,MWE: at~times,,,Okay our room was |at| |times| noisy but we were in a mega busy city at an extremely busy time of year .
+ewtb.r.163703.2:10,at the last minute,,,Time,,Time,MWE: only last_minute,,,Cheap Hotel Rome - thanks for finding us a hotel |at| |the| |last| |minute| .
 ewtb.r.276689.4:11,at night,,,Time,,Time,not MWE,,,I 'm a single female and I feel safe coming home |at| |night| .
 ewtb.r.006970.9:0,At one point,,,Time,,Time,not MWE,,,"|At| |one| |point| they told me the dog had been fixed , the next day it had n't ."
 ewtb.r.043020.14:4,at this point,,,Time,,Time,not MWE,,,I 'm very frustrated |at| |this| |point| - it would take all of 10 min for them to come by and replace the one board that is cracked ( the crack is deep enough to stick a penny in it and it goes clear through ) yet they do not want to take the time to bother with what once WAS a happy customer and has now become a dissatisfied customer .
 ewtb.r.103519.3:5,at this point,,,Time,,Time,not MWE,,,Like I 'm legitimately concerned |at| |this| |point| ... lol
 ewtb.r.319816.16:8,at which point,,,Time,,Time,not MWE,,,"So I pointed this out to him , |at| |which| |point| he said they only had one of the correct tires in stock ."
-ewtb.r.163703.2:10,at the last minute,,,Time,,Time,MWE: only last_minute,,,Cheap Hotel Rome - thanks for finding us a hotel |at| |the| |last| |minute| .
-ewtb.r.225861.4:4,at times,,,Time,,Time,MWE: at~times,,,Okay our room was |at| |times| noisy but we were in a mega busy city at an extremely busy time of year .
 ewtb.r.018548.13:3,between,,,RelativeTime,,Time,Whole,,,This was back |between| '05 and '09 and I do n't remember how many times we 've had it delivered .
 ewtb.r.221664.2:17,of,,,Whole,ContainingTimePeriod,Time,Whole,,,"I brought a car in to have the "" check engine "" light diagnosed back in March |of| 2010 ."
 ewtb.r.225861.2:13,of,,,Whole,ContainingTimePeriod,Time,Whole,,,My daughter and I stayed here again from the 7th to the 14th |of| December .
@@ -4248,4 +4249,3 @@ ewtb.r.354336.2:26,of,,,Superset,,Whole,,,,"This French born , French trained ch
 ewtb.r.360698.3:9,of,,,Superset,,Whole,,,,"And , I can say , this was one |of| my favorite places to eat in all of Richmond ."
 ewtb.r.043020.9:34,of,,,Whole,,Whole,,,,"I just called again and was told that workmanship , not wood , is guaranteed for a year - well in my opinion - the wood split due to a nail which is part |of| workmanship !"
 ewtb.r.170650.6:4,of,,,Whole,,Whole,,,,"At the front door |of| his office , I nearly turned around ."
-ewtb.r.338429.10:3,from,,,Location,across from,,,,,The apartment across |from| mine belonged to a gang of hookers .
