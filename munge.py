@@ -18,8 +18,8 @@ acceptible_labels = ['Circumstance', 'Temporal', 'Time', 'StartTime', 'EndTime',
 
 # I edited the files to make the column names consistent
 files = ['psst-tokens_genitive.ablodgett.csv',
-         'psst-tokens-revisions_2017-11-06.csv',
-         'allbacktick-tokens-revisions_2017-11-06.csv']
+         'psst-tokens-revisions.csv',
+         'allbacktick-tokens-revisions.csv']
 
 for f in files:
     with open(f, 'r', encoding='utf8') as csvfile:
