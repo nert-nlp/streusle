@@ -275,10 +275,10 @@ ewtb.r.388799.3:0,Everything,`,`o,,,,"|Everything| we ordered was prepared to pe
 ewtb.r.391012.8:8,everything,`,`o,,,,Be warned - they 'll ltake you for |everything| they can .
 ewtb.r.095040.2:1,first - time,`,not MWE?,,,,"As |first| |-| |time| home buyers , my husband and I found Stephanie Fairchild at Prudential Steamboat Realty , extremely helpful ."
 ewtb.r.192737.2:8,first class,`,`j,,,,"Nigel from Nidd Design has always provided a |first| |class| service , from his advice and professionalism to the quality of his design drawings and planning applications ."
-ewtb.r.093655.5:5,for,`,TODO,,,,It took over 1.5 hours |for| our food to come out and by that time my 8 month old had it !
-ewtb.r.187266.10:6,for,`,TODO,,,,The affordable rent makes it possible |for| an inspired chef to serve his high quality fare at affordable prices !
-ewtb.r.257296.5:5,for,`,TODO,,,,It is a great course |for| local golfers to be proud of and all the comments in 2008 have been very positive !!
-ewtb.r.290594.13:18,for,`,TODO,,,,"My dogs are far from perfect , and one of them I believe would be a little much |for| daycare here herself ( at least initially ) ."
+ewtb.r.093655.5:5,for,`,`i,,,,It took over 1.5 hours |for| our food to come out and by that time my 8 month old had it !
+ewtb.r.187266.10:6,for,`,`i,,,,The affordable rent makes it possible |for| an inspired chef to serve his high quality fare at affordable prices !
+ewtb.r.257296.5:5,for,`,`i,,,,It is a great course |for| local golfers to be proud of and all the comments in 2008 have been very positive !!
+ewtb.r.290594.13:18,for,`,ComparisonRef,Purpose,,,"My dogs are far from perfect , and one of them I believe would be a little much |for| daycare here herself ( at least initially ) ."
 ewtb.r.181748.10:0,For instance,`,,,,,"|For| |instance| I asked who owned Mazda and he said with confidence that was GM , which is n't true ."
 ewtb.r.358702.4:20,full - time,`,,,,,I also understand that weekend staffs are different than daytime staffs and not necessarily Starbucks A - team or even |full| |-| |time| .
 ewtb.r.079827.2:3,gem,`,,,,,What a neat |gem| of a restaurant in a corner one would n't expect it .
@@ -415,8 +415,8 @@ ewtb.r.006970.1:10,nothing,`,nothing_but: Part/Portion,,,,Wife and I attempted t
 ewtb.r.190256.6:3,nothing,`,nothing_but: Part/Portion,,,,We have had |nothing| but compliments on our bathroom when guest come over - who would have guessed that one ?
 ewtb.r.008585.2:23,of,`,Whole,,,,I was recently traveling down I - 24 from Nashville with my 3 young children and had a blowout on the southeast side |of| Murfreesboro .
 ewtb.r.314024.1:0,Old time,`,`j,,,,"|Old| |time| grocery , best steaks I have ever had !"
-ewtb.r.158335.3:7,on,`,TODO,,,,"The neon lighting sign still said "" |on| "" yet some guy who seemed to be the oldest of the bunch , more like the drunkest of the bunch told me they 'd be open tomorrow ."
-ewtb.r.153921.4:5,on the side,`,TODO,,,,It can be a little |on| |the| spicy |side| but just ask them exactly what you want and they are very helpful .
+ewtb.r.158335.3:7,on,`,,,,,"The neon lighting sign still said "" |on| "" yet some guy who seemed to be the oldest of the bunch , more like the drunkest of the bunch told me they 'd be open tomorrow ."
+ewtb.r.153921.4:5,on the side,`,Manner,Locus,,,It can be a little |on| |the| spicy |side| but just ask them exactly what you want and they are very helpful .
 ewtb.r.117115.13:7,one,`,`o,,,,"I rarely write reviews such as this |one| , but they certainly deserve anyone 's business !"
 ewtb.r.135010.3:4,one,`,`o,,,,Do we need another |one| ?
 ewtb.r.148971.17:60,one,`,`o,,,,"If you want a doctor who will lie to you and say he will operate and then change his mind , and not know what he is talking about when he recommends procedures at other hospitals and says they are what you need , when they will not work for you , go to this doctor ... he is the |one| for you ."
@@ -459,13 +459,13 @@ ewtb.r.160073.19:0,PS,`,`d,,,,"|PS| I have noticed on here that someone left a c
 ewtb.r.205014.6:0,PS.,`,`d,,,,|PS.| Love the new website !
 ewtb.r.187266.10:14,quality,`,`n,,,,The affordable rent makes it possible for an inspired chef to serve his high |quality| fare at affordable prices !
 ewtb.r.317846.4:7,quick on feet,`,`j,,,,"Best of all , the staff is |quick| |on| their |feet| and even with long lines , usually serve you in 5 minutes or less ."
-ewtb.r.319816.6:14,quite a bit,`,,,,,"Once I returned to pick up my car , you can believe I spent |quite| |a| |bit| MORE time standing around waiting ."
-ewtb.r.120335.4:29,return,`,,,,,"They offer sales that are n't really sales , mislabeled items that make the item sound like a good deal when it is n't , a bad attitude about |return| items , and on and on ."
+ewtb.r.319816.6:14,quite a bit,`,break MWE: quite~a_bit,,,,"Once I returned to pick up my car , you can believe I spent |quite| |a| |bit| MORE time standing around waiting ."
+ewtb.r.120335.4:29,return,`,POSSESSION,,,,"They offer sales that are n't really sales , mislabeled items that make the item sound like a good deal when it is n't , a bad attitude about |return| items , and on and on ."
 ewtb.r.121556.7:17,right off the bat,`,"""right"" weakly connected to MWE",,,,"Holly is very experienced and talented , and I could tell she new what she was doing |right| |off| |the| |bat| ."
 ewtb.r.015573.4:1,right to face,`,“right” not part of MWE,,,,Lied |right| |to| my |face| then denied it .
 ewtb.r.081934.1:1,Rocks,`,,,,,Liquidweb.com |Rocks| !!!
 ewtb.r.164580.6:13,sad face,`,,,,,Now I have to be in the area to get some lovin' : |sad| |face| :
-ewtb.r.116821.15:16,scrummy yummy,`,,,,,"They might want to change the name to reflect the new yorkedness of the pizza , |scrummy| |yummy| sounds gimmicky to me ."
+ewtb.r.116821.15:16,scrummy yummy,`,COMMUNICATION,,,,"They might want to change the name to reflect the new yorkedness of the pizza , |scrummy| |yummy| sounds gimmicky to me ."
 ewtb.r.186235.1:15,set up,`,`n,,,,"wow , the representative went way above and beyond in helping me with my account |set| |up| ."
 ewtb.r.217542.3:11,SHIT,`,MWE?,,,,ANYWAY WE DRIVE AROUND IN MY VAN AND SOLVE MYSTERYS AND |SHIT|
 ewtb.r.034813.3:22,signature,`,`j,,,,"This place is awesome , with a great ambiance and cool decor , and the food is scrumptious ( and especially their |signature| banana split ) ."
@@ -523,16 +523,16 @@ ewtb.r.323449.8:22,something,`,`o,,,,"I do n't want to waste my time on routes s
 ewtb.r.336049.4:38,something,`,`o,,,,"Very frustrating for a restaurant that has 1 rosette and is supposedly renowned for the service ... hmm There was no canape's or amuse to keep us occupied , once we complained about the wait they took us |something| to nibble on but that took us getting out our chairs and wondering round to do that and it was impossible to get anyone s attention ."
 ewtb.r.376503.2:33,something,`,`o,,,,"Liberty construction shows up and it 's two guys ... all I get is 100 % sales pitch "" We 're the best ... we 're number 50 so we must be doing |something| right ... look at all these certificates that say we 're great "" ."
 ewtb.r.377347.11:11,something,`,`o,,,,"By the way , Salmagundi ( the store name ) means |something| like smorgasbord ; potpourri ; motley ; variety ; mixed bag ; miscellaneous assortment ; mixture , a variety of many kinds of things ."
-ewtb.r.241108.1:0,STAY AWAY,`,,,,,|STAY| |AWAY|
-ewtb.r.054798.3:9,straight edge,`,,,,,Who can pass up a hot towel and a |straight| |edge| neck shave !
-ewtb.r.047184.3:5,studios,`,,,,,The new Centre has 4 |studios| planned and now boasts the largest single dance floor area in Kingston upon Hull .
+ewtb.r.241108.1:0,STAY AWAY,`,stative,,,,|STAY| |AWAY|
+ewtb.r.054798.3:9,straight edge,`,ARTIFACT,,,,Who can pass up a hot towel and a |straight| |edge| neck shave !
+ewtb.r.047184.3:5,studios,`,ARTIFACT,,,,The new Centre has 4 |studios| planned and now boasts the largest single dance floor area in Kingston upon Hull .
 ewtb.r.302465.4:9,stuff,`,,,,,"It 's a nice , relaxed place to get |stuff| done and relax ."
 ewtb.r.200566.1:3,SUCKS,`,,,,,THE TEACHING THERE |SUCKS| !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-ewtb.r.059416.2:4,surprise,`,,,,,I recently threw a |surprise| birthday party for my wife at Fraiser 's .
-ewtb.r.111583.2:3,sweet as pie,`,,,,,The nurses are |sweet| |as| |pie| and the doctor is wonderful .
-ewtb.r.063963.3:1,taking into account,`,,,,,"Even |taking| |into| |account| the fact that my 3 year old wanted to run most of the way round , it took us just over one hour start to finish ."
-ewtb.r.100592.5:6,thaks,`,,,,,thanks guys goes really well and |thaks| 4 the cheap price ..
-ewtb.r.219262.8:4,thank,`,,,,,My family and I |thank| you !!!!!!!!!!
+ewtb.r.059416.2:4,surprise,`,EVENT,,,,I recently threw a |surprise| birthday party for my wife at Fraiser 's .
+ewtb.r.111583.2:3,sweet as pie,`,`j,,,,The nurses are |sweet| |as| |pie| and the doctor is wonderful .
+ewtb.r.063963.3:1,taking into account,`,cognition,,,,"Even |taking| |into| |account| the fact that my 3 year old wanted to run most of the way round , it took us just over one hour start to finish ."
+ewtb.r.100592.5:6,thaks,`,`d,,,,thanks guys goes really well and |thaks| 4 the cheap price ..
+ewtb.r.219262.8:4,thank,`,communication,,,,My family and I |thank| you !!!!!!!!!!
 ewtb.r.380048.6:0,Thank - You,`,`d,,,,|Thank| |-| |You| for sharing your cottage !
 ewtb.r.039856.7:0,Thank god,`,`d,,,,|Thank| |god| there are plenty of Toyota dealerships to choose from in this city .
 ewtb.r.002317.3:0,thank you,`,`d,,,,|thank| |you|
@@ -654,8 +654,8 @@ ewtb.r.377347.3:11,things,`,,,,,I could have stayed all day and not seen all the
 ewtb.r.377347.4:10,things,`,,,,,I am doing origami jewelry and found exactly the right |things| for earrings and got many other ideas there too .
 ewtb.r.398243.4:4,things,`,,,,,I had hear great |things| about Phet and G&G Automotive so I decided to give him a try .
 ewtb.r.272836.5:0,THX,`,`d,,,,|THX| :-)
-ewtb.r.120724.1:4,to,`,`r,,,,it was a little |to| high dollar for me
 ewtb.r.068009.2:8,to,`,`i,,,,Dallas Criminal Attorney Peter Barrett is absolutely committed |to| vigorously supporting your rights and achieving a successful outcome .
+ewtb.r.120724.1:4,to,`,`r,,,,it was a little |to| high dollar for me
 ewtb.r.371300.5:7,to go,`,Manner,,,,I was told to take my coffee |to| |go| if I wanted to finish it .
 ewtb.r.009596.3:10,too,`,`r,,,,"The salespeople are never available , the lines are always |too| long , and all the people want is a sale ."
 ewtb.r.363428.4:1,too much trouble,`,,,,,"Nothing |too| |much| |trouble| for Ian , thanks for a great stay ."
@@ -2089,13 +2089,20 @@ ewtb.r.063963.2:12,to be honest,`d,,,,,"I took my 3 year old son here at the wee
 ewtb.r.231203.6:17,to begin with,`d,,,,,"However , the bartenders / waitresses definately need to be re-trained ( if they ever had any |to| |begin| |with| ) and learn two things : only chat with customers when other customers are not impatiently waiting and to look around more often to see if people are waiting ."
 ewtb.r.003418.12:18,to boot,`d,,,,,"Not only am I being bilked for money I do not owe , the office staff is rude |to| |boot| ."
 ewtb.r.120335.5:5,to boot,`d,,,,,With higher than average prices |to| |boot| !
-ewtb.r.268673.3:0,To my surprise,`d,,,,,|To| |my| |surprise| $ 20 deposit .... New movies not on shelf .. under the counter for Telugu Speaking people only ... or people who spend $ 30 or more groceries ..
+ewtb.r.268673.3:0,To my surprise,`d,Goal,,,,|To| |my| |surprise| $ 20 deposit .... New movies not on shelf .. under the counter for Telugu Speaking people only ... or people who spend $ 30 or more groceries ..
 ewtb.r.324337.2:3,to start off with,`d,,,,,"Their service sucks |to| |start| |off| |with| , people are cruel and ignorant ."
 ewtb.r.235576.3:0,Without a doubt,`d,,,,,|Without| |a| |doubt| the best place to grab a tall bloody mary and some eggs benedict .
 ewtb.r.263830.3:4,to,`i,??,,,,I enjoyed very much |to| study here .
 ewtb.r.009596.5:5,to,`i,Characteristic,Purpose,,,Is there no other Verizon |to| go to around Downtown / Dupont Circle 1?!?!?
 ewtb.r.211933.3:17,to,`i,Characteristic,Purpose,,,"He listens and is excellent in diagnosing , addressing and explaining the specific issues and suggesting exercises |to| use ."
 ewtb.r.141103.3:10,to,`i,charge,,,,What you get is a $ 13 / day charge |to| access the internet through a slow 512 / 512 kb / s that you can only use to check email etc ( Read : No downloading ) .
+ewtb.r.043020.14:34,to,`i,ComparisonRef,Purpose,R:enough,,I 'm very frustrated at this point - it would take all of 10 min for them to come by and replace the one board that is cracked ( the crack is deep enough |to| stick a penny in it and it goes clear through ) yet they do not want to take the time to bother with what once WAS a happy customer and has now become a dissatisfied customer .
+ewtb.r.048363.7:19,to,`i,ComparisonRef,Purpose,R:enough,,I had to cancel my initial lesson 4 times and on the 5th attempt the management was quick enough |to| associate my cancellations with my fear and finally encouraged me into taking my initial lesson .
+ewtb.r.053248.7:13,to,`i,ComparisonRef,Purpose,R:enough,,"Though they are mostly excellent , you generally do n't get enough forkfuls |to| know if you really love them ."
+ewtb.r.112579.5:9,to,`i,ComparisonRef,Purpose,R:enough,,They do n't speak the best English but enough |to| get by .
+ewtb.r.308297.3:14,to,`i,ComparisonRef,Purpose,R:enough,,"They offer a good portions at a great price , it 's enough food |to| fill you up , but you do n't ever feel like you ate too much ."
+ewtb.r.342811.13:25,to,`i,ComparisonRef,Purpose,R:too,,"The staff was friendly , especially the front desk female supervisor , and seemed to want to help , but too many unusual things happened |to| make us want to stay there again ."
+ewtb.r.345182.17:9,to,`i,ComparisonRef,Purpose; typo: first “to” should be too,R:too,,There are to many people that need our business |to| have to put up with this unfair treatment !!!!!
 ewtb.r.317846.6:3,to,`i,get_to_know: `v,,,,The staff get |to| know regulars and do their job very well .
 ewtb.r.006970.5:10,to,`i,Goal,,,,They gave me the run around and missing paperwork only |to| call back to tell me someone else wanted her and I would need to come in and put down a deposit .
 ewtb.r.036133.9:10,to,`i,Goal,,,,"Then one day , Ahmed left the country , not |to| return for months , WITHOUT informing me ."
@@ -2104,6 +2111,7 @@ ewtb.r.160073.6:14,to,`i,had_to: `a,,,,We just happen to stumble across this lit
 ewtb.r.181748.7:17,to,`i,had_to: `a,,,,"I do n't know if the kid had a bad day or what , but I had |to| sit and apologize about nothing for 10 minutes until he dropped the issue ."
 ewtb.r.235423.11:2,to,`i,had_to: `a,,,,We had |to| throw out about 80 percent of our meals because the food tasted so horrible .
 ewtb.r.018548.7:13,to,`i,have_to: `a,,,,"it usually takes 20 mins for a mezza luna , as they have |to| add pure delicious extract to the mix ."
+ewtb.r.133981.3:13,to,`i,have_yet_to: `a,,,,"Our bathroom fan , one electric outlet and 2 leaky sinks have yet |to| be fixed ."
 ewtb.r.094621.4:15,to,`i,pay/charge,,,,The second vendor charged $ 55 ( less than half of what A&E charges ) |to| come and applied that to the price of the repair service ( which A&E does not ) .
 ewtb.r.247226.4:15,to,`i,pay/charge,,,,You have to bring in your own models and they have to pay for you |to| use them if you do nt then you can graduate !
 ewtb.r.162253.2:4,to,`i,Purpose,,V:use,,I used my card |to| purchase a meal on the menu and the total on my receipt was $ 8.95 but when I went on line to check my transaction it show $ 10.74 .
@@ -2276,19 +2284,12 @@ ewtb.r.135010.6:10,to,`i,,,not-to-be-Xed,,The arancini di riso ( risotto fritter
 ewtb.r.376320.6:10,to,`i,,,not-to-mention,,"I found the hotel to be amazingly clean , not |to| mention very well adorned with many pleasant surprises ."
 ewtb.r.039856.7:8,to,`i,,,NQ:plenty,,Thank god there are plenty of Toyota dealerships |to| choose from in this city .
 ewtb.r.093655.7:25,to,`i,,,ORDINAL,,"I was a waitress for years and a key rule is to serve customers with small children before others , as I was the last |to| get my food ."
-ewtb.r.043020.14:34,to,`i,,,R:enough,,I 'm very frustrated at this point - it would take all of 10 min for them to come by and replace the one board that is cracked ( the crack is deep enough |to| stick a penny in it and it goes clear through ) yet they do not want to take the time to bother with what once WAS a happy customer and has now become a dissatisfied customer .
-ewtb.r.048363.7:19,to,`i,,,R:enough,,I had to cancel my initial lesson 4 times and on the 5th attempt the management was quick enough |to| associate my cancellations with my fear and finally encouraged me into taking my initial lesson .
-ewtb.r.053248.7:13,to,`i,,,R:enough,,"Though they are mostly excellent , you generally do n't get enough forkfuls |to| know if you really love them ."
-ewtb.r.112579.5:9,to,`i,,,R:enough,,They do n't speak the best English but enough |to| get by .
-ewtb.r.308297.3:14,to,`i,,,R:enough,,"They offer a good portions at a great price , it 's enough food |to| fill you up , but you do n't ever feel like you ate too much ."
 ewtb.r.068436.7:9,to,`i,,,R:how,,"Do n't go , or you will learn how |to| waste your money ."
 ewtb.r.120992.1:8,to,`i,,,R:how,,"Holly - the owner , knows exactly how |to| make you feel beautiful in clothes ."
 ewtb.r.181771.8:14,to,`i,,,R:how,,Jeff and Craig are really good at what they do and know exactly how |to| treat a customer .
 ewtb.r.194153.1:14,to,`i,,,R:how,,"Barb does an AMAZING JOB , she is always learning new things on how |to| use her hands and body , to give every person an AWESOME MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL IN LOVE SHE IS THE BEST OF THE BEST !"
 ewtb.r.333243.6:13,to,`i,,,R:how,,"Asked why , Rod simply told me that he had to research how |to| do the amendment ( it was an amended to show that I had purchased a home - nothing out of the ordinary , one would think ) and that took time to figure out ."
 ewtb.r.385281.2:38,to,`i,,,R:how,,"I 'm 22 , and my hairdresser was great ( and not "" old "" like one of the reviews says ) - she really listened to what I wanted and gave me tons of tips on how |to| style my hair so I could get it to look the way I wanted it to ."
-ewtb.r.342811.13:25,to,`i,,,R:too,,"The staff was friendly , especially the front desk female supervisor , and seemed to want to help , but too many unusual things happened |to| make us want to stay there again ."
-ewtb.r.345182.17:9,to,`i,,typo: first “to” should be too,R:too,,There are to many people that need our business |to| have to put up with this unfair treatment !!!!!
 ewtb.r.235190.2:24,to,`i,,,R:where,,"Believe it or not , but the channel guide has been most helpful to my family members that visit and do n't know where |to| start when it comes to watching satellite tv ."
 ewtb.r.256677.4:4,to,`i,,,R:where,,I know now where |to| get all of my wine and beer .
 ewtb.r.121342.5:0,To,`i,,,to-start,,"|To| start we tried the guacamole and salsa verde , it was completly flavorless ."
@@ -2359,7 +2360,6 @@ ewtb.r.255261.10:13,to,`i,,,V:forget,,Great for the kiddies - they love the laby
 ewtb.r.294081.7:17,TO,`i,,,V:forget,,IT S NOT A BIG DEAL BUT I HAD TO TAKE MY SALAD HOME BECAUSE THEY FORGOT |TO| BRING IT .
 ewtb.r.385281.2:47,to,`i,,,V:get,,"I 'm 22 , and my hairdresser was great ( and not "" old "" like one of the reviews says ) - she really listened to what I wanted and gave me tons of tips on how to style my hair so I could get it |to| look the way I wanted it to ."
 ewtb.r.396874.2:14,to,`i,,,V:get,,I spent 3 months going from shop to shop trying to get my Ferrari |to| run and drive the way it should .
-ewtb.r.133981.3:13,to,`i,,,V:have_yet,,"Our bathroom fan , one electric outlet and 2 leaky sinks have yet |to| be fixed ."
 ewtb.r.346960.6:4,to,`i,,,V:have-time,,"If I had time |to| drive to Tacoma before they closed during the work week , I would just so I could get those boots fixed properly again ."
 ewtb.r.371300.3:6,to,`i,,,V:have-time,,You wo n't even have time |to| read the entire menu before being asked to order and if you ask for more time your server will wait at the table .
 ewtb.r.389498.3:31,to,`i,,,V:have-time,,Today I went into Kwik Kar and there were two cars in front of me for inspection ... but I was still out of there pretty quick ... barely had time |to| read a chapter in my book .
@@ -2658,7 +2658,7 @@ ewtb.r.235423.3:2,stunk,`j,,,,,The service |stunk| .
 ewtb.r.187266.5:7,surprised,`j,,,,,I can tell you we were pleasantly |surprised| -- BT has taste memory and each time back the food was consistently delicious -- same dishes -- were consistent .
 ewtb.r.024306.1:1,Tasting,`j,,,,,Worst |Tasting| Pizza
 ewtb.r.024306.2:5,tasting,`j,,,,,This place had the worst |tasting| pizza I have ever tasted it was possible the worst food I 've ever eaten .
-ewtb.r.295727.5:10,to,`j,,,,,He called the next day to see if everything was |to| my satisfaction .
+ewtb.r.295727.5:10,to,`j,Goal,,,,He called the next day to see if everything was |to| my satisfaction .
 ewtb.r.345182.13:5,to bad,`j,,,,,She told me that was |to| |bad| she would do nothing to help me since she could not use or resell the piece .
 ewtb.r.329991.3:17,to go,`j,,,,,"I was very happy with the customer service and even more please with the portion size , |to| |go| box set up and quality of the food for the price ."
 ewtb.r.229410.11:8,to show for,`j,,,,,This company is way too expensive with nothing |to| |show| |for| it .
