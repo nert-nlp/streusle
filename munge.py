@@ -38,7 +38,7 @@ for f in files:
         reader = csv.DictReader(csvfile)
         for row in reader:
             # we need id, token_index, v2_scene, v2_func
-            tmp = row['token ID']
+            tmp = row['sent ID']
             id = tmp[:tmp.index(':')] # sentence id
             token_index = int(tmp[tmp.index(':')+1:]) + 1 # indices of preposition (may be more than one token; sst format indices start at 1) 
            
@@ -53,16 +53,43 @@ for f in files:
             print(id + ' ' + prep + ' ' + v2)
             
             # edit json
-            # example: str(t)='5', prep_token='around', v2='Locus'
+            # example: str(token_index)='5', prep_token='around', v2='Locus'
             prep_token = row['token'].split()[0] # just the first token of multiword prepositions
             # if token not in 'labels', add it
-            if not str(t) in jsons[id]['labels']:
-                jsons[id]['labels'][str(t)] = [prep_token, v2]
+            if not str(token_index) in jsons[id]['labels']:
+                jsons[id]['labels'][str(token_index)] = [prep_token, v2]
             else:
-                jsons[id]['labels'][str(t)][1] = v2
-            print(jsons[id]['labels'][str(t)])
+                jsons[id]['labels'][str(token_index)][1] = v2
+            print(jsons[id]['labels'][str(token_index)])
 
 # write streusle.sst
-with open('streusle_v4.sst','w+') as tsv:
+with open('streusle_v4_test.sst','w+') as tsv:
     for id in sorted(token_ids):
         tsv.write(id+'\t'+sents[id]+'\t'+json.dumps(jsons[id])+'\n')
+end
+
+
+# example input
+# ewtb.r.001325.2\t
+# My 8 year_old daughter loves this place .\t
+# {"labels":
+# {"8": ["place", "LOCATION"],
+# "3": ["year", "PERSON"],
+# "5": ["daughter", "PERSON"],
+# "6": ["loves", "emotion"]},
+# "_": [[3, 4]],
+# "words": [["My", "PRP$"], ["8", "CD"], ["year", "NN"], ["old", "JJ"], ["daughter", "NN"], ["loves", "VBZ"], ["this", "DT"], ["place", "NN"], [".", "."]],
+# "~": []}
+
+
+# example output
+# ewtb.r.001325.2\t
+# My 8 year_old daughter loves this place .\t
+# {"labels":
+# {"6": ["loves", "emotion"],
+# "5": ["daughter", "PERSON"],
+# "8": ["place", "LOCATION"],
+# "1": ["My", "SocialRel|Possessor"],
+# "3": ["year", "PERSON"]},
+# "words": [["My", "PRP$"], ["8", "CD"], ["year", "NN"], ["old", "JJ"], ["daughter", "NN"], ["loves", "VBZ"], ["this", "DT"], ["place", "NN"], [".", "."]],
+# "_": [[3, 4]], "~": []}
