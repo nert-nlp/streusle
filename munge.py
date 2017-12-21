@@ -1,5 +1,17 @@
 import csv, json, os
-os.chdir('C:\\Users\\Austin\\Desktop')
+
+# example sentence in sst
+# ewtb.r.001325.3\t
+# The best climbing club around .\t
+# {"_": [],
+# "labels":
+# {"5": ["around", "Locus"],
+# "4": ["club", "GROUP"],
+# "3": ["climbing", "ACT"]},
+# "~": [],
+# "words":
+# [["The", "DT"], ["best", "JJS"], ["climbing", "NN"], ["club", "NN"], ["around", "RB"], [".", "."]]}
+
 
 token_ids = set()
 jsons = {}
@@ -25,27 +37,32 @@ for f in files:
     with open(f, 'r', encoding='utf8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
+            # we need id, token_index, v2_scene, v2_func
             tmp = row['token ID']
             id = tmp[:tmp.index(':')] # sentence id
-            length = len(row['token'].split())
-            start = int(tmp[tmp.index(':')+1:]) + 1 # sst format indices start at 1
-            tokens = range(start, start+length) # indices of preposition (may be more than one token)
+            token_index = int(tmp[tmp.index(':')+1:]) + 1 # indices of preposition (may be more than one token; sst format indices start at 1) 
+           
             v2_scene = row['v2 Scene Role']
             v2_func = row['v2 Prep Function']
-            v2 = v2_scene+'|'+v2_func if len(v2_func)>0 else v2_scene
+            v2 = v2_scene+'|'+v2_func if len(v2_func)>0 else v2_scene # scene|function, e.g., Locus|Source
             prep = row['token']
-            if not v2_scene in acceptible_labels: continue
+            
+            # skip non-standard labels
+            if not v2_scene in acceptible_labels: continue 
+            
             print(id + ' ' + prep + ' ' + v2)
+            
             # edit json
-            for i,t in enumerate(tokens):
-                # if token missing, add it
-                if not str(t) in jsons[id]['labels']:
-                    jsons[id]['labels'][str(t)] = [row['token'].split()[i], v2]
-                print(jsons[id]['labels'][str(t)])
+            # example: str(t)='5', prep_token='around', v2='Locus'
+            prep_token = row['token'].split()[0] # just the first token of multiword prepositions
+            # if token not in 'labels', add it
+            if not str(t) in jsons[id]['labels']:
+                jsons[id]['labels'][str(t)] = [prep_token, v2]
+            else:
                 jsons[id]['labels'][str(t)][1] = v2
-                print(jsons[id]['labels'][str(t)])
+            print(jsons[id]['labels'][str(t)])
 
-# read streusle.sst
+# write streusle.sst
 with open('streusle_v4.sst','w+') as tsv:
     for id in sorted(token_ids):
         tsv.write(id+'\t'+sents[id]+'\t'+json.dumps(jsons[id])+'\n')
