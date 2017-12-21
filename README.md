@@ -4,4 +4,6 @@ This branch contains scripts and files used to prepare the 4.0 release. Most wil
 DO NOT MERGE with master.
 
 The dev branch of the UD_English repository is included as a submodule. 
-This is for use by STREUSLE packaging scripts and should not be a submodule of the master branch.
+This is so the STREUSLE packaging scripts can use the not-to-release/sources/reviews 
+directory to obtain UD trees (including up-to-date lemmas).
+It should not be a submodule of the master branch.
