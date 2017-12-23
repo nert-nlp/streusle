@@ -11,9 +11,9 @@ import csv, json, os
 # "~": [],
 # "words":
 # [["The", "DT"], ["best", "JJS"], ["climbing", "NN"], ["club", "NN"], ["around", "RB"], [".", "."]]}
+from collections import OrderedDict
 
-
-token_ids = set()
+token_ids = []
 jsons = {}
 sents = {}
 
@@ -22,9 +22,9 @@ with open('streusle_v3.sst','r') as tsv:
     for line in tsv:
         row = line.split('\t')
         print( row )
-        token_ids.add(row[0])
+        token_ids.append(row[0])
         sents[row[0]] = row[1]
-        jsons[row[0]] = json.loads(row[2])
+        jsons[row[0]] = json.loads(row[2], object_pairs_hook=OrderedDict) # use ordered dict to preserve key order
 
 acceptible_labels = ['Circumstance', 'Temporal', 'Time', 'StartTime', 'EndTime', 'DeicticTime', 'Frequency', 'Duration', 'Locus', 'Source', 'Goal', 'Path', 'Direction', 'Extent', 'Means', 'Manner', 'Explanation', 'Purpose', 'Causer', 'Agent', 'Co-Agent', 'Theme', 'Co-Theme', 'Topic', 'Stimulus', 'Experiencer', 'Originator', 'Recipient', 'Cost', 'Beneﬁciary', 'Instrument', 'Identity', 'Species', 'Gestalt', 'Possessor', 'Whole', 'Characteristic', 'Possession', 'Part/Portion', 'Stuff', 'Accompanier', 'InsteadOf', 'ComparisonRef', 'RateUnit', 'Quantity', 'Approximator', 'SocialRel', 'OrgRole']
 
@@ -55,18 +55,13 @@ for f in files:
             # edit json
             # example: str(token_index)='5', prep_token='around', v2='Locus'
             prep_token = row['token'].split()[0] # just the first token of multiword prepositions
-            # if token not in 'labels', add it
-            if not str(token_index) in jsons[id]['labels']:
-                jsons[id]['labels'][str(token_index)] = [prep_token, v2]
-            else:
-                jsons[id]['labels'][str(token_index)][1] = v2
+            jsons[id]['labels'][str(token_index)] = [prep_token, v2]
             print(jsons[id]['labels'][str(token_index)])
 
 # write streusle.sst
-with open('streusle_v4_test.sst','w+') as tsv:
-    for id in sorted(token_ids):
+with open('streusle_v4.sst','w+') as tsv:
+    for id in token_ids:
         tsv.write(id+'\t'+sents[id]+'\t'+json.dumps(jsons[id])+'\n')
-end
 
 
 # example input
