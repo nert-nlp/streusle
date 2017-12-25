@@ -1,4 +1,4 @@
-sent ID,token,v1,v2 Scene Role,v2 Prep Function,gov,note,
+,token,v1,v2 Scene Role,v2 Prep Function,gov,note,
 ewtb.r.187266.14:0,-,`,,,,,|-| R. Morris .
 ewtb.r.241855.4:15,-,`,,,,,Nothing compares to a home made product that really stands the test of time . |-|
 ewtb.r.363482.2:12,-,`,,,,,"How do you run a cafe , with no refills on coffee |-| ?"
@@ -286,11 +286,11 @@ ewtb.r.193257.1:0,Gets the Job Done,`,,,,,|Gets| |the| |Job| |Done|
 ewtb.r.255261.11:8,go to heck,`,,,,,Stop by at least once or you 'll |go| |to| |heck| !
 ewtb.r.036133.20:28,god forbid,`,,,,,"Point is : You might be able to get a good deal on some nice furniture -- which I did -- but they 're not very communicative and |god| |forbid| something goes wrong , you 'll have to fight to get it resolved ."
 ewtb.r.225632.5:3,good,`,,,,,All to the |good| .
-ewtb.r.085424.5:0,Good job,`,,,,,"|Good| |job| , Lake Forest Tots !"
+ewtb.r.085424.5:0,Good job,`,`d,,,,"|Good| |job| , Lake Forest Tots !"
 ewtb.r.365154.5:0,Good luck,`,`d,,,,|Good| |luck| keeping business with that stuck up attitude Dr. Shady .
 ewtb.r.255261.5:10,grandure,`,`n,,,,Go there on christian holidays for a bit of churchy |grandure| .
 ewtb.r.307170.2:0,Great,`,,,,,|Great| Limos company int he DFW fort Worth Metro area .
-ewtb.r.169610.2:11,great deal of,`,,,,,Mrs. Tolchin provided us with excellent service and came with a |great| |deal| |of| knowledge and professionalism !
+ewtb.r.169610.2:11,great deal of,`,MWE: a_great_deal of,,,,Mrs. Tolchin provided us with excellent service and came with a |great| |deal| |of| knowledge and professionalism !
 ewtb.r.158335.6:0,grey,`,,,,,"|grey| shirt "" mark "" of course with this type behavior he could have been wearing someon else s clothing ....."
 ewtb.r.008585.8:31,guy,`,,,,,"It 's without a doubt , the best service experience I 've ever had and just to be clear , the price he charged me was the same as my tire |guy| in Nashville 's price for putting on the other rear tire ."
 ewtb.r.061768.3:2,guy,`,,,,,"The one |guy| who was there , I 'm guessing was the owner , was probably the least helpful person I 've ever met ."
@@ -306,8 +306,8 @@ ewtb.r.090136.4:0,Hands - down,`,,,,,|Hands| |-| |down| the best pasta and gnocc
 ewtb.r.090643.3:4,hands down,`,,,,,I would recommend it |hands| |down| and am a loyal customer .
 ewtb.r.355325.5:0,Hands down,`,,,,,"|Hands| |down| , best place in the area !"
 ewtb.r.388799.5:8,hands down,`,,,,,"Then the desserts came , and they were |hands| |down| the best dessert we ever had ."
-ewtb.r.107608.3:25,hands on,`,,,,,"The team who work there are helpfull , friendly and extremely knowledgeable and will help you as much as they can with thier years of |hands| |on| practice ."
-ewtb.r.037179.2:30,happy new year,`,,,,,"this kebab shop is one of the best around the meat is good and fresh and the chilly sauce is the best , keep them lovely kebabs coming and a |happy| |new| |year| to all the staff"
+ewtb.r.107608.3:25,hands on,`,`j,,,,"The team who work there are helpfull , friendly and extremely knowledgeable and will help you as much as they can with thier years of |hands| |on| practice ."
+ewtb.r.037179.2:30,happy new year,`,`d,,,,"this kebab shop is one of the best around the meat is good and fresh and the chilly sauce is the best , keep them lovely kebabs coming and a |happy| |new| |year| to all the staff"
 ewtb.r.371300.7:7,have fun,`,,,,,"Plus the drinks are self service , |have| |fun| trying to negotiate the small cafeteria space to get your coffee , juice or water ."
 ewtb.r.181771.6:19,head over heels,`,,,,,"We got to talking and he got me set up and I test drove with Craig and I fell |head| |over| |heels| for this car all I kept saying , "" was I got ta have it ! """
 ewtb.r.048363.9:1,heart pounded,`,,,,,My |heart| |pounded| as I walked down and pounded even faster upon seeing Gerry in an SUV - Lexus !
@@ -464,7 +464,7 @@ ewtb.r.120335.4:29,return,`,POSSESSION,,,,"They offer sales that are n't really 
 ewtb.r.121556.7:17,right off the bat,`,"""right"" weakly connected to MWE",,,,"Holly is very experienced and talented , and I could tell she new what she was doing |right| |off| |the| |bat| ."
 ewtb.r.015573.4:1,right to face,`,“right” not part of MWE,,,,Lied |right| |to| my |face| then denied it .
 ewtb.r.081934.1:1,Rocks,`,,,,,Liquidweb.com |Rocks| !!!
-ewtb.r.164580.6:13,sad face,`,,,,,Now I have to be in the area to get some lovin' : |sad| |face| :
+ewtb.r.164580.6:13,sad face,`,`d,,,,Now I have to be in the area to get some lovin' : |sad| |face| :
 ewtb.r.116821.15:16,scrummy yummy,`,COMMUNICATION,,,,"They might want to change the name to reflect the new yorkedness of the pizza , |scrummy| |yummy| sounds gimmicky to me ."
 ewtb.r.186235.1:15,set up,`,`n,,,,"wow , the representative went way above and beyond in helping me with my account |set| |up| ."
 ewtb.r.217542.3:11,SHIT,`,MWE?,,,,ANYWAY WE DRIVE AROUND IN MY VAN AND SOLVE MYSTERYS AND |SHIT|
