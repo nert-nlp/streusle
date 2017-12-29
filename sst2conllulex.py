@@ -13,6 +13,7 @@ REVIEWSDIR = 'UD_English/not-to-release/sources/reviews'
 import fileinput, json, re, sys
 
 from lexcatter import compute_lexcat
+from tagging import sent_tags
 
 sentSSTData = []
 docids = set()
@@ -82,6 +83,7 @@ for sentid, udsentid, mweMarkup, data in sentSSTData:
     smweGroupToks = {}
     lexLemmas = {}
     wmweGroup = {}
+    wmweGroupToks = {}
     wLemmas = {}
     i = 1
     for i,sg in enumerate(data["_"], 1):
@@ -90,11 +92,17 @@ for sentid, udsentid, mweMarkup, data in sentSSTData:
             smweGroup[o] = f'{i}:{j}'
             smweGroupToks[o] = sg
         lexLemmas[sg[0]] = ' '.join(udLemmas[j-1] for j in sg)
-    for h,wg in enumerate(data["_"], i+1):
+    for h,wg in enumerate(data["~"], i+1):
         for j,o in enumerate(wg, 1):
             assert o not in wmweGroup
             wmweGroup[o] = f'{h}:{j}'
+            wmweGroupToks[o] = wg
         wLemmas[wg[0]] = ' '.join(udLemmas[j-1] for j in wg)
+
+    tagging = sent_tags(len(data["words"]), mweMarkup,
+                        set(map(tuple,smweGroupToks.values())),
+                        set(map(tuple,wmweGroupToks.values())))
+
     for ln in udTokLines:
         tokNum, form, lemma, upos, xpos, feats, head, deprel, deps, misc = ln.split('\t')
         if re.match(r'^\d+$', tokNum):
@@ -144,7 +152,19 @@ for sentid, udsentid, mweMarkup, data in sentSSTData:
                             ss = '_'    # most backtick labels redundant with lexcat
                 ss1 = ss
                 ss2 = '_'
-            fulllextag = '_'    # TODO
+
+            tag = tagging[offset0]
+            fulllextag = tag
+
+            if lexcat!='_':
+                fulllextag += '-'+lexcat
+            if ss1!='_':
+                fulllextag += '-'+ss1
+                if ss2!='_' and ss2!=ss1:
+                    fulllextag += '|'+ss2
+            if wcat!='_':
+                fulllextag += '+'+wcat
+
             newFields = [smwe, lexcat, lexlemma, ss1, ss2, wmwe, wcat, wlemma, fulllextag]
             print(ln + '\t' + '\t'.join(newFields))
         else:   # an ellipsis node, e.g. 10.1
