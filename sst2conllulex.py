@@ -87,13 +87,13 @@ for sentid, udsentid, mweMarkup, data in sorted(sentSSTData, key=lambda x: x[1])
     wLemmas = {}
     i = 1
     for i,sg in enumerate(data["_"], 1):
-        for j,o in enumerate(sg, 1):
+        for j,o in enumerate(sorted(sg), 1):
             assert o not in smweGroup
             smweGroup[o] = f'{i}:{j}'
             smweGroupToks[o] = sg
         lexLemmas[sg[0]] = ' '.join(udLemmas[j-1] for j in sg)
     for h,wg in enumerate(data["~"], i+1):
-        for j,o in enumerate(wg, 1):
+        for j,o in enumerate(sorted(wg), 1):
             assert o not in wmweGroup
             wmweGroup[o] = f'{h}:{j}'
             wmweGroupToks[o] = wg
