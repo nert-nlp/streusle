@@ -72,7 +72,7 @@ for docid in docids:
 
 N_NEW_COLS = 9
 
-for sentid, udsentid, mweMarkup, data in sentSSTData:
+for sentid, udsentid, mweMarkup, data in sorted(sentSSTData, key=lambda x: x[1]):
     data["wmwecat"] = []   # no weak MWE syntactic categories in this release
     udMetaLines, udTokLines, udLemmas, poses, rels = ud[udsentid]
     for ln in udMetaLines:
@@ -115,7 +115,7 @@ for sentid, udsentid, mweMarkup, data in sentSSTData:
                 print(data["words"][offset0], [form, xpos], file=sys.stderr)
             # TODO: if data["lemmas"]: assert data["lemmas"][offset0] == lemma
             smwe = smweGroup.get(tokNum, '_')
-            lexlemma = lexLemmas.get(tokNum, '_')
+            lexlemma = lexLemmas.get(tokNum, lemma)
             wmwe = wmweGroup.get(tokNum, '_')
             wlemma = wLemmas.get(tokNum, '_')
             #lexcat = data["lexcat"].get(str(tokNum), '_') # TODO: is lexcat ever manually specified, or always inferred from UD + MWE annotations?
