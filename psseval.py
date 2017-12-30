@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import os, sys, fileinput, re, json
+import os, sys, fileinput, re, json, argparse
 from collections import defaultdict, Counter
 
 from conllulex2json import load_sents
@@ -22,11 +22,6 @@ Options: [-j] [-k PRECISION_RANK] [-d MAX_HIERARCHY_DEPTH] streusle.conllulex SY
 def f1(prec, rec):
     return 2*prec*rec/(prec+rec) if (prec+rec)>0 else float('nan')
 
-# TODO: proper argument parser
-
-
-
-
 def compare_sets_PRF(gold, pred):
     c = Counter()
     c['correct'] = len(gold & pred)
@@ -45,16 +40,16 @@ def compare_sets_Acc(gold, pred):
     c['incorrect'] = len(gold - pred)
     return c
 
-def eval_sys(sysFP):
-    goldid = sysFP.endswith('.goldid.conllulex')
-    if not goldid and not sysFP.endswith('.autoid.conllulex'):
-        raise ValueError(f'File path of system output not specified for gold vs. auto identification of units to be labeled: {sysFP}')
+def eval_sys(sysF, gold_sents):
+    goldid = sysF.name.endswith('.goldid.conllulex')
+    if not goldid and not sysF.name.endswith('.autoid.conllulex'):
+        raise ValueError(f'File path of system output not specified for gold vs. auto identification of units to be labeled: {sysF.name}')
 
     compare_sets = compare_sets_Acc if goldid else compare_sets_PRF
 
     scores = {'All': defaultdict(Counter), 'MWE': defaultdict(Counter), 'MWP': defaultdict(Counter)}
 
-    for iSent,syssent in enumerate(load_sents(fileinput.input(sysFP))):
+    for iSent,syssent in enumerate(load_sents(sysF)):
         sent = gold_sents[iSent]
         assert sent['sent_id']==syssent['sent_id']
 
@@ -129,16 +124,22 @@ def to_tsv(all_sys_scores):
             print()
         print()
 
-def main(filepaths):
-    goldpath, *syspaths = filepaths
-    global gold_sents
-    gold_sents = list(load_sents(fileinput.input(goldpath)))
+def to_json(all_sys_scores):
+    print(json.dumps(all_sys_scores))
+
+def main(args):
+    goldF = args.goldfile
+    sysFs = args.sysfile
+
+    # Load gold data
+    gold_sents = list(load_sents(goldF))
     for sent in gold_sents:
         sent['punits'] = {tuple(e['toknums']): (e['lexcat'], e['ss'], e['ss2']) for e in list(sent['swes'].values())+list(sent['smwes'].values()) if e['ss'] and e['ss'].startswith('p.')}
 
     all_sys_scores = {}
-    for syspath in syspaths:
-        sysscores = eval_sys(syspath)
+    for sysF in sysFs:
+        sysscores = eval_sys(sysF, gold_sents)
+        syspath = sysF.name
         basename = syspath[:-len('.goldid.conllulex')]
         if basename not in all_sys_scores:
             all_sys_scores[basename] = [defaultdict(lambda: defaultdict(Counter)),defaultdict(lambda: defaultdict(Counter))]
@@ -147,7 +148,21 @@ def main(filepaths):
         else:
             all_sys_scores[basename][1] = sysscores
 
-    to_tsv(all_sys_scores)
+    # Print output
+    args.output_format(all_sys_scores)
 
 if __name__=='__main__':
-    main(sys.argv[1:])
+    parser = argparse.ArgumentParser(description='Evaluate system output for preposition supersense disambiguation against a gold standard.')
+    parser.add_argument('goldfile', type=argparse.FileType('r'),
+                        help='gold standard .conllulex file')
+    parser.add_argument('sysfile', type=argparse.FileType('r'), nargs='+',
+                        help='system prediction file: BASENAME.goldid.conllulex or BASENAME.autoid.conllulex')
+    # parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
+    #                     help='depth of hierarchy at which to cluster supersense labels (default: 4, i.e. no collapsing)')
+    # parser.add_argument('--prec-rank', metavar='K', type=int, default=1,
+    #                     help='precision@k rank (default: 1)')
+    parser.add_argument('--json', dest='output_format', action='store_const', const=to_json, default=to_tsv,
+                        help='output as JSON (default: output as TSV)')
+
+    args = parser.parse_args()
+    main(args)
