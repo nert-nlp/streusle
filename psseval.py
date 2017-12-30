@@ -7,13 +7,13 @@ from conllulex2json import load_sents
 
 """
 Evaluation script for adposition supersense disambiguation (also includes possessives).
-With -j, outputs result as JSON; otherwise outputs a TSV file for viewing in a spreadsheet editor.
-The first argument is the gold standard; subsequent arguments are system outputs,
+With --json, outputs result as JSON; otherwise outputs a TSV file for viewing in a spreadsheet editor.
+The first positional argument is the gold standard; subsequent arguments are system outputs,
 and each of these must have a filename of the form BASENAME.goldid.conllulex
 or BASENAME.autoid.conllulex
 Sentences must be in the same order in all files.
 
-Options: [-j] [-k PRECISION_RANK] [-d MAX_HIERARCHY_DEPTH] streusle.conllulex SYS1NAME.(gold|auto)id.conllulex ...
+Invoke with -h to see command-line options.
 
 @author: Nathan Schneider (@nschneid)
 @since: 2017-12-29
