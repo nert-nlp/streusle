@@ -13,7 +13,7 @@ and each of these must have a filename of the form BASENAME.goldid.conllulex
 or BASENAME.autoid.conllulex
 Sentences must be in the same order in all files.
 
-Options: [-j] [-k PRECISION_RANK] [-d MAX_HIERARCHY_DEPTH] streusle.conllulex SYS1NAME.goldid.conllulex SYS1NAME.autoid.conllulex ...
+Options: [-j] [-k PRECISION_RANK] [-d MAX_HIERARCHY_DEPTH] streusle.conllulex SYS1NAME.(gold|auto)id.conllulex ...
 
 @author: Nathan Schneider (@nschneid)
 @since: 2017-12-29
@@ -22,8 +22,7 @@ Options: [-j] [-k PRECISION_RANK] [-d MAX_HIERARCHY_DEPTH] streusle.conllulex SY
 def f1(prec, rec):
     return 2*prec*rec/(prec+rec) if (prec+rec)>0 else float('nan')
 
-# TODO: proper argument parser, multiple systems
-# TODO: ignore ??
+# TODO: proper argument parser
 
 
 
@@ -131,7 +130,7 @@ def to_tsv(all_sys_scores):
             for criterion in ('ID', 'Role', 'Fxn', 'Role,Fxn'):
                 prf = aidscores[k][criterion]
                 print(f'{prf["P"]}\t{prf["R"]}\t{prf["F"]}\t', end='\t')
-        print()
+            print()
         print()
 
 def main(filepaths):
