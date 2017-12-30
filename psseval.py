@@ -34,9 +34,6 @@ def compare_sets_PRF(gold, pred):
     c['extra'] = len(pred - gold)
     c['Pdenom'] = len(pred)
     c['Rdenom'] = len(gold)
-    # c['P'] = c['correct'] / c['Pdenom']
-    # c['R'] = c['correct'] / c['Rdenom']
-    # c['F'] = f1(c['P'], c['R'])
     return c
 
 def compare_sets_Acc(gold, pred):
@@ -46,7 +43,6 @@ def compare_sets_Acc(gold, pred):
     c['correct'] = len(gold & pred)
     assert len(gold - pred)==len(pred - gold)
     c['incorrect'] = len(gold - pred)
-    # c['Acc'] = c['correct'] / c['N']
     return c
 
 def eval_sys(sysFP):
