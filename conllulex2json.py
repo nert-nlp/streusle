@@ -11,13 +11,19 @@ If the script is called directly, outputs the data as JSON.
 @since: 2017-12-29
 """
 
-def load_sents(inF, morph_syn=False, misc=False):
+def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
     """Given a .conllulex file, return an iterator over sentences.
 
     @param morph_syn: Whether to include CoNLL-U morphological features
     and syntactic dependency relations. POS tags and lemmas are always included.
     @param misc: Whether to include the CoNLL-U miscellaneous column.
+    @param ss_mapper: A function to apply to supersense labels to replace them
+    in the returned data structure. Applies to all supersense labels (nouns,
+    verbs, prepositions). Not applied if the supersense slot is empty.
     """
+
+    if ss_mapper is None:
+        ss_mapper = lambda ss: ss
 
     sent = {}
     for ln in inF:
@@ -79,8 +85,8 @@ def load_sents(inF, morph_syn=False, misc=False):
                         sent['smwes'][smwe_group]['lexlemma'] = tok['lexlemma']
                         assert tok['lexcat'] and tok['lexcat']!='_'
                         sent['smwes'][smwe_group]['lexcat'] = tok['lexcat']
-                        sent['smwes'][smwe_group]['ss'] = tok['ss'] if tok['ss']!='_' else None
-                        sent['smwes'][smwe_group]['ss2'] = tok['ss2'] if tok['ss2']!='_' else None
+                        sent['smwes'][smwe_group]['ss'] = ss_mapper(tok['ss']) if tok['ss']!='_' else None
+                        sent['smwes'][smwe_group]['ss2'] = ss_mapper(tok['ss2']) if tok['ss2']!='_' else None
                     else:
                         assert ' ' not in tok['lexlemma']
                         assert tok['lexcat']=='_'
@@ -90,8 +96,8 @@ def load_sents(inF, morph_syn=False, misc=False):
                     sent['swes'][tokNum]['lexlemma'] = tok['lexlemma']
                     assert tok['lexcat'] and tok['lexcat']!='_'
                     sent['swes'][tokNum]['lexcat'] = tok['lexcat']
-                    sent['swes'][tokNum]['ss'] = tok['ss'] if tok['ss']!='_' else None
-                    sent['swes'][tokNum]['ss2'] = tok['ss2'] if tok['ss2']!='_' else None
+                    sent['swes'][tokNum]['ss'] = ss_mapper(tok['ss']) if tok['ss']!='_' else None
+                    sent['swes'][tokNum]['ss2'] = ss_mapper(tok['ss2']) if tok['ss2']!='_' else None
                     sent['swes'][tokNum]['toknums'] = [tokNum]
                 del tok['lexlemma']
                 del tok['lexcat']

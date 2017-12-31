@@ -4,6 +4,7 @@ import os, sys, fileinput, re, json, argparse
 from collections import defaultdict, Counter
 
 from conllulex2json import load_sents
+from supersenses import coarsen_pss
 
 """
 Evaluation script for adposition supersense disambiguation (also includes possessives).
@@ -40,7 +41,7 @@ def compare_sets_Acc(gold, pred):
     c['incorrect'] = len(gold - pred)
     return c
 
-def eval_sys(sysF, gold_sents):
+def eval_sys(sysF, gold_sents, ss_mapper):
     goldid = sysF.name.endswith('.goldid.conllulex')
     if not goldid and not sysF.name.endswith('.autoid.conllulex'):
         raise ValueError(f'File path of system output not specified for gold vs. auto identification of units to be labeled: {sysF.name}')
@@ -49,7 +50,7 @@ def eval_sys(sysF, gold_sents):
 
     scores = {'All': defaultdict(Counter), 'MWE': defaultdict(Counter), 'MWP': defaultdict(Counter)}
 
-    for iSent,syssent in enumerate(load_sents(sysF)):
+    for iSent,syssent in enumerate(load_sents(sysF, ss_mapper=ss_mapper)):
         sent = gold_sents[iSent]
         assert sent['sent_id']==syssent['sent_id']
 
@@ -131,14 +132,16 @@ def main(args):
     goldF = args.goldfile
     sysFs = args.sysfile
 
+    ss_mapper = lambda ss: coarsen_pss(ss, args.depth) if ss.startswith('p.') else ss
+
     # Load gold data
-    gold_sents = list(load_sents(goldF))
+    gold_sents = list(load_sents(goldF, ss_mapper=ss_mapper))
     for sent in gold_sents:
         sent['punits'] = {tuple(e['toknums']): (e['lexcat'], e['ss'], e['ss2']) for e in list(sent['swes'].values())+list(sent['smwes'].values()) if e['ss'] and e['ss'].startswith('p.')}
 
     all_sys_scores = {}
     for sysF in sysFs:
-        sysscores = eval_sys(sysF, gold_sents)
+        sysscores = eval_sys(sysF, gold_sents, ss_mapper)
         syspath = sysF.name
         basename = syspath[:-len('.goldid.conllulex')]
         if basename not in all_sys_scores:
@@ -157,8 +160,8 @@ if __name__=='__main__':
                         help='gold standard .conllulex file')
     parser.add_argument('sysfile', type=argparse.FileType('r'), nargs='+',
                         help='system prediction file: BASENAME.goldid.conllulex or BASENAME.autoid.conllulex')
-    # parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
-    #                     help='depth of hierarchy at which to cluster supersense labels (default: 4, i.e. no collapsing)')
+    parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
+                        help='depth of hierarchy at which to cluster supersense labels (default: 4, i.e. no collapsing)')
     # parser.add_argument('--prec-rank', metavar='K', type=int, default=1,
     #                     help='precision@k rank (default: 1)')
     parser.add_argument('--json', dest='output_format', action='store_const', const=to_json, default=to_tsv,
