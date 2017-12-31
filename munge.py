@@ -61,6 +61,8 @@ for f in files:
 # write streusle.sst
 with open('streusle_v4.sst','w+') as tsv:
     for id in token_ids:
+        # sort labels by token offset
+        jsons[id]['labels'] = {k: jsons[id]['labels'][k] for k in sorted(jsons[id]['labels'], key=lambda k: int(k))}
         tsv.write(id+'\t'+sents[id]+'\t'+json.dumps(jsons[id])+'\n')
 
 
