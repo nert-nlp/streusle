@@ -92,14 +92,16 @@ for sentid, udsentid, mweMarkup, data in sorted(sentSSTData, key=lambda x: x[1])
             assert o not in smweGroup
             smweGroup[o] = f'{i}:{j}'
             smweGroupToks[o] = sg
-        lexLemmas[sg[0]] = ' '.join(udLemmas[j-1] for j in sg)
+            lexLemmas[o] = '_'  # lexlemma for strong MWE should be _
+        lexLemmas[sg[0]] = ' '.join(udLemmas[j-1] for j in sg)  # ...except the first token
     for h,wg in enumerate(data["~"], i+1):
         wg = sorted(wg)
         for j,o in enumerate(wg, 1):
             assert o not in wmweGroup
             wmweGroup[o] = f'{h}:{j}'
             wmweGroupToks[o] = wg
-        wLemmas[wg[0]] = ' '.join(udLemmas[j-1] for j in wg)
+            wLemmas[o] = '_'    # wlemma for MWE tokens should be _
+        wLemmas[wg[0]] = ' '.join(udLemmas[j-1] for j in wg)    # ...except the first token
 
     tagging = sent_tags(len(data["words"]), mweMarkup,
                         set(map(tuple,smweGroupToks.values())),
