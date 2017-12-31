@@ -1,4 +1,4 @@
-import csv, json, os
+import csv, json, os, sys
 
 # example sentence in sst
 # ewtb.r.001325.3\t
@@ -13,11 +13,14 @@ import csv, json, os
 # [["The", "DT"], ["best", "JJS"], ["climbing", "NN"], ["club", "NN"], ["around", "RB"], [".", "."]]}
 from collections import OrderedDict
 
-from supersenses import PSS
+from supersenses import PSS, PSS_REMOVED
 
 token_ids = []
 jsons = {}
 sents = {}
+
+invalid_labels = set()
+modified_tokens = set()
 
 # read streusle.sst
 with open('streusle_v3.sst','r') as tsv:
@@ -38,7 +41,7 @@ for f in files:
         reader = csv.DictReader(csvfile)
         for row in reader:
             # we need id, token_index, v2_scene, v2_func
-            tmp = row['sent ID']
+            tmp = row['sent ID']    # token id
             id = tmp[:tmp.index(':')] # sentence id
             token_index = int(tmp[tmp.index(':')+1:]) + 1 # indices of preposition (may be more than one token; sst format indices start at 1) 
            
@@ -46,9 +49,23 @@ for f in files:
             v2_func = row['v2 Prep Function']
             v2 = v2_scene+'|'+v2_func if len(v2_func)>0 else v2_scene # scene|function, e.g., Locus|Source
             prep = row['token']
-            
+
+            if tmp in modified_tokens:
+                other_label = jsons[id]["labels"][str(token_index)][1]
+                if not v2 or other_label==v2: continue
+                print(f'Token {tmp} appears in {f} with label "{v2}" as well as another file with label "{other_label}"', file=sys.stderr)
+                
+            modified_tokens.add(tmp)
+
+            if v2_scene in PSS_REMOVED or v2_func in PSS_REMOVED:
+                print(f'v1 label on token {tmp} in {f}: {v2}', file=sys.stderr)
             # skip non-standard labels
-            if 'p.'+v2_scene not in PSS: continue 
+            if 'p.'+v2_scene not in PSS:
+                invalid_labels.add(v2_scene)
+                continue 
+            elif v2_func and 'p.'+v2_func not in PSS:
+                invalid_labels.add(v2_func)
+                continue
             
             print(id + ' ' + prep + ' ' + v2)
             
@@ -65,6 +82,7 @@ with open('streusle_v4.sst','w+') as tsv:
         jsons[id]['labels'] = {k: jsons[id]['labels'][k] for k in sorted(jsons[id]['labels'], key=lambda k: int(k))}
         tsv.write(id+'\t'+sents[id]+'\t'+json.dumps(jsons[id])+'\n')
 
+print(invalid_labels, file=sys.stderr)
 
 # example input
 # ewtb.r.001325.2\t
