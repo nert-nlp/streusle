@@ -15,6 +15,8 @@ from collections import OrderedDict
 
 from supersenses import PSS, PSS_REMOVED
 
+SPECIAL_LABELS = {'`', '`a', '`c', '`d', '`i', '`j', '`n', '`o', '`r', '`v', '`$', '??'}
+
 token_ids = []
 jsons = {}
 sents = {}
@@ -60,7 +62,7 @@ for f in files:
             if v2_scene in PSS_REMOVED or v2_func in PSS_REMOVED:
                 print(f'v1 label on token {tmp} in {f}: {v2}', file=sys.stderr)
             # skip non-standard labels
-            if 'p.'+v2_scene not in PSS:
+            if 'p.'+v2_scene not in PSS and v2_scene not in SPECIAL_LABELS:
                 invalid_labels.add(v2_scene)
                 continue 
             elif v2_func and 'p.'+v2_func not in PSS:
