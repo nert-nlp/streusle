@@ -13,6 +13,8 @@ import csv, json, os
 # [["The", "DT"], ["best", "JJS"], ["climbing", "NN"], ["club", "NN"], ["around", "RB"], [".", "."]]}
 from collections import OrderedDict
 
+from supersenses import PSS
+
 token_ids = []
 jsons = {}
 sents = {}
@@ -25,8 +27,6 @@ with open('streusle_v3.sst','r') as tsv:
         token_ids.append(row[0])
         sents[row[0]] = row[1]
         jsons[row[0]] = json.loads(row[2], object_pairs_hook=OrderedDict) # use ordered dict to preserve key order
-
-acceptible_labels = ['Circumstance', 'Temporal', 'Time', 'StartTime', 'EndTime', 'DeicticTime', 'Frequency', 'Duration', 'Locus', 'Source', 'Goal', 'Path', 'Direction', 'Extent', 'Means', 'Manner', 'Explanation', 'Purpose', 'Causer', 'Agent', 'Co-Agent', 'Theme', 'Co-Theme', 'Topic', 'Stimulus', 'Experiencer', 'Originator', 'Recipient', 'Cost', 'Beneﬁciary', 'Instrument', 'Identity', 'Species', 'Gestalt', 'Possessor', 'Whole', 'Characteristic', 'Possession', 'Part/Portion', 'Stuff', 'Accompanier', 'InsteadOf', 'ComparisonRef', 'RateUnit', 'Quantity', 'Approximator', 'SocialRel', 'OrgRole']
 
 # I edited the files to make the column names consistent
 files = ['psst-tokens_genitive.ablodgett.csv',
@@ -48,7 +48,7 @@ for f in files:
             prep = row['token']
             
             # skip non-standard labels
-            if not v2_scene in acceptible_labels: continue 
+            if 'p.'+v2_scene not in PSS: continue 
             
             print(id + ' ' + prep + ' ' + v2)
             
