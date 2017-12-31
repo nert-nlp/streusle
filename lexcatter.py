@@ -10,7 +10,9 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
         `c    CCONJ
         `j    ADJ
         `r    ADV
+        `n    NOUN
         `o    PRON
+        `v    VERB
         `d    DISC
         `i    INF
         `a    AUX       (note: the UPOS should usually be AUX)
@@ -40,7 +42,7 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
         return '_'
 
     lc = {'`a': 'AUX', '`c': 'CCONJ', '`d': 'DISC', '`i': 'INF', '`j': 'ADJ',
-          '`o': 'PRON', '`r': 'ADV', '??': '??'}.get(ss)
+          '`n': 'NOUN', '`o': 'PRON', '`r': 'ADV', '`v': 'VERB', '??': '??'}.get(ss)
 
     if lc is not None: return lc
     if ss.isalpha() and ss.isupper(): return 'N'
@@ -67,6 +69,9 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
                 return 'DET'
             elif lexlemma in ('no one', 'every one', 'every thing', 'each other', 'some place'):
                 return 'PRON'
+        if upos=='AUX':
+            if lexlemma in ('might as well',):
+                return 'AUX'
 
         head,rel = rels[tokNum-1]
         if head in smweGroupToks:

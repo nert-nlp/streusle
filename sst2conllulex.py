@@ -133,7 +133,7 @@ for sentid, udsentid, mweMarkup, data in sorted(sentSSTData, key=lambda x: x[1])
 
             PSS = ('P','PP','INF.P','POSS','PRON.POSS')
             if '|' in ss:
-                assert lexcat in PSS,lexcat
+                assert lexcat in PSS,(lexcat,ss)
                 ss1, ss2 = ss.split('|')
                 ss1 = 'p.'+ss1
                 ss2 = 'p.'+ss2

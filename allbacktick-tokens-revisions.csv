@@ -143,7 +143,7 @@ ewtb.r.224117.1:1,all the way,`,,,,,Drove |all| |the| |way| over from the highwa
 ewtb.r.333243.6:21,amended,`,,,,,"Asked why , Rod simply told me that he had to research how to do the amendment ( it was an |amended| to show that I had purchased a home - nothing out of the ordinary , one would think ) and that took time to figure out ."
 ewtb.r.071518.8:17,an,`,determiner,,,,And it was great that they did not charge a service fee to diagnose the problem - |an| added bonus !!
 ewtb.r.131458.1:4,an,`,determiner,,,,Signs of Saltford - |an| excellent supplier of value for money signs and banners etc .
-ewtb.r.333672.6:7,as,`,??,Identity,,,They tried to run my credit score |as| less as possible so it wo n't hurt my score .
+ewtb.r.333672.6:7,as,`,??,,,,They tried to run my credit score |as| less as possible so it wo n't hurt my score .
 ewtb.r.054269.2:8,as,`,Approximator,Identity,,,"Compact 's Corona dryers remove at least twice |as| much water as the previous dryers , allowing a production increase of over 10 % and a significant energy saving ."
 ewtb.r.126171.6:4,as,`,Approximator,Identity,,,They want to squeeze |as| much as they can from you even if you just got in a car accident !!!!
 ewtb.r.232157.3:29,as,`,Approximator,Identity,,,"It was a great deal -- we paid a certain amount per person , and my husband and I chose 4 types of pizza and the servers brought out |as| much as we wanted ."
@@ -238,6 +238,7 @@ ewtb.r.122270.7:0,Everyone,`,`o,,,,|Everyone| was so helpful that I can not wait
 ewtb.r.180886.7:5,everyone,`,`o,,,,I would recommend him to |everyone| !
 ewtb.r.181771.3:25,everyone,`,`o,,,,I have never seen this car before until this lady at wal mart had it and she told me she got it here and that |everyone| was so nice to her .
 ewtb.r.202709.3:4,everyone,`,`o,,,,"I recommend you to |everyone| in Calgary , as she is a professional and the cost for her was low ."
+ewtb.r.217747.4:10,everyone,`,`o,,,,You company and services will be recommended by us to |everyone| .
 ewtb.r.229410.12:1,everyone,`,`o,,,,Please |everyone| .... take heed and do n't get caught up in the hype about DECOR and YOU working with every budget ...
 ewtb.r.294081.15:1,EVERYONE,`,`o,,,,BUT |EVERYONE| HAS THERE OWN WAY !!!!!!
 ewtb.r.331662.3:0,Everyone,`,`o,,,,|Everyone| can get the signature dish with ingredients and spices that they want and have the fun of watching it cook .
@@ -262,6 +263,7 @@ ewtb.r.160073.11:0,Everything,`,`o,,,,|Everything| is always cooked fresh and ta
 ewtb.r.160073.5:0,Everything,`,`o,,,,|Everything| we have gotten there has been more authentic and better tasting than any other Chinese restaurant in the San Antonio area we have been to -- and trust me we have been to a lot of them .
 ewtb.r.163250.2:9,everything,`,`o,,,,These people were so helpful this week and did |everything| to sort out my windscreen and insurance .
 ewtb.r.194830.3:12,everything,`,`o,,,,"Pets Discount has lovely employees , a wonderful grooming service , and |everything| I need to keep my dog in tip top condition !"
+ewtb.r.217747.3:2,everything,`,`o,,,,We love |everything| about the fence .
 ewtb.r.228944.3:6,everything,`,`o,,,,I have a Saab ... which |everything| is expensive on and they have been extrememly fair and price a lot lower than any other shop I called .
 ewtb.r.232157.5:14,everything,`,`o,,,,"We had a large party , about fifty people or so , and yet |everything| was served quickly and we all had a wonderful time ."
 ewtb.r.235423.10:13,everything,`,`o,,,,They were abrasive and rude - when they were the ones who messed |everything| up .
@@ -411,8 +413,8 @@ ewtb.r.345182.13:10,nothing,`,`o,,,,She told me that was to bad she would do |no
 ewtb.r.361348.7:2,nothing,`,`o,,,,This was |nothing| like New York style pizza !!!.
 ewtb.r.363428.4:0,Nothing,`,`o,,,,"|Nothing| too much trouble for Ian , thanks for a great stay ."
 ewtb.r.391012.7:12,nothing,`,`o,,,,I 've spoken to vendors who are used by them who had |nothing| good to say about the company as well and in fact were afraid to quote events against them even though they openly admitted that they felt Canadian Outback was pricing their entertainment out of the market and doing more to hurt their business than help them .
-ewtb.r.006970.1:10,nothing,`,nothing_but: Part/Portion,,,,Wife and I attempted to adopt a dog and was |nothing| but frustrating .
-ewtb.r.190256.6:3,nothing,`,nothing_but: Part/Portion,,,,We have had |nothing| but compliments on our bathroom when guest come over - who would have guessed that one ?
+ewtb.r.006970.1:10,nothing,`,Part/Portion,,,,Wife and I attempted to adopt a dog and was |nothing| but frustrating .
+ewtb.r.190256.6:3,nothing,`,Part/Portion,,,,We have had |nothing| but compliments on our bathroom when guest come over - who would have guessed that one ?
 ewtb.r.008585.2:23,of,`,Whole,,,,I was recently traveling down I - 24 from Nashville with my 3 young children and had a blowout on the southeast side |of| Murfreesboro .
 ewtb.r.314024.1:0,Old time,`,`j,,,,"|Old| |time| grocery , best steaks I have ever had !"
 ewtb.r.158335.3:7,on,`,,,,,"The neon lighting sign still said "" |on| "" yet some guy who seemed to be the oldest of the bunch , more like the drunkest of the bunch told me they 'd be open tomorrow ."
@@ -549,9 +551,7 @@ ewtb.r.170650.12:0,Thank you,`,`d,,,,"|Thank| |you| Doctor Gonzales , Doctor Sto
 ewtb.r.183518.14:0,Thank you,`,`d,,,,"|Thank| |you| , Bowtie !"
 ewtb.r.186284.6:0,Thank you,`,`d,,,,|Thank| |you| Ana I hope to see you in the future under better circumstances .
 ewtb.r.210875.4:0,Thank you,`,`d,,,,|Thank| |you| !
-ewtb.r.217747.2:1,Thank you,`,`d,,,,"|Thank| |you| so much for the superior job well done .
-ewtb.r.217747.3:2	everything	`	We love |everything| about the fence .
-ewtb.r.217747.4:10	everyone	`	You company and services will be recommended by us to |everyone| ."
+ewtb.r.217747.2:1,Thank you,`,`d,,,,|Thank| |you| so much for the superior job well done .
 ewtb.r.243369.4:0,Thank you,`,`d,,,,|Thank| |you| guys .
 ewtb.r.251774.1:0,Thank you,`,`d,,,,|Thank| |you| for helping me get more healthy !
 ewtb.r.251774.6:8,thank you,`,`d,,,,"Dr. Ruona , if you read this , |thank| |you| for helping me get more healthy ."
@@ -692,17 +692,17 @@ ewtb.r.170650.2:3,years old,`,,,,,I 'm 61 |years| |old| and have dental problems
 ewtb.r.398243.2:16,years old,`,,,,,"I typically have work done on my Jeep at the dealership , but it is 6 |years| |old| now and getting charged dealership prices just did n't seem cost effective anymore ."
 ewtb.r.043020.17:0,YOU GET WHAT YOU PAY FOR,`,,,,,|YOU| |GET| |WHAT| |YOU| |PAY| |FOR| !!!
 ewtb.r.396880.1:2,you get what you pay for,`,,,,,I guess |you| |get| |what| |you| |pay| |for| .
-ewtb.r.126134.2:3,her,`$,,,,,Doctor Bogomilsky knows |her| stuff too .
-ewtb.r.185045.8:2,his,`$,,,,,He knows |his| bees !
-ewtb.r.048363.16:7,my,`$,,,,,Here I am now driving confidently on |my| own .
-ewtb.r.063347.5:35,their,`$,,,,,"This is a busy group of hosts they are also running a restaurant , which also must be wonderful - so just ask for what you need , and I 'm sure they will do |their| best to be hospitable ."
-ewtb.r.080814.2:4,their,`$,,,,,These guys really know |their| stuff .. they have almost anything you could want in terms of spy and surviellance equipment .
-ewtb.r.317846.4:9,their,`$,,,,,"Best of all , the staff is quick on |their| feet and even with long lines , usually serve you in 5 minutes or less ."
-ewtb.r.109263.4:4,there,`$,,,,,I hope they get |there| act together ...
-ewtb.r.039383.2:26,your,`$,,,,,"Pros : * Jill , the owner , is very nice and really cares about her feedback * Pretty nice atmosphere * Great Dessert * Not |your| typical veggie selection , I like !"
-ewtb.r.137883.1:0,Your,`$,,,,,|Your| average crappy chain .
-ewtb.r.287454.1:3,your,`$,,,,,This is not |your| usual cheap hotdog place .
-ewtb.r.287454.4:3,your,`$,,,,,The atmosphere is |your| typical indie outfit with old movie posters and memorabilia from the 70's and 80's .
+ewtb.r.126134.2:3,her,`,`$,,,,Doctor Bogomilsky knows |her| stuff too .
+ewtb.r.185045.8:2,his,`,`$,,,,He knows |his| bees !
+ewtb.r.048363.16:7,my,`,`$,,,,Here I am now driving confidently on |my| own .
+ewtb.r.063347.5:35,their,`,`$,,,,"This is a busy group of hosts they are also running a restaurant , which also must be wonderful - so just ask for what you need , and I 'm sure they will do |their| best to be hospitable ."
+ewtb.r.080814.2:4,their,`,`$,,,,These guys really know |their| stuff .. they have almost anything you could want in terms of spy and surviellance equipment .
+ewtb.r.317846.4:9,their,`,`$,,,,"Best of all , the staff is quick on |their| feet and even with long lines , usually serve you in 5 minutes or less ."
+ewtb.r.109263.4:4,there,`,`$,,,,I hope they get |there| act together ...
+ewtb.r.039383.2:26,your,`,`$,,,,"Pros : * Jill , the owner , is very nice and really cares about her feedback * Pretty nice atmosphere * Great Dessert * Not |your| typical veggie selection , I like !"
+ewtb.r.137883.1:0,Your,`,`$,,,,|Your| average crappy chain .
+ewtb.r.287454.1:3,your,`,`$,,,,This is not |your| usual cheap hotdog place .
+ewtb.r.287454.4:3,your,`,`$,,,,The atmosphere is |your| typical indie outfit with old movie posters and memorabilia from the 70's and 80's .
 ewtb.r.211709.1:4,'d,`a,,,,,Best ceviche that I |'d| had so far ! :)
 ewtb.r.263630.3:20,'d,`a,,,,,My boyfriend and I were woken up in the middle of the night at our campsite by drunken kids who |'d| arrived around 1:00 am and were drinking at the springs .
 ewtb.r.319816.11:16,'d,`a,,,,,"I would not have gone back , but I could n't find the particular tire they |'d| used in stock anywhere else ."

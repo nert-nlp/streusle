@@ -79,6 +79,15 @@ assert len(PSS_DEPTH)==len(PSS)==50
 assert max(PSS_DEPTH.values())==4
 assert min(PSS_DEPTH.values())==1
 
+PSS_REMOVED = {'1DTrajectory', '2DArea', '3DMedium',
+    'Activity', 'Age', 'Asset', 'Attribute', 'ClockTimeCxn', 'Contour',
+    'Co-Participant', 'Co-Patient', 'Comparison/Contrast', 'Course', 'Creator',
+    'DeicticTime', 'Donor/Speaker', 'Function', 'Instance', 'Material',
+    'State', 'StartState', 'EndState',
+    'Location', 'InitialLocation', 'Destination',
+    'Patient', 'ProfessionalAspect', 'Reciprocation', 'RelativeTime', 'Scalar/Rank',
+    'Transit', 'Traversed', 'Value', 'ValueComparison', 'Via'}
+
 def coarsen_pss(ss, depth):
     coarse = ss
     while PSS_DEPTH[coarse]>depth:
