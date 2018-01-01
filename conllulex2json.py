@@ -62,10 +62,15 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
                     print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
             if (upos=='AUX')!=(lc=='AUX'):
                 assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
-            # if (upos=='VERB')!=(lc=='V'):
-            #     assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
+            if (upos=='VERB')!=(lc=='V'):
+                if lc=='ADJ':
+                    print('Word treated as VERB in UD, ADJ for supersenses:', sent['sent_id'], tok['word'], file=sys.stderr)
+                else:
+                    assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
             if upos=='PRON':
                 assert lc=='PRON' or lc=='PRON.POSS',(sent['sent_id'],tok)
+            if lc=='ADV':
+                assert upos=='ADV' or upos=='PART',(sent['sent_id'],tok)    # PART is for negations
             assert lc!='PP',('PP should only apply to strong MWEs',sent['sent_id'],tok)
         for wmwe in sent['wmwes'].values():
             assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
