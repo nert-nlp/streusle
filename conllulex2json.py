@@ -2,10 +2,14 @@
 
 import os, sys, fileinput, re, json
 from collections import defaultdict
+from itertools import chain
+
+from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
 
 """
 Defines a function to read a .conllulex file sentence-by-sentence into a data structure.
 If the script is called directly, outputs the data as JSON.
+Also performs validation checks on the input.
 
 @author: Nathan Schneider (@nschneid)
 @since: 2017-12-29
@@ -22,6 +26,54 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
     verbs, prepositions). Not applied if the supersense slot is empty.
     """
 
+    lc_tbd = 0
+
+    def _postproc_sent(sent):
+        nonlocal lc_tbd
+
+        # check that lexical & weak MWE lemmas are correct
+        for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
+            assert lexe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in lexe['toknums']),(lexe,sent['toks'][lexe['toknums'][0]-1])
+            lc = lexe['lexcat']
+            if lc.endswith('!@'): lc_tbd += 1
+            valid_ss = supersenses_for_lexcat(lc)
+            ss, ss2 = lexe['ss'], lexe['ss2']
+            if valid_ss:
+                if ss=='??':
+                    assert ss2 is None
+                elif ss not in valid_ss or (lc in ('N','V'))!=(ss2 is None) or (ss2 is not None and ss2 not in valid_ss):
+                    print('Invalid supersense(s) in lexical entry:', lexe, file=sys.stderr)
+            else:
+                assert ss is None and ss2 is None,lexe
+
+        # check lexcat on single-word expressions
+        for swe in sent['swes'].values():
+            tok = sent['toks'][swe['toknums'][0]-1]
+            upos, xpos = tok['upos'], tok['xpos']
+            lc = swe['lexcat']
+            if lc.endswith('!@'): continue
+            assert lc in ALL_LEXCATS,(sent['sent_id'],tok)
+            if (xpos=='TO')!=lc.startswith('INF'):
+                assert upos=='SCONJ' and swe['lexlemma']=='for',(sent['sent_id'],swe,tok)
+            if (upos in ('NOUN', 'PROPN'))!=(lc=='N'):
+                try:
+                    assert upos in ('SYM','X') or (lc in ('PRON','DISC')),(sent['sent_id'],swe,tok)
+                except AssertionError:
+                    print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
+            if (upos=='AUX')!=(lc=='AUX'):
+                assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
+            # if (upos=='VERB')!=(lc=='V'):
+            #     assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
+            if upos=='PRON':
+                assert lc=='PRON' or lc=='PRON.POSS',(sent['sent_id'],tok)
+            assert lc!='PP',('PP should only apply to strong MWEs',sent['sent_id'],tok)
+        for wmwe in sent['wmwes'].values():
+            assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
+        # we already checked that noninitial tokens in an MWE have _ as their lemma
+        # TODO: check lextag
+        # TODO: check rendered MWE string
+        # TODO: check lexcat
+
     if ss_mapper is None:
         ss_mapper = lambda ss: ss
 
@@ -29,6 +81,7 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
     for ln in inF:
         if not ln.strip():
             if sent:
+                _postproc_sent(sent)
                 yield sent
                 sent = {}
             continue
@@ -43,7 +96,8 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
             sent[k] = v
         else:
             if 'toks' not in sent:
-                sent['toks'] = []
+                sent['toks'] = []   # excludes ellipsis tokens, so they don't interfere with indexing
+                sent['etoks'] = []  # ellipsis tokens only
                 sent['swes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknum': None})
                 sent['smwes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['wmwes'] = defaultdict(lambda: {'lexlemma': None, 'toknums': []})
@@ -58,7 +112,12 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
             tok = {}
             tokNum = conllu_cols[0]
             isEllipsis = re.match(r'^\d+$', tokNum) is None
-            if not isEllipsis:  # ellipsis node indices are like 24.1
+            if isEllipsis:  # ellipsis node indices are like 24.1
+                part1, part2 = tokNum.split('.')
+                part1 = int(part1)
+                part2 = int(part2)
+                tokNum = (part1, part2, tokNum) # ellipsis token offset is a tuple. include the string for convenience
+            else:
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
@@ -67,7 +126,6 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
                 tok['head'] = int(tok['head'])
             if misc:
                 tok['misc'] = conllu_cols[9]
-            tok['ellipsis'] = isEllipsis
 
             if not isEllipsis:
                 # Load STREUSLE-specific columns
@@ -110,7 +168,7 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
                     sent['wmwes'][wmwe_group]['toknums'].append(tokNum)
                     assert sent['wmwes'][wmwe_group]['toknums'].index(tokNum)==wmwe_position-1,(sent['sent_id'],tokNum,tok['wmwe'],sent['wmwes'])
                     if wmwe_position==1:
-                        assert tok['wlemma'] and tok['wlemma']!='_',(sent['sent_id'],tokNum)
+                        assert tok['wlemma'] and tok['wlemma']!='_',(sent['sent_id'],tokNum,tok)
                         sent['wmwes'][wmwe_group]['lexlemma'] = tok['wlemma']
                         #assert tok['wcat'] and tok['wcat']!='_'    # eventually it would be good to have a category for every weak expression
                         sent['wmwes'][wmwe_group]['lexcat'] = tok['wcat'] if tok['wcat']!='_' else None
@@ -122,9 +180,16 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
                 del tok['wlemma']
                 del tok['wcat']
 
-            sent['toks'].append(tok)
+            if isEllipsis:
+                sent['etoks'].append(tok)
+            else:
+                sent['toks'].append(tok)
     if sent:
+        _postproc_sent(sent)
         yield sent
+
+    if lc_tbd>0:
+        print('Tokens with lexcat TBD:', lc_tbd, file=sys.stderr)
 
 if __name__=='__main__':
     for sent in load_sents(fileinput.input()):

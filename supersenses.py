@@ -7,6 +7,24 @@ Information about and utilities for supersense categories for lexical expression
 
 import sys
 
+SPECIAL_LABELS = {'??', # a semantic supersense could not be assigned:
+    # e.g. due to unintelligible/unclear context, missing word, or marginal or nonnative usage
+                  '`$'} # opaque possessive slot in an idiom
+
+# Noun supersenses
+
+NSS = {'n.ACT', 'n.ANIMAL', 'n.ARTIFACT', 'n.ATTRIBUTE', 'n.BODY', 'n.COGNITION',
+       'n.COMMUNICATION', 'n.EVENT', 'n.FEELING', 'n.FOOD', 'n.GROUP',
+       'n.LOCATION', 'n.MOTIVE', 'n.NATURALOBJECT', 'n.OTHER', 'n.PERSON',
+       'n.PHENOMENON', 'n.PLANT', 'n.POSSESSION', 'n.PROCESS', 'n.QUANTITY',
+       'n.RELATION', 'n.SHAPE', 'n.STATE', 'n.SUBSTANCE', 'n.TIME'}
+
+# Verb supersenses
+
+VSS = {'v.body', 'v.change', 'v.cognition', 'v.communication', 'v.competition',
+       'v.consumption', 'v.contact', 'v.creation', 'v.emotion', 'v.motion',
+       'v.perception', 'v.possession', 'v.social', 'v.stative'}
+
 # Adposition (preposition/postposition) and case supersenses
 
 PSS_TREE = {
@@ -79,6 +97,10 @@ assert len(PSS_DEPTH)==len(PSS)==50
 assert max(PSS_DEPTH.values())==4
 assert min(PSS_DEPTH.values())==1
 
+
+ALL_SS = SPECIAL_LABELS | NSS | VSS | PSS
+
+# v1 preposition supersenses (used in STREUSLE 3.0 but removed in v2)
 PSS_REMOVED = {'1DTrajectory', '2DArea', '3DMedium',
     'Activity', 'Age', 'Asset', 'Attribute', 'ClockTimeCxn', 'Contour',
     'Co-Participant', 'Co-Patient', 'Comparison/Contrast', 'Course', 'Creator',

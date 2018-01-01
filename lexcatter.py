@@ -1,3 +1,4 @@
+from supersenses import NSS, VSS, PSS
 
 def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
     """
@@ -96,3 +97,12 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
             # In those cases the head should be in the MWE.
         return '!@'
     return upos
+
+def supersenses_for_lexcat(lc):
+    if lc=='N': return NSS
+    if lc=='V': return VSS
+    if lc in ('P', 'PP', 'INF.P'): return PSS
+    if lc in ('POSS', 'PRON.POSS'): return PSS | {'`$'}
+
+ALL_LEXCATS = {'N', 'PRON', 'V', 'P', 'PP', 'INF', 'INF.P', 'POSS', 'PRON.POSS', 'DISC', 'AUX',
+               'ADJ', 'ADV', 'DET', 'CCONJ', 'SCONJ', 'INTJ', 'NUM', 'SYM', 'PUNCT', 'X'}
