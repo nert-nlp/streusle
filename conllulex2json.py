@@ -33,6 +33,15 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
     def _postproc_sent(sent):
         nonlocal lc_tbd
 
+        # check that tokens are numbered from 1, in order
+        for i,tok in enumerate(sent['toks'], 1):
+            assert tok['#']==i
+
+        # check that MWEs are numbered from 1
+        # fix_mwe_numbering.py was written to correct this
+        for i,(k,mwe) in enumerate(sorted(chain(sent['smwes'].items(), sent['wmwes'].items()), key=lambda x: int(x[0])), 1):
+            assert int(k)==i,(sent['sent_id'],i,k,mwe)
+
         # check that lexical & weak MWE lemmas are correct
         for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
             assert lexe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in lexe['toknums']),(lexe,sent['toks'][lexe['toknums'][0]-1])
