@@ -5,6 +5,7 @@ from collections import defaultdict
 from itertools import chain
 
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
+from mwerender import render
 
 """
 Defines a function to read a .conllulex file sentence-by-sentence into a data structure.
@@ -76,8 +77,14 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
             assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
         # we already checked that noninitial tokens in an MWE have _ as their lemma
         # TODO: check lextag
-        # TODO: check rendered MWE string
-        # TODO: check lexcat
+
+        # check rendered MWE string
+        s = render([tok['word'] for tok in sent['toks']],
+                   [smwe['toknums'] for smwe in sent['smwes'].values()],
+                   [wmwe['toknums'] for wmwe in sent['wmwes'].values()])
+        if sent['mwe']!=s:
+            caveat = ' (may be due to simplification)' if '$1' in sent['mwe'] else ''
+            print(f'MWE string mismatch{caveat}:', s,sent['mwe'],sent['sent_id'], file=sys.stderr)
 
     if ss_mapper is None:
         ss_mapper = lambda ss: ss
