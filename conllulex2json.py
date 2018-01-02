@@ -5,6 +5,7 @@ from collections import defaultdict
 from itertools import chain
 
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
+from tagging import sent_tags
 from mwerender import render
 
 """
@@ -76,12 +77,42 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
         for wmwe in sent['wmwes'].values():
             assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
         # we already checked that noninitial tokens in an MWE have _ as their lemma
-        # TODO: check lextag
+
+        # check lextags
+        smweGroups = [smwe['toknums'] for smwe in sent['smwes'].values()]
+        wmweGroups = [wmwe['toknums'] for wmwe in sent['wmwes'].values()]
+        tagging = sent_tags(len(sent['toks']), sent['mwe'], smweGroups, wmweGroups)
+        for tok,tag in zip(sent['toks'],tagging):
+            fulllextag = tag
+            if tok['smwe']:
+                smweNum, position = tok['smwe']
+                lexe = sent['smwes'][smweNum]
+            else:
+                position = None
+                lexe = sent['swes'][tok['#']]
+
+            if position is None or position==1:
+                lexcat = lexe['lexcat']
+                fulllextag += '-'+lexcat
+                ss1, ss2 = lexe['ss'], lexe['ss2']
+                if ss1 is not None:
+                    assert ss1
+                    fulllextag += '-'+ss1
+                    if ss2 is not None and ss2!=ss1:
+                        assert ss2
+                        fulllextag += '|'+ss2
+                if tok['wmwe']:
+                    wmweNum, position = tok['wmwe']
+                    wmwe = sent['wmwes'][wmweNum]
+                    wcat = wmwe['lexcat']
+                    if wcat and position==1:
+                        fulllextag += '+'+wcat
+
+            assert tok['lextag']==fulllextag,(sent['sent_id'],fulllextag,tok)
 
         # check rendered MWE string
         s = render([tok['word'] for tok in sent['toks']],
-                   [smwe['toknums'] for smwe in sent['smwes'].values()],
-                   [wmwe['toknums'] for wmwe in sent['wmwes'].values()])
+                   smweGroups, wmweGroups)
         if sent['mwe']!=s:
             caveat = ' (may be due to simplification)' if '$1' in sent['mwe'] else ''
             print(f'MWE string mismatch{caveat}:', s,sent['mwe'],sent['sent_id'], file=sys.stderr)
