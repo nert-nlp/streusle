@@ -95,9 +95,9 @@ maps to the original sentence string.
 12. LEXCAT: A syntactic category that applies to *strong lexical expressions* (strong MWEs and single-word expressions, regardless of whether they belong to a weak MWE).
 The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
-  Possible values of LEXCAT are: `N` (noun, common or proper), `PRON` (non-possessive pronoun, including indefinites like *someone*), `PRON.POSS` (possessive pronoun), `POSS` (possessive clitic), `V` (full verb or copula), `AUX` (auxiliary), `P` (single-word adposition), `PP` (prepositional phrase MWE), `INF` (nonsemantic infinitive marker *to* or infinitive-subject-marker *for*), `INF.P` (infinitive maker *to* when it receives an adposition supersense), `DISC` (discourse/pragmatic expression); and `ADJ`, `ADV`, `DET`, `CCONJ`, `SCONJ`, `INTJ`, `NUM`, `SYM`, `PUNCT`, `X`, which are in line with Universal part-of-speech tags.
+   Possible values of LEXCAT are: `N` (noun, common or proper), `PRON` (non-possessive pronoun, including indefinites like *someone*), `PRON.POSS` (possessive pronoun), `POSS` (possessive clitic), `V` (full verb or copula), `AUX` (auxiliary), `P` (single-word adposition), `PP` (prepositional phrase MWE), `INF` (nonsemantic infinitive marker *to* or infinitive-subject-marker *for*), `INF.P` (infinitive maker *to* when it receives an adposition supersense), `DISC` (discourse/pragmatic expression); and `ADJ`, `ADV`, `DET`, `CCONJ`, `SCONJ`, `INTJ`, `NUM`, `SYM`, `PUNCT`, `X`, which are in line with Universal part-of-speech tags.
 
-  __Approximately 300 tokens currently have LEXCAT=`!!@` to indicate that they need to be manually corrected, in most cases by adding a noun supersense. These will be fixed in a subsequent release.__
+   __Approximately 300 tokens currently have LEXCAT=`!!@` to indicate that they need to be manually corrected, in most cases by adding a noun supersense. These will be fixed in a subsequent release.__
 
 13. LEXLEMMA: The lemma(s) of the component word(s) of the strong expression (single- or multiword) that begins with the current token. `_` for non-initial tokens in a strong MWE. Thus, for *have*, LEXLEMMA is `have experience`, while for `experience` it is `_`.
 
@@ -113,17 +113,17 @@ The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
 19. LEXTAG: BIO-style tag summarizing the full lexical analysis, including any strong and weak MWE segmentations, LEXCAT, and supersenses. This is intended for sequence taggers.
 
-  * The BIO symbols are: `O` for token not belonging to any MWE, `B` for the token beginning an MWE, `I_` for a token continuing a strong MWE, and `I~` for a token continuing a weak MWE. Lowercase variants `o`, `b`, `i_`, and `i~` apply when the token is contained within a separate discontinuous MWE.
+   * The BIO symbols are: `O` for token not belonging to any MWE, `B` for the token beginning an MWE, `I_` for a token continuing a strong MWE, and `I~` for a token continuing a weak MWE. Lowercase variants `o`, `b`, `i_`, and `i~` apply when the token is contained within a separate discontinuous MWE.
 
-  * If the token is not continuing a strong expression (i.e. everything but `I_` and `i_`), the LEXTAG and supersense (if applicable) are appended following hyphens. If SS and SS2 are identical, only one copy is included in the tag; if they differ, they are rendered as SS`|`SS2.
+   * If the token is not continuing a strong expression (i.e. everything but `I_` and `i_`), the LEXTAG and supersense (if applicable) are appended following hyphens. If SS and SS2 are identical, only one copy is included in the tag; if they differ, they are rendered as SS`|`SS2.
 
-  * Thus, for the tokens *have a good experience w*, the respective LEXTAG values are:
+   * Thus, for the tokens *have a good experience w*, the respective LEXTAG values are:
 
-     - *have*: `B-V-v.stative` - begins an MWE, verbal, stative supersense
-     - *a*: `o-DET` - not part of any MWE, but contained within one; determiner, no supersense
-     - *good*: `o-ADJ` - not part of any MWE, but contained within one; adjective, no supersense
-     - *experience*: `I_` - attaches to the most recent non-`O`/`o` token (*have*) to join it in a strong MWE
-     - *w*: `I~-P-p.Topic` - attaches non-`O`/`o` token (*experience*) to join its strong expression (*have experience*) into a weak expression with whatever strong expression contains *w*. Adpositional; SS and SS2 are both `p.Topic`.
+      - *have*: `B-V-v.stative` - begins an MWE, verbal, stative supersense
+      - *a*: `o-DET` - not part of any MWE, but contained within one; determiner, no supersense
+      - *good*: `o-ADJ` - not part of any MWE, but contained within one; adjective, no supersense
+      - *experience*: `I_` - attaches to the most recent non-`O`/`o` token (*have*) to join it in a strong MWE
+      - *w*: `I~-P-p.Topic` - attaches non-`O`/`o` token (*experience*) to join its strong expression (*have experience*) into a weak expression with whatever strong expression contains *w*. Adpositional; SS and SS2 are both `p.Topic`.
 
 Remarks
 -------
