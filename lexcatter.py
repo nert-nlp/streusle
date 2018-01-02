@@ -43,7 +43,7 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
         return '_'
 
     lc = {'`a': 'AUX', '`c': 'CCONJ', '`d': 'DISC', '`i': 'INF', '`j': 'ADJ',
-          '`n': 'NOUN', '`o': 'PRON', '`r': 'ADV', '`v': 'VERB', '??': '??'}.get(ss)
+          '`n': 'N', '`o': 'PRON', '`r': 'ADV', '`v': 'V', '??': '??'}.get(ss)
 
     if lc is not None: return lc
     if ss.isalpha() and ss.isupper(): return 'N'
@@ -86,7 +86,7 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
                     return 'ADJ'
 
                 if lexlemma in ('bottom line', 'parisian croissant', 'straight edge'):
-                    return 'NOUN'
+                    return 'N'
 
                 if lexlamma in ('happy new year', 'good luck', 'good job',
                     'sad face', 'holy cow'):
