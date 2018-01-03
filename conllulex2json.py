@@ -17,7 +17,7 @@ Also performs validation checks on the input.
 @since: 2017-12-29
 """
 
-def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
+def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
     """Given a .conllulex file, return an iterator over sentences.
 
     @param morph_syn: Whether to include CoNLL-U morphological features
@@ -173,11 +173,22 @@ def load_sents(inF, morph_syn=False, misc=False, ss_mapper=None):
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
+            assert tok['lemma']!='_' and tok['upos']!='_',tok
             if morph_syn:
                 tok['feats'], tok['head'], tok['deprel'], tok['edeps'] = conllu_cols[5:9]
-                tok['head'] = int(tok['head'])
+                if tok['head']=='_':
+                    assert isEllipsis
+                    tok['head'] = None
+                else:
+                    tok['head'] = int(tok['head'])
+                if tok['deprel']=='_':
+                    assert isEllipsis
+                    tok['deprel'] = None
             if misc:
                 tok['misc'] = conllu_cols[9]
+            for nullable_conllu_fld in ('xpos', 'feats', 'edeps', 'misc'):
+                if nullable_conllu_fld in tok and tok[nullable_conllu_fld]=='_':
+                    tok[nullable_conllu_fld] = None
 
             if not isEllipsis:
                 # Load STREUSLE-specific columns
