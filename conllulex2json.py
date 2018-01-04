@@ -196,6 +196,15 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                 tok['smwe'], tok['lexcat'], tok['lexlemma'], tok['ss'], tok['ss2'], \
                     tok['wmwe'], tok['wcat'], tok['wlemma'], tok['lextag'] = lex_cols
 
+                # map the supersenses in the lextag
+                lt = tok['lextag']
+                for m in re.finditer(r'\b[a-z]\.[A-Za-z/-]+', tok['lextag']):
+                    lt = lt.replace(m.group(0), ss_mapper(m.group(0)))
+                for m in re.finditer(r'\b([a-z]\.[A-Za-z/-]+)\|\1\b', lt):
+                    # e.g. p.Locus|p.Locus due to abstraction of p.Goal|p.Locus
+                    lt = lt.replace(m.group(0), m.group(1)) # simplify to p.Locus
+                tok['lextag'] = lt
+
                 if tok['smwe']!='_':
                     smwe_group, smwe_position = list(map(int, tok['smwe'].split(':')))
                     tok['smwe'] = smwe_group, smwe_position

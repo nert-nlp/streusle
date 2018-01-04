@@ -108,10 +108,10 @@ def eval_sys(sysF, gold_sents, ss_mapper):
 
     return scores
 
-def to_tsv(all_sys_scores):
+def to_tsv(all_sys_scores, depth):
     for k in ('All','MWE','MWP'):
         print(k)
-        print('\tGold ID:\tRole\tFxn\tRole,Fxn\t\tID\t\t\t\tRole\t\t\t\tFxn\t\t\t\tRole,Fxn\t\t')
+        print('D='+str(depth)+'\tGold ID:\tRole\tFxn\tRole,Fxn\t\tID\t\t\t\tRole\t\t\t\tFxn\t\t\t\tRole,Fxn\t\t')
         print('Sys\tN\tAcc\tAcc\tAcc' + '\t\tP\tR\tF'*4)
         for sys,(gidscores,aidscores) in all_sys_scores.items():
             print(sys, end='\t')
@@ -125,8 +125,10 @@ def to_tsv(all_sys_scores):
             print()
         print()
 
-def to_json(all_sys_scores):
-    print(json.dumps(all_sys_scores))
+def to_json(all_sys_scores, depth):
+    scores = dict(all_sys_scores)
+    scores["_meta"] = {"depth": depth}
+    print(json.dumps(scores))
 
 def main(args):
     goldF = args.goldfile
@@ -152,7 +154,7 @@ def main(args):
             all_sys_scores[basename][1] = sysscores
 
     # Print output
-    args.output_format(all_sys_scores)
+    args.output_format(all_sys_scores, depth=args.depth)
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description='Evaluate system output for preposition supersense disambiguation against a gold standard.')
