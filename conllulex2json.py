@@ -83,7 +83,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             if lc=='ADV':
                 assert upos=='ADV' or upos=='PART',(sent['sent_id'],tok)    # PART is for negations
             assert lc!='PP',('PP should only apply to strong MWEs',sent['sent_id'],tok)
+        for smwe in sent['smwes'].values():
+            assert len(smwe['toknums'])>1
         for wmwe in sent['wmwes'].values():
+            assert len(wmwe['toknums'])>1,(sent['sent_id'],wmwe)
             assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
         # we already checked that noninitial tokens in an MWE have _ as their lemma
 
