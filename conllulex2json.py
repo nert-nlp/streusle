@@ -18,15 +18,42 @@ Also performs validation checks on the input.
 """
 
 def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
-    """Given a .conllulex file, return an iterator over sentences.
+    """Given a .conllulex or .json file, return an iterator over sentences.
+    If a .conllulex file, performs consistency checks.
 
     @param morph_syn: Whether to include CoNLL-U morphological features
-    and syntactic dependency relations. POS tags and lemmas are always included.
-    @param misc: Whether to include the CoNLL-U miscellaneous column.
+    and syntactic dependency relations, if available.
+    POS tags and lemmas are always included.
+    @param misc: Whether to include the CoNLL-U miscellaneous column, if available.
     @param ss_mapper: A function to apply to supersense labels to replace them
     in the returned data structure. Applies to all supersense labels (nouns,
     verbs, prepositions). Not applied if the supersense slot is empty.
     """
+
+    # If .json: just load the data
+    if inF.name.endswith('.json'):
+        for sent in json.load(inF):
+            for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
+                if lexe['ss'] is not None:
+                    lexe['ss'] = ss_mapper(lexe['ss'])
+                if lexe['ss2'] is not None:
+                    lexe['ss2'] = ss_mapper(lexe['ss2'])
+
+            if not morph_syn:
+                for tok in sent['toks']:
+                    tok.pop('feats', None)
+                    tok.pop('head', None)
+                    tok.pop('deprel', None)
+                    tok.pop('edeps', None)
+
+            if not misc:
+                for tok in sent['toks']:
+                    tok.pop('misc', None)
+
+            yield sent
+        return
+
+    # Otherwise, .conllulex: create data structures and check consistency
 
     lc_tbd = 0
 
@@ -271,33 +298,35 @@ if __name__=='__main__':
     list_fields = ("toks", "etoks")
     dict_fields = ("swes", "smwes", "wmwes")
     first = True
-    for sent in load_sents(fileinput.input()):
-        # specially format the output
-        if first:
-            first = False
-        else:
-            print(',')
-        #print(json.dumps(sent))
-        sent_copy = dict(sent)
-        for fld in list_fields+dict_fields:
-            del sent_copy[fld]
-        print(json.dumps(sent_copy, indent=1)[:-2], end=',\n')
-        for fld in list_fields:
-            print('   ', json.dumps(fld)+':', '[', end='')
-            if sent[fld]:
-                print()
-                print(',\n'.join('      ' + json.dumps(v) for v in sent[fld]))
-                print('    ],')
+    fname = sys.argv[1]
+    with open(fname) as inF:
+        for sent in load_sents(inF):
+            # specially format the output
+            if first:
+                first = False
             else:
-                print('],')
-        for fld in dict_fields:
-            print('   ', json.dumps(fld)+':', '{', end='')
-            if sent[fld]:
-                print()
-                print(',\n'.join('      ' + json.dumps(str(k))+': ' + json.dumps(v) for k,v in sent[fld].items()))
-                print('    }', end='')
-            else:
-                print('}', end='')
-            print(',' if fld!="wmwes" else '')
-        print('}', end='')
-    print(']')
+                print(',')
+            #print(json.dumps(sent))
+            sent_copy = dict(sent)
+            for fld in list_fields+dict_fields:
+                del sent_copy[fld]
+            print(json.dumps(sent_copy, indent=1)[:-2], end=',\n')
+            for fld in list_fields:
+                print('   ', json.dumps(fld)+':', '[', end='')
+                if sent[fld]:
+                    print()
+                    print(',\n'.join('      ' + json.dumps(v) for v in sent[fld]))
+                    print('    ],')
+                else:
+                    print('],')
+            for fld in dict_fields:
+                print('   ', json.dumps(fld)+':', '{', end='')
+                if sent[fld]:
+                    print()
+                    print(',\n'.join('      ' + json.dumps(str(k))+': ' + json.dumps(v) for k,v in sent[fld].items()))
+                    print('    }', end='')
+                else:
+                    print('}', end='')
+                print(',' if fld!="wmwes" else '')
+            print('}', end='')
+        print(']')

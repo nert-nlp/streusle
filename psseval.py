@@ -42,8 +42,8 @@ def compare_sets_Acc(gold, pred):
     return c
 
 def eval_sys(sysF, gold_sents, ss_mapper):
-    goldid = sysF.name.endswith('.goldid.conllulex')
-    if not goldid and not sysF.name.endswith('.autoid.conllulex'):
+    goldid = (sysF.name.split('.')[-2]=='goldid')
+    if not goldid and sysF.name.split('.')[-2]!='autoid':
         raise ValueError(f'File path of system output not specified for gold vs. auto identification of units to be labeled: {sysF.name}')
 
     compare_sets = compare_sets_Acc if goldid else compare_sets_PRF
@@ -145,10 +145,10 @@ def main(args):
     for sysF in sysFs:
         sysscores = eval_sys(sysF, gold_sents, ss_mapper)
         syspath = sysF.name
-        basename = syspath[:-len('.goldid.conllulex')]
+        basename = syspath.rsplit('.', 2)[0]
         if basename not in all_sys_scores:
             all_sys_scores[basename] = [defaultdict(lambda: defaultdict(Counter)),defaultdict(lambda: defaultdict(Counter))]
-        if syspath.endswith('.goldid.conllulex'):
+        if syspath.split('.')[-2]=='goldid':
             all_sys_scores[basename][0] = sysscores
         else:
             all_sys_scores[basename][1] = sysscores
@@ -161,7 +161,7 @@ if __name__=='__main__':
     parser.add_argument('goldfile', type=argparse.FileType('r'),
                         help='gold standard .conllulex file')
     parser.add_argument('sysfile', type=argparse.FileType('r'), nargs='+',
-                        help='system prediction file: BASENAME.goldid.conllulex or BASENAME.autoid.conllulex')
+                        help='system prediction file: BASENAME.{goldid,autoid}.{conllulex,json}')
     parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
                         help='depth of hierarchy at which to cluster supersense labels (default: 4, i.e. no collapsing)')
     # parser.add_argument('--prec-rank', metavar='K', type=int, default=1,
