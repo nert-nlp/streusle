@@ -82,7 +82,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                 elif ss not in valid_ss or (lc in ('N','V'))!=(ss2 is None) or (ss2 is not None and ss2 not in valid_ss):
                     print('Invalid supersense(s) in lexical entry:', lexe, file=sys.stderr)
             else:
-                assert ss is None and ss2 is None,lexe
+                assert ss is None and ss2 is None and lexe not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),lexe
 
         # check lexcat on single-word expressions
         for swe in sent['swes'].values():
