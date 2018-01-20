@@ -1,12 +1,12 @@
   48 ??	_
-33281 _	_
+33279 _	_
   11 `$	`$
  717 n.ACT	_
   88 n.ANIMAL	_
 1000 n.ARTIFACT	_
  212 n.ATTRIBUTE	_
   88 n.BODY	_
- 745 n.COGNITION	_
+ 743 n.COGNITION	_
  424 n.COMMUNICATION	_
  427 n.EVENT	_
   37 n.FEELING	_
@@ -29,7 +29,7 @@
  527 n.TIME	_
   26 p.Accompanier	p.Accompanier
    2 p.Accompanier	p.Co-Agent
-  25 p.Agent	p.Agent
+  26 p.Agent	p.Agent
    1 p.Agent	p.Beneficiary
    1 p.Agent	p.Locus
  124 p.Agent	p.Possessor
@@ -55,7 +55,7 @@
   35 p.Co-Agent	p.Co-Agent
    7 p.Co-Theme	p.Co-Theme
    2 p.Co-Theme	p.Purpose
-   6 p.Co-Theme	p.Source
+   5 p.Co-Theme	p.Source
    1 p.ComparisonRef	p.Accompanier
  145 p.ComparisonRef	p.ComparisonRef
    1 p.ComparisonRef	p.Experiencer
@@ -113,7 +113,7 @@
    2 p.Manner	p.ComparisonRef
    2 p.Manner	p.Goal
    2 p.Manner	p.Identity
-  80 p.Manner	p.Locus
+  81 p.Manner	p.Locus
   42 p.Manner	p.Manner
    3 p.Manner	p.Source
    2 p.Manner	p.Topic
@@ -141,7 +141,6 @@
    6 p.Part/Portion	p.Source
    3 p.Path	p.Direction
    2 p.Path	p.Locus
-   1 p.Path	p.Manner
   21 p.Path	p.Path
   12 p.Possession	p.Accompanier
    1 p.Possession	p.Part/Portion
@@ -151,7 +150,8 @@
  370 p.Possessor	p.Possessor
    2 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
- 298 p.Purpose	p.Purpose
+ 296 p.Purpose	p.Purpose
+   1 p.Purpose	p.Theme
    3 p.Quantity	p.Gestalt
   84 p.Quantity	p.Quantity
    8 p.Quantity	p.Stuff
@@ -166,7 +166,7 @@
    1 p.SocialRel	p.Goal
  222 p.SocialRel	p.Possessor
    1 p.SocialRel	p.Source
-  76 p.Source	p.Source
+  77 p.Source	p.Source
   39 p.Species	p.Species
   28 p.StartTime	p.StartTime
    3 p.Stimulus	p.Beneficiary
@@ -184,7 +184,7 @@
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
   13 p.Theme	p.Possessor
-  20 p.Theme	p.Purpose
+  22 p.Theme	p.Purpose
  163 p.Theme	p.Theme
    2 p.Theme	p.Whole
    2 p.Time	p.Direction
@@ -211,28 +211,28 @@
   65 v.creation	_
  246 v.emotion	_
  613 v.motion	_
- 144 v.perception	_
+ 146 v.perception	_
  310 v.possession	_
  945 v.social	_
 2792 v.stative	_
 ========================
-    9108 n.*
-    7683 v.*
-    5454 p.*
+    9106 n.*
+    7685 v.*
+    5456 p.*
 
 n.* by LexCat
 ========================
-9108 N
+9106 N
 
 v.* by LexCat
 ========================
-7683 V
+7685 V
 
 p.* by LexCat
 ========================
- 242 INF.P
-3938 P
+ 247 INF.P
+3934 P
   59 POSS
  170 PP
-1045 PRON.POSS
+1046 PRON.POSS
 
