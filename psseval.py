@@ -117,11 +117,11 @@ def to_tsv(all_sys_scores, depth):
             print(sys, end='\t')
             print(gidscores[k]["Role"]["N"], end='\t')
             for criterion in ('Role', 'Fxn', 'Role,Fxn'):
-                print(f'{gidscores[k][criterion]["Acc"]}', end='\t')
+                print(f'{gidscores[k][criterion]["Acc"]:.1%}', end='\t')
             print('', end='\t')
             for criterion in ('ID', 'Role', 'Fxn', 'Role,Fxn'):
                 prf = aidscores[k][criterion]
-                print(f'{prf["P"]}\t{prf["R"]}\t{prf["F"]}\t', end='\t')
+                print(f'{prf["P"]:.1%}\t{prf["R"]:.1%}\t{prf["F"]:.1%}\t', end='\t')
             print()
         print()
 
