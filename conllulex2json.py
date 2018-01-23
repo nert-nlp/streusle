@@ -38,6 +38,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                     lexe['ss'] = ss_mapper(lexe['ss'])
                 if lexe['ss2'] is not None:
                     lexe['ss2'] = ss_mapper(lexe['ss2'])
+                assert all(t>0 for t in lexe['toknums']),('Token offsets must be positive',lexe)
+            for lexe in sent['wmwes'].values():
+                assert all(t>0 for t in lexe['toknums']),('Token offsets must be positive',lexe)
 
             if not morph_syn:
                 for tok in sent['toks']:
