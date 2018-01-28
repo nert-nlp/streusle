@@ -71,7 +71,7 @@
    2 p.Duration	p.Identity
    2 p.Duration	p.Possessor
   24 p.EndTime	p.EndTime
-   6 p.Experiencer	p.Experiencer
+   6 p.Experiencer	p.Beneficiary
   10 p.Experiencer	p.Goal
   71 p.Experiencer	p.Possessor
   84 p.Explanation	p.Explanation

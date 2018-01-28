@@ -57,8 +57,8 @@
    2 p.Co-Theme	p.Purpose
    5 p.Co-Theme	p.Source
    1 p.ComparisonRef	p.Accompanier
+   1 p.ComparisonRef	p.Beneficiary
  145 p.ComparisonRef	p.ComparisonRef
-   1 p.ComparisonRef	p.Experiencer
   14 p.ComparisonRef	p.Goal
    2 p.ComparisonRef	p.Locus
   10 p.ComparisonRef	p.Purpose
@@ -72,7 +72,8 @@
    2 p.Duration	p.Identity
    2 p.Duration	p.Possessor
   30 p.EndTime	p.EndTime
-   9 p.Experiencer	p.Experiencer
+   1 p.Experiencer	p.Agent
+   8 p.Experiencer	p.Beneficiary
   11 p.Experiencer	p.Goal
   87 p.Experiencer	p.Possessor
  106 p.Explanation	p.Explanation

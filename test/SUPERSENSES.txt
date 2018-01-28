@@ -37,15 +37,16 @@
    4 p.Circumstance	p.Circumstance
    2 p.Co-Agent	p.Co-Agent
    1 p.Co-Theme	p.Co-Theme
+   1 p.ComparisonRef	p.Beneficiary
   19 p.ComparisonRef	p.ComparisonRef
-   1 p.ComparisonRef	p.Experiencer
    1 p.ComparisonRef	p.Goal
    2 p.Cost	p.Cost
    3 p.Cost	p.Locus
    8 p.Direction	p.Direction
    9 p.Duration	p.Duration
    3 p.EndTime	p.EndTime
-   3 p.Experiencer	p.Experiencer
+   1 p.Experiencer	p.Agent
+   2 p.Experiencer	p.Beneficiary
    7 p.Experiencer	p.Possessor
    9 p.Explanation	p.Explanation
    3 p.Extent	p.Extent
