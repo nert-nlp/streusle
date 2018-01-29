@@ -100,6 +100,7 @@
    3 p.Instrument	p.Manner
    6 p.Instrument	p.Path
    1 p.Instrument	p.Theme
+   4 p.Interval	p.Interval
   11 p.Locus	p.Direction
    4 p.Locus	p.Goal
  443 p.Locus	p.Locus
@@ -184,7 +185,7 @@
    1 p.Time	p.EndTime
   27 p.Time	p.Interval
    3 p.Time	p.Possessor
- 285 p.Time	p.Time
+ 281 p.Time	p.Time
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
  179 p.Topic	p.Topic
