@@ -1,0 +1,30 @@
+{
+  "p_mwe": [
+    "out of",
+    "at least",
+    "on time",
+    "due to",
+    "in town",
+    "at all",
+    "because of",
+    "less than",
+    "at best",
+    "all over",
+    "nothing but",
+    "over the phone",
+    "on way",
+    "by far",
+    "instead of",
+    "in front of",
+    "rather than",
+    "off of"
+  ],
+  "non_p_mwe": [
+    "have to"
+  ],
+  "advcl": [],
+  "acl": [
+    "time",
+    "chance"
+  ]
+}
