@@ -6,7 +6,6 @@ import json
 from collections import defaultdict
 from operator import itemgetter
 
-import tags2sst
 from helpers import *
 
 PREPS_MASTER = {"a", "abaft", "aboard", "about", "above", "abreast", "abroad", "absent", "across",
@@ -79,12 +78,6 @@ PREP_SPECIAL_MW_BEGINNERS = ["a", "according", "all", "bare", "because", "but", 
 
 
 
-
-
-TAGS_PTB = ["IN", "RB", "RP", "PRP$", "WP$", "POS", "TO"]
-TAGS_UD = ["ADP", "SCONJ", "ADV", "PRON", "PART"]
-
-
 def train(infile, args):
     
     mwe_dict = defaultdict(lambda: defaultdict(int))
@@ -127,12 +120,6 @@ def train(infile, args):
 
     prep_mwe_list = [k for k, v in sorted(mwe_dict["+p"].items(), key=itemgetter(1), reverse=True) if v >= args.p_mwe_min]
     non_prep_mwe_list = []
-    #for k, v in mwe_dict["-p"].items():
-    #    if v >= args.non_p_mwe_min:
-    #        for lemma in k.split():
-    #            if True: #lemma in swes and v >= swes[lemma]:
-    #                non_prep_mwe_list.append(k)
-    #                break
     non_prep_mwe_list = [k for k, v in sorted(mwe_dict["-p"].items(), key=itemgetter(1), reverse=True) if v >= args.non_p_mwe_min]
     advcl_list = [k for k, v in sorted(advcl_dict["-p"].items(), key=itemgetter(1), reverse=True) if v >= args.advcl_min]
     acl_list = [k for k, v in sorted(acl_dict["-p"].items(), key=itemgetter(1), reverse=True) if v >= args.acl_min]
@@ -251,7 +238,7 @@ def identify(model, args):
             lemma_pos_counts[token.lemma][token.ptb_pos] += 1
         
     max_mwe_length = max(len(w.split()) for w in mwe_list)
-    mw_beginners = set([w.split()[0] for w in mwe_list if len(w.split()) >= 2]).union(set(PREP_SPECIAL_MW_BEGINNERS))
+    mw_beginners = set([w.split()[0] for w in list(mwe_list)+list(non_prep_mwe_list) if len(w.split()) >= 2]).union(set(PREP_SPECIAL_MW_BEGINNERS))
 
     for sent in sentences(infile):
         if not (args.sst or evl or args.tp or args.fp or args.fn or args.tn):
@@ -282,26 +269,24 @@ def identify(model, args):
             lemma = token.lemma
             skip = False
             if i>=k:
-                if mwe: # and token.lemma in mw_beginners: # find the longest possible mwe
+                if mwe and token.lemma in mw_beginners:
                     for j in range(min(length, i+max_mwe_length)-1, i+1, -1):
                         ngram = [t for t in sent.tokens[i:j]]
                         ngram_lemma = " ".join([t.lemma for t in ngram])
                         if ngram_lemma in non_prep_mwe_list:
-                            # token.checkmark += ngram_lemma + "_in_mwe_anti_list"
                             skip = True
                             k = j
- #                           print(ngram_lemma, file=sys.stderr)
                             break
-                        if ngram_lemma in mwe_list:
+                        if ngram_lemma in mwe_list: # find the longest possible mwe
                             mwes.append([int(t.offset) for t in ngram])
                             token.checkmark = "{}:{}".format(mwe_counter, 1) + "**"
-                            for current_mwe_counter, tok in enumerate(ngram[1:], start=2): #[1:]:
+                            for current_mwe_counter, tok in enumerate(ngram[1:], start=2):
                                 sent.tokens[int(tok.offset)-1].checkmark = "{}:{}".format(mwe_counter, current_mwe_counter)
                             mwe_counter += 1
                             k = j
                             break
 
-                if not token.checkmark and not skip: # and token.fields[14] != "I_"
+                if not token.checkmark and not skip:
                     token.checkmark += heuristicADP(token) \
                                        + heuristicPossessive(token, sent) \
                                        + heuristicSCONJ(token, model) \
@@ -344,7 +329,6 @@ def identify(model, args):
             i += 1
 
         if args.sst:
-            #             """{"tags": ["B-cognition", "\u012a", "\u012a", "O-`i", "O-motion", "O-Direction", "O"], "lemmas": ["ca", "n't", "wait", "to", "go", "back", "!!!"], "labels\": {"1": ["Ca", "cognition"], "4": ["to", "`i"], "5": ["go", "motion"], "6": ["back", "Direction"]}, "words": [["Ca", "MD"], ["n't", "RB"], ["wait", "VB"], ["to", "TO"], ["\go", "VB"], ["back", "RB"], ["!!!", "."]], "_": [[1, 2, 3]], "~": []}"""
             _json = {}
             _json["words"] = []
             _json["lemmas"] = []
@@ -392,7 +376,6 @@ if __name__ == "__main__":
     parser.add_argument('-f', '--training-file', type=str, help='path to the training .conllulex file')
     parser.add_argument('-M', '--model-file', type=str, help='path to the model file (read)')
     parser.add_argument('-o', '--model-out', type=str, help='path to the model file (write)')
-#    parser.add_argument('-t', '--tagset', type=str, help='one of {UD, PTB}', default="PTB")
     parser.add_argument('-m', '--mwe', action='store_true', help='also look for mwes')
     parser.add_argument('-l', '--mwe-list', type=str, help='read lexical list of MWEs from file MWE_LIST')
     parser.add_argument('-i', '--mwe-anti-list', type=str, help='read lexical list of MWEs to EXCLUDE from file MWE_ANTI_LIST')
