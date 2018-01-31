@@ -1,5 +1,5 @@
   36 ??	_
-26794 _	_
+26802 _	_
    6 `$	`$
  488 n.ACT	_
   78 n.ANIMAL	_
@@ -195,7 +195,7 @@
   56 p.Whole	p.Whole
   75 v.body	_
  232 v.change	_
- 914 v.cognition	_
+ 911 v.cognition	_
  849 v.communication	_
    7 v.competition	_
   74 v.consumption	_
@@ -206,10 +206,10 @@
  110 v.perception	_
  280 v.possession	_
  754 v.social	_
-2230 v.stative	_
+2225 v.stative	_
 ========================
     7119 n.*
-    6332 v.*
+    6324 v.*
     4523 p.*
 
 n.* by LexCat
@@ -218,7 +218,7 @@ n.* by LexCat
 
 v.* by LexCat
 ========================
-6332 V
+6324 V
 
 p.* by LexCat
 ========================

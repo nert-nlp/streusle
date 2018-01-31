@@ -30,7 +30,7 @@ Strong MWEs by LexCat
   52 !@
   84 ADJ
   32 ADV
- 125 AUX
+ 133 AUX
    7 CCONJ
   92 DET
  127 DISC
@@ -41,4 +41,4 @@ Strong MWEs by LexCat
  136 P
  170 PP
   11 PRON
- 908 V
+ 900 V
