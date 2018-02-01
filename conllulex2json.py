@@ -187,7 +187,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             if 'toks' not in sent:
                 sent['toks'] = []   # excludes ellipsis tokens, so they don't interfere with indexing
                 sent['etoks'] = []  # ellipsis tokens only
-                sent['swes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknum': None})
+                sent['swes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['smwes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['wmwes'] = defaultdict(lambda: {'lexlemma': None, 'toknums': []})
             assert ln.count('\t')==18,ln
