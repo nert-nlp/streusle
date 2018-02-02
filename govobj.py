@@ -26,7 +26,9 @@ POSSESSIVE:
 SUBORDINATION:
 - we arrived *before* eating: gov=arrived, obj=eating, config=subordinating
 - we arrived *before* we ate: gov=arrived, obj=ate,    config=subordinating
+- we arrived *before* we were hungry: gov=arrived, obj=were, config=subordinating
 - we arrived *to* eat dinner: gov=arrived, obj=eat,    config=subordinating
+- we arrived *to* be first in line: gov=arrived, obj=be, config=subordinating
 
 STRANDING:
 - everyone I work *with*:     gov=work, obj=everyone, config=stranded
