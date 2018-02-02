@@ -35,17 +35,18 @@ class Sentence:
 
 def sentences(filename, conllulex=False):
     tokens, meta = [], []
-    with open(filename) as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                yield Sentence(tokens, meta)
-                tokens = []
-                meta = []
-            elif line.startswith("#"):
-                meta.append(line)
-            else:
-                tokens.append(Token(line, conllulex=conllulex))
+    f = open(filename) if type(filename) == str else filename
+    for line in f:
+        line = line.strip()
+        if not line:
+            yield Sentence(tokens, meta)
+            tokens = []
+            meta = []
+        elif line.startswith("#"):
+            meta.append(line)
+        else:
+            tokens.append(Token(line, conllulex=conllulex))
+    f.close()
 
     if tokens:
         yield Sentence(tokens, meta)

@@ -6,6 +6,7 @@ import json
 from collections import defaultdict
 from operator import itemgetter
 
+import tags2sst
 from helpers import *
 
 PREPS_MASTER = {"a", "abaft", "aboard", "about", "above", "abreast", "abroad", "absent", "across",
@@ -341,7 +342,7 @@ def identify(model, args):
                 _sent.append(tok.word)
                 _json["words"].append([tok.word, tok.ptb_pos])
                 _json["lemmas"].append(tok.lemma)
-                if tok.checkmark:
+                if tok.checkmark.endswith("*"):
                     _json["labels"][tok.offset] = [tok.word, "Locus"]
             print("{}\t{}\t{}".format(sent.meta_dict["sent_id"], tags2sst.render(_sent, _json["_"], []).decode("utf-8"), json.dumps(_json)))
 
