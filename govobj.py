@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-Augments English prepositional/possessive expressions
-with related elements--governor and object--
-by processing the (basic) UD syntax tree.
-There are heuristics to account for predicative PPs,
-preposition stranding, possessives, subordinators, etc.
-See the examples below:
+Given a STREUSLE JSON file, adds syntactic governor and object information
+to prepositional/possessive expressions by processing the (basic) UD syntax tree.
+There are heuristics to account for predicative PPs, preposition stranding,
+possessives, subordinators, etc. See the examples below:
 
 TRANSITIVE P + NP:
 - the cat *in* the car:         gov=cat,     obj=car, config=default
@@ -138,7 +136,7 @@ def findgovobj(pexpr, sent):
 
     #print(sent['mwe'], (gtok['word'], plemma, otok['word']), config)
 
-with open('streusle.json') as inF:
+with open(sys.argv[1]) as inF:
     data = json.load(inF)
 
 for sent in data:
