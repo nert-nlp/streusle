@@ -33,7 +33,6 @@
    2 p.Beneficiary	p.Goal
    1 p.Beneficiary	p.Possessor
    9 p.Characteristic	p.Characteristic
-   1 p.Characteristic	p.Locus
   15 p.Characteristic	p.Purpose
    6 p.Circumstance	p.Circumstance
    1 p.Circumstance	p.Locus
@@ -78,6 +77,7 @@
    2 p.Part/Portion	p.ComparisonRef
    4 p.Part/Portion	p.Part/Portion
    4 p.Possession	p.Accompanier
+   1 p.Possession	p.Locus
   21 p.Possessor	p.Possessor
   27 p.Purpose	p.Purpose
    2 p.Quantity	p.Quantity

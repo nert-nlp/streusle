@@ -39,14 +39,13 @@
   52 p.Beneficiary	p.Beneficiary
    2 p.Beneficiary	p.Direction
   10 p.Beneficiary	p.Goal
-   5 p.Beneficiary	p.Possessor
+   6 p.Beneficiary	p.Possessor
    7 p.Beneficiary	p.Theme
    4 p.Causer	p.Causer
    4 p.Causer	p.Possessor
    1 p.Causer	p.Source
   43 p.Characteristic	p.Characteristic
    9 p.Characteristic	p.Identity
-   3 p.Characteristic	p.Locus
    1 p.Characteristic	p.Manner
   39 p.Characteristic	p.Purpose
   52 p.Circumstance	p.Circumstance
@@ -84,9 +83,9 @@
    6 p.Frequency	p.Frequency
    1 p.Frequency	p.Identity
    1 p.Frequency	p.Manner
-   9 p.Gestalt	p.Gestalt
+  11 p.Gestalt	p.Gestalt
    5 p.Gestalt	p.Locus
- 128 p.Gestalt	p.Possessor
+ 126 p.Gestalt	p.Possessor
    1 p.Gestalt	p.Source
    1 p.Gestalt	p.Topic
  162 p.Goal	p.Goal
@@ -140,11 +139,13 @@
    2 p.Path	p.Locus
   18 p.Path	p.Path
    7 p.Possession	p.Accompanier
+   2 p.Possession	p.Locus
    1 p.Possession	p.Part/Portion
    2 p.Possession	p.Possession
    3 p.Possession	p.Theme
    2 p.Possessor	p.Accompanier
- 314 p.Possessor	p.Possessor
+   1 p.Possessor	p.Locus
+ 313 p.Possessor	p.Possessor
    1 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
  252 p.Purpose	p.Purpose

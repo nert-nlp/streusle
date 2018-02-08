@@ -2767,7 +2767,7 @@
 11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	12:nsubj	_	_	PRON	you	_	_	_	_	_	o-PRON
 12	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	_	1:2	_	_	_	_	_	_	_	I_
 13	beautiful	beautiful	ADJ	JJ	Degree=Pos	12	xcomp	12:xcomp	_	_	ADJ	beautiful	_	_	_	_	_	O-ADJ
-14	in	in	ADP	IN	_	15	case	15:case	_	_	P	in	p.Characteristic	p.Locus	_	_	_	O-P-p.Characteristic|p.Locus
+14	in	in	ADP	IN	_	15	case	15:case	_	_	P	in	p.Possession	p.Locus	_	_	_	O-P-p.Possession|p.Locus
 15	clothes	clothes	NOUN	NNS	Number=Plur	12	obl	12:obl	SpaceAfter=No	_	N	clothes	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 16	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
