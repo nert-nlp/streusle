@@ -38,8 +38,9 @@
    3 p.Approximator	p.Identity
   59 p.Beneficiary	p.Beneficiary
    2 p.Beneficiary	p.Direction
+   2 p.Beneficiary	p.Gestalt
   14 p.Beneficiary	p.Goal
-   9 p.Beneficiary	p.Possessor
+   7 p.Beneficiary	p.Possessor
    8 p.Beneficiary	p.Theme
    4 p.Causer	p.Causer
    4 p.Causer	p.Possessor
