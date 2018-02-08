@@ -99,7 +99,7 @@
    2 p.Time	p.Interval
   18 p.Time	p.Time
   10 p.Topic	p.Topic
-   6 p.Whole	p.Possessor
+   6 p.Whole	p.Gestalt
    4 p.Whole	p.Whole
    3 v.body	_
   17 v.change	_

@@ -108,8 +108,8 @@
    1 p.Topic	p.Goal
   17 p.Topic	p.Topic
    1 p.Whole	p.Circumstance
+   4 p.Whole	p.Gestalt
    2 p.Whole	p.Locus
-   4 p.Whole	p.Possessor
    5 p.Whole	p.Whole
    3 v.body	_
   34 v.change	_

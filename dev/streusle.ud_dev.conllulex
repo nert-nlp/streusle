@@ -349,7 +349,7 @@
 1	Lied	lie	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	lie	v.communication	_	2:1	_	lie to face	B-V-v.communication
 2	right	right	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	right	_	_	_	_	_	o-ADV
 3	to	to	ADP	IN	_	5	case	5:case	_	1:1	PP	to face	p.Goal	p.Goal	2:2	_	_	I~-PP-p.Goal
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Possessor	_	_	_	o-PRON.POSS-p.Whole|p.Possessor
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Gestalt	_	_	_	o-PRON.POSS-p.Whole|p.Gestalt
 5	face	face	NOUN	NN	Number=Sing	1	obl	1:obl	_	1:2	_	_	_	_	2:3	_	_	I_
 6	then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	_	_	ADV	then	_	_	_	_	_	O-ADV
 7	denied	deny	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	1:conj	_	_	V	deny	v.communication	_	_	_	_	O-V-v.communication
@@ -1481,7 +1481,7 @@
 6	Doctor	Doctor	PROPN	NNP	Number=Sing	5	obj	5:obj	_	1:1	N	Doctor Hank	n.PERSON	_	_	_	_	b-N-n.PERSON
 7	Hank	Hank	PROPN	NNP	Number=Sing	6	flat	6:flat	_	1:2	_	_	_	_	_	_	_	i_
 8	with	with	ADP	IN	_	10	case	10:case	_	_	P	with	p.Topic	p.Topic	2:2	_	_	I~-P-p.Topic
-9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.Whole	p.Possessor	_	_	_	O-PRON.POSS-p.Whole|p.Possessor
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.Whole	p.Gestalt	_	_	_	O-PRON.POSS-p.Whole|p.Gestalt
 10	teeth	teeth	NOUN	NN	Number=Sing	5	obl	5:obl	_	_	N	teeth	n.BODY	_	_	_	_	O-N-n.BODY
 11	for	for	ADP	IN	_	15	case	15:case	_	_	P	for	p.Duration	p.Duration	_	_	_	O-P-p.Duration
 12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -3558,7 +3558,7 @@
 5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	_	_	PRON	she	_	_	_	_	_	O-PRON
 6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 7	have	have	VERB	VB	VerbForm=Inf	4	advcl	4:advcl	_	1:1	N	have hair cut	n.ACT	_	_	_	_	B-N-n.ACT
-8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Possessor	_	_	_	o-PRON.POSS-p.Whole|p.Possessor
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Gestalt	_	_	_	o-PRON.POSS-p.Whole|p.Gestalt
 9	hair	hair	NOUN	NN	Number=Sing	7	obj	7:obj	_	1:2	_	_	_	_	_	_	_	I_
 10	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	7	xcomp	7:xcomp	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 11	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -3833,7 +3833,7 @@
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
 5	pleasant	pleasant	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	pleasant	_	_	_	_	_	O-ADJ
 6	and	and	CCONJ	CC	_	11	cc	11:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Possessor	_	_	_	O-PRON.POSS-p.Whole|p.Possessor
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Gestalt	_	_	_	O-PRON.POSS-p.Whole|p.Gestalt
 8	hair	hair	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_	_	N	hair	n.BODY	_	_	_	_	O-N-n.BODY
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 10	always	always	ADV	RB	_	11	advmod	11:advmod	_	_	ADV	always	_	_	_	_	_	O-ADV
@@ -4245,7 +4245,7 @@
 14	how	how	ADV	WRB	PronType=Int	16	advmod	16:advmod	_	_	ADV	how	_	_	_	_	_	O-ADV
 15	to	to	PART	TO	_	16	mark	16:mark	_	_	INF	to	_	_	_	_	_	O-INF
 16	use	use	VERB	VB	VerbForm=Inf	12	acl	12:acl	_	_	V	use	v.stative	_	_	_	_	O-V-v.stative
-17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	_	_	PRON.POSS	she	p.Whole	p.Possessor	_	_	_	O-PRON.POSS-p.Whole|p.Possessor
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	_	_	PRON.POSS	she	p.Whole	p.Gestalt	_	_	_	O-PRON.POSS-p.Whole|p.Gestalt
 18	hands	hand	NOUN	NNS	Number=Plur	16	obj	16:obj	_	_	N	hand	n.BODY	_	_	_	_	O-N-n.BODY
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 20	body	body	NOUN	NN	Number=Sing	18	conj	18:conj	SpaceAfter=No	_	N	body	n.BODY	_	_	_	_	O-N-n.BODY
@@ -7129,7 +7129,7 @@
 29	come	come	VERB	VB	VerbForm=Inf	28	acl	28:acl	_	_	V	come	v.communication	_	5:1	_	come out of mouth	B-V-v.communication
 30	out	out	ADP	IN	_	33	case	33:case	_	4:1	P	out of	p.Source	p.Source	5:2	_	_	I~-P-p.Source
 31	of	of	ADP	IN	_	33	case	33:case	_	4:2	_	_	_	_	5:3	_	_	I_
-32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	33:nmod:poss	_	_	PRON.POSS	they	p.Whole	p.Possessor	_	_	_	o-PRON.POSS-p.Whole|p.Possessor
+32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	33:nmod:poss	_	_	PRON.POSS	they	p.Whole	p.Gestalt	_	_	_	o-PRON.POSS-p.Whole|p.Gestalt
 33	mouths	mouth	NOUN	NNS	Number=Plur	29	obl	29:obl	SpaceAfter=No	_	N	mouth	n.BODY	_	5:4	_	_	I~-N-n.BODY
 34	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

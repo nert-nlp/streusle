@@ -190,8 +190,8 @@
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
  179 p.Topic	p.Topic
+  56 p.Whole	p.Gestalt
    5 p.Whole	p.Locus
-  56 p.Whole	p.Possessor
    3 p.Whole	p.Source
   56 p.Whole	p.Whole
   75 v.body	_

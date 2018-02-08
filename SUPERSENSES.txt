@@ -200,8 +200,8 @@
    7 p.Topic	p.Goal
  206 p.Topic	p.Topic
    1 p.Whole	p.Circumstance
+  66 p.Whole	p.Gestalt
    7 p.Whole	p.Locus
-  66 p.Whole	p.Possessor
    3 p.Whole	p.Source
   65 p.Whole	p.Whole
   81 v.body	_
