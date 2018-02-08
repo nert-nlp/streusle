@@ -30,6 +30,7 @@
    2 p.Agent	p.Source
    5 p.Approximator	p.Approximator
    5 p.Beneficiary	p.Beneficiary
+   1 p.Beneficiary	p.Gestalt
    2 p.Beneficiary	p.Goal
    1 p.Beneficiary	p.Possessor
    9 p.Characteristic	p.Characteristic
@@ -69,8 +70,9 @@
    2 p.Means	p.Means
    2 p.OrgRole	p.Characteristic
    1 p.OrgRole	p.Co-Agent
+   2 p.OrgRole	p.Gestalt
    2 p.OrgRole	p.Locus
-   7 p.OrgRole	p.Possessor
+   4 p.OrgRole	p.Possessor
    2 p.Originator	p.Agent
    9 p.Originator	p.Possessor
    4 p.Originator	p.Source

@@ -1,6 +1,6 @@
   48 ??	_
 33287 _	_
-  11 `$	`$
+  12 `$	`$
  717 n.ACT	_
   88 n.ANIMAL	_
 1000 n.ARTIFACT	_
@@ -38,7 +38,7 @@
    3 p.Approximator	p.Identity
   59 p.Beneficiary	p.Beneficiary
    2 p.Beneficiary	p.Direction
-   2 p.Beneficiary	p.Gestalt
+   3 p.Beneficiary	p.Gestalt
   14 p.Beneficiary	p.Goal
    7 p.Beneficiary	p.Possessor
    8 p.Beneficiary	p.Theme
@@ -86,7 +86,7 @@
    7 p.Frequency	p.Frequency
    1 p.Frequency	p.Identity
    1 p.Frequency	p.Manner
- 154 p.Gestalt	p.Gestalt
+ 155 p.Gestalt	p.Gestalt
    5 p.Gestalt	p.Locus
    2 p.Gestalt	p.Purpose
    1 p.Gestalt	p.Source
@@ -124,11 +124,11 @@
    4 p.OrgRole	p.Beneficiary
    6 p.OrgRole	p.Characteristic
    6 p.OrgRole	p.Co-Agent
-   3 p.OrgRole	p.Gestalt
+   8 p.OrgRole	p.Gestalt
    6 p.OrgRole	p.Goal
    3 p.OrgRole	p.Instrument
   33 p.OrgRole	p.Locus
-  35 p.OrgRole	p.Possessor
+  27 p.OrgRole	p.Possessor
    4 p.OrgRole	p.Source
    2 p.OrgRole	p.Whole
   11 p.Originator	p.Agent
@@ -221,7 +221,7 @@
 ========================
     9106 n.*
     7677 v.*
-    5456 p.*
+    5455 p.*
 
 n.* by LexCat
 ========================
@@ -237,5 +237,5 @@ p.* by LexCat
 3934 P
   59 POSS
  170 PP
-1046 PRON.POSS
+1045 PRON.POSS
 

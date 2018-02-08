@@ -253,7 +253,7 @@
 2	firing	fire	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	_	_	V	fire	v.social	_	_	_	_	O-V-v.social
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_	_	DET	this	_	_	_	_	_	O-DET
 4	company	company	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgRole|p.Gestalt
 6	next	next	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	next	_	_	_	_	_	O-ADJ
 7	pool	pool	NOUN	NN	Number=Sing	8	compound	8:compound	_	1:1	N	pool service	n.ACT	_	_	_	_	B-N-n.ACT
 8	service	service	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_	1:2	_	_	_	_	_	_	_	I_
@@ -3183,7 +3183,7 @@
 12	this	this	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	16:nsubj	_	_	PRON	this	_	_	_	_	_	O-PRON
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 14	not	not	PART	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
-15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	you	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	you	p.Beneficiary	p.Gestalt	_	_	_	O-PRON.POSS-p.Beneficiary|p.Gestalt
 16	place	place	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 17	.	.	PUNCT	.	_	16	punct	16:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -6028,7 +6028,7 @@
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 6	better	better	ADJ	JJR	Degree=Cmp	0	root	0:root	_	_	ADJ	better	_	_	_	_	_	O-ADJ
 7	than	than	ADP	IN	_	13	case	13:case	_	_	P	than	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
-8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgRole|p.Gestalt
 9	last	last	ADJ	JJ	Degree=Pos	10	amod	10:amod	_	_	ADJ	last	_	_	_	_	_	O-ADJ
 10	salon	salon	NOUN	NN	Number=Sing	13	nmod:poss	13:nmod:poss	SpaceAfter=No	_	N	salon	n.GROUP	_	_	_	_	O-N-n.GROUP
 11	s	's	PART	POS	_	10	case	10:case	_	_	POSS	's	p.Gestalt	p.Gestalt	_	_	_	O-POSS-p.Gestalt
