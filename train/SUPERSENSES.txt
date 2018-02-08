@@ -176,9 +176,9 @@
    1 p.Theme	p.Accompanier
    1 p.Theme	p.Characteristic
   17 p.Theme	p.ComparisonRef
+  12 p.Theme	p.Gestalt
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
-  12 p.Theme	p.Possessor
   21 p.Theme	p.Purpose
  135 p.Theme	p.Theme
    2 p.Theme	p.Whole

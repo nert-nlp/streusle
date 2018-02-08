@@ -7404,7 +7404,7 @@
 # text = My post-op treatment was TERRIBLE.
 # streusle_sent_id = ewtb.r.346563.6
 # mwe = My post-op treatment was TERRIBLE .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	PRON.POSS	my	p.Theme	p.Possessor	_	_	_	O-PRON.POSS-p.Theme|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	PRON.POSS	my	p.Theme	p.Gestalt	_	_	_	O-PRON.POSS-p.Theme|p.Gestalt
 2	post-op	post-op	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	_	ADJ	post-op	_	_	_	_	_	O-ADJ
 3	treatment	treatment	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	treatment	n.ACT	_	_	_	_	O-N-n.ACT
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative

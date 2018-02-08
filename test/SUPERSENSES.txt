@@ -97,7 +97,7 @@
    1 p.Stimulus	p.Source
    9 p.Stimulus	p.Topic
    1 p.Theme	p.ComparisonRef
-   1 p.Theme	p.Possessor
+   1 p.Theme	p.Gestalt
    1 p.Theme	p.Purpose
   10 p.Theme	p.Theme
    1 p.Time	p.Direction
