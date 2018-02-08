@@ -128,7 +128,7 @@
    6 p.OrgRole	p.Goal
    3 p.OrgRole	p.Instrument
   33 p.OrgRole	p.Locus
-  41 p.OrgRole	p.Possessor
+  35 p.OrgRole	p.Possessor
    4 p.OrgRole	p.Source
    2 p.OrgRole	p.Whole
   11 p.Originator	p.Agent
@@ -150,7 +150,7 @@
    3 p.Possession	p.Theme
    2 p.Possessor	p.Accompanier
    1 p.Possessor	p.Locus
- 369 p.Possessor	p.Possessor
+ 378 p.Possessor	p.Possessor
    2 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
  296 p.Purpose	p.Purpose
@@ -166,7 +166,7 @@
   99 p.Recipient	p.Goal
    1 p.SocialRel	p.Accompanier
   18 p.SocialRel	p.Co-Agent
- 222 p.SocialRel	p.Gestalt
+ 219 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Goal
    1 p.SocialRel	p.Source
   77 p.Source	p.Source
