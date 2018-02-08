@@ -69,8 +69,8 @@
  119 p.Direction	p.Direction
    1 p.Direction	p.Goal
   86 p.Duration	p.Duration
+   2 p.Duration	p.Gestalt
    2 p.Duration	p.Identity
-   2 p.Duration	p.Possessor
   30 p.EndTime	p.EndTime
    1 p.Experiencer	p.Agent
    8 p.Experiencer	p.Beneficiary
