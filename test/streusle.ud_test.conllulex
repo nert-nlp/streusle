@@ -849,7 +849,7 @@
 3	no	no	DET	DT	_	4	det	4:det	_	_	DET	no	_	_	_	_	_	o-DET
 4	problem	problem	NOUN	NN	Number=Sing	2	obj	2:obj	_	1:2	_	_	_	_	2:2	_	_	I_
 5	with	with	ADP	IN	_	7	case	7:case	_	_	P	with	p.Topic	p.Topic	2:3	_	_	I~-P-p.Topic
-6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	my	p.Recipient	p.Possessor	_	_	_	O-PRON.POSS-p.Recipient|p.Possessor
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	my	p.Recipient	p.Gestalt	_	_	_	O-PRON.POSS-p.Recipient|p.Gestalt
 7	delivery	delivery	NOUN	NN	Number=Sing	4	nmod	4:nmod	SpaceAfter=No	_	N	delivery	n.ACT	_	_	_	_	O-N-n.ACT
 8	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -2833,7 +2833,7 @@
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	29:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 25	will	will	AUX	MD	VerbForm=Fin	29	aux	29:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
 26	be	be	AUX	VB	VerbForm=Inf	29	cop	29:cop	_	4:1	V	be first call	v.stative	_	_	_	_	B-V-v.stative
-27	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	_	_	PRON.POSS	we	p.Recipient	p.Possessor	_	_	_	o-PRON.POSS-p.Recipient|p.Possessor
+27	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	_	_	PRON.POSS	we	p.Recipient	p.Gestalt	_	_	_	o-PRON.POSS-p.Recipient|p.Gestalt
 28	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	29	amod	29:amod	_	4:2	_	_	_	_	_	_	_	I_
 29	call	call	NOUN	NN	Number=Sing	7	parataxis	7:parataxis	_	4:3	_	_	_	_	_	_	_	I_
 30	if	if	SCONJ	IN	_	32	mark	32:mark	_	_	SCONJ	if	_	_	_	_	_	O-SCONJ
@@ -7393,7 +7393,7 @@
 # text = My results were just AWFUL.
 # streusle_sent_id = ewtb.r.346563.5
 # mwe = My results were just AWFUL .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.Recipient	p.Possessor	_	_	_	O-PRON.POSS-p.Recipient|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.Recipient	p.Gestalt	_	_	_	O-PRON.POSS-p.Recipient|p.Gestalt
 2	results	result	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	_	_	N	result	n.PHENOMENON	_	_	_	_	O-N-n.PHENOMENON
 3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	just	_	_	_	_	_	O-ADV

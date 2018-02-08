@@ -84,8 +84,8 @@
   11 p.Quantity	p.Quantity
    1 p.Quantity	p.Stuff
    8 p.Quantity	p.Whole
+   3 p.Recipient	p.Gestalt
   11 p.Recipient	p.Goal
-   3 p.Recipient	p.Possessor
    5 p.SocialRel	p.Co-Agent
   20 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Source

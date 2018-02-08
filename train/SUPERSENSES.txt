@@ -157,8 +157,8 @@
    5 p.RateUnit	p.RateUnit
    4 p.Recipient	p.Co-Agent
    7 p.Recipient	p.Direction
+   8 p.Recipient	p.Gestalt
   81 p.Recipient	p.Goal
-   7 p.Recipient	p.Possessor
    1 p.SocialRel	p.Accompanier
   11 p.SocialRel	p.Co-Agent
  187 p.SocialRel	p.Gestalt
@@ -176,7 +176,7 @@
    1 p.Theme	p.Accompanier
    1 p.Theme	p.Characteristic
   17 p.Theme	p.ComparisonRef
-  12 p.Theme	p.Gestalt
+  11 p.Theme	p.Gestalt
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
   21 p.Theme	p.Purpose
