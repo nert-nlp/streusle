@@ -26,7 +26,7 @@
   36 n.TIME	_
    2 p.Accompanier	p.Accompanier
    1 p.Agent	p.Agent
-  12 p.Agent	p.Possessor
+  12 p.Agent	p.Gestalt
    2 p.Agent	p.Source
    5 p.Approximator	p.Approximator
    5 p.Beneficiary	p.Beneficiary

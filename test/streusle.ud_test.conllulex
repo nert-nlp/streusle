@@ -253,7 +253,7 @@
 12	all	all	DET	DT	_	13	det	13:det	_	_	DET	all	_	_	_	_	_	O-DET
 13	phases	phase	NOUN	NNS	Number=Plur	9	obl	9:obl	_	_	N	phase	n.STATE	_	_	_	_	O-N-n.STATE
 14	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.Whole	p.Whole	_	_	_	O-P-p.Whole
-15	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	we	p.Agent	p.Possessor	_	_	_	O-PRON.POSS-p.Agent|p.Possessor
+15	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	we	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 16	project	project	NOUN	NN	Number=Sing	13	nmod	13:nmod	SpaceAfter=No	_	N	project	n.ACT	_	_	_	_	O-N-n.ACT
 17	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -3618,7 +3618,7 @@
 10	blown	blow	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	2:conj	_	2:1	V	blow away	v.cognition	_	_	_	_	B-V-v.cognition
 11	away	away	ADV	RB	_	10	advmod	10:advmod	_	2:2	_	_	_	_	_	_	_	I_
 12	with	with	ADP	IN	_	14	case	14:case	_	_	P	with	p.Stimulus	p.Topic	_	_	_	O-P-p.Stimulus|p.Topic
-13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	they	p.Agent	p.Possessor	_	_	_	O-PRON.POSS-p.Agent|p.Possessor
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	they	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 14	service	service	NOUN	NN	Number=Sing	10	obl	10:obl	SpaceAfter=No	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 15	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -4160,7 +4160,7 @@
 2	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
 3	highly	highly	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	highly	_	_	1:1	_	highly recommend	B-ADV
 4	recommend	recommend	VERB	VB	VerbForm=Inf	0	root	0:root	_	_	V	recommend	v.communication	_	1:2	_	_	I~-V-v.communication
-5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	she	p.Agent	p.Possessor	_	_	_	O-PRON.POSS-p.Agent|p.Possessor
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	she	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 6	services	service	NOUN	NNS	Number=Plur	4	obj	4:obj	SpaceAfter=No	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 7	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -5688,7 +5688,7 @@
 # mwe = I schedule my weekly appointment here just to get_ a _chance to lie comfortably on my tummy .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	schedule	schedule	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	schedule	v.communication	_	_	_	_	O-V-v.communication
-3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Agent	p.Possessor	_	_	_	O-PRON.POSS-p.Agent|p.Possessor
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 4	weekly	weekly	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	weekly	_	_	_	_	_	O-ADJ
 5	appointment	appointment	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	appointment	n.EVENT	_	_	_	_	O-N-n.EVENT
 6	here	here	ADV	RB	PronType=Dem	2	advmod	2:advmod	_	_	ADV	here	_	_	_	_	_	O-ADV
@@ -6477,7 +6477,7 @@
 # mwe = I use their limo services for all of my airport car services and airport transportation needs
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	use	v.consumption	_	_	_	_	O-V-v.consumption
-3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	they	p.Agent	p.Possessor	_	_	_	O-PRON.POSS-p.Agent|p.Possessor
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	they	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 4	limo	limo	NOUN	NN	Number=Sing	5	compound	5:compound	_	_	N	limo	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 5	services	service	NOUN	NNS	Number=Plur	2	obj	2:obj	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 6	for	for	ADP	IN	_	7	case	7:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
@@ -7080,7 +7080,7 @@
 5	road	road	NOUN	NN	Number=Sing	6	compound	6:compound	_	1:2	_	_	_	_	2:2	_	_	I_
 6	parking	parking	NOUN	NN	Number=Sing	2	conj	2:conj	_	_	N	parking	n.COGNITION	_	2:3	_	_	I~-N-n.COGNITION
 7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	make	v.social	_	_	_	_	O-V-v.social
-8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	we	p.Agent	p.Possessor	_	_	_	O-PRON.POSS-p.Agent|p.Possessor
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	we	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 9	stay	stay	NOUN	NN	Number=Sing	7	obj	7:obj	_	_	N	stay	n.EVENT	_	_	_	_	O-N-n.EVENT
 10	very	very	ADV	RB	_	11	advmod	11:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
 11	convenient	convenient	ADJ	JJ	Degree=Pos	7	xcomp	7:xcomp	SpaceAfter=No	_	ADJ	convenient	_	_	_	_	_	O-ADJ

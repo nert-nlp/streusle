@@ -29,10 +29,10 @@
  456 n.TIME	_
   24 p.Accompanier	p.Accompanier
    2 p.Accompanier	p.Co-Agent
-  23 p.Agent	p.Agent
+  22 p.Agent	p.Agent
    1 p.Agent	p.Beneficiary
+ 107 p.Agent	p.Gestalt
    1 p.Agent	p.Locus
- 106 p.Agent	p.Possessor
    4 p.Agent	p.Source
   64 p.Approximator	p.Approximator
    2 p.Approximator	p.Identity

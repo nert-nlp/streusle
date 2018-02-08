@@ -25,7 +25,7 @@
    1 n.SUBSTANCE	_
   35 n.TIME	_
    2 p.Agent	p.Agent
-   6 p.Agent	p.Possessor
+   6 p.Agent	p.Gestalt
    4 p.Approximator	p.Approximator
    1 p.Approximator	p.Identity
    2 p.Beneficiary	p.Beneficiary
