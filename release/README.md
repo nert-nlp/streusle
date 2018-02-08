@@ -26,6 +26,7 @@ Files
 - papers/: Publications and annotation guidelines.
 
 - conllulex2json.py: Script to validate the data and convert it to JSON.
+- govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
 - lexcatter.py: Utilities for working with lexical categories.
 - mwerender.py: Utilities for working with MWEs.
 - supersenses.py: Utilities for working with supersense labels.
@@ -81,7 +82,7 @@ http://nathan.cl
 History
 -------
 
-  - STREUSLE 4.0: 2018-01-22. Updated preposition supersenses to new annotation scheme.
+  - STREUSLE 4.0: 2018-02-08. Updated preposition supersenses to new annotation scheme.
     Annotated possessives using preposition supersenses.
     Revised a considerable number of MWEs involving prepositions.
     Added lexical category for every single-word or strong multiword expression.
