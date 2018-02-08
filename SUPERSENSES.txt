@@ -43,7 +43,7 @@
    7 p.Beneficiary	p.Possessor
    8 p.Beneficiary	p.Theme
    4 p.Causer	p.Causer
-   4 p.Causer	p.Possessor
+   4 p.Causer	p.Gestalt
    1 p.Causer	p.Source
   59 p.Characteristic	p.Characteristic
    9 p.Characteristic	p.Identity
