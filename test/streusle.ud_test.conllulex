@@ -10,7 +10,7 @@
 # text = My 8 year old daughter loves this place.
 # streusle_sent_id = ewtb.r.001325.2
 # mwe = My 8 year_old daughter loves this place .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	8	8	NUM	CD	NumType=Card	3	nummod	3:nummod	_	_	NUM	8	_	_	_	_	_	O-NUM
 3	year	year	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_	1:1	N	year old	n.PERSON	_	_	_	_	B-N-n.PERSON
 4	old	old	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	1:2	_	_	_	_	_	_	_	I_
@@ -264,7 +264,7 @@
 # mwe = Daniel and his assistant both did_a_ great _job .
 1	Daniel	Daniel	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	_	_	N	Daniel	n.PERSON	_	_	_	_	O-N-n.PERSON
 2	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	he	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	he	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 4	assistant	assistant	NOUN	NN	Number=Sing	1	conj	1:conj	_	_	N	assistant	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	both	both	DET	DT	_	1	advmod	1:advmod	_	_	DET	both	_	_	_	_	_	O-DET
 6	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	do a job	v.social	_	_	_	_	B-V-v.social
@@ -295,7 +295,7 @@
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 6	all	all	DET	DT	_	4	conj	4:conj	_	_	DET	all	_	_	_	_	_	O-DET
 7	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
-8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 9	wedding	wedding	NOUN	NN	Number=Sing	10	compound	10:compound	_	_	N	wedding	n.EVENT	_	_	_	_	O-N-n.EVENT
 10	guests	guest	NOUN	NNS	Number=Plur	6	nmod	6:nmod	SpaceAfter=No	_	N	guest	n.PERSON	_	_	_	_	O-N-n.PERSON
 11	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
@@ -644,7 +644,7 @@
 7	salon	salon	NOUN	NN	Number=Sing	4	nmod	4:nmod	_	_	N	salon	n.GROUP	_	_	_	_	O-N-n.GROUP
 8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_	_	V	know	v.cognition	_	_	_	_	O-V-v.cognition
 9	that	that	SCONJ	IN	_	13	mark	13:mark	_	_	SCONJ	that	_	_	_	_	_	O-SCONJ
-10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 11	business	business	NOUN	NN	Number=Sing	13	nsubj:pass	13:nsubj:pass	_	_	N	business	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	13:aux:pass	_	_	AUX	be	_	_	_	_	_	O-AUX
 13	based	base	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	8:ccomp	_	_	V	base	v.stative	_	_	_	_	O-V-v.stative
@@ -1162,7 +1162,7 @@
 12	totally	totally	ADV	RB	_	13	advmod	13:advmod	_	_	ADV	totally	_	_	_	_	_	O-ADV
 13	happy	happy	ADJ	JJ	Degree=Pos	3	advcl	3:advcl	_	_	ADJ	happy	_	_	_	_	_	O-ADJ
 14	with	with	ADP	IN	_	17	case	17:case	_	_	P	with	p.Stimulus	p.Topic	_	_	_	O-P-p.Stimulus|p.Topic
-15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 16	current	current	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	current	_	_	_	_	_	O-ADJ
 17	therapist	therapist	NOUN	NN	Number=Sing	13	obl	13:obl	_	_	N	therapist	n.PERSON	_	_	_	_	O-N-n.PERSON
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
@@ -1757,7 +1757,7 @@
 3	like	like	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:2	_	_	_	_	3:2	_	_	I_
 4	to	to	PART	TO	_	5	mark	5:mark	_	_	INF	to	_	_	3:3	_	_	I~-INF
 5	thank	thank	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_	_	V	thank	v.communication	_	3:4	_	_	I~-V-v.communication
-6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 7	emergency	emergency	NOUN	NN	Number=Sing	8	compound	8:compound	_	_	N	emergency	n.EVENT	_	_	_	_	O-N-n.EVENT
 8	plumbers	plumber	NOUN	NNS	Number=Plur	5	obj	5:obj	_	_	N	plumber	n.PERSON	_	_	_	_	O-N-n.PERSON
 9	who	who	PRON	WP	PronType=Rel	10	nsubj	10:nsubj	_	_	PRON	who	_	_	_	_	_	O-PRON
@@ -3354,7 +3354,7 @@
 22	and	and	CCONJ	CC	_	27	cc	27:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 23	Michael	Michael	PROPN	NNP	Number=Sing	27	nsubj	27:nsubj	_	_	N	Michael	n.PERSON	_	_	_	_	O-N-n.PERSON
 24	and	and	CCONJ	CC	_	26	cc	26:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	_	_	PRON.POSS	he	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	_	_	PRON.POSS	he	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 26	team	team	NOUN	NN	Number=Sing	23	conj	23:conj	_	_	N	team	n.GROUP	_	_	_	_	O-N-n.GROUP
 27	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	2:conj	_	_	V	make	v.stative	_	_	_	_	O-V-v.stative
 28	that	that	PRON	DT	Number=Sing|PronType=Dem	29	nsubj	29:nsubj	_	_	PRON	that	_	_	_	_	_	O-PRON
@@ -3466,7 +3466,7 @@
 # mwe = They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 2	treat	treat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	treat	v.social	_	_	_	_	O-V-v.social
-3	there	there	PRON	PRP$	_	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	there	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+3	there	there	PRON	PRP$	_	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	there	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 4	employees	employee	NOUN	NNS	Number=Plur	2	obj	2:obj	_	_	N	employee	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.Manner	p.Manner	_	_	_	O-P-p.Manner
 6	respect	respect	NOUN	NN	Number=Sing	2	obl	2:obl	_	_	N	respect	n.COGNITION	_	_	_	_	O-N-n.COGNITION
@@ -3482,7 +3482,7 @@
 16	same	same	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	same	_	_	_	_	_	O-ADJ
 17	politeness	politeness	NOUN	NN	Number=Sing	14	obj	14:obj	_	_	N	politeness	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 18	to	to	ADP	IN	_	20	case	20:case	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
-19	there	there	PRON	PRP$	_	20	nmod:poss	20:nmod:poss	_	_	PRON.POSS	there	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+19	there	there	PRON	PRP$	_	20	nmod:poss	20:nmod:poss	_	_	PRON.POSS	there	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 20	customers	customer	NOUN	NNS	Number=Plur	14	obl	14:obl	SpaceAfter=No	_	N	customer	n.PERSON	_	_	_	_	O-N-n.PERSON
 21	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -3952,7 +3952,7 @@
 9	twice	twice	ADV	RB	NumType=Mult	3	advmod	3:advmod	_	_	ADV	twice	_	_	_	_	_	O-ADV
 10	now	now	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	now	_	_	_	_	_	O-ADV
 11	in	in	ADP	IN	_	13	case	13:case	_	_	P	in	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
-12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 13	family	family	NOUN	NN	Number=Sing	3	obl	3:obl	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 14	and	and	CCONJ	CC	_	20	cc	20:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 15	both	both	DET	DT	_	16	det	16:det	_	_	DET	both	_	_	_	_	_	O-DET
@@ -3979,7 +3979,7 @@
 10	refer	refer	VERB	VB	VerbForm=Inf	6	conj	6:conj	_	_	V	refer	v.communication	_	_	_	_	O-V-v.communication
 11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj	_	_	PRON	he	_	_	_	_	_	O-PRON
 12	to	to	ADP	IN	_	14	case	14:case	_	_	P	to	??	_	_	_	_	O-P-??
-13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 14	family	family	NOUN	NN	Number=Sing	10	obl	10:obl	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 15	or	or	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	or	_	_	_	_	_	O-CCONJ
 16	friends	friend	NOUN	NNS	Number=Plur	14	conj	14:conj	SpaceAfter=No	_	N	friend	n.PERSON	_	_	_	_	O-N-n.PERSON
@@ -4467,7 +4467,7 @@
 # text = Your children will be taken care of and loved by a professional staff.
 # streusle_sent_id = ewtb.r.214912.4
 # mwe = Your children will be taken_care_of and loved by a professional staff .
-1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	children	child	NOUN	NNS	Number=Plur	5	nsubj:pass	5:nsubj:pass	_	_	N	child	n.PERSON	_	_	_	_	O-N-n.PERSON
 3	will	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
 4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	5:aux:pass	_	_	AUX	be	_	_	_	_	_	O-AUX
@@ -4622,7 +4622,7 @@
 # text = You company and services will be recommended by us to everyone."
 # streusle_sent_id = ewtb.r.217747.4
 # mwe = You company and services will be recommended by us to everyone . "
-1	You	you	PRON	PRP$	_	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	You	you	PRON	PRP$	_	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	company	company	NOUN	NN	Number=Sing	7	nsubj:pass	7:nsubj:pass	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	services	service	NOUN	NNS	Number=Plur	2	conj	2:conj	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
@@ -4712,7 +4712,7 @@
 # text = My daughter and I stayed here again from the 7th to the 14th of December.
 # streusle_sent_id = ewtb.r.225861.2
 # mwe = My daughter and I stayed here again from the 7th to the 14th of December .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	daughter	daughter	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	daughter	n.PERSON	_	_	_	_	O-N-n.PERSON
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	2:conj	_	_	PRON	I	_	_	_	_	_	O-PRON
@@ -5102,7 +5102,7 @@
 12	most	most	ADV	RBS	_	13	advmod	13:advmod	_	_	ADV	most	_	_	_	_	_	O-ADV
 13	helpful	helpful	ADJ	JJ	Degree=Pos	1	conj	1:conj	_	_	ADJ	helpful	_	_	_	_	_	O-ADJ
 14	to	to	ADP	IN	_	17	case	17:case	_	_	P	to	p.Beneficiary	p.Goal	_	_	_	O-P-p.Beneficiary|p.Goal
-15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 16	family	family	NOUN	NN	Number=Sing	17	compound	17:compound	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 17	members	member	NOUN	NNS	Number=Plur	13	obl	13:obl	_	_	N	member	n.PERSON	_	_	_	_	O-N-n.PERSON
 18	that	that	PRON	WDT	PronType=Rel	19	nsubj	19:nsubj	_	_	PRON	that	_	_	_	_	_	O-PRON
@@ -6570,7 +6570,7 @@
 5	2	2	NUM	CD	NumType=Card	6	nummod	6:nummod	_	2:1	N	2 star	n.COMMUNICATION	_	_	_	_	B-N-n.COMMUNICATION
 6	stars	star	NOUN	NNS	Number=Plur	2	obj	2:obj	_	2:2	_	_	_	_	_	_	_	I_
 7	because	because	SCONJ	IN	_	12	mark	12:mark	_	_	SCONJ	because	_	_	_	_	_	O-SCONJ
-8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	she	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	she	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 9	assistant	assistant	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_	_	N	assistant	n.PERSON	_	_	_	_	O-N-n.PERSON
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 11	very	very	ADV	RB	_	12	advmod	12:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
@@ -6591,7 +6591,7 @@
 8	very	very	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
 9	helpful	helpful	ADJ	JJ	Degree=Pos	6	xcomp	6:xcomp	_	_	ADJ	helpful	_	_	_	_	_	O-ADJ
 10	and	and	CCONJ	CC	_	14	cc	14:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	she	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	she	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 12	receptionist	receptionist	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_	_	N	receptionist	n.PERSON	_	_	_	_	O-N-n.PERSON
 13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	14:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 14	rude	rude	ADJ	JJ	Degree=Pos	6	conj	6:conj	SpaceAfter=No	_	ADJ	rude	_	_	_	_	_	O-ADJ
@@ -6700,7 +6700,7 @@
 9	from	from	ADP	IN	_	10	case	10:case	_	_	P	from	p.Source	p.Source	_	_	_	O-P-p.Source
 10	some	some	DET	DT	_	2	obl	2:obl	_	_	DET	some	_	_	_	_	_	O-DET
 11	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
-12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 13	staff	staff	NOUN	NN	Number=Sing	10	nmod	10:nmod	SpaceAfter=No	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 14	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 15	perhaps	perhaps	ADV	RB	_	18	advmod	18:advmod	_	_	ADV	perhaps	_	_	_	_	_	O-ADV
@@ -7106,7 +7106,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	O-DET
 5	best	best	ADJ	JJS	Degree=Sup	3	obj	3:obj	_	_	ADJ	best	_	_	_	_	_	O-ADJ
 6	for	for	ADP	IN	_	8	case	8:case	_	_	P	for	p.Beneficiary	p.Beneficiary	_	_	_	O-P-p.Beneficiary
-7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 8	child	child	NOUN	NN	Number=Sing	5	obl	5:obl	SpaceAfter=No	_	N	child	n.PERSON	_	_	_	_	O-N-n.PERSON
 9	,	,	PUNCT	,	_	12	punct	12:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 10	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	12	aux	12:aux	SpaceAfter=No	_	AUX	do	_	_	_	_	_	O-AUX
@@ -8075,7 +8075,7 @@
 4	Garage	Garage	PROPN	NNP	Number=Sing	5	compound	5:compound	_	1:1	N	Garage Pros	n.GROUP	_	_	_	_	b-N-n.GROUP
 5	Pros	Pros	PROPN	NNPS	Number=Plur	3	obj	3:obj	_	1:2	_	_	_	_	_	_	_	i_
 6	to	to	ADP	IN	_	8	case	8:case	_	_	P	to	p.Recipient	p.Goal	2:3	_	_	I~-P-p.Recipient|p.Goal
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 8	friends	friend	NOUN	NNS	Number=Plur	3	obl	3:obl	SpaceAfter=No	_	N	friend	n.GROUP	_	_	_	_	O-N-n.GROUP
 9	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

@@ -166,8 +166,8 @@
   10 p.Recipient	p.Possessor
    1 p.SocialRel	p.Accompanier
   18 p.SocialRel	p.Co-Agent
+ 222 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Goal
- 222 p.SocialRel	p.Possessor
    1 p.SocialRel	p.Source
   77 p.Source	p.Source
   39 p.Species	p.Species

@@ -161,7 +161,7 @@
    7 p.Recipient	p.Possessor
    1 p.SocialRel	p.Accompanier
   11 p.SocialRel	p.Co-Agent
- 187 p.SocialRel	p.Possessor
+ 187 p.SocialRel	p.Gestalt
   67 p.Source	p.Source
   32 p.Species	p.Species
   19 p.StartTime	p.StartTime

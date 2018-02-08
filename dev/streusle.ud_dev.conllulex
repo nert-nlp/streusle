@@ -66,7 +66,7 @@
 1	Very	very	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
 2	good	good	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 3	with	with	ADP	IN	_	8	case	8:case	_	_	P	with	??	_	_	_	_	O-P-??
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 5	5	5	NUM	CD	NumType=Card	6	nummod	6:nummod	_	_	NUM	5	_	_	_	_	_	O-NUM
 6	year	year	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	_	1:1	N	year old	n.PERSON	_	_	_	_	B-N-n.PERSON
 7	old	old	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	1:2	_	_	_	_	_	_	_	I_
@@ -765,7 +765,7 @@
 4	calling	call	VERB	VBG	VerbForm=Ger	0	root	0:root	_	_	V	call	v.communication	_	_	_	_	O-V-v.communication
 5	tropics	tropics	NOUN	NNS	Number=Plur	4	obj	4:obj	_	_	N	tropics	n.GROUP	_	_	_	_	O-N-n.GROUP
 6	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 8	companie	companie	NOUN	NN	Number=Sing	11	nmod:poss	11:nmod:poss	SpaceAfter=No	_	N	companie	n.GROUP	_	_	_	_	O-N-n.GROUP
 9	s	's	PART	POS	_	8	case	8:case	_	_	POSS	's	p.Agent	p.Gestalt	_	_	_	O-POSS-p.Agent|p.Gestalt
 10	next	next	ADJ	JJ	Degree=Pos	11	amod	11:amod	_	_	ADJ	next	_	_	_	_	_	O-ADJ
@@ -1262,7 +1262,7 @@
 7	nice	nice	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	nice	_	_	_	_	_	O-ADJ
 8	gift	gift	NOUN	NN	Number=Sing	5	obj	5:obj	_	_	N	gift	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 9	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Recipient	p.Direction	_	_	_	O-P-p.Recipient|p.Direction
-10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 11	wife	wife	NOUN	NN	Number=Sing	5	obl	5:obl	SpaceAfter=No	_	N	wife	n.PERSON	_	_	_	_	O-N-n.PERSON
 12	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -1473,7 +1473,7 @@
 # text = Our family has been trusting Doctor Hank with our teeth for the last seven years.
 # streusle_sent_id = ewtb.r.067423.2
 # mwe = Our family has been trusting~ Doctor_Hank ~with our teeth for the last seven years .
-1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	family	family	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	5:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
@@ -2054,7 +2054,7 @@
 2	job	job	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	job	n.ACT	_	_	_	_	O-N-n.ACT
 3	master	master	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_	1:1	V	master key	v.creation	_	_	_	_	B-V-v.creation
 4	keying	key	VERB	VBG	VerbForm=Ger	2	acl	2:acl	_	1:2	_	_	_	_	_	_	_	I_
-5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 6	building	building	NOUN	NN	Number=Sing	4	obj	4:obj	SpaceAfter=No	_	N	building	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 7	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -2649,7 +2649,7 @@
 1	Dr.	Dr.	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	_	1:1	N	Dr. Dorn	n.PERSON	_	_	_	_	B-N-n.PERSON
 2	Dorn	Dorn	PROPN	NNP	Number=Sing	1	flat	1:flat	_	1:2	_	_	_	_	_	_	_	I_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	he	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	he	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 5	backup	backup	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	backup	n.PERSON	_	_	_	_	O-N-n.PERSON
 6	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -4318,7 +4318,7 @@
 # text = My wife and kids can't get enough.
 # streusle_sent_id = ewtb.r.194313.4
 # mwe = My wife_and_kids ca_n't_get_enough .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	wife	wife	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	1:1	N	wife and kid	n.GROUP	_	_	_	_	B-N-n.GROUP
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	1:2	_	_	_	_	_	_	_	I_
 4	kids	kid	NOUN	NNS	Number=Plur	2	conj	2:conj	_	1:3	_	_	_	_	_	_	_	I_
@@ -4797,7 +4797,7 @@
 5	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
 7	take	take	VERB	VB	VerbForm=Inf	5	acl	5:acl	_	_	V	take	v.motion	_	_	_	_	O-V-v.motion
-8	you	you	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+8	you	you	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 9	family	family	NOUN	NN	Number=Sing	7	obj	7:obj	SpaceAfter=No	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 10	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -5730,7 +5730,7 @@
 8	Job	job	NOUN	NN	Number=Sing	5	conj	5:conj	_	_	N	job	n.ACT	_	_	_	_	O-N-n.ACT
 9	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	14:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 10	And	and	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-11	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+11	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 12	Boys	boy	NOUN	NNS	Number=Plur	9	conj	9:conj	_	_	N	boy	n.PERSON	_	_	_	_	O-N-n.PERSON
 13	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 14	Done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_	_	V	do	v.social	_	_	_	_	O-V-v.social
@@ -5992,7 +5992,7 @@
 15	by	by	ADP	IN	_	16	case	16:case	_	_	P	by	p.Originator	p.Agent	_	_	_	O-P-p.Originator|p.Agent
 16	one	one	NUM	CD	NumType=Card	11	obl	11:obl	_	_	NUM	one	_	_	_	_	_	O-NUM
 17	of	of	ADP	IN	_	19	case	19:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
-18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 19	friends	friend	NOUN	NNS	Number=Plur	16	nmod	16:nmod	SpaceAfter=No	_	N	friend	n.PERSON	_	_	_	_	O-N-n.PERSON
 20	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -6401,7 +6401,7 @@
 2	of	of	ADP	IN	_	3	case	3:case	_	1:2	_	_	_	_	_	_	_	I_
 3	all	all	DET	DT	_	1	obl	1:obl	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 4	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 6	daughter	daughter	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	_	N	daughter	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	love	v.emotion	_	_	_	_	O-V-v.emotion
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	SpaceAfter=No	_	PRON	it	_	_	_	_	_	O-PRON
@@ -6423,7 +6423,7 @@
 # text = My son was able to advance a full two grades within 9 months!
 # streusle_sent_id = ewtb.r.306740.2
 # mwe = My son was able to advance a full two grades within 9 months !
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	son	son	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_	_	N	son	n.PERSON	_	_	_	_	O-N-n.PERSON
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 4	able	able	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	able	_	_	_	_	_	O-ADJ
@@ -6710,7 +6710,7 @@
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 11	bring	bring	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	_	1:1	V	bring in	v.motion	_	_	_	_	B-V-v.motion
 12	in	in	ADV	RP	_	11	compound:prt	11:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
-13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 14	son	son	NOUN	NN	Number=Sing	11	obj	11:obj	SpaceAfter=No	_	N	son	n.PERSON	_	_	_	_	O-N-n.PERSON
 15	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -6731,7 +6731,7 @@
 1	Neither	neither	CCONJ	CC	_	2	cc:preconj	2:cc:preconj	_	_	CCONJ	neither	_	_	_	_	_	O-CCONJ
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 3	nor	nor	CCONJ	CC	_	5	cc	5:cc	_	_	CCONJ	nor	_	_	_	_	_	O-CCONJ
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 5	son	son	NOUN	NN	Number=Sing	2	conj	2:conj	_	_	N	son	n.PERSON	_	_	_	_	O-N-n.PERSON
 6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	8:aux	SpaceAfter=No	_	AUX	have	_	_	_	_	_	O-AUX
 7	n't	not	PART	RB	_	8	advmod	8:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
@@ -7921,7 +7921,7 @@
 2	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
 3	definitely	definitely	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	definitely	_	_	_	_	_	O-ADV
 4	refer	refer	VERB	VB	VerbForm=Inf	0	root	0:root	_	_	V	refer	v.communication	_	_	_	_	O-V-v.communication
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Possessor	_	_	_	O-PRON.POSS-p.SocialRel|p.Possessor
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 6	friends	friend	NOUN	NNS	Number=Plur	4	obj	4:obj	_	_	N	friend	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 8	family	family	NOUN	NN	Number=Sing	6	conj	6:conj	SpaceAfter=No	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP

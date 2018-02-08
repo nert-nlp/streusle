@@ -86,8 +86,8 @@
    1 p.Recipient	p.Direction
    7 p.Recipient	p.Goal
    2 p.SocialRel	p.Co-Agent
+  15 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Goal
-  15 p.SocialRel	p.Possessor
    8 p.Source	p.Source
    5 p.Species	p.Species
    4 p.StartTime	p.StartTime
