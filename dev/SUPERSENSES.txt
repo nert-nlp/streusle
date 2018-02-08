@@ -59,10 +59,10 @@
    1 p.InsteadOf	p.Locus
    1 p.Instrument	p.Instrument
    1 p.Locus	p.Direction
+   1 p.Locus	p.Gestalt
    2 p.Locus	p.Goal
   56 p.Locus	p.Locus
    2 p.Locus	p.Path
-   1 p.Locus	p.Possessor
    4 p.Locus	p.Source
    9 p.Manner	p.Locus
    1 p.Manner	p.Manner

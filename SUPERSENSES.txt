@@ -105,10 +105,10 @@
    1 p.Instrument	p.Theme
    4 p.Interval	p.Interval
   12 p.Locus	p.Direction
+   1 p.Locus	p.Gestalt
    8 p.Locus	p.Goal
  570 p.Locus	p.Locus
   15 p.Locus	p.Path
-   1 p.Locus	p.Possessor
   28 p.Locus	p.Source
    2 p.Locus	p.Whole
    2 p.Manner	p.ComparisonRef
@@ -193,8 +193,8 @@
    2 p.Time	p.Direction
    1 p.Time	p.Duration
    1 p.Time	p.EndTime
+   3 p.Time	p.Gestalt
   31 p.Time	p.Interval
-   3 p.Time	p.Possessor
  318 p.Time	p.Time
    4 p.Time	p.Whole
    7 p.Topic	p.Goal

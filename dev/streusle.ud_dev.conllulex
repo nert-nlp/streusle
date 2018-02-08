@@ -6413,7 +6413,7 @@
 # streusle_sent_id = ewtb.r.306740.1
 # mwe = Miami 's best tutoring service !
 1	Miami	Miami	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	SpaceAfter=No	_	N	Miami	n.LOCATION	_	_	_	_	O-N-n.LOCATION
-2	's	's	PART	POS	_	1	case	1:case	_	_	POSS	's	p.Locus	p.Possessor	_	_	_	O-POSS-p.Locus|p.Possessor
+2	's	's	PART	POS	_	1	case	1:case	_	_	POSS	's	p.Locus	p.Gestalt	_	_	_	O-POSS-p.Locus|p.Gestalt
 3	best	best	ADJ	JJS	Degree=Sup	5	amod	5:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
 4	tutoring	tutoring	NOUN	NN	Number=Sing	5	compound	5:compound	_	_	!!@	tutoring	_	_	_	_	_	O-!!@
 5	service	service	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT

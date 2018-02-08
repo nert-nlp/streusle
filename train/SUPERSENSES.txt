@@ -184,8 +184,8 @@
    2 p.Theme	p.Whole
    1 p.Time	p.Direction
    1 p.Time	p.EndTime
+   3 p.Time	p.Gestalt
   27 p.Time	p.Interval
-   3 p.Time	p.Possessor
  281 p.Time	p.Time
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
