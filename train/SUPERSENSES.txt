@@ -83,9 +83,8 @@
    6 p.Frequency	p.Frequency
    1 p.Frequency	p.Identity
    1 p.Frequency	p.Manner
-  11 p.Gestalt	p.Gestalt
+ 137 p.Gestalt	p.Gestalt
    5 p.Gestalt	p.Locus
- 126 p.Gestalt	p.Possessor
    1 p.Gestalt	p.Source
    1 p.Gestalt	p.Topic
  162 p.Goal	p.Goal

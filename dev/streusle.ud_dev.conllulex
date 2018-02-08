@@ -622,7 +622,7 @@
 # text = Their location, the northwest corner of S. 10th & Federal Sts., is now home to Slice Pizza.
 # streusle_sent_id = ewtb.r.030875.3
 # mwe = Their location , the northwest corner of S._10th & Federal_Sts. , is now home_to Slice_Pizza .
-1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 2	location	location	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	SpaceAfter=No	_	N	location	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 3	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -1162,7 +1162,7 @@
 12	off	off	ADV	RB	_	10	advmod	10:advmod	_	_	P	off	p.Co-Theme	p.Source	_	_	_	O-P-p.Co-Theme|p.Source
 13	at	at	ADP	IN	_	14	case	14:case	_	_	P	at	p.Time	p.Time	_	_	_	O-P-p.Time
 14	time	time	NOUN	NN	Number=Sing	9	obl	9:obl	_	_	N	time	n.EVENT	_	_	_	_	O-N-n.EVENT
-15	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+15	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 16	purchase	purchase	NOUN	NN	Number=Sing	14	nmod	14:nmod	_	_	N	purchase	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 
 # newdoc id = reviews-059386
@@ -1874,7 +1874,7 @@
 1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	waitress	waitress	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_	_	N	waitress	n.PERSON	_	_	_	_	O-N-n.PERSON
 3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	take name	v.communication	_	_	_	_	B-V-v.communication
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Gestalt	p.Possessor	_	_	_	o-PRON.POSS-p.Gestalt|p.Possessor
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Gestalt	p.Gestalt	_	_	_	o-PRON.POSS-p.Gestalt
 5	name	name	NOUN	NN	Number=Sing	3	obj	3:obj	_	1:2	_	_	_	_	_	_	_	I_
 6	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 7	then	then	ADV	RB	PronType=Dem	8	advmod	8:advmod	_	_	ADV	then	_	_	_	_	_	O-ADV
@@ -2781,7 +2781,7 @@
 4	,	,	PUNCT	,	_	1	punct	1:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 5	no	no	ADV	RB	_	8	advmod	8:advmod	_	1:1	!@	no matter	_	_	_	_	_	B-!@
 6	matter	matter	ADV	RB	_	8	case	8:case	_	1:2	_	_	_	_	_	_	_	I_
-7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 8	size	size	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_	_	N	size	n.RELATION	_	_	_	_	O-N-n.RELATION
 9	or	or	CCONJ	CC	_	11	cc	11:cc	_	_	CCONJ	or	_	_	_	_	_	O-CCONJ
 10	personality	personality	NOUN	NN	Number=Sing	11	compound	11:compound	_	_	N	personality	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
@@ -6031,7 +6031,7 @@
 8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
 9	last	last	ADJ	JJ	Degree=Pos	10	amod	10:amod	_	_	ADJ	last	_	_	_	_	_	O-ADJ
 10	salon	salon	NOUN	NN	Number=Sing	13	nmod:poss	13:nmod:poss	SpaceAfter=No	_	N	salon	n.GROUP	_	_	_	_	O-N-n.GROUP
-11	s	's	PART	POS	_	10	case	10:case	_	_	POSS	's	p.Gestalt	p.Possessor	_	_	_	O-POSS-p.Gestalt|p.Possessor
+11	s	's	PART	POS	_	10	case	10:case	_	_	POSS	's	p.Gestalt	p.Gestalt	_	_	_	O-POSS-p.Gestalt
 12	highest	highest	ADJ	JJS	Degree=Sup	13	amod	13:amod	_	_	ADJ	highest	_	_	_	_	_	O-ADJ
 13	level	level	NOUN	NN	Number=Sing	6	obl	6:obl	SpaceAfter=No	_	N	level	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 14	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -6660,7 +6660,7 @@
 10	able	able	ADJ	JJ	Degree=Pos	2	conj	2:conj	_	_	ADJ	able	_	_	_	_	_	O-ADJ
 11	to	to	PART	TO	_	12	mark	12:mark	_	_	INF	to	_	_	_	_	_	O-INF
 12	capture	capture	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_	_	V	capture	v.creation	_	_	_	_	O-V-v.creation
-13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 14	personality	personality	NOUN	NN	Number=Sing	12	obj	12:obj	_	_	N	personality	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 15	as	as	ADV	RB	_	20	cc	20:cc	_	2:1	CCONJ	as well as	_	_	_	_	_	B-CCONJ
 16	well	well	ADV	RB	Degree=Pos	15	fixed	15:fixed	_	2:2	_	_	_	_	_	_	_	I_
@@ -6841,7 +6841,7 @@
 # streusle_sent_id = ewtb.r.323248.2
 # mwe = Quality of work is sufficient but not outstanding .
 1	Quality	quality	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	quality	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
-2	of	of	ADP	IN	_	3	case	3:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+2	of	of	ADP	IN	_	3	case	3:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 3	work	work	NOUN	NN	Number=Sing	1	nmod	1:nmod	_	_	N	work	n.ACT	_	_	_	_	O-N-n.ACT
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 5	sufficient	sufficient	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	sufficient	_	_	_	_	_	O-ADJ

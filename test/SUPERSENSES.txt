@@ -51,7 +51,7 @@
    9 p.Explanation	p.Explanation
    3 p.Extent	p.Extent
    2 p.Extent	p.Identity
-  10 p.Gestalt	p.Possessor
+  10 p.Gestalt	p.Gestalt
    1 p.Gestalt	p.Topic
   16 p.Goal	p.Goal
    2 p.Goal	p.Locus

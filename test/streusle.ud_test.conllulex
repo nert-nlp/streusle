@@ -158,12 +158,12 @@
 2	for	for	ADP	IN	_	4	case	4:case	_	_	P	for	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
 4	level	level	NOUN	NN	Number=Sing	1	obl	1:obl	_	_	N	level	n.COGNITION	_	_	_	_	O-N-n.COGNITION
-5	of	of	ADP	IN	_	6	case	6:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+5	of	of	ADP	IN	_	6	case	6:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 6	food	food	NOUN	NN	Number=Sing	4	nmod	4:nmod	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 7	and	and	CCONJ	CC	_	9	cc	9:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	_	_	DET	the	_	_	_	_	_	O-DET
 9	quality	quality	NOUN	NN	Number=Sing	4	conj	4:conj	_	_	N	quality	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
-10	of	of	ADP	IN	_	11	case	11:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+10	of	of	ADP	IN	_	11	case	11:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 11	service	service	NOUN	NN	Number=Sing	9	nmod	9:nmod	SpaceAfter=No	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 12	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -931,7 +931,7 @@
 2	to	to	ADP	IN	_	4	case	4:case	_	_	P	to	p.Stimulus	p.Goal	_	_	_	O-P-p.Stimulus|p.Goal
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
 4	needs	need	NOUN	NNS	Number=Plur	1	obl	1:obl	_	_	N	need	n.MOTIVE	_	_	_	_	O-N-n.MOTIVE
-5	of	of	ADP	IN	_	6	case	6:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+5	of	of	ADP	IN	_	6	case	6:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 6	customer	customer	NOUN	NN	Number=Sing	4	nmod	4:nmod	SpaceAfter=No	_	N	customer	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -1588,7 +1588,7 @@
 15	so	so	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	so	_	_	_	_	_	O-ADV
 16	much	much	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	much	_	_	_	_	_	O-ADJ
 17	favor	favor	NOUN	NN	Number=Sing	13	conj	13:conj	_	_	N	favor	n.COGNITION	_	_	_	_	O-N-n.COGNITION
-18	of	of	ADP	IN	_	20	case	20:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+18	of	of	ADP	IN	_	20	case	20:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 19	authentic	authentic	ADJ	JJ	Degree=Pos	20	amod	20:amod	_	_	ADJ	authentic	_	_	_	_	_	O-ADJ
 20	Thai	thai	ADJ	JJ	Degree=Pos	17	nmod	17:nmod	_	_	ADJ	thai	_	_	_	_	_	O-ADJ
 21	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -2288,7 +2288,7 @@
 20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 21	can	can	AUX	MD	VerbForm=Fin	17	advcl	17:advcl	_	_	AUX	can	_	_	_	_	_	O-AUX
 22	with	with	ADP	IN	_	24	case	24:case	_	_	P	with	p.Circumstance	p.Circumstance	_	_	_	O-P-p.Circumstance
-23	thier	thier	PRON	PRP$	_	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	thier	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+23	thier	thier	PRON	PRP$	_	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	thier	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 24	years	year	NOUN	NNS	Number=Plur	15	obl	15:obl	_	_	N	year	n.TIME	_	_	_	_	O-N-n.TIME
 25	of	of	ADP	IN	_	28	case	28:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
 26	hands	hand	NOUN	NNS	Number=Plur	28	compound	28:compound	_	1:1	ADJ	hand on	_	_	_	_	_	B-ADJ
@@ -2561,7 +2561,7 @@
 # mwe = the attitude of some staff is terrible , did not solve anything only say i can do~nothing .
 1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	attitude	attitude	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	_	N	attitude	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
-3	of	of	ADP	IN	_	5	case	5:case	_	_	P	of	p.Gestalt	p.Possessor	_	_	_	O-P-p.Gestalt|p.Possessor
+3	of	of	ADP	IN	_	5	case	5:case	_	_	P	of	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 4	some	some	DET	DT	_	5	det	5:det	_	_	DET	some	_	_	_	_	_	O-DET
 5	staff	staff	NOUN	NN	Number=Sing	2	nmod	2:nmod	_	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
@@ -2815,7 +2815,7 @@
 6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 7	pleased	pleased	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	pleased	_	_	5:1	_	pleased with	B-ADJ
 8	with	with	ADP	IN	_	10	case	10:case	_	_	P	with	p.Stimulus	p.Topic	5:2	_	_	I~-P-p.Stimulus|p.Topic
-9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 10	professionalism	professionalism	NOUN	NN	Number=Sing	7	obl	7:obl	_	_	N	professionalism	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 11	and	and	CCONJ	CC	_	14	cc	14:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_	2:1	V	the extra mile go	v.social	_	_	_	_	B-V-v.social
@@ -3420,7 +3420,7 @@
 # text = Her flexibility and accessibility made for an easy closing.
 # streusle_sent_id = ewtb.r.169610.3
 # mwe = Her flexibility and accessibility made_for an easy closing .
-1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	she	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	she	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 2	flexibility	flexibility	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	flexibility	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	accessibility	accessibility	NOUN	NN	Number=Sing	2	conj	2:conj	_	_	N	accessibility	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
@@ -5325,7 +5325,7 @@
 12	good	good	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 13	indication	indication	NOUN	NN	Number=Sing	5	parataxis	5:parataxis	_	_	N	indication	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 14	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.Topic	p.Topic	_	_	_	O-P-p.Topic
-15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	she	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	she	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 16	talent	talent	NOUN	NN	Number=Sing	13	nmod	13:nmod	SpaceAfter=No	_	N	talent	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 17	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -5929,7 +5929,7 @@
 12	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl	_	_	V	tell	v.communication	_	_	_	_	O-V-v.communication
 13	others	other	NOUN	NNS	Number=Plur	12	obj	12:obj	_	_	PRON	other	_	_	_	_	_	O-PRON
 14	about	about	ADP	IN	_	17	case	17:case	_	_	P	about	p.Topic	p.Topic	_	_	_	O-P-p.Topic
-15	you	you	PRON	PRP$	_	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Possessor	_	_	_	O-PRON.POSS-p.Gestalt|p.Possessor
+15	you	you	PRON	PRP$	_	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 16	payment	payment	NOUN	NN	Number=Sing	17	compound	17:compound	_	_	N	payment	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 17	status	status	NOUN	NN	Number=Sing	12	obl	12:obl	SpaceAfter=No	_	N	status	n.STATE	_	_	_	_	O-N-n.STATE
 18	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
