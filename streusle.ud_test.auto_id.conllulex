@@ -4547,7 +4547,7 @@
 5	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT	-
 6	very	very	ADV	RB	_	7	advmod	7:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV	-
 7	nice	nice	ADJ	JJ	Degree=Pos	4	conj	4:conj	_	_	ADJ	nice	_	_	_	_	_	O-ADJ	-
-8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF	*
+8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF	-
 9	work	work	VERB	VB	VerbForm=Inf	7	advcl	7:advcl	_	_	V	work	v.social	_	1:1	_	work with	B-V-v.social	-
 10	with	with	ADP	IN	_	9	obl	9:obl	_	_	P	with	p.SocialRel	p.Co-Agent	1:2	_	_	I~-P-p.SocialRel|p.Co-Agent	*
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ	-

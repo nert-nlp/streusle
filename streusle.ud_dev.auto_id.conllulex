@@ -3750,7 +3750,7 @@
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative	-
 3	soooo	soooo	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	soooo	_	_	_	_	_	O-ADV	-
 4	lucky	lucky	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	lucky	_	_	_	_	_	O-ADJ	-
-5	to	to	PART	TO	_	7	mark	7:mark	_	_	INF	to	_	_	_	_	_	O-INF	*
+5	to	to	PART	TO	_	7	mark	7:mark	_	_	INF	to	_	_	_	_	_	O-INF	-
 6	have	have	AUX	VB	VerbForm=Inf	7	aux	7:aux	_	_	AUX	have	_	_	_	_	_	O-AUX	-
 7	used	use	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	4:advcl	_	_	V	use	v.social	_	_	_	_	O-V-v.social	-
 8	Marlon	Marlon	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	SpaceAfter=No	_	N	Marlon	n.PERSON	_	_	_	_	O-N-n.PERSON	-

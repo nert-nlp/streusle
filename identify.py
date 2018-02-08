@@ -160,10 +160,7 @@ def heuristicPossessive(token, sentence):
         return "PRON:POSS_*"
     elif token.ptb_pos == "POS":
         head = sentence.tokens[int(token.head)-1]
-        if head.deprel == "nmod:poss":
-            return "POS_*"
-        else:
-            return "POS_*"
+        return "POS_*"
     return ""
 
 def heuristicSCONJ(token, model):
@@ -186,11 +183,12 @@ def heuristicTO(token, sentence, model):
         if head.deprel == "advcl":
             if any(t.head == token.head and t.lemma == "for" for t in sentence.tokens):
                 return "for_X_TO_*"
-            if matrix.ud_pos == "ADJ" and \
-               (sentence.tokens[int(token.offset)-2].lemma == "too" or \
-               sentence.tokens[int(token.offset)].lemma == "enough"):
-                return "Comparative_TO_*"
-            if matrix.lemma not in model["advcl"]:
+            if matrix.ud_pos == "ADJ":
+               if any(t.head == matrix.offset and t.lemma == "too" or t.lemma == "enough" for t in sentence.tokens):
+               #or \
+               #sentence.tokens[int(matrix.offset)].lemma == "enough":
+                   return "Comparative_TO_*"
+            elif matrix.lemma not in model["advcl"]:
                 return "not_in_advcl_anti_list_TO_*"
         if head.deprel == "acl" and matrix.lemma not in model["acl"]:
             return "not_in_acl_anti_list_TO_*"
