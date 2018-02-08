@@ -46,8 +46,8 @@
   11 p.Direction	p.Direction
    6 p.Duration	p.Duration
    3 p.EndTime	p.EndTime
+   9 p.Experiencer	p.Gestalt
    1 p.Experiencer	p.Goal
-   9 p.Experiencer	p.Possessor
   13 p.Explanation	p.Explanation
    4 p.Extent	p.Extent
    1 p.Frequency	p.Frequency

@@ -47,7 +47,7 @@
    3 p.EndTime	p.EndTime
    1 p.Experiencer	p.Agent
    2 p.Experiencer	p.Beneficiary
-   7 p.Experiencer	p.Possessor
+   7 p.Experiencer	p.Gestalt
    9 p.Explanation	p.Explanation
    3 p.Extent	p.Extent
    2 p.Extent	p.Identity

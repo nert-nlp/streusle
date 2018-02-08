@@ -74,8 +74,8 @@
   30 p.EndTime	p.EndTime
    1 p.Experiencer	p.Agent
    8 p.Experiencer	p.Beneficiary
+  87 p.Experiencer	p.Gestalt
   11 p.Experiencer	p.Goal
-  87 p.Experiencer	p.Possessor
  106 p.Explanation	p.Explanation
    1 p.Explanation	p.Manner
    3 p.Explanation	p.Source

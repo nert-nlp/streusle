@@ -72,8 +72,8 @@
    2 p.Duration	p.Identity
   24 p.EndTime	p.EndTime
    6 p.Experiencer	p.Beneficiary
+  71 p.Experiencer	p.Gestalt
   10 p.Experiencer	p.Goal
-  71 p.Experiencer	p.Possessor
   84 p.Explanation	p.Explanation
    1 p.Explanation	p.Manner
    3 p.Explanation	p.Source

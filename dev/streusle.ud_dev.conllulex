@@ -1696,7 +1696,7 @@
 4	metal	metal	NOUN	NN	Number=Sing	5	compound	5:compound	_	_	N	metal	n.SUBSTANCE	_	_	_	_	O-N-n.SUBSTANCE
 5	sculptures	sculpture	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	_	_	N	sculpture	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	8:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 8	favorite	favorite	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	favorite	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 9	.	.	PUNCT	.	_	8	punct	8:punct	SpaceAfter=No	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -2563,7 +2563,7 @@
 # mwe = They 're our favorite pizza place to order from ... and they 're a local , family~owned company !
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	SpaceAfter=No	_	PRON	they	_	_	_	_	_	O-PRON
 2	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	we	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	we	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 4	favorite	favorite	ADJ	JJ	Degree=Pos	6	amod	6:amod	_	_	ADJ	favorite	_	_	_	_	_	O-ADJ
 5	pizza	pizza	NOUN	NN	Number=Sing	6	compound	6:compound	_	_	N	pizza	n.FOOD	_	_	_	_	O-N-n.FOOD
 6	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
@@ -2823,7 +2823,7 @@
 # text = My favorite so far in Bellevue.
 # streusle_sent_id = ewtb.r.124552.2
 # mwe = My favorite so_far in Bellevue .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 2	favorite	favorite	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	favorite	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 3	so	so	ADV	RB	_	4	advmod	4:advmod	_	1:1	ADV	so far	_	_	_	_	_	B-ADV
 4	far	far	ADV	RB	Degree=Pos	2	advmod	2:advmod	_	1:2	_	_	_	_	_	_	_	I_
@@ -3231,7 +3231,7 @@
 5	Glass	Glass	PROPN	NNP	Number=Sing	1	obl	1:obl	_	1:3	_	_	_	_	_	_	_	I_
 6	for	for	ADP	IN	_	10	case	10:case	_	_	P	for	p.Purpose	p.Purpose	2:1	_	for all need	B-P-p.Purpose
 7	all	all	DET	PDT	_	10	det:predet	10:det:predet	_	_	DET	all	_	_	2:2	_	_	I~-DET
-8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	you	p.Experiencer	p.Possessor	_	_	_	o-PRON.POSS-p.Experiencer|p.Possessor
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	you	p.Experiencer	p.Gestalt	_	_	_	o-PRON.POSS-p.Experiencer|p.Gestalt
 9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	10:compound	_	_	N	smoking	n.ACT	_	_	_	_	o-N-n.ACT
 10	needs	need	NOUN	NNS	Number=Plur	1	obl	1:obl	SpaceAfter=No	_	N	need	n.MOTIVE	_	2:3	_	_	I~-N-n.MOTIVE
 11	!!!!!!!!!!	!!!!!!!!!!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!!!!!!!!!!	_	_	_	_	_	O-PUNCT
@@ -4203,7 +4203,7 @@
 1	Fish	fish	NOUN	NN	Number=Sing	2	compound	2:compound	_	_	N	fish	n.FOOD	_	_	_	_	O-N-n.FOOD
 2	tacos	taco	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	_	_	N	taco	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 5	fave	fave	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	fave	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 6	simple	simple	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	_	_	ADJ	simple	_	_	_	_	_	O-ADJ
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -5150,7 +5150,7 @@
 # streusle_sent_id = ewtb.r.235462.2
 # mwe = Absolutely my favorite store in Lawrence~,~KS
 1	Absolutely	absolutely	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	absolutely	_	_	_	_	_	O-ADV
-2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 3	favorite	favorite	ADJ	JJ	Degree=Pos	4	amod	4:amod	_	_	ADJ	favorite	_	_	_	_	_	O-ADJ
 4	store	store	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	store	n.GROUP	_	_	_	_	O-N-n.GROUP
 5	in	in	ADP	IN	_	6	case	6:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -6544,7 +6544,7 @@
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 3	one	one	NUM	CD	NumType=Card	0	root	0:root	_	_	NUM	one	_	_	_	_	_	O-NUM
 4	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Whole	p.Whole	_	_	_	O-P-p.Whole
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 6	favorite	favorite	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	favorite	_	_	_	_	_	O-ADJ
 7	places	place	NOUN	NNS	Number=Plur	3	nmod	3:nmod	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
@@ -7285,7 +7285,7 @@
 # text = My favorite place to eat.
 # streusle_sent_id = ewtb.r.353684.1
 # mwe = My favorite place to eat .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 2	favorite	favorite	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	_	ADJ	favorite	_	_	_	_	_	O-ADJ
 3	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 4	to	to	PART	TO	_	5	mark	5:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
@@ -7785,7 +7785,7 @@
 2	's	's	PART	POS	_	1	case	1:case	_	1:2	_	_	_	_	_	_	_	I_
 3	pizza	pizza	PROPN	NNP	Number=Sing	0	root	0:root	_	1:3	_	_	_	_	_	_	_	I_
 4	:	:	PUNCT	:	_	3	punct	3:punct	_	_	PUNCT	:	_	_	_	_	_	O-PUNCT
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Possessor	_	_	_	O-PRON.POSS-p.Experiencer|p.Possessor
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.Experiencer	p.Gestalt	_	_	_	O-PRON.POSS-p.Experiencer|p.Gestalt
 6	favorite	favorite	NOUN	NN	Number=Sing	3	appos	3:appos	_	_	N	favorite	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 
 # sent_id = reviews-368431-0002
