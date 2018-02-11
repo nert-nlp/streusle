@@ -1,66 +1,73 @@
 STREUSLE Dataset
 ================
 
-STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. It supersedes the Comprehensive __Multiword Expressions__ corpus [1] (which was used for the experiments in [2]). STREUSLE adds semantic supersenses in addition to the MWE annotations. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [3], and __preposition__ expressions, as described in [4, 5].
+STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [7]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6]. The 4.0 release updates the inventory and application of preposition supersenses [4, 5], applies those supersenses to possessives [6], incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions.
 
-STREUSLE and associated documentation and tools can be downloaded from: <http://www.cs.cmu.edu/~ark/LexSem/>. PrepWiki, the lexical resource that supported preposition supersense annotation and that explains the category hierarchy, can be accessed at <http://tiny.cc/prepwiki>.
+Release URL: <https://github.com/nert-gu/streusle>  
+Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
 
-This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The source sentences and part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [6]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [8]. STREUSLE incorporates the recent parses from the UD_English development branch at the time of release (as of <https://github.com/UniversalDependencies/UD_English/commit/16f170c>, 2018-01-18; note that up-to-date files reside in the not-to-release/sources/reviews directory). This corrects some issues with the UD_English 2.1 release. Morphological and syntactic annotations follow the UD v2 standard.
 
-References:
+This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [7]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
-- [1] Nathan Schneider, Spencer Onuffer, Nora Kazour, Emily Danchik, Michael T. Mordowanec, Henrietta Conrad, and Noah A. Smith. Comprehensive annotation of multiword expressions in a social web corpus. _Proceedings of the 9th Linguistic Resources and Evaluation Conference_, Reykjavík, Iceland, May 26–31, 2014. <http://www.cs.cmu.edu/~nschneid/mwecorpus.pdf>
+An independent effort to improve the MWE annotations from those in STREUSLE 3.0 resulted in the [HAMSTER](https://github.com/eltimster/HAMSTER) resource [11]. The HAMSTER revisions have not been merged with the 4.0 revisions, though we intend to do so for a future release.
 
-- [2] Nathan Schneider, Emily Danchik, Chris Dyer, and Noah A. Smith. Discriminative lexical semantic segmentation with gaps: running the MWE gamut. _Transactions of the Association for Computational Linguistics_, 2(April):193−206, 2014. http://www.cs.cmu.edu/~ark/LexSem/mwe.pdf
-
-- [3] Nathan Schneider and Noah A. Smith. A corpus and model integrating multiword expressions and supersenses. _Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, Denver, Colorado, May 31–June 5, 2015. <http://www.cs.cmu.edu/~nschneid/sst.pdf>
-
-- [4] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <http://www.cs.cmu.edu/~nschneid/pssts.pdf>
-
-- [5] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Meredith Green, Abhijit Suresh, Kathryn Conger, Tim O'Gorman, and Martha Palmer. A corpus of preposition supersenses. _Proceedings of the 10th Linguistic Annotation Workshop_, Berlin, Germany, August 11, 2016. <http://www.cs.cmu.edu/~nschneid/psstcorpus.pdf>
-
-- [6] Ann Bies, Justin Mott, Colin Warner, and Seth Kulick. English Web Treebank. Linguistic Data Consortium, Philadelphia, Pennsylvania, August 16, 2012. <https://catalog.ldc.upenn.edu/LDC2012T13>
 
 Files
 -----
 
+- streusle.conllulex: Full dataset.
+- STATS.md, LEXCAT.txt, MWES.txt, SUPERSENSES.txt: Statistics summarizing the full dataset.
+- train/, dev/, test/: Data splits established by the UD project and accompanying statistics.
+
 - ACKNOWLEDGMENTS.md: Contributors and support that made this dataset possible.
-- TAGSET.md: List of class labels with explanations.
-- LICENSE: License.
-- streusle.sst: Initial annotations, in human-readable and JSON formats, along with gold POS tags.
-- streusle.tags: Automatic conversion of streusle.sst to the tagging scheme appropriate for training sequence models. A few intricately structured MWEs have been simplified to fit the tagging scheme, and lemmas from the WordNet lemmatizer have been added.
-- streusle.tags.sst: Conversion of streusle.tags back to the .sst format, now with lemmas and tags.
-- streusle.upos.tags, streusle.upos.tags.sst: The above files, but replacing gold PTB POS tags with [Universal POS tags](http://universaldependencies.github.io/docs/en/pos/all.html) obtained by applying [this script](https://gist.github.com/nschneid/beed0bcda5b42e530011) to the gold trees in the EWTB.
-- STREUSLE3.0-mwes.tsv: All multiword expressions annotated in the corpus: frequency count, lowercased words, strength (`_` = strong MWE, `~` = weak MWE), and part-of-speech sequence.
-- STREUSLE3.0-mwe-types.txt: Just the lowercased word sequences annotated as MWEs.
-- STREUSLE3.0-strong-mwe-types.txt: Just the strong MWEs.
-- psst-tokens.tsv: Human-readable display of preposition supersense annotations, one line per token. (Excludes prepositions labeled with a non-supersense class, such as <code>\`i</code>.)
-- Supersense-PB manual verification sample.xlsx: Spreadsheet containing raw data and analysis for the study of correspondences between preposition supersense and PropBank function tags (Schneider et al. 2016, §4). The same spreadsheet can be accessed [online](https://docs.google.com/spreadsheets/d/1DR9z--cPMY2a3y4GghggPe4XNoODO70Da-zPiyMXwg8/edit?usp=sharing) through Google Docs.
-- splits/: Experimental train/test splits. See splits/README.md for details.
+- CONLLULEX.md: Description of data format.
+- LICENSE.txt: License.
 
-.sst Format
------------
+- conllulex2json.py: Script to validate the data and convert it to JSON.
+- govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
+- lexcatter.py: Utilities for working with lexical categories.
+- mwerender.py: Utilities for working with MWEs.
+- supersenses.py: Utilities for working with supersense labels.
+- tagging.py: Utilities for working with BIO-style tags.
+- psseval.py: Evaluation script for preposition/possessive supersense labeling.
 
-(Based on CMWE's .mwe format.) 1 sentence per line. 3 tab-separated columns: sentence ID; human-readable MWE annotation from CMWE; JSON data structure with POS-tagged words, MWE groupings, and class (supersense) annotations associated with the first token of the expression they apply to. Note that token indices are 1-based.
 
-The .tags.sst JSON object adds lemmas and tags in the JSON object.
+Format
+------
 
-.tags Format
-------------
+This release introduces a new tabular data format, [CONLLULEX](CONLLULEX.md), with a script to convert it to JSON. The .sst and .tags formats from STREUSLE 3.0 are not expressive enough for the 4.0 data, and are no longer supported.
 
-(CoNLL-esque format based on CMWE's .tags format.) 1 token per line, with blank lines separating sentences.
+References
+----------
 
-9 tab-separated columns:
+Citations describing the annotations in this corpus:
 
-1. token offset
-2. word
-3. lowercase lemma
-4. POS
-5. full MWE+class tag
-6. offset of parent token (i.e. previous token in the same MWE), if applicable
-7. strength level encoded in the tag, if applicable: `_` for strong, `~` for weak
-8. class (usually supersense) label, if applicable: see [TAGSET.md](TAGSET.md)
-9. sentence ID
+- [1] Nathan Schneider, Spencer Onuffer, Nora Kazour, Emily Danchik, Michael T. Mordowanec, Henrietta Conrad, and Noah A. Smith. Comprehensive annotation of multiword expressions in a social web corpus. _Proceedings of the Ninth International Conference on Language Resources and Evaluation_, Reykjavík, Iceland, May 26–31, 2014. <http://people.cs.georgetown.edu/nschneid/p/mwecorpus.pdf>
+
+- [2] Nathan Schneider and Noah A. Smith. A corpus and model integrating multiword expressions and supersenses. _Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, Denver, Colorado, May 31–June 5, 2015. <http://people.cs.georgetown.edu/nschneid/p/sst.pdf>
+
+- [3] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Meredith Green, Abhijit Suresh, Kathryn Conger, Tim O'Gorman, and Martha Palmer. A corpus of preposition supersenses. _Proceedings of the 10th Linguistic Annotation Workshop_, Berlin, Germany, August 11, 2016. <http://people.cs.georgetown.edu/nschneid/p/psstcorpus.pdf>
+
+- [4] Jena D. Hwang, Archna Bhatia, Na-Rae Han, Tim O’Gorman, Vivek Srikumar, and Nathan Schneider (2017). Double trouble: the problem of construal in semantic annotation of adpositions. _Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics_, Vancouver, British Columbia, Canada, August 3–4, 2017. <http://people.cs.georgetown.edu/nschneid/p/prepconstrual2.pdf>
+
+- [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Na-Rae Han, Vivek Srikumar, Tim O’Gorman, Sarah R. Moeller, Omri Abend, Austin Blodgett, and Jakob Prange (January 16, 2018). Adposition and Case Supersenses v2: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
+
+- [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018. <http://people.cs.georgetown.edu/nschneid/p/gensuper.pdf>
+
+
+Related work:
+
+- [7] Ann Bies, Justin Mott, Colin Warner, and Seth Kulick. English Web Treebank. Linguistic Data Consortium, Philadelphia, Pennsylvania, August 16, 2012. <https://catalog.ldc.upenn.edu/LDC2012T13>
+
+- [8] Natalia Silveira, Timothy Dozat, Marie-Catherine de Marneffe, Samuel R. Bowman, Miriam Connor, John Bauer, and Christopher D. Manning (2014). A gold standard dependency corpus for English. _Proceedings of the Ninth International Conference on Language Resources and Evaluation_, Reykjavík, Iceland, May 26–31, 2014. <http://www.lrec-conf.org/proceedings/lrec2014/pdf/1089_Paper.pdf>
+
+- [9] Nathan Schneider, Emily Danchik, Chris Dyer, and Noah A. Smith. Discriminative lexical semantic segmentation with gaps: running the MWE gamut. _Transactions of the Association for Computational Linguistics_, 2(April):193−206, 2014. http://www.cs.cmu.edu/~ark/LexSem/mwe.pdf
+
+- [10] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <http://www.cs.cmu.edu/~nschneid/pssts.pdf>
+
+- [11] King Chan, Julian Brooke, and Timothy Baldwin. Semi-automated resolution of inconsistency for a harmonized multiword expression and dependency parse annotation. _Proceedings of the 13th Workshop on Multiword Expressions_, Valencia, Spain, April 4, 2017. <http://www.aclweb.org/anthology/W/W17/W17-1726.pdf>
+
 
 Contact
 -------
@@ -74,6 +81,11 @@ http://nathan.cl
 History
 -------
 
+  - STREUSLE 4.0: 2018-02-10. Updated preposition supersenses to new annotation scheme (4398 tokens).
+    Annotated possessives (1117 tokens) using preposition supersenses.
+    Revised a considerable number of MWEs involving prepositions.
+    Added lexical category for every single-word or strong multiword expression.
+    New data format (.conllulex) integrates gold syntactic annotations from the Universal Dependencies project.
   - STREUSLE 3.0: 2016-08-23. Added preposition supersenses
   - STREUSLE 2.1: 2015-09-25. Various improvements chiefly to auxiliaries, prepositional verbs; added <code>\`p</code> class label as a stand-in for preposition supersenses to be added in a future release, and <code>\`i</code> for infinitival 'to' where it should not receive a supersense. From 2.0 (not counting <code>\`p</code> and <code>\`i</code>):
     * Annotations have changed for 877 sentences (609 involving changes to labels, 474 involving changes to MWEs).

@@ -17,18 +17,28 @@ Preposition supersense annotation schemers:
 * Tim O'Gorman
 * Meredith Green
 * Abhijit Suresh
+* Na-Rae Han
+* Archna Bhatia
+* Sarah R. Moeller
+* Omri Abend
+* Austin Blodgett
+* Jakob Prange
+* Adi Bitan
+* Dotan Dvir
 
-Preposition supersense annotators (University of Colorado):
+Preposition supersense v1 annotators (University of Colorado):
 
 * Meredith Green (lead)
+* Julia Bonn
 * Evan Coles-Harris
 * Audrey Farber
 * Nicole Gordiyenko
 * Megan Hutto
+* Story Kiser
 * Celeste Smitz
 * Tim Watervoort
 
-Preposition supersense pilot annotators (Carnegie Mellon University):
+Preposition supersense v1 pilot annotators (Carnegie Mellon University):
 
 * Archna Bhatia
 * Carlos Ramírez
@@ -48,6 +58,7 @@ Special thanks
 * Mark Steedman
 * Claire Bonial
 * Tim Baldwin
+* Miriam Butt
 * Chris Dyer
 * Ed Hovy
 * Lingpeng Kong
@@ -63,3 +74,6 @@ This research was supported in part by:
 * NSF CAREER grant IIS-1054319
 * DARPA grant FA8750-12-2-0342 funded under the DEFT program
 * a Google Research Award for Q/A PropBank annotation
+* DARPA 15-18-CwC-FP-032 Communicating with Computers
+* DTRA HDTRA1-16-1-0002/Project # 1553695, eTASC - Empirical Evidence for a Theoretical Approach to Semantic Components
+* DARPA LORELEI Semantic Annotation and Technology Transfer
