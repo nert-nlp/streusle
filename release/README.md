@@ -6,7 +6,7 @@ STREUSLE stands for Supersense-Tagged Repository of English with a Unified Seman
 Release URL: <https://github.com/nert-gu/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
 
-The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [8]. STREUSLE incorporates the latest parses from the UD_English development branch at the time of release (as of <https://github.com/UniversalDependencies/UD_English/commit/16f170c>, 2018-01-18; note that up-to-date files reside in the not-to-release/sources/reviews directory). This corrects some issues with the UD_English 2.1 release. Morphological and syntactic annotations follow the UD v2 standard.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [8]. STREUSLE incorporates the recent parses from the UD_English development branch at the time of release (as of <https://github.com/UniversalDependencies/UD_English/commit/16f170c>, 2018-01-18; note that up-to-date files reside in the not-to-release/sources/reviews directory). This corrects some issues with the UD_English 2.1 release. Morphological and syntactic annotations follow the UD v2 standard.
 
 This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [7]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
@@ -48,13 +48,13 @@ Citations describing the annotations in this corpus:
 
 - [2] Nathan Schneider and Noah A. Smith. A corpus and model integrating multiword expressions and supersenses. _Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, Denver, Colorado, May 31–June 5, 2015. <http://people.cs.georgetown.edu/nschneid/p/sst.pdf>
 
-- [3] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Meredith Green, Abhijit Suresh, Kathryn Conger, Tim O'Gorman, and Martha Palmer. A corpus of preposition supersenses. _Proceedings of the 10th Linguistic Annotation Workshop_, Berlin, Germany, August 11, 2016. <http://www.cs.cmu.edu/~nschneid/psstcorpus.pdf>
+- [3] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Meredith Green, Abhijit Suresh, Kathryn Conger, Tim O'Gorman, and Martha Palmer. A corpus of preposition supersenses. _Proceedings of the 10th Linguistic Annotation Workshop_, Berlin, Germany, August 11, 2016. <http://people.cs.georgetown.edu/nschneid/p/psstcorpus.pdf>
 
 - [4] Jena D. Hwang, Archna Bhatia, Na-Rae Han, Tim O’Gorman, Vivek Srikumar, and Nathan Schneider (2017). Double trouble: the problem of construal in semantic annotation of adpositions. _Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics_, Vancouver, British Columbia, Canada, August 3–4, 2017. <http://people.cs.georgetown.edu/nschneid/p/prepconstrual2.pdf>
 
 - [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Na-Rae Han, Vivek Srikumar, Tim O’Gorman, Sarah R. Moeller, Omri Abend, Austin Blodgett, and Jakob Prange (January 16, 2018). Adposition and Case Supersenses v2: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
 
-- [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018.
+- [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018. <http://people.cs.georgetown.edu/nschneid/p/gensuper.pdf>
 
 
 Related work:
@@ -82,8 +82,8 @@ http://nathan.cl
 History
 -------
 
-  - STREUSLE 4.0: 2018-02-08. Updated preposition supersenses to new annotation scheme.
-    Annotated possessives using preposition supersenses.
+  - STREUSLE 4.0: 2018-02-10. Updated preposition supersenses to new annotation scheme (4398 tokens).
+    Annotated possessives (1117 tokens) using preposition supersenses.
     Revised a considerable number of MWEs involving prepositions.
     Added lexical category for every single-word or strong multiword expression.
     New data format (.conllulex) integrates gold syntactic annotations from the Universal Dependencies project.
