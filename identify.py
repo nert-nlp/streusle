@@ -136,12 +136,12 @@ def train(infile, args):
 
 
 
-def print_target(token, sentence, index, checkmark, context):
+def print_target(token, sentence, index, checkmark, lexcat, context):
     for cont in range(context, 0, -1):
         if index-cont >=0:
             tok = sentence.tokens[index-cont]
             print("-{}\t{}".format(tok.orig, tok.checkmark))
-    print((":" if context else "")+"{}\t{}".format(token.orig, checkmark))
+    print((":" if context else "")+"{}\t{}".format(token.orig, checkmark)+("\t{}".format(lexcat) if lexcat else ""))
     for cont in range(1, context+1):
         if index+cont < len(sentence.tokens):
             tok = sentence.tokens[index+cont]
@@ -250,9 +250,10 @@ def identify(model, args):
 
         length = len(sent.tokens)
         i = 0
-        k = 0
+        k = 0        
         while i < length:
             token = sent.tokens[i]
+            lexcat = ""
             if (evl or args.tp or args.fp or args.fn or args.tn):
                 try:
                     xlemma = token.fields[12]
@@ -281,6 +282,10 @@ def identify(model, args):
                             token.checkmark = "{}:{}".format(mwe_counter, 1) + "**"
                             for current_mwe_counter, tok in enumerate(ngram[1:], start=2):
                                 sent.tokens[int(tok.offset)-1].checkmark = "{}:{}".format(mwe_counter, current_mwe_counter)
+                            if ngram[-1].ud_pos in ("ADP", "SCONJ"):
+                                lexcat = "P"
+                            else:
+                                lexcat = "PP"
                             mwe_counter += 1
                             k = j
                             break
@@ -292,38 +297,41 @@ def identify(model, args):
                                        + heuristicADV(token) \
                                        + heuristicTO(token, sent, model) \
                                        + heuristicForXTo(token, sent)
-
-
+                    
             first_in_mwe = False
             if token.checkmark.endswith("*"):
                 if token.checkmark.endswith("**"):
                     first_in_mwe = True
                 else:
                     token.checkmark = "*"
+                    lexcat = {'PRP$': 'PRON.POSS', 'WP$': 'PRON.POSS', 'POS': 'POSS', 'TO': 'INF.P'}.get(token.ptb_pos, "P")
             elif not (token.checkmark and token.checkmark[0].isdigit()):
                 token.checkmark = "-"
+
+            if not args.lexcat:
+                lexcat = ""
                 
             if token.checkmark == "*" or first_in_mwe:
                 if t:
                     if args.tp and not evl:
-                        print_target(token, sent, i, token.checkmark, args.context)
+                        print_target(token, sent, i, token.checkmark, lexcat, args.context)
                     tp += 1
                 else:
                     if args.fp and not evl:
-                        print_target(token, sent, i, token.checkmark, args.context)
+                        print_target(token, sent, i, token.checkmark, lexcat, args.context)
                     fp += 1
             else:
                 if t:
                     if args.fn and not evl:
-                        print_target(token, sent, i, token.checkmark, args.context)
+                        print_target(token, sent, i, token.checkmark, lexcat, args.context)
                     fn += 1
                 else:
                     if args.tn and not evl:
-                        print_target(token, sent, i, token.checkmark, args.context)
+                        print_target(token, sent, i, token.checkmark, lexcat, args.context)
                     tn += 1
 
             if not (args.sst or evl or args.tp or args.fp or args.fn or args.tn):
-                print("{}\t{}".format(token.orig, token.checkmark))
+                print("{}\t{}".format(token.orig, token.checkmark) + ("\t{}".format(lexcat) if lexcat else ""))
 
             i += 1
 
@@ -389,6 +397,7 @@ if __name__ == "__main__":
     parser.add_argument('-P', '--non-p-mwe-min', type=int, default=1, help='threshold for non-prepositional MWE lexicon')
     parser.add_argument('--advcl-min', type=int, default=1, help='threshold for advcl heads that take non-prepositional infinitival complements')
     parser.add_argument('--acl-min', type=int, default=1, help='threshold for acl heads that take non-prepositional infinitival complements')
+    parser.add_argument('-L', '--lexcat', action='store_true', help='output lexical categories')
 #    parser.add_argument('-v', '--verbose', action='store_true', help='')
 
     args = parser.parse_args()
