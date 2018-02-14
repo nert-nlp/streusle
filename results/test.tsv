@@ -1,18 +1,18 @@
 All																						
 D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
-Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F
+Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F		
 results/aviram-NN/test/NN.autosyn	480	68.1%	78.8%	64.0%		92.5%	84.8%	88.5%		60.2%	55.2%	57.6%		72.0%	66.0%	68.9%		58.6%	53.8%	56.1%		
 results/aviram-NN/test/NN.goldsyn	480	72.7%	82.1%	68.3%		92.2%	88.1%	90.1%		64.3%	61.5%	62.8%		73.9%	70.6%	72.2%		59.9%	57.3%	58.6%		
 
 MWE																						
 D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
-Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F
+Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F		
 results/aviram-NN/test/NN.autosyn	24	79.2%	83.3%	70.8%		88.9%	33.3%	48.5%		77.8%	29.2%	42.4%		77.8%	29.2%	42.4%		77.8%	29.2%	42.4%		
 results/aviram-NN/test/NN.goldsyn	24	87.5%	70.8%	66.7%		80.0%	33.3%	47.1%		80.0%	33.3%	47.1%		80.0%	33.3%	47.1%		80.0%	33.3%	47.1%		
 
 MWP																						
 D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
-Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F
+Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F		
 results/aviram-NN/test/NN.autosyn	9	88.9%	77.8%	77.8%		80.0%	44.4%	57.1%		80.0%	44.4%	57.1%		80.0%	44.4%	57.1%		80.0%	44.4%	57.1%		
 results/aviram-NN/test/NN.goldsyn	9	77.8%	77.8%	77.8%		66.7%	44.4%	53.3%		66.7%	44.4%	53.3%		66.7%	44.4%	53.3%		66.7%	44.4%	53.3%		
 
