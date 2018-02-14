@@ -1,17 +1,17 @@
 All																						
-D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn		
+D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
 Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F
 results/aviram-NN/train/NN.autosyn	4522	99.2%	99.7%	98.9%		100.0%	87.1%	93.1%		99.4%	86.6%	92.6%		99.8%	87.0%	92.9%		99.3%	86.5%	92.4%		
 results/aviram-NN/train/NN.goldsyn	4522	92.4%	96.9%	90.8%		100.0%	90.4%	95.0%		100.0%	90.4%	94.9%		100.0%	90.4%	94.9%		99.9%	90.4%	94.9%		
 
 MWE																						
-D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn		
+D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
 Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F
 results/aviram-NN/train/NN.autosyn	258	99.6%	99.2%	99.2%		100.0%	51.9%	68.4%		100.0%	51.9%	68.4%		100.0%	51.9%	68.4%		100.0%	51.9%	68.4%		
 results/aviram-NN/train/NN.goldsyn	258	92.6%	91.1%	87.6%		100.0%	53.5%	69.7%		100.0%	53.5%	69.7%		100.0%	53.5%	69.7%		100.0%	53.5%	69.7%		
 
 MWP																						
-D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn		
+D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
 Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F
 results/aviram-NN/train/NN.autosyn	119	99.2%	99.2%	99.2%		98.8%	70.6%	82.4%		98.8%	70.6%	82.4%		98.8%	70.6%	82.4%		98.8%	70.6%	82.4%		
 results/aviram-NN/train/NN.goldsyn	119	91.6%	90.8%	86.6%		100.0%	74.8%	85.6%		100.0%	74.8%	85.6%		100.0%	74.8%	85.6%		100.0%	74.8%	85.6%		
