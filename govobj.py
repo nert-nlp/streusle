@@ -102,24 +102,23 @@ def findgovobj(pexpr, sent):
     gtok = sent['toks'][pptop['head']-1] if pptop['head']>0 else None
 
     # is it a stranded preposition?
-    if prel not in {'case', 'mark'} and tok1['xpos']=='IN' and gtok['deprel'] in {'acl:relcl', 'acl', 'advcl'}:
-        # (some other gtok['deprel'] values aren't handled: weirdness mainly with coordination and copular constructions)
-        config = 'stranded'
+    if prel not in {'case', 'mark'} and tok1['xpos']=='IN' and gtok and gtok['deprel'] in {'acl:relcl', 'acl', 'advcl'}:
+            # (some other gtok['deprel'] values aren't handled: weirdness mainly with coordination and copular constructions)
+            config = 'stranded'
 
-        # preposition stranding in relative clause or adjective raising (exclude particle in relative clause)
-        otok = sent['toks'][gtok['head']-1] if gtok['head']>0 else None
-        if gtok['deprel']=='advcl': # adjective raising: e.g. "She was easy to work with": otok is "easy"
-            # (not foolproof)
-            subjtok = findsubj(otok, sent)
-            otok = subjtok  # "She"; may be None
+            # preposition stranding in relative clause or adjective raising (exclude particle in relative clause)
+            otok = sent['toks'][gtok['head']-1] if gtok['head']>0 else None
+            if gtok['deprel']=='advcl': # adjective raising: e.g. "She was easy to work with": otok is "easy"
+                # (not foolproof)
+                subjtok = findsubj(otok, sent)
+                otok = subjtok  # "She"; may be None
 
     # is it a predicative PP or subordinate copular clause?
     coptok = findcop(pptop, sent)
     if coptok:
         if config=='subordinating':
             otok = coptok   # subordinate copular clause: use copula as the object instead of the content predicate
-        else:
-            assert not config
+        elif not config:    # technically a preposition can be both stranded and predicative: "the worst store I have been in". just label it stranded.
             config = 'predicative'
             # look for subject
             subjtok = findsubj(pptop, sent)
