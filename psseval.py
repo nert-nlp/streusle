@@ -110,9 +110,9 @@ def eval_sys(sysF, gold_sents, ss_mapper):
 
 def to_tsv(all_sys_scores, depth):
     for k in ('All','MWE','MWP'):
-        print(k)
-        print('D='+str(depth)+'\tGold ID:\tRole\tFxn\tRole,Fxn\t\tID\t\t\t\tRole\t\t\t\tFxn\t\t\t\tRole,Fxn\t\t')
-        print('Sys\tN\tAcc\tAcc\tAcc' + '\t\tP\tR\tF'*4)
+        print(k+('\t'*22))
+        print('D='+str(depth)+'\tGold ID:\tRole\tFxn\tRole,Fxn\t\tID\t\t\t\tRole\t\t\t\tFxn\t\t\t\tRole,Fxn\t\t\t\t')
+        print('Sys\tN\tAcc\tAcc\tAcc' + '\t\tP\tR\tF'*4 + '\t\t')
         for sys,(gidscores,aidscores) in all_sys_scores.items():
             print(sys, end='\t')
             print(gidscores[k]["Role"]["N"], end='\t')
