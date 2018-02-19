@@ -1,18 +1,18 @@
 All																						
 D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
 Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F		
-results/aviram-NN/train/NN.autosyn	4522	99.2%	99.7%	98.9%		100.0%	87.1%	93.1%		99.4%	86.6%	92.6%		99.8%	87.0%	92.9%		99.3%	86.5%	92.4%		
-results/aviram-NN/train/NN.goldsyn	4522	92.4%	96.9%	90.8%		100.0%	90.4%	95.0%		100.0%	90.4%	94.9%		100.0%	90.4%	94.9%		99.9%	90.4%	94.9%		
+aviram-NN/train/NN.autosyn	4522	98.9%	99.7%	98.7%		92.3%	87.1%	89.6%		91.8%	86.6%	89.1%		92.1%	87.0%	89.5%		91.7%	86.5%	89.0%		
+aviram-NN/train/NN.goldsyn	4522	92.1%	96.6%	90.5%		93.6%	90.4%	92.0%		93.6%	90.4%	92.0%		93.6%	90.4%	92.0%		93.6%	90.4%	92.0%		
 
 MWE																						
 D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
 Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F		
-results/aviram-NN/train/NN.autosyn	258	99.6%	99.2%	99.2%		100.0%	51.9%	68.4%		100.0%	51.9%	68.4%		100.0%	51.9%	68.4%		100.0%	51.9%	68.4%		
-results/aviram-NN/train/NN.goldsyn	258	92.6%	91.1%	87.6%		100.0%	53.5%	69.7%		100.0%	53.5%	69.7%		100.0%	53.5%	69.7%		100.0%	53.5%	69.7%		
+aviram-NN/train/NN.autosyn	258	99.6%	99.6%	99.2%		82.2%	51.9%	63.7%		82.2%	51.9%	63.7%		82.2%	51.9%	63.7%		82.2%	51.9%	63.7%		
+aviram-NN/train/NN.goldsyn	258	89.5%	91.9%	86.4%		84.1%	53.5%	65.4%		84.1%	53.5%	65.4%		84.1%	53.5%	65.4%		84.1%	53.5%	65.4%		
 
 MWP																						
 D=4	Gold ID:	Role	Fxn	Role,Fxn		ID				Role				Fxn				Role,Fxn				
 Sys	N	Acc	Acc	Acc		P	R	F		P	R	F		P	R	F		P	R	F		
-results/aviram-NN/train/NN.autosyn	119	99.2%	99.2%	99.2%		98.8%	70.6%	82.4%		98.8%	70.6%	82.4%		98.8%	70.6%	82.4%		98.8%	70.6%	82.4%		
-results/aviram-NN/train/NN.goldsyn	119	91.6%	90.8%	86.6%		100.0%	74.8%	85.6%		100.0%	74.8%	85.6%		100.0%	74.8%	85.6%		100.0%	74.8%	85.6%		
+aviram-NN/train/NN.autosyn	119	99.2%	100.0%	99.2%		77.1%	70.6%	73.7%		77.1%	70.6%	73.7%		77.1%	70.6%	73.7%		77.1%	70.6%	73.7%		
+aviram-NN/train/NN.goldsyn	119	89.9%	92.4%	88.2%		80.9%	74.8%	77.7%		80.9%	74.8%	77.7%		80.9%	74.8%	77.7%		80.9%	74.8%	77.7%		
 
