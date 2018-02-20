@@ -67,7 +67,6 @@ def eval_sys(sysF, gold_sents, ss_mapper):
         # special case: discard gold=?? tokens regardless of their predicted label
         for k,(lc,r,f) in list(goldunits.items()):
             if r=='??':
-                print(k,lc,r,sent['mwe'], file=sys.stderr)
                 if k in predunits:
                     del predunits[k]
                 del goldunits[k]
