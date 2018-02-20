@@ -185,8 +185,6 @@ def heuristicTO(token, sentence, model):
                 return "for_X_TO_*"
             if matrix.ud_pos == "ADJ":
                if any(t.head == matrix.offset and t.lemma == "too" or t.lemma == "enough" for t in sentence.tokens):
-               #or \
-               #sentence.tokens[int(matrix.offset)].lemma == "enough":
                    return "Comparative_TO_*"
             elif matrix.lemma not in model["advcl"]:
                 return "not_in_advcl_anti_list_TO_*"
@@ -237,9 +235,10 @@ def identify(model, args):
             lemma_pos_counts[token.lemma][token.ptb_pos] += 1
         
     max_mwe_length = max(len(w.split()) for w in mwe_list)
+    print("max MWE length={}".format(max_mwe_length), file=sys.stderr)
     mw_beginners = set([w.split()[0] for w in list(mwe_list)+list(non_prep_mwe_list) if len(w.split()) >= 2]).union(set(PREP_SPECIAL_MW_BEGINNERS))
 
-    for sent in sentences(infile):
+    for sent in sentences(infile, conllulex=(evl or args.tp or args.fp or args.fn or args.tn)):
         if not (args.sst or evl or args.tp or args.fp or args.fn or args.tn):
             for metaline in sent.meta:
                 print(metaline)
@@ -257,18 +256,18 @@ def identify(model, args):
             if (evl or args.tp or args.fp or args.fn or args.tn):
                 try:
                     xlemma = token.fields[12]
-                    lexcat = token.fields[13]
+                    supersense = token.fields[13]
                 except IndexError as e:
                     print("NOTE: the --eval, --tp, --fp, --fn, --tn options works ONLY with full .conllulex format", file=sys.stderr)
                     sys.exit(1)
 
             t = False
-            if (evl or args.tp or args.fp or args.fn or args.tn) and re.match("^(p|\?)", lexcat):
+            if (evl or args.tp or args.fp or args.fn or args.tn) and re.match("^p", supersense):
                 t = True
 
             lemma = token.lemma
             skip = False
-            if i>=k:
+            if i>=k and supersense != "??":
                 if mwe and token.lemma in mw_beginners:
                     for j in range(min(length, i+max_mwe_length)-1, i+1, -1):
                         ngram = [t for t in sent.tokens[i:j]]
@@ -280,6 +279,7 @@ def identify(model, args):
                         if ngram_lemma in mwe_list: # find the longest possible mwe
                             mwes.append([int(t.offset) for t in ngram])
                             token.checkmark = "{}:{}".format(mwe_counter, 1) + "**"
+                            lemma = ngram_lemma
                             for current_mwe_counter, tok in enumerate(ngram[1:], start=2):
                                 sent.tokens[int(tok.offset)-1].checkmark = "{}:{}".format(mwe_counter, current_mwe_counter)
                             if ngram[-1].ud_pos in ("ADP", "SCONJ"):
@@ -313,9 +313,16 @@ def identify(model, args):
                 
             if token.checkmark == "*" or first_in_mwe:
                 if t:
-                    if args.tp and not evl:
-                        print_target(token, sent, i, token.checkmark, lexcat, args.context)
-                    tp += 1
+                    # exact match
+                    if token.lexlemma == lemma:
+                        if args.tp and not evl:
+                            print_target(token, sent, i, token.checkmark, lexcat, args.context)
+                        tp += 1
+                    else:
+                        if args.fp and not evl:
+                            print_target(token, sent, i, token.checkmark, lexcat, args.context)
+                        fp += 1
+                        fn += 1
                 else:
                     if args.fp and not evl:
                         print_target(token, sent, i, token.checkmark, lexcat, args.context)
