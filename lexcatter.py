@@ -100,7 +100,7 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
 
 def supersenses_for_lexcat(lc):
     if lc=='N': return NSS
-    if lc=='V': return VSS
+    if lc=='V' or lc.startswith('V.'): return VSS
     if lc in ('P', 'PP', 'INF.P'): return PSS
     if lc in ('POSS', 'PRON.POSS'): return PSS | {'`$'}
 
