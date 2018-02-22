@@ -322,6 +322,8 @@ def identify(model, args):
                         if args.fp and not evl:
                             print_target(token, sent, i, token.checkmark, lexcat, args.context)
                         fp += 1
+                        if args.fn and not evl:
+                            print_target(token, sent, i, token.checkmark, lexcat, args.context)
                         fn += 1
                 else:
                     if args.fp and not evl:
