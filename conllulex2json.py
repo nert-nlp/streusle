@@ -79,7 +79,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             if valid_ss:
                 if ss=='??':
                     assert ss2 is None
-                elif ss not in valid_ss or (lc in ('N','V'))!=(ss2 is None) or (ss2 is not None and ss2 not in valid_ss):
+                elif ss not in valid_ss or (lc in ('N','V') or lc.startswith('V.'))!=(ss2 is None) or (ss2 is not None and ss2 not in valid_ss):
                     print('Invalid supersense(s) in lexical entry:', lexe, file=sys.stderr)
             else:
                 assert ss is None and ss2 is None and lexe not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),lexe
