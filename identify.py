@@ -238,7 +238,7 @@ def identify(model, args):
     print("max MWE length={}".format(max_mwe_length), file=sys.stderr)
     mw_beginners = set([w.split()[0] for w in list(mwe_list)+list(non_prep_mwe_list) if len(w.split()) >= 2]).union(set(PREP_SPECIAL_MW_BEGINNERS))
 
-    for sent in sentences(infile, conllulex=(evl or args.tp or args.fp or args.fn or args.tn)):
+    for si, sent in enumerate(sentences(infile, conllulex=(evl or args.tp or args.fp or args.fn or args.tn)), start=1):
         if not (args.sst or evl or args.tp or args.fp or args.fn or args.tn):
             for metaline in sent.meta:
                 print(metaline)
@@ -267,7 +267,7 @@ def identify(model, args):
 
             lemma = token.lemma
             skip = False
-            if i>=k and supersense != "??":
+            if i>=k and (not (evl or args.tp or args.fp or args.fn or args.tn) or supersense != "??"):
                 if mwe and token.lemma in mw_beginners:
                     for j in range(min(length, i+max_mwe_length)-1, i+1, -1):
                         ngram = [t for t in sent.tokens[i:j]]
@@ -359,7 +359,7 @@ def identify(model, args):
                 _json["lemmas"].append(tok.lemma)
                 if tok.checkmark.endswith("*"):
                     _json["labels"][tok.offset] = [tok.word, "Locus"]
-            print("{}\t{}\t{}".format(sent.meta_dict["sent_id"], tags2sst.render(_sent, _json["_"], []).decode("utf-8"), json.dumps(_json)))
+            print("{}\t{}\t{}".format(sent.meta_dict.get("sent_id", args.file.split("/")[-1].rsplit(".", maxsplit=1)[0]+"."+str(si)), tags2sst.render(_sent, _json["_"], []).decode("utf-8"), json.dumps(_json)))
 
         elif not (evl or args.tp or args.fp or args.fn or args.tn):
             print()
@@ -375,15 +375,64 @@ def identify(model, args):
         print("\nP\tR\tF")
         print("{}\t{}\t{}".format(p, r, f))
 
+        
+def pass_trough_gold(args):
+    for sent in sentences(args.file, conllulex=True):
+        if not (args.sst or args.eval or args.tp or args.fp or args.fn or args.tn):
+            for metaline in sent.meta:
+                print(metaline)
+        mwes = {}
+        for tok in sent.tokens:
+            isTarget = tok.ss and tok.ss.startswith("p.")
+            isMWE = bool(tok.smwe)
+            tok.checkmark = "-"
+            if isMWE:
+                tok.checkmark = tok.smwe
+                if isTarget:
+                    tok.checkmark += "**"
+                i, j = tok.smwe.split(":")
+                if i not in mwes:
+                    mwes[i] = []
+                mwes[i].append(int(tok.offset))
 
+            elif isTarget:
+                tok.checkmark = "*"
+
+
+            if not (args.sst or args.eval or args.tp or args.fp or args.fn or args.tn):
+                print("{}\t{}".format(tok.orig, tok.checkmark) + ("\t{}".format(tok.lexcat) if args.lexcat else ""))
+
+        if args.sst:
+            _json = {}
+            _json["words"] = []
+            _json["lemmas"] = []
+            _json["tags"] = []
+            _json["labels"] = {}
+            _json["_"] = list(mwes.values())
+            _json["~"] = []
+            _sent = []
+            for tok in sent.tokens:
+                _sent.append(tok.word)
+                _json["words"].append([tok.word, tok.ptb_pos])
+                _json["lemmas"].append(tok.lemma)
+                if tok.checkmark.endswith("*"):
+                    _json["labels"][tok.offset] = [tok.word, tok.ss.split(".")[1]]
+            print("{}\t{}\t{}".format(sent.meta_dict["streusle_sent_id"], sent.meta_dict["mwe"], json.dumps(_json)))
+
+        
 def main(args):
-    if args.model_file:
-        model = json.load(open(args.model_file))
-    elif args.training_file:
-        model = train(args.training_file, args)
+    if args.gold:
+        pass_trough_gold(args)
+
     else:
-        model = train(args.file, args)
-    identify(model, args)
+        if args.model_file:
+            model = json.load(open(args.model_file))
+        elif args.training_file:
+            model = train(args.training_file, args)
+        else:
+            model = train(args.file, args)
+
+        identify(model, args)
 
         
 if __name__ == "__main__":
@@ -407,6 +456,7 @@ if __name__ == "__main__":
     parser.add_argument('--advcl-min', type=int, default=1, help='threshold for advcl heads that take non-prepositional infinitival complements')
     parser.add_argument('--acl-min', type=int, default=1, help='threshold for acl heads that take non-prepositional infinitival complements')
     parser.add_argument('-L', '--lexcat', action='store_true', help='output lexical categories')
+    parser.add_argument('-g', '--gold', action='store_true', help='re-use gold standard annotation')
 #    parser.add_argument('-v', '--verbose', action='store_true', help='')
 
     args = parser.parse_args()
