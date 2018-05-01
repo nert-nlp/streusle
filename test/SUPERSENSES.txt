@@ -1,0 +1,148 @@
+   6 ??	_
+3235 _	_
+   2 `$	`$
+ 122 n.ACT	_
+   4 n.ANIMAL	_
+  83 n.ARTIFACT	_
+  31 n.ATTRIBUTE	_
+  12 n.BODY	_
+  68 n.COGNITION	_
+  46 n.COMMUNICATION	_
+  36 n.EVENT	_
+   3 n.FEELING	_
+  73 n.FOOD	_
+ 196 n.GROUP	_
+  71 n.LOCATION	_
+   3 n.MOTIVE	_
+   7 n.NATURALOBJECT	_
+ 125 n.PERSON	_
+   4 n.PHENOMENON	_
+  28 n.POSSESSION	_
+   1 n.PROCESS	_
+   8 n.QUANTITY	_
+   2 n.RELATION	_
+   7 n.STATE	_
+   1 n.SUBSTANCE	_
+  35 n.TIME	_
+   2 p.Agent	p.Agent
+   6 p.Agent	p.Gestalt
+   4 p.Approximator	p.Approximator
+   1 p.Approximator	p.Identity
+   2 p.Beneficiary	p.Beneficiary
+   2 p.Beneficiary	p.Goal
+   2 p.Beneficiary	p.Possessor
+   1 p.Beneficiary	p.Theme
+   7 p.Characteristic	p.Characteristic
+  10 p.Characteristic	p.Purpose
+   4 p.Circumstance	p.Circumstance
+   2 p.Co-Agent	p.Co-Agent
+   1 p.Co-Theme	p.Co-Theme
+   1 p.ComparisonRef	p.Beneficiary
+  19 p.ComparisonRef	p.ComparisonRef
+   1 p.ComparisonRef	p.Goal
+   2 p.Cost	p.Cost
+   3 p.Cost	p.Locus
+   8 p.Direction	p.Direction
+   9 p.Duration	p.Duration
+   3 p.EndTime	p.EndTime
+   1 p.Experiencer	p.Agent
+   2 p.Experiencer	p.Beneficiary
+   7 p.Experiencer	p.Gestalt
+   9 p.Explanation	p.Explanation
+   3 p.Extent	p.Extent
+   2 p.Extent	p.Identity
+  10 p.Gestalt	p.Gestalt
+   1 p.Gestalt	p.Topic
+  16 p.Goal	p.Goal
+   2 p.Goal	p.Locus
+   2 p.Identity	p.Identity
+   1 p.InsteadOf	p.InsteadOf
+   1 p.Instrument	p.Instrument
+   2 p.Locus	p.Goal
+  71 p.Locus	p.Locus
+   1 p.Locus	p.Path
+   2 p.Locus	p.Source
+  10 p.Manner	p.Locus
+   6 p.Manner	p.Manner
+   1 p.Means	p.Means
+   3 p.OrgRole	p.Accompanier
+   7 p.OrgRole	p.Locus
+   8 p.OrgRole	p.Possessor
+   1 p.Originator	p.Agent
+   3 p.Originator	p.Possessor
+   5 p.Originator	p.Source
+   1 p.Part/Portion	p.Goal
+   1 p.Part/Portion	p.Part/Portion
+   1 p.Part/Portion	p.Source
+   1 p.Path	p.Direction
+   3 p.Path	p.Path
+   1 p.Possession	p.Accompanier
+  35 p.Possessor	p.Possessor
+   1 p.Purpose	p.Goal
+  17 p.Purpose	p.Purpose
+   1 p.Quantity	p.Gestalt
+  11 p.Quantity	p.Quantity
+   1 p.Quantity	p.Stuff
+   8 p.Quantity	p.Whole
+   3 p.Recipient	p.Gestalt
+  11 p.Recipient	p.Goal
+   5 p.SocialRel	p.Co-Agent
+  20 p.SocialRel	p.Gestalt
+   1 p.SocialRel	p.Source
+   2 p.Source	p.Source
+   2 p.Species	p.Species
+   5 p.StartTime	p.StartTime
+   1 p.Stimulus	p.Direction
+   4 p.Stimulus	p.Goal
+   1 p.Stimulus	p.Source
+   9 p.Stimulus	p.Topic
+   1 p.Theme	p.ComparisonRef
+   1 p.Theme	p.Gestalt
+   1 p.Theme	p.Purpose
+  10 p.Theme	p.Theme
+   1 p.Time	p.Direction
+   1 p.Time	p.Duration
+   2 p.Time	p.Interval
+  19 p.Time	p.Time
+   1 p.Time	p.Whole
+   1 p.Topic	p.Goal
+  17 p.Topic	p.Topic
+   1 p.Whole	p.Circumstance
+   4 p.Whole	p.Gestalt
+   2 p.Whole	p.Locus
+   5 p.Whole	p.Whole
+   3 v.body	_
+  34 v.change	_
+  96 v.cognition	_
+  65 v.communication	_
+   1 v.competition	_
+  11 v.consumption	_
+   7 v.contact	_
+   4 v.creation	_
+  27 v.emotion	_
+  45 v.motion	_
+  17 v.perception	_
+  12 v.possession	_
+ 101 v.social	_
+ 269 v.stative	_
+========================
+     966 n.*
+     692 v.*
+     480 p.*
+
+n.* by LexCat
+========================
+ 966 N
+
+v.* by LexCat
+========================
+ 692 V
+
+p.* by LexCat
+========================
+  20 INF.P
+ 351 P
+   1 POSS
+  15 PP
+  93 PRON.POSS
+

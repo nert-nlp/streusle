@@ -133,6 +133,8 @@ It supports workflows such as viewing/editing in a spreadsheet editor, processin
 The replication of CoNLL-U in the first 10 columns gives direct access to rich morphological and syntactic information from the UD project and facilitates easy patching as new versions of the UD data are made available.
 
 To simplify use cases like sorting and filtering by various components of the annotation, there is considerable redundancy in the lexical-level annotations.
-The LEXTAG and LEMMA columns are sufficient to reconstruct columns 11-18 and the `mwe` string in the header (__TODO: note about simplification__).
+The LEXTAG and LEMMA columns are sufficient to reconstruct columns 11-18 and the `mwe` string in the header
+(with the exception of 6 sentences, where the analysis in `mwe` is too complex to be encoded below and has
+thus been automatically simplified).
 
 A script is provided for checking internal consistency of the .conllulex file and converting to a JSON representation: [conllulex2json.py](conllulex2json.py). The JSON format contains the same information but consolidates columns 11-18 into lexical-level data structures under `"swes"` (single-word expressions), `"smwes"` (strong MWEs), and `"wmwes"` (weak MWEs). For Python scripts, the `conllulex2json` module can be imported for loading Python objects directly without storing a JSON file.

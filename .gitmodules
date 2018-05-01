@@ -1,4 +1,0 @@
-[submodule "UD_English"]
-	path = UD_English
-	url = https://github.com/UniversalDependencies/UD_English
-	branch = dev

@@ -14,6 +14,11 @@ and each of these must have a filename of the form BASENAME.goldid.{conllulex,js
 or BASENAME.autoid.{conllulex,json}.
 Sentences must be in the same order in all files.
 
+Tokens are scored if the first supersense label starts with 'p.'.
+If the first gold supersense label is '??', the token is discarded
+(counted neither as a false positive nor as a false negative)
+regardless of whether it is predicted to have a supersense.
+
 Invoke with -h to see command-line options.
 
 @author: Nathan Schneider (@nschneid)
@@ -56,8 +61,16 @@ def eval_sys(sysF, gold_sents, ss_mapper):
 
         # all units with a PSS label
         c = scores['All']
-        goldunits = sent['punits']
+        goldunits = dict(sent['punits'])    # make a copy so we can delete stuff locally for gold=?? and not have it affect other results
         predunits = {tuple(e['toknums']): (e['lexcat'], e['ss'], e['ss2']) for e in list(syssent['swes'].values())+list(syssent['smwes'].values()) if e['ss'] and e['ss'].startswith('p.')}
+
+        # special case: discard gold=?? tokens regardless of their predicted label
+        for k,(lc,r,f) in list(goldunits.items()):
+            if r=='??':
+                if k in predunits:
+                    del predunits[k]
+                del goldunits[k]
+
         c['ID'] += compare_sets(set(goldunits.keys()), set(predunits.keys()))
         c['Role,Fxn'] += compare_sets({(k,r,f) for k,(lc,r,f) in goldunits.items()},
                                       {(k,r,f) for k,(lc,r,f) in predunits.items()})
@@ -110,18 +123,18 @@ def eval_sys(sysF, gold_sents, ss_mapper):
 
 def to_tsv(all_sys_scores, depth):
     for k in ('All','MWE','MWP'):
-        print(k)
-        print('D='+str(depth)+'\tGold ID:\tRole\tFxn\tRole,Fxn\t\tID\t\t\t\tRole\t\t\t\tFxn\t\t\t\tRole,Fxn\t\t')
-        print('Sys\tN\tAcc\tAcc\tAcc' + '\t\tP\tR\tF'*4)
+        print(k+('\t'*22))
+        print('D='+str(depth)+'\tGold ID:\tRole\tFxn\tRole,Fxn\t\tID\t\t\t\tRole\t\t\t\tFxn\t\t\t\tRole,Fxn\t\t\t\t')
+        print('Sys\tN\tAcc\tAcc\tAcc' + '\t\tP\tR\tF'*4 + '\t\t')
         for sys,(gidscores,aidscores) in all_sys_scores.items():
             print(sys, end='\t')
             print(gidscores[k]["Role"]["N"], end='\t')
             for criterion in ('Role', 'Fxn', 'Role,Fxn'):
-                print(f'{gidscores[k][criterion]["Acc"]}', end='\t')
+                print(f'{gidscores[k][criterion]["Acc"]:.1%}', end='\t')
             print('', end='\t')
             for criterion in ('ID', 'Role', 'Fxn', 'Role,Fxn'):
                 prf = aidscores[k][criterion]
-                print(f'{prf["P"]}\t{prf["R"]}\t{prf["F"]}\t', end='\t')
+                print(f'{prf["P"]:.1%}\t{prf["R"]:.1%}\t{prf["F"]:.1%}\t', end='\t')
             print()
         print()
 
@@ -139,7 +152,7 @@ def main(args):
     # Load gold data
     gold_sents = list(load_sents(goldF, ss_mapper=ss_mapper))
     for sent in gold_sents:
-        sent['punits'] = {tuple(e['toknums']): (e['lexcat'], e['ss'], e['ss2']) for e in list(sent['swes'].values())+list(sent['smwes'].values()) if e['ss'] and e['ss'].startswith('p.')}
+        sent['punits'] = {tuple(e['toknums']): (e['lexcat'], e['ss'], e['ss2']) for e in list(sent['swes'].values())+list(sent['smwes'].values()) if e['ss'] and (e['ss'].startswith('p.') or e['ss']=='??')}
 
     all_sys_scores = {}
     for sysF in sysFs:
