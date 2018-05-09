@@ -77,3 +77,4 @@ This research was supported in part by:
 * DARPA 15-18-CwC-FP-032 Communicating with Computers
 * DTRA HDTRA1-16-1-0002/Project # 1553695, eTASC - Empirical Evidence for a Theoretical Approach to Semantic Components
 * DARPA LORELEI Semantic Annotation and Technology Transfer
+* BSF grant 2016375
