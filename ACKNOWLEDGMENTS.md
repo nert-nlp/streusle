@@ -59,6 +59,7 @@ Special thanks
 * Claire Bonial
 * Tim Baldwin
 * Miriam Butt
+* Bill Croft
 * Chris Dyer
 * Ed Hovy
 * Lingpeng Kong
