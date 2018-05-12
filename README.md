@@ -23,6 +23,7 @@ Files
 - ACKNOWLEDGMENTS.md: Contributors and support that made this dataset possible.
 - CONLLULEX.md: Description of data format.
 - LICENSE.txt: License.
+- ACL2018.md: Links to resources reported in [7].
 
 - conllulex2json.py: Script to validate the data and convert it to JSON.
 - govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
