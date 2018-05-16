@@ -100,7 +100,10 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
 
 def supersenses_for_lexcat(lc):
     if lc=='N': return NSS
-    if lc=='V' or lc.startswith('V.'): return VSS
+    if lc=='V' or lc.startswith('V.'):
+        if lc!='V':
+            assert lc in {'V.VID', 'V.VPC.full', 'V.VPC.semi', 'V.LVC.full', 'V.LVC.cause', 'V.IAV'},lc # PARSEME 1.1 verbal MWE subtypes
+        return VSS
     if lc in ('P', 'PP', 'INF.P'): return PSS
     if lc in ('POSS', 'PRON.POSS'): return PSS | {'`$'}
 
