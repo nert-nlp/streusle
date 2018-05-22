@@ -22,7 +22,7 @@ python identify.py [-h] [-f TRAINING_FILE] [-M MODEL_FILE] [-o MODEL_OUT] [-m]
 positional arguments:
    file                  path to the .conllulex file
 
-   optional arguments:
+optional arguments:
    -h, --help            show this help message and exit
    -f TRAINING_FILE, --training-file TRAINING_FILE
                          path to the training .conllulex file
@@ -65,14 +65,14 @@ positional arguments:
 
 ### STREUSLE splits with autoid annotation
 
-streusle.ud_dev.auto_id.conllulex
-streusle.ud_test.auto_id.conllulex
-streusle.ud_train.auto_id.conllulex
+* streusle.ud_dev.auto_id.conllulex
+* streusle.ud_test.auto_id.conllulex
+* streusle.ud_train.auto_id.conllulex
 
 ### Pretrained models
 
-models/streusle.ud_train.bestF.model: optimized for F1 score
-models/streusle.ud_train.bestR.model: optimized for recall
+* models/streusle.ud_train.bestF.model: optimized for F1 score
+* models/streusle.ud_train.bestR.model: optimized for recall
 
 
 ## Performance
