@@ -72,7 +72,9 @@ optional arguments:
 These files have been generated with the default settings provided by the F1-score-optimized model, using the following command:
 
 ```
-python identify.py ../{train, test, dev}/streusle.ud_{train, test, dev}.conllulex -m --model-file models/streusle.ud_train.bestF.model
+python identify.py ../train/streusle.ud_train.conllulex -m --model-file models/streusle.ud_train.bestF.model > streusle.ud_train.auto_id.conllulex
+python identify.py ../test/streusle.ud_test.conllulex -m --model-file models/streusle.ud_train.bestF.model > streusle.ud_test.auto_id.conllulex
+python identify.py ../dev/streusle.ud_dev.conllulex -m --model-file models/streusle.ud_train.bestF.model > streusle.ud_dev.auto_id.conllulex
 ```
 
 ### Pretrained models
