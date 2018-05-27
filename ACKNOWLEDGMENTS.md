@@ -7,6 +7,7 @@ MWE annotation schemers; MWE, noun supersense, and verb supersense annotators:
 * Henrietta Conrad
 * Emily Danchik
 * Michael T. Mordowanec
+* Clarissa Somers
 
 Preposition supersense annotation schemers:
 

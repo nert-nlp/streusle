@@ -1,25 +1,25 @@
   48 ??	_
-33287 _	_
+33255 _	_
   12 `$	`$
- 717 n.ACT	_
+ 718 n.ACT	_
   88 n.ANIMAL	_
-1000 n.ARTIFACT	_
+1001 n.ARTIFACT	_
  212 n.ATTRIBUTE	_
-  88 n.BODY	_
- 743 n.COGNITION	_
- 424 n.COMMUNICATION	_
- 427 n.EVENT	_
+  89 n.BODY	_
+ 744 n.COGNITION	_
+ 425 n.COMMUNICATION	_
+ 426 n.EVENT	_
   37 n.FEELING	_
  773 n.FOOD	_
 1492 n.GROUP	_
- 633 n.LOCATION	_
+ 634 n.LOCATION	_
   25 n.MOTIVE	_
   54 n.NATURALOBJECT	_
    2 n.OTHER	_
 1222 n.PERSON	_
   23 n.PHENOMENON	_
    5 n.PLANT	_
- 351 n.POSSESSION	_
+ 352 n.POSSESSION	_
   26 n.PROCESS	_
  110 n.QUANTITY	_
   35 n.RELATION	_
@@ -66,7 +66,7 @@
   30 p.Cost	p.Cost
    1 p.Cost	p.Identity
   17 p.Cost	p.Locus
- 119 p.Direction	p.Direction
+ 134 p.Direction	p.Direction
    1 p.Direction	p.Goal
   86 p.Duration	p.Duration
    2 p.Duration	p.Gestalt
@@ -91,7 +91,7 @@
    2 p.Gestalt	p.Purpose
    1 p.Gestalt	p.Source
    2 p.Gestalt	p.Topic
- 193 p.Goal	p.Goal
+ 194 p.Goal	p.Goal
   40 p.Goal	p.Locus
    1 p.Goal	p.Whole
    8 p.Identity	p.ComparisonRef
@@ -188,7 +188,7 @@
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
   22 p.Theme	p.Purpose
- 163 p.Theme	p.Theme
+ 162 p.Theme	p.Theme
    2 p.Theme	p.Whole
    2 p.Time	p.Direction
    1 p.Time	p.Duration
@@ -204,37 +204,43 @@
    7 p.Whole	p.Locus
    3 p.Whole	p.Source
   65 p.Whole	p.Whole
-  81 v.body	_
- 283 v.change	_
-1075 v.cognition	_
- 975 v.communication	_
+  83 v.body	_
+ 287 v.change	_
+1076 v.cognition	_
+ 974 v.communication	_
   11 v.competition	_
   93 v.consumption	_
   47 v.contact	_
-  65 v.creation	_
+  66 v.creation	_
  246 v.emotion	_
- 613 v.motion	_
- 146 v.perception	_
- 310 v.possession	_
- 945 v.social	_
-2787 v.stative	_
+ 609 v.motion	_
+ 145 v.perception	_
+ 317 v.possession	_
+ 948 v.social	_
+2786 v.stative	_
 ========================
-    9106 n.*
-    7677 v.*
-    5455 p.*
+    9112 n.*
+    7688 v.*
+    5470 p.*
 
 n.* by LexCat
 ========================
-9106 N
+9112 N
 
 v.* by LexCat
 ========================
-7677 V
+6814 V
+ 121 V.IAV
+  12 V.LVC.cause
+ 123 V.LVC.full
+ 311 V.VID
+ 208 V.VPC.full
+  99 V.VPC.semi
 
 p.* by LexCat
 ========================
  247 INF.P
-3934 P
+3949 P
   59 POSS
  170 PP
 1045 PRON.POSS

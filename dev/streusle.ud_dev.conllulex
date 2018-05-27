@@ -11,7 +11,7 @@
 # text = Rusted out and unsafe cars sold here!
 # streusle_sent_id = ewtb.r.001961.2
 # mwe = Rusted_out and unsafe cars sold here !
-1	Rusted	rust	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	5:amod	_	1:1	V	rust out	v.stative	_	_	_	_	B-V-v.stative
+1	Rusted	rust	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	5:amod	_	1:1	V.VPC.semi	rust out	v.stative	_	_	_	_	B-V.VPC.semi-v.stative
 2	out	out	ADP	RP	_	1	compound	1:compound	_	1:2	_	_	_	_	_	_	_	I_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	unsafe	unsafe	ADJ	JJ	Degree=Pos	1	conj	1:conj	_	_	ADJ	unsafe	_	_	_	_	_	O-ADJ
@@ -686,17 +686,17 @@
 # streusle_sent_id = ewtb.r.034313.3
 # mwe = He cross_examined witnesses relentlessly and had them break_down_and tell_the_truth .
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_	_	PRON	he	_	_	_	_	_	O-PRON
-2	cross	cross	VERB	VB	VerbForm=Inf	3	advmod	3:advmod	_	1:1	V	cross examine	v.social	_	_	_	_	B-V-v.social
+2	cross	cross	VERB	VB	VerbForm=Inf	3	advmod	3:advmod	_	1:1	V.VID	cross examine	v.social	_	_	_	_	B-V.VID-v.social
 3	examined	examine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 4	witnesses	witness	NOUN	NNS	Number=Plur	3	obj	3:obj	_	_	N	witness	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	relentlessly	relentlessly	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	relentlessly	_	_	_	_	_	O-ADV
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	3:conj	_	_	V	have	v.stative	_	_	_	_	O-V-v.stative
 8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	7:obj	_	_	PRON	they	_	_	_	_	_	O-PRON
-9	break	break	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_	2:1	V	break down and	v.cognition	_	_	_	_	B-V-v.cognition
+9	break	break	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_	2:1	V.VPC.full	break down and	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
 10	down	down	ADP	RP	_	9	compound:prt	9:compound:prt	_	2:2	_	_	_	_	_	_	_	I_
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_	2:3	_	_	_	_	_	_	_	I_
-12	tell	tell	VERB	VB	VerbForm=Inf	9	conj	9:conj	_	3:1	V	tell the truth	v.communication	_	_	_	_	B-V-v.communication
+12	tell	tell	VERB	VB	VerbForm=Inf	9	conj	9:conj	_	3:1	V.VID	tell the truth	v.communication	_	_	_	_	B-V.VID-v.communication
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_	3:2	_	_	_	_	_	_	_	I_
 14	truth	truth	NOUN	NN	Number=Sing	12	obj	12:obj	SpaceAfter=No	3:3	_	_	_	_	_	_	_	I_
 15	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -797,7 +797,7 @@
 # streusle_sent_id = ewtb.r.046906.1
 # mwe = rug works_for_me
 1	rug	rug	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	_	_	N	rug	n.GROUP	_	_	_	_	O-N-n.GROUP
-2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V	work for I	v.social	_	_	_	_	B-V-v.social
+2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	work for I	v.social	_	_	_	_	B-V.VID-v.social
 3	for	for	ADP	IN	_	4	case	4:case	_	1:2	_	_	_	_	_	_	_	I_
 4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	2:obl	_	1:3	_	_	_	_	_	_	_	I_
 
@@ -959,7 +959,7 @@
 # text = Save yourself a trip!
 # streusle_sent_id = ewtb.r.052836.2
 # mwe = Save_ yourself a _trip !
-1	Save	save	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	V	save trip	v.social	_	_	_	_	B-V-v.social
+1	Save	save	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	save trip	v.social	_	_	_	_	B-V.VID-v.social
 2	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	1	iobj	1:iobj	_	_	PRON	yourself	_	_	_	_	_	o-PRON
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_	_	DET	a	_	_	_	_	_	o-DET
 4	trip	trip	NOUN	NN	Number=Sing	1	obj	1:obj	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
@@ -988,7 +988,7 @@
 # text = Run down.
 # streusle_sent_id = ewtb.r.057644.2
 # mwe = Run_down .
-1	Run	run	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_	1:1	V	run down	v.stative	_	_	_	_	B-V-v.stative
+1	Run	run	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_	1:1	V.VPC.full	run down	v.stative	_	_	_	_	B-V.VPC.full-v.stative
 2	down	down	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 3	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -1252,10 +1252,10 @@
 # sent_id = reviews-061768-0002
 # text = I came in to get a nice gift for my wife.
 # streusle_sent_id = ewtb.r.061768.2
-# mwe = I came_in to get a nice gift for my wife .
+# mwe = I came in to get a nice gift for my wife .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
-2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	come in	v.motion	_	_	_	_	B-V-v.motion
-3	in	in	ADV	RB	_	2	advmod	2:advmod	_	1:2	_	_	_	_	_	_	_	I_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	come	v.motion	_	_	_	_	O-V-v.motion
+3	in	in	ADV	RB	_	2	advmod	2:advmod	_	_	P	in	p.Direction	p.Direction	_	_	_	O-P-p.Direction
 4	to	to	PART	TO	_	5	mark	5:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 5	get	get	VERB	VB	VerbForm=Inf	2	advcl	2:advcl	_	_	V	get	v.possession	_	_	_	_	O-V-v.possession
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_	_	DET	a	_	_	_	_	_	O-DET
@@ -1387,7 +1387,7 @@
 1	Great	great	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 2	spot	spot	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	spot	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 3	to	to	PART	TO	_	4	mark	4:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
-4	kick	kick	VERB	VB	VerbForm=Inf	2	acl	2:acl	_	1:1	V	kick back	v.stative	_	_	_	_	B-V-v.stative
+4	kick	kick	VERB	VB	VerbForm=Inf	2	acl	2:acl	_	1:1	V.VPC.full	kick back	v.stative	_	_	_	_	B-V.VPC.full-v.stative
 5	back	back	ADV	RB	_	4	advmod	4:advmod	_	1:2	_	_	_	_	_	_	_	I_
 6	for	for	ADP	IN	_	8	case	8:case	_	_	P	for	p.Circumstance	p.Circumstance	_	_	_	O-P-p.Circumstance
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_	_	DET	a	_	_	_	_	_	O-DET
@@ -1531,7 +1531,7 @@
 7	Japanese	japanese	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	japanese	_	_	_	_	_	O-ADJ
 8	food	food	NOUN	NN	Number=Sing	4	obl	4:obl	SpaceAfter=No	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 9	,	,	PUNCT	,	_	13	punct	13:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:nsubj	_	1:1	V	you can not beat this	v.competition	_	_	_	_	B-V-v.competition
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:nsubj	_	1:1	V.VID	you can not beat this	v.competition	_	_	_	_	B-V.VID-v.competition
 11	ca	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 12	n't	not	PART	RB	_	13	advmod	13:advmod	_	1:3	_	_	_	_	_	_	_	I_
 13	beat	beat	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:4	_	_	_	_	_	_	_	I_
@@ -1564,7 +1564,7 @@
 8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 9	let	let	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	list	3:list	_	_	V	let	v.social	_	_	_	_	O-V-v.social
 10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	9:obj	_	_	PRON	we	_	_	_	_	_	O-PRON
-11	check	check	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_	1:1	V	check in	v.social	_	_	_	_	B-V-v.social
+11	check	check	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_	1:1	V.VPC.full	check in	v.social	_	_	_	_	B-V.VPC.full-v.social
 12	in	in	ADP	RP	_	11	compound:prt	11:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 13	early	early	ADV	RB	Degree=Pos	11	advmod	11:advmod	SpaceAfter=No	_	ADV	early	_	_	_	_	_	O-ADV
 14	,	,	PUNCT	,	_	19	punct	19:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
@@ -1873,7 +1873,7 @@
 # mwe = the waitress took_ my _name and then called me that all night .
 1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	waitress	waitress	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_	_	N	waitress	n.PERSON	_	_	_	_	O-N-n.PERSON
-3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	take name	v.communication	_	_	_	_	B-V-v.communication
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	take name	v.communication	_	_	_	_	B-V.VID-v.communication
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Gestalt	p.Gestalt	_	_	_	o-PRON.POSS-p.Gestalt
 5	name	name	NOUN	NN	Number=Sing	3	obj	3:obj	_	1:2	_	_	_	_	_	_	_	I_
 6	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -2052,7 +2052,7 @@
 # mwe = Great job master_keying our building .
 1	Great	great	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 2	job	job	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	job	n.ACT	_	_	_	_	O-N-n.ACT
-3	master	master	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_	1:1	V	master key	v.creation	_	_	_	_	B-V-v.creation
+3	master	master	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_	1:1	V.VID	master key	v.creation	_	_	_	_	B-V.VID-v.creation
 4	keying	key	VERB	VBG	VerbForm=Ger	2	acl	2:acl	_	1:2	_	_	_	_	_	_	_	I_
 5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 6	building	building	NOUN	NN	Number=Sing	4	obj	4:obj	SpaceAfter=No	_	N	building	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -2362,7 +2362,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_	2:1	N	a hoot	n.COGNITION	_	_	_	_	B-N-n.COGNITION
 12	hoot	hoot	NOUN	NN	Number=Sing	0	root	0:root	_	2:2	_	_	_	_	_	_	_	I_
 13	to	to	PART	TO	_	14	mark	14:mark	_	_	INF	to	_	_	_	_	_	O-INF
-14	deal	deal	VERB	VB	VerbForm=Inf	12	acl	12:acl	_	3:1	V	deal with	v.social	_	_	_	_	B-V-v.social
+14	deal	deal	VERB	VB	VerbForm=Inf	12	acl	12:acl	_	3:1	V.IAV	deal with	v.social	_	_	_	_	B-V.IAV-v.social
 15	with	with	ADP	IN	_	14	obl	14:obl	_	3:2	_	_	_	_	_	_	_	I_
 16	as	as	ADV	RB	_	12	advmod	12:advmod	_	4:1	DISC	as well	_	_	_	_	_	B-DISC
 17	well	well	ADV	RB	Degree=Pos	16	fixed	16:fixed	SpaceAfter=No	4:2	_	_	_	_	_	_	_	I_
@@ -2392,7 +2392,7 @@
 4	questions	question	NOUN	NNS	Number=Plur	1	obj	1:obj	SpaceAfter=No	_	N	question	n.COMMUNICATION	_	2:2	_	_	I~-N-n.COMMUNICATION
 5	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-7	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	1:conj	_	1:1	V	call back	v.communication	_	_	_	_	B-V-v.communication
+7	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	1:conj	_	1:1	V.VPC.semi	call back	v.communication	_	_	_	_	B-V.VPC.semi-v.communication
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	7:obj	_	_	PRON	I	_	_	_	_	_	o-PRON
 9	back	back	ADV	RB	_	7	advmod	7:advmod	_	1:2	_	_	_	_	_	_	_	I_
 10	when	when	ADV	WRB	PronType=Int	12	mark	12:mark	_	_	ADV	when	_	_	_	_	_	O-ADV
@@ -2459,7 +2459,7 @@
 12	discussing	discussing	ADJ	JJ	Degree=Pos	2	list	2:list	_	_	ADJ	discussing	_	_	_	_	_	O-ADJ
 13	meat	meat	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_	_	N	meat	n.FOOD	_	_	_	_	O-N-n.FOOD
 14	all	all	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	all	_	_	_	_	_	O-ADV
-15	over	over	X	AFX	_	16	advmod	16:advmod	_	1:1	V	over cook	v.stative	_	_	_	_	B-V-v.stative
+15	over	over	X	AFX	_	16	advmod	16:advmod	_	1:1	V.VID	over cook	v.stative	_	_	_	_	B-V.VID-v.stative
 16	cooked	cook	VERB	VBN	Tense=Past|VerbForm=Part	2	list	2:list	_	1:2	_	_	_	_	_	_	_	I_
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	18:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 18	good	good	ADJ	JJ	Degree=Pos	2	list	2:list	_	_	ADJ	good	_	_	_	_	_	O-ADJ
@@ -2469,7 +2469,7 @@
 22	but	but	CCONJ	CC	_	25	cc	25:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 23	restaurant	restaurant	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	_	_	N	restaurant	n.GROUP	_	_	_	_	O-N-n.GROUP
 24	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	25:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
-25	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	18:conj	_	2:1	V	go down hill	v.change	_	_	_	_	B-V-v.change
+25	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	18:conj	_	2:1	V.VID	go down hill	v.change	_	_	_	_	B-V.VID-v.change
 26	down	down	X	GW	_	27	goeswith	27:goeswith	_	2:2	_	_	_	_	_	_	_	I_
 27	hill	hill	ADV	RB	_	25	advmod	25:advmod	_	2:3	_	_	_	_	_	_	_	I_
 
@@ -2538,7 +2538,7 @@
 # text = Give them a try!
 # streusle_sent_id = ewtb.r.114941.1
 # mwe = Give_ them _a_try !
-1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	V	give a try	v.social	_	_	_	_	B-V-v.social
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	V.LVC.full	give a try	v.social	_	_	_	_	B-V.LVC.full-v.social
 2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	iobj	1:iobj	_	_	PRON	they	_	_	_	_	_	o-PRON
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_	1:2	_	_	_	_	_	_	_	I_
 4	try	try	NOUN	NN	Number=Sing	1	obj	1:obj	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
@@ -2763,7 +2763,7 @@
 7	exactly	exactly	ADV	RB	_	6	advmod	6:advmod	_	_	ADV	exactly	_	_	_	_	_	O-ADV
 8	how	how	ADV	WRB	PronType=Int	10	advmod	10:advmod	_	_	ADV	how	_	_	_	_	_	O-ADV
 9	to	to	PART	TO	_	10	mark	10:mark	_	_	INF	to	_	_	_	_	_	O-INF
-10	make	make	VERB	VB	VerbForm=Inf	6	ccomp	6:ccomp	_	1:1	V	make feel	v.social	_	_	_	_	B-V-v.social
+10	make	make	VERB	VB	VerbForm=Inf	6	ccomp	6:ccomp	_	1:1	V.VID	make feel	v.social	_	_	_	_	B-V.VID-v.social
 11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	12:nsubj	_	_	PRON	you	_	_	_	_	_	o-PRON
 12	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	_	1:2	_	_	_	_	_	_	_	I_
 13	beautiful	beautiful	ADJ	JJ	Degree=Pos	12	xcomp	12:xcomp	_	_	ADJ	beautiful	_	_	_	_	_	O-ADJ
@@ -3004,7 +3004,7 @@
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_	_	DET	a	_	_	_	_	_	O-DET
 6	band	band	NOUN	NN	Number=Sing	4	obj	4:obj	_	_	N	band	n.GROUP	_	_	_	_	O-N-n.GROUP
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	or	_	_	_	_	_	O-CCONJ
-8	catch	catch	VERB	VB	VerbForm=Inf	4	conj	4:conj	_	1:1	V	catch up	v.social	_	2:1	_	catch up with	B-V-v.social
+8	catch	catch	VERB	VB	VerbForm=Inf	4	conj	4:conj	_	1:1	V.VPC.full	catch up	v.social	_	2:1	_	catch up with	B-V.VPC.full-v.social
 9	up	up	ADP	RP	_	8	compound:prt	8:compound:prt	_	1:2	_	_	_	_	2:2	_	_	I_
 10	with	with	ADP	IN	_	11	case	11:case	_	_	P	with	p.Co-Agent	p.Co-Agent	2:3	_	_	I~-P-p.Co-Agent
 11	friends	friend	NOUN	NNS	Number=Plur	8	obl	8:obl	SpaceAfter=No	_	N	friend	n.GROUP	_	_	_	_	O-N-n.GROUP
@@ -3027,7 +3027,7 @@
 # streusle_sent_id = ewtb.r.134617.4
 # mwe = Kitchen puts_out good food and has daily specials .
 1	Kitchen	kitchen	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	_	_	N	kitchen	n.GROUP	_	_	_	_	O-N-n.GROUP
-2	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V	put out	v.creation	_	_	_	_	B-V-v.creation
+2	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	put out	v.creation	_	_	_	_	B-V.VPC.full-v.creation
 3	out	out	ADV	RB	_	2	advmod	2:advmod	_	1:2	_	_	_	_	_	_	_	I_
 4	good	good	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 5	food	food	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
@@ -3070,7 +3070,7 @@
 10	so	so	ADV	RB	_	11	advmod	11:advmod	_	_	ADV	so	_	_	_	_	_	O-ADV
 11	hard	hard	ADV	RB	Degree=Pos	9	advmod	9:advmod	_	_	ADV	hard	_	_	_	_	_	O-ADV
 12	to	to	PART	TO	_	13	mark	13:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
-13	take	take	VERB	VB	VerbForm=Inf	9	advcl	9:advcl	_	1:1	V	take care of	v.social	_	_	_	_	B-V-v.social
+13	take	take	VERB	VB	VerbForm=Inf	9	advcl	9:advcl	_	1:1	V.IAV	take care of	v.social	_	_	_	_	B-V.IAV-v.social
 14	care	care	NOUN	NN	Number=Sing	13	obj	13:obj	_	1:2	_	_	_	_	_	_	_	I_
 15	of	of	ADP	IN	_	17	case	17:case	_	1:3	_	_	_	_	_	_	_	I_
 16	others	other	NOUN	NNS	Number=Plur	17	compound	17:compound	_	_	!!@	other	_	_	_	_	_	O-!!@
@@ -3265,7 +3265,7 @@
 13	done	done	ADJ	JJ	Degree=Pos	8	advcl	8:advcl	SpaceAfter=No	_	ADJ	done	_	_	_	_	_	O-ADJ
 14	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
-16	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	2:parataxis	_	1:1	V	do a job	v.social	_	_	_	_	B-V-v.social
+16	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	2:parataxis	_	1:1	V.LVC.full	do a job	v.social	_	_	_	_	B-V.LVC.full-v.social
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	_	1:2	_	_	_	_	_	_	_	I_
 18	great	great	ADJ	JJ	Degree=Pos	19	amod	19:amod	_	_	ADJ	great	_	_	_	_	_	o-ADJ
 19	job	job	NOUN	NN	Number=Sing	16	obj	16:obj	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
@@ -3620,7 +3620,7 @@
 # text = Over charged.
 # streusle_sent_id = ewtb.r.162253.1
 # mwe = Over_charged .
-1	Over	over	X	AFX	_	2	advmod	2:advmod	_	1:1	V	over charge	v.possession	_	_	_	_	B-V-v.possession
+1	Over	over	X	AFX	_	2	advmod	2:advmod	_	1:1	V.VID	over charge	v.possession	_	_	_	_	B-V.VID-v.possession
 2	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 3	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -3676,7 +3676,7 @@
 6	maybe	maybe	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	maybe	_	_	_	_	_	O-ADV
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	_	DET	the	_	_	_	_	_	O-DET
 8	individual	individual	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_	_	N	individual	n.PERSON	_	_	_	_	O-N-n.PERSON
-9	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	2:conj	_	1:1	V	make mistake	v.cognition	_	_	_	_	B-V-v.cognition
+9	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	2:conj	_	1:1	V.LVC.full	make mistake	v.cognition	_	_	_	_	B-V.LVC.full-v.cognition
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_	_	DET	a	_	_	_	_	_	o-DET
 11	mistake	mistake	NOUN	NN	Number=Sing	9	obj	9:obj	_	1:2	_	_	_	_	_	_	_	I_
 12	but	but	CCONJ	CC	_	18	cc	18:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
@@ -3778,7 +3778,7 @@
 # mwe = The images turned_out amazing .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	images	image	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	_	_	N	image	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
-3	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	turn out	v.change	_	_	_	_	B-V-v.change
+3	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	turn out	v.change	_	_	_	_	B-V.VPC.full-v.change
 4	out	out	ADP	RP	_	3	compound:prt	3:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 5	amazing	amazing	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	SpaceAfter=No	_	ADJ	amazing	_	_	_	_	_	O-ADJ
 6	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -4013,7 +4013,7 @@
 13	just	just	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	just	_	_	_	_	_	O-ADV
 14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No	_	AUX	do	_	_	3:1	_	do not give a darn	B-AUX
 15	n't	not	PART	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	3:2	_	_	I~-ADV
-16	give	give	VERB	VB	VerbForm=Inf	7	conj	7:conj	_	2:1	V	give a darn	v.emotion	_	3:3	_	_	I~-V-v.emotion
+16	give	give	VERB	VB	VerbForm=Inf	7	conj	7:conj	_	2:1	V.VID	give a darn	v.emotion	_	3:3	_	_	I~-V.VID-v.emotion
 17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	_	2:2	_	_	_	_	3:4	_	_	I_
 18	darn	darn	NOUN	NN	Number=Sing	16	obj	16:obj	SpaceAfter=No	2:3	_	_	_	_	3:5	_	_	I_
 19	.	.	PUNCT	.	_	7	punct	7:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -4218,7 +4218,7 @@
 # text = Gets busy so come early
 # streusle_sent_id = ewtb.r.191597.5
 # mwe = Gets_busy so come early
-1	Gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V	get busy	v.social	_	_	_	_	B-V-v.social
+1	Gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	get busy	v.social	_	_	_	_	B-V.VID-v.social
 2	busy	busy	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_	1:2	_	_	_	_	_	_	_	I_
 3	so	so	ADV	RB	_	4	mark	4:mark	_	_	ADV	so	_	_	_	_	_	O-ADV
 4	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	2	advcl	2:advcl	_	_	V	come	v.motion	_	_	_	_	O-V-v.motion
@@ -4251,7 +4251,7 @@
 20	body	body	NOUN	NN	Number=Sing	18	conj	18:conj	SpaceAfter=No	_	N	body	n.BODY	_	_	_	_	O-N-n.BODY
 21	,	,	PUNCT	,	_	23	punct	23:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 22	to	to	PART	TO	_	23	mark	23:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
-23	give	give	VERB	VB	VerbForm=Inf	16	conj	16:conj	_	1:1	V	give massage	v.body	_	_	_	_	B-V-v.body
+23	give	give	VERB	VB	VerbForm=Inf	16	conj	16:conj	_	1:1	V.LVC.full	give massage	v.body	_	_	_	_	B-V.LVC.full-v.body
 24	every	every	DET	DT	_	25	det	25:det	_	_	DET	every	_	_	_	_	_	o-DET
 25	person	person	NOUN	NN	Number=Sing	23	iobj	23:iobj	_	_	N	person	n.PERSON	_	_	_	_	o-N-n.PERSON
 26	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	_	_	DET	a	_	_	_	_	_	o-DET
@@ -4269,7 +4269,7 @@
 38	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 39	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	41	nsubj	41:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 40	WILL	will	AUX	MD	VerbForm=Fin	41	aux	41:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
-41	FALL	fall	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_	2:1	V	fall in love	v.emotion	_	_	_	_	B-V-v.emotion
+41	FALL	fall	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_	2:1	V.VID	fall in love	v.emotion	_	_	_	_	B-V.VID-v.emotion
 42	IN	in	ADP	IN	_	43	case	43:case	_	2:2	_	_	_	_	_	_	_	I_
 43	LOVE	love	NOUN	NN	Number=Sing	41	obl	41:obl	_	2:3	_	_	_	_	_	_	_	I_
 44	SHE	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj	47:nsubj	_	_	PRON	she	_	_	_	_	_	O-PRON
@@ -4322,7 +4322,7 @@
 2	wife	wife	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	1:1	N	wife and kid	n.GROUP	_	_	_	_	B-N-n.GROUP
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	1:2	_	_	_	_	_	_	_	I_
 4	kids	kid	NOUN	NNS	Number=Plur	2	conj	2:conj	_	1:3	_	_	_	_	_	_	_	I_
-5	ca	can	AUX	MD	VerbForm=Fin	7	aux	7:aux	SpaceAfter=No	2:1	V	can not get enough	v.stative	_	_	_	_	B-V-v.stative
+5	ca	can	AUX	MD	VerbForm=Fin	7	aux	7:aux	SpaceAfter=No	2:1	V.VID	can not get enough	v.stative	_	_	_	_	B-V.VID-v.stative
 6	n't	not	PART	RB	_	7	advmod	7:advmod	_	2:2	_	_	_	_	_	_	_	I_
 7	get	get	VERB	VB	VerbForm=Inf	0	root	0:root	_	2:3	_	_	_	_	_	_	_	I_
 8	enough	enough	ADJ	JJ	Degree=Pos	7	obj	7:obj	SpaceAfter=No	2:4	_	_	_	_	_	_	_	I_
@@ -4529,7 +4529,7 @@
 18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	_	_	DET	the	_	_	_	_	_	O-DET
 20	seamstress	seamstress	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	_	_	N	seamstress	n.PERSON	_	_	_	_	O-N-n.PERSON
-21	done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	5:parataxis	_	1:1	V	do job	v.social	_	_	_	_	B-V-v.social
+21	done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	5:parataxis	_	1:1	V.LVC.full	do job	v.social	_	_	_	_	B-V.LVC.full-v.social
 22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	_	_	DET	a	_	_	_	_	_	o-DET
 23	perfect	perfect	ADJ	JJ	Degree=Pos	24	amod	24:amod	_	_	ADJ	perfect	_	_	_	_	_	o-ADJ
 24	job	job	NOUN	NN	Number=Sing	21	obj	21:obj	_	1:2	_	_	_	_	_	_	_	I_
@@ -4755,7 +4755,7 @@
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
 2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 3	never	never	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	never	_	_	_	_	_	O-ADV
-4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_	1:1	V	have problem	v.cognition	_	_	_	_	B-V-v.cognition
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_	1:1	V.LVC.full	have problem	v.cognition	_	_	_	_	B-V.LVC.full-v.cognition
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_	_	DET	a	_	_	_	_	_	o-DET
 6	problem	problem	NOUN	NN	Number=Sing	4	obj	4:obj	_	1:2	_	_	_	_	_	_	_	I_
 7	with	with	ADP	IN	_	9	case	9:case	_	_	P	with	p.Topic	p.Topic	_	_	_	O-P-p.Topic
@@ -4845,7 +4845,7 @@
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	17:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 15	really	really	ADV	RB	_	17	advmod	17:advmod	_	_	ADV	really	_	_	_	_	_	O-ADV
 16	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	17:aux	_	_	AUX	do	_	_	_	_	_	O-AUX
-17	do	do	VERB	VB	VerbForm=Inf	3	conj	3:conj	_	1:1	V	do job	v.social	_	_	_	_	B-V-v.social
+17	do	do	VERB	VB	VerbForm=Inf	3	conj	3:conj	_	1:1	V.LVC.full	do job	v.social	_	_	_	_	B-V.LVC.full-v.social
 18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	_	_	DET	a	_	_	_	_	_	o-DET
 19	good	good	ADJ	JJ	Degree=Pos	20	amod	20:amod	_	_	ADJ	good	_	_	_	_	_	o-ADJ
 20	job	job	NOUN	NN	Number=Sing	17	obj	17:obj	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
@@ -4950,7 +4950,7 @@
 7	best	best	ADJ	JJS	Degree=Sup	0	root	0:root	_	_	ADJ	best	_	_	_	_	_	O-ADJ
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
-10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	11:cop	_	2:1	V	be to	v.motion	_	_	_	_	B-V-v.motion
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	11:cop	_	2:1	V.IAV	be to	v.motion	_	_	_	_	B-V.IAV-v.motion
 11	to	to	ADP	IN	_	7	acl:relcl	7:acl:relcl	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
 12	.	.	PUNCT	.	_	7	punct	7:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -5042,7 +5042,7 @@
 # streusle_sent_id = ewtb.r.229142.3
 # mwe = They came_through on all of their promises and we had a very successful day .
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
-2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	come through	v.cognition	_	_	_	_	B-V-v.cognition
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	come through	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
 3	through	through	ADV	RB	_	2	advmod	2:advmod	_	1:2	_	_	_	_	_	_	_	I_
 4	on	on	ADP	IN	_	5	case	5:case	_	_	P	on	p.Topic	p.Topic	_	_	_	O-P-p.Topic
 5	all	all	DET	DT	_	2	obl	2:obl	_	_	DET	all	_	_	_	_	_	O-DET
@@ -5098,13 +5098,13 @@
 # text = Go down 1 block to Super 8.
 # streusle_sent_id = ewtb.r.231724.3
 # mwe = Go_down 1 block to Super_8 .
-1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	V	go down	v.motion	_	_	_	_	B-V-v.motion
-2	down	down	ADV	RB	_	1	advmod	1:advmod	_	1:2	_	_	_	_	_	_	_	I_
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	go	v.motion	_	_	_	_	O-V-v.motion
+2	down	down	ADV	RB	_	1	advmod	1:advmod	_	_	P	down	p.Direction	p.Direction	_	_	_	O-P-p.Direction
 3	1	1	NUM	CD	NumType=Card	4	nummod	4:nummod	_	_	NUM	1	_	_	_	_	_	O-NUM
 4	block	block	NOUN	NN	Number=Sing	1	obl:npmod	1:obl:npmod	_	_	N	block	n.RELATION	_	_	_	_	O-N-n.RELATION
 5	to	to	ADP	IN	_	7	case	7:case	_	_	P	to	p.Goal	p.Goal	_	_	_	O-P-p.Goal
-6	Super	Super	PROPN	NNP	Number=Sing	7	compound	7:compound	_	2:1	N	Super 8	n.GROUP	_	_	_	_	B-N-n.GROUP
-7	8	8	PROPN	NNP	Number=Sing	1	obl	1:obl	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
+6	Super	Super	PROPN	NNP	Number=Sing	7	compound	7:compound	_	1:1	N	Super 8	n.GROUP	_	_	_	_	B-N-n.GROUP
+7	8	8	PROPN	NNP	Number=Sing	1	obl	1:obl	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 8	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-232106
@@ -5129,7 +5129,7 @@
 # mwe = Food drastically let's_ the place _down though
 1	Food	food	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 2	drastically	drastically	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	drastically	_	_	_	_	_	O-ADV
-3	let's	let'	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V	let' down	v.cognition	_	_	_	_	B-V-v.cognition
+3	let's	let'	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	let' down	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	o-DET
 5	place	place	NOUN	NN	Number=Sing	3	obj	3:obj	_	_	N	place	n.GROUP	_	_	_	_	o-N-n.GROUP
 6	down	down	ADP	RP	_	3	compound:prt	3:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
@@ -5284,7 +5284,7 @@
 # text = Took a laptop in for a video cable to be replaced.
 # streusle_sent_id = ewtb.r.248616.1
 # mwe = Took_ a laptop _in for a video_cable to be replaced .
-1	Took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	take in	v.motion	_	_	_	_	B-V-v.motion
+1	Took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	take in	v.motion	_	_	_	_	B-V.VPC.full-v.motion
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_	_	DET	a	_	_	_	_	_	o-DET
 3	laptop	laptop	NOUN	NN	Number=Sing	1	obj	1:obj	_	_	N	laptop	n.ARTIFACT	_	_	_	_	o-N-n.ARTIFACT
 4	in	in	ADV	RB	_	1	advmod	1:advmod	_	1:2	_	_	_	_	_	_	_	I_
@@ -5309,7 +5309,7 @@
 6	fine	fine	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	fine	_	_	_	_	_	O-ADV
 7	before	before	SCONJ	IN	_	9	mark	9:mark	_	_	P	before	p.Time	p.Time	_	_	_	O-P-p.Time
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
-9	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	5:advcl	_	1:1	V	take in	v.motion	_	_	_	_	B-V-v.motion
+9	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	5:advcl	_	1:1	V.VPC.full	take in	v.motion	_	_	_	_	B-V.VPC.full-v.motion
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	_	_	PRON	it	_	_	_	_	_	o-PRON
 11	in	in	ADV	RB	_	9	advmod	9:advmod	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 12	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -5401,7 +5401,7 @@
 # mwe = Best to deal_with !
 1	Best	best	ADJ	JJS	Degree=Sup	0	root	0:root	_	_	ADJ	best	_	_	_	_	_	O-ADJ
 2	to	to	PART	TO	_	3	mark	3:mark	_	_	INF	to	_	_	_	_	_	O-INF
-3	deal	deal	VERB	VB	VerbForm=Inf	1	ccomp	1:ccomp	_	1:1	V	deal with	v.social	_	_	_	_	B-V-v.social
+3	deal	deal	VERB	VB	VerbForm=Inf	1	ccomp	1:ccomp	_	1:1	V.IAV	deal with	v.social	_	_	_	_	B-V.IAV-v.social
 4	with	with	ADP	IN	_	3	obl	3:obl	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 5	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
@@ -5877,7 +5877,7 @@
 # text = Happened on to this place while out of town on business, and it was great!
 # streusle_sent_id = ewtb.r.279070.2
 # mwe = Happened_on_to this place while out_of_town on~business , and it was great !
-1	Happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	happen on to	v.cognition	_	_	_	_	B-V-v.cognition
+1	Happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	happen on to	v.cognition	_	_	_	_	B-V.VID-v.cognition
 2	on	on	ADP	IN	_	5	case	5:case	_	1:2	_	_	_	_	_	_	_	I_
 3	to	to	ADP	IN	_	5	case	5:case	_	1:3	_	_	_	_	_	_	_	I_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	_	_	DET	this	_	_	_	_	_	O-DET
@@ -6572,7 +6572,7 @@
 13	enough	enough	ADJ	JJ	Degree=Pos	14	amod	14:amod	_	_	ADJ	enough	_	_	_	_	_	O-ADJ
 14	food	food	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 15	to	to	PART	TO	_	16	mark	16:mark	_	_	INF.P	to	p.ComparisonRef	p.Purpose	_	_	_	O-INF.P-p.ComparisonRef|p.Purpose
-16	fill	fill	VERB	VB	VerbForm=Inf	13	advcl	13:advcl	_	1:1	V	fill up	v.consumption	_	_	_	_	B-V-v.consumption
+16	fill	fill	VERB	VB	VerbForm=Inf	13	advcl	13:advcl	_	1:1	V.VPC.semi	fill up	v.consumption	_	_	_	_	B-V.VPC.semi-v.consumption
 17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	obj	16:obj	_	_	PRON	you	_	_	_	_	_	o-PRON
 18	up	up	ADP	RP	_	16	compound:prt	16:compound:prt	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 19	,	,	PUNCT	,	_	25	punct	25:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
@@ -6649,7 +6649,7 @@
 # streusle_sent_id = ewtb.r.310018.2
 # mwe = She has_a_ great _way_with children and is able to capture their personality as_well_as many spontaneous images .
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	she	_	_	_	_	_	O-PRON
-2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V	have a way with	v.social	_	_	_	_	B-V-v.social
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	have a way with	v.social	_	_	_	_	B-V.VID-v.social
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	1:2	_	_	_	_	_	_	_	I_
 4	great	great	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	great	_	_	_	_	_	o-ADJ
 5	way	way	NOUN	NN	Number=Sing	2	obj	2:obj	_	1:3	_	_	_	_	_	_	_	I_
@@ -6708,7 +6708,7 @@
 8	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obl	4:obl	_	_	PRON	myself	_	_	_	_	_	O-PRON
 9	before	before	SCONJ	IN	_	11	mark	11:mark	_	_	P	before	p.Time	p.Time	_	_	_	O-P-p.Time
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
-11	bring	bring	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	_	1:1	V	bring in	v.motion	_	_	_	_	B-V-v.motion
+11	bring	bring	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	_	1:1	V.VPC.semi	bring in	v.motion	_	_	_	_	B-V.VPC.semi-v.motion
 12	in	in	ADV	RP	_	11	compound:prt	11:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 14	son	son	NOUN	NN	Number=Sing	11	obj	11:obj	SpaceAfter=No	_	N	son	n.PERSON	_	_	_	_	O-N-n.PERSON
@@ -6902,7 +6902,7 @@
 # text = Checked in real late, but staff was very kind and helpful.
 # streusle_sent_id = ewtb.r.327766.1
 # mwe = Checked_in real late , but staff was very kind and helpful .
-1	Checked	check	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	check in	v.social	_	_	_	_	B-V-v.social
+1	Checked	check	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	check in	v.social	_	_	_	_	B-V.VPC.full-v.social
 2	in	in	ADP	RP	_	1	compound:prt	1:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 3	real	real	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	real	_	_	_	_	_	O-ADV
 4	late	late	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No	_	ADV	late	_	_	_	_	_	O-ADV
@@ -7045,7 +7045,7 @@
 19	belts	belt	NOUN	NNS	Number=Plur	15	nmod	15:nmod	_	_	N	belt	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 20	and	and	CCONJ	CC	_	22	cc	22:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	22:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
-22	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	3:conj	_	2:1	V	walk out	v.motion	_	_	_	_	B-V-v.motion
+22	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	3:conj	_	2:1	V.VPC.semi	walk out	v.motion	_	_	_	_	B-V.VPC.semi-v.motion
 23	out	out	ADV	RB	_	22	advmod	22:advmod	_	2:2	_	_	_	_	_	_	_	I_
 24	because	because	ADP	IN	_	28	case	28:case	_	3:1	P	because of	p.Explanation	p.Explanation	_	_	_	B-P-p.Explanation
 25	of	of	ADP	IN	_	24	fixed	24:fixed	_	3:2	_	_	_	_	_	_	_	I_
@@ -7245,7 +7245,7 @@
 6	urgent	urgent	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	urgent	_	_	_	_	_	O-ADJ
 7	issue	issue	NOUN	NN	Number=Sing	4	obj	4:obj	_	_	N	issue	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF
-9	deal	deal	VERB	VB	VerbForm=Inf	7	acl	7:acl	_	1:1	V	deal with	v.social	_	_	_	_	B-V-v.social
+9	deal	deal	VERB	VB	VerbForm=Inf	7	acl	7:acl	_	1:1	V.IAV	deal with	v.social	_	_	_	_	B-V.IAV-v.social
 10	with	with	ADP	IN	_	9	obl	9:obl	_	1:2	_	_	_	_	_	_	_	I_
 11	and	and	CCONJ	CC	_	15	cc	15:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
@@ -7554,7 +7554,7 @@
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
 4	knowledgeable	knowledgeable	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	knowledgeable	_	_	_	_	_	O-ADJ
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-6	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	4:conj	_	1:1	V	take the time	v.social	_	_	_	_	B-V-v.social
+6	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	4:conj	_	1:1	V.VID	take the time	v.social	_	_	_	_	B-V.VID-v.social
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	1:2	_	_	_	_	_	_	_	I_
 8	time	time	NOUN	NN	Number=Sing	6	obj	6:obj	_	1:3	_	_	_	_	_	_	_	I_
 9	to	to	PART	TO	_	10	mark	10:mark	_	_	INF	to	_	_	_	_	_	O-INF
@@ -7592,7 +7592,7 @@
 # streusle_sent_id = ewtb.r.359014.5
 # mwe = I have_ nothing_but~ fantastic ~things _to_say .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
-2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V	have to say	v.stative	_	_	_	_	B-V-v.stative
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	have to say	v.stative	_	_	_	_	B-V.VID-v.stative
 3	nothing	nothing	PRON	NN	Number=Sing	2	obj	2:obj	_	2:1	P	nothing but	p.Part/Portion	p.Part/Portion	3:1	_	nothing but thing	b-P-p.Part/Portion
 4	but	but	ADP	CC	_	6	cc	6:cc	_	2:2	_	_	_	_	3:2	_	_	i_
 5	fantastic	fantastic	ADJ	JJ	Degree=Pos	6	amod	6:amod	_	_	ADJ	fantastic	_	_	_	_	_	o-ADJ
@@ -7666,7 +7666,7 @@
 13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 14	affordable	affordable	ADJ	JJ	Degree=Pos	3	conj	3:conj	_	_	ADJ	affordable	_	_	_	_	_	O-ADJ
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-16	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	14:conj	_	2:1	V	get do	v.social	_	_	_	_	B-V-v.social
+16	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	14:conj	_	2:1	V.VID	get do	v.social	_	_	_	_	B-V.VID-v.social
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_	_	DET	the	_	_	_	_	_	o-DET
 18	work	work	NOUN	NN	Number=Sing	16	obj	16:obj	_	_	N	work	n.ACT	_	_	_	_	o-N-n.ACT
 19	done	do	VERB	VBN	Tense=Past|VerbForm=Part	16	xcomp	16:xcomp	_	2:2	_	_	_	_	_	_	_	I_
@@ -7847,7 +7847,7 @@
 1	beware	beware	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	beware	v.cognition	_	_	_	_	O-V-v.cognition
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
-4	rip	rip	VERB	VB	VerbForm=Inf	1	parataxis	1:parataxis	_	1:1	V	rip off	v.social	_	_	_	_	B-V-v.social
+4	rip	rip	VERB	VB	VerbForm=Inf	1	parataxis	1:parataxis	_	1:1	V.VPC.full	rip off	v.social	_	_	_	_	B-V.VPC.full-v.social
 5	u	u	PRON	PRP	_	4	obj	4:obj	_	_	PRON	u	_	_	_	_	_	o-PRON
 6	off	off	ADP	RP	_	4	compound:prt	4:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 
@@ -7981,7 +7981,7 @@
 7	and	and	CCONJ	CC	_	10	cc	10:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_	_	AUX	do	_	_	_	_	_	O-AUX
 9	not	not	PART	RB	_	10	advmod	10:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
-10	take	take	VERB	VB	VerbForm=Inf	5	conj	5:conj	_	1:1	V	take walk in	v.social	_	_	_	_	B-V-v.social
+10	take	take	VERB	VB	VerbForm=Inf	5	conj	5:conj	_	1:1	V.VID	take walk in	v.social	_	_	_	_	B-V.VID-v.social
 11	walk	walk	NOUN	NN	Number=Sing	12	compound	12:compound	_	1:2	_	_	_	_	_	_	_	I_
 12	ins	in	NOUN	NNS	Number=Plur	10	obj	10:obj	_	1:3	_	_	_	_	_	_	_	I_
 13	but	but	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
@@ -8182,7 +8182,7 @@
 # streusle_sent_id = ewtb.r.380048.2
 # mwe = We had_a_ fantastic _time .
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
-2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V	have a time	v.social	_	_	_	_	B-V-v.social
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	have a time	v.social	_	_	_	_	B-V.VID-v.social
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	1:2	_	_	_	_	_	_	_	I_
 4	fantastic	fantastic	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	fantastic	_	_	_	_	_	o-ADJ
 5	time	time	NOUN	NN	Number=Sing	2	obj	2:obj	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
