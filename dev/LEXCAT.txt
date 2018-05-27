@@ -11,7 +11,7 @@
   10 INTJ
 1021 N
   37 NUM
- 331 P
+ 333 P
    6 POSS
   16 PP
  362 PRON
@@ -19,6 +19,11 @@
  651 PUNCT
   20 SCONJ
   14 SYM
- 661 V
+ 609 V
+   5 V.IAV
+   7 V.LVC.full
+  22 V.VID
+  13 V.VPC.full
+   5 V.VPC.semi
    4 X
- 378 _
+ 376 _

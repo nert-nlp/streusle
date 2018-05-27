@@ -1,5 +1,5 @@
    6 ??	_
-3250 _	_
+3248 _	_
    3 `$	`$
  107 n.ACT	_
    6 n.ANIMAL	_
@@ -44,7 +44,7 @@
    1 p.ComparisonRef	p.Purpose
    1 p.Cost	p.Cost
    2 p.Cost	p.Locus
-  11 p.Direction	p.Direction
+  13 p.Direction	p.Direction
    6 p.Duration	p.Duration
    3 p.EndTime	p.EndTime
    9 p.Experiencer	p.Gestalt
@@ -119,7 +119,7 @@
 ========================
     1021 n.*
      661 v.*
-     453 p.*
+     455 p.*
 
 n.* by LexCat
 ========================
@@ -127,12 +127,17 @@ n.* by LexCat
 
 v.* by LexCat
 ========================
- 661 V
+ 609 V
+   5 V.IAV
+   7 V.LVC.full
+  22 V.VID
+  13 V.VPC.full
+   5 V.VPC.semi
 
 p.* by LexCat
 ========================
   26 INF.P
- 325 P
+ 327 P
    6 POSS
   16 PP
   80 PRON.POSS
