@@ -32,6 +32,7 @@ Files
 - supersenses.py: Utilities for working with supersense labels.
 - tagging.py: Utilities for working with BIO-style tags.
 - psseval.py: Evaluation script for preposition/possessive supersense labeling.
+-- pssid/: Heuristics for identifying SNACS targets.
 
 
 Format
