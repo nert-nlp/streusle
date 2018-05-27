@@ -75,16 +75,18 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
 
         # check that lexical & weak MWE lemmas are correct
         for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
-            assert lexe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in lexe['toknums']),(lexe,sent['toks'][lexe['toknums'][0]-1])
+            assert lexe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in lexe['toknums']),f"In {sent['sent_id']}, MWE lemma is incorrect: {lexe} vs. {sent['toks'][lexe['toknums'][0]-1]}"
             lc = lexe['lexcat']
             if lc.endswith('!@'): lc_tbd += 1
             valid_ss = supersenses_for_lexcat(lc)
+            if lc=='V':
+                assert len(lexe['toknums'])==1,f'Verbal MWE lexcat must be subtyped (V.VID, etc., not V): {lexe}'
             ss, ss2 = lexe['ss'], lexe['ss2']
             if valid_ss:
                 if ss=='??':
                     assert ss2 is None
                 elif ss not in valid_ss or (lc in ('N','V') or lc.startswith('V.'))!=(ss2 is None) or (ss2 is not None and ss2 not in valid_ss):
-                    print('Invalid supersense(s) in lexical entry:', lexe, file=sys.stderr)
+                    assert False,f"In {sent['sent_id']}, invalid supersense(s) in lexical entry: {lexe}"
                 elif ss.startswith('p.'):
                     assert ss2.startswith('p.')
                     assert ss2 not in {'p.Experiencer', 'p.Stimulus', 'p.Originator', 'p.Recipient', 'p.SocialRel', 'p.OrgRole'},(f'{ss2} should never be function',lexe)
@@ -97,7 +99,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             upos, xpos = tok['upos'], tok['xpos']
             lc = swe['lexcat']
             if lc.endswith('!@'): continue
-            assert lc in ALL_LEXCATS,(sent['sent_id'],tok)
+            assert lc in ALL_LEXCATS,f"In {sent['sent_id']}, invalid lexcat for single-word expression: {lc} in {tok}"
             if (xpos=='TO')!=lc.startswith('INF'):
                 assert upos=='SCONJ' and swe['lexlemma']=='for',(sent['sent_id'],swe,tok)
             if (upos in ('NOUN', 'PROPN'))!=(lc=='N'):
@@ -120,7 +122,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
         for smwe in sent['smwes'].values():
             assert len(smwe['toknums'])>1
         for wmwe in sent['wmwes'].values():
-            assert len(wmwe['toknums'])>1,(sent['sent_id'],wmwe)
+            assert len(wmwe['toknums'])>1,f"In {sent['sent_id']}, weak MWE has only one token according to group indices: {wmwe}"
             assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
         # we already checked that noninitial tokens in an MWE have _ as their lemma
 
@@ -154,7 +156,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                     if wcat and position==1:
                         fulllextag += '+'+wcat
 
-            assert tok['lextag']==fulllextag,(sent['sent_id'],fulllextag,tok)
+            assert tok['lextag']==fulllextag,f"In {sent['sent_id']}, the full tag at the end of the line is inconsistent with the rest of the line ({fulllextag} expected): {tok}"
 
         # check rendered MWE string
         s = render([tok['word'] for tok in sent['toks']],
@@ -256,10 +258,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                         sent['smwes'][smwe_group]['ss2'] = ss_mapper(tok['ss2']) if tok['ss2']!='_' else None
                     else:
                         assert ' ' not in tok['lexlemma']
-                        assert tok['lexcat']=='_'
+                        assert tok['lexcat']=='_',f"In {sent['sent_id']}, token is non-initial in a strong MWE, so lexcat should be '_': {tok}"
                 else:
                     tok['smwe'] = None
-                    assert tok['lexlemma']==tok['lemma'],(sent['sent_id'],tok['lexlemma'],tok['lemma'])
+                    assert tok['lexlemma']==tok['lemma'],f"In {sent['sent_id']}, single-word expression lemma \"{tok['lexlemma']}\" doesn't match token lemma \"{tok['lemma']}\""
                     sent['swes'][tokNum]['lexlemma'] = tok['lexlemma']
                     assert tok['lexcat'] and tok['lexcat']!='_'
                     sent['swes'][tokNum]['lexcat'] = tok['lexcat']
