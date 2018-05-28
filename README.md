@@ -22,10 +22,14 @@ Files
 
 - ACKNOWLEDGMENTS.md: Contributors and support that made this dataset possible.
 - CONLLULEX.md: Description of data format.
+- EXCEL.md: Instructions for working with the data as a spreadsheet.
 - LICENSE.txt: License.
 - ACL2018.md: Links to resources reported in [7].
 
 - conllulex2json.py: Script to validate the data and convert it to JSON.
+- conllulex2csv.py: Script to create an Excel-readable CSV file with the data.
+- csv2conllulex.py: Script to convert an Excel-generated CSV file to .conllulex.
+
 - govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
 - lexcatter.py: Utilities for working with lexical categories.
 - mwerender.py: Utilities for working with MWEs.

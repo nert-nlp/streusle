@@ -1,7 +1,7 @@
 CoNLL-U-Lex Format
 ==================
 
-*Nathan Schneider, 2018-12-01*
+*Nathan Schneider, 2018-01-02*
 
 The file [streusle.conllulex](streusle.conllulex) contains the STREUSLE corpus.
 It is structured in a tab-separated format which augments the
@@ -16,11 +16,8 @@ The markup for each sentence consists of:
 - a header section with lines of the form `# key = value`, and
 - a body consisting of tokens, one per line.
 
-As an illustration, refer to the following example (preferably in a spreadsheet editor such as Excel).
-NOTE: If you intend to edit the data in Excel, rename the file so it has a .csv extension
-and make sure to configure the import so that all columns are formatted as text.
-Apple Numbers as of 5.0.1 is not recommended because it simplifies numeric tokens, e.g. "483.00" to "483"
-(even if a quoted version of the file is generated).
+As an illustration, refer to the following example (preferably in a spreadsheet editor 
+such as Excel: see EXCEL.md for instructions).
 
 ```
 # sent_id = reviews-010378-0002
