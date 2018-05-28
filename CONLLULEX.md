@@ -16,7 +16,11 @@ The markup for each sentence consists of:
 - a header section with lines of the form `# key = value`, and
 - a body consisting of tokens, one per line.
 
-As an illustration, refer to the following example (preferably in a spreadsheet editor):
+As an illustration, refer to the following example (preferably in a spreadsheet editor such as Excel).
+NOTE: If you intend to edit the data in Excel, rename the file so it has a .csv extension
+and make sure to configure the import so that all columns are formatted as text.
+Apple Numbers as of 5.0.1 is not recommended because it simplifies numeric tokens, e.g. "483.00" to "483"
+(even if a quoted version of the file is generated).
 
 ```
 # sent_id = reviews-010378-0002
@@ -74,9 +78,9 @@ encoding orthography, morphology, and syntax.
 
 3. LEMMA: Lemma or stem of word form.
 
-4. UPOSTAG: Universal part-of-speech tag, e.g. `ADP` for adpositions.
+4. UPOS: Universal part-of-speech tag, e.g. `ADP` for adpositions.
 
-5. XPOSTAG: Language-specific part-of-speech tag. For UD_English this comes from the Penn Treebank (PTB) tagset: e.g. `IN` for adpositions and subordinating conjunctions.
+5. XPOS: Language-specific part-of-speech tag. For UD_English this comes from the Penn Treebank (PTB) tagset: e.g. `IN` for adpositions and subordinating conjunctions.
 
 6. FEATS: List of morphological features, separated by `|` symbols.
 
