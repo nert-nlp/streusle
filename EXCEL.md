@@ -13,8 +13,8 @@ it should preserve the data exactly. (Apple Numbers as of 5.0.1 is not recommend
 because it simplifies numeric tokens, e.g. "483.00" to "483", even with quoted CSV input.)
 
   1. On a Unix/Bash command line, run `./conllulex2csv.py INPUTFILE OUTPUTFILE`, 
-	 where INPUTFILE is streusle.conllulex or similar, and OUTPUTFILE is streusle.csv 
-	 or similar.
+     where INPUTFILE is streusle.conllulex or similar, and OUTPUTFILE is streusle.csv 
+     or similar.
 
   2. Do not open the CSV file by double-clicking it. Instead, open a blank Excel document.
   
@@ -29,8 +29,8 @@ because it simplifies numeric tokens, e.g. "483.00" to "483", even with quoted C
      Select __CSV UTF-8 (Comma-delimited)__ as the format.
 
   6. On the command line, run `./csv2conllulex.py INPUTFILE OUTPUTFILE`, 
-	 where INPUTFILE is streusle-modified.csv or similar, and OUTPUTFILE is 
-	 streusle-modified.conllulex or similar.
+     where INPUTFILE is streusle-modified.csv or similar, and OUTPUTFILE is 
+     streusle-modified.conllulex or similar.
 	 
   7. Recommended: use the `diff` command line tool to compare your new .conllulex 
      file with the original to make sure there are no extraneous changes.
