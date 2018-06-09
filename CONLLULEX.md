@@ -17,7 +17,7 @@ The markup for each sentence consists of:
 - a body consisting of tokens, one per line.
 
 As an illustration, refer to the following example (preferably in a spreadsheet editor 
-such as Excel: see EXCEL.md for instructions).
+such as Excel: see [EXCEL.md](EXCEL.md) for instructions).
 
 ```
 # sent_id = reviews-010378-0002
@@ -27,7 +27,7 @@ such as Excel: see EXCEL.md for instructions).
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	4:aux	_	_	AUX	do	_	_	_	_	_	O-AUX
 3	not	not	PART	RB	_	4	advmod	4:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
-4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:1	V	have experience	v.stative	_	3:1	_	have experience with	B-V-v.stative
+4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:1	V.LVC.full	have experience	v.stative	_	3:1	_	have experience with	B-V.LVC.full-v.stative
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_	_	DET	a	_	_	_	_	_	o-DET
 6	good	good	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	good	_	_	_	_	_	o-ADJ
 7	experience	experience	NOUN	NN	Number=Sing	4	obj	4:obj	_	1:2	_	_	_	_	3:2	_	_	I_
@@ -96,7 +96,7 @@ maps to the original sentence string.
 12. LEXCAT: A syntactic category that applies to *strong lexical expressions* (strong MWEs and single-word expressions, regardless of whether they belong to a weak MWE).
 The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
-    Possible values of LEXCAT are: `N` (noun, common or proper), `PRON` (non-possessive pronoun, including indefinites like *someone*), `PRON.POSS` (possessive pronoun), `POSS` (possessive clitic), `V` (full verb or copula), `AUX` (auxiliary), `P` (single-word adposition), `PP` (prepositional phrase MWE), `INF` (nonsemantic infinitive marker *to* or infinitive-subject-marker *for*), `INF.P` (infinitive maker *to* when it receives an adposition supersense), `DISC` (discourse/pragmatic expression); and `ADJ`, `ADV`, `DET`, `CCONJ`, `SCONJ`, `INTJ`, `NUM`, `SYM`, `PUNCT`, `X`, which are in line with Universal part-of-speech tags.
+    Possible values of LEXCAT are: `N` (noun, common or proper), `PRON` (non-possessive pronoun, including indefinites like *someone*), `PRON.POSS` (possessive pronoun), `POSS` (possessive clitic), `V` (full verb or copula), `AUX` (auxiliary), `P` (single-word adposition), `PP` (prepositional phrase MWE), `INF` (nonsemantic infinitive marker *to* or infinitive-subject-marker *for*), `INF.P` (infinitive maker *to* when it receives an adposition supersense), `DISC` (discourse/pragmatic expression); and `ADJ`, `ADV`, `DET`, `CCONJ`, `SCONJ`, `INTJ`, `NUM`, `SYM`, `PUNCT`, `X`, which are in line with Universal part-of-speech tags. Strong verbal multiword expressions are subtyped, thus receiving a LEXCAT of `V.VID`, `V.VPC.full`, `V.VPC.semi`, `V.LVC.full`, `V.LVC.cause`, or `V.IAV` per [PARSEME Shared Task 1.1 Guidelines](http://parsemefr.lif.univ-mrs.fr/parseme-st-guidelines/1.1/?page=home).
 
     __Approximately 300 tokens currently have LEXCAT=`!!@` to indicate that they need to be manually corrected, in most cases by adding a noun supersense. These will be fixed in a subsequent release.__
 
@@ -120,7 +120,7 @@ The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
     * Thus, for the tokens *have a good experience w*, the respective LEXTAG values are:
 
-       - *have*: `B-V-v.stative` - begins an MWE, verbal, stative supersense
+       - *have*: `B-V.LVC.full-v.stative` - begins an MWE, verbal, subtype LVC.full (full light verb construction), stative supersense
        - *a*: `o-DET` - not part of any MWE, but contained within one; determiner, no supersense
        - *good*: `o-ADJ` - not part of any MWE, but contained within one; adjective, no supersense
        - *experience*: `I_` - attaches to the most recent non-`O`/`o` token (*have*) to join it in a strong MWE
