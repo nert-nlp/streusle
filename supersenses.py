@@ -68,7 +68,7 @@ PSS_TREE = {
             'p.Whole': {}},
         'p.Characteristic': {
             'p.Possession': {},
-            'p.Part/Portion': {
+            'p.PartPortion': {
                 'p.Stuff': {}}},
         'p.Accompanier': {},
         'p.InsteadOf': {},
@@ -110,8 +110,16 @@ PSS_REMOVED = {'1DTrajectory', '2DArea', '3DMedium',
     'Patient', 'ProfessionalAspect', 'Reciprocation', 'RelativeTime', 'Scalar/Rank',
     'Transit', 'Traversed', 'Value', 'ValueComparison', 'Via'}
 
+# Note also that Part/Portion was renamed to PartPortion in STREUSLE 4.1
+
 def coarsen_pss(ss, depth):
     coarse = ss
     while PSS_DEPTH[coarse]>depth:
         coarse = PSS_PARENTS[coarse]
     return coarse
+
+def ancestors(ss):
+    par = PSS_PARENTS[ss]
+    if par is None:
+        return []
+    return [par] + ancestors(par)
