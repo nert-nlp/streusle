@@ -35,6 +35,7 @@ Files
 - mwerender.py: Utilities for working with MWEs.
 - supersenses.py: Utilities for working with supersense labels.
 - tagging.py: Utilities for working with BIO-style tags.
+- tquery.py: Utility for searching the data for tokens that meet certain criteria.
 - psseval.py: Evaluation script for preposition/possessive supersense labeling.
 - pssid/: Heuristics for identifying SNACS targets.
 
