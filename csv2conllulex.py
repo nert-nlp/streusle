@@ -14,7 +14,7 @@ import os, sys, fileinput, re, json, csv
 inFname, outFname = sys.argv[1:]
 
 # Excel-output CSV is UTF-8 with BOM
-with open(inFname, encoding='utf-8-sig') as inF, open(outFname, 'w') as outF:
+with open(inFname, encoding='utf-8-sig') as inF, open(outFname, 'w', encoding='utf-8') as outF:
     reader = csv.reader(inF, delimiter=',', dialect='excel')
     next(reader)  # swallow header row
     next(reader)  # and blank line after header row

@@ -308,7 +308,7 @@ if __name__=='__main__':
     dict_fields = ("swes", "smwes", "wmwes")
     first = True
     fname = sys.argv[1]
-    with open(fname) as inF:
+    with open(fname, encoding='utf-8') as inF:
         for sent in load_sents(inF):
             # specially format the output
             if first:

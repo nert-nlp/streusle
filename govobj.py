@@ -137,7 +137,7 @@ def findgovobj(pexpr, sent):
 
     #print(sent['mwe'], (gtok['word'], plemma, otok['word']), config)
 
-with open(sys.argv[1]) as inF:
+with open(sys.argv[1], encoding='utf-8') as inF:
     data = json.load(inF)
 
 for sent in data:

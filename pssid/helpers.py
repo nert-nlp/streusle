@@ -35,7 +35,7 @@ class Sentence:
 
 def sentences(filename, conllulex=False):
     tokens, meta = [], []
-    f = open(filename) if type(filename) == str else filename
+    f = open(filename, encoding='utf-8') if type(filename) == str else filename
     for line in f:
         line = line.strip()
         if not line:

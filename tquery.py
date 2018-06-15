@@ -108,7 +108,7 @@ for arg in args:
             govobjconstraints.append((fld, None))
 
 
-with open(inFP) as inF:
+with open(inFP, encoding='utf-8') as inF:
     data = json.load(inF)
 
 n = 0

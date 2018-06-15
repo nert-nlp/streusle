@@ -24,7 +24,7 @@ FIELDS = CONLLU + STREUSLE
 inFname, outFname = sys.argv[1:]
 
 # Excel expects UTF-8 with BOM
-with open(inFname) as inF, open(outFname, 'w', encoding='utf-8-sig') as outF:
+with open(inFname, encoding='utf-8') as inF, open(outFname, 'w', encoding='utf-8-sig') as outF:
     writer = csv.writer(outF, quoting=csv.QUOTE_ALL, delimiter='\t', dialect='excel')
     writer.writerow(FIELDS)
     writer.writerow([])

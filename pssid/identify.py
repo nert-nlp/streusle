@@ -129,7 +129,7 @@ def train(infile, args):
 
     outfile = args.model_out if args.model_out else infile.split("/")[-1] + ".p{}-P{}-advcl{}-acl{}.model".format(args.p_mwe_min, args.non_p_mwe_min, args.advcl_min, args.acl_min)
     
-    json.dump(model, open(outfile, "w"), indent=2)
+    json.dump(model, open(outfile, "w", encoding='utf-8'), indent=2)
 
     return model
 
@@ -208,7 +208,7 @@ def identify(model, args):
 
     mwe_list = set()
     if args.mwe_list:
-        with open(args.mwe_list) as f:
+        with open(args.mwe_list, encoding='utf-8') as f:
             for line in f:
                 mwe_list.add(line.strip().split("\t")[0].strip())
     elif "p_mwe" in model:
@@ -218,7 +218,7 @@ def identify(model, args):
 
     non_prep_mwe_list = set()
     if args.mwe_anti_list:
-        with open(args.mwe_anti_list) as f:
+        with open(args.mwe_anti_list, encoding='utf-8') as f:
             for line in f:
                 non_prep_mwe_list.add(line.strip().split("\t")[0].strip())
     elif "non_p_mwe" in model:
@@ -426,7 +426,7 @@ def main(args):
 
     else:
         if args.model_file:
-            model = json.load(open(args.model_file))
+            model = json.load(open(args.model_file, encoding='utf-8'))
         elif args.training_file:
             model = train(args.training_file, args)
         else:
