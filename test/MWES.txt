@@ -27,7 +27,7 @@ Strong MWEs by LexCat
 =====================
   12 !!@
    2 !@
-  17 ADJ
+  18 ADJ
    4 ADV
   10 AUX
   10 DET
@@ -41,5 +41,5 @@ Strong MWEs by LexCat
    1 V.LVC.cause
    8 V.LVC.full
   22 V.VID
-  12 V.VPC.full
+  11 V.VPC.full
    5 V.VPC.semi

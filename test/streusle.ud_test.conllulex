@@ -136,7 +136,7 @@
 # text = Their Thali was not brought out as described (no saag).
 # streusle_sent_id = ewtb.r.005760.3
 # mwe = Their Thali was not brought out as described ( no saag ) .
-1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	they	p.Originator	p.Possessor	_	_	_	O-PRON.POSS-p.Originator|p.Possessor
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	they	p.Originator	p.Gestalt	_	_	_	O-PRON.POSS-p.Originator|p.Gestalt
 2	Thali	thali	NOUN	NN	Number=Sing	5	nsubj:pass	5:nsubj:pass	_	_	N	thali	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_	_	AUX	be	_	_	_	_	_	O-AUX
 4	not	not	PART	RB	_	5	advmod	5:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
@@ -1103,7 +1103,7 @@
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	try	try	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	1:conj	_	_	V	try	v.social	_	_	_	_	O-V-v.social
 5	something	something	PRON	NN	Number=Sing	4	obj	4:obj	_	_	PRON	something	_	_	_	_	_	O-PRON
-6	other	other	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	2:1	P	other than	p.Part/Portion	p.Part/Portion	_	_	_	B-P-p.Part/Portion
+6	other	other	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	2:1	P	other than	p.PartPortion	p.PartPortion	_	_	_	B-P-p.PartPortion
 7	than	than	ADP	IN	_	10	case	10:case	_	2:2	_	_	_	_	_	_	_	I_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_	_	DET	the	_	_	_	_	_	O-DET
 9	Pad	Pad	PROPN	NNP	Number=Sing	10	compound	10:compound	_	3:1	N	Pad Thai	n.FOOD	_	_	_	_	B-N-n.FOOD
@@ -1126,12 +1126,12 @@
 5	,	,	PUNCT	,	_	4	punct	4:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	_	_	V	know	v.cognition	_	_	_	_	O-V-v.cognition
-8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	my	p.Originator	p.Possessor	_	_	_	O-PRON.POSS-p.Originator|p.Possessor
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	my	p.Originator	p.Gestalt	_	_	_	O-PRON.POSS-p.Originator|p.Gestalt
 9	order	order	NOUN	NN	Number=Sing	7	obj	7:obj	_	_	N	order	n.FOOD	_	_	_	_	O-N-n.FOOD
 10	when	when	ADV	WRB	PronType=Int	12	mark	12:mark	_	_	ADV	when	_	_	_	_	_	O-ADV
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 12	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl	_	_	V	walk	v.motion	_	_	_	_	O-V-v.motion
-13	in	in	ADP	IN	_	15	case	15:case	_	_	P	in	p.Path	p.Direction	_	_	_	O-P-p.Path|p.Direction
+13	in	in	ADP	IN	_	15	case	15:case	_	_	P	in	p.Path	p.Locus	_	_	_	O-P-p.Path|p.Locus
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	_	_	DET	the	_	_	_	_	_	O-DET
 15	door	door	NOUN	NN	Number=Sing	12	obl	12:obl	SpaceAfter=No	_	N	door	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 16	!	!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
@@ -1426,7 +1426,7 @@
 6	at	at	ADV	RB	_	7	case	7:case	_	3:1	PP	at least	p.Approximator	p.Approximator	_	_	_	B-PP-p.Approximator
 7	least	least	ADV	RBS	Degree=Sup	8	obl	8:obl	_	3:2	_	_	_	_	_	_	_	I_
 8	twice	twice	ADV	RB	NumType=Mult	9	advmod	9:advmod	_	_	ADV	twice	_	_	_	_	_	O-ADV
-9	as	as	ADV	RB	_	10	advmod	10:advmod	_	_	P	as	p.Approximator	p.Identity	_	_	_	O-P-p.Approximator|p.Identity
+9	as	as	ADV	RB	_	10	advmod	10:advmod	_	_	P	as	p.Approximator	p.Extent	_	_	_	O-P-p.Approximator|p.Extent
 10	much	much	ADJ	JJ	Degree=Pos	11	amod	11:amod	_	_	ADJ	much	_	_	_	_	_	O-ADJ
 11	water	water	NOUN	NN	Number=Sing	5	obj	5:obj	_	_	N	water	n.NATURALOBJECT	_	_	_	_	O-N-n.NATURALOBJECT
 12	as	as	ADP	IN	_	15	case	15:case	_	_	P	as	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
@@ -1814,14 +1814,14 @@
 2	Inc	Inc	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	_	1:2	_	_	_	_	_	_	_	I_
 3	transformed	transform	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	transform	v.change	_	_	_	_	O-V-v.change
 4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	we	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
-5	run	run	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	8:amod	_	2:1	V.VPC.full	run down	v.stative	_	_	_	_	B-V.VPC.full-v.stative
+5	run	run	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	8:amod	_	2:1	ADJ	run down	_	_	_	_	_	B-ADJ
 6	down	down	ADP	RP	_	5	compound	5:compound	_	2:2	_	_	_	_	_	_	_	I_
 7	back	back	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	3:1	N	back yard	n.LOCATION	_	_	_	_	B-N-n.LOCATION
 8	yard	yard	NOUN	NN	Number=Sing	3	obj	3:obj	_	3:2	_	_	_	_	_	_	_	I_
 9	into	into	ADP	IN	_	11	case	11:case	_	_	P	into	p.Goal	p.Goal	_	_	_	O-P-p.Goal
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_	_	DET	a	_	_	_	_	_	O-DET
 11	place	place	NOUN	NN	Number=Sing	3	obl	3:obl	_	_	N	place	n.LOCATION	_	_	_	_	O-N-n.LOCATION
-12	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.Characteristic	p.Characteristic	_	_	_	O-P-p.Characteristic
+12	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.Characteristic	p.Identity	_	_	_	O-P-p.Characteristic|p.Identity
 13	beauty	beauty	NOUN	NN	Number=Sing	11	nmod	11:nmod	SpaceAfter=No	_	N	beauty	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 14	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -1893,7 +1893,7 @@
 # text = My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.
 # streusle_sent_id = ewtb.r.087368.2
 # mwe = My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and do n't seem to like answering~questions .
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	PRON.POSS	my	p.Originator	p.Possessor	_	_	_	O-PRON.POSS-p.Originator|p.Possessor
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	PRON.POSS	my	p.Originator	p.Gestalt	_	_	_	O-PRON.POSS-p.Originator|p.Gestalt
 2	pharmacy	pharmacy	NOUN	NN	Number=Sing	3	compound	3:compound	_	_	N	pharmacy	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	order	order	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	_	_	N	order	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
@@ -2282,7 +2282,7 @@
 14	will	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
 15	help	help	VERB	VB	VerbForm=Inf	7	conj	7:conj	_	_	V	help	v.social	_	_	_	_	O-V-v.social
 16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	obj	15:obj	_	_	PRON	you	_	_	_	_	_	O-PRON
-17	as	as	ADV	RB	_	18	advmod	18:advmod	_	_	P	as	p.Extent	p.Identity	_	_	_	O-P-p.Extent|p.Identity
+17	as	as	ADV	RB	_	18	advmod	18:advmod	_	_	P	as	p.Extent	p.Extent	_	_	_	O-P-p.Extent
 18	much	much	ADV	RB	_	15	advmod	15:advmod	_	_	ADV	much	_	_	_	_	_	O-ADV
 19	as	as	SCONJ	IN	_	21	mark	21:mark	_	_	P	as	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
 20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
@@ -2349,7 +2349,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	setting	setting	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_	_	N	setting	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 3	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	feel	v.cognition	_	_	_	_	O-V-v.cognition
-4	like	like	ADP	IN	_	7	case	7:case	_	_	P	like	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
+4	like	like	ADP	IN	_	7	case	7:case	_	_	P	like	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_	_	DET	a	_	_	_	_	_	O-DET
 6	Sushi	sushi	NOUN	NN	Number=Sing	7	compound	7:compound	_	1:1	N	sushi bar	n.GROUP	_	_	_	_	B-N-n.GROUP
 7	bar	bar	NOUN	NN	Number=Sing	3	obl	3:obl	_	1:2	_	_	_	_	_	_	_	I_
@@ -2913,7 +2913,7 @@
 7	for	for	SCONJ	IN	_	8	mark	8:mark	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
 8	fixing	fix	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	_	_	V	fix	v.change	_	_	_	_	O-V-v.change
 9	items	item	NOUN	NNS	Number=Plur	8	obj	8:obj	_	_	N	item	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
-10	from	from	SCONJ	IN	_	11	mark	11:mark	_	_	P	from	p.Part/Portion	p.Source	_	_	_	O-P-p.Part/Portion|p.Source
+10	from	from	SCONJ	IN	_	11	mark	11:mark	_	_	P	from	p.PartPortion	p.Source	_	_	_	O-P-p.PartPortion|p.Source
 11	pushing	push	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	_	_	V	push	v.contact	_	_	_	_	O-V-v.contact
 12	out	out	ADP	RP	_	11	compound:prt	11:compound:prt	_	_	P	out	p.Direction	p.Direction	_	_	_	O-P-p.Direction
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	_	_	DET	a	_	_	_	_	_	O-DET
@@ -2921,7 +2921,7 @@
 15	in	in	ADP	IN	_	17	case	17:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	_	_	DET	a	_	_	_	_	_	O-DET
 17	bumper	bumper	NOUN	NN	Number=Sing	14	nmod	14:nmod	_	_	N	bumper	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
-18	to	to	SCONJ	IN	_	19	mark	19:mark	_	_	P	to	p.Part/Portion	p.Goal	_	_	_	O-P-p.Part/Portion|p.Goal
+18	to	to	SCONJ	IN	_	19	mark	19:mark	_	_	P	to	p.PartPortion	p.Goal	_	_	_	O-P-p.PartPortion|p.Goal
 19	fixing	fix	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	_	_	V	fix	v.change	_	_	_	_	O-V-v.change
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	_	_	DET	the	_	_	_	_	_	O-DET
 21	fender	fender	NOUN	NN	Number=Sing	19	obj	19:obj	_	_	N	fender	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -4170,7 +4170,7 @@
 # streusle_sent_id = ewtb.r.207348.1
 # mwe = Feels like you are in Brooklyn , but people_watching is entertaining .
 1	Feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	feel	v.cognition	_	_	_	_	O-V-v.cognition
-2	like	like	SCONJ	IN	_	6	mark	6:mark	_	_	P	like	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
+2	like	like	SCONJ	IN	_	6	mark	6:mark	_	_	P	like	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
 3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	6:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 5	in	in	ADP	IN	_	6	case	6:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -6278,7 +6278,7 @@
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	_	_	PRON	it	_	_	_	_	_	O-PRON
 8	literally	literally	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	literally	_	_	_	_	_	O-ADV
 9	taste	taste	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_	_	V	taste	v.perception	_	_	_	_	O-V-v.perception
-10	like	like	ADP	IN	_	11	case	11:case	_	_	P	like	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
+10	like	like	ADP	IN	_	11	case	11:case	_	_	P	like	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
 11	water	water	NOUN	NN	Number=Sing	9	obl	9:obl	SpaceAfter=No	_	N	water	n.FOOD	_	_	_	_	O-N-n.FOOD
 12	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

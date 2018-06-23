@@ -1,5 +1,5 @@
    6 ??	_
-3248 _	_
+3249 _	_
    3 `$	`$
  107 n.ACT	_
    6 n.ANIMAL	_
@@ -33,13 +33,14 @@
    1 p.Beneficiary	p.Gestalt
    2 p.Beneficiary	p.Goal
    1 p.Beneficiary	p.Possessor
-   9 p.Characteristic	p.Characteristic
+   8 p.Characteristic	p.Characteristic
+   1 p.Characteristic	p.Identity
   15 p.Characteristic	p.Purpose
    6 p.Circumstance	p.Circumstance
    1 p.Circumstance	p.Locus
    3 p.Co-Agent	p.Co-Agent
    1 p.Co-Theme	p.Source
-  15 p.ComparisonRef	p.ComparisonRef
+  13 p.ComparisonRef	p.ComparisonRef
    3 p.ComparisonRef	p.Goal
    1 p.ComparisonRef	p.Purpose
    1 p.Cost	p.Cost
@@ -54,7 +55,7 @@
    1 p.Frequency	p.Frequency
    7 p.Gestalt	p.Gestalt
    2 p.Gestalt	p.Purpose
-  15 p.Goal	p.Goal
+  16 p.Goal	p.Goal
    3 p.Goal	p.Locus
    3 p.Identity	p.Identity
    1 p.InsteadOf	p.Locus
@@ -65,6 +66,7 @@
   56 p.Locus	p.Locus
    2 p.Locus	p.Path
    4 p.Locus	p.Source
+   3 p.Manner	p.ComparisonRef
    9 p.Manner	p.Locus
    1 p.Manner	p.Manner
    2 p.Means	p.Means
@@ -74,10 +76,10 @@
    2 p.OrgRole	p.Locus
    4 p.OrgRole	p.Possessor
    2 p.Originator	p.Agent
-   9 p.Originator	p.Possessor
+   9 p.Originator	p.Gestalt
    4 p.Originator	p.Source
-   2 p.Part/Portion	p.ComparisonRef
-   4 p.Part/Portion	p.Part/Portion
+   2 p.PartPortion	p.ComparisonRef
+   4 p.PartPortion	p.PartPortion
    4 p.Possession	p.Accompanier
    1 p.Possession	p.Locus
   21 p.Possessor	p.Possessor
@@ -89,14 +91,13 @@
    7 p.Recipient	p.Goal
    2 p.SocialRel	p.Co-Agent
   15 p.SocialRel	p.Gestalt
-   1 p.SocialRel	p.Goal
    8 p.Source	p.Source
    5 p.Species	p.Species
    4 p.StartTime	p.StartTime
    1 p.Stimulus	p.Causer
    1 p.Stimulus	p.Theme
    7 p.Stimulus	p.Topic
-   2 p.Theme	p.ComparisonRef
+   1 p.Theme	p.ComparisonRef
   18 p.Theme	p.Theme
    2 p.Time	p.Interval
   18 p.Time	p.Time
@@ -115,10 +116,10 @@
   19 v.perception	_
   18 v.possession	_
   90 v.social	_
- 293 v.stative	_
+ 292 v.stative	_
 ========================
     1021 n.*
-     661 v.*
+     660 v.*
      455 p.*
 
 n.* by LexCat
@@ -131,7 +132,7 @@ v.* by LexCat
    5 V.IAV
    7 V.LVC.full
   22 V.VID
-  13 V.VPC.full
+  12 V.VPC.full
    5 V.VPC.semi
 
 p.* by LexCat

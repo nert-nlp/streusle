@@ -1,6 +1,6 @@
   32 !!@
    2 !@
- 547 ADJ
+ 548 ADJ
  372 ADV
  165 AUX
  209 CCONJ
@@ -24,7 +24,7 @@
    1 V.LVC.cause
    8 V.LVC.full
   22 V.VID
-  12 V.VPC.full
+  11 V.VPC.full
    5 V.VPC.semi
    2 X
  379 _

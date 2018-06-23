@@ -1,6 +1,6 @@
   27 !!@
    7 !@
- 609 ADJ
+ 610 ADJ
  346 ADV
  159 AUX
  200 CCONJ
@@ -23,7 +23,7 @@
    5 V.IAV
    7 V.LVC.full
   22 V.VID
-  13 V.VPC.full
+  12 V.VPC.full
    5 V.VPC.semi
    4 X
  376 _
