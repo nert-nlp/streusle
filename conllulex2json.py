@@ -4,6 +4,7 @@ import os, sys, fileinput, re, json
 from collections import defaultdict
 from itertools import chain
 
+from supersenses import ancestors
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
 from tagging import sent_tags
 from mwerender import render
@@ -90,6 +91,13 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                 elif ss.startswith('p.'):
                     assert ss2.startswith('p.')
                     assert ss2 not in {'p.Experiencer', 'p.Stimulus', 'p.Originator', 'p.Recipient', 'p.SocialRel', 'p.OrgRole'},(f'{ss2} should never be function',lexe)
+                    if ss!=ss2:
+                        ssA, ss2A = ancestors(ss), ancestors(ss2)
+                        # there are just a few permissible combinations where one is the ancestor of the other
+                        if (ss,ss2) not in {('p.Whole','p.Gestalt'), ('p.Goal','p.Locus'), ('p.Circumstance','p.Locus'), 
+                            ('p.Circumstance','p.Path'), ('p.Locus','p.Goal'), ('p.Locus','p.Source'), ('p.Characteristic','p.Stuff')}:
+                            assert ss not in ss2A,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
+                            assert ss2 not in ssA,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
             else:
                 assert ss is None and ss2 is None and lexe not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),lexe
 
