@@ -238,3 +238,31 @@ p.* by LexCat
  141 PP
  872 PRON.POSS
 
+p.* by LexCat + construal type
+========================
+ 144 INF.P	p.X ~> p.X
+  57 INF.P	p.X ~> p.Y
+2457 P	p.X ~> p.X
+ 813 P	p.X ~> p.Y
+  22 POSS	p.X ~> p.X
+  30 POSS	p.X ~> p.Y
+  82 PP	p.X ~> p.X
+  59 PP	p.X ~> p.Y
+ 375 PRON.POSS	p.X ~> p.X
+ 497 PRON.POSS	p.X ~> p.Y
+
+p.* by LexCat + spatiotemporality
+(TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
+========================
+   3 INF.P 	p.LOC ~> *
+ 198 INF.P 	p.OTH ~> *
+ 879 P 	p.LOC ~> *
+2007 P 	p.OTH ~> *
+ 384 P 	p.TMP ~> *
+  47 POSS 	p.OTH ~> *
+   5 POSS 	p.TMP ~> *
+  48 PP 	p.LOC ~> *
+  82 PP 	p.OTH ~> *
+  11 PP 	p.TMP ~> *
+ 872 PRON.POSS 	p.OTH ~> *
+
