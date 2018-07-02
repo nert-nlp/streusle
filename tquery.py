@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-Query by token
+Query by token, filtering by matching against one or more fields of the input, 
+and optionally display fields as columns of output alongside the token in context.
 
-Interface: ./tquery [-I] streusle.json <prefix><fldname><op><pattern>+
+Interface: ./tquery [-I] streusle.json [+]<fldname>[<op><pattern>] [[+]<fldname2>[<op2><pattern2>] ...]
 
-prefix: + to print the value of the field in a column of output, empty otherwise
+-I: case-sensitive filtering (case-insensitive by default)
 
 fldname: one of the column names: w(ord), l(emma), upos, xpos, feats, head, deprel, edeps, misc, smwe, wmwe, lt (lextag)
 or lc (lexcat), ll (lexlemma), ss = r (role), f (function)
 g (governor lemma), o (object lemma), config (syntactic configuration). Can also specify a token-level property of the governor or object:
 g.upos, o.lt, etc. (not currently supported for role/function/lexlemma/lexcat, which are stored at the lexical level; cannot be used recursively).
+
++fldname to print the value of the field in a column of output
 
 op: if filtering on the field, one of: = (regex partial match), == (regex full match), != (inverse regex partial match), !== (inverse regex full match)
 
@@ -17,6 +20,17 @@ pattern: if filtering on the field, regex to match against the field's value; ca
 
 Note that for prepositions/possessives, lextag contains the full supersense labeling in "role|function" notation. 
 So lextag can be used to search for a supersense without specifying whether it occurs as role or function.
+
+Properties of the governor and object cannot be referenced unless the govobj.py script has been run to add the information to the JSON.
+
+An example use of this script to query preposition tokens:
+
+    ./conllulex2json.py streusle.conllulex > streusle.json
+    ./govobj.py streusle.json > streusle.go.json
+    ./tquery.py streusle.go.json lc==PP? +ll +r +f +config!=subordinating +g +g.upos +o=. +o.upos > streusle.ptoks.tsv
+
+Outputs the tokens annotated as P or (idiomatic) PP along with their role/function supersenses, 
+syntactic configuration (default, predicative, or stranded), and lemmas and POSes of the governor and (non-empty) object.
 
 @author: Nathan Schneider (@nschneid)
 @since: 2018-06-13
