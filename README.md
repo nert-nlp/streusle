@@ -91,7 +91,10 @@ http://nathan.cl
 History
 -------
 
-  - STREUSLE 4.1beta: Added verbal MWE subtypes per PARSEME Shared Task 1.1 guidelines (874 tokens); some MWE groupings revised in the process.
+  - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
+    Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
+    Implementation of SNACS (preposition/possessive supersense) target identification heuristics from [7].
+    New utility scripts for listing/filtering tokens (tquery.py) and converting to and from an Excel-compatible CSV format.
   - STREUSLE 4.0: 2018-02-10. Updated preposition supersenses to new annotation scheme (4398 tokens).
     Annotated possessives (1117 tokens) using preposition supersenses.
     Revised a considerable number of MWEs involving prepositions.
