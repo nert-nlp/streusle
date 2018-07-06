@@ -10,6 +10,10 @@ TRANSITIVE P + NP:
 - the cat sitting *in* the car: gov=sitting, obj=car, config=default
 - the cat is *in* the car:      gov=cat,     obj=car, config=predicative
 
+- the cat *in front of* the car:         gov=cat,     obj=car, config=default
+- the cat sitting *in front of* the car: gov=sitting, obj=car, config=default
+- the cat is *in front of* the car:      gov=cat,     obj=car, config=predicative
+
 [Note that the obj slot will contain the syntactic object even for
 an idiomatic multiword PP.]
 
@@ -81,7 +85,9 @@ def findcop(tok, sent):
 def findgovobj(pexpr, sent):
     plemma = pexpr['lexlemma']
     t1 = pexpr['toknums'][0]
+    tlast = pexpr['toknums'][-1]
     tok1 = sent['toks'][t1-1]
+    toklast = sent['toks'][tlast-1]
     prel = tok1['deprel']
 
     config = None   # possible non-None values: possessive, subordinating, stranded, predicative
@@ -92,12 +98,18 @@ def findgovobj(pexpr, sent):
 
     # pptop: the highest node in the PP or subordinate clause (not counting extracted objects)
 
+    otok = None
+    if tlast>t1 and toklast['head']>0 and toklast['deprel'] in {'case', 'mark'}:
+        # multiword prep, e.g. 'out of', 'in front of', 'as long as'
+        otok = sent['toks'][toklast['head']-1]
+
     if prel in {'case', 'mark'}:
         pptop = sent['toks'][tok1['head']-1] if tok1['head']>0 else None
-        otok = pptop
+        if otok is None:
+            otok = pptop
     else:
         pptop = tok1
-        otok = None   # no (local) object/complement
+        #if otok is None, no (local) object/complement
 
     gtok = sent['toks'][pptop['head']-1] if pptop['head']>0 else None
 
