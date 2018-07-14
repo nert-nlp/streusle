@@ -6,7 +6,7 @@ STREUSLE stands for Supersense-Tagged Repository of English with a Unified Seman
 Release URL: <https://github.com/nert-gu/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
 
-The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [9]. STREUSLE incorporates the recent parses from the UD_English development branch at the time of release (as of <https://github.com/UniversalDependencies/UD_English/commit/16f170c>, 2018-01-18; note that up-to-date files reside in the not-to-release/sources/reviews directory). This corrects some issues with the UD_English 2.1 release. Morphological and syntactic annotations follow the UD v2 standard.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [9]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.2 (with the exception of one lemma, token 14 in reviews-091704-0004, which is a typo); these were released July 1, 2018 and follow the UD v2 standard.
 
 This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [8]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
@@ -91,6 +91,7 @@ http://nathan.cl
 History
 -------
 
+  - STREUSLE dev: Updated UD parses to v2.2. Fixed a small bug in govobj.py that affected identification of the object.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
     Implementation of SNACS (preposition/possessive supersense) target identification heuristics from [7].
