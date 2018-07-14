@@ -1,5 +1,5 @@
   36 ??	_
-26771 _	_
+26772 _	_
    7 `$	`$
  489 n.ACT	_
   78 n.ANIMAL	_
@@ -208,12 +208,12 @@
  194 v.emotion	_
  519 v.motion	_
  109 v.perception	_
- 286 v.possession	_
+ 285 v.possession	_
  756 v.social	_
 2225 v.stative	_
 ========================
     7126 n.*
-    6334 v.*
+    6333 v.*
     4536 p.*
 
 n.* by LexCat
@@ -222,7 +222,7 @@ n.* by LexCat
 
 v.* by LexCat
 ========================
-5578 V
+5577 V
   99 V.IAV
   11 V.LVC.cause
  108 V.LVC.full
