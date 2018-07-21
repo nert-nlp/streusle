@@ -76,14 +76,18 @@ these are counted per (single-word or strong multiword) expression occurrence.
 
   * Identification (`ID`) is the Precision/Recall/F1 of identifying expression
     units (orthographic token groupings that constitute a single semantic unit).
-    It only gives credit for exact matches.
+    It only gives credit for exact matches. In extended supersense subscores,
+    ID refers to whether the unit is correctly detected as requiring
+    that kind of supersense (noun, verb, or SNACS).
 
   * `Labeled` refers to the identification of the expression units AND the correct
     supersense label. Matching is exact in both respects, except for SNACS
     when the -D option is passed to coarsen the labels (see psseval.py for details).
     For SNACS, `Role` and `Fxn` subscores are also provided to target the
     two parts of the supersense labeling; the `Labeled` criterion is stricter
-    (requiring both role and function to be correct).
+    (requiring both role and function to be correct). In the extended scores,
+    SNACS units are further refined based on lexcat: `P`, `PP`, `POSS`
+    (covering possessive clitics and pronouns), `INF`.
 
 If the gold supersense label is `??`, the token is discarded
 (not counted as a match, false positive or false negative,
