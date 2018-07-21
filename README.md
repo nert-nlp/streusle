@@ -34,9 +34,11 @@ Files
 - lexcatter.py: Utilities for working with lexical categories.
 - mwerender.py: Utilities for working with MWEs.
 - supersenses.py: Utilities for working with supersense labels.
+- streusvis.py: Utility for browsing MWE and supersense annotations.
 - tagging.py: Utilities for working with BIO-style tags.
 - tquery.py: Utility for searching the data for tokens that meet certain criteria.
-- psseval.py: Evaluation script for preposition/possessive supersense labeling.
+- streuseval.py: Unified evaluation script for MWEs and supersenses.
+- psseval.py: Evaluation script for preposition/possessive supersense labeling only.
 - pssid/: Heuristics for identifying SNACS targets.
 
 Format
