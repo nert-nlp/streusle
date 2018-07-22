@@ -33,6 +33,7 @@ class Colors(object):
     REDBG = '\033[101m'
     PINKBG = '\033[105m'
     WHITEBG = '\033[107m'
+    CLREOL= '\x1B[K'    # clear to end of line
     BACKGROUND = BLACKBG
     PLAINTEXT = WHITE
 
@@ -154,10 +155,18 @@ def color_rendered(words, rr, diff=True):
             clbl = clbls[j][i]
             csep = cseps[j][i]
             if seps[0][i].endswith(('_','~')): # pad before the separator, which attaches to next token
-                clblsep = clbl + PADDING + lpadding + spadding + WORDS + csep
+                lspadding = lpadding + spadding
+                if lspadding:
+                    lspadding = PADDING + lpadding + spadding + WORDS
+                clblsep = clbl + lspadding + csep
             else:
-                clblsep = clbl + PADDING + lpadding + WORDS + csep + PADDING + spadding + WORDS
-            ss[j] += words[i] + clblsep
+                if lpadding: lpadding = PADDING + lpadding + WORDS
+                if spadding: spadding = PADDING + spadding + WORDS
+                clblsep = clbl + lpadding + csep + spadding
+            ss[j] += words[i] + clblsep + Colors.CLREOL
+
+    #if 'Canyon_Road' in rr[0]:
+    #    assert False,ss
 
     return '\n'.join(ss)
 
