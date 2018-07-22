@@ -218,7 +218,7 @@ def main(args):
                                {e["toknums"][0]: (e["ss"] + ':' + (e["ss2"] or '' if e["ss2"]!=e["ss"] else '')).rstrip(':') \
                                 for e in chain(psent["swes"].values(),psent["smwes"].values()) if e["ss"]}))
 
-        print(color_rendered(words, rendered, diff=not args.nodiff), file=sys.stderr)
+        print(color_rendered(words, rendered, diff=not args.nodiff))
         #assert False,(color_rendered(words, rendered),words,rendered)
 
     # restore the terminal's default colors
