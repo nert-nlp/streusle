@@ -79,7 +79,7 @@ Related work:
 
 - [11] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <http://www.cs.cmu.edu/~nschneid/pssts.pdf>
 
-- [12] SemEval-2016 Task 10: Detecting Minimal Semantic Units and their Meanings (DiMSUM). _Proceedings of the 10th International Workshop on Semantic Evaluation_, San Diego, California, June 16–17, 2016. <http://people.cs.georgetown.edu/nschneid/p/dimsum.pdf>
+- [12] Nathan Schneider, Dirk Hovy, Anders Johannsen, and Marine Carpuat. SemEval-2016 Task 10: Detecting Minimal Semantic Units and their Meanings (DiMSUM). _Proceedings of the 10th International Workshop on Semantic Evaluation_, San Diego, California, June 16–17, 2016. <http://people.cs.georgetown.edu/nschneid/p/dimsum.pdf>
 
 - [13] King Chan, Julian Brooke, and Timothy Baldwin. Semi-automated resolution of inconsistency for a harmonized multiword expression and dependency parse annotation. _Proceedings of the 13th Workshop on Multiword Expressions_, Valencia, Spain, April 4, 2017. <http://www.aclweb.org/anthology/W/W17/W17-1726.pdf>
 
