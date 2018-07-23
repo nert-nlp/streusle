@@ -10,7 +10,7 @@ from mwerender import render
 
 """
 For each sentence in a corpus, visualize MWE and supersense analyses
-in one or more files.
+in one or more files, optionally highlighting differences relative to the first file.
 
 @author: Nathan Schneider (@nschneid)
 @since: 2018-07-19
@@ -52,6 +52,17 @@ def relativeColor(a, b):
         return Colors.ORANGE
     return Colors.PLAINTEXT
 
+def label_type(lbl):
+    if lbl in ('|??', '|`$'):
+        return 'special'
+    elif lbl.startswith('|n.'):
+        return 'n'
+    elif lbl.startswith('|v.'):
+        return 'v'
+    elif lbl.startswith('|p.'):
+        return 'p'
+    assert False,lbl
+
 def color_label_by_type(lbl):
     WORDS = Colors.PLAINTEXT
     VERBS = Colors.CYAN
@@ -68,7 +79,7 @@ def color_label_by_type(lbl):
         return SNACS + lbl + WORDS
     assert False,lbl
 
-def color_rendered(words, rr, diff=True):
+def color_rendered(words, rr, opts):
     """If diff is True, treats the first input as gold and shows how others differ
     relative to that."""
 
@@ -103,24 +114,28 @@ def color_rendered(words, rr, diff=True):
             # possible supersense or special label
             if b.startswith('|'):
                 lbl = re.match(r'^[^\s_~]+', b).group(0)
+                lt = label_type(lbl)
                 # do we match the gold?
-                if (not diff) or j==0 or lbls[0][-1]==lbl: # result[0][-1]==lbl:  # match! or we're gold
+                if (lt not in opts) or j==0 or lbls[0][-1]==lbl: # result[0][-1]==lbl:  # match! or we're gold
                     clbl = color_label_by_type(lbl)
                 elif not lbls[0][-1]: # result[0][-1].startswith('|'):
                     clbl = EXTRA + lbl + WORDS
                 else:
                     clbl = INCORRECT + lbl + WORDS
                 b = b[len(lbl):]
-            elif diff and j>0 and lbls[0][-1]: # result[0][-1].startswith('|'):
+            elif j>0 and lbls[0][-1]: # result[0][-1].startswith('|'):
                 lbl = ' '*len(lbls[0][-1])
-                clbl = MISSING + lbl + WORDS
+                if label_type(lbls[0][-1]) in opts:
+                    clbl = MISSING + lbl + WORDS
+                else:
+                    clbl = PADDING + lbl + WORDS
             result[j] += (clbl,)
 
             if i+1<len(words):
                 # spaces and/or MWE joiner (_ or ~)
                 sep = re.match(r'^[\s_~]+', b).group(0)
                 assert sep in (' ', '_', '~', ' _', '_ ', ' ~', '~ '),sep
-                if (not diff) or j==0 or seps[0][-1]==sep: #result[0][-1]==sep:  # match! or we're gold
+                if ('mwe' not in opts) or j==0 or seps[0][-1]==sep: #result[0][-1]==sep:  # match! or we're gold
                     csep = MWE + sep + WORDS
                 else:   # mismatch
                     csep = BADMWE + sep + WORDS
@@ -170,22 +185,22 @@ def color_rendered(words, rr, diff=True):
 
     return '\n'.join(ss)
 
-def color_render(*args, **kwargs):
-    # terminal colors
-    WORDS = Colors.PLAINTEXT
-    VERBS = Colors.CYAN
-    NOUNS = Colors.YELLOW
-    SNACS = Colors.GREEN
-    MWE = Colors.PINK
-
-    s = render(*args, **kwargs)
-    c = WORDS+s.replace('_',MWE+'_'+WORDS)+Colors.PLAINTEXT
-    c = WORDS+c.replace('~',MWE+'~'+WORDS)+Colors.PLAINTEXT
-    c = re.sub(r'(\|v\.\w+)', VERBS+r'\1'+WORDS, c)   # verb supersenses
-    c = re.sub(r'(\|n\.\w+)', NOUNS+r'\1'+WORDS, c)   # noun supersenses
-    c = re.sub(r'(\|p\.\w+(:p\.\w+)?)', SNACS+r'\1'+WORDS, c)   # SNACS supersenses (prepositions/possessives)
-
-    return c
+# def color_render(*args, **kwargs):
+#     # terminal colors
+#     WORDS = Colors.PLAINTEXT
+#     VERBS = Colors.CYAN
+#     NOUNS = Colors.YELLOW
+#     SNACS = Colors.GREEN
+#     MWE = Colors.PINK
+#
+#     s = render(*args, **kwargs)
+#     c = WORDS+s.replace('_',MWE+'_'+WORDS)+Colors.PLAINTEXT
+#     c = WORDS+c.replace('~',MWE+'~'+WORDS)+Colors.PLAINTEXT
+#     c = re.sub(r'(\|v\.\w+)', VERBS+r'\1'+WORDS, c)   # verb supersenses
+#     c = re.sub(r'(\|n\.\w+)', NOUNS+r'\1'+WORDS, c)   # noun supersenses
+#     c = re.sub(r'(\|p\.\w+(:p\.\w+)?)', SNACS+r'\1'+WORDS, c)   # SNACS supersenses (prepositions/possessives)
+#
+#     return c
 
 def main(args):
     if args.colorless or not sys.stdin.isatty():
@@ -209,11 +224,21 @@ def main(args):
 
     all_sys_scores = {}
 
+    def filter_labels(ll):
+        result = dict(ll)
+        for k,l in ll.items():
+            if l.startswith('n.') and args.no_noun: del result[k]
+            elif l.startswith('v.') and args.no_verb: del result[k]
+            elif l.startswith('p.') and args.no_snacs: del result[k]
+        return result
+
+    R = lambda ww,sg,wg,ll: render(ww, sg if not args.no_mwe else [], wg if not args.no_mwe else [], filter_labels(ll))
+
     for i,sent in enumerate(gold_sents):
         # gold analysis
         words = [t["word"] for t in sent["toks"]]
         rendered = []
-        rendered.append(render(words,
+        rendered.append(R(words,
                            [e["toknums"] for e in sent["smwes"].values()],
                            [e["toknums"] for e in sent["wmwes"].values()],
                            {e["toknums"][0]: (e["ss"] + ':' + (e["ss2"] or '' if e["ss2"]!=e["ss"] else '')).rstrip(':') \
@@ -221,13 +246,21 @@ def main(args):
         for predF in predFs:
             psent = next(predF)
             assert psent['sent_id']==sent['sent_id']
-            rendered.append(render(words,
+            rendered.append(R(words,
                                [e["toknums"] for e in psent["smwes"].values()],
                                [e["toknums"] for e in psent["wmwes"].values()],
                                {e["toknums"][0]: (e["ss"] + ':' + (e["ss2"] or '' if e["ss2"]!=e["ss"] else '')).rstrip(':') \
                                 for e in chain(psent["swes"].values(),psent["smwes"].values()) if e["ss"]}))
 
-        print(color_rendered(words, rendered, diff=not args.nodiff))
+        diff_classes = set()
+        if not args.no_diff:
+            diff_classes.add('special')
+            if not args.no_mwe_diff: diff_classes.add('mwe')
+            if not args.no_noun_diff: diff_classes.add('n')
+            if not args.no_snacs_diff: diff_classes.add('p')
+            if not args.no_verb_diff: diff_classes.add('v')
+
+        print(color_rendered(words, rendered, diff_classes))
         #assert False,(color_rendered(words, rendered),words,rendered)
 
     # restore the terminal's default colors
@@ -235,18 +268,38 @@ def main(args):
 
 
 if __name__=='__main__':
-    parser = argparse.ArgumentParser(description='Evaluate system output for preposition supersense disambiguation against a gold standard.')
+    parser = argparse.ArgumentParser(description='For each sentence in a corpus, visualize MWE and supersense analyses'
+        ' in one or more files, optionally highlighting differences relative to the first file.')
     parser.add_argument('goldfile', type=argparse.FileType('r'),
                         help='gold standard .conllulex or .json file')
     parser.add_argument('sysfile', type=argparse.FileType('r'), nargs='*',
                         help='system prediction file: BASENAME.{goldid,autoid}.{conllulex,json}')
     parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
                         help='depth of hierarchy at which to cluster SNACS supersense labels (default: 4, i.e. no collapsing)')
-    coloring = parser.add_mutually_exclusive_group()
-    coloring.add_argument('-C', '--colorless', action='store_true',
-                          help='suppress colorization of output in terminal')
-    coloring.add_argument('-d', '--nodiff', action='store_true',
+    parser.add_argument('-C', '--colorless', action='store_true',
+                        help='suppress colorization of output in terminal')
+
+    diffopts = parser.add_argument_group('diff options')
+    diffopts.add_argument('-d', '--no-diff', action='store_true',
                           help="don't color differences relative to the first file")
+    diffopts.add_argument('-m', '--no-mwe-diff', action='store_true',
+                          help="don't highlight diff for MWE links")
+    diffopts.add_argument('-n', '--no-noun-diff', action='store_true',
+                          help="don't highlight diff for noun (n.*) supersenses")
+    diffopts.add_argument('-p', '--no-snacs-diff', action='store_true',
+                          help="don't highlight diff for SNACS (p.*) supersenses")
+    diffopts.add_argument('-v', '--no-verb-diff', action='store_true',
+                          help="don't highlight diff for verb (v.*) supersenses")
+
+    declutter = parser.add_argument_group('decluttering options')
+    declutter.add_argument('-M', '--no-mwe', action='store_true',
+                           help="don't display MWE links at all")
+    declutter.add_argument('-N', '--no-noun', action='store_true',
+                           help="don't display noun (n.*) supersenses at all")
+    declutter.add_argument('-P', '--no-snacs', action='store_true',
+                           help="don't display SNACS (p.*) supersenses at all")
+    declutter.add_argument('-V', '--no-verb', action='store_true',
+                           help="don't display verb (v.*) supersenses at all")
 
     args = parser.parse_args()
     main(args)
