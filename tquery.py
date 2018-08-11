@@ -187,6 +187,8 @@ for sent in data:
                         inmatch = False
                         s += '<< '
                 s += tok["word"] + ' '
+            if inmatch:
+                s += '<< '
             
             print(sent["sent_id"], 
                   *[myprints[f] for f in prints],

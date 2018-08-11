@@ -101,6 +101,7 @@ History
   	* Added streuseval.py, a unified evaluation script for MWEs + supersenses.
   	* Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
   	* Fixed a small bug in govobj.py that affected identification of the object.
+  	* Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
   	* Updated UD parses to v2.2.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
