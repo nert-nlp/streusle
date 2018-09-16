@@ -143,9 +143,12 @@ def findgovobj(pexpr, sent):
         pptop = sent['toks'][tok1['head']-1] if tok1['head']>0 else None
         if otok is None:
             otok = pptop
-        #if pptop['deprel']=='conj' and not findcop(pptop, sent): # non-copular coordinated PP (coordination between 2 PPs, or coordinated infinitive phrase or possessive NP)
-        #     pptop = sent['toks'][pptop['head']-1]  # go up another level
-        #     #print('\n', 'gov=', sent['toks'][pptop['head']-1]['word'], plemma, 'obj=', otok['word'], '    ', sent['text'], file=sys.stderr)
+        
+        # We need a bunch of heuristics to deal with syntactically weird constructions/expressions.
+        # Note that the governor of a SNACS (p.* supersense) expression shouldn't be another SNACS expression, with a few rare exceptions:
+        # - copular intransitive P + PP: I was in two weeks AGO: gov = "in"; "they were out FOR the day": gov = "out"
+        # - possessives in idiomatic PPs: "on_ our _way", "on_ my _own", etc.
+        
         if tok1['lemma']=='as' and sent['toks'][pptop['head']-1]['lemma']=='as': # 2nd AS in as-as construction
             pptop = sent['toks'][pptop['head']-1]   # essentially treat the object of the first AS as the governor of the 2nd AS. "as tall AS a horse": gov = tall, obj = horse
         elif prel=='case' and sent['toks'][pptop['head']-1]['upos']=='ADV' and pptop['deprel'] in ('obl', 'nmod') \
@@ -163,7 +166,6 @@ def findgovobj(pexpr, sent):
         pptop = sent['toks'][tok1['head']-1]
         if tok1['lemma']=='as': # first AS in as-as construction, as_soon_as, as_long_as
             otok = pptop    # "tall" in "as tall as a horse"
-            #print(sent['mwe'], otok, file=sys.stderr)
         elif tok1['head'] in pexpr['toknums']:    # idiomatic PPs of the form advmod(w2,w1): just_about, out_there, up_front, at_first
             if sent['toks'][tok1['head']-1]['head'] > tok1['head'] and sent['toks'][tok1['head']-1]['deprel']=='advmod':    # just_about
                 otok = pptop    # "everything" in "just about everything"
@@ -176,6 +178,7 @@ def findgovobj(pexpr, sent):
         elif len(pexpr['toknums'])==2 and sent['toks'][pexpr['toknums'][1]-1]['head']==t1 and sent['toks'][pexpr['toknums'][1]-1]['deprel']=='fixed':
             if plemma=='at least':  # "at_least pretend to be helpful", fixed(at, least): no object
                 pptop = tok1
+                # Note that Approximator "at_least" is right-headed: "at least 10 more minutes": case(least, at) 
             else:   # "all_of 10 minutes", "less_than an hour" (Approximators): treat as transitive P with no governor
                 otok = pptop
                 pptop = tok1
@@ -188,10 +191,6 @@ def findgovobj(pexpr, sent):
             pass
         else:   # adverb fronted before verb: "We have since moved", "I've never before felt...", "never before has...", "off we went"
             pptop = tok1    # intransitive
-    
-        # two kinds of at_least: 
-        #   "at least 10 more minutes" - right-headed: case(least, at) 
-        #   "at least pretend to be helpful" - left-headed: fixed(at, least)
     else:
         pptop = tok1
         #if otok is None, no (local) object/complement
@@ -236,30 +235,16 @@ def findgovobj(pexpr, sent):
           'config': config
     }
     
-    if gtok:
-        glexe = sent['swes'].get(str(sent['toks'][gtok['#']-1]['#']))
-        #if not glexe:
-        #    glexe = sent['smwes'][str(sent['toks'][gtok['#']-1]['smwe'][0])]
-        #assert glexe
-        if glexe and pexpr['lexcat'] not in ('POSS', 'PRON.POSS'):    # "on_ our _way", "on_ my _own", etc. are legitimate cases of a SNACS expression governed by another SNACS expression
-            if glexe['ss'] and glexe['ss'].startswith('p.'):
-                #pass
-                print(pexpr['lexcat'], plemma, '   ', sent['mwe'], file=sys.stderr) # "back from", "back to", ...
-                #print(pexpr, sent['mwe'], file=sys.stderr)
-                
-            # legitimate: ABOUT a month ago: gov = "ago". similar to "from BEHIND the couch"
-            # legitimate copular intransitive P + PP: I was in two weeks AGO: gov = "in"; "they were out FOR the day": gov = "out"
-
     #print(sent['mwe'], (gtok['word'], plemma, otok['word']), config)
 
 with open(sys.argv[1], encoding='utf-8') as inF:
     data = json.load(inF)
 
 for sent in data:
-    enhance(sent)
+    enhance(sent)   # apply Enhanced Dependencies instead of superficial conj relations for coordination
     for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
         if lexe['lexcat'] in {'P','PP','INF.P','POSS','PRON.POSS'}:
             gov = findgovobj(lexe, sent)
-    deenhance(sent)
+    deenhance(sent) # now that we've extracted prepositional/possessive gov & obj, revert to Basic Dependencies in the output
 
 print(json.dumps(data, indent=1))
