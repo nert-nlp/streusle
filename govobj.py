@@ -182,7 +182,8 @@ def findgovobj(pexpr, sent):
             else:   # "all_of 10 minutes", "less_than an hour" (Approximators): treat as transitive P with no governor
                 otok = pptop
                 pptop = tok1
-        elif pexpr['ss']=='p.Approximator': # single-word Approximators: "about", "around", "like", "over". 
+        elif plemma in ('about', 'around', 'like', 'over'): # single-word Approximators: "about", "around", "like", "over". 
+            #assert pexpr['ss']=='p.Approximator'
             # In UD treated as advmod of the measured expression. We treat as transitive P with no governor.
             otok = pptop
             pptop = tok1
