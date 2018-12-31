@@ -564,7 +564,7 @@
 10	contractor	contractor	NOUN	NN	Number=Sing	8	obj	8:obj	_	_	N	contractor	n.PERSON	_	_	_	_	O-N-n.PERSON
 11	with	with	ADP	IN	_	13	case	13:case	_	_	P	with	p.Characteristic	p.Characteristic	_	_	_	O-P-p.Characteristic
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	_	_	DET	the	_	_	_	_	_	O-DET
-13	credentials	credentials	NOUN	NNS	Number=Plur	10	nmod	10:nmod:with|17:obj	_	_	N	credentials	n.COGNITION	_	_	_	_	O-N-n.COGNITION
+13	credentials	credential	NOUN	NNS	Number=Plur	10	nmod	10:nmod:with|17:obj	_	_	N	credential	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 14	that	that	PRON	WDT	PronType=Rel	17	obj	13:ref	_	_	PRON	that	_	_	_	_	_	O-PRON
 15	Farrell	Farrell	PROPN	NNP	Number=Sing	16	compound	16:compound	_	2:1	N	Farrell Electric	n.GROUP	_	_	_	_	B-N-n.GROUP
 16	Electric	Electric	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	_	2:2	_	_	_	_	_	_	_	I_
@@ -693,7 +693,7 @@
 # mwe = Fresh and unic !
 1	Fresh	fresh	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	fresh	_	_	_	_	_	O-ADJ
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-3	unic	unic	ADJ	JJ	Degree=Pos	1	conj	1:conj:and	SpaceAfter=No	_	ADJ	unic	_	_	_	_	_	O-ADJ
+3	unic	unique	ADJ	JJ	Degree=Pos|Typo=Yes	1	conj	1:conj:and	SpaceAfter=No	_	ADJ	unique	_	_	_	_	_	O-ADJ
 4	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-034320-0002
@@ -705,7 +705,7 @@
 3	,	,	PUNCT	,	_	4	punct	4:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 4	talented	talented	ADJ	JJ	Degree=Pos	2	conj	2:conj:and|9:amod	SpaceAfter=No	_	ADJ	talented	_	_	_	_	_	O-ADJ
 5	,	,	PUNCT	,	_	6	punct	6:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-6	unic	unic	ADJ	JJ	Degree=Pos	2	conj	2:conj:and|9:amod	_	_	ADJ	unic	_	_	_	_	_	O-ADJ
+6	unic	unique	ADJ	JJ	Degree=Pos|Typo=Yes	2	conj	2:conj:and|9:amod	_	_	ADJ	unique	_	_	_	_	_	O-ADJ
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 8	fresh	fresh	ADJ	JJ	Degree=Pos	2	conj	2:conj:and|9:amod	_	_	ADJ	fresh	_	_	_	_	_	O-ADJ
 9	work	work	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	work	n.ACT	_	_	_	_	O-N-n.ACT
@@ -1217,7 +1217,7 @@
 2	room	room	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 3	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 4	Open	open	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_	_	ADJ	open	_	_	_	_	_	O-ADJ
-5	Sundays	Sundays	PROPN	NNPS	Number=Plur	2	nmod:tmod	2:nmod:tmod	_	_	N	Sundays	n.TIME	_	_	_	_	O-N-n.TIME
+5	Sundays	Sunday	PROPN	NNPS	Number=Plur	2	nmod:tmod	2:nmod:tmod	_	_	N	Sunday	n.TIME	_	_	_	_	O-N-n.TIME
 
 # newdoc id = reviews-047891
 # sent_id = reviews-047891-0001
@@ -1717,7 +1717,7 @@
 17	of	of	ADP	IN	_	21	case	21:case	_	2:3	_	_	_	_	_	_	_	I_
 18	spy	spy	NOUN	NN	Number=Sing	21	compound	21:compound	_	_	N	spy	n.ACT	_	_	_	_	O-N-n.ACT
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-20	surviellance	surviellance	NOUN	NN	Number=Sing	18	conj	18:conj:and|21:compound	_	_	N	surviellance	n.ACT	_	_	_	_	O-N-n.ACT
+20	surviellance	surveillance	NOUN	NN	Number=Sing|Typo=Yes	18	conj	18:conj:and|21:compound	_	_	N	surveillance	n.ACT	_	_	_	_	O-N-n.ACT
 21	equipment	equipment	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	SpaceAfter=No	_	N	equipment	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 22	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -1761,7 +1761,7 @@
 7	emergency	emergency	NOUN	NN	Number=Sing	8	compound	8:compound	_	_	N	emergency	n.EVENT	_	_	_	_	O-N-n.EVENT
 8	plumbers	plumber	NOUN	NNS	Number=Plur	5	obj	5:obj|10:nsubj	_	_	N	plumber	n.PERSON	_	_	_	_	O-N-n.PERSON
 9	who	who	PRON	WP	PronType=Rel	10	nsubj	8:ref	_	_	PRON	who	_	_	_	_	_	O-PRON
-10	visted	vist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_	_	V	vist	v.motion	_	_	_	_	O-V-v.motion
+10	visted	visit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin|Typo=Yes	8	acl:relcl	8:acl:relcl	_	_	V	visit	v.motion	_	_	_	_	O-V-v.motion
 11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	we	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
 12	shop	shop	NOUN	NN	Number=Sing	10	obj	10:obj	_	_	N	shop	n.GROUP	_	_	_	_	O-N-n.GROUP
 13	in	in	ADP	IN	_	15	case	15:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -2031,7 +2031,7 @@
 12	because	because	SCONJ	IN	_	15	mark	15:mark	_	_	SCONJ	because	_	_	_	_	_	O-SCONJ
 13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 14	ARE	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-15	orginizied	orginizied	ADJ	JJ	Degree=Pos	8	advcl	8:advcl:because	SpaceAfter=No	_	ADJ	orginizied	_	_	_	_	_	O-ADJ
+15	orginizied	organized	ADJ	JJ	Degree=Pos|Typo=Yes	8	advcl	8:advcl:because	SpaceAfter=No	_	ADJ	organized	_	_	_	_	_	O-ADJ
 16	,	,	PUNCT	,	_	15	punct	15:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 17	so	so	ADV	RB	_	19	advmod	19:advmod	_	_	ADV	so	_	_	_	_	_	O-ADV
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	19:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
@@ -2225,7 +2225,7 @@
 4	,	,	PUNCT	,	_	3	punct	3:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 6	would	would	AUX	MD	VerbForm=Fin	7	aux	7:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
-7	recoment	recoment	VERB	VB	VerbForm=Inf	3	parataxis	3:parataxis	_	_	V	recoment	v.communication	_	1:1	_	recoment to	B-V-v.communication
+7	recoment	recommend	VERB	VB	VerbForm=Inf|Typo=Yes	3	parataxis	3:parataxis	_	_	V	recommend	v.communication	_	1:1	_	recommend to	B-V-v.communication
 8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	_	_	PRON	she	_	_	_	_	_	o-PRON
 9	to	to	ADP	IN	_	10	case	10:case	_	_	P	to	p.Recipient	p.Goal	1:2	_	_	I~-P-p.Recipient|p.Goal
 10	anyone	anyone	PRON	NN	Number=Sing	7	obl	7:obl:to	SpaceAfter=No	_	PRON	anyone	_	_	_	_	_	O-PRON
@@ -2272,7 +2272,7 @@
 4	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_	_	V	work	v.social	_	_	_	_	O-V-v.social
 5	there	there	ADV	RB	PronType=Dem	4	advmod	4:advmod	_	_	ADV	there	_	_	_	_	_	O-ADV
 6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-7	helpfull	helpfull	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No	_	ADJ	helpfull	_	_	_	_	_	O-ADJ
+7	helpfull	helpful	ADJ	JJ	Degree=Pos|Typo=Yes	0	root	0:root	SpaceAfter=No	_	ADJ	helpful	_	_	_	_	_	O-ADJ
 8	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 9	friendly	friendly	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	_	_	ADJ	friendly	_	_	_	_	_	O-ADJ
 10	and	and	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -2288,7 +2288,7 @@
 20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 21	can	can	AUX	MD	VerbForm=Fin	17	advcl	17:advcl:as	_	_	AUX	can	_	_	_	_	_	O-AUX
 22	with	with	ADP	IN	_	24	case	24:case	_	_	P	with	p.Circumstance	p.Circumstance	_	_	_	O-P-p.Circumstance
-23	thier	thier	PRON	PRP$	_	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	thier	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
+23	thier	their	PRON	PRP$	Typo=Yes	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	their	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 24	years	year	NOUN	NNS	Number=Plur	15	obl	15:obl:with	_	_	N	year	n.TIME	_	_	_	_	O-N-n.TIME
 25	of	of	ADP	IN	_	28	case	28:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
 26	hands	hand	NOUN	NNS	Number=Plur	28	compound	28:compound	_	1:1	ADJ	hand on	_	_	_	_	_	B-ADJ
@@ -2300,8 +2300,8 @@
 # text = Highly recomended.
 # streusle_sent_id = ewtb.r.107608.4
 # mwe = Highly~recomended .
-1	Highly	highly	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	highly	_	_	1:1	_	highly recomend	B-ADV
-2	recomended	recomend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No	_	V	recomend	v.communication	_	1:2	_	_	I~-V-v.communication
+1	Highly	highly	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	highly	_	_	1:1	_	highly recommend	B-ADV
+2	recomended	recommend	VERB	VBN	Tense=Past|VerbForm=Part|Typo=Yes	0	root	0:root	SpaceAfter=No	_	V	recommend	v.communication	_	1:2	_	_	I~-V-v.communication
 3	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-118668
@@ -3492,7 +3492,7 @@
 # streusle_sent_id = ewtb.r.171877.1
 # mwe = ipad reiew
 1	ipad	ipad	PROPN	NNP	Number=Sing	2	compound	2:compound	_	_	N	ipad	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
-2	reiew	reiew	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	reiew	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
+2	reiew	review	NOUN	NN	Number=Sing|Typo=Yes	0	root	0:root	_	_	N	review	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 
 # sent_id = reviews-171877-0002
 # text = they are the best orthodontics in the world.
@@ -4586,7 +4586,7 @@
 # text = exelent Job
 # streusle_sent_id = ewtb.r.217747.1
 # mwe = exelent Job
-1	exelent	exelent	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	exelent	_	_	_	_	_	O-ADJ
+1	exelent	excellent	ADJ	JJ	Degree=Pos|Typo=Yes	2	amod	2:amod	_	_	ADJ	excellent	_	_	_	_	_	O-ADJ
 2	Job	job	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	job	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-217747-0002
@@ -6017,7 +6017,7 @@
 # text = Definetely going back
 # streusle_sent_id = ewtb.r.286172.3
 # mwe = Definetely going back
-1	Definetely	definetely	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	definetely	_	_	_	_	_	O-ADV
+1	Definetely	definitely	ADV	RB	Typo=Yes	2	advmod	2:advmod	_	_	ADV	definitely	_	_	_	_	_	O-ADV
 2	going	go	VERB	VBG	VerbForm=Ger	0	root	0:root	_	_	V	go	v.motion	_	_	_	_	O-V-v.motion
 3	back	back	ADV	RB	_	2	advmod	2:advmod	_	_	P	back	p.Direction	p.Direction	_	_	_	O-P-p.Direction
 
@@ -6437,7 +6437,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	architecture	architecture	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	architecture	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-4	simplz	simplz	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	simplz	_	_	_	_	_	O-ADV
+4	simplz	simply	ADV	RB	Typo=Yes	5	advmod	5:advmod	_	_	ADV	simply	_	_	_	_	_	O-ADV
 5	splendid	splendid	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No	_	ADJ	splendid	_	_	_	_	_	O-ADJ
 6	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -7115,7 +7115,7 @@
 13	in	in	SCONJ	IN	_	14	mark	14:mark	_	_	P	in	p.Topic	p.Topic	_	_	_	O-P-p.Topic
 14	visiting	visit	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:in	_	_	V	visit	v.social	_	_	_	_	O-V-v.social
 15	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	_	_	DET	this	_	_	_	_	_	O-DET
-16	wornderful	wornderful	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	wornderful	_	_	_	_	_	O-ADJ
+16	wornderful	wonderful	ADJ	JJ	Degree=Pos|Typo=Yes	17	amod	17:amod	_	_	ADJ	wonderful	_	_	_	_	_	O-ADJ
 17	school	school	NOUN	NN	Number=Sing	14	obj	14:obj	SpaceAfter=No	_	N	school	n.GROUP	_	_	_	_	O-N-n.GROUP
 18	.	.	PUNCT	.	_	12	punct	12:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -7264,7 +7264,7 @@
 # text = Definately won't be returning.
 # streusle_sent_id = ewtb.r.343813.2
 # mwe = Definately wo n't be returning .
-1	Definately	definately	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	definately	_	_	_	_	_	O-ADV
+1	Definately	definitely	ADV	RB	Typo=Yes	5	advmod	5:advmod	_	_	ADV	definitely	_	_	_	_	_	O-ADV
 2	wo	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	SpaceAfter=No	_	AUX	will	_	_	_	_	_	O-AUX
 3	n't	not	PART	RB	_	5	advmod	5:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
 4	be	be	AUX	VB	VerbForm=Inf	5	aux	5:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
@@ -8133,7 +8133,7 @@
 # streusle_sent_id = ewtb.r.392826.3
 # mwe = My fries were n't fully cooked last time I went there .
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
-2	fries	fries	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	_	_	N	fries	n.FOOD	_	_	_	_	O-N-n.FOOD
+2	fries	fry	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	_	_	N	fry	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	SpaceAfter=No	_	AUX	be	_	_	_	_	_	O-AUX
 4	n't	not	PART	RB	_	6	advmod	6:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
 5	fully	fully	ADV	RB	_	6	advmod	6:advmod	_	_	ADV	fully	_	_	_	_	_	O-ADV

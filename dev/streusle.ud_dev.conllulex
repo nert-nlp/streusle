@@ -743,7 +743,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	hear	v.perception	_	_	_	_	O-V-v.perception
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	1:1	N	the libido band	n.GROUP	_	_	_	_	B-N-n.GROUP
-4	libido	libido	NOUN	NN	Number=Sing	5	compound	5:compound	_	1:2	_	_	_	_	_	_	_	I_
+4	libido	libido	PROPN	NNP	Number=Sing	5	compound	5:compound	_	1:2	_	_	_	_	_	_	_	I_
 5	band	band	NOUN	NN	Number=Sing	2	obj	2:obj|6:nsubj:xsubj	_	1:3	_	_	_	_	_	_	_	I_
 6	play	play	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_	_	V	play	v.creation	_	_	_	_	O-V-v.creation
 7	live	live	ADV	RB	_	6	advmod	6:advmod	_	_	ADV	live	_	_	_	_	_	O-ADV
@@ -763,10 +763,10 @@
 2	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
 3	be	be	AUX	VB	VerbForm=Inf	4	aux	4:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
 4	calling	call	VERB	VBG	VerbForm=Ger	0	root	0:root	_	_	V	call	v.communication	_	_	_	_	O-V-v.communication
-5	tropics	tropics	NOUN	NNS	Number=Plur	4	obj	4:obj	_	_	N	tropics	n.GROUP	_	_	_	_	O-N-n.GROUP
+5	tropics	tropics	PROPN	NNPS	Number=Plur	4	obj	4:obj	_	_	N	tropics	n.GROUP	_	_	_	_	O-N-n.GROUP
 6	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
 7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
-8	companie	companie	NOUN	NN	Number=Sing	11	nmod:poss	11:nmod:poss	SpaceAfter=No	_	N	companie	n.GROUP	_	_	_	_	O-N-n.GROUP
+8	companie	company	NOUN	NN	Number=Sing|Typo=Yes	11	nmod:poss	11:nmod:poss	SpaceAfter=No	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
 9	s	's	PART	POS	_	8	case	8:case	_	_	POSS	's	p.Agent	p.Gestalt	_	_	_	O-POSS-p.Agent|p.Gestalt
 10	next	next	ADJ	JJ	Degree=Pos	11	amod	11:amod	_	_	ADJ	next	_	_	_	_	_	O-ADJ
 11	event	event	NOUN	NN	Number=Sing	4	obl	4:obl:for	SpaceAfter=No	_	N	event	n.EVENT	_	_	_	_	O-N-n.EVENT
@@ -1122,7 +1122,7 @@
 3	lounge	lounge	NOUN	NN	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 4	on	on	ADP	IN	_	6	case	6:case	_	_	P	on	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_	_	DET	the	_	_	_	_	_	O-DET
-6	blouvard	blouvard	NOUN	NN	Number=Sing	3	nmod	3:nmod:on	SpaceAfter=No	_	N	blouvard	n.LOCATION	_	_	_	_	O-N-n.LOCATION
+6	blouvard	boulevard	NOUN	NN	Number=Sing|Typo=Yes	3	nmod	3:nmod:on	SpaceAfter=No	_	N	boulevard	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 7	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-059088-0002
@@ -1141,7 +1141,7 @@
 10	smoke	smoke	NOUN	NN	Number=Sing	11	compound	11:compound	_	1:1	N	smoke shop	n.GROUP	_	_	_	_	B-N-n.GROUP
 11	shop	shop	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	_	1:2	_	_	_	_	_	_	_	I_
 12	most	most	ADV	RBS	_	13	advmod	13:advmod	_	_	ADV	most	_	_	_	_	_	O-ADV
-13	definately	definately	ADV	RB	_	4	advmod	4:advmod	SpaceAfter=No	_	ADV	definately	_	_	_	_	_	O-ADV
+13	definately	definitely	ADV	RB	Typo=Yes	4	advmod	4:advmod	SpaceAfter=No	_	ADV	definitely	_	_	_	_	_	O-ADV
 14	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-059088-0003
@@ -1643,7 +1643,7 @@
 10	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 11	Asian	asian	ADJ	JJ	Degree=Pos	9	list	9:list	SpaceAfter=No	_	ADJ	asian	_	_	_	_	_	O-ADJ
 12	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-13	ect.	ect.	X	FW	_	9	advmod	9:advmod	SpaceAfter=No	_	X	ect.	_	_	_	_	_	O-X
+13	ect.	etc.	X	FW	Abbr=Yes|Typo=Yes	9	advmod	9:advmod	SpaceAfter=No	_	X	etc.	_	_	_	_	_	O-X
 14	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_	_	PUNCT	)	_	_	_	_	_	O-PUNCT
 15	equals	equal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	list	2:list	_	_	V	equal	v.stative	_	_	_	_	O-V-v.stative
 16	kids	kid	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	_	_	N	kid	n.PERSON	_	_	_	_	O-N-n.PERSON
@@ -2658,7 +2658,7 @@
 # text = Aweesome
 # streusle_sent_id = ewtb.r.117893.1
 # mwe = Aweesome
-1	Aweesome	aweesome	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	aweesome	_	_	_	_	_	O-ADJ
+1	Aweesome	awesome	ADJ	JJ	Degree=Pos|Typo=Yes	0	root	0:root	_	_	ADJ	awesome	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-117893-0002
 # text = Holy cow was that a delicious meal.
@@ -3074,7 +3074,7 @@
 14	care	care	NOUN	NN	Number=Sing	13	obj	13:obj	_	1:2	_	_	_	_	_	_	_	I_
 15	of	of	ADP	IN	_	17	case	17:case	_	1:3	_	_	_	_	_	_	_	I_
 16	others	other	NOUN	NNS	Number=Plur	17	compound	17:compound	_	_	!!@	other	_	_	_	_	_	O-!!@
-17	belongings	belongings	NOUN	NNS	Number=Plur	13	obl	13:obl:of	SpaceAfter=No	_	N	belongings	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
+17	belongings	belonging	NOUN	NNS	Number=Plur	13	obl	13:obl:of	SpaceAfter=No	_	N	belonging	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 18	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-137883
@@ -3603,7 +3603,7 @@
 9	field	field	NOUN	NN	Number=Sing	2	obl	2:obl:on	SpaceAfter=No	_	N	field	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 10	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 11	strongly	strongly	ADV	RB	_	12	advmod	12:advmod	_	_	ADV	strongly	_	_	_	_	_	O-ADV
-12	recomend	recomend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	SpaceAfter=No	_	V	recomend	v.communication	_	_	_	_	O-V-v.communication
+12	recomend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|Typo=Yes	2	parataxis	2:parataxis	SpaceAfter=No	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
 13	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 14	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No	_	AUX	do	_	_	_	_	_	O-AUX
 15	nt	not	PART	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
@@ -4115,18 +4115,18 @@
 3	about	about	ADP	IN	_	6	case	6:case	_	_	P	about	p.Topic	p.Topic	_	_	_	O-P-p.Topic
 4	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 5	best	best	ADJ	JJS	Degree=Sup	6	amod	6:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
-6	hamburguers	hamburguer	NOUN	NNS	Number=Plur	2	nmod	2:nmod:about	_	_	N	hamburguer	n.FOOD	_	_	_	_	O-N-n.FOOD
+6	hamburguers	hamburger	NOUN	NNS	Number=Plur|Typo=Yes	2	nmod	2:nmod:about	_	_	N	hamburger	n.FOOD	_	_	_	_	O-N-n.FOOD
 7	in	in	ADP	IN	_	8	case	8:case	_	1:1	PP	in town	p.Locus	p.Locus	_	_	_	B-PP-p.Locus
 8	town	town	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 9	"	"	PUNCT	''	_	6	punct	6:punct	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 10	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_	_	AUX	can	_	_	_	_	_	O-AUX
 11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	13:aux:pass	_	_	AUX	be	_	_	_	_	_	O-AUX
 12	even	even	ADV	RB	_	13	advmod	13:advmod	_	_	ADV	even	_	_	_	_	_	O-ADV
-13	amplifiaed	amplifia	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_	_	V	amplifia	v.change	_	_	_	_	O-V-v.change
+13	amplifiaed	amplify	VERB	VBN	Tense=Past|VerbForm=Part|Typo=Yes	0	root	0:root	_	_	V	amplify	v.change	_	_	_	_	O-V-v.change
 14	to	to	ADP	IN	_	17	case	17:case	_	_	P	to	p.Goal	p.Goal	_	_	_	O-P-p.Goal
 15	"	"	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 16	best	best	ADJ	JJS	Degree=Sup	17	amod	17:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
-17	hamburguers	hamburguer	NOUN	NNS	Number=Plur	13	obl	13:obl:to	_	_	N	hamburguer	n.FOOD	_	_	_	_	O-N-n.FOOD
+17	hamburguers	hamburger	NOUN	NNS	Number=Plur|Typo=Yes	13	obl	13:obl:to	_	_	N	hamburger	n.FOOD	_	_	_	_	O-N-n.FOOD
 18	in	in	ADP	IN	_	19	case	19:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 19	world	world	NOUN	NN	Number=Sing	17	nmod	17:nmod:in	SpaceAfter=No	_	N	world	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 20	"	"	PUNCT	''	_	17	punct	17:punct	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
@@ -4174,7 +4174,7 @@
 # text = Awsome!
 # streusle_sent_id = ewtb.r.191597.1
 # mwe = Awsome !
-1	Awsome	awsome	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No	_	ADJ	awsome	_	_	_	_	_	O-ADJ
+1	Awsome	awesome	ADJ	JJ	Degree=Pos|Typo=Yes	0	root	0:root	SpaceAfter=No	_	ADJ	awesome	_	_	_	_	_	O-ADJ
 2	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-191597-0002
@@ -4856,10 +4856,10 @@
 # streusle_sent_id = ewtb.r.217485.2
 # mwe = The chicken_cordon_-_blu was tasty and came in a huge portion size for the money .
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	O-DET
-2	chicken	chicken	NOUN	NN	Number=Sing	5	compound	5:compound	_	1:1	N	chicken cordon - blu	n.FOOD	_	_	_	_	B-N-n.FOOD
+2	chicken	chicken	NOUN	NN	Number=Sing	5	compound	5:compound	_	1:1	N	chicken cordon - bleu	n.FOOD	_	_	_	_	B-N-n.FOOD
 3	cordon	cordon	NOUN	NN	Number=Sing	5	compound	5:compound	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 4	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
-5	blu	blu	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|9:nsubj	_	1:4	_	_	_	_	_	_	_	I_
+5	blu	bleu	NOUN	NN	Number=Sing|Typo=Yes	7	nsubj	7:nsubj|9:nsubj	_	1:4	_	_	_	_	_	_	_	I_
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 7	tasty	tasty	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	tasty	_	_	_	_	_	O-ADJ
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -4972,7 +4972,7 @@
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	cop	16:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-15	extrememly	extrememly	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	extrememly	_	_	_	_	_	O-ADV
+15	extrememly	extremely	ADV	RB	Typo=Yes	16	advmod	16:advmod	_	_	ADV	extremely	_	_	_	_	_	O-ADV
 16	fair	fair	ADJ	JJ	Degree=Pos	2	conj	2:conj:and	_	_	ADJ	fair	_	_	_	_	_	O-ADJ
 17	and	and	CCONJ	CC	_	21	cc	21:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 18	price	price	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	_	_	N	price	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
@@ -5129,7 +5129,7 @@
 # mwe = Food drastically let's_ the place _down though
 1	Food	food	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 2	drastically	drastically	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	drastically	_	_	_	_	_	O-ADV
-3	let's	let'	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	let' down	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
+3	let's	let	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Typo=Yes	0	root	0:root	_	1:1	V.VPC.full	let down	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	o-DET
 5	place	place	NOUN	NN	Number=Sing	3	obj	3:obj	_	_	N	place	n.GROUP	_	_	_	_	o-N-n.GROUP
 6	down	down	ADP	RP	_	3	compound:prt	3:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
@@ -5508,7 +5508,7 @@
 # text = Lovley food and fab chips
 # streusle_sent_id = ewtb.r.258042.1
 # mwe = Lovley food and fab chips
-1	Lovley	lovley	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	lovley	_	_	_	_	_	O-ADJ
+1	Lovley	loveley	ADJ	JJ	Degree=Pos|Typo=Yes	2	amod	2:amod	_	_	ADJ	loveley	_	_	_	_	_	O-ADJ
 2	food	food	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	and	and	CCONJ	CC	_	5	cc	5:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	fab	fab	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	fab	_	_	_	_	_	O-ADJ
@@ -6090,7 +6090,7 @@
 # streusle_sent_id = ewtb.r.287454.3
 # mwe = The fries are of good quality , the staff is friendly .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
-2	fries	fries	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	_	_	N	fries	n.FOOD	_	_	_	_	O-N-n.FOOD
+2	fries	fry	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	_	_	N	fry	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 4	of	of	ADP	IN	_	6	case	6:case	_	_	P	of	p.Characteristic	p.Identity	_	_	_	O-P-p.Characteristic|p.Identity
 5	good	good	ADJ	JJ	Degree=Pos	6	amod	6:amod	_	_	ADJ	good	_	_	_	_	_	O-ADJ
@@ -6231,9 +6231,9 @@
 # mwe = Try the 360_restraunt u spin in the cn_tower with a beautiful view the sky_pod~elevator is about an hour line_up in the summer
 1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	try	v.social	_	_	_	_	O-V-v.social
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
-3	360	360	NUM	CD	NumType=Card	4	nummod	4:nummod	_	1:1	N	360 restraunt	n.GROUP	_	_	_	_	B-N-n.GROUP
-4	restraunt	restraunt	NOUN	NN	Number=Sing	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
-5	u	u	PRON	PRP	_	6	nsubj	6:nsubj	_	_	PRON	u	_	_	_	_	_	O-PRON
+3	360	360	NUM	CD	NumType=Card	4	nummod	4:nummod	_	1:1	N	360 restaurant	n.GROUP	_	_	_	_	B-N-n.GROUP
+4	restraunt	restaurant	NOUN	NN	Number=Sing|Typo=Yes	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
+5	u	you	PRON	PRP	Abbr=Yes	6	nsubj	6:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 6	spin	spin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	_	_	V	spin	v.motion	_	_	_	_	O-V-v.motion
 7	in	in	ADP	IN	_	10	case	10:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -7143,7 +7143,7 @@
 3	tasted	taste	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	taste	v.perception	_	_	_	_	O-V-v.perception
 4	like	like	ADP	IN	_	6	case	6:case	_	_	P	like	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
 5	rat	rat	NOUN	NN	Number=Sing	6	compound	6:compound	_	_	N	rat	n.ANIMAL	_	_	_	_	O-N-n.ANIMAL
-6	feces	fece	NOUN	NNS	Number=Plur	3	obl	3:obl:like	_	_	N	fece	n.SUBSTANCE	_	_	_	_	O-N-n.SUBSTANCE
+6	feces	feces	NOUN	NNS	Number=Plur	3	obl	3:obl:like	_	_	N	feces	n.SUBSTANCE	_	_	_	_	O-N-n.SUBSTANCE
 
 # newdoc id = reviews-341435
 # sent_id = reviews-341435-0001
@@ -7532,8 +7532,8 @@
 # streusle_sent_id = ewtb.r.359014.1
 # mwe = Good honest_wrok
 1	Good	good	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	_	ADJ	good	_	_	_	_	_	O-ADJ
-2	honest	honest	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	1:1	N	honest wrok	n.ACT	_	_	_	_	B-N-n.ACT
-3	wrok	wrok	NOUN	NN	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
+2	honest	honest	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	1:1	N	honest work	n.ACT	_	_	_	_	B-N-n.ACT
+3	wrok	work	NOUN	NN	Number=Sing|Typo=Yes	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-359014-0002
 # text = Harlan provides great service.
@@ -7618,7 +7618,7 @@
 # streusle_sent_id = ewtb.r.359287.1
 # mwe = High guality pup food at a good price .
 1	High	high	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	high	_	_	_	_	_	O-ADJ
-2	guality	guality	NOUN	NN	Number=Sing	4	compound	4:compound	_	_	N	guality	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
+2	guality	quality	NOUN	NN	Number=Sing|Typo=Yes	4	compound	4:compound	_	_	N	quality	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 3	pup	pup	NOUN	NN	Number=Sing	4	compound	4:compound	_	_	N	pup	n.ANIMAL	_	_	_	_	O-N-n.ANIMAL
 4	food	food	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 5	at	at	ADP	IN	_	8	case	8:case	_	_	P	at	p.Cost	p.Locus	_	_	_	O-P-p.Cost|p.Locus
@@ -8146,7 +8146,7 @@
 1	Would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
 2	100	100	NUM	CD	NumType=Card	3	nummod	3:nummod	SpaceAfter=No	_	NUM	100	_	_	_	_	_	O-NUM
 3	%	%	SYM	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_	_	N	%	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-4	recomend	recomend	VERB	VB	VerbForm=Inf	0	root	0:root	_	_	V	recomend	v.communication	_	_	_	_	O-V-v.communication
+4	recomend	recommend	VERB	VB	VerbForm=Inf|Typo=Yes	0	root	0:root	_	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
 5	to	to	ADP	IN	_	6	case	6:case	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
 6	others	other	NOUN	NNS	Number=Plur	4	obl	4:obl:to	_	_	N	other	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	for	for	ADP	IN	_	10	case	10:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
@@ -8259,7 +8259,7 @@
 16	drive	drive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_	_	V	drive	v.motion	_	_	_	_	O-V-v.motion
 17	from	from	ADP	IN	_	19	case	19:case	_	_	P	from	p.Source	p.Source	_	_	_	O-P-p.Source
 18	central	central	ADJ	JJ	Degree=Pos	19	amod	19:amod	_	_	ADJ	central	_	_	_	_	_	O-ADJ
-19	Phx	Phx	PROPN	NNP	Number=Sing	16	obl	16:obl:from	_	_	N	Phx	n.LOCATION	_	_	_	_	O-N-n.LOCATION
+19	Phx	Phoenix	PROPN	NNP	Number=Sing|Abbr=Yes	16	obl	16:obl:from	_	_	N	Phoenix	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 20	to	to	PART	TO	_	21	mark	21:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 21	come	come	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_	_	V	come	v.motion	_	_	_	_	O-V-v.motion
 22	here	here	ADV	RB	PronType=Dem	21	advmod	21:advmod	SpaceAfter=No	_	ADV	here	_	_	_	_	_	O-ADV
