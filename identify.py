@@ -6,7 +6,6 @@ import json
 from collections import defaultdict
 from operator import itemgetter
 
-import tags2sst
 from helpers import *
 
 PREPS_MASTER = {"a", "abaft", "aboard", "about", "above", "abreast", "abroad", "absent", "across",
@@ -345,6 +344,7 @@ def identify(model, args):
             i += 1
 
         if args.sst:
+            import tags2sst
             _json = {}
             _json["words"] = []
             _json["lemmas"] = []
