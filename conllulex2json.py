@@ -94,7 +94,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                     if ss!=ss2:
                         ssA, ss2A = ancestors(ss), ancestors(ss2)
                         # there are just a few permissible combinations where one is the ancestor of the other
-                        if (ss,ss2) not in {('p.Whole','p.Gestalt'), ('p.Goal','p.Locus'), ('p.Circumstance','p.Locus'), 
+                        if (ss,ss2) not in {('p.Whole','p.Gestalt'), ('p.Goal','p.Locus'), ('p.Circumstance','p.Locus'),
                             ('p.Circumstance','p.Path'), ('p.Locus','p.Goal'), ('p.Locus','p.Source'), ('p.Characteristic','p.Stuff')}:
                             assert ss not in ss2A,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
                             assert ss2 not in ssA,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
@@ -265,7 +265,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                         sent['smwes'][smwe_group]['ss'] = ss_mapper(tok['ss']) if tok['ss']!='_' else None
                         sent['smwes'][smwe_group]['ss2'] = ss_mapper(tok['ss2']) if tok['ss2']!='_' else None
                     else:
-                        assert ' ' not in tok['lexlemma']
+                        assert tok['lexlemma']=='_',f"In {sent['sent_id']}, token is non-initial in a strong MWE, so lexlemma should be '_': {tok}"
                         assert tok['lexcat']=='_',f"In {sent['sent_id']}, token is non-initial in a strong MWE, so lexcat should be '_': {tok}"
                 else:
                     tok['smwe'] = None
@@ -296,6 +296,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                         assert tok['wcat']=='_'
                 else:
                     tok['wmwe'] = None
+                    assert tok['wlemma']=='_',f"In {sent['sent_id']}, \"{tok['wlemma']}\" is present in the weak multiword expression lemma field, but token is not part of any weak MWE"
+                    assert tok['wcat']=='_',f"In {sent['sent_id']}, \"{tok['wcat']}\" is present in the weak multiword expression category field, but token is not part of any weak MWE"
                 del tok['wlemma']
                 del tok['wcat']
 
