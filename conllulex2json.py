@@ -312,40 +312,46 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
     if lc_tbd>0:
         print('Tokens with lexcat TBD:', lc_tbd, file=sys.stderr)
 
-if __name__=='__main__':
-    print('[')
+def print_sent_json(sent):
     list_fields = ("toks", "etoks")
     dict_fields = ("swes", "smwes", "wmwes")
+    
+    sent_copy = dict(sent)
+    for fld in list_fields+dict_fields:
+        del sent_copy[fld]
+    print(json.dumps(sent_copy, indent=1)[:-2], end=',\n')
+    for fld in list_fields:
+        print('   ', json.dumps(fld)+':', '[', end='')
+        if sent[fld]:
+            print()
+            print(',\n'.join('      ' + json.dumps(v) for v in sent[fld]))
+            print('    ],')
+        else:
+            print('],')
+    for fld in dict_fields:
+        print('   ', json.dumps(fld)+':', '{', end='')
+        if sent[fld]:
+            print()
+            print(',\n'.join('      ' + json.dumps(str(k))+': ' + json.dumps(v) for k,v in sent[fld].items()))
+            print('    }', end='')
+        else:
+            print('}', end='')
+        print(',' if fld!="wmwes" else '')
+    print('}', end='')
+
+def print_json(sents):
+    print('[')
     first = True
+    for sent in sents:
+        # specially format the output
+        if first:
+            first = False
+        else:
+            print(',')
+        print_sent_json(sent)
+    print(']')
+
+if __name__=='__main__':
     fname = sys.argv[1]
     with open(fname, encoding='utf-8') as inF:
-        for sent in load_sents(inF):
-            # specially format the output
-            if first:
-                first = False
-            else:
-                print(',')
-            #print(json.dumps(sent))
-            sent_copy = dict(sent)
-            for fld in list_fields+dict_fields:
-                del sent_copy[fld]
-            print(json.dumps(sent_copy, indent=1)[:-2], end=',\n')
-            for fld in list_fields:
-                print('   ', json.dumps(fld)+':', '[', end='')
-                if sent[fld]:
-                    print()
-                    print(',\n'.join('      ' + json.dumps(v) for v in sent[fld]))
-                    print('    ],')
-                else:
-                    print('],')
-            for fld in dict_fields:
-                print('   ', json.dumps(fld)+':', '{', end='')
-                if sent[fld]:
-                    print()
-                    print(',\n'.join('      ' + json.dumps(str(k))+': ' + json.dumps(v) for k,v in sent[fld].items()))
-                    print('    }', end='')
-                else:
-                    print('}', end='')
-                print(',' if fld!="wmwes" else '')
-            print('}', end='')
-        print(']')
+        print_json(load_sents(inF))
