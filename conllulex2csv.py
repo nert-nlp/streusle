@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Given a .conllulex file, convert it to a CSV format readable by Excel. 
+Given a .conllulex file, convert it to a CSV format readable by Excel.
 See EXCEL.md for instructions.
 
 Args: inputfile, outputfile
@@ -15,8 +15,8 @@ from itertools import chain
 
 CONLLU = ('ID', 'FORM', 'LEMMA', 'UPOS', 'XPOS', 'FEATS', 'HEAD', 'DEPREL', 'DEPS', 'MISC')
          # 1     2       3        4       5       6        7       8         9       10
-STREUSLE = ('SMWE', 'LEXCAT', 'LEXLEMMA', 'SS', 'SS2', 'WMWE', 'WLEMMA', 'WCAT', 'LEXTAG')
-           # 11      12        13          14    15     16      17        18      19
+STREUSLE = ('SMWE', 'LEXCAT', 'LEXLEMMA', 'SS', 'SS2', 'WMWE', 'WCAT', 'WLEMMA', 'LEXTAG')
+           # 11      12        13          14    15     16      17      18        19
 
 FIELDS = CONLLU + STREUSLE
 
