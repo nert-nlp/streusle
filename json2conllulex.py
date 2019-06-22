@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Given a file in the STREUSLE JSON format, convert it to the .conllulex format.
-Relies on sentence IDs being in the format DOCID-SENTNUM.
+Relies on sentence IDs being in the format DOCID-SENTNUM, where SENTNUM contains no hyphens.
 
 Args: inputfile
 
@@ -48,7 +48,6 @@ with open(inFname, encoding='utf-8') as inF:
             before, subnum, s = etok["#"]
             etok["#"] = s
             toks.insert(before, etok)
-            #assert not sent["etoks"],'Ellipsis tokens not supported'
         for tok in toks:
             isEllipsis = isinstance(tok["#"], str)
             if isEllipsis: assert '.' in tok["#"]
