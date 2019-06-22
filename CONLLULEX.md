@@ -16,7 +16,7 @@ The markup for each sentence consists of:
 - a header section with lines of the form `# key = value`, and
 - a body consisting of tokens, one per line.
 
-As an illustration, refer to the following example (preferably in a spreadsheet editor 
+As an illustration, refer to the following example (preferably in a spreadsheet editor
 such as Excel: see [EXCEL.md](EXCEL.md) for instructions).
 
 ```
@@ -108,9 +108,9 @@ The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
 16. WMWE: Weak MWE grouping and position, analogous to the SMWE column. In the example, *have experience w* forms a weak MWE, and this is indicated with WMWE=`3:1`, `3:2`, and `3:3` on the respective tokens. Weak MWE identifiers are kept distinct from strong MWE identifiers.
 
-17. WLEMMA: If the token begins a weak MWE, as *have* does, then this column holds the lemmas of its constituent words. Otherwise, it is blank (`_`).
+17. WCAT: Placeholder for a weak MWE category (currently not used).
 
-18. WCAT: Placeholder for a weak MWE category (currently not used).
+18. WLEMMA: If the token begins a weak MWE, as *have* does, then this column holds the lemmas of its constituent words. Otherwise, it is blank (`_`).
 
 19. LEXTAG: BIO-style tag summarizing the full lexical analysis, including any strong and weak MWE segmentations, LEXCAT, and supersenses. This is intended for sequence taggers.
 
