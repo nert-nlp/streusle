@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Given a .conllulex file, convert it to a CSV format readable by Excel.
-See EXCEL.md for instructions.
+Given a .conllulex file, remove all STREUSLE columns except the lextag column
+(the last one).
 
-Args: inputfile, outputfile
+Args: inputfile
 
-@since: 2018-05-28
+@since: 2019-06-20
 @author: Nathan Schneider (@nschneid)
 """
 
@@ -21,13 +21,13 @@ STREUSLE = ('SMWE', 'LEXCAT', 'LEXLEMMA', 'SS', 'SS2', 'WMWE', 'WCAT', 'WLEMMA',
 FIELDS = CONLLU + STREUSLE
 
 
-inFname, outFname = sys.argv[1:]
+inFname, = sys.argv[1:]
 
-# Excel expects UTF-8 with BOM
-with open(inFname, encoding='utf-8') as inF, open(outFname, 'w', encoding='utf-8-sig') as outF:
-    writer = csv.writer(outF, quoting=csv.QUOTE_ALL, delimiter='\t', dialect='excel')
-    writer.writerow(FIELDS)
-    writer.writerow([])
+with open(inFname, encoding='utf-8') as inF:
     for ln in inF:
-        row = ln.strip().split('\t')
-        writer.writerow(row)
+        row = ln.strip()
+        if row and not row.startswith('#'):
+            row = row.split('\t')
+            row[10:18] = ['']*8 # retain the last column
+            row = '\t'.join(row)
+        print(row)
