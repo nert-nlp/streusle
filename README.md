@@ -36,6 +36,7 @@ Files
 - csv2conllulex.py: Script to convert an Excel-generated CSV file to .conllulex.
 - conllulex2UDlextag.py: Script to remove all STREUSLE fields except lextags.
 - UDlextag2json.py: Script to unpack lextags, populating remaining STREUSLE fields.
+- normalize_mwe_numbering.py: Script to ensure MWEs within each sentence are numbered in a consistent order.
 
 - govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
 - lexcatter.py: Utilities for working with lexical categories.
@@ -101,13 +102,14 @@ History
 -------
 
   - STREUSLE dev:
-  	* Added streuseval.py, a unified evaluation script for MWEs + supersenses.
-  	* Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
-  	* Added format conversion scripts conllulex2json.py, conllulex2UDlextag.py, and UDlextag2json.py.
-  	* Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
-  	* Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
-  	* Minor corrections in the data and validation improvements.
-  	* Updated UD parses to v2.2.
+     * Added streuseval.py, a unified evaluation script for MWEs + supersenses.
+     * Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
+     * Added format conversion scripts conllulex2json.py, conllulex2UDlextag.py, and UDlextag2json.py.
+     * Normalized the way MWEs within a sentence are numbered in markup (normalize_mwe_numbering.py).
+     * Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
+     * Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
+     * Minor corrections in the data and validation improvements.
+     * Updated UD parses to v2.2.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
     Implementation of SNACS (preposition/possessive supersense) target identification heuristics from [7].

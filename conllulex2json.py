@@ -69,10 +69,12 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
         for i,tok in enumerate(sent['toks'], 1):
             assert tok['#']==i
 
-        # check that MWEs are numbered from 1
-        # fix_mwe_numbering.py was written to correct this
-        for i,(k,mwe) in enumerate(sorted(chain(sent['smwes'].items(), sent['wmwes'].items()), key=lambda x: int(x[0])), 1):
-            assert int(k)==i,(sent['sent_id'],i,k,mwe)
+        # check that MWEs are numbered from 1 based on first token offset
+        xmwes =  [(e["toknums"][0], 's', mwenum) for mwenum,e in sent['smwes'].items()]
+        xmwes += [(e["toknums"][0], 'w', mwenum) for mwenum,e in sent['wmwes'].items()]
+        xmwes.sort()
+        for k,mwe in chain(sent['smwes'].items(), sent['wmwes'].items()):
+            assert xmwes[int(k)-1][2]==k,f"In {sent['sent_id']}, MWEs are not numbered in the correct order: use normalize_mwe_numbering.py to fix"
 
         # check that lexical & weak MWE lemmas are correct
         for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
@@ -315,7 +317,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
 def print_sent_json(sent):
     list_fields = ("toks", "etoks")
     dict_fields = ("swes", "smwes", "wmwes")
-    
+
     sent_copy = dict(sent)
     for fld in list_fields+dict_fields:
         del sent_copy[fld]
