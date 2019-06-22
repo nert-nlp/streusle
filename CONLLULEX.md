@@ -16,7 +16,7 @@ The markup for each sentence consists of:
 - a header section with lines of the form `# key = value`, and
 - a body consisting of tokens, one per line.
 
-As an illustration, refer to the following example (preferably in a spreadsheet editor 
+As an illustration, refer to the following example (preferably in a spreadsheet editor
 such as Excel: see [EXCEL.md](EXCEL.md) for instructions).
 
 ```
@@ -137,5 +137,7 @@ To simplify use cases like sorting and filtering by various components of the an
 The LEXTAG and LEMMA columns are sufficient to reconstruct columns 11-18 and the `mwe` string in the header
 (with the exception of 6 sentences, where the analysis in `mwe` is too complex to be encoded below and has
 thus been automatically simplified).
+The script [UDlextag2json.py](UDlextag2json.py) populates columns 11-18 given columns 1-10 and 19 (LEXTAG).
 
 A script is provided for checking internal consistency of the .conllulex file and converting to a JSON representation: [conllulex2json.py](conllulex2json.py). The JSON format contains the same information but consolidates columns 11-18 into lexical-level data structures under `"swes"` (single-word expressions), `"smwes"` (strong MWEs), and `"wmwes"` (weak MWEs). For Python scripts, the `conllulex2json` module can be imported for loading Python objects directly without storing a JSON file.
+[json2conllulex.py](json2conllulex.py) converts in the reverse direction, but does not perform validation.

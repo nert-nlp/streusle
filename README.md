@@ -31,8 +31,11 @@ Files
 - ACL2018.md: Links to resources reported in [7].
 
 - conllulex2json.py: Script to validate the data and convert it to JSON.
+- json2conllulex.py: Script to convert STREUSLE JSON to .conllulex.
 - conllulex2csv.py: Script to create an Excel-readable CSV file with the data.
 - csv2conllulex.py: Script to convert an Excel-generated CSV file to .conllulex.
+- conllulex2UDlextag.py: Script to remove all STREUSLE fields except lextags.
+- UDlextag2json.py: Script to unpack lextags, populating remaining STREUSLE fields.
 
 - govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
 - lexcatter.py: Utilities for working with lexical categories.
@@ -48,7 +51,7 @@ Files
 Format
 ------
 
-This release introduces a new tabular data format, [CONLLULEX](CONLLULEX.md), with a script to convert it to JSON. The .sst and .tags formats from STREUSLE 3.0 are not expressive enough for the 4.0 data, and are no longer supported.
+STREUSLE 4.0+ uses the [CONLLULEX](CONLLULEX.md) tabular data format, with scripts to convert to and from JSON as well as [Excel-compatible CSV](EXCEL.md). (The .sst and .tags formats from STREUSLE 3.0 are not expressive enough and are no longer supported.)
 
 References
 ----------
@@ -100,8 +103,10 @@ History
   - STREUSLE dev:
   	* Added streuseval.py, a unified evaluation script for MWEs + supersenses.
   	* Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
+  	* Added format conversion scripts conllulex2json.py, conllulex2UDlextag.py, and UDlextag2json.py.
   	* Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
   	* Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
+  	* Minor corrections in the data and validation improvements.
   	* Updated UD parses to v2.2.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
