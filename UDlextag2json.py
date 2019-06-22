@@ -52,9 +52,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
 
         # Note that numbering of strong+weak MWEs doesn't follow a consistent order in the data!
         # Ordering by first token offset (tiebreaker to strong MWE):
-        #xgroups = [(min(sg),'s',sg) for sg in sgroups] + [(min(wg),'w',wg) for wg in wgroups]
+        xgroups = [(min(sg),'s',sg) for sg in sgroups] + [(min(wg),'w',wg) for wg in wgroups]
         # Putting all strong expressions before any weak expressions:
-        xgroups = [(None,'s',sg) for sg in sgroups] +    [(None,'w',wg) for wg in wgroups]
+        #xgroups = [(None,'s',sg) for sg in sgroups] +    [(None,'w',wg) for wg in wgroups]
         # This means that the MWE columns are not *completely* determined by
         # the lextag in a way that matches the original data, but different MWE
         # orders does not matter semantically.
