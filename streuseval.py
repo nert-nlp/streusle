@@ -207,49 +207,63 @@ def form_groups(links):
         groupMap[b] = groupMap[a]
     return groups
 
-def eval_sent_links(goldmwetags, predmwetags, counts):
+def parse_mwe_links(mwetags):
     """
-    Construct links between consecutive MWE elements (strong or weak).
-    Then compute link-based P, R, F under two conditions--with weak links
-    removed, and with weak links converted to strong links--and average them.
+    Given a sequence of MWE tags, assert it to be valid,
+    and construct links between consecutive MWE elements (strong or weak).
+    Every variant of 'I' or 'i' will correspond to one link.
+    These links can subsequently be used to form MWE groups: see `form_groups()`
 
-    The provided MWE tag sequences are assumed to be valid;
-    e.g. the expected behavior is undefined if a
+    >>> parse_mwe_links(['O', 'B', 'I_', 'b', 'i~', 'I_', 'B', 'o', 'I_'])
+    [(1, 2, '_'), (3, 4, '~'), (2, 5, '_'), (6, 8, '_')]
+    >>> parse_mwe_links(['O', 'B', 'I_', 'b', 'i~', 'I~', 'I~', 'o', 'I_'])
+    [(1, 2, '_'), (3, 4, '~'), (2, 5, '~'), (5, 6, '~'), (6, 8, '_')]
+    >>> parse_mwe_links(['b', 'i_'])
+    Traceback (most recent call last):
+      ...
+    AssertionError: ['b', 'i_']
+    >>> parse_mwe_links(['B', 'I~', 'O', 'I~'])
+    Traceback (most recent call last):
+      ...
+    AssertionError: ['B', 'I~', 'O', 'I~']
+    >>> parse_mwe_links(['O', 'b', 'i_', 'O'])
+    Traceback (most recent call last):
+      ...
+    AssertionError: ['O', 'b', 'i_', 'O']
     """
-    # Verify the MWE tag sequence is valid
-    assert len(goldmwetags)==len(predmwetags)>0
-    assert RE_TAGGING.match(''.join(goldmwetags))
-    assert RE_TAGGING.match(''.join(predmwetags))
+
+    assert RE_TAGGING.match(''.join(mwetags)),mwetags
     # Sequences such as B I~ O I~ and O b i_ O are invalid.
 
     # Construct links from BIO tags
-    glinks, plinks = [], []
-    g_last_BI, p_last_BI = None, None
-    g_last_bi, p_last_bi = None, None
-    for j,(goldTag,predTag) in enumerate(zip(goldmwetags, predmwetags)):
-        assert goldTag in STRENGTH and predTag in STRENGTH
+    links = []
+    last_BI = None
+    last_bi = None
+    for j,tag in enumerate(mwetags):
+        assert tag in STRENGTH
 
-        if goldTag in {'I','I_','I~'}:
-            glinks.append((g_last_BI, j, STRENGTH[goldTag]))
-            g_last_BI = j
-        elif goldTag=='B':
-            g_last_BI = j
-        elif goldTag in {'i','i_','i~'}:
-            glinks.append((g_last_bi, j, STRENGTH[goldTag]))
-            g_last_bi = j
-        elif goldTag=='b':
-            g_last_bi = j
+        if tag in {'I','I_','I~'}:
+            links.append((last_BI, j, STRENGTH[tag]))
+            last_BI = j
+        elif tag=='B':
+            last_BI = j
+        elif tag in {'i','i_','i~'}:
+            links.append((last_bi, j, STRENGTH[tag]))
+            last_bi = j
+        elif tag=='b':
+            last_bi = j
 
-        if predTag in {'I','I_','I~'}:
-            plinks.append((p_last_BI, j, STRENGTH[predTag]))
-            p_last_BI = j
-        elif predTag=='B':
-            p_last_BI = j
-        elif predTag in {'i','i_','i~'}:
-            plinks.append((p_last_bi, j, STRENGTH[predTag]))
-            p_last_bi = j
-        elif predTag=='b':
-            p_last_bi = j
+    return links
+
+def eval_sent_links(goldmwetags, predmwetags, counts):
+    """
+    Compute link-based P, R, F under two conditions--with weak links
+    removed, and with weak links converted to strong links--and average them.
+    """
+    # Extract links, verifying that MWE tag sequence is valid
+    assert len(goldmwetags)==len(predmwetags)>0
+    glinks = parse_mwe_links(goldmwetags)
+    plinks = parse_mwe_links(predmwetags)
 
     # Count link overlaps
     for d in ('Link+', 'Link-'):    # Link+ = strengthen weak links, Link- = remove weak links

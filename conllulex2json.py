@@ -69,10 +69,12 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
         for i,tok in enumerate(sent['toks'], 1):
             assert tok['#']==i
 
-        # check that MWEs are numbered from 1
-        # fix_mwe_numbering.py was written to correct this
-        for i,(k,mwe) in enumerate(sorted(chain(sent['smwes'].items(), sent['wmwes'].items()), key=lambda x: int(x[0])), 1):
-            assert int(k)==i,(sent['sent_id'],i,k,mwe)
+        # check that MWEs are numbered from 1 based on first token offset
+        xmwes =  [(e["toknums"][0], 's', mwenum) for mwenum,e in sent['smwes'].items()]
+        xmwes += [(e["toknums"][0], 'w', mwenum) for mwenum,e in sent['wmwes'].items()]
+        xmwes.sort()
+        for k,mwe in chain(sent['smwes'].items(), sent['wmwes'].items()):
+            assert xmwes[int(k)-1][2]==k,f"In {sent['sent_id']}, MWEs are not numbered in the correct order: use normalize_mwe_numbering.py to fix"
 
         # check that lexical & weak MWE lemmas are correct
         for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
@@ -94,7 +96,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                     if ss!=ss2:
                         ssA, ss2A = ancestors(ss), ancestors(ss2)
                         # there are just a few permissible combinations where one is the ancestor of the other
-                        if (ss,ss2) not in {('p.Whole','p.Gestalt'), ('p.Goal','p.Locus'), ('p.Circumstance','p.Locus'), 
+                        if (ss,ss2) not in {('p.Whole','p.Gestalt'), ('p.Goal','p.Locus'), ('p.Circumstance','p.Locus'),
                             ('p.Circumstance','p.Path'), ('p.Locus','p.Goal'), ('p.Locus','p.Source'), ('p.Characteristic','p.Stuff')}:
                             assert ss not in ss2A,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
                             assert ss2 not in ssA,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
@@ -265,7 +267,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                         sent['smwes'][smwe_group]['ss'] = ss_mapper(tok['ss']) if tok['ss']!='_' else None
                         sent['smwes'][smwe_group]['ss2'] = ss_mapper(tok['ss2']) if tok['ss2']!='_' else None
                     else:
-                        assert ' ' not in tok['lexlemma']
+                        assert tok['lexlemma']=='_',f"In {sent['sent_id']}, token is non-initial in a strong MWE, so lexlemma should be '_': {tok}"
                         assert tok['lexcat']=='_',f"In {sent['sent_id']}, token is non-initial in a strong MWE, so lexcat should be '_': {tok}"
                 else:
                     tok['smwe'] = None
@@ -296,6 +298,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                         assert tok['wcat']=='_'
                 else:
                     tok['wmwe'] = None
+                    assert tok['wlemma']=='_',f"In {sent['sent_id']}, \"{tok['wlemma']}\" is present in the weak multiword expression lemma field, but token is not part of any weak MWE"
+                    assert tok['wcat']=='_',f"In {sent['sent_id']}, \"{tok['wcat']}\" is present in the weak multiword expression category field, but token is not part of any weak MWE"
                 del tok['wlemma']
                 del tok['wcat']
 
@@ -310,40 +314,46 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
     if lc_tbd>0:
         print('Tokens with lexcat TBD:', lc_tbd, file=sys.stderr)
 
-if __name__=='__main__':
-    print('[')
+def print_sent_json(sent):
     list_fields = ("toks", "etoks")
     dict_fields = ("swes", "smwes", "wmwes")
+
+    sent_copy = dict(sent)
+    for fld in list_fields+dict_fields:
+        del sent_copy[fld]
+    print(json.dumps(sent_copy, indent=1)[:-2], end=',\n')
+    for fld in list_fields:
+        print('   ', json.dumps(fld)+':', '[', end='')
+        if sent[fld]:
+            print()
+            print(',\n'.join('      ' + json.dumps(v) for v in sent[fld]))
+            print('    ],')
+        else:
+            print('],')
+    for fld in dict_fields:
+        print('   ', json.dumps(fld)+':', '{', end='')
+        if sent[fld]:
+            print()
+            print(',\n'.join('      ' + json.dumps(str(k))+': ' + json.dumps(v) for k,v in sent[fld].items()))
+            print('    }', end='')
+        else:
+            print('}', end='')
+        print(',' if fld!="wmwes" else '')
+    print('}', end='')
+
+def print_json(sents):
+    print('[')
     first = True
+    for sent in sents:
+        # specially format the output
+        if first:
+            first = False
+        else:
+            print(',')
+        print_sent_json(sent)
+    print(']')
+
+if __name__=='__main__':
     fname = sys.argv[1]
     with open(fname, encoding='utf-8') as inF:
-        for sent in load_sents(inF):
-            # specially format the output
-            if first:
-                first = False
-            else:
-                print(',')
-            #print(json.dumps(sent))
-            sent_copy = dict(sent)
-            for fld in list_fields+dict_fields:
-                del sent_copy[fld]
-            print(json.dumps(sent_copy, indent=1)[:-2], end=',\n')
-            for fld in list_fields:
-                print('   ', json.dumps(fld)+':', '[', end='')
-                if sent[fld]:
-                    print()
-                    print(',\n'.join('      ' + json.dumps(v) for v in sent[fld]))
-                    print('    ],')
-                else:
-                    print('],')
-            for fld in dict_fields:
-                print('   ', json.dumps(fld)+':', '{', end='')
-                if sent[fld]:
-                    print()
-                    print(',\n'.join('      ' + json.dumps(str(k))+': ' + json.dumps(v) for k,v in sent[fld].items()))
-                    print('    }', end='')
-                else:
-                    print('}', end='')
-                print(',' if fld!="wmwes" else '')
-            print('}', end='')
-        print(']')
+        print_json(load_sents(inF))

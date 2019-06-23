@@ -53,6 +53,18 @@ PrepWiki tech guru
 
 * Michael T. Mordowanec
 
+Xposition tech gurus
+
+* Max Kim
+* Joseph Ledford
+* Austin Blodgett
+
+Bug reports and user feedback
+
+* Daniel Hershcovich
+* Nelson Liu
+* Jakob Prange
+
 Special thanks
 
 * Noah Smith
