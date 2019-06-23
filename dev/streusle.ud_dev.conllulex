@@ -346,11 +346,11 @@
 # text = Lied right to my face then denied it.
 # streusle_sent_id = ewtb.r.015573.4
 # mwe = Lied~ right ~to_ my _face then denied it .
-1	Lied	lie	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	lie	v.communication	_	2:1	_	lie to face	B-V-v.communication
+1	Lied	lie	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	lie	v.communication	_	1:1	_	lie to face	B-V-v.communication
 2	right	right	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	right	_	_	_	_	_	o-ADV
-3	to	to	ADP	IN	_	5	case	5:case	_	1:1	PP	to face	p.Goal	p.Goal	2:2	_	_	I~-PP-p.Goal
+3	to	to	ADP	IN	_	5	case	5:case	_	2:1	PP	to face	p.Goal	p.Goal	1:2	_	_	I~-PP-p.Goal
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	my	p.Whole	p.Gestalt	_	_	_	o-PRON.POSS-p.Whole|p.Gestalt
-5	face	face	NOUN	NN	Number=Sing	1	obl	1:obl:to	_	1:2	_	_	_	_	2:3	_	_	I_
+5	face	face	NOUN	NN	Number=Sing	1	obl	1:obl:to	_	2:2	_	_	_	_	1:3	_	_	I_
 6	then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	_	_	ADV	then	_	_	_	_	_	O-ADV
 7	denied	deny	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	1:conj	_	_	V	deny	v.communication	_	_	_	_	O-V-v.communication
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	SpaceAfter=No	_	PRON	it	_	_	_	_	_	O-PRON
@@ -435,10 +435,10 @@
 # streusle_sent_id = ewtb.r.016861.4
 # mwe = I highly~recommend Bay_View if you are looking for Accommodation in Camps_Bay .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
-2	highly	highly	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	highly	_	_	3:1	_	highly recommend	B-ADV
-3	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	recommend	v.communication	_	3:2	_	_	I~-V-v.communication
-4	Bay	Bay	PROPN	NNP	Number=Sing	5	compound	5:compound	_	1:1	N	Bay View	n.GROUP	_	_	_	_	B-N-n.GROUP
-5	View	View	PROPN	NNP	Number=Sing	3	obj	3:obj	_	1:2	_	_	_	_	_	_	_	I_
+2	highly	highly	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	highly	_	_	1:1	_	highly recommend	B-ADV
+3	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	recommend	v.communication	_	1:2	_	_	I~-V-v.communication
+4	Bay	Bay	PROPN	NNP	Number=Sing	5	compound	5:compound	_	2:1	N	Bay View	n.GROUP	_	_	_	_	B-N-n.GROUP
+5	View	View	PROPN	NNP	Number=Sing	3	obj	3:obj	_	2:2	_	_	_	_	_	_	_	I_
 6	if	if	SCONJ	IN	_	9	mark	9:mark	_	_	SCONJ	if	_	_	_	_	_	O-SCONJ
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	9:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
@@ -446,8 +446,8 @@
 10	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Theme	p.Theme	_	_	_	O-P-p.Theme
 11	Accommodation	accommodation	NOUN	NN	Number=Sing	9	obl	9:obl:for	_	_	N	accommodation	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 12	in	in	ADP	IN	_	14	case	14:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
-13	Camps	Camps	PROPN	NNPS	Number=Plur	14	compound	14:compound	_	2:1	N	Camps Bay	n.LOCATION	_	_	_	_	B-N-n.LOCATION
-14	Bay	Bay	PROPN	NNP	Number=Sing	11	nmod	11:nmod:in	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
+13	Camps	Camps	PROPN	NNPS	Number=Plur	14	compound	14:compound	_	3:1	N	Camps Bay	n.LOCATION	_	_	_	_	B-N-n.LOCATION
+14	Bay	Bay	PROPN	NNP	Number=Sing	11	nmod	11:nmod:in	SpaceAfter=No	3:2	_	_	_	_	_	_	_	I_
 15	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-018268
@@ -886,7 +886,7 @@
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	_	DET	a	_	_	_	_	_	O-DET
 4	excellent	excellent	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	excellent	_	_	_	_	_	O-ADJ
-5	host	host	NOUN	NN	Number=Sing	0	root	7:nsubj	_	_	N	host	n.PERSON	_	_	_	_	O-N-n.PERSON
+5	host	host	NOUN	NN	Number=Sing	0	root	0:root|7:nsubj	_	_	N	host	n.PERSON	_	_	_	_	O-N-n.PERSON
 6	who	who	PRON	WP	PronType=Rel	7	nsubj	5:ref	_	_	PRON	who	_	_	_	_	_	O-PRON
 7	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_	_	V	do	v.social	_	_	_	_	O-V-v.social
 8	yummy	yummy	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	yummy	_	_	_	_	_	O-ADJ
@@ -1329,8 +1329,8 @@
 11	's	's	PART	POS	_	10	case	10:case	_	1:2	_	_	_	_	_	_	_	I_
 12	refused	refuse	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	20:advcl:when	_	_	V	refuse	v.communication	_	_	_	_	O-V-v.communication
 13	to	to	PART	TO	_	14	mark	14:mark	_	_	INF	to	_	_	_	_	_	O-INF
-14	work	work	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_	_	V	work	v.social	_	3:1	_	work on	B-V-v.social
-15	on	on	ADP	IN	_	17	case	17:case	_	_	P	on	p.Theme	p.Theme	3:2	_	_	I~-P-p.Theme
+14	work	work	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_	_	V	work	v.social	_	2:1	_	work on	B-V-v.social
+15	on	on	ADP	IN	_	17	case	17:case	_	_	P	on	p.Theme	p.Theme	2:2	_	_	I~-P-p.Theme
 16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 17	bike	bike	NOUN	NN	Number=Sing	14	obl	14:obl:on	SpaceAfter=No	_	N	bike	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 18	,	,	PUNCT	,	_	20	punct	20:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
@@ -1345,8 +1345,8 @@
 27	and	and	CCONJ	CC	_	28	cc	28:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 28	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	20:conj:and	_	_	V	do	v.stative	_	_	_	_	O-V-v.stative
 29	what	what	PRON	WP	PronType=Int	28	obj	28:obj	_	_	PRON	what	_	_	_	_	_	O-PRON
-30	Alan	Alan	PROPN	NNP	Number=Sing	32	nmod:poss	32:nmod:poss	SpaceAfter=No	2:1	N	Alan 's	n.GROUP	_	_	_	_	B-N-n.GROUP
-31	's	's	PART	POS	_	30	case	30:case	_	2:2	_	_	_	_	_	_	_	I_
+30	Alan	Alan	PROPN	NNP	Number=Sing	32	nmod:poss	32:nmod:poss	SpaceAfter=No	3:1	N	Alan 's	n.GROUP	_	_	_	_	B-N-n.GROUP
+31	's	's	PART	POS	_	30	case	30:case	_	3:2	_	_	_	_	_	_	_	I_
 32	mechanic	mechanic	NOUN	NN	Number=Sing	35	nsubj	35:nsubj	_	_	N	mechanic	n.PERSON	_	_	_	_	O-N-n.PERSON
 33	would	would	AUX	MD	VerbForm=Fin	35	aux	35:aux	SpaceAfter=No	_	AUX	would	_	_	_	_	_	O-AUX
 34	n't	not	PART	RB	_	35	advmod	35:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
@@ -1477,10 +1477,10 @@
 2	family	family	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	5:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
-5	trusting	trust	VERB	VBG	VerbForm=Ger	0	root	0:root	_	_	V	trust	v.cognition	_	2:1	_	trust with	B-V-v.cognition
-6	Doctor	Doctor	PROPN	NNP	Number=Sing	5	obj	5:obj	_	1:1	N	Doctor Hank	n.PERSON	_	_	_	_	b-N-n.PERSON
-7	Hank	Hank	PROPN	NNP	Number=Sing	6	flat	6:flat	_	1:2	_	_	_	_	_	_	_	i_
-8	with	with	ADP	IN	_	10	case	10:case	_	_	P	with	p.Topic	p.Topic	2:2	_	_	I~-P-p.Topic
+5	trusting	trust	VERB	VBG	VerbForm=Ger	0	root	0:root	_	_	V	trust	v.cognition	_	1:1	_	trust with	B-V-v.cognition
+6	Doctor	Doctor	PROPN	NNP	Number=Sing	5	obj	5:obj	_	2:1	N	Doctor Hank	n.PERSON	_	_	_	_	b-N-n.PERSON
+7	Hank	Hank	PROPN	NNP	Number=Sing	6	flat	6:flat	_	2:2	_	_	_	_	_	_	_	i_
+8	with	with	ADP	IN	_	10	case	10:case	_	_	P	with	p.Topic	p.Topic	1:2	_	_	I~-P-p.Topic
 9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.Whole	p.Gestalt	_	_	_	O-PRON.POSS-p.Whole|p.Gestalt
 10	teeth	teeth	NOUN	NN	Number=Sing	5	obl	5:obl:with	_	_	N	teeth	n.BODY	_	_	_	_	O-N-n.BODY
 11	for	for	ADP	IN	_	15	case	15:case	_	_	P	for	p.Duration	p.Duration	_	_	_	O-P-p.Duration
@@ -1525,17 +1525,17 @@
 1	If	if	SCONJ	IN	_	4	mark	4:mark	_	_	SCONJ	if	_	_	_	_	_	O-SCONJ
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	4:nsubj	SpaceAfter=No	_	PRON	you	_	_	_	_	_	O-PRON
 3	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
-4	looking	look	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl:if	_	_	V	look	v.cognition	_	2:1	_	look for	B-V-v.cognition
-5	for	for	ADP	IN	_	8	case	8:case	_	_	P	for	p.Theme	p.Theme	2:2	_	_	I~-P-p.Theme
+4	looking	look	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl:if	_	_	V	look	v.cognition	_	1:1	_	look for	B-V-v.cognition
+5	for	for	ADP	IN	_	8	case	8:case	_	_	P	for	p.Theme	p.Theme	1:2	_	_	I~-P-p.Theme
 6	homestyle	homestyle	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	homestyle	_	_	_	_	_	O-ADJ
 7	Japanese	japanese	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	japanese	_	_	_	_	_	O-ADJ
 8	food	food	NOUN	NN	Number=Sing	4	obl	4:obl:for	SpaceAfter=No	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 9	,	,	PUNCT	,	_	13	punct	13:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:nsubj	_	1:1	V.VID	you can not beat this	v.competition	_	_	_	_	B-V.VID-v.competition
-11	ca	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
-12	n't	not	PART	RB	_	13	advmod	13:advmod	_	1:3	_	_	_	_	_	_	_	I_
-13	beat	beat	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:4	_	_	_	_	_	_	_	I_
-14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	13:obj	_	1:5	_	_	_	_	_	_	_	I_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:nsubj	_	2:1	V.VID	you can not beat this	v.competition	_	_	_	_	B-V.VID-v.competition
+11	ca	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
+12	n't	not	PART	RB	_	13	advmod	13:advmod	_	2:3	_	_	_	_	_	_	_	I_
+13	beat	beat	VERB	VB	VerbForm=Inf	0	root	0:root	_	2:4	_	_	_	_	_	_	_	I_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	13:obj	_	2:5	_	_	_	_	_	_	_	I_
 
 # newdoc id = reviews-070492
 # sent_id = reviews-070492-0001
@@ -1717,15 +1717,15 @@
 # text = Give yourself the gift of visiting Winterowd Fine Art!
 # streusle_sent_id = ewtb.r.072271.5
 # mwe = Give~ yourself ~the~gift~of visiting Winterowd_Fine_Art !
-1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	give	v.social	_	2:1	_	give the gift of	B-V-v.social
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	give	v.social	_	1:1	_	give the gift of	B-V-v.social
 2	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	1	iobj	1:iobj	_	_	PRON	yourself	_	_	_	_	_	o-PRON
-3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	2:2	_	_	I~-DET
-4	gift	gift	NOUN	NN	Number=Sing	1	obj	1:obj	_	_	N	gift	n.COGNITION	_	2:3	_	_	I~-N-n.COGNITION
-5	of	of	SCONJ	IN	_	6	mark	6:mark	_	_	P	of	p.Identity	p.Identity	2:4	_	_	I~-P-p.Identity
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	1:2	_	_	I~-DET
+4	gift	gift	NOUN	NN	Number=Sing	1	obj	1:obj	_	_	N	gift	n.COGNITION	_	1:3	_	_	I~-N-n.COGNITION
+5	of	of	SCONJ	IN	_	6	mark	6:mark	_	_	P	of	p.Identity	p.Identity	1:4	_	_	I~-P-p.Identity
 6	visiting	visit	VERB	VBG	VerbForm=Ger	4	acl	4:acl:of	_	_	V	visit	v.social	_	_	_	_	O-V-v.social
-7	Winterowd	Winterowd	PROPN	NNP	Number=Sing	9	compound	9:compound	_	1:1	N	Winterowd Fine Art	n.GROUP	_	_	_	_	B-N-n.GROUP
-8	Fine	Fine	PROPN	NNP	Number=Sing	9	compound	9:compound	_	1:2	_	_	_	_	_	_	_	I_
-9	Art	Art	PROPN	NNP	Number=Sing	6	obj	6:obj	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
+7	Winterowd	Winterowd	PROPN	NNP	Number=Sing	9	compound	9:compound	_	2:1	N	Winterowd Fine Art	n.GROUP	_	_	_	_	B-N-n.GROUP
+8	Fine	Fine	PROPN	NNP	Number=Sing	9	compound	9:compound	_	2:2	_	_	_	_	_	_	_	I_
+9	Art	Art	PROPN	NNP	Number=Sing	6	obj	6:obj	SpaceAfter=No	2:3	_	_	_	_	_	_	_	I_
 10	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-073356
@@ -2311,17 +2311,17 @@
 1	If	if	SCONJ	IN	_	4	mark	4:mark	_	_	SCONJ	if	_	_	_	_	_	O-SCONJ
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
-4	looking	look	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:if	_	_	V	look	v.cognition	_	2:1	_	look for	B-V-v.cognition
-5	for	for	ADP	IN	_	9	case	9:case	_	_	P	for	p.Theme	p.Theme	2:2	_	_	I~-P-p.Theme
+4	looking	look	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:if	_	_	V	look	v.cognition	_	1:1	_	look for	B-V-v.cognition
+5	for	for	ADP	IN	_	9	case	9:case	_	_	P	for	p.Theme	p.Theme	1:2	_	_	I~-P-p.Theme
 6	authentic	authentic	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	authentic	_	_	_	_	_	O-ADJ
 7	British	british	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	british	_	_	_	_	_	O-ADJ
 8	meat	meat	NOUN	NN	Number=Sing	9	compound	9:compound	_	_	N	meat	n.FOOD	_	_	_	_	O-N-n.FOOD
 9	pies	pie	NOUN	NNS	Number=Plur	4	obl	4:obl:for	SpaceAfter=No	_	N	pie	n.FOOD	_	_	_	_	O-N-n.FOOD
 10	,	,	PUNCT	,	_	12	punct	12:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 11	then	then	ADV	RB	PronType=Dem	12	advmod	12:advmod	_	_	ADV	then	_	_	_	_	_	O-ADV
-12	look	look	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:1	!!@	look know further	_	_	_	_	_	B-!!@
-13	know	know	ADV	RB	_	14	advmod	14:advmod	_	1:2	_	_	_	_	_	_	_	I_
-14	further	further	ADV	RBR	Degree=Cmp	12	advmod	12:advmod	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
+12	look	look	VERB	VB	VerbForm=Inf	0	root	0:root	_	2:1	!!@	look know further	_	_	_	_	_	B-!!@
+13	know	know	ADV	RB	_	14	advmod	14:advmod	_	2:2	_	_	_	_	_	_	_	I_
+14	further	further	ADV	RBR	Degree=Cmp	12	advmod	12:advmod	SpaceAfter=No	2:3	_	_	_	_	_	_	_	I_
 15	.	.	PUNCT	.	_	12	punct	12:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-097507-0003
@@ -2386,15 +2386,15 @@
 # text = answered all my questions, and called me back when I needed something.
 # streusle_sent_id = ewtb.r.099279.2
 # mwe = answered~ all my ~questions , and called_ me _back when I needed something .
-1	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	answer	v.communication	_	2:1	_	answer question	B-V-v.communication
+1	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	answer	v.communication	_	1:1	_	answer question	B-V-v.communication
 2	all	all	DET	PDT	_	4	det:predet	4:det:predet	_	_	DET	all	_	_	_	_	_	o-DET
 3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	my	p.Originator	p.Gestalt	_	_	_	o-PRON.POSS-p.Originator|p.Gestalt
-4	questions	question	NOUN	NNS	Number=Plur	1	obj	1:obj	SpaceAfter=No	_	N	question	n.COMMUNICATION	_	2:2	_	_	I~-N-n.COMMUNICATION
+4	questions	question	NOUN	NNS	Number=Plur	1	obj	1:obj	SpaceAfter=No	_	N	question	n.COMMUNICATION	_	1:2	_	_	I~-N-n.COMMUNICATION
 5	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-7	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	1:conj:and	_	1:1	V.VPC.semi	call back	v.communication	_	_	_	_	B-V.VPC.semi-v.communication
+7	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	1:conj:and	_	2:1	V.VPC.semi	call back	v.communication	_	_	_	_	B-V.VPC.semi-v.communication
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	7:obj	_	_	PRON	I	_	_	_	_	_	o-PRON
-9	back	back	ADV	RB	_	7	advmod	7:advmod	_	1:2	_	_	_	_	_	_	_	I_
+9	back	back	ADV	RB	_	7	advmod	7:advmod	_	2:2	_	_	_	_	_	_	_	I_
 10	when	when	ADV	WRB	PronType=Int	12	mark	12:mark	_	_	ADV	when	_	_	_	_	_	O-ADV
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 12	needed	need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:when	_	_	V	need	v.cognition	_	_	_	_	O-V-v.cognition
@@ -2914,8 +2914,8 @@
 19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	_	_	DET	a	_	_	_	_	_	O-DET
 20	HUGE	huge	ADJ	JJ	Degree=Pos	21	amod	21:amod	_	_	ADJ	huge	_	_	_	_	_	O-ADJ
 21	number	number	NOUN	NN	Number=Sing	14	appos	14:appos	_	_	N	number	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-22	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	25	case	25:case	_	_	V	compare	v.stative	_	2:1	_	compare to	B-V-v.stative
-23	to	to	ADP	IN	_	25	case	25:case	_	_	P	to	p.ComparisonRef	p.Goal	2:2	_	_	I~-P-p.ComparisonRef|p.Goal
+22	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	25	case	25:case	_	_	V	compare	v.stative	_	1:1	_	compare to	B-V-v.stative
+23	to	to	ADP	IN	_	25	case	25:case	_	_	P	to	p.ComparisonRef	p.Goal	1:2	_	_	I~-P-p.ComparisonRef|p.Goal
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_	_	DET	the	_	_	_	_	_	O-DET
 25	others	other	NOUN	NNS	Number=Plur	21	nmod	21:nmod:to	_	_	N	other	n.GROUP	_	_	_	_	O-N-n.GROUP
 26	in	in	ADP	IN	_	28	case	28:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -2931,8 +2931,8 @@
 36	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	_	_	DET	the	_	_	_	_	_	O-DET
 37	same	same	ADJ	JJ	Degree=Pos	40	amod	40:amod	_	_	ADJ	same	_	_	_	_	_	O-ADJ
 38	unique	unique	ADJ	JJ	Degree=Pos	40	amod	40:amod	_	_	ADJ	unique	_	_	_	_	_	O-ADJ
-39	grammar	grammar	NOUN	NN	Number=Sing	40	compound	40:compound	_	1:1	N	grammar structure	n.COGNITION	_	_	_	_	B-N-n.COGNITION
-40	structure	structure	NOUN	NN	Number=Sing	35	obj	35:obj	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
+39	grammar	grammar	NOUN	NN	Number=Sing	40	compound	40:compound	_	2:1	N	grammar structure	n.COGNITION	_	_	_	_	B-N-n.COGNITION
+40	structure	structure	NOUN	NN	Number=Sing	35	obj	35:obj	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
 41	?	?	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	?	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-125629-0002
@@ -3603,7 +3603,7 @@
 9	field	field	NOUN	NN	Number=Sing	2	obl	2:obl:on	SpaceAfter=No	_	N	field	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 10	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 11	strongly	strongly	ADV	RB	_	12	advmod	12:advmod	_	_	ADV	strongly	_	_	_	_	_	O-ADV
-12	recomend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|Typo=Yes	2	parataxis	2:parataxis	SpaceAfter=No	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
+12	recomend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	2	parataxis	2:parataxis	SpaceAfter=No	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
 13	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 14	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No	_	AUX	do	_	_	_	_	_	O-AUX
 15	nt	not	PART	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
@@ -4011,11 +4011,11 @@
 11	but	but	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 13	just	just	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	just	_	_	_	_	_	O-ADV
-14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No	_	AUX	do	_	_	3:1	_	do not give a darn	B-AUX
-15	n't	not	PART	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	3:2	_	_	I~-ADV
-16	give	give	VERB	VB	VerbForm=Inf	7	conj	7:conj:and	_	2:1	V.VID	give a darn	v.emotion	_	3:3	_	_	I~-V.VID-v.emotion
-17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	_	2:2	_	_	_	_	3:4	_	_	I_
-18	darn	darn	NOUN	NN	Number=Sing	16	obj	16:obj	SpaceAfter=No	2:3	_	_	_	_	3:5	_	_	I_
+14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	16:aux	SpaceAfter=No	_	AUX	do	_	_	2:1	_	do not give a darn	B-AUX
+15	n't	not	PART	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	2:2	_	_	I~-ADV
+16	give	give	VERB	VB	VerbForm=Inf	7	conj	7:conj:and	_	3:1	V.VID	give a darn	v.emotion	_	2:3	_	_	I~-V.VID-v.emotion
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	_	3:2	_	_	_	_	2:4	_	_	I_
+18	darn	darn	NOUN	NN	Number=Sing	16	obj	16:obj	SpaceAfter=No	3:3	_	_	_	_	2:5	_	_	I_
 19	.	.	PUNCT	.	_	7	punct	7:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-177779-0003
@@ -4122,7 +4122,7 @@
 10	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_	_	AUX	can	_	_	_	_	_	O-AUX
 11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	13:aux:pass	_	_	AUX	be	_	_	_	_	_	O-AUX
 12	even	even	ADV	RB	_	13	advmod	13:advmod	_	_	ADV	even	_	_	_	_	_	O-ADV
-13	amplifiaed	amplify	VERB	VBN	Tense=Past|VerbForm=Part|Typo=Yes	0	root	0:root	_	_	V	amplify	v.change	_	_	_	_	O-V-v.change
+13	amplifiaed	amplify	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	0	root	0:root	_	_	V	amplify	v.change	_	_	_	_	O-V-v.change
 14	to	to	ADP	IN	_	17	case	17:case	_	_	P	to	p.Goal	p.Goal	_	_	_	O-P-p.Goal
 15	"	"	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 16	best	best	ADJ	JJS	Degree=Sup	17	amod	17:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
@@ -4208,10 +4208,10 @@
 6	simple	simple	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	_	_	ADJ	simple	_	_	_	_	_	O-ADJ
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 8	filling	filling	ADJ	JJ	Degree=Pos	6	conj	6:conj:and	_	_	ADJ	filling	_	_	_	_	_	O-ADJ
-9	Highly	highly	ADV	RB	_	10	advmod	10:advmod	_	_	ADV	highly	_	_	2:1	_	highly recommend	B-ADV
-10	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	_	_	V	recommend	v.communication	_	2:2	_	_	I~-V-v.communication
-11	Mi	Mi	PROPN	NNP	Number=Sing	12	compound	12:compound	_	1:1	N	Mi Pueblo	n.GROUP	_	_	_	_	B-N-n.GROUP
-12	Pueblo	Pueblo	PROPN	NNP	Number=Sing	10	obj	10:obj	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
+9	Highly	highly	ADV	RB	_	10	advmod	10:advmod	_	_	ADV	highly	_	_	1:1	_	highly recommend	B-ADV
+10	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	_	_	V	recommend	v.communication	_	1:2	_	_	I~-V-v.communication
+11	Mi	Mi	PROPN	NNP	Number=Sing	12	compound	12:compound	_	2:1	N	Mi Pueblo	n.GROUP	_	_	_	_	B-N-n.GROUP
+12	Pueblo	Pueblo	PROPN	NNP	Number=Sing	10	obj	10:obj	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
 13	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-191597-0005
@@ -4230,10 +4230,10 @@
 # streusle_sent_id = ewtb.r.194153.1
 # mwe = Barb does~an~ AMAZING ~JOB , she is always learning new things on how to use her hands and body , to give_ every person an AWESOME _MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL_IN_LOVE SHE IS THE BEST_OF_THE_BEST !
 1	Barb	Barb	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	_	_	N	Barb	n.PERSON	_	_	_	_	O-N-n.PERSON
-2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	do	v.stative	_	4:1	_	do a job	B-V-v.stative
-3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	_	DET	a	_	_	4:2	_	_	I~-DET
+2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	do	v.stative	_	1:1	_	do a job	B-V-v.stative
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	_	DET	a	_	_	1:2	_	_	I~-DET
 4	AMAZING	amazing	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	amazing	_	_	_	_	_	o-ADJ
-5	JOB	job	NOUN	NN	Number=Sing	2	obj	2:obj	SpaceAfter=No	_	N	job	n.ACT	_	4:3	_	_	I~-N-n.ACT
+5	JOB	job	NOUN	NN	Number=Sing	2	obj	2:obj	SpaceAfter=No	_	N	job	n.ACT	_	1:3	_	_	I~-N-n.ACT
 6	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	_	_	PRON	she	_	_	_	_	_	O-PRON
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
@@ -4251,12 +4251,12 @@
 20	body	body	NOUN	NN	Number=Sing	18	conj	16:obj|18:conj:and	SpaceAfter=No	_	N	body	n.BODY	_	_	_	_	O-N-n.BODY
 21	,	,	PUNCT	,	_	23	punct	23:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 22	to	to	PART	TO	_	23	mark	23:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
-23	give	give	VERB	VB	VerbForm=Inf	16	conj	12:acl:to|16:conj	_	1:1	V.LVC.full	give massage	v.body	_	_	_	_	B-V.LVC.full-v.body
+23	give	give	VERB	VB	VerbForm=Inf	16	conj	12:acl:to|16:conj	_	2:1	V.LVC.full	give massage	v.body	_	_	_	_	B-V.LVC.full-v.body
 24	every	every	DET	DT	_	25	det	25:det	_	_	DET	every	_	_	_	_	_	o-DET
 25	person	person	NOUN	NN	Number=Sing	23	iobj	23:iobj	_	_	N	person	n.PERSON	_	_	_	_	o-N-n.PERSON
 26	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	_	_	DET	a	_	_	_	_	_	o-DET
 27	AWESOME	awesome	ADJ	JJ	Degree=Pos	28	amod	28:amod	_	_	ADJ	awesome	_	_	_	_	_	o-ADJ
-28	MASSAGE	massage	NOUN	NN	Number=Sing	23	obj	23:obj	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
+28	MASSAGE	massage	NOUN	NN	Number=Sing	23	obj	23:obj	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
 29	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 30	CALL	call	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	2:parataxis	_	_	V	call	v.communication	_	_	_	_	O-V-v.communication
 31	TODAY	today	NOUN	NN	Number=Sing	30	obl:tmod	30:obl:tmod	_	_	N	today	n.TIME	_	_	_	_	O-N-n.TIME
@@ -4269,16 +4269,16 @@
 38	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 39	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	41	nsubj	41:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 40	WILL	will	AUX	MD	VerbForm=Fin	41	aux	41:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
-41	FALL	fall	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_	2:1	V.VID	fall in love	v.emotion	_	_	_	_	B-V.VID-v.emotion
-42	IN	in	ADP	IN	_	43	case	43:case	_	2:2	_	_	_	_	_	_	_	I_
-43	LOVE	love	NOUN	NN	Number=Sing	41	obl	41:obl:in	_	2:3	_	_	_	_	_	_	_	I_
+41	FALL	fall	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_	3:1	V.VID	fall in love	v.emotion	_	_	_	_	B-V.VID-v.emotion
+42	IN	in	ADP	IN	_	43	case	43:case	_	3:2	_	_	_	_	_	_	_	I_
+43	LOVE	love	NOUN	NN	Number=Sing	41	obl	41:obl:in	_	3:3	_	_	_	_	_	_	_	I_
 44	SHE	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj	47:nsubj	_	_	PRON	she	_	_	_	_	_	O-PRON
 45	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	47:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 46	THE	the	DET	DT	Definite=Def|PronType=Art	47	det	47:det	_	_	DET	the	_	_	_	_	_	O-DET
-47	BEST	best	ADJ	JJS	Degree=Sup	2	parataxis	2:parataxis	_	3:1	!@	best of the best	_	_	_	_	_	B-!@
-48	OF	of	ADP	IN	_	50	case	50:case	_	3:2	_	_	_	_	_	_	_	I_
-49	THE	the	DET	DT	Definite=Def|PronType=Art	50	det	50:det	_	3:3	_	_	_	_	_	_	_	I_
-50	BEST	best	ADJ	JJS	Degree=Sup	47	obl	47:obl:of	_	3:4	_	_	_	_	_	_	_	I_
+47	BEST	best	ADJ	JJS	Degree=Sup	2	parataxis	2:parataxis	_	4:1	!@	best of the best	_	_	_	_	_	B-!@
+48	OF	of	ADP	IN	_	50	case	50:case	_	4:2	_	_	_	_	_	_	_	I_
+49	THE	the	DET	DT	Definite=Def|PronType=Art	50	det	50:det	_	4:3	_	_	_	_	_	_	_	I_
+50	BEST	best	ADJ	JJS	Degree=Sup	47	obl	47:obl:of	_	4:4	_	_	_	_	_	_	_	I_
 51	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-194313
@@ -5129,7 +5129,7 @@
 # mwe = Food drastically let's_ the place _down though
 1	Food	food	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 2	drastically	drastically	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	drastically	_	_	_	_	_	O-ADV
-3	let's	let	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Typo=Yes	0	root	0:root	_	1:1	V.VPC.full	let down	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
+3	let's	let	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	0:root	_	1:1	V.VPC.full	let down	v.cognition	_	_	_	_	B-V.VPC.full-v.cognition
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	o-DET
 5	place	place	NOUN	NN	Number=Sing	3	obj	3:obj	_	_	N	place	n.GROUP	_	_	_	_	o-N-n.GROUP
 6	down	down	ADP	RP	_	3	compound:prt	3:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
@@ -5416,20 +5416,20 @@
 5	...	...	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	SpaceAfter=No	_	PRON	I	_	_	_	_	_	O-PRON
 7	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-8	pleasantly	pleasantly	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	pleasantly	_	_	4:1	_	pleasantly surprised	B-ADV
-9	surprised	surprised	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	surprised	_	_	4:2	_	_	I~-ADJ
+8	pleasantly	pleasantly	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	pleasantly	_	_	2:1	_	pleasantly surprised	B-ADV
+9	surprised	surprised	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	surprised	_	_	2:2	_	_	I~-ADJ
 10	that	that	SCONJ	IN	_	14	mark	14:mark	_	_	SCONJ	that	_	_	_	_	_	O-SCONJ
 11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	14:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 12	can	can	AUX	MD	VerbForm=Fin	14	aux	14:aux	_	_	AUX	can	_	_	_	_	_	O-AUX
 13	still	still	ADV	RB	_	14	advmod	14:advmod	_	_	ADV	still	_	_	_	_	_	O-ADV
 14	find	find	VERB	VB	VerbForm=Inf	9	ccomp	9:ccomp	_	_	V	find	v.cognition	_	_	_	_	O-V-v.cognition
 15	"	"	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No	_	PUNCT	"	_	_	_	_	_	O-PUNCT
-16	old	old	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	2:1	N	old school	n.COGNITION	_	_	_	_	B-N-n.COGNITION
-17	school	school	NOUN	NN	Number=Sing	19	compound	19:compound	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
+16	old	old	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	3:1	N	old school	n.COGNITION	_	_	_	_	B-N-n.COGNITION
+17	school	school	NOUN	NN	Number=Sing	19	compound	19:compound	SpaceAfter=No	3:2	_	_	_	_	_	_	_	I_
 18	"	"	PUNCT	''	_	17	punct	17:punct	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 19	service	service	NOUN	NN	Number=Sing	14	obj	14:obj	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
-20	out	out	ADV	RB	_	21	advmod	21:advmod	_	3:1	PP	out there	p.Locus	p.Locus	_	_	_	B-PP-p.Locus
-21	there	there	ADV	RB	PronType=Dem	14	advmod	14:advmod	_	3:2	_	_	_	_	_	_	_	I_
+20	out	out	ADV	RB	_	21	advmod	21:advmod	_	4:1	PP	out there	p.Locus	p.Locus	_	_	_	B-PP-p.Locus
+21	there	there	ADV	RB	PronType=Dem	14	advmod	14:advmod	_	4:2	_	_	_	_	_	_	_	I_
 22	where	where	ADV	WRB	PronType=Int	24	mark	24:mark	_	_	ADV	where	_	_	_	_	_	O-ADV
 23	company	company	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
 24	care	care	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:where	_	_	V	care	v.emotion	_	5:1	_	care about	B-V-v.emotion
@@ -5508,7 +5508,7 @@
 # text = Lovley food and fab chips
 # streusle_sent_id = ewtb.r.258042.1
 # mwe = Lovley food and fab chips
-1	Lovley	loveley	ADJ	JJ	Degree=Pos|Typo=Yes	2	amod	2:amod	_	_	ADJ	loveley	_	_	_	_	_	O-ADJ
+1	Lovley	lovely	ADJ	JJ	Degree=Pos|Typo=Yes	2	amod	2:amod	_	_	ADJ	lovely	_	_	_	_	_	O-ADJ
 2	food	food	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	and	and	CCONJ	CC	_	5	cc	5:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	fab	fab	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	fab	_	_	_	_	_	O-ADJ
@@ -5926,9 +5926,9 @@
 10	but	but	CCONJ	CC	_	14	cc	14:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 12	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	discourse	6:discourse	_	_	V	think	v.cognition	_	_	_	_	O-V-v.cognition
-13	well	well	ADV	RB	Degree=Pos	14	advmod	14:advmod	_	_	ADV	well	_	_	2:1	_	well worth it	B-ADV
-14	worth	worth	ADJ	JJ	Degree=Pos	6	conj	6:conj:but	_	1:1	!@	worth it	_	_	2:2	_	_	I~-!@
-15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	SpaceAfter=No	1:2	_	_	_	_	2:3	_	_	I_
+13	well	well	ADV	RB	Degree=Pos	14	advmod	14:advmod	_	_	ADV	well	_	_	1:1	_	well worth it	B-ADV
+14	worth	worth	ADJ	JJ	Degree=Pos	6	conj	6:conj:but	_	2:1	!@	worth it	_	_	1:2	_	_	I~-!@
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	SpaceAfter=No	2:2	_	_	_	_	1:3	_	_	I_
 16	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-279437
@@ -5939,12 +5939,12 @@
 1	Excellent	excellent	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	excellent	_	_	_	_	_	O-ADJ
 2	service	service	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	service	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 3	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-4	close	close	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_	_	ADJ	close	_	_	2:1	_	close to	B-ADJ
-5	to	to	ADP	IN	_	10	case	10:case	_	_	P	to	p.Locus	p.Goal	2:2	_	_	I~-P-p.Locus|p.Goal
+4	close	close	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_	_	ADJ	close	_	_	1:1	_	close to	B-ADJ
+5	to	to	ADP	IN	_	10	case	10:case	_	_	P	to	p.Locus	p.Goal	1:2	_	_	I~-P-p.Locus|p.Goal
 6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_	_	DET	the	_	_	_	_	_	O-DET
-7	morse	morse	PROPN	NNP	Number=Sing	10	compound	10:compound	_	_	N	morse	n.LOCATION	_	3:1	_	morse red line	B-N-n.LOCATION
-8	red	red	PROPN	NNP	Number=Sing	10	amod	10:amod	SpaceAfter=No	1:1	N	red line	n.ARTIFACT	_	3:2	_	_	I~-N-n.ARTIFACT
-9	line	line	PROPN	NNP	Number=Sing	8	compound	8:compound	_	1:2	_	_	_	_	3:3	_	_	I_
+7	morse	morse	PROPN	NNP	Number=Sing	10	compound	10:compound	_	_	N	morse	n.LOCATION	_	2:1	_	morse red line	B-N-n.LOCATION
+8	red	red	PROPN	NNP	Number=Sing	10	amod	10:amod	SpaceAfter=No	3:1	N	red line	n.ARTIFACT	_	2:2	_	_	I~-N-n.ARTIFACT
+9	line	line	PROPN	NNP	Number=Sing	8	compound	8:compound	_	3:2	_	_	_	_	2:3	_	_	I_
 10	stop	stop	NOUN	NN	Number=Sing	4	obl	4:obl:to	SpaceAfter=No	_	N	stop	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 11	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -6138,7 +6138,7 @@
 # streusle_sent_id = ewtb.r.287501.2
 # mwe = A company which provide good quality portals , E-commerce~solutions , web based MMOG ... etc
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	_	_	DET	a	_	_	_	_	_	O-DET
-2	company	company	NOUN	NN	Number=Sing	0	root	4:nsubj	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
+2	company	company	NOUN	NN	Number=Sing	0	root	0:root|4:nsubj	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	which	which	PRON	WDT	PronType=Rel	4	nsubj	2:ref	_	_	PRON	which	_	_	_	_	_	O-PRON
 4	provide	provide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_	_	V	provide	v.stative	_	_	_	_	O-V-v.stative
 5	good	good	ADJ	JJ	Degree=Pos	6	amod	6:amod	_	_	ADJ	good	_	_	_	_	_	O-ADJ
@@ -6233,7 +6233,7 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
 3	360	360	NUM	CD	NumType=Card	4	nummod	4:nummod	_	1:1	N	360 restaurant	n.GROUP	_	_	_	_	B-N-n.GROUP
 4	restraunt	restaurant	NOUN	NN	Number=Sing|Typo=Yes	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
-5	u	you	PRON	PRP	Abbr=Yes	6	nsubj	6:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
+5	u	you	PRON	PRP	Abbr=Yes|Case=Nom|Person=2|PronType=Prs	6	nsubj	6:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 6	spin	spin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	_	_	V	spin	v.motion	_	_	_	_	O-V-v.motion
 7	in	in	ADP	IN	_	10	case	10:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -6244,15 +6244,15 @@
 13	beautiful	beautiful	ADJ	JJ	Degree=Pos	14	amod	14:amod	_	_	ADJ	beautiful	_	_	_	_	_	O-ADJ
 14	view	view	NOUN	NN	Number=Sing	6	obl	6:obl:with	_	_	N	view	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_	_	DET	the	_	_	_	_	_	O-DET
-16	sky	sky	NOUN	NN	Number=Sing	17	compound	17:compound	_	3:1	N	sky pod	n.ARTIFACT	_	5:1	_	sky pod elevator	B-N-n.ARTIFACT
-17	pod	pod	NOUN	NN	Number=Sing	18	compound	18:compound	_	3:2	_	_	_	_	5:2	_	_	I_
-18	elevator	elevator	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	_	_	N	elevator	n.ARTIFACT	_	5:3	_	_	I~-N-n.ARTIFACT
+16	sky	sky	NOUN	NN	Number=Sing	17	compound	17:compound	_	3:1	N	sky pod	n.ARTIFACT	_	4:1	_	sky pod elevator	B-N-n.ARTIFACT
+17	pod	pod	NOUN	NN	Number=Sing	18	compound	18:compound	_	3:2	_	_	_	_	4:2	_	_	I_
+18	elevator	elevator	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	_	_	N	elevator	n.ARTIFACT	_	4:3	_	_	I~-N-n.ARTIFACT
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 20	about	about	ADV	RB	_	21	advmod	21:advmod	_	_	P	about	p.Approximator	p.Approximator	_	_	_	O-P-p.Approximator
 21	an	a	DET	DT	Definite=Ind|PronType=Art	22	nummod	22:nummod	_	_	DET	a	_	_	_	_	_	O-DET
 22	hour	hour	NOUN	NN	Number=Sing	24	compound	24:compound	_	_	N	hour	n.TIME	_	_	_	_	O-N-n.TIME
-23	line	line	NOUN	NN	Number=Sing	24	compound	24:compound	_	4:1	N	line up	n.ACT	_	_	_	_	B-N-n.ACT
-24	up	up	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_	4:2	_	_	_	_	_	_	_	I_
+23	line	line	NOUN	NN	Number=Sing	24	compound	24:compound	_	5:1	N	line up	n.ACT	_	_	_	_	B-N-n.ACT
+24	up	up	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_	5:2	_	_	_	_	_	_	_	I_
 25	in	in	ADP	IN	_	27	case	27:case	_	_	P	in	p.Time	p.Time	_	_	_	O-P-p.Time
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	_	_	DET	the	_	_	_	_	_	O-DET
 27	summer	summer	NOUN	NN	Number=Sing	24	obl	24:obl:in	_	_	N	summer	n.TIME	_	_	_	_	O-N-n.TIME
@@ -6478,14 +6478,14 @@
 4	4783	4783	NUM	CD	NumType=Card	6	nummod	6:nummod	_	_	NUM	4783	_	_	_	_	_	O-NUM
 5	Bay	Bay	PROPN	NNP	Number=Sing	6	compound	6:compound	_	1:1	N	Bay Rd	n.LOCATION	_	_	_	_	B-N-n.LOCATION
 6	Rd	Rd	PROPN	NNP	Number=Sing	2	obl	2:obl:to	_	1:2	_	_	_	_	_	_	_	I_
-7	Saginaw	Saginaw	PROPN	NNP	Number=Sing	6	appos	6:appos	SpaceAfter=No	_	N	Saginaw	n.LOCATION	_	3:1	_	Saginaw , Michigan	B-N-n.LOCATION
-8	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	3:2	_	_	I~-PUNCT
-9	Michigan	Michigan	PROPN	NNP	Number=Sing	7	appos	7:appos	_	_	N	Michigan	n.LOCATION	_	3:3	_	_	I~-N-n.LOCATION
+7	Saginaw	Saginaw	PROPN	NNP	Number=Sing	6	appos	6:appos	SpaceAfter=No	_	N	Saginaw	n.LOCATION	_	2:1	_	Saginaw , Michigan	B-N-n.LOCATION
+8	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	2:2	_	_	I~-PUNCT
+9	Michigan	Michigan	PROPN	NNP	Number=Sing	7	appos	7:appos	_	_	N	Michigan	n.LOCATION	_	2:3	_	_	I~-N-n.LOCATION
 10	48604	48604	NUM	CD	NumType=Card	6	appos	6:appos	_	_	NUM	48604	_	_	_	_	_	O-NUM
-11	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No	2:1	NUM	( 989 ) 755-1109	_	_	_	_	_	B-NUM
-12	989	989	NUM	CD	NumType=Card	14	nummod	14:nummod	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
-13	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No	2:3	_	_	_	_	_	_	_	I_
-14	755-1109	755-1109	NUM	CD	NumType=Card	6	list	6:list	_	2:4	_	_	_	_	_	_	_	I_
+11	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No	3:1	NUM	( 989 ) 755-1109	_	_	_	_	_	B-NUM
+12	989	989	NUM	CD	NumType=Card	14	nummod	14:nummod	SpaceAfter=No	3:2	_	_	_	_	_	_	_	I_
+13	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No	3:3	_	_	_	_	_	_	_	I_
+14	755-1109	755-1109	NUM	CD	NumType=Card	6	list	6:list	_	3:4	_	_	_	_	_	_	_	I_
 
 # newdoc id = reviews-307250
 # sent_id = reviews-307250-0001
@@ -7126,11 +7126,11 @@
 26	hear	hear	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_	_	V	hear	v.perception	_	_	_	_	O-V-v.perception
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	_	_	DET	the	_	_	_	_	_	O-DET
 28	truth	truth	NOUN	NN	Number=Sing	26	obj	26:obj	_	_	N	truth	n.COGNITION	_	_	_	_	O-N-n.COGNITION
-29	come	come	VERB	VB	VerbForm=Inf	28	acl	28:acl	_	_	V	come	v.communication	_	5:1	_	come out of mouth	B-V-v.communication
-30	out	out	ADP	IN	_	33	case	33:case	_	4:1	P	out of	p.Source	p.Source	5:2	_	_	I~-P-p.Source
-31	of	of	ADP	IN	_	33	case	33:case	_	4:2	_	_	_	_	5:3	_	_	I_
+29	come	come	VERB	VB	VerbForm=Inf	28	acl	28:acl	_	_	V	come	v.communication	_	4:1	_	come out of mouth	B-V-v.communication
+30	out	out	ADP	IN	_	33	case	33:case	_	5:1	P	out of	p.Source	p.Source	4:2	_	_	I~-P-p.Source
+31	of	of	ADP	IN	_	33	case	33:case	_	5:2	_	_	_	_	4:3	_	_	I_
 32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	33:nmod:poss	_	_	PRON.POSS	they	p.Whole	p.Gestalt	_	_	_	o-PRON.POSS-p.Whole|p.Gestalt
-33	mouths	mouth	NOUN	NNS	Number=Plur	29	obl	29:obl:of	SpaceAfter=No	_	N	mouth	n.BODY	_	5:4	_	_	I~-N-n.BODY
+33	mouths	mouth	NOUN	NNS	Number=Plur	29	obl	29:obl:of	SpaceAfter=No	_	N	mouth	n.BODY	_	4:4	_	_	I~-N-n.BODY
 34	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-340891
@@ -7150,14 +7150,14 @@
 # text = Nice and quiet place with cosy living room just outside the city.
 # streusle_sent_id = ewtb.r.341435.1
 # mwe = Nice~and~quiet place with cosy living_room just outside the city .
-1	Nice	nice	ADJ	JJ	Degree=Pos	4	amod	4:amod	_	_	ADJ	nice	_	_	2:1	_	nice and quiet	B-ADJ
-2	and	and	CCONJ	CC	_	3	cc	3:cc	_	_	CCONJ	and	_	_	2:2	_	_	I~-CCONJ
-3	quiet	quiet	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|4:amod	_	_	ADJ	quiet	_	_	2:3	_	_	I~-ADJ
+1	Nice	nice	ADJ	JJ	Degree=Pos	4	amod	4:amod	_	_	ADJ	nice	_	_	1:1	_	nice and quiet	B-ADJ
+2	and	and	CCONJ	CC	_	3	cc	3:cc	_	_	CCONJ	and	_	_	1:2	_	_	I~-CCONJ
+3	quiet	quiet	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|4:amod	_	_	ADJ	quiet	_	_	1:3	_	_	I~-ADJ
 4	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 5	with	with	ADP	IN	_	8	case	8:case	_	_	P	with	p.PartPortion	p.PartPortion	_	_	_	O-P-p.PartPortion
 6	cosy	cosy	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	cosy	_	_	_	_	_	O-ADJ
-7	living	living	NOUN	NN	Number=Sing	8	compound	8:compound	_	1:1	N	living room	n.LOCATION	_	_	_	_	B-N-n.LOCATION
-8	room	room	NOUN	NN	Number=Sing	4	nmod	4:nmod:with	_	1:2	_	_	_	_	_	_	_	I_
+7	living	living	NOUN	NN	Number=Sing	8	compound	8:compound	_	2:1	N	living room	n.LOCATION	_	_	_	_	B-N-n.LOCATION
+8	room	room	NOUN	NN	Number=Sing	4	nmod	4:nmod:with	_	2:2	_	_	_	_	_	_	_	I_
 9	just	just	ADV	RB	_	12	advmod	12:advmod	_	_	ADV	just	_	_	_	_	_	O-ADV
 10	outside	outside	ADP	IN	_	12	case	12:case	_	_	P	outside	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -7707,7 +7707,7 @@
 # mwe = Best yellow_curry that I have ever tasted .
 1	Best	best	ADJ	JJS	Degree=Sup	3	amod	3:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
 2	yellow	yellow	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	1:1	N	yellow curry	n.FOOD	_	_	_	_	B-N-n.FOOD
-3	curry	curry	NOUN	NN	Number=Sing	0	root	8:obj	_	1:2	_	_	_	_	_	_	_	I_
+3	curry	curry	NOUN	NN	Number=Sing	0	root	0:root|8:obj	_	1:2	_	_	_	_	_	_	_	I_
 4	that	that	PRON	WDT	PronType=Rel	8	obj	3:ref	_	_	PRON	that	_	_	_	_	_	O-PRON
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
@@ -7848,7 +7848,7 @@
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	will	_	_	_	_	_	O-AUX
 4	rip	rip	VERB	VB	VerbForm=Inf	1	parataxis	1:parataxis	_	1:1	V.VPC.full	rip off	v.social	_	_	_	_	B-V.VPC.full-v.social
-5	u	u	PRON	PRP	_	4	obj	4:obj	_	_	PRON	u	_	_	_	_	_	o-PRON
+5	u	you	PRON	PRP	Abbr=Yes|Case=Acc|Person=2|PronType=Prs	4	obj	4:obj	_	_	PRON	you	_	_	_	_	_	o-PRON
 6	off	off	ADP	RP	_	4	compound:prt	4:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 
 # newdoc id = reviews-371492
@@ -8146,7 +8146,7 @@
 1	Would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
 2	100	100	NUM	CD	NumType=Card	3	nummod	3:nummod	SpaceAfter=No	_	NUM	100	_	_	_	_	_	O-NUM
 3	%	%	SYM	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_	_	N	%	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-4	recomend	recommend	VERB	VB	VerbForm=Inf|Typo=Yes	0	root	0:root	_	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
+4	recomend	recommend	VERB	VB	Typo=Yes|VerbForm=Inf	0	root	0:root	_	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
 5	to	to	ADP	IN	_	6	case	6:case	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
 6	others	other	NOUN	NNS	Number=Plur	4	obl	4:obl:to	_	_	N	other	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	for	for	ADP	IN	_	10	case	10:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
@@ -8259,7 +8259,7 @@
 16	drive	drive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_	_	V	drive	v.motion	_	_	_	_	O-V-v.motion
 17	from	from	ADP	IN	_	19	case	19:case	_	_	P	from	p.Source	p.Source	_	_	_	O-P-p.Source
 18	central	central	ADJ	JJ	Degree=Pos	19	amod	19:amod	_	_	ADJ	central	_	_	_	_	_	O-ADJ
-19	Phx	Phoenix	PROPN	NNP	Number=Sing|Abbr=Yes	16	obl	16:obl:from	_	_	N	Phoenix	n.LOCATION	_	_	_	_	O-N-n.LOCATION
+19	Phx	Phoenix	PROPN	NNP	Abbr=Yes|Number=Sing	16	obl	16:obl:from	_	_	N	Phoenix	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 20	to	to	PART	TO	_	21	mark	21:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 21	come	come	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:to	_	_	V	come	v.motion	_	_	_	_	O-V-v.motion
 22	here	here	ADV	RB	PronType=Dem	21	advmod	21:advmod	SpaceAfter=No	_	ADV	here	_	_	_	_	_	O-ADV
