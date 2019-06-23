@@ -16,7 +16,7 @@ for udDoc in udDocs:
     for sent in sentences(udDoc):
         ud[sent.meta_dict['sent_id']] = (udDoc, sent)
 
-nSentsChanged = nToksChanged = nToksAdded = nTagsChanged = nLemmasChanged = nMorphChanged = nDepsChanged = nEDepsChanged = nAutoLemmaFix = 0
+nSentsChanged = nToksChanged = nToksAdded = nTagsChanged = nLemmasChanged = nMorphChanged = nDepsChanged = nEDepsChanged = nAutoLemmaFix = nMiscChanged = 0
 for sent in sentences(CONLLULEX):
     # metadata shouldn't change (assume tokenization hasn't changed)
     print(*sent.meta, sep='\n')
@@ -33,7 +33,7 @@ for sent in sentences(CONLLULEX):
         if oldud!=newud:
             nToksChanged += 1
             sentChanged = True
-            
+
             if tok:
                 if tok.ud_pos=='ADJ' and newudtok.ud_pos=='VERB':
                     print(f'ADJ/VERB issue: need to revert to VERB in {newudDoc}: {tok.word}', file=sys.stderr)
@@ -51,12 +51,14 @@ for sent in sentences(CONLLULEX):
                     nMorphChanged += 1
                 elif tok.edeps!=newudtok.edeps:
                     nEDepsChanged += 1
+                elif tok.misc!=newudtok.misc:
+                    nMiscChanged += 1
                 else:
                     print(oldud, newud, sep='\n', file=sys.stderr)
-                    assert False,'Unexpected change in UD'
+                    assert False,'Unexpected change in UD (see last 2 data lines above)'
             else:
                 nToksAdded += 1
-        
+
         if tok:
             streusle = tok.orig.split('\t')[10:]
             old_strong_lemma = streusle[2]
@@ -65,7 +67,7 @@ for sent in sentences(CONLLULEX):
                 nAutoLemmaFix += 1
         else:
             streusle = '_'*9
-        
+
         streusle = '\t'.join(streusle)
         print(f'{newud}\t{streusle}')
         # NOTE: lemmas updated in column 3 need to be manually fixed in the STREUSLE columns
@@ -74,5 +76,5 @@ for sent in sentences(CONLLULEX):
         nSentsChanged += 1
     print()
 
-print(f'Changes to {nToksChanged} tokens ({nToksAdded} new tokens + {nTagsChanged} tags + {nDepsChanged} additional deps + {nLemmasChanged} additional lemmas + {nMorphChanged} additional morphology + {nEDepsChanged} additional enhanced deps) in {nSentsChanged} sentences', file=sys.stderr)
+print(f'Changes to {nToksChanged} tokens ({nToksAdded} new tokens + {nTagsChanged} tags + {nDepsChanged} additional deps + {nLemmasChanged} additional lemmas + {nMorphChanged} additional morphology + {nEDepsChanged} additional enhanced deps + {nMiscChanged} additional MISC) in {nSentsChanged} sentences', file=sys.stderr)
 print(f'{nAutoLemmaFix} STREUSLE single-word lemmas were automatically fixed, but multiword lemmas may need to be fixed manually', file=sys.stderr)
