@@ -107,9 +107,10 @@ History
      * Added format conversion scripts conllulex2json.py, conllulex2UDlextag.py, and UDlextag2json.py.
      * Normalized the way MWEs within a sentence are numbered in markup (normalize_mwe_numbering.py).
      * Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
+     * Subdirectories for splits (train/, dev/, test/) now include .json and .govobj.json files alongside the source .conllulex.
      * Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
      * Minor corrections in the data and validation improvements.
-     * Updated UD parses to v2.2.
+     * Updated UD parses to v2.4. Among other things, this improves lemmas for words with nonstandard spellings.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
     Implementation of SNACS (preposition/possessive supersense) target identification heuristics from [7].

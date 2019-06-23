@@ -5441,7 +5441,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.communication"
@@ -5473,11 +5473,11 @@
     "edeps": "5:case",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-PP-p.Goal"
@@ -5509,11 +5509,11 @@
     "edeps": "1:obl:to",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": [
-     2,
+     1,
      3
     ],
     "lextag": "I_"
@@ -5653,7 +5653,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "to face",
     "lexcat": "PP",
     "ss": "p.Goal",
@@ -5672,7 +5672,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "lie to face",
     "toknums": [
      1,
@@ -6824,7 +6824,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     1,
      1
     ],
     "lextag": "B-ADV"
@@ -6842,7 +6842,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     1,
      2
     ],
     "lextag": "I~-V-v.communication"
@@ -6859,7 +6859,7 @@
     "edeps": "5:compound",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -6877,7 +6877,7 @@
     "edeps": "3:obj",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -7000,7 +7000,7 @@
     "edeps": "14:compound",
     "misc": null,
     "smwe": [
-     2,
+     3,
      1
     ],
     "wmwe": null,
@@ -7018,7 +7018,7 @@
     "edeps": "11:nmod:in",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      2
     ],
     "wmwe": null,
@@ -7157,7 +7157,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "Bay View",
     "lexcat": "N",
     "ss": "n.GROUP",
@@ -7167,7 +7167,7 @@
      5
     ]
    },
-   "2": {
+   "3": {
     "lexlemma": "Camps Bay",
     "lexcat": "N",
     "ss": "n.LOCATION",
@@ -7179,7 +7179,7 @@
    }
   },
   "wmwes": {
-   "3": {
+   "1": {
     "lexlemma": "highly recommend",
     "toknums": [
      2,
@@ -11841,8 +11841,8 @@
     "#": 4,
     "word": "libido",
     "lemma": "libido",
-    "upos": "NOUN",
-    "xpos": "NN",
+    "upos": "PROPN",
+    "xpos": "NNP",
     "feats": "Number=Sing",
     "head": 5,
     "deprel": "compound",
@@ -12189,8 +12189,8 @@
     "#": 5,
     "word": "tropics",
     "lemma": "tropics",
-    "upos": "NOUN",
-    "xpos": "NNS",
+    "upos": "PROPN",
+    "xpos": "NNPS",
     "feats": "Number=Plur",
     "head": 4,
     "deprel": "obj",
@@ -12233,10 +12233,10 @@
    {
     "#": 8,
     "word": "companie",
-    "lemma": "companie",
+    "lemma": "company",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|Typo=Yes",
     "head": 11,
     "deprel": "nmod:poss",
     "edeps": "11:nmod:poss",
@@ -12379,14 +12379,14 @@
     ],
     "heuristic_relation": {
      "gov": 8,
-     "govlemma": "companie",
+     "govlemma": "company",
      "obj": null,
      "objlemma": null,
      "config": "possessive"
     }
    },
    "8": {
-    "lexlemma": "companie",
+    "lexlemma": "company",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -12406,7 +12406,7 @@
      "gov": 11,
      "govlemma": "event",
      "obj": 8,
-     "objlemma": "companie",
+     "objlemma": "company",
      "config": "default"
     }
    },
@@ -14402,7 +14402,7 @@
     "feats": "Number=Sing",
     "head": 0,
     "deprel": "root",
-    "edeps": "7:nsubj",
+    "edeps": "0:root|7:nsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -18017,10 +18017,10 @@
    {
     "#": 6,
     "word": "blouvard",
-    "lemma": "blouvard",
+    "lemma": "boulevard",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|Typo=Yes",
     "head": 3,
     "deprel": "nmod",
     "edeps": "3:nmod:on",
@@ -18068,7 +18068,7 @@
      "gov": 3,
      "govlemma": "lounge",
      "obj": 6,
-     "objlemma": "blouvard",
+     "objlemma": "boulevard",
      "config": "default"
     }
    },
@@ -18082,7 +18082,7 @@
     ]
    },
    "6": {
-    "lexlemma": "blouvard",
+    "lexlemma": "boulevard",
     "lexcat": "N",
     "ss": "n.LOCATION",
     "ss2": null,
@@ -18309,10 +18309,10 @@
    {
     "#": 13,
     "word": "definately",
-    "lemma": "definately",
+    "lemma": "definitely",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 4,
     "deprel": "advmod",
     "edeps": "4:advmod",
@@ -18444,7 +18444,7 @@
     ]
    },
    "13": {
-    "lexlemma": "definately",
+    "lexlemma": "definitely",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -21765,7 +21765,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      1
     ],
     "lextag": "B-V-v.social"
@@ -21783,7 +21783,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      2
     ],
     "lextag": "I~-P-p.Theme"
@@ -22010,7 +22010,7 @@
     "edeps": "32:nmod:poss",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      1
     ],
     "wmwe": null,
@@ -22028,7 +22028,7 @@
     "edeps": "30:case",
     "misc": null,
     "smwe": [
-     2,
+     3,
      2
     ],
     "wmwe": null,
@@ -22433,7 +22433,7 @@
      11
     ]
    },
-   "2": {
+   "3": {
     "lexlemma": "Alan 's",
     "lexcat": "N",
     "ss": "n.GROUP",
@@ -22445,7 +22445,7 @@
    }
   },
   "wmwes": {
-   "3": {
+   "2": {
     "lexlemma": "work on",
     "toknums": [
      14,
@@ -24368,7 +24368,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.cognition"
@@ -24385,7 +24385,7 @@
     "edeps": "5:obj",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -24403,7 +24403,7 @@
     "edeps": "6:flat",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -24422,7 +24422,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-P-p.Topic"
@@ -24706,7 +24706,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "Doctor Hank",
     "lexcat": "N",
     "ss": "n.PERSON",
@@ -24718,7 +24718,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "trust with",
     "toknums": [
      5,
@@ -25239,7 +25239,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.cognition"
@@ -25257,7 +25257,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-P-p.Theme"
@@ -25334,7 +25334,7 @@
     "edeps": "13:nsubj",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -25352,7 +25352,7 @@
     "edeps": "13:aux",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -25370,7 +25370,7 @@
     "edeps": "13:advmod",
     "misc": null,
     "smwe": [
-     1,
+     2,
      3
     ],
     "wmwe": null,
@@ -25388,7 +25388,7 @@
     "edeps": "0:root",
     "misc": null,
     "smwe": [
-     1,
+     2,
      4
     ],
     "wmwe": null,
@@ -25406,7 +25406,7 @@
     "edeps": "13:obj",
     "misc": null,
     "smwe": [
-     1,
+     2,
      5
     ],
     "wmwe": null,
@@ -25505,7 +25505,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "you can not beat this",
     "lexcat": "V.VID",
     "ss": "v.competition",
@@ -25520,7 +25520,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "look for",
     "toknums": [
      4,
@@ -27202,10 +27202,10 @@
    {
     "#": 13,
     "word": "ect.",
-    "lemma": "ect.",
+    "lemma": "etc.",
     "upos": "X",
     "xpos": "FW",
-    "feats": null,
+    "feats": "Abbr=Yes|Typo=Yes",
     "head": 9,
     "deprel": "advmod",
     "edeps": "9:advmod",
@@ -27371,7 +27371,7 @@
     ]
    },
    "13": {
-    "lexlemma": "ect.",
+    "lexlemma": "etc.",
     "lexcat": "X",
     "ss": null,
     "ss2": null,
@@ -28559,7 +28559,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.social"
@@ -28592,7 +28592,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-DET"
@@ -28610,7 +28610,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      3
     ],
     "lextag": "I~-N-n.COGNITION"
@@ -28628,7 +28628,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      4
     ],
     "lextag": "I~-P-p.Identity"
@@ -28660,7 +28660,7 @@
     "edeps": "9:compound",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -28678,7 +28678,7 @@
     "edeps": "9:compound",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -28696,7 +28696,7 @@
     "edeps": "6:obj",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      3
     ],
     "wmwe": null,
@@ -28792,7 +28792,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "Winterowd Fine Art",
     "lexcat": "N",
     "ss": "n.GROUP",
@@ -28805,7 +28805,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "give the gift of",
     "toknums": [
      1,
@@ -38422,7 +38422,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.cognition"
@@ -38440,7 +38440,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-P-p.Theme"
@@ -38547,7 +38547,7 @@
     "edeps": "0:root",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -38565,7 +38565,7 @@
     "edeps": "14:advmod",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -38583,7 +38583,7 @@
     "edeps": "12:advmod",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      3
     ],
     "wmwe": null,
@@ -38724,7 +38724,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "look know further",
     "lexcat": "!!@",
     "ss": null,
@@ -38737,7 +38737,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "look for",
     "toknums": [
      4,
@@ -39592,7 +39592,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.communication"
@@ -39640,7 +39640,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-N-n.COMMUNICATION"
@@ -39687,7 +39687,7 @@
     "edeps": "1:conj:and",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -39720,7 +39720,7 @@
     "edeps": "7:advmod",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -39921,7 +39921,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "call back",
     "lexcat": "V.VPC.semi",
     "ss": "v.communication",
@@ -39933,7 +39933,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "answer question",
     "toknums": [
      1,
@@ -43947,10 +43947,10 @@
    {
     "#": 1,
     "word": "Aweesome",
-    "lemma": "aweesome",
+    "lemma": "awesome",
     "upos": "ADJ",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -43963,7 +43963,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "aweesome",
+    "lexlemma": "awesome",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -48034,7 +48034,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-V-v.stative"
@@ -48052,7 +48052,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-P-p.ComparisonRef|p.Goal"
@@ -48294,7 +48294,7 @@
     "edeps": "40:compound",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -48312,7 +48312,7 @@
     "edeps": "35:obj",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -48710,7 +48710,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "grammar structure",
     "lexcat": "N",
     "ss": "n.COGNITION",
@@ -48722,7 +48722,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "compare to",
     "toknums": [
      22,
@@ -50744,7 +50744,7 @@
    {
     "#": 17,
     "word": "belongings",
-    "lemma": "belongings",
+    "lemma": "belonging",
     "upos": "NOUN",
     "xpos": "NNS",
     "feats": "Number=Plur",
@@ -50899,7 +50899,7 @@
     ]
    },
    "17": {
-    "lexlemma": "belongings",
+    "lexlemma": "belonging",
     "lexcat": "N",
     "ss": "n.ARTIFACT",
     "ss2": null,
@@ -59478,10 +59478,10 @@
    {
     "#": 12,
     "word": "recomend",
-    "lemma": "recomend",
+    "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 2,
     "deprel": "parataxis",
     "edeps": "2:parataxis",
@@ -59756,7 +59756,7 @@
     ]
    },
    "12": {
-    "lexlemma": "recomend",
+    "lexlemma": "recommend",
     "lexcat": "V",
     "ss": "v.communication",
     "ss2": null,
@@ -66563,7 +66563,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      1
     ],
     "lextag": "B-AUX"
@@ -66581,7 +66581,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      2
     ],
     "lextag": "I~-ADV"
@@ -66598,11 +66598,11 @@
     "edeps": "7:conj:and",
     "misc": null,
     "smwe": [
-     2,
+     3,
      1
     ],
     "wmwe": [
-     3,
+     2,
      3
     ],
     "lextag": "I~-V.VID-v.emotion"
@@ -66619,11 +66619,11 @@
     "edeps": "18:det",
     "misc": null,
     "smwe": [
-     2,
+     3,
      2
     ],
     "wmwe": [
-     3,
+     2,
      4
     ],
     "lextag": "I_"
@@ -66640,11 +66640,11 @@
     "edeps": "16:obj",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      3
     ],
     "wmwe": [
-     3,
+     2,
      5
     ],
     "lextag": "I_"
@@ -66805,7 +66805,7 @@
      2
     ]
    },
-   "2": {
+   "3": {
     "lexlemma": "give a darn",
     "lexcat": "V.VID",
     "ss": "v.emotion",
@@ -66818,7 +66818,7 @@
    }
   },
   "wmwes": {
-   "3": {
+   "2": {
     "lexlemma": "do not give a darn",
     "toknums": [
      14,
@@ -68201,10 +68201,10 @@
    {
     "#": 6,
     "word": "hamburguers",
-    "lemma": "hamburguer",
+    "lemma": "hamburger",
     "upos": "NOUN",
     "xpos": "NNS",
-    "feats": "Number=Plur",
+    "feats": "Number=Plur|Typo=Yes",
     "head": 2,
     "deprel": "nmod",
     "edeps": "2:nmod:about",
@@ -68312,10 +68312,10 @@
    {
     "#": 13,
     "word": "amplifiaed",
-    "lemma": "amplifia",
+    "lemma": "amplify",
     "upos": "VERB",
     "xpos": "VBN",
-    "feats": "Tense=Past|VerbForm=Part",
+    "feats": "Tense=Past|Typo=Yes|VerbForm=Part",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -68372,10 +68372,10 @@
    {
     "#": 17,
     "word": "hamburguers",
-    "lemma": "hamburguer",
+    "lemma": "hamburger",
     "upos": "NOUN",
     "xpos": "NNS",
-    "feats": "Number=Plur",
+    "feats": "Number=Plur|Typo=Yes",
     "head": 13,
     "deprel": "obl",
     "edeps": "13:obl:to",
@@ -68678,7 +68678,7 @@
      "gov": 2,
      "govlemma": "statement",
      "obj": 6,
-     "objlemma": "hamburguer",
+     "objlemma": "hamburger",
      "config": "default"
     }
    },
@@ -68701,7 +68701,7 @@
     ]
    },
    "6": {
-    "lexlemma": "hamburguer",
+    "lexlemma": "hamburger",
     "lexcat": "N",
     "ss": "n.FOOD",
     "ss2": null,
@@ -68746,7 +68746,7 @@
     ]
    },
    "13": {
-    "lexlemma": "amplifia",
+    "lexlemma": "amplify",
     "lexcat": "V",
     "ss": "v.change",
     "ss2": null,
@@ -68764,9 +68764,9 @@
     ],
     "heuristic_relation": {
      "gov": 13,
-     "govlemma": "amplifia",
+     "govlemma": "amplify",
      "obj": 17,
-     "objlemma": "hamburguer",
+     "objlemma": "hamburger",
      "config": "default"
     }
    },
@@ -68789,7 +68789,7 @@
     ]
    },
    "17": {
-    "lexlemma": "hamburguer",
+    "lexlemma": "hamburger",
     "lexcat": "N",
     "ss": "n.FOOD",
     "ss2": null,
@@ -68807,7 +68807,7 @@
     ],
     "heuristic_relation": {
      "gov": 17,
-     "govlemma": "hamburguer",
+     "govlemma": "hamburger",
      "obj": 19,
      "objlemma": "world",
      "config": "default"
@@ -68952,7 +68952,7 @@
     ],
     "heuristic_relation": {
      "gov": 6,
-     "govlemma": "hamburguer",
+     "govlemma": "hamburger",
      "obj": 8,
      "objlemma": "town",
      "config": "default"
@@ -69293,10 +69293,10 @@
    {
     "#": 1,
     "word": "Awsome",
-    "lemma": "awsome",
+    "lemma": "awesome",
     "upos": "ADJ",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -69324,7 +69324,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "awsome",
+    "lexlemma": "awesome",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -69725,7 +69725,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-ADV"
@@ -69743,7 +69743,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-V-v.communication"
@@ -69760,7 +69760,7 @@
     "edeps": "12:compound",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -69778,7 +69778,7 @@
     "edeps": "10:obj",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -69910,7 +69910,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "Mi Pueblo",
     "lexcat": "N",
     "ss": "n.GROUP",
@@ -69922,7 +69922,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "highly recommend",
     "toknums": [
      9,
@@ -70098,7 +70098,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     4,
+     1,
      1
     ],
     "lextag": "B-V-v.stative"
@@ -70116,7 +70116,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     4,
+     1,
      2
     ],
     "lextag": "I~-DET"
@@ -70149,7 +70149,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
-     4,
+     1,
      3
     ],
     "lextag": "I~-N-n.ACT"
@@ -70421,7 +70421,7 @@
     "edeps": "12:acl:to|16:conj",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -70499,7 +70499,7 @@
     "edeps": "23:obj",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -70697,7 +70697,7 @@
     "edeps": "2:parataxis",
     "misc": null,
     "smwe": [
-     2,
+     3,
      1
     ],
     "wmwe": null,
@@ -70715,7 +70715,7 @@
     "edeps": "43:case",
     "misc": null,
     "smwe": [
-     2,
+     3,
      2
     ],
     "wmwe": null,
@@ -70733,7 +70733,7 @@
     "edeps": "41:obl:in",
     "misc": null,
     "smwe": [
-     2,
+     3,
      3
     ],
     "wmwe": null,
@@ -70796,7 +70796,7 @@
     "edeps": "2:parataxis",
     "misc": null,
     "smwe": [
-     3,
+     4,
      1
     ],
     "wmwe": null,
@@ -70814,7 +70814,7 @@
     "edeps": "50:case",
     "misc": null,
     "smwe": [
-     3,
+     4,
      2
     ],
     "wmwe": null,
@@ -70832,7 +70832,7 @@
     "edeps": "50:det",
     "misc": null,
     "smwe": [
-     3,
+     4,
      3
     ],
     "wmwe": null,
@@ -70850,7 +70850,7 @@
     "edeps": "47:obl:of",
     "misc": null,
     "smwe": [
-     3,
+     4,
      4
     ],
     "wmwe": null,
@@ -71275,7 +71275,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "give massage",
     "lexcat": "V.LVC.full",
     "ss": "v.body",
@@ -71285,7 +71285,7 @@
      28
     ]
    },
-   "2": {
+   "3": {
     "lexlemma": "fall in love",
     "lexcat": "V.VID",
     "ss": "v.emotion",
@@ -71296,7 +71296,7 @@
      43
     ]
    },
-   "3": {
+   "4": {
     "lexlemma": "best of the best",
     "lexcat": "!@",
     "ss": null,
@@ -71310,7 +71310,7 @@
    }
   },
   "wmwes": {
-   "4": {
+   "1": {
     "lexlemma": "do a job",
     "toknums": [
      2,
@@ -81009,10 +81009,10 @@
    {
     "#": 5,
     "word": "blu",
-    "lemma": "blu",
+    "lemma": "bleu",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|Typo=Yes",
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj|9:nsubj",
@@ -81365,7 +81365,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "chicken cordon - blu",
+    "lexlemma": "chicken cordon - bleu",
     "lexcat": "N",
     "ss": "n.FOOD",
     "ss2": null,
@@ -82840,10 +82840,10 @@
    {
     "#": 15,
     "word": "extrememly",
-    "lemma": "extrememly",
+    "lemma": "extremely",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 16,
     "deprel": "advmod",
     "edeps": "16:advmod",
@@ -83190,7 +83190,7 @@
     ]
    },
    "15": {
-    "lexlemma": "extrememly",
+    "lexlemma": "extremely",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -85632,10 +85632,10 @@
    {
     "#": 3,
     "word": "let's",
-    "lemma": "let'",
+    "lemma": "let",
     "upos": "VERB",
     "xpos": "VBZ",
-    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -85761,7 +85761,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "let' down",
+    "lexlemma": "let down",
     "lexcat": "V.VPC.full",
     "ss": "v.cognition",
     "ss2": null,
@@ -90535,7 +90535,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     4,
+     2,
      1
     ],
     "lextag": "B-ADV"
@@ -90553,7 +90553,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     4,
+     2,
      2
     ],
     "lextag": "I~-ADJ"
@@ -90660,7 +90660,7 @@
     "edeps": "17:amod",
     "misc": null,
     "smwe": [
-     2,
+     3,
      1
     ],
     "wmwe": null,
@@ -90678,7 +90678,7 @@
     "edeps": "19:compound",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      2
     ],
     "wmwe": null,
@@ -90726,7 +90726,7 @@
     "edeps": "21:advmod",
     "misc": null,
     "smwe": [
-     3,
+     4,
      1
     ],
     "wmwe": null,
@@ -90744,7 +90744,7 @@
     "edeps": "14:advmod",
     "misc": null,
     "smwe": [
-     3,
+     4,
      2
     ],
     "wmwe": null,
@@ -91252,7 +91252,7 @@
      3
     ]
    },
-   "2": {
+   "3": {
     "lexlemma": "old school",
     "lexcat": "N",
     "ss": "n.COGNITION",
@@ -91262,7 +91262,7 @@
      17
     ]
    },
-   "3": {
+   "4": {
     "lexlemma": "out there",
     "lexcat": "PP",
     "ss": "p.Locus",
@@ -91281,7 +91281,7 @@
    }
   },
   "wmwes": {
-   "4": {
+   "2": {
     "lexlemma": "pleasantly surprised",
     "toknums": [
      8,
@@ -92170,10 +92170,10 @@
    {
     "#": 1,
     "word": "Lovley",
-    "lemma": "lovley",
+    "lemma": "lovely",
     "upos": "ADJ",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 2,
     "deprel": "amod",
     "edeps": "2:amod",
@@ -92246,7 +92246,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "lovley",
+    "lexlemma": "lovely",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -98988,7 +98988,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-ADV"
@@ -99005,11 +99005,11 @@
     "edeps": "6:conj:but",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-!@"
@@ -99026,11 +99026,11 @@
     "edeps": "14:obj",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": [
-     2,
+     1,
      3
     ],
     "lextag": "I_"
@@ -99188,7 +99188,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "worth it",
     "lexcat": "!@",
     "ss": null,
@@ -99200,7 +99200,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "well worth it",
     "toknums": [
      13,
@@ -99275,7 +99275,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-ADJ"
@@ -99293,7 +99293,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-P-p.Locus|p.Goal"
@@ -99326,7 +99326,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      1
     ],
     "lextag": "B-N-n.LOCATION"
@@ -99343,11 +99343,11 @@
     "edeps": "10:amod",
     "misc": "SpaceAfter=No",
     "smwe": [
-     1,
+     3,
      1
     ],
     "wmwe": [
-     3,
+     2,
      2
     ],
     "lextag": "I~-N-n.ARTIFACT"
@@ -99364,11 +99364,11 @@
     "edeps": "8:compound",
     "misc": null,
     "smwe": [
-     1,
+     3,
      2
     ],
     "wmwe": [
-     3,
+     2,
      3
     ],
     "lextag": "I_"
@@ -99496,7 +99496,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "3": {
     "lexlemma": "red line",
     "lexcat": "N",
     "ss": "n.ARTIFACT",
@@ -99508,7 +99508,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "close to",
     "toknums": [
      4,
@@ -99516,7 +99516,7 @@
     ],
     "lexcat": null
    },
-   "3": {
+   "2": {
     "lexlemma": "morse red line",
     "toknums": [
      7,
@@ -101918,7 +101918,7 @@
    {
     "#": 2,
     "word": "fries",
-    "lemma": "fries",
+    "lemma": "fry",
     "upos": "NOUN",
     "xpos": "NNS",
     "feats": "Number=Plur",
@@ -102093,7 +102093,7 @@
     ]
    },
    "2": {
-    "lexlemma": "fries",
+    "lexlemma": "fry",
     "lexcat": "N",
     "ss": "n.FOOD",
     "ss2": null,
@@ -102120,7 +102120,7 @@
     ],
     "heuristic_relation": {
      "gov": 2,
-     "govlemma": "fries",
+     "govlemma": "fry",
      "obj": 6,
      "objlemma": "quality",
      "config": "predicative"
@@ -102759,7 +102759,7 @@
     "feats": "Number=Sing",
     "head": 0,
     "deprel": "root",
-    "edeps": "4:nsubj",
+    "edeps": "0:root|4:nsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -104354,10 +104354,10 @@
    {
     "#": 4,
     "word": "restraunt",
-    "lemma": "restraunt",
+    "lemma": "restaurant",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|Typo=Yes",
     "head": 1,
     "deprel": "obj",
     "edeps": "1:obj",
@@ -104372,10 +104372,10 @@
    {
     "#": 5,
     "word": "u",
-    "lemma": "u",
+    "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP",
-    "feats": null,
+    "feats": "Abbr=Yes|Case=Nom|Person=2|PronType=Prs",
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj",
@@ -104556,7 +104556,7 @@
      1
     ],
     "wmwe": [
-     5,
+     4,
      1
     ],
     "lextag": "B-N-n.ARTIFACT"
@@ -104577,7 +104577,7 @@
      2
     ],
     "wmwe": [
-     5,
+     4,
      2
     ],
     "lextag": "I_"
@@ -104595,7 +104595,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     5,
+     4,
      3
     ],
     "lextag": "I~-N-n.ARTIFACT"
@@ -104672,7 +104672,7 @@
     "edeps": "24:compound",
     "misc": null,
     "smwe": [
-     4,
+     5,
      1
     ],
     "wmwe": null,
@@ -104690,7 +104690,7 @@
     "edeps": "1:parataxis",
     "misc": null,
     "smwe": [
-     4,
+     5,
      2
     ],
     "wmwe": null,
@@ -104763,7 +104763,7 @@
     ]
    },
    "5": {
-    "lexlemma": "u",
+    "lexlemma": "you",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -104946,7 +104946,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "360 restraunt",
+    "lexlemma": "360 restaurant",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -104975,7 +104975,7 @@
      17
     ]
    },
-   "4": {
+   "5": {
     "lexlemma": "line up",
     "lexcat": "N",
     "ss": "n.ACT",
@@ -104987,7 +104987,7 @@
    }
   },
   "wmwes": {
-   "5": {
+   "4": {
     "lexlemma": "sky pod elevator",
     "toknums": [
      16,
@@ -108595,7 +108595,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      1
     ],
     "lextag": "B-N-n.LOCATION"
@@ -108613,7 +108613,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      2
     ],
     "lextag": "I~-PUNCT"
@@ -108631,7 +108631,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     3,
+     2,
      3
     ],
     "lextag": "I~-N-n.LOCATION"
@@ -108663,7 +108663,7 @@
     "edeps": "14:punct",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      1
     ],
     "wmwe": null,
@@ -108681,7 +108681,7 @@
     "edeps": "14:nummod",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      2
     ],
     "wmwe": null,
@@ -108699,7 +108699,7 @@
     "edeps": "14:punct",
     "misc": "SpaceAfter=No",
     "smwe": [
-     2,
+     3,
      3
     ],
     "wmwe": null,
@@ -108717,7 +108717,7 @@
     "edeps": "6:list",
     "misc": null,
     "smwe": [
-     2,
+     3,
      4
     ],
     "wmwe": null,
@@ -108817,7 +108817,7 @@
      6
     ]
    },
-   "2": {
+   "3": {
     "lexlemma": "( 989 ) 755-1109",
     "lexcat": "NUM",
     "ss": null,
@@ -108831,7 +108831,7 @@
    }
   },
   "wmwes": {
-   "3": {
+   "2": {
     "lexlemma": "Saginaw , Michigan",
     "toknums": [
      7,
@@ -119721,7 +119721,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     5,
+     4,
      1
     ],
     "lextag": "B-V-v.communication"
@@ -119738,11 +119738,11 @@
     "edeps": "33:case",
     "misc": null,
     "smwe": [
-     4,
+     5,
      1
     ],
     "wmwe": [
-     5,
+     4,
      2
     ],
     "lextag": "I~-P-p.Source"
@@ -119759,11 +119759,11 @@
     "edeps": "33:case",
     "misc": null,
     "smwe": [
-     4,
+     5,
      2
     ],
     "wmwe": [
-     5,
+     4,
      3
     ],
     "lextag": "I_"
@@ -119796,7 +119796,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
-     5,
+     4,
      4
     ],
     "lextag": "I~-N-n.BODY"
@@ -120076,7 +120076,7 @@
      25
     ]
    },
-   "4": {
+   "5": {
     "lexlemma": "out of",
     "lexcat": "P",
     "ss": "p.Source",
@@ -120095,7 +120095,7 @@
    }
   },
   "wmwes": {
-   "5": {
+   "4": {
     "lexlemma": "come out of mouth",
     "toknums": [
      29,
@@ -120191,7 +120191,7 @@
    {
     "#": 6,
     "word": "feces",
-    "lemma": "fece",
+    "lemma": "feces",
     "upos": "NOUN",
     "xpos": "NNS",
     "feats": "Number=Plur",
@@ -120245,7 +120245,7 @@
      "gov": 3,
      "govlemma": "taste",
      "obj": 6,
-     "objlemma": "fece",
+     "objlemma": "feces",
      "config": "default"
     }
    },
@@ -120259,7 +120259,7 @@
     ]
    },
    "6": {
-    "lexlemma": "fece",
+    "lexlemma": "feces",
     "lexcat": "N",
     "ss": "n.SUBSTANCE",
     "ss2": null,
@@ -120290,7 +120290,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      1
     ],
     "lextag": "B-ADJ"
@@ -120308,7 +120308,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      2
     ],
     "lextag": "I~-CCONJ"
@@ -120326,7 +120326,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": [
-     2,
+     1,
      3
     ],
     "lextag": "I~-ADJ"
@@ -120388,7 +120388,7 @@
     "edeps": "8:compound",
     "misc": null,
     "smwe": [
-     1,
+     2,
      1
     ],
     "wmwe": null,
@@ -120406,7 +120406,7 @@
     "edeps": "4:nmod:with",
     "misc": null,
     "smwe": [
-     1,
+     2,
      2
     ],
     "wmwe": null,
@@ -120605,7 +120605,7 @@
    }
   },
   "smwes": {
-   "1": {
+   "2": {
     "lexlemma": "living room",
     "lexcat": "N",
     "ss": "n.LOCATION",
@@ -120617,7 +120617,7 @@
    }
   },
   "wmwes": {
-   "2": {
+   "1": {
     "lexlemma": "nice and quiet",
     "toknums": [
      1,
@@ -126808,10 +126808,10 @@
    {
     "#": 3,
     "word": "wrok",
-    "lemma": "wrok",
+    "lemma": "work",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|Typo=Yes",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -126838,7 +126838,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "honest wrok",
+    "lexlemma": "honest work",
     "lexcat": "N",
     "ss": "n.ACT",
     "ss2": null,
@@ -128249,10 +128249,10 @@
    {
     "#": 2,
     "word": "guality",
-    "lemma": "guality",
+    "lemma": "quality",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|Typo=Yes",
     "head": 4,
     "deprel": "compound",
     "edeps": "4:compound",
@@ -128379,7 +128379,7 @@
     ]
    },
    "2": {
-    "lexlemma": "guality",
+    "lexlemma": "quality",
     "lexcat": "N",
     "ss": "n.ATTRIBUTE",
     "ss2": null,
@@ -129711,7 +129711,7 @@
     "feats": "Number=Sing",
     "head": 0,
     "deprel": "root",
-    "edeps": "8:obj",
+    "edeps": "0:root|8:obj",
     "misc": null,
     "smwe": [
      1,
@@ -131928,10 +131928,10 @@
    {
     "#": 5,
     "word": "u",
-    "lemma": "u",
+    "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP",
-    "feats": null,
+    "feats": "Abbr=Yes|Case=Acc|Person=2|PronType=Prs",
     "head": 4,
     "deprel": "obj",
     "edeps": "4:obj",
@@ -131989,7 +131989,7 @@
     ]
    },
    "5": {
-    "lexlemma": "u",
+    "lexlemma": "you",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -136944,10 +136944,10 @@
    {
     "#": 4,
     "word": "recomend",
-    "lemma": "recomend",
+    "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VB",
-    "feats": "VerbForm=Inf",
+    "feats": "Typo=Yes|VerbForm=Inf",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -137092,7 +137092,7 @@
     ]
    },
    "4": {
-    "lexlemma": "recomend",
+    "lexlemma": "recommend",
     "lexcat": "V",
     "ss": "v.communication",
     "ss2": null,
@@ -137110,7 +137110,7 @@
     ],
     "heuristic_relation": {
      "gov": 4,
-     "govlemma": "recomend",
+     "govlemma": "recommend",
      "obj": 6,
      "objlemma": "other",
      "config": "default"
@@ -137135,7 +137135,7 @@
     ],
     "heuristic_relation": {
      "gov": 4,
-     "govlemma": "recomend",
+     "govlemma": "recommend",
      "obj": 10,
      "objlemma": "service",
      "config": "default"
@@ -138619,10 +138619,10 @@
    {
     "#": 19,
     "word": "Phx",
-    "lemma": "Phx",
+    "lemma": "Phoenix",
     "upos": "PROPN",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Abbr=Yes|Number=Sing",
     "head": 16,
     "deprel": "obl",
     "edeps": "16:obl:from",
@@ -138839,7 +138839,7 @@
      "gov": 16,
      "govlemma": "drive",
      "obj": 19,
-     "objlemma": "Phx",
+     "objlemma": "Phoenix",
      "config": "default"
     }
    },
@@ -138853,7 +138853,7 @@
     ]
    },
    "19": {
-    "lexlemma": "Phx",
+    "lexlemma": "Phoenix",
     "lexcat": "N",
     "ss": "n.LOCATION",
     "ss2": null,
