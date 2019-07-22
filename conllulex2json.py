@@ -74,6 +74,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
         xmwes += [(e["toknums"][0], 'w', mwenum) for mwenum,e in sent['wmwes'].items()]
         xmwes.sort()
         for k,mwe in chain(sent['smwes'].items(), sent['wmwes'].items()):
+            assert int(k)-1<len(xmwes),f"In {sent['sent_id']}, MWE index {k} exceeds number of MWEs in the sentence"
             assert xmwes[int(k)-1][2]==k,f"In {sent['sent_id']}, MWEs are not numbered in the correct order: use normalize_mwe_numbering.py to fix"
 
         # check that lexical & weak MWE lemmas are correct
@@ -101,7 +102,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                             assert ss not in ss2A,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
                             assert ss2 not in ssA,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
             else:
-                assert ss is None and ss2 is None and lexe not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),lexe
+                assert ss is None and ss2 is None and lc not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),f"In {sent['sent_id']}, invalid supersense(s) in lexical entry: {lexe}"
 
         # check lexcat on single-word expressions
         for swe in sent['swes'].values():
