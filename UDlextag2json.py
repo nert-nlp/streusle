@@ -141,7 +141,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
     """
 
     yield from load_conllulex_sents(inF, morph_syn=morph_syn, misc=misc, ss_mapper=ss_mapper,
-                                    unpack=unpack_lextags, load_columns=load_ud_lextag_columns)
+                                    unpack=unpack_lextags, load_columns=load_ud_lextag_columns,
+                                    validate_pos=validate_pos, validate_type=validate_type)
 
 
 if __name__ == '__main__':
