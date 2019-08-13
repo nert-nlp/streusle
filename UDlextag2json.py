@@ -1,25 +1,23 @@
 #!/usr/bin/env python3
 
-import sys
+from argparse import ArgumentParser
 
-from supersenses import ancestors
-from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
-from tagging import sent_tags
-from mwerender import render, render_sent
-from conllulex2json import print_json, map_lextags, load_sents as load_conllulex_sents
+from conllulex2json import add_arguments, print_json, map_lextags, load_sents as load_conllulex_sents
 from streuseval import parse_mwe_links, form_groups
 
-"""
-Defines a function to read a .UDlextag file sentence-by-sentence into a data structure,
-unpacking the lextags into structured lexical annotations.
-If the script is called directly, outputs the data as JSON.
+desc = \
+    """
+    Defines a function to read a .UDlextag file sentence-by-sentence into a data structure,
+    unpacking the lextags into structured lexical annotations.
+    If the script is called directly, outputs the data as JSON.
+    
+    Adapted from conllulex2json.py.
+    See conllulex2UDlextag.py for an explanation of the .UDlextag format.
+    
+    @author: Nathan Schneider (@nschneid)
+    @since: 2019-06-20
+    """
 
-Adapted from conllulex2json.py.
-See conllulex2UDlextag.py for an explanation of the .UDlextag format.
-
-@author: Nathan Schneider (@nschneid)
-@since: 2019-06-20
-"""
 
 def load_ud_lextag_columns(lex_cols, tok, tok_num, sent, ss_mapper):
     # Load STREUSLE-specific columns
@@ -147,6 +145,6 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
 
 
 if __name__ == '__main__':
-    fname = sys.argv[1]
-    with open(fname, encoding='utf-8') as inF:
-        print_json(load_sents(inF))
+    argparser = ArgumentParser(description=desc)
+    add_arguments(argparser)
+    print_json(load_sents(**vars(argparser.parse_args())))

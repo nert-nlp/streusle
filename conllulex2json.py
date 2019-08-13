@@ -3,23 +3,25 @@
 import json
 import re
 import sys
+from argparse import ArgumentParser, FileType
 from collections import defaultdict
 from itertools import chain
 
-from supersenses import ancestors, makesslabel
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
 from mwerender import render
 from supersenses import ancestors
+from supersenses import makesslabel
 from tagging import sent_tags
 
-"""
-Defines a function to read a .conllulex file sentence-by-sentence into a data structure.
-If the script is called directly, outputs the data as JSON.
-Also performs validation checks on the input.
-
-@author: Nathan Schneider (@nschneid)
-@since: 2017-12-29
-"""
+desc = \
+    """
+    Defines a function to read a .conllulex file sentence-by-sentence into a data structure.
+    If the script is called directly, outputs the data as JSON.
+    Also performs validation checks on the input.
+    
+    @author: Nathan Schneider (@nschneid)
+    @since: 2017-12-29
+    """
 
 
 def validate(sent, validate_pos=True, validate_type=True):
@@ -441,7 +443,15 @@ def print_json(sents):
     print(']')
 
 
+def add_arguments(argument_parser):
+    argument_parser.add_argument("inF", type=FileType(encoding="utf-8"))
+    argument_parser.add_argument("--no-morph-syn", action="store_false", dest="morph_syn")
+    argument_parser.add_argument("--no-misc", action="store_false", dest="misc")
+    argument_parser.add_argument("--no-validate-pos", action="store_false", dest="validate_pos")
+    argument_parser.add_argument("--no-validate-type", action="store_false", dest="validate_type")
+
+
 if __name__ == '__main__':
-    fname = sys.argv[1]
-    with open(fname, encoding='utf-8') as inF:
-        print_json(load_sents(inF))
+    argparser = ArgumentParser(description=desc)
+    add_arguments(argparser)
+    print_json(load_sents(**vars(argparser.parse_args())))
