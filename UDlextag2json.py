@@ -54,6 +54,78 @@ def load_ud_lextag_columns(lex_cols, tok, tok_num, sent, ss_mapper):
     # these will be moved to the lexical expression level in _unpack_lextags()
 
 
+def unpack_lextags(sent, ss_mapper):
+    """At this point the sentence will be a collection of tokens, which will have
+    lextags but no other STREUSLE info. The parts of the lextag have been parsed into tok['_lextag']."""
+
+    # Infer MWE groupings from lextags
+    mweflags = [tok['_lextag']['mweflag'] for tok in sent['toks'] if '_lextag' in tok]
+    mweflags = ['O'] + mweflags  # so token offsets in groups are 1-based
+    links = parse_mwe_links(mweflags)
+    sgroups = form_groups([(a, b) for a, b, s in links if s == '_'])
+    maxgroups = form_groups([(a, b) for a, b, s in links])  # maximal groups: treat weak links like strong links
+    wgroups = [g for g in maxgroups if g not in sgroups]
+
+    # Register strong, then weak MWEs in data structure
+
+    # Ordering MWEs by first token offset (tiebreaker to strong MWE):
+    xgroups = [(min(sg), 's', sg) for sg in sgroups] + [(min(wg), 'w', wg) for wg in wgroups]
+
+    mwe_group = 1
+    for tok1Num, x, g in sorted(xgroups):
+        sent[x + 'mwes'][mwe_group]['lexlemma'] = ''
+        for mwe_position, tokNum in enumerate(sorted(g), start=1):
+            sent['toks'][tokNum - 1][x + 'mwe'] = mwe_group, mwe_position
+            sent[x + 'mwes'][mwe_group]['toknums'].append(tokNum)
+            sent[x + 'mwes'][mwe_group]['lexlemma'] += ' ' + sent['toks'][tokNum - 1]['lemma']
+        sent[x + 'mwes'][mwe_group]['lexlemma'] = sent[x + 'mwes'][mwe_group]['lexlemma'][
+                                                  1:]  # delete leading space
+        assert ' ' in sent[x + 'mwes'][mwe_group]['lexlemma']
+        mwe_group += 1
+    del mwe_group
+
+    # Deal with single-word expressions, and move lexcat/supersenses
+    # from the token to the lexical expression
+    for tok in sent['toks']:
+        assert '_lextag' in tok
+
+        if not tok['smwe']:  # token not part of a strong MWE
+            tokNum = tok['#']
+            sent['swes'][tokNum]['lexlemma'] = tok['lemma']
+            assert ' ' not in sent['swes'][tokNum]['lexlemma']
+            sent['swes'][tokNum]['toknums'].append(tokNum)
+
+        if tok['wmwe'] and tok['wmwe'][1] == 1:  # first token in weak MWE
+            # assert tok['wcat'] and tok['wcat']!='_'    # eventually it would be good to have a category for
+            # every weak expression
+            sent['wmwes'][tok['wmwe'][0]]['lexcat'] = tok['wcat'] if tok['_lextag'].get('wcat') else None
+
+        if tok['_lextag']['lexcat']:  # first token in a strong expression (SW or MW)
+            einfo = tok['_lextag']
+            assert einfo['lexcat'] != '_', einfo
+
+            # place to unpack lexcat/supersense info to (lexlemma is already unpacked)
+            dest = sent['smwes'][tok['smwe'][0]] if tok['smwe'] else sent['swes'][tok['#']]
+
+            dest['lexcat'] = einfo['lexcat']
+            dest['ss'] = ss_mapper(einfo['ss']) if einfo['ss'] != '_' else None
+            dest['ss2'] = ss_mapper(einfo['ss2']) if einfo['ss2'] != '_' else None
+
+    for swe in sent['swes'].values():
+        assert len(swe['toknums']) == 1, swe
+    for smwe in sent['smwes'].values():
+        assert smwe['toknums']
+    for wmwe in sent['wmwes'].values():
+        assert wmwe['toknums']
+
+    for tok in sent['toks']:
+        del tok['_lextag']
+        if not tok['smwe']:
+            assert sent['swes'][tok['#']]['lexcat'], sent['swes']
+        else:
+            assert sent['smwes'][tok['smwe'][0]]['lexcat'], sent['smwes']
+
+
 def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True, validate_type=True):
     """Given a .UDlextag file (or iterable over lines), return an iterator over sentences.
 
@@ -68,79 +140,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
     @param validate_type: Validate SWE-specific or SMWE-specific tags only apply to the corresponding MWE type
     """
 
-    def _unpack_lextags(sent):
-        """At this point the sentence will be a collection of tokens, which will have
-        lextags but no other STREUSLE info. The parts of the lextag have been parsed into tok['_lextag']."""
-
-        # Infer MWE groupings from lextags
-        mweflags = [tok['_lextag']['mweflag'] for tok in sent['toks'] if '_lextag' in tok]
-        mweflags = ['O'] + mweflags  # so token offsets in groups are 1-based
-        links = parse_mwe_links(mweflags)
-        sgroups = form_groups([(a, b) for a, b, s in links if s == '_'])
-        maxgroups = form_groups([(a, b) for a, b, s in links])  # maximal groups: treat weak links like strong links
-        wgroups = [g for g in maxgroups if g not in sgroups]
-
-        # Register strong, then weak MWEs in data structure
-
-        # Ordering MWEs by first token offset (tiebreaker to strong MWE):
-        xgroups = [(min(sg), 's', sg) for sg in sgroups] + [(min(wg), 'w', wg) for wg in wgroups]
-
-        mwe_group = 1
-        for tok1Num, x, g in sorted(xgroups):
-            sent[x + 'mwes'][mwe_group]['lexlemma'] = ''
-            for mwe_position, tokNum in enumerate(sorted(g), start=1):
-                sent['toks'][tokNum - 1][x + 'mwe'] = mwe_group, mwe_position
-                sent[x + 'mwes'][mwe_group]['toknums'].append(tokNum)
-                sent[x + 'mwes'][mwe_group]['lexlemma'] += ' ' + sent['toks'][tokNum - 1]['lemma']
-            sent[x + 'mwes'][mwe_group]['lexlemma'] = sent[x + 'mwes'][mwe_group]['lexlemma'][
-                                                      1:]  # delete leading space
-            assert ' ' in sent[x + 'mwes'][mwe_group]['lexlemma']
-            mwe_group += 1
-        del mwe_group
-
-        # Deal with single-word expressions, and move lexcat/supersenses
-        # from the token to the lexical expression
-        for tok in sent['toks']:
-            assert '_lextag' in tok
-
-            if not tok['smwe']:  # token not part of a strong MWE
-                tokNum = tok['#']
-                sent['swes'][tokNum]['lexlemma'] = tok['lemma']
-                assert ' ' not in sent['swes'][tokNum]['lexlemma']
-                sent['swes'][tokNum]['toknums'].append(tokNum)
-
-            if tok['wmwe'] and tok['wmwe'][1] == 1:  # first token in weak MWE
-                # assert tok['wcat'] and tok['wcat']!='_'    # eventually it would be good to have a category for
-                # every weak expression
-                sent['wmwes'][tok['wmwe'][0]]['lexcat'] = tok['wcat'] if tok['_lextag'].get('wcat') else None
-
-            if tok['_lextag']['lexcat']:  # first token in a strong expression (SW or MW)
-                einfo = tok['_lextag']
-                assert einfo['lexcat'] != '_', einfo
-
-                # place to unpack lexcat/supersense info to (lexlemma is already unpacked)
-                dest = sent['smwes'][tok['smwe'][0]] if tok['smwe'] else sent['swes'][tok['#']]
-
-                dest['lexcat'] = einfo['lexcat']
-                dest['ss'] = ss_mapper(einfo['ss']) if einfo['ss'] != '_' else None
-                dest['ss2'] = ss_mapper(einfo['ss2']) if einfo['ss2'] != '_' else None
-
-        for swe in sent['swes'].values():
-            assert len(swe['toknums']) == 1, swe
-        for smwe in sent['smwes'].values():
-            assert smwe['toknums']
-        for wmwe in sent['wmwes'].values():
-            assert wmwe['toknums']
-
-        for tok in sent['toks']:
-            del tok['_lextag']
-            if not tok['smwe']:
-                assert sent['swes'][tok['#']]['lexcat'], sent['swes']
-            else:
-                assert sent['smwes'][tok['smwe'][0]]['lexcat'], sent['smwes']
-
     yield from load_conllulex_sents(inF, morph_syn=morph_syn, misc=misc, ss_mapper=ss_mapper,
-                                    unpack=_unpack_lextags, load_columns=load_ud_lextag_columns)
+                                    unpack=unpack_lextags, load_columns=load_ud_lextag_columns)
 
 
 if __name__ == '__main__':

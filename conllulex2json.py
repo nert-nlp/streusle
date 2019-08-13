@@ -363,7 +363,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, unpack=None, load
         if not ln:
             if sent:
                 if unpack is not None:
-                    unpack(sent)
+                    unpack(sent, ss_mapper)
                 if store_conllulex: sent['conllulex'] = sent_conllulex
                 lc_tbd += validate(sent, validate_pos=validate_pos, validate_type=validate_type)
                 yield sent
