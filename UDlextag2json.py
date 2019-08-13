@@ -24,9 +24,8 @@ def load_ud_lextag_columns(lex_cols, tok, tok_num, sent, ss_mapper):
     # initialize before setting lextag so JSON order will put lextag last
     tok['smwe'] = None
     tok['wmwe'] = None
-    # .UDlextag: all but the last should be empty
-    assert lex_cols[:-1] == [''] * 8
-    assert lex_cols[-1]
+    assert lex_cols[:-1] == [''] * 8, f".UDlextag: all but the last column should be empty: {lex_cols[:-1]}"
+    assert lex_cols[-1], ".UDlextag: the last column should not be empty"
     lt = tok['lextag'] = lex_cols[-1]
     # map the supersenses in the lextag
     map_lextags(lt, ss_mapper, tok)
