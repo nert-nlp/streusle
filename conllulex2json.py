@@ -111,24 +111,45 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             lc = swe['lexcat']
             if lc.endswith('!@'): continue
             assert lc in ALL_LEXCATS,f"In {sent['sent_id']}, invalid lexcat for single-word expression: {lc} in {tok}"
-            if (xpos=='TO')!=lc.startswith('INF'):
-                assert upos=='SCONJ' and swe['lexlemma']=='for',(sent['sent_id'],swe,tok)
-            if (upos in ('NOUN', 'PROPN'))!=(lc=='N'):
-                try:
-                    assert upos in ('SYM','X') or (lc in ('PRON','DISC')),(sent['sent_id'],swe,tok)
-                except AssertionError:
-                    print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
-            if (upos=='AUX')!=(lc=='AUX'):
-                assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
-            if (upos=='VERB')!=(lc=='V'):
-                if lc=='ADJ':
-                    print('Word treated as VERB in UD, ADJ for supersenses:', sent['sent_id'], tok['word'], file=sys.stderr)
-                else:
+            if upos!=lc and (upos,lc) not in {('NOUN','N'),('PROPN','N'),('VERB','V'),
+                ('ADP','P'),('ADV','P'),('SCONJ','P'),
+                ('ADP','DISC'),('ADV','DISC'),('SCONJ','DISC'),
+                ('PART','POSS')}:
+                # most often, the single-word lexcat should match its upos
+                # check a list of exceptions
+                mismatchOK = False
+                if xpos=='TO' and lc.startswith('INF'):
+                    mismatchOK = True
+                elif (xpos=='TO')!=lc.startswith('INF'):
+                    assert upos=='SCONJ' and swe['lexlemma']=='for',(sent['sent_id'],swe,tok)
+                    mismatchOK = True
+
+                if (upos in ('NOUN', 'PROPN'))!=(lc=='N'):
+                    try:
+                        assert upos in ('SYM','X') or (lc in ('PRON','DISC')),(sent['sent_id'],swe,tok)
+                    except AssertionError:
+                        print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
+                    mismatchOK = True
+                if (upos=='AUX')!=(lc=='AUX'):
                     assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
-            if upos=='PRON':
-                assert lc=='PRON' or lc=='PRON.POSS',(sent['sent_id'],tok)
-            if lc=='ADV':
-                assert upos=='ADV' or upos=='PART',(sent['sent_id'],tok)    # PART is for negations
+                    mismatchOK = True
+                if (upos=='VERB')!=(lc=='V'):
+                    if lc=='ADJ':
+                        print('Word treated as VERB in UD, ADJ for supersenses:', sent['sent_id'], tok['word'], file=sys.stderr)
+                    else:
+                        assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
+                    mismatchOK = True
+                if upos=='PRON':
+                    assert lc=='PRON' or lc=='PRON.POSS',(sent['sent_id'],tok)
+                    mismatchOK = True
+                if lc=='ADV':
+                    assert upos=='ADV' or upos=='PART',(sent['sent_id'],tok)    # PART is for negations
+                    mismatchOK = True
+                if upos=='ADP' and lc=='CCONJ':
+                    assert tok['lemma']=='versus'
+                    mismatchOK = True
+
+                assert mismatchOK,f"In {sent['sent_id']}, for single-word expression {tok} has lexcat {lc}, which is incompatible with its upos {upos}"
             assert lc!='PP',('PP should only apply to strong MWEs',sent['sent_id'],tok)
         for smwe in sent['smwes'].values():
             assert len(smwe['toknums'])>1
