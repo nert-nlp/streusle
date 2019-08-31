@@ -1,11 +1,24 @@
 #!/usr/bin/env python3
 """
-Query by token, filtering by matching against one or more fields of the input, 
+Query by token, filtering by matching against one or more fields of the input,
 and optionally display fields as columns of output alongside the token in context.
+By default, the first column is the sentence ID, the second column is the token offset(s),
+and the third column is the token highlighted in context.
 
-Interface: ./tquery [-I] streusle.json [+]<fldname>[<op><pattern>] [[+]<fldname2>[<op2><pattern2>] ...]
+A sample of lines output by calling
 
+  ./tquery.py streusle.json +ss=Manner +ss2!=Locus
+
+reviews-116821-0011     3       p.Manner        p.ComparisonRef It tasted >> like << I just flew back home .
+reviews-371300-0005     8-9     p.Manner        p.Manner        I was told to take my coffee >> to go << if I wanted to finish it .
+reviews-048363-0016     7,9     p.Manner        p.Manner        Here I am now driving confidently >> on << my >> own << .
+
+Interface: ./tquery [OPTIONS] streusle.json [+]<fldname>[<op><pattern>] [[+]<fldname2>[<op2><pattern2>] ...]
+
+OPTIONS:
 -I: case-sensitive filtering (case-insensitive by default)
+-T: omit token numbers (offsets within the sentence) in output
+-S: omit sentence IDs in output
 
 fldname: one of the column names: w(ord), l(emma), upos, xpos, feats, head, deprel, edeps, misc, smwe, wmwe, lt (lextag)
 or lc (lexcat), ll (lexlemma), ss = r (role), f (function)
@@ -39,26 +52,44 @@ syntactic configuration (default, predicative, or stranded), and lemmas and POSe
 import sys, json, fileinput, re
 from itertools import chain
 
-TKN_LEVEL_FIELDS = {'w': 'word', 'word': 'word', 'l': 'lemma', 'lemma': 'lemma', 
+TKN_LEVEL_FIELDS = {'w': 'word', 'word': 'word', 'l': 'lemma', 'lemma': 'lemma',
                    'upos': 'upos', 'xpos': 'xpos', 'feats': 'feats', 
                    'head': 'head', 'deprel': 'deprel', 'edeps': 'edeps', 
                    'misc': 'misc', 'smwe': 'smwe', 'wmwe': 'wmwe', 'lextag': 'lextag', 'lt': 'lextag'}
-LEX_LEVEL_FIELDS = {'lexcat': 'lexcat', 'lc': 'lexcat', 'lexlemma': 'lexlemma', 'll': 'lexlemma', 'r': 'ss', 'ss': 'ss', 'f': 'ss2', 'ss2': 'ss2'}
+LEX_LEVEL_FIELDS = {'lexcat': 'lexcat', 'lc': 'lexcat', 'lexlemma': 'lexlemma', 'll': 'lexlemma',
+                   'r': 'ss', 'ss': 'ss', 'f': 'ss2', 'ss2': 'ss2'}
 GOVOBJ_FIELDS = {'g': 'govlemma', 'govlemma': 'govlemma', 'o': 'objlemma', 'objlemma': 'objlemma', 'config': 'config'}
 ALL_FIELDS = dict(**TKN_LEVEL_FIELDS, **LEX_LEVEL_FIELDS, **GOVOBJ_FIELDS)
 RE_FLAGS = re.IGNORECASE   # case-insensitive by default
 
+
+printSentId = True
+printTokOffset = True
+
+
 args = sys.argv[1:]
 assert len(args)>=2
 
-if args[0].startswith('-'):
+while args[0].startswith('-'):
     flag = args.pop(0)
     if flag=='-I': # case-sensitive
         RE_FLAGS = 0
+    elif flag=='-S':
+        printSentId = False
+    elif flag=='-T':
+        printTokOffset = False
+    else:
+        raise ValueError(f'Invalid flag: {flag}')
 
 inFP = args.pop(0)
 constraints = tknconstraints, lexconstraints, govobjconstraints = [], [], []
 prints = [] # fields whose values are to be printed
+
+if printSentId:
+    prints.append('_sentid')
+if printTokOffset:
+    prints.append('_tokoffset')
+
 for arg in args:
     printme = False
     if arg.startswith('+'):
@@ -175,10 +206,13 @@ for sent in data:
                     myprints[fld] = tuple(tok[fld] for tok in toks)
         
         if not fail:
+            myprints['_sentid'] = sent["sent_id"]
+
             s = ''
             inmatch = False
+            toknums = lexe["toknums"]
             for tok in sent["toks"]:
-                if tok["#"] in lexe["toknums"]:
+                if tok["#"] in toknums:
                     if not inmatch:
                         inmatch = True
                         s += '>> '
@@ -190,8 +224,12 @@ for sent in data:
             if inmatch:
                 s += '<< '
             
-            print(sent["sent_id"], 
-                  *[myprints[f] for f in prints],
+            if 1 < len(toknums) == max(toknums)-min(toknums)+1:
+                myprints['_tokoffset'] = f'{min(toknums)}-{max(toknums)}'
+            else:
+                myprints['_tokoffset'] = ','.join(map(str,lexe["toknums"]))
+
+            print(*[myprints[f] for f in prints],
                   #lexe["ss"]+('|'+lexe["ss2"] if lexe["ss2"] and lexe["ss2"]!=lexe["ss"] else ''),     # TODO: make a field for this
                   s, sep='\t')
             n += 1
