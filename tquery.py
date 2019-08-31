@@ -4,6 +4,7 @@ Query by token, filtering by matching against one or more fields of the input,
 and optionally display fields as columns of output alongside the token in context.
 By default, the first column is the sentence ID, the second column is the token offset(s),
 and the third column is the token highlighted in context.
+By default, 2 header rows are printed.
 
 A sample of lines output by calling
 
@@ -16,9 +17,10 @@ reviews-048363-0016     7,9     p.Manner        p.Manner        Here I am now dr
 Interface: ./tquery [OPTIONS] streusle.json [+]<fldname>[<op><pattern>] [[+]<fldname2>[<op2><pattern2>] ...]
 
 OPTIONS:
+-H: omit header lines giving commit hash and call info, and column headers (these lines start with "#")
 -I: case-sensitive filtering (case-insensitive by default)
--T: omit token numbers (offsets within the sentence) in output
 -S: omit sentence IDs in output
+-T: omit token numbers (offsets within the sentence) in output
 
 fldname: one of the column names: w(ord), l(emma), upos, xpos, feats, head, deprel, edeps, misc, smwe, wmwe, lt (lextag)
 or lc (lexcat), ll (lexlemma), ss = r (role), f (function)
@@ -50,6 +52,7 @@ syntactic configuration (default, predicative, or stranded), and lemmas and POSe
 """
 
 import sys, json, fileinput, re
+import shlex, subprocess
 from itertools import chain
 
 TKN_LEVEL_FIELDS = {'w': 'word', 'word': 'word', 'l': 'lemma', 'lemma': 'lemma',
@@ -62,7 +65,7 @@ GOVOBJ_FIELDS = {'g': 'govlemma', 'govlemma': 'govlemma', 'o': 'objlemma', 'objl
 ALL_FIELDS = dict(**TKN_LEVEL_FIELDS, **LEX_LEVEL_FIELDS, **GOVOBJ_FIELDS)
 RE_FLAGS = re.IGNORECASE   # case-insensitive by default
 
-
+printHeader = True
 printSentId = True
 printTokOffset = True
 
@@ -72,11 +75,13 @@ assert len(args)>=2
 
 while args[0].startswith('-'):
     flag = args.pop(0)
-    if flag=='-I': # case-sensitive
+    if flag=='-H':  # no header info
+        printHeader = False
+    elif flag=='-I': # case-sensitive
         RE_FLAGS = 0
-    elif flag=='-S':
+    elif flag=='-S':    # no sentence IDs
         printSentId = False
-    elif flag=='-T':
+    elif flag=='-T':    # no token offsets
         printTokOffset = False
     else:
         raise ValueError(f'Invalid flag: {flag}')
@@ -156,6 +161,15 @@ for arg in args:
 with open(inFP, encoding='utf-8') as inF:
     data = json.load(inF)
 
+if printHeader:
+    # for reproducibility, the git commit hash and the command line call to this script
+    commitHash = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).strip()
+    sysCall = sys.argv[0] + " " + " ".join(map(shlex.quote, sys.argv[1:]))
+    print(f'# {commitHash} ~ {sysCall}')
+
+    # column headers
+    print('# ' + '\t'.join(prints), 'tokInContext', sep='\t')
+
 n = 0
 for sent in data:
     for lexe in chain(sent["swes"].values(), sent["smwes"].values()):
@@ -234,4 +248,4 @@ for sent in data:
                   s, sep='\t')
             n += 1
 
-print(f'{n} match' + ('es' if n!=1 else ''), prints, file=sys.stderr)
+print(f'{n} match' + ('es' if n!=1 else ''), file=sys.stderr)
