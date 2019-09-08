@@ -65,18 +65,15 @@ GOVOBJ_FIELDS = {'g': 'govlemma', 'govlemma': 'govlemma', 'o': 'objlemma', 'objl
 ALL_FIELDS = dict(**TKN_LEVEL_FIELDS, **LEX_LEVEL_FIELDS, **GOVOBJ_FIELDS)
 RE_FLAGS = re.IGNORECASE   # case-insensitive by default
 
-def tquery(jsonPath, select_fields):
+def tselect(jsonPath, fields, tknconstraints=[], lexconstraints=[], govobjconstraints=[]):
 
-    with open(inFP, encoding='utf-8') as inF:
+    with open(jsonPath, encoding='utf-8') as inF:
         data = json.load(inF)
 
-
-
-    n = 0
     for sent in data:
         for lexe in chain(sent["swes"].values(), sent["smwes"].values()):
             fail = False
-            myprints = {k: None for k in prints}
+            myprints = {k: None for k in fields}
             # at the lexical expression level: lexcat, lexlemma, ss (role), ss2 (function), heuristic_relation["govlemma", "objlemma", "config"]
             for fld, matchX in lexconstraints:
                 if matchX and not matchX(lexe[fld]):
@@ -139,11 +136,17 @@ def tquery(jsonPath, select_fields):
                     s += tok["word"] + ' '
                 if inmatch:
                     s += '<< '
+                myprints['_context'] = s
 
                 if 1 < len(toknums) == max(toknums)-min(toknums)+1:
                     myprints['_tokoffset'] = f'{min(toknums)}-{max(toknums)}'
                 else:
                     myprints['_tokoffset'] = ','.join(map(str,lexe["toknums"]))
+
+                yield myprints
+
+
+
 
 
 if __name__=='__main__':
@@ -171,7 +174,7 @@ if __name__=='__main__':
             raise ValueError(f'Invalid flag: {flag}')
 
     inFP = args.pop(0)
-    constraints = tknconstraints, lexconstraints, govobjconstraints = [], [], []
+    tknconstraints, lexconstraints, govobjconstraints = [], [], []
     prints = [] # fields whose values are to be printed
 
     if printSentId:
@@ -179,7 +182,7 @@ if __name__=='__main__':
     if printTokOffset:
         prints.append('_tokoffset')
 
-    # parse the query language (fields and constraints)
+    # parse the query (fields and constraints)
     for arg in args:
         printme = False
         if arg.startswith('+'):
@@ -242,20 +245,25 @@ if __name__=='__main__':
             else:
                 govobjconstraints.append((fld, None))
 
+    prints.append('_context')
 
-        if printHeader:
-            # for reproducibility, the git commit hash and the command line call to this script
-            commitHash = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).strip()
-            sysCall = sys.argv[0] + " " + " ".join(map(shlex.quote, sys.argv[1:]))
-            print(f'# {commitHash} ~ {sysCall}')
 
-            # column headers
-            print('# ' + '\t'.join(prints), 'tokInContext', sep='\t')
-    # TODO: iterate over tquery() output
+    if printHeader:
+        # for reproducibility, the git commit hash and the command line call to this script
+        commitHash = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).strip()
+        sysCall = sys.argv[0] + " " + " ".join(map(shlex.quote, sys.argv[1:]))
+        print(f'# {commitHash} ~ {sysCall}')
 
-                print(*[myprints[f] for f in prints],
-                      #lexe["ss"]+('|'+lexe["ss2"] if lexe["ss2"] and lexe["ss2"]!=lexe["ss"] else ''),     # TODO: make a field for this
-                      s, sep='\t')
-                n += 1
+        # column headers
+        print('# ' + '\t'.join(prints), sep='\t')
+
+    n = 0
+    for myprints in tselect(inFP, prints, tknconstraints=tknconstraints,
+            lexconstraints=lexconstraints, govobjconstraints=govobjconstraints):
+
+        print(*[myprints[f] for f in prints],
+              #lexe["ss"]+('|'+lexe["ss2"] if lexe["ss2"] and lexe["ss2"]!=lexe["ss"] else ''),     # TODO: make a field for this
+              sep='\t')
+        n += 1
 
     print(f'{n} match' + ('es' if n!=1 else ''), file=sys.stderr)
