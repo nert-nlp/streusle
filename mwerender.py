@@ -1,4 +1,5 @@
-import sys, fileinput, json
+#!/usr/bin/env python3
+import sys, fileinput, json, re
 
 def render(ww, sgroups, wgroups, labels={}):
     '''
@@ -75,6 +76,197 @@ def render(ww, sgroups, wgroups, labels={}):
     after = ['' if x is None else x for x in after]
     before = [' ' if x is None else x for x in before]
     return ''.join(sum(zip(before,ww,labelafter,after), ())).strip()
+
+def unrender(rendered, toks):
+    """
+    Given a string rendering of the lexical segmentation/labeling and
+    the tokens of the sentence, parses the rendered markup.
+    Returns a list of (token, BIO tag, label) tuples.
+    Labels are on the FIRST token of the strong expression.
+
+    >>> ww = ['a','b','c','d','e','f','g','h']
+    >>> unrender('a_b_ c~d|D~e|E f|F _g|ABG h', ww) #doctest: +NORMALIZE_WHITESPACE
+    [('a', 'B', 'ABG'), ('b', 'I_', None), ('c', 'b', None),
+     ('d', 'i~', 'D'), ('e', 'i~', 'E'), ('f', 'o', 'F'),
+     ('g', 'I_', None), ('h', 'O', None)]
+    >>> unrender('a_ _b', ['a','b'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup: a_ _b
+    >>> unrender('a_ b c', ['a','b','c'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup (mismatched gap): a_ b c
+
+    See more examples at test_unrender().
+    """
+    assert not any((not t) or ' ' in t for t in toks)
+
+    """
+    1. Construct a regex to identify which characters belong to tokens, which
+    are labels, and which are MWE markup. As we know the tokens, we can avoid
+    assumptions about their characters (they may contain _, ~, and |).
+    """
+    if len(toks)==1:
+        reMarkup = rf'^(?P<t0>{re.escape(toks[0])})((?P<L0>\|[^ _~]+)?)$'
+    elif len(toks)==2: # no gaps allowed
+        reMarkup = rf'^(?P<t0>{re.escape(toks[0])})((?P<L0>\|[^ _~]+)?[ ~]|_)' \
+                   rf'(?P<t{len(toks)-1}>{re.escape(toks[-1])})(?P<L{len(toks)-1}>\|[^ _~]+)?$'
+    else:
+        reMarkup = rf'^(?P<t0>{re.escape(toks[0])})((?P<L0>\|[^ _~]+)?( |~ ?)|_ ?)'
+        for i in range(1,len(toks)-2):
+            reMarkup += rf'(?P<t{i}>{re.escape(toks[i])})((?P<L{i}>\|[^ _~]+)?( |~ ?| [~_])|_ ?)'
+        reMarkup += rf'(?P<t{len(toks)-2}>{re.escape(toks[-2])})' \
+                    rf'((?P<L{len(toks)-2}>\|[^ _~]+)?( | ?~| _)|_)' \
+                    rf'(?P<t{len(toks)-1}>{re.escape(toks[-1])})(?P<L{len(toks)-1}>\|[^ _~]+)?$'
+    matches = re.match(reMarkup, rendered)
+    if not matches:
+        raise ValueError(f'Invalid markup: {rendered}')
+    groups = matches.groupdict()   # regex named groups, not MWE groups
+    # Groups t0, t1, ..., tn match the tokens
+    # Groups L0, L1, ..., Ln match the supersense/lexcat labels where present
+    # Everything else is markup. Note that this does not fully validate the markup;
+    # unclosed gaps are allowed, and labels on strong expressions are optional.
+
+    """
+    2. For each token as it occurs in the rendered string, look at the characters
+    immediately left and right (ignoring the tag if present) to determine
+    the appropriate BIO tag.
+    """
+    ingap = False
+    bio_tagging = []
+    labels_at_end = []
+    labels_at_beginning = [None]*len(toks)
+    initial_token = None    # for the current token, what is the first token position in the same strong expression?
+    pregap_initial_token = None # for the strong MWE that contains the current gap, what is its first token position?
+
+    for i in range(len(toks)):
+        label = groups[f'L{i}']
+        if label is not None:
+            label = label[1:]
+
+        # l, r = MWE markup/spaces on left and right
+        if i==0: l = '^'
+        else:
+            l = rendered[matches.end(f'L{i-1}' if labels_at_end[-1] is not None else f't{i-1}'):matches.start(f't{i}')]
+
+        if i==len(toks)-1: r = '$'
+        else:
+            r = rendered[matches.end(f'L{i}' if label is not None else f't{i}'):matches.start(f't{i+1}')]
+
+        assert l in {' ', '_', '~', '_ ', '~ ', ' _', ' ~', '^'},l
+        assert r in {' ', '_', '~', '_ ', '~ ', ' _', ' ~', '$'}
+
+        if i>0 and l=='_':
+            tag = 'i_' if ingap else 'I_'
+            # no change to initial_token: previous token is in the same expression
+        elif i>0 and l=='~':
+            tag= 'i~' if ingap else 'I~'
+            initial_token = i
+        elif i>0 and l==' _':
+            assert ingap=='_'
+            ingap = False
+            tag = 'I_'
+            initial_token = pregap_initial_token
+            pregap_initial_token = None
+        elif i>0 and l==' ~':
+            assert ingap=='~'
+            ingap = False
+            tag = 'I~'
+            initial_token = i
+        elif r in {' ', ' _', ' ~', '$'}:
+            tag = 'o' if ingap else 'O'
+            initial_token = i
+        else:
+            tag = 'b' if ingap else 'B'
+            initial_token = i
+
+        if r=='_ ':
+            pregap_initial_token = initial_token
+
+        bio_tagging.append(tag)
+        labels_at_end.append(label)
+
+        if label is not None:
+            # store the label on the FIRST token in the strong expression
+            # (in the rendered string it occurs on the last token)
+            assert labels_at_beginning[initial_token] is None
+            labels_at_beginning[initial_token] = label
+
+        if r=='_ ' or r=='~ ':
+            assert not ingap
+            ingap = r.strip()
+    if ingap:
+        raise ValueError(f'Invalid markup (mismatched gap): {rendered}')
+
+    assert len(toks)==len(bio_tagging)==len(labels_at_beginning)
+
+    return list(zip(toks, bio_tagging, labels_at_beginning))
+
+
+def test_unrender():
+    """
+    >>> ww = ['a','b','c','d','e','f']
+    >>> unrender('a~b_c~ d ~e_f', ww)
+    [('a', 'B', None), ('b', 'I~', None), ('c', 'I_', None), ('d', 'o', None), ('e', 'I~', None), ('f', 'I_', None)]
+    >>> unrender('a b c|C d e f|FFF', ww)
+    [('a', 'O', None), ('b', 'O', None), ('c', 'O', 'C'), ('d', 'O', None), ('e', 'O', None), ('f', 'O', 'FFF')]
+    >>> unrender('a b_c|BC d e_f|EF', ww)
+    [('a', 'O', None), ('b', 'B', 'BC'), ('c', 'I_', None), ('d', 'O', None), ('e', 'B', 'EF'), ('f', 'I_', None)]
+    >>> unrender('a_b_ c_d_e _f|ABF', ww)
+    [('a', 'B', 'ABF'), ('b', 'I_', None), ('c', 'b', None), ('d', 'i_', None), ('e', 'i_', None), ('f', 'I_', None)]
+    >>> unrender('a_b_ c_d_e|CDE _f|ABF', ww)
+    [('a', 'B', 'ABF'), ('b', 'I_', None), ('c', 'b', 'CDE'), ('d', 'i_', None), ('e', 'i_', None), ('f', 'I_', None)]
+    >>> unrender('a b c~d|D~e|E f|F', ww)
+    [('a', 'O', None), ('b', 'O', None), ('c', 'B', None), ('d', 'I~', 'D'), ('e', 'I~', 'E'), ('f', 'O', 'F')]
+    >>> unrender('a b c~ d ~e f', ww)
+    [('a', 'O', None), ('b', 'O', None), ('c', 'B', None), ('d', 'o', None), ('e', 'I~', None), ('f', 'O', None)]
+    >>> unrender('a b_c~d|D e_f', ww)
+    [('a', 'O', None), ('b', 'B', None), ('c', 'I_', None), ('d', 'I~', 'D'), ('e', 'B', None), ('f', 'I_', None)]
+    >>> unrender('a|A~b_c|BC~d|D~e_f|EF', ww)
+    [('a', 'B', 'A'), ('b', 'I~', 'BC'), ('c', 'I_', None), ('d', 'I~', 'D'), ('e', 'I~', 'EF'), ('f', 'I_', None)]
+    >>> unrender('a b_ c|C _d|BD~e_f', ww)
+    [('a', 'O', None), ('b', 'B', 'BD'), ('c', 'o', 'C'), ('d', 'I_', None), ('e', 'I~', None), ('f', 'I_', None)]
+    >>> unrender('a_a b', ['a_a','b'])
+    [('a_a', 'O', None), ('b', 'O', None)]
+    >>> unrender('a_a_b', ['a_a','b'])
+    [('a_a', 'B', None), ('b', 'I_', None)]
+    >>> unrender('_~_', ['_','_'])
+    [('_', 'B', None), ('_', 'I~', None)]
+    >>> unrender('____', ['_','__'])
+    [('_', 'B', None), ('__', 'I_', None)]
+    >>> unrender('____', ['____'])
+    [('____', 'O', None)]
+    >>> unrender('a|~|b', ['a|','|b'])
+    [('a|', 'B', None), ('|b', 'I~', None)]
+
+    >>> unrender('a  b', ['a','b'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup: a  b
+    >>> unrender('a~_b', ['a','b'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup: a~_b
+    >>> unrender('a_ _b', ['a','b'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup: a_ _b
+    >>> unrender('a|A_b', ['a','b'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup: a|A_b
+    >>> unrender('a_ b c', ['a','b','c'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup (mismatched gap): a_ b c
+    >>> unrender('a_', ['a'])
+    Traceback (most recent call last):
+    ...
+    ValueError: Invalid markup: a_
+    """
+    pass
+
 
 if __name__=='__main__':
     import doctest
