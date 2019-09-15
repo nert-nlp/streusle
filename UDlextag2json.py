@@ -23,7 +23,7 @@ See conllulex2UDlextag.py for an explanation of the .UDlextag format.
 """
 
 def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
-    """Given a .UDlextag file, return an iterator over sentences.
+    """Given a .UDlextag file (or iterable over lines), return an iterator over sentences.
 
     @param morph_syn: Whether to include CoNLL-U morphological features
     and syntactic dependency relations, if available.
@@ -333,7 +333,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
                 assert 1<=len(parts)<=3,parts
                 mweflag = parts[0]
                 if len(parts)==1:
-                    lexcat = None
+                    lexcat = sspart = None
                 else:
                     lexcat = parts[1]
                     if len(parts)==3:
