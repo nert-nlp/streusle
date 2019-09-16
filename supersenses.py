@@ -123,3 +123,14 @@ def ancestors(ss):
     if par is None:
         return []
     return [par] + ancestors(par)
+
+def makesslabel(lexe):
+    """Serialize all of a strong lexical expression's supersenses in a string for the full lextag"""
+    ss1, ss2 = lexe['ss'], lexe['ss2']
+    if ss1 is None:
+        return None
+    assert ss1
+    if ss2 is not None and ss2!=ss1:
+        assert ss2
+        return ss1 + '|' + ss2
+    return ss1

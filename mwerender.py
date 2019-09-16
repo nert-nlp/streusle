@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 import sys, fileinput, json, re
+from itertools import chain
+
+from supersenses import makesslabel
 
 def render(ww, sgroups, wgroups, labels={}):
     '''
@@ -76,6 +79,40 @@ def render(ww, sgroups, wgroups, labels={}):
     after = ['' if x is None else x for x in after]
     before = [' ' if x is None else x for x in before]
     return ''.join(sum(zip(before,ww,labelafter,after), ())).strip()
+
+def makelabel(lexe, include_lexcat=True, include_supersenses=True):
+    """Serialize a strong lexical expression's lexcat and/or supersenses
+    in a string for the inline rendering of the sentence"""
+    assert include_lexcat or include_supersenses
+    if include_lexcat and not include_supersenses:
+        return lexe["lexcat"]
+
+    sslabel = makesslabel(lexe)
+    if sslabel:
+        sslabel = sslabel.replace('|',':')
+
+    if include_supersenses and not include_lexcat:
+        return sslabel or ''
+    elif include_supersenses and include_lexcat:
+        return lexe["lexcat"] + ('-'+sslabel if sslabel else '')
+
+def makelabelmap(sent, include_lexcat=True, include_supersenses=True):
+    """List lexical expressions with non-empty lexcat and/or supersense
+    labels, indexed by the first token position of the strong expression.
+    Can serve as input to render()."""
+    labels = {}
+    for lexe in chain(sent["swes"].values(),sent["smwes"].values()):
+        l = makelabel(lexe, include_lexcat=include_lexcat, include_supersenses=include_supersenses)
+        if l:
+            labels[lexe['toknums'][0]] = l
+    return labels
+
+def render_sent(sent, lexcats=True, supersenses=True):
+    toks = [tok['word'] for tok in sent['toks']]
+    smweGroups = [smwe['toknums'] for smwe in sent['smwes'].values()]
+    wmweGroups = [wmwe['toknums'] for wmwe in sent['wmwes'].values()]
+    labels = makelabelmap(sent, lexcats, supersenses) if lexcats or supersenses else {}
+    return render(toks, smweGroups, wmweGroups, labels)
 
 def unrender(rendered, toks):
     """
