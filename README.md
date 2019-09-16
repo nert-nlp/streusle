@@ -43,6 +43,7 @@ Files
 - mwerender.py: Utilities for working with MWEs.
 - supersenses.py: Utilities for working with supersense labels.
 - streusvis.py: Utility for browsing MWE and supersense annotations.
+- supdate.py: Utility for applying lexical semantic annotations made by editing the output of streusvis.py.
 - tagging.py: Utilities for working with BIO-style tags.
 - tquery.py: Utility for searching the data for tokens that meet certain criteria.
 - tupdate.py: Utility for applying lexical tag changes made by editing the output of tquery.py.
@@ -105,7 +106,7 @@ History
   - STREUSLE dev:
      * Added streuseval.py, a unified evaluation script for MWEs + supersenses.
      * Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
-     * Added tupdate.py, for tabular editing of lexical tags based on tquery.py output.
+     * Added supdate.py (sentence-wise) and tupdate.py (token-wise) for editing lexical semantic annotations.
      * Added format conversion scripts conllulex2json.py, conllulex2UDlextag.py, and UDlextag2json.py.
      * Normalized the way MWEs within a sentence are numbered in markup (normalize_mwe_numbering.py).
      * Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
