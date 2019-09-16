@@ -23,22 +23,20 @@ FIELDS = CONLLU + STREUSLE
 # Naming is slightly different for some fields
 CONLLU_TO_JSON_FIELDS = {'ID': '#', 'FORM': 'word', 'DEPS': 'edeps'}
 
-inFname, = sys.argv[1:]
-
-with open(inFname, encoding='utf-8') as inF:
-    sents = json.load(inF)
+def build_conllulex(sents):
+    result = ''
     curDocId = None
     for sent in sents:
         # headers
         sent_id = sent["sent_id"]
         doc_id, sent_num = sent_id.rsplit('-', 1)
         if doc_id!=curDocId:
-            print(f'# newdoc id = {doc_id}')
+            result += f'# newdoc id = {doc_id}\n'
             curDocId = doc_id
-        print(f'# sent_id = {sent_id}')
-        print(f'# text = {sent["text"]}')
-        print(f'# streusle_sent_id = {sent["streusle_sent_id"]}')
-        print(f'# mwe = {sent["mwe"]}')
+        result += f'# sent_id = {sent_id}\n'
+        result += f'# text = {sent["text"]}\n'
+        result += f'# streusle_sent_id = {sent["streusle_sent_id"]}\n'
+        result += f'# mwe = {sent["mwe"]}\n'
 
         # body
 
@@ -63,7 +61,7 @@ with open(inFname, encoding='utf-8') as inF:
             if isEllipsis:
                 # this is an ellipsis token. it doesn't have any lexical semantic info
                 row.extend(list('_'*9))
-                print('\t'.join(row))
+                result += '\t'.join(row) + '\n'
                 continue
             elif tok["smwe"]:
                 mweNum, position = tok["smwe"]
@@ -103,6 +101,16 @@ with open(inFname, encoding='utf-8') as inF:
             assert tok["lextag"]
             row.append(tok["lextag"])
 
-            print('\t'.join(row))
+            result += '\t'.join(row) + '\n'
 
-        print()
+        result += '\n'
+
+    return result
+
+if __name__=='__main__':
+    inFname, = sys.argv[1:]
+
+    with open(inFname, encoding='utf-8') as inF:
+        sents = json.load(inF)
+        output = build_conllulex(sents)
+        print(output, end='')

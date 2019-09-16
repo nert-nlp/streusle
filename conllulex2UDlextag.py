@@ -21,13 +21,24 @@ STREUSLE = ('SMWE', 'LEXCAT', 'LEXLEMMA', 'SS', 'SS2', 'WMWE', 'WCAT', 'WLEMMA',
 FIELDS = CONLLU + STREUSLE
 
 
-inFname, = sys.argv[1:]
-
-with open(inFname, encoding='utf-8') as inF:
-    for ln in inF:
+def simplify_to_UDlextag(conllulexF):
+    """
+    Given a .conllulex file (or iterable over lines), clear the 8 columns
+    containing MWE and supersense information, leaving only the full lextag
+    column at the end.
+    """
+    result = ''
+    for ln in conllulexF:
         row = ln.strip()
         if row and not row.startswith('#'):
             row = row.split('\t')
             row[10:18] = ['']*8 # retain the last column
             row = '\t'.join(row)
-        print(row)
+        result += row + '\n'
+    return result
+
+if __name__=='__main__':
+    inFname, = sys.argv[1:]
+
+    with open(inFname, encoding='utf-8') as inF:
+        print(simplify_to_UDlextag(inF), end='')
