@@ -7,7 +7,7 @@ from itertools import chain
 from supersenses import ancestors
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
 from tagging import sent_tags
-from mwerender import render
+from mwerender import render, render_sent
 from streuseval import parse_mwe_links, form_groups
 
 """
@@ -206,6 +206,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
         # check lextags
         smweGroups = [smwe['toknums'] for smwe in sent['smwes'].values()]
         wmweGroups = [wmwe['toknums'] for wmwe in sent['wmwes'].values()]
+        if 'mwe' not in sent:
+            sent['mwe'] = render_sent(sent, False, False)
         tagging = sent_tags(len(sent['toks']), sent['mwe'], smweGroups, wmweGroups)
         for tok,tag in zip(sent['toks'],tagging):
             fulllextag = tag
