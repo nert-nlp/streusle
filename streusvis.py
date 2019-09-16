@@ -6,7 +6,7 @@ from itertools import chain
 
 from conllulex2json import load_sents
 from supersenses import coarsen_pss
-from mwerender import render
+from mwerender import render, makelabelmap
 
 """
 For each sentence in a corpus, visualize MWE and supersense analyses
@@ -27,6 +27,8 @@ class Colors(object):
     CYAN = '\033[96m'
     WHITE = '\033[97m'
     BLACK = '\033[30m'
+    LTGRAY = '\033[37m'
+    DKGRAY = '\033[90m'
     ENDC = '\033[0m'    # end color
     BLACKBG = '\033[40m'
     GRAYBG = '\033[100m'
@@ -53,31 +55,25 @@ def relativeColor(a, b):
     return Colors.PLAINTEXT
 
 def label_type(lbl):
-    if lbl in ('|??', '|`$'):
+    if lbl in ('|??', '|`$') or '-??' in lbl or '-`$' in lbl:
         return 'special'
-    elif lbl.startswith('|n.'):
+    elif lbl.startswith('|n.') or '-n.' in lbl:
         return 'n'
-    elif lbl.startswith('|v.'):
+    elif lbl.startswith('|v.') or '-v.' in lbl:
         return 'v'
-    elif lbl.startswith('|p.'):
+    elif lbl.startswith('|p.') or '-p.' in lbl:
         return 'p'
-    assert False,lbl
+    #assert False,lbl
+    return 'other'
 
 def color_label_by_type(lbl):
-    WORDS = Colors.PLAINTEXT
-    VERBS = Colors.CYAN
-    NOUNS = Colors.YELLOW
-    SNACS = Colors.GREEN
-    SPECIAL = Colors.BLUE
-    if lbl in ('|??', '|`$'):
-        return SPECIAL + lbl + WORDS
-    elif lbl.startswith('|n.'):
-        return NOUNS + lbl + WORDS
-    elif lbl.startswith('|v.'):
-        return VERBS + lbl + WORDS
-    elif lbl.startswith('|p.'):
-        return SNACS + lbl + WORDS
-    assert False,lbl
+    lt = label_type(lbl)
+
+    return {'v': Colors.CYAN,
+            'n': Colors.YELLOW,
+            'p': Colors.GREEN,
+            'special': Colors.BLUE,
+            'other': Colors.DKGRAY}[lt] + lbl + Colors.PLAINTEXT
 
 def color_rendered(words, rr, opts):
     """If diff is True, treats the first input as gold and shows how others differ
@@ -241,16 +237,14 @@ def main(args):
         rendered.append(R(words,
                            [e["toknums"] for e in sent["smwes"].values()],
                            [e["toknums"] for e in sent["wmwes"].values()],
-                           {e["toknums"][0]: (e["ss"] + ':' + (e["ss2"] or '' if e["ss2"]!=e["ss"] else '')).rstrip(':') \
-                            for e in chain(sent["swes"].values(),sent["smwes"].values()) if e["ss"]}))
+                           makelabelmap(sent, include_lexcat=args.lexcats, include_supersenses=True)))
         for predF in predFs:
             psent = next(predF)
             assert psent['sent_id']==sent['sent_id']
             rendered.append(R(words,
                                [e["toknums"] for e in psent["smwes"].values()],
                                [e["toknums"] for e in psent["wmwes"].values()],
-                               {e["toknums"][0]: (e["ss"] + ':' + (e["ss2"] or '' if e["ss2"]!=e["ss"] else '')).rstrip(':') \
-                                for e in chain(psent["swes"].values(),psent["smwes"].values()) if e["ss"]}))
+                               makelabelmap(sent, include_lexcat=args.lexcats, include_supersenses=True)))
 
         diff_classes = set()
         if not args.no_diff:
@@ -260,6 +254,8 @@ def main(args):
             if not args.no_snacs_diff: diff_classes.add('p')
             if not args.no_verb_diff: diff_classes.add('v')
 
+        if args.sent_ids:
+            print(sent['sent_id'], end='\t')
         print(color_rendered(words, rendered, diff_classes))
         #assert False,(color_rendered(words, rendered),words,rendered)
 
@@ -278,6 +274,10 @@ if __name__=='__main__':
                         help='depth of hierarchy at which to cluster SNACS supersense labels (default: 4, i.e. no collapsing)')
     parser.add_argument('-C', '--colorless', action='store_true',
                         help='suppress colorization of output in terminal')
+    parser.add_argument('-i', '--sent-ids', action='store_true',
+                        help='include sentence IDs as a first column')
+    parser.add_argument('-l', '--lexcats', action='store_true',
+                        help='include lexcats')
 
     diffopts = parser.add_argument_group('diff options')
     diffopts.add_argument('-d', '--no-diff', action='store_true',
