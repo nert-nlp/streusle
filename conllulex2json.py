@@ -4,7 +4,7 @@ import os, sys, fileinput, re, json
 from collections import defaultdict
 from itertools import chain
 
-from supersenses import ancestors
+from supersenses import ancestors, makesslabel
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
 from tagging import sent_tags
 from mwerender import render
@@ -18,7 +18,10 @@ Also performs validation checks on the input.
 @since: 2017-12-29
 """
 
-def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
+
+
+
+def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=False and 'full' and 'toks'):
     """Given a .conllulex or .json file, return an iterator over sentences.
     If a .conllulex file, performs consistency checks.
 
@@ -29,7 +32,12 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
     @param ss_mapper: A function to apply to supersense labels to replace them
     in the returned data structure. Applies to all supersense labels (nouns,
     verbs, prepositions). Not applied if the supersense slot is empty.
+    @param store_conllulex: If input is .conllulex, whether to store the sentence's
+    input lines as a string in the returned data structure--'full' to store all
+    lines (including metadata and ellipsis nodes), 'toks' to store regular tokens only.
+    Has no effect if input is JSON.
     """
+    if store_conllulex: assert store_conllulex in {'full', 'toks'}
 
     # If .json: just load the data
     if inF.name.endswith('.json'):
@@ -174,13 +182,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             if position is None or position==1:
                 lexcat = lexe['lexcat']
                 fulllextag += '-'+lexcat
-                ss1, ss2 = lexe['ss'], lexe['ss2']
-                if ss1 is not None:
-                    assert ss1
-                    fulllextag += '-'+ss1
-                    if ss2 is not None and ss2!=ss1:
-                        assert ss2
-                        fulllextag += '|'+ss2
+                sslabel = makesslabel(lexe)
+                if sslabel:
+                    fulllextag += '-' + sslabel
+
                 if tok['wmwe']:
                     wmweNum, position = tok['wmwe']
                     wmwe = sent['wmwes'][wmweNum]
@@ -201,23 +206,28 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
         ss_mapper = lambda ss: ss
 
     sent = {}
+    sent_conllulex = ''
+
     for ln in inF:
         if not ln.strip():
             if sent:
+                if store_conllulex: sent['conllulex'] = sent_conllulex
                 _postproc_sent(sent)
                 yield sent
                 sent = {}
+                sent_conllulex = ''
             continue
 
         ln = ln.strip()
 
-        if ln.startswith('#'):
+        if ln.startswith('#'):  # metadata
+            if store_conllulex=='full': sent_conllulex += ln + '\n'
             if ln.startswith('# newdoc '): continue
             m = re.match(r'^# (\w+) = (.*)$', ln)
             k, v = m.group(1), m.group(2)
             assert k not in ('toks', 'swes', 'smwes', 'wmwes')
             sent[k] = v
-        else:
+        else:   # regular and ellipsis tokens
             if 'toks' not in sent:
                 sent['toks'] = []   # excludes ellipsis tokens, so they don't interfere with indexing
                 sent['etoks'] = []  # ellipsis tokens only
@@ -236,11 +246,13 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             tokNum = conllu_cols[0]
             isEllipsis = re.match(r'^\d+$', tokNum) is None
             if isEllipsis:  # ellipsis node indices are like 24.1
+                if store_conllulex=='full': sent_conllulex += ln + '\n'
                 part1, part2 = tokNum.split('.')
                 part1 = int(part1)
                 part2 = int(part2)
                 tokNum = (part1, part2, tokNum) # ellipsis token offset is a tuple. include the string for convenience
             else:
+                sent_conllulex += ln + '\n'
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
@@ -330,6 +342,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None):
             else:
                 sent['toks'].append(tok)
     if sent:
+        if store_conllulex: sent['conllulex'] = sent_conllulex
         _postproc_sent(sent)
         yield sent
 
