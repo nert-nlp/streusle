@@ -7,7 +7,7 @@ I_BAR, I_TILDE, i_BAR, i_TILDE = 'I_', 'I~', 'i_', 'i~'
 
 def sent_tags(nWords, anno, smwes, wmwes):
     """Convert a sentence's MWE analysis to a BIO-style tag sequence."""
-    
+
     tagging = []
 
 
@@ -76,7 +76,7 @@ def sent_tags(nWords, anno, smwes, wmwes):
         else:
             assert strength=='~'
             tag = (i_TILDE if amInGap else I_TILDE) #+labelFlag
-        
+
         tagging.append(tag)
-    
+
     return tagging
