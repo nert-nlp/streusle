@@ -23,6 +23,7 @@ Files
 - streusle.conllulex: Full dataset.
 - STATS.md, LEXCAT.txt, MWES.txt, SUPERSENSES.txt: Statistics summarizing the full dataset.
 - train/, dev/, test/: Data splits established by the UD project and accompanying statistics.
+- releaseutil/: Scripts for preparing the data for release.
 
 - ACKNOWLEDGMENTS.md: Contributors and support that made this dataset possible.
 - CONLLULEX.md: Description of data format.
@@ -111,6 +112,7 @@ History
      * Normalized the way MWEs within a sentence are numbered in markup (normalize_mwe_numbering.py).
      * Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
      * Subdirectories for splits (train/, dev/, test/) now include .json and .govobj.json files alongside the source .conllulex.
+     * Added release preparation scripts under releaseutil/.
      * Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
      * Minor corrections in the data and validation improvements.
      * Updated UD parses to v2.4. Among other things, this improves lemmas for words with nonstandard spellings.
