@@ -2530,7 +2530,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	O-DET
 5	weekends	weekend	NOUN	NNS	Number=Plur	2	nmod	2:nmod:on	_	_	N	weekend	n.TIME	_	_	_	_	O-N-n.TIME
 6	but	but	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
-7	worth	worth	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	_	1:1	!@	worth it	_	_	_	_	_	B-!@
+7	worth	worth	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	_	1:1	ADJ	worth it	_	_	_	_	_	B-ADJ
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	7:expl	_	1:2	_	_	_	_	_	_	_	I_
 
 # newdoc id = reviews-114941
@@ -2779,7 +2779,7 @@
 2	and	and	CCONJ	CC	_	3	cc	3:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 3	contemporary	contemporary	ADJ	JJ	Degree=Pos	1	conj	1:conj:and	SpaceAfter=No	_	ADJ	contemporary	_	_	_	_	_	O-ADJ
 4	,	,	PUNCT	,	_	1	punct	1:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-5	no	no	ADV	RB	_	8	advmod	8:advmod	_	1:1	!@	no matter	_	_	_	_	_	B-!@
+5	no	no	ADV	RB	_	8	advmod	8:advmod	_	1:1	ADV	no matter	_	_	_	_	_	B-ADV
 6	matter	matter	ADV	RB	_	8	case	8:case	_	1:2	_	_	_	_	_	_	_	I_
 7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 8	size	size	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_	_	N	size	n.RELATION	_	_	_	_	O-N-n.RELATION
@@ -2981,7 +2981,7 @@
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 5	garage	garage	NOUN	NN	Number=Sing	6	compound	6:compound	_	1:1	N	garage door	n.ARTIFACT	_	_	_	_	B-N-n.ARTIFACT
 6	door	door	NOUN	NN	Number=Sing	3	obj	3:obj	_	1:2	_	_	_	_	_	_	_	I_
-7	A	A	SYM	SYM	_	1	discourse	1:discourse	SpaceAfter=No	2:1	!@	A ++++++++++++++++++	_	_	_	_	_	B-!@
+7	A	A	SYM	SYM	_	1	discourse	1:discourse	SpaceAfter=No	2:1	SYM	A ++++++++++++++++++	_	_	_	_	_	B-SYM
 8	++++++++++++++++++	++++++++++++++++++	SYM	SYM	_	7	punct	7:punct	_	2:2	_	_	_	_	_	_	_	I_
 
 # newdoc id = reviews-134617
@@ -4228,7 +4228,7 @@
 # sent_id = reviews-194153-0001
 # text = Barb does an AMAZING JOB, she is always learning new things on how to use her hands and body, to give every person an AWESOME MASSAGE, CALL TODAY AND SCHEDULE YOU MUST SEE HER, YOU WILL FALL IN LOVE SHE IS THE BEST OF THE BEST !
 # streusle_sent_id = ewtb.r.194153.1
-# mwe = Barb does~an~ AMAZING ~JOB , she is always learning new things on how to use her hands and body , to give_ every person an AWESOME _MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL_IN_LOVE SHE IS THE BEST_OF_THE_BEST !
+# mwe = Barb does~an~ AMAZING ~JOB , she is always learning new things on how to use her hands and body , to give_ every person an AWESOME _MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL_IN_LOVE SHE IS THE_BEST_OF_THE_BEST !
 1	Barb	Barb	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	_	_	N	Barb	n.PERSON	_	_	_	_	O-N-n.PERSON
 2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	do	v.stative	_	1:1	_	do a job	B-V-v.stative
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	_	DET	a	_	_	1:2	_	_	I~-DET
@@ -4274,11 +4274,11 @@
 43	LOVE	love	NOUN	NN	Number=Sing	41	obl	41:obl:in	_	3:3	_	_	_	_	_	_	_	I_
 44	SHE	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj	47:nsubj	_	_	PRON	she	_	_	_	_	_	O-PRON
 45	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	47:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-46	THE	the	DET	DT	Definite=Def|PronType=Art	47	det	47:det	_	_	DET	the	_	_	_	_	_	O-DET
-47	BEST	best	ADJ	JJS	Degree=Sup	2	parataxis	2:parataxis	_	4:1	!@	best of the best	_	_	_	_	_	B-!@
-48	OF	of	ADP	IN	_	50	case	50:case	_	4:2	_	_	_	_	_	_	_	I_
-49	THE	the	DET	DT	Definite=Def|PronType=Art	50	det	50:det	_	4:3	_	_	_	_	_	_	_	I_
-50	BEST	best	ADJ	JJS	Degree=Sup	47	obl	47:obl:of	_	4:4	_	_	_	_	_	_	_	I_
+46	THE	the	DET	DT	Definite=Def|PronType=Art	47	det	47:det	_	4:1	ADJ	the best of the best	_	_	_	_	_	B-ADJ
+47	BEST	best	ADJ	JJS	Degree=Sup	2	parataxis	2:parataxis	_	4:2	_	_	_	_	_	_	_	I_
+48	OF	of	ADP	IN	_	50	case	50:case	_	4:3	_	_	_	_	_	_	_	I_
+49	THE	the	DET	DT	Definite=Def|PronType=Art	50	det	50:det	_	4:4	_	_	_	_	_	_	_	I_
+50	BEST	best	ADJ	JJS	Degree=Sup	47	obl	47:obl:of	_	4:5	_	_	_	_	_	_	_	I_
 51	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-194313
@@ -5927,7 +5927,7 @@
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 12	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	discourse	6:discourse	_	_	V	think	v.cognition	_	_	_	_	O-V-v.cognition
 13	well	well	ADV	RB	Degree=Pos	14	advmod	14:advmod	_	_	ADV	well	_	_	1:1	_	well worth it	B-ADV
-14	worth	worth	ADJ	JJ	Degree=Pos	6	conj	6:conj:but	_	2:1	!@	worth it	_	_	1:2	_	_	I~-!@
+14	worth	worth	ADJ	JJ	Degree=Pos	6	conj	6:conj:but	_	2:1	ADJ	worth it	_	_	1:2	_	_	I~-ADJ
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	SpaceAfter=No	2:2	_	_	_	_	1:3	_	_	I_
 16	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -6397,7 +6397,7 @@
 # text = Most of all, my daughter loves it!
 # streusle_sent_id = ewtb.r.305681.3
 # mwe = Most_of_all , my daughter loves it !
-1	Most	most	ADV	RBS	_	7	advmod	7:advmod	_	1:1	!@	most of all	_	_	_	_	_	B-!@
+1	Most	most	ADV	RBS	_	7	advmod	7:advmod	_	1:1	DISC	most of all	_	_	_	_	_	B-DISC
 2	of	of	ADP	IN	_	3	case	3:case	_	1:2	_	_	_	_	_	_	_	I_
 3	all	all	DET	DT	_	1	obl	1:obl:of	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 4	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
@@ -6954,7 +6954,7 @@
 6	and	and	CCONJ	CC	_	17	cc	17:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 7	if	if	SCONJ	IN	_	8	mark	8:mark	_	_	SCONJ	if	_	_	_	_	_	O-SCONJ
 8	ever	ever	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	ever	_	_	_	_	_	O-ADV
-9	back	back	ADV	RB	_	17	advcl	17:advcl	_	_	ADJ	back	_	_	_	_	_	O-ADJ
+9	back	back	ADV	RB	_	17	advcl	17:advcl	_	_	P	back	p.Direction	p.Direction	_	_	_	O-P-p.Direction
 10	in	in	ADP	IN	_	12	case	12:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_	_	DET	the	_	_	_	_	_	O-DET
 12	area	area	NOUN	NN	Number=Sing	8	obl	8:obl:in	SpaceAfter=No	_	N	area	n.LOCATION	_	_	_	_	O-N-n.LOCATION
@@ -7382,7 +7382,7 @@
 1	Great	great	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 2	with	with	ADP	IN	_	3	case	3:case	_	_	P	with	p.Topic	p.Topic	_	_	_	O-P-p.Topic
 3	SEO	SEO	PROPN	NNP	Number=Sing	1	obl	1:obl:with	_	_	N	SEO	n.PERSON	_	_	_	_	O-N-n.PERSON
-4	as	as	ADV	RB	_	1	advmod	1:advmod	_	1:1	!@	as well	_	_	_	_	_	B-!@
+4	as	as	ADV	RB	_	1	advmod	1:advmod	_	1:1	ADV	as well	_	_	_	_	_	B-ADV
 5	well	well	ADV	RB	Degree=Pos	4	fixed	4:fixed	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 6	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

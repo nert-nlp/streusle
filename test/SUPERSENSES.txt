@@ -115,7 +115,7 @@
    5 p.Whole	p.Whole
    3 v.body	_
   35 v.change	_
-  95 v.cognition	_
+  98 v.cognition	_
   65 v.communication	_
    1 v.competition	_
   11 v.consumption	_
@@ -126,7 +126,7 @@
   17 v.perception	_
   13 v.possession	_
  102 v.social	_
- 268 v.stative	_
+ 265 v.stative	_
 ========================
      966 n.*
      693 v.*

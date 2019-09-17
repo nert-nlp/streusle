@@ -1,12 +1,12 @@
-Strong MWEs:  282
-Weak MWEs:     80
+Strong MWEs:  283
+Weak MWEs:     79
 
 Strong MWE token positions
 ==========================
 There are ... MWEs >= ... tokens long:
- 282 1
- 282 2
-  68 3
+ 283 1
+ 283 2
+  69 3
   19 4
    7 5
    2 6
@@ -14,9 +14,9 @@ There are ... MWEs >= ... tokens long:
 
 Weak MWE token positions
 ========================
-  80 1
-  80 2
-  23 3
+  79 1
+  79 2
+  22 3
    7 4
    2 5
    2 6
@@ -26,9 +26,8 @@ Weak MWE token positions
 Strong MWEs by LexCat
 =====================
   12 !!@
-   2 !@
-  18 ADJ
-   4 ADV
+  19 ADJ
+   5 ADV
   10 AUX
   10 DET
    8 DISC
@@ -37,6 +36,7 @@ Strong MWEs by LexCat
    9 P
   15 PP
    2 PRON
+   1 SCONJ
   17 V.IAV
    1 V.LVC.cause
    8 V.LVC.full

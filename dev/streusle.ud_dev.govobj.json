@@ -41954,7 +41954,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-ADJ"
    },
    {
     "#": 8,
@@ -42042,7 +42042,7 @@
   "smwes": {
    "1": {
     "lexlemma": "worth it",
-    "lexcat": "!@",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -45843,7 +45843,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-ADV"
    },
    {
     "#": 6,
@@ -46057,7 +46057,7 @@
   "smwes": {
    "1": {
     "lexlemma": "no matter",
-    "lexcat": "!@",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -49352,7 +49352,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-SYM"
    },
    {
     "#": 8,
@@ -49439,7 +49439,7 @@
    },
    "2": {
     "lexlemma": "A ++++++++++++++++++",
-    "lexcat": "!@",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -70068,7 +70068,7 @@
   "sent_id": "reviews-194153-0001",
   "text": "Barb does an AMAZING JOB, she is always learning new things on how to use her hands and body, to give every person an AWESOME MASSAGE, CALL TODAY AND SCHEDULE YOU MUST SEE HER, YOU WILL FALL IN LOVE SHE IS THE BEST OF THE BEST !",
   "streusle_sent_id": "ewtb.r.194153.1",
-  "mwe": "Barb does~an~ AMAZING ~JOB , she is always learning new things on how to use her hands and body , to give_ every person an AWESOME _MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL_IN_LOVE SHE IS THE BEST_OF_THE_BEST !",
+  "mwe": "Barb does~an~ AMAZING ~JOB , she is always learning new things on how to use her hands and body , to give_ every person an AWESOME _MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL_IN_LOVE SHE IS THE_BEST_OF_THE_BEST !",
   "toks": [
    {
     "#": 1,
@@ -70780,9 +70780,12 @@
     "deprel": "det",
     "edeps": "47:det",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     4,
+     1
+    ],
     "wmwe": null,
-    "lextag": "O-DET"
+    "lextag": "B-ADJ"
    },
    {
     "#": 47,
@@ -70797,10 +70800,10 @@
     "misc": null,
     "smwe": [
      4,
-     1
+     2
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "I_"
    },
    {
     "#": 48,
@@ -70815,7 +70818,7 @@
     "misc": null,
     "smwe": [
      4,
-     2
+     3
     ],
     "wmwe": null,
     "lextag": "I_"
@@ -70833,7 +70836,7 @@
     "misc": null,
     "smwe": [
      4,
-     3
+     4
     ],
     "wmwe": null,
     "lextag": "I_"
@@ -70851,7 +70854,7 @@
     "misc": null,
     "smwe": [
      4,
-     4
+     5
     ],
     "wmwe": null,
     "lextag": "I_"
@@ -71255,15 +71258,6 @@
      45
     ]
    },
-   "46": {
-    "lexlemma": "the",
-    "lexcat": "DET",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     46
-    ]
-   },
    "51": {
     "lexlemma": "!",
     "lexcat": "PUNCT",
@@ -71297,11 +71291,12 @@
     ]
    },
    "4": {
-    "lexlemma": "best of the best",
-    "lexcat": "!@",
+    "lexlemma": "the best of the best",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [
+     46,
      47,
      48,
      49,
@@ -99012,7 +99007,7 @@
      1,
      2
     ],
-    "lextag": "I~-!@"
+    "lextag": "I~-ADJ"
    },
    {
     "#": 15,
@@ -99190,7 +99185,7 @@
   "smwes": {
    "2": {
     "lexlemma": "worth it",
-    "lexcat": "!@",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -107250,7 +107245,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-DISC"
    },
    {
     "#": 2,
@@ -107446,7 +107441,7 @@
   "smwes": {
    "1": {
     "lexlemma": "most of all",
-    "lexcat": "!@",
+    "lexcat": "DISC",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -116627,7 +116622,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADJ"
+    "lextag": "O-P-p.Direction"
    },
    {
     "#": 10,
@@ -116878,12 +116873,19 @@
    },
    "9": {
     "lexlemma": "back",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "P",
+    "ss": "p.Direction",
+    "ss2": "p.Direction",
     "toknums": [
      9
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 17,
+     "govlemma": "stay",
+     "obj": null,
+     "objlemma": null,
+     "config": "default"
+    }
    },
    "10": {
     "lexlemma": "in",
@@ -124503,7 +124505,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-ADV"
    },
    {
     "#": 5,
@@ -124588,7 +124590,7 @@
   "smwes": {
    "1": {
     "lexlemma": "as well",
-    "lexcat": "!@",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [

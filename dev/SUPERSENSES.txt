@@ -1,5 +1,5 @@
    6 ??	_
-3249 _	_
+3248 _	_
    3 `$	`$
  107 n.ACT	_
    6 n.ANIMAL	_
@@ -45,7 +45,7 @@
    1 p.ComparisonRef	p.Purpose
    1 p.Cost	p.Cost
    2 p.Cost	p.Locus
-  13 p.Direction	p.Direction
+  14 p.Direction	p.Direction
    6 p.Duration	p.Duration
    3 p.EndTime	p.EndTime
    9 p.Experiencer	p.Gestalt
@@ -120,7 +120,7 @@
 ========================
     1021 n.*
      660 v.*
-     455 p.*
+     456 p.*
 
 n.* by LexCat
 ========================
@@ -138,7 +138,7 @@ v.* by LexCat
 p.* by LexCat
 ========================
   26 INF.P
- 327 P
+ 328 P
    6 POSS
   16 PP
   80 PRON.POSS
@@ -147,7 +147,7 @@ p.* by LexCat + construal type
 ========================
   10 INF.P	p.X ~> p.X
   16 INF.P	p.X ~> p.Y
- 247 P	p.X ~> p.X
+ 248 P	p.X ~> p.X
   80 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    5 POSS	p.X ~> p.Y
@@ -160,7 +160,7 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
   26 INF.P 	p.OTH ~> *
-  98 P 	p.LOC ~> *
+  99 P 	p.LOC ~> *
  202 P 	p.OTH ~> *
   27 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *

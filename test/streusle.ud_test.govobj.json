@@ -5128,7 +5128,7 @@
   "sent_id": "reviews-022273-0002",
   "text": "But the servers don't pay attention to you whether it's busy or not.",
   "streusle_sent_id": "ewtb.r.022273.2",
-  "mwe": "But the servers do n't pay_attention to you whether~ it 's busy ~or~not .",
+  "mwe": "But the servers do n't pay_attention to you whether_ it 's busy _or_not .",
   "toks": [
    {
     "#": 1,
@@ -5282,11 +5282,11 @@
     "deprel": "mark",
     "edeps": "13:mark",
     "misc": null,
-    "smwe": null,
-    "wmwe": [
+    "smwe": [
      2,
      1
     ],
+    "wmwe": null,
     "lextag": "B-SCONJ"
    },
    {
@@ -5345,12 +5345,12 @@
     "deprel": "cc",
     "edeps": "15:cc",
     "misc": null,
-    "smwe": null,
-    "wmwe": [
+    "smwe": [
      2,
      2
     ],
-    "lextag": "I~-CCONJ"
+    "wmwe": null,
+    "lextag": "I_"
    },
    {
     "#": 15,
@@ -5363,12 +5363,12 @@
     "deprel": "conj",
     "edeps": "6:advcl:whether|13:conj:or",
     "misc": "SpaceAfter=No",
-    "smwe": null,
-    "wmwe": [
+    "smwe": [
      2,
      3
     ],
-    "lextag": "I~-ADV"
+    "wmwe": null,
+    "lextag": "I_"
    },
    {
     "#": 16,
@@ -5458,15 +5458,6 @@
      9
     ]
    },
-   "10": {
-    "lexlemma": "whether",
-    "lexcat": "SCONJ",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     10
-    ]
-   },
    "11": {
     "lexlemma": "it",
     "lexcat": "PRON",
@@ -5494,24 +5485,6 @@
      13
     ]
    },
-   "14": {
-    "lexlemma": "or",
-    "lexcat": "CCONJ",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     14
-    ]
-   },
-   "15": {
-    "lexlemma": "not",
-    "lexcat": "ADV",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     15
-    ]
-   },
    "16": {
     "lexlemma": ".",
     "lexcat": "PUNCT",
@@ -5532,19 +5505,20 @@
      6,
      7
     ]
-   }
-  },
-  "wmwes": {
+   },
    "2": {
     "lexlemma": "whether or not",
+    "lexcat": "SCONJ",
+    "ss": null,
+    "ss2": null,
     "toknums": [
      10,
      14,
      15
-    ],
-    "lexcat": null
+    ]
    }
-  }
+  },
+  "wmwes": {}
  },
  {
   "sent_id": "reviews-024306-0001",
@@ -34686,7 +34660,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-V-v.stative"
+    "lextag": "O-V-v.cognition"
    },
    {
     "#": 11,
@@ -35042,7 +35016,7 @@
    "10": {
     "lexlemma": "wait",
     "lexcat": "V",
-    "ss": "v.stative",
+    "ss": "v.cognition",
     "ss2": null,
     "toknums": [
      10
@@ -36335,7 +36309,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-ADV"
    },
    {
     "#": 12,
@@ -37012,7 +36986,7 @@
   "smwes": {
    "1": {
     "lexlemma": "why in the hell",
-    "lexcat": "!@",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -58475,7 +58449,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!@"
+    "lextag": "B-ADJ"
    },
    {
     "#": 4,
@@ -58562,7 +58536,7 @@
   "smwes": {
    "1": {
     "lexlemma": "worth every penny",
-    "lexcat": "!@",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -86287,7 +86261,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-V-v.stative"
+    "lextag": "O-V-v.cognition"
    },
    {
     "#": 7,
@@ -86622,7 +86596,7 @@
    "6": {
     "lexlemma": "wait",
     "lexcat": "V",
-    "ss": "v.stative",
+    "ss": "v.cognition",
     "ss2": null,
     "toknums": [
      6
@@ -112603,7 +112577,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-PRON"
    },
    {
     "#": 8,
@@ -112784,7 +112758,7 @@
    },
    "7": {
     "lexlemma": "she",
-    "lexcat": "!!@",
+    "lexcat": "PRON",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -116541,7 +116515,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-V-v.stative"
+    "lextag": "O-V-v.cognition"
    },
    {
     "#": 24,
@@ -116721,7 +116695,7 @@
    "23": {
     "lexlemma": "wait",
     "lexcat": "V",
-    "ss": "v.stative",
+    "ss": "v.cognition",
     "ss2": null,
     "toknums": [
      23
