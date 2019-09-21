@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 
-import os, sys, fileinput, re, json
+import json
+import re
+import sys
+from argparse import ArgumentParser, FileType
 from collections import defaultdict
 from itertools import chain
 
-from supersenses import ancestors, makesslabel
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
-from tagging import sent_tags
 from mwerender import render
+from supersenses import ancestors, makesslabel
+from tagging import sent_tags
 
+desc = \
 """
 Defines a function to read a .conllulex file sentence-by-sentence into a data structure.
 If the script is called directly, outputs the data as JSON.
@@ -21,7 +25,8 @@ Also performs validation checks on the input.
 
 
 
-def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=False and 'full' and 'toks'):
+def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=False and 'full' and 'toks',
+               validate_pos=True, validate_type=True):
     """Given a .conllulex or .json file, return an iterator over sentences.
     If a .conllulex file, performs consistency checks.
 
@@ -33,6 +38,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
     in the returned data structure. Applies to all supersense labels (nouns,
     verbs, prepositions). Not applied if the supersense slot is empty.
     @param store_conllulex: If input is .conllulex, whether to store the sentence's
+    @param validate_pos: Validate consistency of lextag with UPOS
+    @param validate_type: Validate SWE-specific or SMWE-specific tags only apply to the corresponding MWE type
     input lines as a string in the returned data structure--'full' to store all
     lines (including metadata and ellipsis nodes), 'toks' to store regular tokens only.
     Has no effect if input is JSON.
@@ -86,7 +93,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
             assert xmwes[int(k)-1][2]==k,f"In {sent['sent_id']}, MWEs are not numbered in the correct order: use normalize_mwe_numbering.py to fix"
 
         # check that lexical & weak MWE lemmas are correct
-        for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
+        lexes_to_validate = chain(sent['swes'].values(), sent['smwes'].values()) if validate_type else []
+        for lexe in lexes_to_validate:
             assert lexe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in lexe['toknums']),f"In {sent['sent_id']}, MWE lemma is incorrect: {lexe} vs. {sent['toks'][lexe['toknums'][0]-1]}"
             lc = lexe['lexcat']
             if lc.endswith('!@'): lc_tbd += 1
@@ -113,7 +121,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
                 assert ss is None and ss2 is None and lc not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),f"In {sent['sent_id']}, invalid supersense(s) in lexical entry: {lexe}"
 
         # check lexcat on single-word expressions
-        for swe in sent['swes'].values():
+        swes_to_validate = sent['swes'].values() if validate_pos else []
+        for swe in swes_to_validate:
             tok = sent['toks'][swe['toknums'][0]-1]
             upos, xpos = tok['upos'], tok['xpos']
             lc = swe['lexcat']
@@ -208,8 +217,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
     sent = {}
     sent_conllulex = ''
 
-    for ln in inF:
-        if not ln.strip():
+    for ln in chain(inF, [""]):  # Add empty line at the end to avoid skipping the last sent
+        ln = ln.strip()
+        if not ln:
             if sent:
                 if store_conllulex: sent['conllulex'] = sent_conllulex
                 _postproc_sent(sent)
@@ -217,8 +227,6 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
                 sent = {}
                 sent_conllulex = ''
             continue
-
-        ln = ln.strip()
 
         if ln.startswith('#'):  # metadata
             if store_conllulex=='full': sent_conllulex += ln + '\n'
@@ -388,7 +396,12 @@ def print_json(sents):
         print_sent_json(sent)
     print(']')
 
-if __name__=='__main__':
-    fname = sys.argv[1]
-    with open(fname, encoding='utf-8') as inF:
-        print_json(load_sents(inF))
+if __name__ == '__main__':
+    argparser = ArgumentParser(description=desc)
+    argparser.add_argument("inF", type=FileType(encoding="utf-8"))
+    argparser.add_argument("--no-morph-syn", action="store_false", dest="morph_syn")
+    argparser.add_argument("--no-misc", action="store_false", dest="misc")
+    argparser.add_argument("--no-validate-pos", action="store_false", dest="validate_pos")
+    argparser.add_argument("--no-validate-type", action="store_false", dest="validate_type")
+    argparser.add_argument("--store-conllulex", choices=(False, 'full', 'toks'))
+    print_json(load_sents(**vars(argparser.parse_args())))
