@@ -27,6 +27,23 @@ printf "%4d\n" "$WMWES" >> MWES.txt
 
 echo "" >> MWES.txt
 
+echo "MWE Gaps" >> MWES.txt
+echo "========" >> MWES.txt
+GAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I[~_]' | wc -l`
+SGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I_' | wc -l`
+WGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I~' | wc -l`
+MULTIGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? (I_\S* )+[bio]' | wc -l`
+echo -n "Strong gaps:   " >> MWES.txt
+printf "%4d\n" "$SGAPS" >> MWES.txt
+echo -n "Weak gaps:     " >> MWES.txt
+printf "%4d\n" "$WGAPS" >> MWES.txt
+echo -n "Total gaps:    " >> MWES.txt
+printf "%4d\n" "$GAPS" >> MWES.txt
+echo -n "Multi-gap MWEs:" >> MWES.txt
+printf "%4d\n" "$MULTIGAPS" >> MWES.txt
+
+echo "" >> MWES.txt
+
 echo "Strong MWE token positions" >> MWES.txt
 echo "==========================" >> MWES.txt
 echo "There are ... MWEs >= ... tokens long:" >> MWES.txt

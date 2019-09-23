@@ -1,6 +1,13 @@
 Strong MWEs: 3012
 Weak MWEs:    695
 
+MWE Gaps
+========
+Strong gaps:    374
+Weak gaps:      146
+Total gaps:     520
+Multi-gap MWEs:   4
+
 Strong MWE token positions
 ==========================
 There are ... MWEs >= ... tokens long:
