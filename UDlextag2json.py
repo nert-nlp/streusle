@@ -135,7 +135,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             if lc.endswith('!@'): lc_tbd += 1
             valid_ss = supersenses_for_lexcat(lc)
             if lc=='V':
-                assert len(lexe['toknums'])==1,f'Verbal MWE lexcat must be subtyped (V.VID, etc., not V): {lexe}'
+                assert len(lexe['toknums'])==1,f'In {sent["sent_id"]}, Verbal MWE "{lexe["lexlemma"]}" lexcat must be subtyped (V.VID, etc., not V)'
             ss, ss2 = lexe['ss'], lexe['ss2']
             if valid_ss:
                 if ss=='??':
@@ -156,14 +156,15 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                 assert ss is None and ss2 is None and lexe not in ('N', 'V', 'P', 'INF.P', 'PP', 'POSS', 'PRON.POSS'),lexe
 
         # check lexcat on single-word expressions
-        swes_to_validate = sent['swes'].values() if validate_pos else []
-        for swe in swes_to_validate:
+        for swe in sent['swes'].values():
             tok = sent['toks'][swe['toknums'][0]-1]
             upos, xpos = tok['upos'], tok['xpos']
             lc = swe['lexcat']
             if lc.endswith('!@'): continue
-            assert lc in ALL_LEXCATS,f"In {sent['sent_id']}, invalid lexcat for single-word expression: {lc} in {tok}"
-            if upos!=lc and (upos,lc) not in {('NOUN','N'),('PROPN','N'),('VERB','V'),
+            if lc not in ALL_LEXCATS:
+                assert not validate_type, f"In {sent['sent_id']}, invalid lexcat {lc} for single-word expression '{tok['word']}'"
+                continue
+            if validate_pos and upos!=lc and (upos,lc) not in {('NOUN','N'),('PROPN','N'),('VERB','V'),
                 ('ADP','P'),('ADV','P'),('SCONJ','P'),
                 ('ADP','DISC'),('ADV','DISC'),('SCONJ','DISC'),
                 ('PART','POSS')}:
@@ -182,27 +183,29 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                     except AssertionError:
                         print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
                     mismatchOK = True
+                message = f"In {sent['sent_id']}, single-word expression '{tok['word']}' has lexcat {lc}, which is incompatible with its upos {upos}"
                 if (upos=='AUX')!=(lc=='AUX'):
-                    assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
+                    assert tok['lemma']=='be' and lc=='V',message    # copula has upos=AUX
                     mismatchOK = True
                 if (upos=='VERB')!=(lc=='V'):
                     if lc=='ADJ':
                         print('Word treated as VERB in UD, ADJ for supersenses:', sent['sent_id'], tok['word'], file=sys.stderr)
                     else:
-                        assert tok['lemma']=='be' and lc=='V',(sent['sent_id'],tok)    # copula has upos=AUX
+                        assert tok['lemma']=='be' and lc=='V',message    # copula has upos=AUX
                     mismatchOK = True
                 if upos=='PRON':
-                    assert lc=='PRON' or lc=='PRON.POSS',(sent['sent_id'],tok)
+                    assert lc=='PRON' or lc=='PRON.POSS',message
                     mismatchOK = True
                 if lc=='ADV':
-                    assert upos=='ADV' or upos=='PART',(sent['sent_id'],tok)    # PART is for negations
+                    assert upos=='ADV' or upos=='PART',message    # PART is for negations
                     mismatchOK = True
                 if upos=='ADP' and lc=='CCONJ':
                     assert tok['lemma']=='versus'
                     mismatchOK = True
 
-                assert mismatchOK,f"In {sent['sent_id']}, for single-word expression {tok} has lexcat {lc}, which is incompatible with its upos {upos}"
-            assert lc!='PP',('PP should only apply to strong MWEs',sent['sent_id'],tok)
+                assert mismatchOK,message
+            if validate_type:
+                assert lc!='PP',f"In {sent['sent_id']}, PP should only apply to strong MWEs, but occurs for single-word expression '{tok['word']}'"
         for smwe in sent['smwes'].values():
             assert len(smwe['toknums'])>1
         for wmwe in sent['wmwes'].values():
