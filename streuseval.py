@@ -112,8 +112,8 @@ class Ratio(object):
     (fractions.Fraction reduces e.g. 378/399 to 18/19. We want to avoid this.)
     '''
     def __init__(self, numerator, denominator):
-        self._n = float(numerator)
-        self._d = float(denominator)
+        self._n = float(numerator) if isinstance(numerator, Ratio) else numerator
+        self._d = float(denominator) if isinstance(numerator, Ratio) else denominator
     def __float__(self):
         return self._n / self._d if self._d!=0 else float('nan')
     def __str__(self):
