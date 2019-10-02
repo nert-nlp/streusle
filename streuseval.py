@@ -143,7 +143,7 @@ class Ratio(object):
         return f'{self._d:.2f}' if isinstance(self._d, float) else f'{self._d}'
 
 def f1(prec, rec):
-    return 2*prec*rec/(prec+rec) if float(prec+rec)>0 else float('nan')
+    return 2*prec*rec/(prec+rec)
 
 def compare_sets_PRF(gold, pred):
     c = Counter()
