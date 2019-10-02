@@ -113,7 +113,7 @@ class Ratio(object):
     '''
     def __init__(self, numerator, denominator):
         self._n = float(numerator) if isinstance(numerator, Ratio) else numerator
-        self._d = float(denominator) if isinstance(numerator, Ratio) else denominator
+        self._d = float(denominator) if isinstance(denominator, Ratio) else denominator
     def __float__(self):
         return self._n / self._d if self._d!=0 else float('nan')
     def __str__(self):
