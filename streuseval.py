@@ -384,7 +384,7 @@ def eval_sys(sysF, gold_sents, ss_mapper):
                     c['F'] = f1(c['P'], c['R'])
                 for m in ('P', 'R', 'F'):
                     # strength averaging
-                    avg = (scores[k]['Link+'][m]+scores[k]['Link-'][m])/2   # float
+                    avg = float(scores[k]['Link+'][m]+scores[k]['Link-'][m])/2   # float
                     # construct a ratio by averaging the denominators (this gives insight into underlying recall-denominators)
                     denom = (scores[k]['Link+'][m].denominator+scores[k]['Link-'][m].denominator)/2   # float
                     scores[k]['LinkAvg'][m] = Ratio(avg*denom, denom)
