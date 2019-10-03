@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-import os, sys, fileinput, re, json, argparse
+import argparse
+import json
+import re
 from collections import defaultdict, Counter
 
 from conllulex2json import load_sents
@@ -110,8 +112,14 @@ class Ratio(object):
     (fractions.Fraction reduces e.g. 378/399 to 18/19. We want to avoid this.)
     '''
     def __init__(self, numerator, denominator):
-        self._n = numerator
-        self._d = denominator
+        self._n = numerator.numerator if isinstance(numerator, Ratio) else numerator
+        if isinstance(denominator, Ratio):
+            self._n *= denominator.denominator
+            self._d = denominator.numerator
+        else:
+            self._d = denominator
+        if isinstance(numerator, Ratio):
+            self._d *= numerator.denominator
     def __float__(self):
         return self._n / self._d if self._d!=0 else float('nan')
     def __str__(self):
@@ -143,7 +151,7 @@ class Ratio(object):
         return f'{self._d:.2f}' if isinstance(self._d, float) else f'{self._d}'
 
 def f1(prec, rec):
-    return 2*prec*rec/(prec+rec) if float(prec+rec)>0 else float('nan')
+    return 2*prec*rec/(prec+rec)
 
 def compare_sets_PRF(gold, pred):
     c = Counter()
@@ -376,7 +384,7 @@ def eval_sys(sysF, gold_sents, ss_mapper):
                     c['F'] = f1(c['P'], c['R'])
                 for m in ('P', 'R', 'F'):
                     # strength averaging
-                    avg = (scores[k]['Link+'][m]+scores[k]['Link-'][m])/2   # float
+                    avg = (scores[k]['Link+'][m]+scores[k]['Link-'][m])/2  # Ratio
                     # construct a ratio by averaging the denominators (this gives insight into underlying recall-denominators)
                     denom = (scores[k]['Link+'][m].denominator+scores[k]['Link-'][m].denominator)/2   # float
                     scores[k]['LinkAvg'][m] = Ratio(avg*denom, denom)
