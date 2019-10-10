@@ -20,6 +20,10 @@ SuperSense Update Decisions
 		
 		e.g. drug, paint, shellac, grease, oil, fabric, shampoo
 
-- 	***start*** *to* ***finish*** and ***beginning*** *to* ***end*** are no longer interpreted as MWEs, and both **start** and **finish** are annotated as n.TIME
+- 	***start*** *to* ***finish*** and ***beginning*** *to* ***end*** are no longer interpreted as MWEs, and both words in both constructions are annotated as n.TIME
+	
+	> start|n.TIME to finish|n.TIME
+	
+	> beginning|n.TIME to end|n.TIME
 
 - 	the character "**#**" is interpreted as being the lexical category SYM as opposed to representing the word "number"
