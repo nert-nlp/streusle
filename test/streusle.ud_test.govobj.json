@@ -70826,7 +70826,7 @@
   "sent_id": "reviews-206303-0004",
   "text": "She really listens to what it is you would like to achieve, and I am very happy with my results.",
   "streusle_sent_id": "ewtb.r.206303.4",
-  "mwe": "She really listens to what it is you would like to achieve , and I am very happy with my results .",
+  "mwe": "She really listens to what it is you would_like to achieve , and I am very happy with my results .",
   "toks": [
    {
     "#": 1,
@@ -70959,9 +70959,12 @@
     "deprel": "aux",
     "edeps": "10:aux",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     1,
+     1
+    ],
     "wmwe": null,
-    "lextag": "O-AUX"
+    "lextag": "B-V.VID-v.cognition"
    },
    {
     "#": 10,
@@ -70974,9 +70977,12 @@
     "deprel": "acl:relcl",
     "edeps": "5:acl:relcl",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     1,
+     2
+    ],
     "wmwe": null,
-    "lextag": "O-V-v.emotion"
+    "lextag": "I_"
    },
    {
     "#": 11,
@@ -71240,24 +71246,6 @@
      8
     ]
    },
-   "9": {
-    "lexlemma": "would",
-    "lexcat": "AUX",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     9
-    ]
-   },
-   "10": {
-    "lexlemma": "like",
-    "lexcat": "V",
-    "ss": "v.emotion",
-    "ss2": null,
-    "toknums": [
-     10
-    ]
-   },
    "11": {
     "lexlemma": "to",
     "lexcat": "INF",
@@ -71381,7 +71369,18 @@
     ]
    }
   },
-  "smwes": {},
+  "smwes": {
+   "1": {
+    "lexlemma": "would like",
+    "lexcat": "V.VID",
+    "ss": "v.cognition",
+    "ss2": null,
+    "toknums": [
+     9,
+     10
+    ]
+   }
+  },
   "wmwes": {}
  },
  {

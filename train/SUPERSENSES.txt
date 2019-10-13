@@ -1,5 +1,5 @@
   36 ??	_
-26768 _	_
+26767 _	_
    7 `$	`$
  490 n.ACT	_
   78 n.ANIMAL	_
@@ -198,13 +198,13 @@
   56 p.Whole	p.Whole
   77 v.body	_
  235 v.change	_
- 929 v.cognition	_
+ 934 v.cognition	_
  848 v.communication	_
    7 v.competition	_
   74 v.consumption	_
   40 v.contact	_
   51 v.creation	_
- 194 v.emotion	_
+ 190 v.emotion	_
  519 v.motion	_
  109 v.perception	_
  285 v.possession	_
@@ -212,7 +212,7 @@
 2215 v.stative	_
 ========================
     7129 n.*
-    6333 v.*
+    6334 v.*
     4538 p.*
 
 n.* by LexCat
@@ -221,11 +221,11 @@ n.* by LexCat
 
 v.* by LexCat
 ========================
-5579 V
+5575 V
   99 V.IAV
   11 V.LVC.cause
  108 V.LVC.full
- 264 V.VID
+ 269 V.VID
  183 V.VPC.full
   89 V.VPC.semi
 

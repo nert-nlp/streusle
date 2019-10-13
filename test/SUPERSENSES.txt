@@ -115,13 +115,13 @@
    5 p.Whole	p.Whole
    3 v.body	_
   35 v.change	_
-  98 v.cognition	_
+  99 v.cognition	_
   65 v.communication	_
    1 v.competition	_
   11 v.consumption	_
    7 v.contact	_
    5 v.creation	_
-  27 v.emotion	_
+  26 v.emotion	_
   44 v.motion	_
   17 v.perception	_
   13 v.possession	_
@@ -138,11 +138,11 @@ n.* by LexCat
 
 v.* by LexCat
 ========================
- 629 V
+ 628 V
   17 V.IAV
    1 V.LVC.cause
    8 V.LVC.full
-  22 V.VID
+  23 V.VID
   11 V.VPC.full
    5 V.VPC.semi
 

@@ -1,7 +1,7 @@
   31 !!@
  549 ADJ
  372 ADV
- 165 AUX
+ 164 AUX
  208 CCONJ
  382 DET
   20 DISC
@@ -18,12 +18,12 @@
  597 PUNCT
   21 SCONJ
   12 SYM
- 629 V
+ 628 V
   17 V.IAV
    1 V.LVC.cause
    8 V.LVC.full
-  22 V.VID
+  23 V.VID
   11 V.VPC.full
    5 V.VPC.semi
    2 X
- 381 _
+ 382 _
