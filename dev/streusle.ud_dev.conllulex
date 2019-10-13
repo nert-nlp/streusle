@@ -7636,7 +7636,7 @@
 2	Place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	To	to	PART	TO	_	4	mark	4:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
 4	Use	use	VERB	VB	VerbForm=Inf	2	acl	2:acl:to	_	_	V	use	v.social	_	_	_	_	O-V-v.social
-5	The	the	PRON	DT	Definite=Def|PronType=Art	6	det	6:det	_	_	PRON	the	_	_	_	_	_	O-PRON
+5	The	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_	_	DET	the	_	_	_	_	_	O-DET
 6	Fix	fix	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	appos	2:appos	_	_	V	fix	v.change	_	_	_	_	O-V-v.change
 7	appliances	appliance	NOUN	NNS	Number=Plur	6	obj	6:obj	_	_	N	appliance	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 8	Plumbing	Plumbing	PROPN	NNP	Number=Sing	13	compound	13:compound	_	_	N	Plumbing	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT

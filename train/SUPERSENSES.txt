@@ -6,7 +6,7 @@
  816 n.ARTIFACT	_
  154 n.ATTRIBUTE	_
   70 n.BODY	_
- 601 n.COGNITION	_
+ 602 n.COGNITION	_
  338 n.COMMUNICATION	_
  356 n.EVENT	_
   32 n.FEELING	_
@@ -198,7 +198,7 @@
   56 p.Whole	p.Whole
   77 v.body	_
  235 v.change	_
- 930 v.cognition	_
+ 929 v.cognition	_
  848 v.communication	_
    7 v.competition	_
   74 v.consumption	_
@@ -211,17 +211,17 @@
  750 v.social	_
 2215 v.stative	_
 ========================
-    7128 n.*
-    6334 v.*
+    7129 n.*
+    6333 v.*
     4538 p.*
 
 n.* by LexCat
 ========================
-7128 N
+7129 N
 
 v.* by LexCat
 ========================
-5580 V
+5579 V
   99 V.IAV
   11 V.LVC.cause
  108 V.LVC.full
