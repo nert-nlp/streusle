@@ -115,6 +115,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
     def _postproc_sent(sent):
         nonlocal lc_tbd
 
+        assert 'sent_id' in sent,sent
+
         # check that tokens are numbered from 1, in order
         for i,tok in enumerate(sent['toks'], 1):
             assert tok['#']==i
