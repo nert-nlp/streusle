@@ -8837,7 +8837,7 @@
  "sent_id": "reviews-206303-0004",
  "text": "She really listens to what it is you would like to achieve, and I am very happy with my results.",
  "streusle_sent_id": "ewtb.r.206303.4",
- "mwe": "She really listens to what it is you would like to achieve , and I am very happy with my results .",
+ "mwe": "She really listens to what it is you would_like to achieve , and I am very happy with my results .",
     "toks": [
       {"#": 1, "word": "She", "lemma": "she", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs", "head": 3, "deprel": "nsubj", "edeps": "3:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 2, "word": "really", "lemma": "really", "upos": "ADV", "xpos": "RB", "feats": null, "head": 3, "deprel": "advmod", "edeps": "3:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
@@ -8847,8 +8847,8 @@
       {"#": 6, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 10, "deprel": "expl", "edeps": "10:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 7, "word": "is", "lemma": "be", "upos": "AUX", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 10, "deprel": "cop", "edeps": "10:cop", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 8, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 10, "deprel": "nsubj", "edeps": "10:nsubj|12:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
-      {"#": 9, "word": "would", "lemma": "would", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 10, "deprel": "aux", "edeps": "10:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
-      {"#": 10, "word": "like", "lemma": "like", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 5, "deprel": "acl:relcl", "edeps": "5:acl:relcl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.emotion"},
+      {"#": 9, "word": "would", "lemma": "would", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 10, "deprel": "aux", "edeps": "10:aux", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-V.VID-v.cognition"},
+      {"#": 10, "word": "like", "lemma": "like", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 5, "deprel": "acl:relcl", "edeps": "5:acl:relcl", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 11, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 12, "deprel": "mark", "edeps": "12:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF"},
       {"#": 12, "word": "achieve", "lemma": "achieve", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 10, "deprel": "xcomp", "edeps": "10:xcomp", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-V-v.cognition"},
       {"#": 13, "word": ",", "lemma": ",", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 18, "deprel": "punct", "edeps": "18:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
@@ -8872,8 +8872,6 @@
       "6": {"lexlemma": "it", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [6]},
       "7": {"lexlemma": "be", "lexcat": "V", "ss": "v.stative", "ss2": null, "toknums": [7]},
       "8": {"lexlemma": "you", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [8]},
-      "9": {"lexlemma": "would", "lexcat": "AUX", "ss": null, "ss2": null, "toknums": [9]},
-      "10": {"lexlemma": "like", "lexcat": "V", "ss": "v.emotion", "ss2": null, "toknums": [10]},
       "11": {"lexlemma": "to", "lexcat": "INF", "ss": null, "ss2": null, "toknums": [11]},
       "12": {"lexlemma": "achieve", "lexcat": "V", "ss": "v.cognition", "ss2": null, "toknums": [12]},
       "13": {"lexlemma": ",", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [13]},
@@ -8887,7 +8885,9 @@
       "21": {"lexlemma": "result", "lexcat": "N", "ss": "n.PHENOMENON", "ss2": null, "toknums": [21]},
       "22": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [22]}
     },
-    "smwes": {},
+    "smwes": {
+      "1": {"lexlemma": "would like", "lexcat": "V.VID", "ss": "v.cognition", "ss2": null, "toknums": [9, 10]}
+    },
     "wmwes": {}
 },
 {

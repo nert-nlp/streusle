@@ -9,7 +9,7 @@ Usage:
 
   [manually edit annotations in updates.tsv]
 
-  ./tupdate.py streusle.conllulex updates.tsv > streusle.new.json
+  ./supdate.py streusle.conllulex updates.tsv > streusle.new.json
 
 updates.tsv must contain 2 tab-separated columns: sentence IDs and rendered sentences.
 The rendered sentence may be split across multiple consecutive lines,
@@ -94,7 +94,7 @@ with open(conllulexFP, encoding='utf-8') as conllulexF:
                 tagging = unrender(rendered_new, toks)  # this should fail if tokens have changed
                 toks2, bios, lbls = zip(*tagging)
                 assert toks==list(toks2),(toks,toks2)  # be super-duper sure tokens haven't changed
-                labeled_bio = [bio+('-'+lbl if lbl else '') for bio,lbl in zip(bios,lbls)]
+                labeled_bio = [bio+('-'+lbl.replace(':','|') if lbl else '') for bio,lbl in zip(bios,lbls)]
 
                 # substitute new tagging in UDlextag format
                 conllulex = sent['conllulex'].strip().split('\n')
@@ -106,8 +106,15 @@ with open(conllulexFP, encoding='utf-8') as conllulexF:
                     newtag = labeled_bio[i]
                     lines[i] = ln[:ln.rindex('\t')] + '\t' + newtag
 
+                # add sentence ID
+                lines.insert(0, f'# sent_id = {sentid}')
+
                 # parse the new CoNLL-U-Lex
-                newsent = next(load_UDlextag_sents(lines))
+                try:
+                    newsent = next(load_UDlextag_sents(lines))
+                except AssertionError:
+                    print('\n'.join(lines), file=sys.stderr)
+                    raise
 
                 # update fields
                 for fld in ('mwe', 'toks', 'swes', 'smwes', 'wmwes'):

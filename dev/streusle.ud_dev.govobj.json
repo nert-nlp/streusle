@@ -128533,7 +128533,7 @@
     "#": 5,
     "word": "The",
     "lemma": "the",
-    "upos": "PRON",
+    "upos": "DET",
     "xpos": "DT",
     "feats": "Definite=Def|PronType=Art",
     "head": 6,
@@ -128542,7 +128542,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON"
+    "lextag": "O-DET"
    },
    {
     "#": 6,
@@ -128733,7 +128733,7 @@
    },
    "5": {
     "lexlemma": "the",
-    "lexcat": "PRON",
+    "lexcat": "DET",
     "ss": null,
     "ss2": null,
     "toknums": [

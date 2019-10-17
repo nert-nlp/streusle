@@ -1,12 +1,12 @@
   36 ??	_
-26768 _	_
+26769 _	_
    7 `$	`$
  490 n.ACT	_
   78 n.ANIMAL	_
  816 n.ARTIFACT	_
  154 n.ATTRIBUTE	_
   70 n.BODY	_
- 601 n.COGNITION	_
+ 602 n.COGNITION	_
  338 n.COMMUNICATION	_
  356 n.EVENT	_
   32 n.FEELING	_
@@ -36,7 +36,7 @@
    4 p.Agent	p.Source
   64 p.Approximator	p.Approximator
    2 p.Approximator	p.Extent
-  52 p.Beneficiary	p.Beneficiary
+  51 p.Beneficiary	p.Beneficiary
    2 p.Beneficiary	p.Direction
    2 p.Beneficiary	p.Gestalt
   10 p.Beneficiary	p.Goal
@@ -198,41 +198,41 @@
   56 p.Whole	p.Whole
   77 v.body	_
  235 v.change	_
- 930 v.cognition	_
- 848 v.communication	_
+ 934 v.cognition	_
+ 847 v.communication	_
    7 v.competition	_
   74 v.consumption	_
   40 v.contact	_
   51 v.creation	_
- 194 v.emotion	_
+ 190 v.emotion	_
  519 v.motion	_
  109 v.perception	_
  285 v.possession	_
- 750 v.social	_
-2215 v.stative	_
+ 751 v.social	_
+2214 v.stative	_
 ========================
-    7128 n.*
-    6334 v.*
-    4538 p.*
+    7129 n.*
+    6333 v.*
+    4537 p.*
 
 n.* by LexCat
 ========================
-7128 N
+7129 N
 
 v.* by LexCat
 ========================
-5580 V
+5574 V
   99 V.IAV
   11 V.LVC.cause
  108 V.LVC.full
- 264 V.VID
+ 269 V.VID
  183 V.VPC.full
   89 V.VPC.semi
 
 p.* by LexCat
 ========================
  201 INF.P
-3272 P
+3271 P
   52 POSS
  141 PP
  872 PRON.POSS
@@ -241,7 +241,7 @@ p.* by LexCat + construal type
 ========================
  144 INF.P	p.X ~> p.X
   57 INF.P	p.X ~> p.Y
-2459 P	p.X ~> p.X
+2458 P	p.X ~> p.X
  813 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   30 POSS	p.X ~> p.Y
@@ -256,7 +256,7 @@ p.* by LexCat + spatiotemporality
    3 INF.P 	p.LOC ~> *
  198 INF.P 	p.OTH ~> *
  881 P 	p.LOC ~> *
-2007 P 	p.OTH ~> *
+2006 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   47 POSS 	p.OTH ~> *
    5 POSS 	p.TMP ~> *
