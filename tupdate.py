@@ -19,6 +19,7 @@ import shlex, subprocess
 from itertools import chain
 
 from conllulex2json import print_json
+from mwerender import makelabel
 from tquery import ALL_FIELDS, LEX_LEVEL_FIELDS
 
 def tupdate(jsonPath, fields, updates_table):
@@ -73,6 +74,8 @@ def tupdate(jsonPath, fields, updates_table):
 
             changed = False
             for k,v in updates[sent["sent_id"]].get(_tokoffset, {}).items():
+                if v == '':
+                    v = None
                 if k in ignores:
                     continue
                 elif k in ('ss', 'ss2', 'lexcat'):
@@ -86,15 +89,15 @@ def tupdate(jsonPath, fields, updates_table):
             if changed:
                 # now we need to update the lextag(s) for consistency
                 # we assume the MWE part hasn't changed
-                lexcat = lexe['lexcat']
-                ss1, ss2 = lexe['ss'], lexe['ss2']
-                ss = ss1+'|'+ss2 if ss1 and ss2 and ss2!=ss1 else (ss1 or '')
+
+                lexcat_ss = makelabel(lexe).replace(':', '|')
+
                 # get the first token of the lexical expression, whose lextag
                 # encodes supersense and lexcat info
                 tok1 = sent["toks"][toknums[0]-1]
                 fulllextag = tok1['lextag']
                 mwepart = fulllextag[:fulllextag.index('-')]
-                fulllextag = f'{mwepart}-{lexcat}-{ss}'
+                fulllextag = f'{mwepart}-{lexcat_ss}'
                 tok1['lextag'] = fulllextag
 
     return data
