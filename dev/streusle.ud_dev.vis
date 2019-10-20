@@ -4,7 +4,7 @@ reviews-001961-0003	Have|V-v.social~ a|DET real|ADJ mechanic|N-n.PERSON ~check|V
 reviews-001961-0004	Save|V-v.stative money|N-n.POSSESSION and|CCONJ go|V-v.motion somewhere|ADV else|ADV !|PUNCT
 reviews-008635-0001	Good|ADJ food|N-n.FOOD and|CCONJ very|ADV friendly|ADJ staff|N-n.PERSON .|PUNCT
 reviews-008635-0002	Very|ADV good|ADJ with|P-?? my|PRON.POSS-p.SocialRel:p.Gestalt 5|NUM year_old|N-n.PERSON daughter|N-n.PERSON .|PUNCT
-reviews-008635-0003	Interesting|ADJ good|ADJ value|!!@ wine|N-n.FOOD list|N-n.ARTIFACT to|ADV .|PUNCT
+reviews-008635-0003	Interesting|ADJ good|ADJ value|N-n.ATTRIBUTE wine|N-n.FOOD list|N-n.ARTIFACT to|ADV .|PUNCT
 reviews-008635-0004	Beer|N-n.FOOD a_bit|DET expensive|ADJ .|PUNCT
 reviews-009389-0001	gone|ADJ
 reviews-009389-0002	library|N-n.GROUP is|V-v.stative closed|ADJ .|PUNCT
@@ -23,7 +23,7 @@ reviews-014629-0001	There|PRON is|V-v.stative no|DET delivery|N-n.ACT .|PUNCT
 reviews-014629-0002	There|PRON is|V-v.stative no|DET delivery|N-n.ACT .|PUNCT
 reviews-015573-0001	Buyer_beware|!!@
 reviews-015573-0002	Do|AUX not|ADV use|V-v.possession these|DET~guys|N-n.GROUP .|PUNCT
-reviews-015573-0003	They|PRON 'll|AUX tell|V-v.communication you|PRON one|NUM thing|!!@ then|ADV $|SYM 5,000|NUM later|ADV do|V-v.stative another|DET .|PUNCT
+reviews-015573-0003	They|PRON 'll|AUX tell|V-v.communication you|PRON one|NUM thing|N-n.OTHER then|ADV $|SYM 5,000|NUM later|ADV do|V-v.stative another|DET .|PUNCT
 reviews-015573-0004	Lied|V-v.communication~ right|ADV ~to_ my|PRON.POSS-p.Whole:p.Gestalt _face|PP-p.Goal then|ADV denied|V-v.communication it|PRON .|PUNCT
 reviews-015573-0005	Run|V-v.motion away|P-p.Direction .|PUNCT
 reviews-015687-0001	marisol|N-n.PERSON
@@ -86,7 +86,7 @@ reviews-059386-0003	Wait_staff|N-n.GROUP is|V-v.stative always|ADV ready|ADJ to|
 reviews-059386-0004	Soooo|ADV tasty|ADJ !|PUNCT
 reviews-061768-0001	Horrible|ADJ customer_service|N-n.ACT .|PUNCT
 reviews-061768-0002	I|PRON came|V-v.motion in|P-p.Direction to|INF.P-p.Purpose get|V-v.possession a|DET nice|ADJ gift|N-n.ARTIFACT for|P-p.Recipient:p.Direction my|PRON.POSS-p.SocialRel:p.Gestalt wife|N-n.PERSON .|PUNCT
-reviews-061768-0003	The|DET one|NUM guy|!!@ who|PRON was|V-v.stative there|ADV ,|PUNCT I|PRON 'm|AUX guessing|V-v.cognition was|V-v.stative the|DET owner|N-n.PERSON ,|PUNCT was|V-v.stative probably|ADV the|DET least|ADV helpful|ADJ person|N-n.PERSON I|PRON 've|AUX ever|ADV met|V-v.social .|PUNCT
+reviews-061768-0003	The|DET one|NUM guy|N-n.PERSON who|PRON was|V-v.stative there|ADV ,|PUNCT I|PRON 'm|AUX guessing|V-v.cognition was|V-v.stative the|DET owner|N-n.PERSON ,|PUNCT was|V-v.stative probably|ADV the|DET least|ADV helpful|ADJ person|N-n.PERSON I|PRON 've|AUX ever|ADV met|V-v.social .|PUNCT
 reviews-061768-0004	But|CCONJ thankfully|ADV there|PRON are|V-v.stative other|ADJ flowers|N-n.PLANT shops|N-n.GROUP around|P-p.Locus Norman|N-n.LOCATION .|PUNCT
 reviews-063754-0001	Chuck|N-n.PERSON and|CCONJ Gretchen|N-n.PERSON were|V-v.stative very|ADV positive|ADJ ,|PUNCT and|CCONJ when|ADV Alan_'s|N-n.GROUP refused|V-v.communication to|INF work|V-v.social~on|P-p.Theme my|PRON.POSS-p.Possessor bike|N-n.ARTIFACT ,|PUNCT Chuck|N-n.PERSON came|V-v.motion right|ADV out|P-p.Direction and|CCONJ saw|V-v.perception the|DET problem|N-n.COGNITION and|CCONJ did|V-v.stative what|PRON Alan_'s|N-n.GROUP mechanic|N-n.PERSON would|AUX n't|ADV do|V-v.stative .|PUNCT
 reviews-063754-0002	He|PRON worked|V-v.social~on|P-p.Theme it|PRON right|ADV on|P-p.Locus the|DET back|N-n.LOCATION of|P-p.Whole my|PRON.POSS-p.Possessor car|N-n.ARTIFACT .|PUNCT
@@ -105,7 +105,7 @@ reviews-067826-0001	If|SCONJ you|PRON 're|AUX looking|V-v.cognition~for|P-p.Them
 reviews-070492-0001	Good|ADJ ,|PUNCT friendly|ADJ ,|PUNCT reasonable|ADJ service|N-n.ACT
 reviews-071017-0001	It|PRON was|V-v.stative ok|ADJ ,|PUNCT nice|ADJ management|N-n.GROUP ,|PUNCT they|PRON let|V-v.social us|PRON check_in|V.VPC.full-v.social early|ADV ,|PUNCT but|CCONJ the|DET place|N-n.GROUP was|V-v.stative old|ADJ .|PUNCT
 reviews-071017-0002	It|PRON was|V-v.stative clean|ADJ ,|PUNCT but|CCONJ just|ADV a_little|DET dumpy|ADJ .|PUNCT
-reviews-071017-0003	Lots|!!@ of|P-p.Quantity room|N-n.ATTRIBUTE for|P-p.Purpose big_rig|N-n.ARTIFACT parking|N-n.COGNITION .|PUNCT
+reviews-071017-0003	Lots|N-n.QUANTITY of|P-p.Quantity room|N-n.ATTRIBUTE for|P-p.Purpose big_rig|N-n.ARTIFACT parking|N-n.COGNITION .|PUNCT
 reviews-071017-0004	Hard|ADJ to|INF get|V-v.stative into|P-p.Goal though|ADV because_of|P-p.Explanation road_construction|N-n.EVENT .|PUNCT
 reviews-072067-0001	Great|ADJ School|N-n.GROUP !|PUNCT
 reviews-072067-0002	Teachers|N-n.PERSON good|ADJ Diverse|ADJ student_body|N-n.GROUP (|PUNCT African_-_American|ADJ ,|PUNCT Asian|ADJ ,|PUNCT ect.|X )|PUNCT equals|V-v.stative kids|N-n.PERSON staying|V-v.social here|ADV !|PUNCT
@@ -131,7 +131,7 @@ reviews-077213-0005	if|SCONJ you|PRON want|V-v.cognition good|ADJ pizza|N-n.FOOD
 reviews-077213-0006	seriously|ADV .|PUNCT
 reviews-077344-0001	No|DET service|N-n.ACT ..|PUNCT But|CCONJ good|ADJ food|N-n.FOOD ..|PUNCT
 reviews-079827-0001	Fantastic|ADJ fresh|ADJ food|N-n.FOOD !|PUNCT
-reviews-079827-0002	What|DET a|DET~ neat|ADJ ~gem|!!@~of|P-p.Identity~a|DET restaurant|N-n.GROUP in|P-p.Locus a|DET corner|N-n.LOCATION one|PRON would|AUX n't|ADV expect|V-v.cognition it|PRON .|PUNCT
+reviews-079827-0002	What|DET a|DET~ neat|ADJ ~gem|N-n.NATURALOBJECT~of|P-p.Identity~a|DET restaurant|N-n.GROUP in|P-p.Locus a|DET corner|N-n.LOCATION one|PRON would|AUX n't|ADV expect|V-v.cognition it|PRON .|PUNCT
 reviews-079827-0003	Cozy|ADJ ,|PUNCT warm|ADJ atmosphere|N-n.ATTRIBUTE ,|PUNCT great|ADJ service|N-n.ACT .|PUNCT
 reviews-079827-0004	Most|ADV importantly|ADV ,|PUNCT the|DET food|N-n.FOOD was|V-v.stative outstanding|ADJ .|PUNCT
 reviews-079827-0005	It|PRON clearly|ADV had|AUX been|AUX prepared|V-v.creation from|P-p.Source fresh|ADJ ingredients|N-n.FOOD .|PUNCT
@@ -144,12 +144,12 @@ reviews-083849-0003	I|PRON 'll|AUX drive|V-v.motion an|DET hour|N-n.TIME just|AD
 reviews-087176-0001	A_++|N-n.COMMUNICATION
 reviews-087176-0002	They|PRON are|V-v.stative by_far|PP-p.Extent the|DET best|ADJ salon|N-n.GROUP in|P-p.Locus 50|NUM miles|N-n.QUANTITY ,|PUNCT Trust|V-v.cognition me|PRON I|PRON know|V-v.cognition !!|PUNCT
 reviews-088914-0001	They|PRON did|V-v.stative a|DET vehicle_wrap|N-n.ACT for|P-p.Theme my|PRON.POSS-p.Possessor Toyota_Venza|N-n.ARTIFACT that|PRON looks|V-v.perception amazing|ADJ .|PUNCT
-reviews-088914-0002	They|PRON also|ADV do|V-v.stative banners|N-n.ARTIFACT ,|PUNCT billboards|N-n.ARTIFACT and|CCONJ lots|!!@~more|ADJ .|PUNCT
+reviews-088914-0002	They|PRON also|ADV do|V-v.stative banners|N-n.ARTIFACT ,|PUNCT billboards|N-n.ARTIFACT and|CCONJ lots|N-n.QUANTITY~more|ADJ .|PUNCT
 reviews-090390-0001	wrong|ADJ location|N-n.LOCATION
 reviews-090390-0002	this|PRON is|V-v.stative not|ADV where|ADV the|DET Blue_Water_Bridge_Duty_Free|N-n.GROUP is|AUX located|V-v.stative .|PUNCT
 reviews-090390-0003	It|PRON is|V-v.stative ,|PUNCT surprisingly|ADV ,|PUNCT near|P-p.Locus the|DET Blue_Water_Bridges|N-n.GROUP ,|PUNCT some|DET miles|N-n.QUANTITY to|P-p.Locus:p.Goal the|DET west|N-n.RELATION of|P-p.Locus:p.Source this|DET location|N-n.LOCATION .|PUNCT
 reviews-096340-0001	ONe|NUM of|P-p.Quantity:p.Whole a|DET few|ADJ .|PUNCT
-reviews-096340-0002	Hancocks|N-n.GROUP is|V-v.stative one|NUM of|P-p.Quantity:p.Whole four|NUM fabric|!!@ stores|N-n.GROUP in|P-p.Locus Fort_Smith|N-n.LOCATION .|PUNCT
+reviews-096340-0002	Hancocks|N-n.GROUP is|V-v.stative one|NUM of|P-p.Quantity:p.Whole four|NUM fabric|N-n.SUBSTANCE stores|N-n.GROUP in|P-p.Locus Fort_Smith|N-n.LOCATION .|PUNCT
 reviews-096340-0003	We|PRON have|V-v.stative Hobby_Lobby|N-n.GROUP ,|PUNCT Just_for_Fun_Fabrics|N-n.GROUP ,|PUNCT Walmart|N-n.GROUP ,|PUNCT and|CCONJ Interior_Mall|N-n.GROUP just|ADV inside|P-p.Locus Barling|N-n.LOCATION .|PUNCT
 reviews-096340-0004	They|PRON do|AUX have|V-v.stative a|DET good|ADJ selection|N-n.COGNITION of|P-p.Species fabric|N-n.ARTIFACT and|CCONJ notions|N-n.COGNITION .|PUNCT
 reviews-097507-0001	Best|ADJ meat|N-n.FOOD pies|N-n.FOOD in|P-p.Locus Canada|N-n.LOCATION
@@ -251,7 +251,7 @@ reviews-162662-0001	Great|ADJ place|N-n.GROUP for|P-p.Purpose embroidery|N-n.ACT
 reviews-162662-0002	Service|N-n.ACT was|V-v.stative friendly|ADJ and|CCONJ VERY|ADV fast|ADJ .|PUNCT
 reviews-162662-0003	I|PRON purchased|V-v.possession four|NUM gift|N-n.ARTIFACT items|N-n.ARTIFACT there|ADV and|CCONJ had|V-v.stative them|PRON all|DET embroidered|V-v.creation within|P-p.Duration a|DET week|N-n.TIME .|PUNCT
 reviews-162702-0001	The|DET best|ADJ photographer|N-n.PERSON in|P-p.Locus Miami|N-n.LOCATION
-reviews-162702-0002	I|PRON was|V-v.stative soooo|ADV lucky|ADJ to|INF have|AUX used|V-v.social Marlon|N-n.PERSON 's|POSS-p.Agent:p.Gestalt photography|N-n.ACT services|N-n.ACT ....|PUNCT such|DET a|DET creative|ADJ and|CCONJ talented|ADJ photographer|N-n.PERSON and|CCONJ a_pleasure|!!@ to|INF work|V-v.social~with|P-p.SocialRel:p.Co-Agent .|PUNCT
+reviews-162702-0002	I|PRON was|V-v.stative soooo|ADV lucky|ADJ to|INF have|AUX used|V-v.social Marlon|N-n.PERSON 's|POSS-p.Agent:p.Gestalt photography|N-n.ACT services|N-n.ACT ....|PUNCT such|DET a|DET creative|ADJ and|CCONJ talented|ADJ photographer|N-n.PERSON and|CCONJ a_pleasure|N-n.FEELING to|INF work|V-v.social~with|P-p.SocialRel:p.Co-Agent .|PUNCT
 reviews-162702-0003	The|DET images|N-n.ARTIFACT turned_out|V.VPC.full-v.change amazing|ADJ .|PUNCT
 reviews-162702-0004	I|PRON definitely|ADV recommend|V-v.communication him|PRON :)|SYM
 reviews-162992-0001	Great|ADJ Service|N-n.ACT and|CCONJ hairstyles|N-n.ATTRIBUTE that|PRON last|V-v.stative .|PUNCT
@@ -284,7 +284,7 @@ reviews-191597-0002	Great|ADJ food|N-n.FOOD cheap|ADJ
 reviews-191597-0003	Every_thing|PRON here|ADV is|V-v.stative good|ADJ .|PUNCT
 reviews-191597-0004	Fish|N-n.FOOD tacos|N-n.FOOD are|V-v.stative my|PRON.POSS-p.Experiencer:p.Gestalt fave|N-n.COGNITION simple|ADJ and|CCONJ filling|ADJ Highly|ADV~recommend|V-v.communication Mi_Pueblo|N-n.GROUP .|PUNCT
 reviews-191597-0005	Gets_busy|V.VID-v.social so|ADV come|V-v.motion early|ADV
-reviews-194153-0001	Barb|N-n.PERSON does|V-v.stative~an|DET~ AMAZING|ADJ ~JOB|N-n.ACT ,|PUNCT she|PRON is|AUX always|ADV learning|V-v.cognition new|ADJ things|!!@ on|P-p.Topic how|ADV to|INF use|V-v.stative her|PRON.POSS-p.Whole:p.Gestalt hands|N-n.BODY and|CCONJ body|N-n.BODY ,|PUNCT to|INF.P-p.Purpose give_ every|DET person|N-n.PERSON an|DET AWESOME|ADJ _MASSAGE|V.LVC.full-v.body ,|PUNCT CALL|V-v.communication TODAY|N-n.TIME AND|CCONJ SCHEDULE|V-v.communication YOU|PRON MUST|AUX SEE|V-v.social HER|PRON ,|PUNCT YOU|PRON WILL|AUX FALL_IN_LOVE|V.VID-v.emotion SHE|PRON IS|V-v.stative THE_BEST_OF_THE_BEST|ADJ !|PUNCT
+reviews-194153-0001	Barb|N-n.PERSON does|V-v.stative~an|DET~ AMAZING|ADJ ~JOB|N-n.ACT ,|PUNCT she|PRON is|AUX always|ADV learning|V-v.cognition new|ADJ things|N-n.OTHER on|P-p.Topic how|ADV to|INF use|V-v.stative her|PRON.POSS-p.Whole:p.Gestalt hands|N-n.BODY and|CCONJ body|N-n.BODY ,|PUNCT to|INF.P-p.Purpose give_ every|DET person|N-n.PERSON an|DET AWESOME|ADJ _MASSAGE|V.LVC.full-v.body ,|PUNCT CALL|V-v.communication TODAY|N-n.TIME AND|CCONJ SCHEDULE|V-v.communication YOU|PRON MUST|AUX SEE|V-v.social HER|PRON ,|PUNCT YOU|PRON WILL|AUX FALL_IN_LOVE|V.VID-v.emotion SHE|PRON IS|V-v.stative THE_BEST_OF_THE_BEST|ADJ !|PUNCT
 reviews-194313-0001	Excellent|ADJ Pizza|N-n.FOOD !!|PUNCT
 reviews-194313-0002	It|PRON s|V-v.stative the|DET only|ADJ pizza|N-n.FOOD place|N-n.GROUP I|PRON recommend|V-v.communication in|P-p.Locus Woodland_Hills|N-n.LOCATION .|PUNCT
 reviews-194313-0003	Yum|INTJ .|PUNCT
@@ -348,7 +348,7 @@ reviews-242303-0001	Awesome|ADJ bacon|N-n.FOOD egg|N-n.FOOD and|CCONJ cheese|N-n
 reviews-243369-0001	You|PRON are|V-v.stative the|DET best|ADJ !|PUNCT
 reviews-243369-0002	Just|ADV received|V-v.possession from|P-p.Originator:p.Source your|PRON.POSS-p.OrgRole:p.Possessor flower|N-n.PLANT store|N-n.GROUP .|PUNCT
 reviews-243369-0003	They|PRON are|V-v.stative sooooo|ADV beautiful|ADJ .|PUNCT
-reviews-243369-0004	Thank_you|DISC guys|!!@ .|PUNCT
+reviews-243369-0004	Thank_you|DISC guys|N-n.PERSON .|PUNCT
 reviews-248616-0001	Took_ a|DET laptop|N-n.ARTIFACT _in|V.VPC.full-v.motion for|P-p.Purpose a|DET video_cable|N-n.ARTIFACT to|INF be|AUX replaced|V-v.change .|PUNCT
 reviews-248616-0002	Everything|PRON except|P-p.PartPortion the|DET display|N-n.ARTIFACT worked|V-v.stative fine|ADV before|P-p.Time I|PRON took_ it|PRON _in|V.VPC.full-v.motion .|PUNCT
 reviews-248616-0003	The|DET video_cable|N-n.ARTIFACT was|AUX replaced|V-v.change and|CCONJ suddenly|ADV the|DET motherboard|N-n.ARTIFACT was|V-v.stative dead|ADJ .|PUNCT
@@ -449,7 +449,7 @@ reviews-313558-0006	That|PRON alone|ADJ makes|V-v.stative them|PRON unique|ADJ .
 reviews-317326-0001	Midtown_Reston|N-n.GROUP has|V-v.stative great|ADJ location|N-n.LOCATION and|CCONJ luxurious|ADJ environment|N-n.ATTRIBUTE .|PUNCT
 reviews-317326-0002	Really|ADV enjoyed|V-v.emotion it|PRON .|PUNCT
 reviews-317480-0001	Great|ADJ atmosphere|N-n.ATTRIBUTE ,|PUNCT great|ADJ food|N-n.FOOD .|PUNCT
-reviews-317480-0002	Definitely|ADV a_must|!!@ .|PUNCT
+reviews-317480-0002	Definitely|ADV a_must|N-n.FEELING .|PUNCT
 reviews-323248-0001	Summary|N-n.COMMUNICATION :|PUNCT Not|ADV cheep|ADJ ,|PUNCT but|CCONJ very|ADV fast|ADJ ,|PUNCT and|CCONJ super|ADV friendly|ADJ service|N-n.ACT .|PUNCT
 reviews-323248-0002	Quality|N-n.ATTRIBUTE of|P-p.Gestalt work|N-n.ACT is|V-v.stative sufficient|ADJ but|CCONJ not|ADV outstanding|ADJ .|PUNCT
 reviews-323248-0003	Like|P-p.ComparisonRef all|DET oil|N-n.SUBSTANCE place|N-n.GROUP changes|N-n.ACT ,|PUNCT ask|V-v.communication /|SYM recommend|V-v.communication the|DET 100|NUM other|ADJ services|N-n.ACT they|PRON have|V-v.stative .|PUNCT
@@ -497,7 +497,7 @@ reviews-359014-0001	Good|ADJ honest_wrok|N-n.ACT
 reviews-359014-0002	Harlan|N-n.PERSON provides|V-v.social great|ADJ service|N-n.ACT .|PUNCT
 reviews-359014-0003	He|PRON is|V-v.stative very|ADV knowledgeable|ADJ and|CCONJ took_the_time|V.VID-v.social to|INF explain|V-v.communication the|DET repairs|N-n.STATE to|P-p.Recipient:p.Goal me|PRON .|PUNCT
 reviews-359014-0004	The|DET work|N-n.ACT on|P-p.Theme my|PRON.POSS-p.Possessor car|N-n.ARTIFACT was|AUX done|V-v.stative quickly|ADV and|CCONJ I|PRON felt|V-v.cognition I|PRON could|AUX trust|V-v.cognition his|PRON.POSS-p.Agent:p.Gestalt work|N-n.ACT .|PUNCT
-reviews-359014-0005	I|PRON have_ nothing_but|P-p.PartPortion~ fantastic|ADJ ~things|!!@ _to_say|V.VID-v.stative .|PUNCT
+reviews-359014-0005	I|PRON have_ nothing_but|P-p.PartPortion~ fantastic|ADJ ~things|N-n.OTHER _to_say|V.VID-v.stative .|PUNCT
 reviews-359014-0006	I|PRON highly|ADV~recommend|V-v.communication his|PRON.POSS-p.OrgRole:p.Possessor shop|N-n.GROUP .|PUNCT
 reviews-359287-0001	High|ADJ guality|N-n.ATTRIBUTE pup|N-n.ANIMAL food|N-n.FOOD at|P-p.Cost:p.Locus a|DET good|ADJ price|N-n.POSSESSION .|PUNCT
 reviews-359433-0001	Great|ADJ Place|N-n.GROUP To|INF.P-p.Characteristic:p.Purpose Use|V-v.social The|DET Fix|V-v.change appliances|N-n.ARTIFACT Plumbing|N-n.ARTIFACT Air_Conditioning|N-n.ARTIFACT &|CCONJ Electric|N-n.ARTIFACT Problems|N-n.COGNITION .|PUNCT

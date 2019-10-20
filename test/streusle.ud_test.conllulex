@@ -822,7 +822,7 @@
 6	lasted	last	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_	_	V	last	v.stative	_	_	_	_	O-V-v.stative
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_	_	DET	a	_	_	_	_	_	O-DET
 8	long	long	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	long	_	_	_	_	_	O-ADJ
-9	while	while	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	_	_	!!@	while	_	_	_	_	_	O-!!@
+9	while	while	NOUN	NN	Number=Sing	6	obl:tmod	6:obl:tmod	_	_	N	while	n.TIME	_	_	_	_	O-N-n.TIME
 10	in	in	ADP	IN	_	12	case	12:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_	_	DET	the	_	_	_	_	_	O-DET
 12	vase	vase	NOUN	NN	Number=Sing	6	obl	6:obl:in	SpaceAfter=No	_	N	vase	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -2160,7 +2160,7 @@
 5	concerned	concerned	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	concerned	_	_	_	_	_	O-ADJ
 6	at	at	ADP	IN	_	8	case	8:case	_	_	P	at	p.Time	p.Time	_	_	_	O-P-p.Time
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	_	_	DET	this	_	_	_	_	_	O-DET
-8	point	point	NOUN	NN	Number=Sing	5	obl	5:obl:at	SpaceAfter=No	_	!!@	point	_	_	_	_	_	O-!!@
+8	point	point	NOUN	NN	Number=Sing	5	obl	5:obl:at	SpaceAfter=No	_	N	point	n.TIME	_	_	_	_	O-N-n.TIME
 9	...	...	PUNCT	,	_	5	punct	5:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 10	lol	lol	INTJ	UH	_	5	discourse	5:discourse	_	_	INTJ	lol	_	_	_	_	_	O-INTJ
 
@@ -2170,7 +2170,7 @@
 # streusle_sent_id = ewtb.r.103878.1
 # mwe = You~guys do everything wonderful !
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	det	2:det	_	_	PRON	you	_	_	1:1	_	you guy	B-PRON
-2	guys	guy	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	_	_	!!@	guy	_	_	1:2	_	_	I~-!!@
+2	guys	guy	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	_	_	N	guy	n.PERSON	_	1:2	_	_	I~-N-n.PERSON
 3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	do	v.stative	_	_	_	_	O-V-v.stative
 4	everything	everything	PRON	NN	Number=Sing	3	obj	3:obj	_	_	PRON	everything	_	_	_	_	_	O-PRON
 5	wonderful	wonderful	ADV	RB	_	3	advmod	3:advmod	SpaceAfter=No	_	ADV	wonderful	_	_	_	_	_	O-ADV
@@ -2188,7 +2188,7 @@
 6	of	of	ADP	IN	_	9	case	9:case	_	1:2	_	_	_	_	_	_	_	I_
 7	even	even	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	even	_	_	_	_	_	O-ADV
 8	1	1	NUM	CD	NumType=Card	9	nummod	9:nummod	_	_	NUM	1	_	_	_	_	_	O-NUM
-9	thing	thing	NOUN	NN	Number=Sing	5	obl	5:obl:of	_	_	!!@	thing	_	_	_	_	_	O-!!@
+9	thing	thing	NOUN	NN	Number=Sing	5	obl	5:obl:of	_	_	N	thing	n.OTHER	_	_	_	_	O-N-n.OTHER
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	13:nsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
 11	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	13:aux	SpaceAfter=No	_	AUX	do	_	_	_	_	_	O-AUX
 12	n't	not	PART	RB	_	13	advmod	13:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
@@ -2497,9 +2497,9 @@
 2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	3:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 3	clean	clean	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No	_	ADJ	clean	_	_	_	_	_	O-ADJ
 4	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
-5	plenty	plenty	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	!!@	plenty	_	_	_	_	_	O-!!@
+5	plenty	plenty	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	N	plenty	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
 6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
-7	things	thing	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	!!@	thing	_	_	_	_	_	O-!!@
+7	things	thing	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	thing	n.OTHER	_	_	_	_	O-N-n.OTHER
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF
 9	do	do	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	_	V	do	v.social	_	_	_	_	O-V-v.social
 10	near	near	ADP	IN	_	11	case	11:case	_	_	P	near	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -2890,7 +2890,7 @@
 # streusle_sent_id = ewtb.r.138249.1
 # mwe = These guys do_ great _work at VERY reasonable prices .
 1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	_	_	DET	these	_	_	_	_	_	O-DET
-2	guys	guy	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	_	_	!!@	guy	_	_	_	_	_	O-!!@
+2	guys	guy	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	_	_	N	guy	n.PERSON	_	_	_	_	O-N-n.PERSON
 3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.LVC.full	do work	v.social	_	_	_	_	B-V.LVC.full-v.social
 4	great	great	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	great	_	_	_	_	_	o-ADJ
 5	work	work	NOUN	NN	Number=Sing	3	obj	3:obj	_	1:2	_	_	_	_	_	_	_	I_
@@ -3407,7 +3407,7 @@
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 9	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_	_	V	come	v.stative	_	_	_	_	O-V-v.stative
 10	with	with	ADP	IN	_	13	case	13:case	_	_	P	with	p.Characteristic	p.Characteristic	_	_	_	O-P-p.Characteristic
-11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_	3:1	!!@	a great deal	_	_	_	_	_	B-!!@
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_	3:1	N	a great deal	n.QUANTITY	_	_	_	_	B-N-n.QUANTITY
 12	great	great	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	3:2	_	_	_	_	_	_	_	I_
 13	deal	deal	NOUN	NN	Number=Sing	9	obl	9:obl:with	_	3:3	_	_	_	_	_	_	_	I_
 14	of	of	ADP	IN	_	15	case	15:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
@@ -4656,7 +4656,7 @@
 2	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	love	v.emotion	_	_	_	_	O-V-v.emotion
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_	_	DET	this	_	_	_	_	_	O-DET
 4	place	place	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
-5	lots	lot	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	_	_	!!@	lot	_	_	_	_	_	O-!!@
+5	lots	lot	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	_	_	N	lot	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
 6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
 7	people	people	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
@@ -4741,9 +4741,9 @@
 6	great	great	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 7	stay	stay	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	stay	n.EVENT	_	_	_	_	O-N-n.EVENT
 8	from	from	ADP	IN	_	9	case	9:case	_	_	P	from	p.StartTime	p.StartTime	2:1	_	from beginning to end	B-P-p.StartTime
-9	begiinning	beginning	NOUN	NN	Number=Sing|Typo=Yes	7	obl	7:obl:from	_	_	!!@	beginning	_	_	2:2	_	_	I~-!!@
+9	begiinning	beginning	NOUN	NN	Number=Sing|Typo=Yes	7	obl	7:obl:from	_	_	N	beginning	n.TIME	_	2:2	_	_	I~-N-n.TIME
 10	to	to	ADP	IN	_	11	case	11:case	_	_	P	to	p.EndTime	p.EndTime	2:3	_	_	I~-P-p.EndTime
-11	end	end	NOUN	NN	Number=Sing	7	obl	7:obl:to	SpaceAfter=No	_	!!@	end	_	_	2:4	_	_	I~-!!@
+11	end	end	NOUN	NN	Number=Sing	7	obl	7:obl:to	SpaceAfter=No	_	N	end	n.TIME	_	2:4	_	_	I~-N-n.TIME
 12	.	.	PUNCT	.	_	7	punct	7:punct	SpaceAfter=No	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-225861-0004
@@ -4755,7 +4755,7 @@
 3	room	room	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	_	N	room	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 5	at	at	ADP	IN	_	6	case	6:case	_	_	P	at	p.Time	p.Time	1:1	_	at time	B-P-p.Time
-6	times	time	NOUN	NNS	Number=Plur	7	obl	7:obl:at	_	_	!!@	time	_	_	1:2	_	_	I~-!!@
+6	times	time	NOUN	NNS	Number=Plur	7	obl	7:obl:at	_	_	N	time	n.TIME	_	1:2	_	_	I~-N-n.TIME
 7	noisy	noisy	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	noisy	_	_	_	_	_	O-ADJ
 8	but	but	CCONJ	CC	_	10	cc	10:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
@@ -6390,7 +6390,7 @@
 7	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
 9	get	get	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	1:1	V.VID	get do	v.social	_	_	_	_	B-V.VID-v.social
-10	stuff	stuff	NOUN	NN	Number=Sing	9	obj	9:obj|11:nsubj:xsubj	_	_	!!@	stuff	_	_	_	_	_	o-!!@
+10	stuff	stuff	NOUN	NN	Number=Sing	9	obj	9:obj|11:nsubj:xsubj	_	_	N	stuff	n.OTHER	_	_	_	_	o-N-n.OTHER
 11	done	do	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	9:xcomp	_	1:2	_	_	_	_	_	_	_	I_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 13	relax	relax	VERB	VB	VerbForm=Inf	9	conj	7:acl:to|9:conj:and	SpaceAfter=No	_	V	relax	v.emotion	_	_	_	_	O-V-v.emotion
@@ -7298,7 +7298,7 @@
 2	that	that	SCONJ	IN	_	4	mark	4:mark	_	_	SCONJ	that	_	_	_	_	_	O-SCONJ
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	1:ccomp	_	_	V	have	v.stative	_	_	_	_	O-V-v.stative
-5	plenty	plenty	NOUN	NN	Number=Sing	4	obj	4:obj	SpaceAfter=No	_	!!@	plenty	_	_	_	_	_	O-!!@
+5	plenty	plenty	NOUN	NN	Number=Sing	4	obj	4:obj	SpaceAfter=No	_	N	plenty	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
 6	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-343813-0005
@@ -7860,7 +7860,7 @@
 6	man	man	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	man	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	on	on	ADP	IN	_	9	case	9:case	_	_	P	on	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	_	_	DET	the	_	_	_	_	_	O-DET
-9	planet	planet	NOUN	NN	Number=Sing	6	nmod	6:nmod:on	SpaceAfter=No	_	!!@	planet	_	_	_	_	_	O-!!@
+9	planet	planet	NOUN	NN	Number=Sing	6	nmod	6:nmod:on	SpaceAfter=No	_	N	planet	n.NATURALOBJECT	_	_	_	_	O-N-n.NATURALOBJECT
 10	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-374344-0003
@@ -7879,7 +7879,7 @@
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	3:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 3	enjoy	enjoy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:if	_	_	V	enjoy	v.emotion	_	_	_	_	O-V-v.emotion
 4	amazing	amazing	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	amazing	_	_	_	_	_	O-ADJ
-5	things	thing	NOUN	NNS	Number=Plur	3	obj	3:obj	SpaceAfter=No	_	!!@	thing	_	_	_	_	_	O-!!@
+5	things	thing	NOUN	NNS	Number=Plur	3	obj	3:obj	SpaceAfter=No	_	N	thing	n.OTHER	_	_	_	_	O-N-n.OTHER
 6	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	9:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 8	must	must	AUX	MD	VerbForm=Fin	9	aux	9:aux	_	_	AUX	must	_	_	_	_	_	O-AUX

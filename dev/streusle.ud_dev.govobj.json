@@ -1207,7 +1207,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.ATTRIBUTE"
    },
    {
     "#": 4,
@@ -1292,8 +1292,8 @@
    },
    "3": {
     "lexlemma": "value",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.ATTRIBUTE",
     "ss2": null,
     "toknums": [
      3
@@ -5191,7 +5191,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.OTHER"
    },
    {
     "#": 7,
@@ -5348,8 +5348,8 @@
    },
    "6": {
     "lexlemma": "thing",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.OTHER",
     "ss2": null,
     "toknums": [
      6
@@ -20721,7 +20721,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.PERSON"
    },
    {
     "#": 4,
@@ -21076,8 +21076,8 @@
    },
    "3": {
     "lexlemma": "guy",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.PERSON",
     "ss2": null,
     "toknums": [
      3
@@ -26450,7 +26450,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.QUANTITY"
    },
    {
     "#": 2,
@@ -26568,8 +26568,8 @@
   "swes": {
    "1": {
     "lexlemma": "lot",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.QUANTITY",
     "ss2": null,
     "toknums": [
      1
@@ -32651,7 +32651,7 @@
      1,
      2
     ],
-    "lextag": "I~-!!@"
+    "lextag": "I~-N-n.NATURALOBJECT"
    },
    {
     "#": 5,
@@ -32871,8 +32871,8 @@
    },
    "4": {
     "lexlemma": "gem",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.NATURALOBJECT",
     "ss2": null,
     "toknums": [
      4
@@ -36024,7 +36024,7 @@
      1,
      1
     ],
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.QUANTITY"
    },
    {
     "#": 9,
@@ -36127,8 +36127,8 @@
    },
    "8": {
     "lexlemma": "lot",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.QUANTITY",
     "ss2": null,
     "toknums": [
      8
@@ -37277,7 +37277,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.SUBSTANCE"
    },
    {
     "#": 7,
@@ -37417,8 +37417,8 @@
    },
    "6": {
     "lexlemma": "fabric",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.SUBSTANCE",
     "ss2": null,
     "toknums": [
      6
@@ -62473,7 +62473,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.FEELING"
    },
    {
     "#": 21,
@@ -62787,8 +62787,8 @@
   "smwes": {
    "1": {
     "lexlemma": "a pleasure",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.FEELING",
     "ss2": null,
     "toknums": [
      20,
@@ -70257,7 +70257,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.OTHER"
    },
    {
     "#": 13,
@@ -70978,8 +70978,8 @@
    },
    "12": {
     "lexlemma": "thing",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.OTHER",
     "ss2": null,
     "toknums": [
      12
@@ -88207,7 +88207,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.PERSON"
    },
    {
     "#": 4,
@@ -88229,8 +88229,8 @@
   "swes": {
    "3": {
     "lexlemma": "guy",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.PERSON",
     "ss2": null,
     "toknums": [
      3
@@ -114289,7 +114289,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.FEELING"
    },
    {
     "#": 3,
@@ -114349,8 +114349,8 @@
   "smwes": {
    "1": {
     "lexlemma": "a must",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.FEELING",
     "ss2": null,
     "toknums": [
      2,
@@ -127913,7 +127913,7 @@
      3,
      3
     ],
-    "lextag": "o-!!@"
+    "lextag": "o-N-n.OTHER"
    },
    {
     "#": 7,
@@ -127989,8 +127989,8 @@
    },
    "6": {
     "lexlemma": "thing",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.OTHER",
     "ss2": null,
     "toknums": [
      6
