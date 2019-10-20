@@ -32,14 +32,14 @@ Weak MWE token positions
 
 Strong MWEs by LexCat
 =====================
-  12 !!@
+  11 !!@
   19 ADJ
    5 ADV
   10 AUX
   10 DET
    8 DISC
    1 INTJ
- 127 N
+ 128 N
    9 P
   15 PP
    2 PRON
