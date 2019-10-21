@@ -164,7 +164,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             if lc not in ALL_LEXCATS:
                 assert not validate_type, f"In {sent['sent_id']}, invalid lexcat {lc} for single-word expression '{tok['word']}'"
                 continue
-            if validate_pos and upos!=lc and (upos,lc) not in {('NOUN','N'),('PROPN','N'),('VERB','V'),
+            if validate_pos and upos!=lc and lc!='PP' and (upos,lc) not in {('NOUN','N'),('PROPN','N'),('VERB','V'),
                 ('ADP','P'),('ADV','P'),('SCONJ','P'),
                 ('ADP','DISC'),('ADV','DISC'),('SCONJ','DISC'),
                 ('PART','POSS')}:
