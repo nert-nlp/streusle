@@ -1,5 +1,5 @@
   48 ??	_
-33139 _	_
+33138 _	_
   12 `$	`$
  719 n.ACT	_
   89 n.ANIMAL	_
@@ -9,7 +9,7 @@
  746 n.COGNITION	_
  425 n.COMMUNICATION	_
  426 n.EVENT	_
-  40 n.FEELING	_
+  41 n.FEELING	_
  773 n.FOOD	_
 1494 n.GROUP	_
  638 n.LOCATION	_
@@ -221,13 +221,13 @@
  943 v.social	_
 2771 v.stative	_
 ========================
-    9228 n.*
+    9229 n.*
     7686 v.*
     5473 p.*
 
 n.* by LexCat
 ========================
-9228 N
+9229 N
 
 v.* by LexCat
 ========================
