@@ -1,5 +1,5 @@
    6 ??	_
-3234 _	_
+3218 _	_
    2 `$	`$
  122 n.ACT	_
    4 n.ANIMAL	_
@@ -14,16 +14,17 @@
  196 n.GROUP	_
   71 n.LOCATION	_
    3 n.MOTIVE	_
-   7 n.NATURALOBJECT	_
- 125 n.PERSON	_
+   8 n.NATURALOBJECT	_
+   4 n.OTHER	_
+ 127 n.PERSON	_
    4 n.PHENOMENON	_
   28 n.POSSESSION	_
    1 n.PROCESS	_
-   8 n.QUANTITY	_
+  12 n.QUANTITY	_
    2 n.RELATION	_
    7 n.STATE	_
    1 n.SUBSTANCE	_
-  35 n.TIME	_
+  40 n.TIME	_
    2 p.Agent	p.Agent
    6 p.Agent	p.Gestalt
    4 p.Approximator	p.Approximator
@@ -128,13 +129,13 @@
  102 v.social	_
  265 v.stative	_
 ========================
-     966 n.*
+     982 n.*
      693 v.*
      480 p.*
 
 n.* by LexCat
 ========================
- 966 N
+ 982 N
 
 v.* by LexCat
 ========================

@@ -1,28 +1,29 @@
    6 ??	_
-3248 _	_
+3236 _	_
    3 `$	`$
  107 n.ACT	_
    6 n.ANIMAL	_
  102 n.ARTIFACT	_
-  27 n.ATTRIBUTE	_
+  28 n.ATTRIBUTE	_
    7 n.BODY	_
   75 n.COGNITION	_
   41 n.COMMUNICATION	_
   34 n.EVENT	_
-   2 n.FEELING	_
+   4 n.FEELING	_
  121 n.FOOD	_
  198 n.GROUP	_
   79 n.LOCATION	_
    3 n.MOTIVE	_
-   6 n.NATURALOBJECT	_
- 121 n.PERSON	_
+   7 n.NATURALOBJECT	_
+   3 n.OTHER	_
+ 123 n.PERSON	_
    3 n.PHENOMENON	_
    2 n.PLANT	_
   26 n.POSSESSION	_
-   8 n.QUANTITY	_
+  10 n.QUANTITY	_
    5 n.RELATION	_
    5 n.STATE	_
-   7 n.SUBSTANCE	_
+   8 n.SUBSTANCE	_
   36 n.TIME	_
    2 p.Accompanier	p.Accompanier
    1 p.Agent	p.Agent
@@ -118,13 +119,13 @@
   90 v.social	_
  292 v.stative	_
 ========================
-    1021 n.*
+    1033 n.*
      660 v.*
      456 p.*
 
 n.* by LexCat
 ========================
-1021 N
+1033 N
 
 v.* by LexCat
 ========================
