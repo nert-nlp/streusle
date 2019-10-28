@@ -306,7 +306,7 @@ reviews-226715-0001	Inford_Media|N-n.GROUP
 reviews-226715-0002	Media|N-n.COMMUNICATION ,|PUNCT Software|N-n.COMMUNICATION ,|PUNCT Fun_and_Games|N-n.COGNITION ,|PUNCT Website|N-n.COMMUNICATION design|N-n.COGNITION ,|PUNCT Web|N-n.COMMUNICATION Promotion|N-n.COMMUNICATION ,|PUNCT B2B|N-n.COMMUNICATION ,|PUNCT Business|N-n.GROUP Promotion|N-n.COMMUNICATION ,|PUNCT Search_Engine_Optimization|N-n.COGNITION .|PUNCT
 reviews-227515-0001	BEST|ADJ DENTIST|N-n.PERSON EVER|ADV -|PUNCT
 reviews-227515-0002	Very|ADV fast|ADJ and|CCONJ efficient|ADJ service|N-n.ACT .|PUNCT
-reviews-227515-0003	I|PRON have|AUX had|V-v.stative several|ADJ dentists|N-n.PERSON in|P-p.Time my|PRON.POSS-p.Possessor life|N-n.TIME ,|PUNCT but|CCONJ Dr._Deters|N-n.PERSON is|V-v.stative by_far|PP-p.Extent my|PRON.POSS-p.Experiencer:p.Gestalt favorite|ADJ .|PUNCT
+reviews-227515-0003	I|PRON have|AUX had|V-v.stative several|ADJ dentists|N-n.PERSON in|P-p.Time my|PRON.POSS-p.Possessor life|N-n.TIME ,|PUNCT but|CCONJ Dr._Deters|N-n.PERSON is|V-v.stative by_far|PP-p.Extent my|PRON.POSS-p.Experiencer:p.Gestalt favorite|N-n.COGNITION .|PUNCT
 reviews-227515-0004	I|PRON never|ADV wait|V-v.cognition in|P-p.Locus the|DET waiting_room|N-n.LOCATION more_than|P-p.Approximator two|NUM minutes|N-n.TIME and|CCONJ the|DET cleanings|N-n.ACT are|V-v.stative quick|ADJ and|CCONJ painless|ADJ .|PUNCT
 reviews-227605-0001	Good|ADJ local|ADJ steakhouse|N-n.GROUP ,|PUNCT I|PRON recommend|V-v.communication it|PRON !|PUNCT
 reviews-229100-0001	Great|ADJ Place|N-n.GROUP !|PUNCT

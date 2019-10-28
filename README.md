@@ -115,7 +115,7 @@ History
      * Added release preparation scripts under releaseutil/.
      * Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
      * Minor corrections in the data and validation improvements.
-     * Updated UD parses to v2.4. Among other things, this improves lemmas for words with nonstandard spellings.
+     * Updated UD parses to the latest dev version (post-v2.4). Among other things, this improves lemmas for words with nonstandard spellings.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
     Implementation of SNACS (preposition/possessive supersense) target identification heuristics from [7].

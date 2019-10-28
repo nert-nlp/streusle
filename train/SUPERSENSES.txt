@@ -7,7 +7,7 @@
  158 n.ATTRIBUTE	_
   71 n.BODY	_
  603 n.COGNITION	_
- 338 n.COMMUNICATION	_
+ 337 n.COMMUNICATION	_
  356 n.EVENT	_
   34 n.FEELING	_
  579 n.FOOD	_
@@ -89,7 +89,7 @@
    5 p.Gestalt	p.Locus
    1 p.Gestalt	p.Source
    1 p.Gestalt	p.Topic
- 163 p.Goal	p.Goal
+ 164 p.Goal	p.Goal
   35 p.Goal	p.Locus
    1 p.Goal	p.Whole
    5 p.Identity	p.ComparisonRef
@@ -211,13 +211,13 @@
  751 v.social	_
 2214 v.stative	_
 ========================
-    7214 n.*
+    7213 n.*
     6333 v.*
-    4537 p.*
+    4538 p.*
 
 n.* by LexCat
 ========================
-7214 N
+7213 N
 
 v.* by LexCat
 ========================
@@ -232,7 +232,7 @@ v.* by LexCat
 p.* by LexCat
 ========================
  201 INF.P
-3271 P
+3272 P
   52 POSS
  141 PP
  872 PRON.POSS
@@ -241,7 +241,7 @@ p.* by LexCat + construal type
 ========================
  144 INF.P	p.X ~> p.X
   57 INF.P	p.X ~> p.Y
-2458 P	p.X ~> p.X
+2459 P	p.X ~> p.X
  813 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   30 POSS	p.X ~> p.Y
@@ -255,7 +255,7 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  198 INF.P 	p.OTH ~> *
- 881 P 	p.LOC ~> *
+ 882 P 	p.LOC ~> *
 2006 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   47 POSS 	p.OTH ~> *

@@ -1,12 +1,12 @@
    6 ??	_
-3218 _	_
+3217 _	_
    2 `$	`$
  122 n.ACT	_
    4 n.ANIMAL	_
   83 n.ARTIFACT	_
   31 n.ATTRIBUTE	_
   12 n.BODY	_
-  68 n.COGNITION	_
+  69 n.COGNITION	_
   46 n.COMMUNICATION	_
   36 n.EVENT	_
    3 n.FEELING	_
@@ -129,13 +129,13 @@
  102 v.social	_
  265 v.stative	_
 ========================
-     982 n.*
+     983 n.*
      693 v.*
      480 p.*
 
 n.* by LexCat
 ========================
- 982 N
+ 983 N
 
 v.* by LexCat
 ========================

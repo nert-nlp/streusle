@@ -83193,16 +83193,16 @@
     "#": 17,
     "word": "favorite",
     "lemma": "favorite",
-    "upos": "ADJ",
-    "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "upos": "NOUN",
+    "xpos": "NN",
+    "feats": "Number=Sing",
     "head": 3,
     "deprel": "conj",
     "edeps": "3:conj:but",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADJ"
+    "lextag": "O-N-n.COGNITION"
    },
    {
     "#": 18,
@@ -83353,8 +83353,8 @@
    },
    "17": {
     "lexlemma": "favorite",
-    "lexcat": "ADJ",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.COGNITION",
     "ss2": null,
     "toknums": [
      17

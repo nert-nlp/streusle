@@ -10380,7 +10380,7 @@
       {"#": 14, "word": "by", "lemma": "by", "upos": "ADP", "xpos": "IN", "feats": null, "head": 15, "deprel": "case", "edeps": "15:case", "misc": null, "smwe": [2, 1], "wmwe": null, "lextag": "B-PP-p.Extent"},
       {"#": 15, "word": "far", "lemma": "far", "upos": "ADV", "xpos": "RB", "feats": "Degree=Pos", "head": 17, "deprel": "obl", "edeps": "17:obl:by", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "I_"},
       {"#": 16, "word": "my", "lemma": "my", "upos": "PRON", "xpos": "PRP$", "feats": "Number=Sing|Person=1|Poss=Yes|PronType=Prs", "head": 17, "deprel": "nmod:poss", "edeps": "17:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Experiencer|p.Gestalt"},
-      {"#": 17, "word": "favorite", "lemma": "favorite", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 3, "deprel": "conj", "edeps": "3:conj:but", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
+      {"#": 17, "word": "favorite", "lemma": "favorite", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 3, "deprel": "conj", "edeps": "3:conj:but", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.COGNITION"},
       {"#": 18, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 3, "deprel": "punct", "edeps": "3:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
     "etoks": [],
@@ -10397,7 +10397,7 @@
       "10": {"lexlemma": "but", "lexcat": "CCONJ", "ss": null, "ss2": null, "toknums": [10]},
       "13": {"lexlemma": "be", "lexcat": "V", "ss": "v.stative", "ss2": null, "toknums": [13]},
       "16": {"lexlemma": "my", "lexcat": "PRON.POSS", "ss": "p.Experiencer", "ss2": "p.Gestalt", "toknums": [16]},
-      "17": {"lexlemma": "favorite", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [17]},
+      "17": {"lexlemma": "favorite", "lexcat": "N", "ss": "n.COGNITION", "ss2": null, "toknums": [17]},
       "18": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [18]}
     },
     "smwes": {
