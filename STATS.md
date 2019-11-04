@@ -1,10 +1,11 @@
 STREUSLE Stats
 ==============
 
-* Documents:          723
-* Sentences:         3812
-* Tokens:           55579 (excludes ellipsis nodes)
-* Unique lemmas:     5170
+* Documents:                723
+* Sentences:               3812
+* Tokens:                 55579 (excludes ellipsis nodes)
+* Unique lemmas:           5170
+* Unique full lextags:      598
 * [LexCat](LEXCAT.txt)
 * [MWEs](MWES.txt)
 * [Supersenses](SUPERSENSES.txt)

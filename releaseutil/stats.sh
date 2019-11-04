@@ -6,13 +6,15 @@ echo "STREUSLE Stats" > STATS.md
 echo "==============" >> STATS.md
 echo "" >> STATS.md
 DOCS=`fgrep '# newdoc id' $DATA | wc -l`
-echo "* Documents:     $DOCS" >> STATS.md
+echo "* Documents:           $DOCS" >> STATS.md
 SENTS=`fgrep '# sent_id' $DATA | wc -l`
-echo "* Sentences:     $SENTS" >> STATS.md
+echo "* Sentences:           $SENTS" >> STATS.md
 WORDS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | wc -l`
-echo "* Tokens:        $WORDS (excludes ellipsis nodes)" >> STATS.md
+echo "* Tokens:              $WORDS (excludes ellipsis nodes)" >> STATS.md
 LEMMAS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f3 | sort | uniq | wc -l`
-echo "* Unique lemmas: $LEMMAS" >> STATS.md
+echo "* Unique lemmas:       $LEMMAS" >> STATS.md
+LEXTAGS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sort | uniq | wc -l`
+echo "* Unique full lextags: $LEXTAGS" >> STATS.md
 echo "* [LexCat](LEXCAT.txt)" >> STATS.md
 echo "* [MWEs](MWES.txt)" >> STATS.md
 echo "* [Supersenses](SUPERSENSES.txt)" >> STATS.md
