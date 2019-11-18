@@ -7277,7 +7277,7 @@
 # mwe = Travelled 40 mins after calling to see if a product was in_stock .
 1	Travelled	travel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	travel	v.motion	_	_	_	_	O-V-v.motion
 2	40	40	NUM	CD	NumType=Card	3	nummod	3:nummod	SpaceAfter=No	_	NUM	40	_	_	_	_	_	O-NUM
-3	mins	min	NOUN	NNS	Number=Plur	1	obj	1:obj	_	_	N	min	n.TIME	_	_	_	_	O-N-n.TIME
+3	mins	minute	NOUN	NNS	Abbr=Yes|Number=Plur	1	obj	1:obj	_	_	N	minute	n.TIME	_	_	_	_	O-N-n.TIME
 4	after	after	SCONJ	IN	_	5	mark	5:mark	_	_	P	after	p.Time	p.Time	_	_	_	O-P-p.Time
 5	calling	call	VERB	VBG	VerbForm=Ger	1	advcl	1:advcl:after	_	_	V	call	v.communication	_	_	_	_	O-V-v.communication
 6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose

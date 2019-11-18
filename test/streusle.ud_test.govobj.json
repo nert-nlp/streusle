@@ -124260,10 +124260,10 @@
    {
     "#": 3,
     "word": "mins",
-    "lemma": "min",
+    "lemma": "minute",
     "upos": "NOUN",
     "xpos": "NNS",
-    "feats": "Number=Plur",
+    "feats": "Abbr=Yes|Number=Plur",
     "head": 1,
     "deprel": "obj",
     "edeps": "1:obj",
@@ -124465,7 +124465,7 @@
     ]
    },
    "3": {
-    "lexlemma": "min",
+    "lexlemma": "minute",
     "lexcat": "N",
     "ss": "n.TIME",
     "ss2": null,

@@ -220,7 +220,7 @@ reviews-140164-0003	Their|PRON.POSS-p.Agent:p.Gestalt selection|N-n.COGNITION is
 reviews-140164-0004	Go|V-v.motion to|P-p.Goal the_Looking_Glass|N-n.GROUP for|P-p.Purpose~all|DET~ your|PRON.POSS-p.Experiencer:p.Gestalt smoking|N-n.ACT ~needs|N-n.MOTIVE !!!!!!!!!!|PUNCT
 reviews-140302-0001	5_star|N-n.COMMUNICATION detail|N-n.ACT~job|N-n.ACT
 reviews-140302-0002	I|PRON took|V-v.motion my|PRON.POSS-p.Possessor Mustang|N-n.ARTIFACT here|ADV and|CCONJ it|PRON looked|V-v.perception amazing|ADJ after|P-p.Time they|PRON were|V-v.stative done|ADJ ,|PUNCT they|PRON did_a_ great|ADJ _job|V.LVC.full-v.social ,|PUNCT I|PRON 'm|V-v.stative very|ADV satisfied|ADJ with|P-p.Stimulus:p.Topic the|DET results|N-n.PHENOMENON .|PUNCT
-reviews-140302-0003	The|DET paint|N-n.SUBSTANCE and|CCONJ wheels|N-n.ARTIFACT looked|V-v.perception like|P-p.Manner:p.ComparisonRef glass|N-n.SUBSTANCE and|CCONJ the|DET interior|ADJ looked|V-v.perception new|ADJ !|PUNCT
+reviews-140302-0003	The|DET paint|N-n.SUBSTANCE and|CCONJ wheels|N-n.ARTIFACT looked|V-v.perception like|P-p.Manner:p.ComparisonRef glass|N-n.SUBSTANCE and|CCONJ the|DET interior|N-n.LOCATION looked|V-v.perception new|ADJ !|PUNCT
 reviews-140302-0004	Also|ADV ,|PUNCT they|PRON have|V-v.stative great|ADJ customer_service|N-n.ACT and|CCONJ a|DET very|ADV knowledgeable|ADJ staff|N-n.GROUP
 reviews-147825-0001	Rip_Off|N-n.ACT !|PUNCT
 reviews-147825-0002	45|NUM p|N-n.POSSESSION for|P-p.Theme tap_water|N-n.SUBSTANCE !|PUNCT
@@ -349,7 +349,7 @@ reviews-243369-0001	You|PRON are|V-v.stative the|DET best|ADJ !|PUNCT
 reviews-243369-0002	Just|ADV received|V-v.possession from|P-p.Originator:p.Source your|PRON.POSS-p.OrgRole:p.Possessor flower|N-n.PLANT store|N-n.GROUP .|PUNCT
 reviews-243369-0003	They|PRON are|V-v.stative sooooo|ADV beautiful|ADJ .|PUNCT
 reviews-243369-0004	Thank_you|DISC guys|N-n.PERSON .|PUNCT
-reviews-248616-0001	Took_ a|DET laptop|N-n.ARTIFACT _in|V.VPC.full-v.motion for|P-p.Purpose a|DET video_cable|N-n.ARTIFACT to|INF be|AUX replaced|V-v.change .|PUNCT
+reviews-248616-0001	Took_ a|DET laptop|N-n.ARTIFACT _in|V.VPC.full-v.motion for|P-p.Purpose a|DET video_cable|N-n.ARTIFACT to|INF.P-p.Purpose be|AUX replaced|V-v.change .|PUNCT
 reviews-248616-0002	Everything|PRON except|P-p.PartPortion the|DET display|N-n.ARTIFACT worked|V-v.stative fine|ADV before|P-p.Time I|PRON took_ it|PRON _in|V.VPC.full-v.motion .|PUNCT
 reviews-248616-0003	The|DET video_cable|N-n.ARTIFACT was|AUX replaced|V-v.change and|CCONJ suddenly|ADV the|DET motherboard|N-n.ARTIFACT was|V-v.stative dead|ADJ .|PUNCT
 reviews-248616-0004	Phone_calls_ were|AUX n't|ADV _returned|N-n.COMMUNICATION when|ADV promised|V-v.communication and|CCONJ the|DET botched|V-v.social repair|N-n.ACT took|V-v.stative a|DET week|N-n.TIME longer|ADV than|P-p.ComparisonRef promised|V-v.communication .|PUNCT

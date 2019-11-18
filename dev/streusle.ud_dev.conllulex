@@ -2464,7 +2464,7 @@
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	18:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 18	good	good	ADJ	JJ	Degree=Pos	2	list	2:list	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 19	many	many	ADJ	JJ	Degree=Pos	20	amod	20:amod	_	_	ADJ	many	_	_	_	_	_	O-ADJ
-20	yrs	yr	NOUN	NNS	Number=Plur	21	obl:npmod	21:obl:npmod	_	_	N	yr	n.TIME	_	_	_	_	O-N-n.TIME
+20	yrs	year	NOUN	NNS	Abbr=Yes|Number=Plur	21	obl:npmod	21:obl:npmod	_	_	N	year	n.TIME	_	_	_	_	O-N-n.TIME
 21	ago	ago	ADV	RB	_	18	advmod	18:advmod	_	_	P	ago	p.Time	p.Interval	_	_	_	O-P-p.Time|p.Interval
 22	but	but	CCONJ	CC	_	25	cc	25:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 23	restaurant	restaurant	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	_	_	N	restaurant	n.GROUP	_	_	_	_	O-N-n.GROUP
@@ -3292,7 +3292,7 @@
 7	glass	glass	NOUN	NN	Number=Sing	5	obl	5:obl:like	_	_	N	glass	n.SUBSTANCE	_	_	_	_	O-N-n.SUBSTANCE
 8	and	and	CCONJ	CC	_	11	cc	11:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_	_	DET	the	_	_	_	_	_	O-DET
-10	interior	interior	ADJ	JJ	Degree=Pos	11	nsubj	11:nsubj|12:nsubj:xsubj	_	_	ADJ	interior	_	_	_	_	_	O-ADJ
+10	interior	interior	NOUN	NN	Number=Sing	11	nsubj	11:nsubj|12:nsubj:xsubj	_	_	N	interior	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 11	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	5:conj:and	_	_	V	look	v.perception	_	_	_	_	O-V-v.perception
 12	new	new	ADJ	JJ	Degree=Pos	11	xcomp	11:xcomp	SpaceAfter=No	_	ADJ	new	_	_	_	_	_	O-ADJ
 13	!	!	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
@@ -5180,7 +5180,7 @@
 7	there	there	ADV	RB	PronType=Dem	4	obl	4:obl:of	_	_	ADV	there	_	_	_	_	_	O-ADV
 8	in	in	ADP	IN	_	10	case	10:case	_	_	P	in	p.Time	p.Interval	_	_	_	O-P-p.Time|p.Interval
 9	10	10	NUM	CD	NumType=Card	10	nummod	10:nummod	_	_	NUM	10	_	_	_	_	_	O-NUM
-10	mins	min	NOUN	NNS	Number=Plur	4	obl	4:obl:in	_	_	N	min	n.TIME	_	_	_	_	O-N-n.TIME
+10	mins	minute	NOUN	NNS	Abbr=Yes|Number=Plur	4	obl	4:obl:in	_	_	N	minute	n.TIME	_	_	_	_	O-N-n.TIME
 11	with	with	ADP	IN	_	15	case	15:case	_	_	P	with	p.Possession	p.Accompanier	_	_	_	O-P-p.Possession|p.Accompanier
 12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	_	_	DET	a	_	_	_	_	_	O-DET
 13	really	really	ADV	RB	_	14	advmod	14:advmod	_	_	ADV	really	_	_	_	_	_	O-ADV
@@ -5292,7 +5292,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_	_	DET	a	_	_	_	_	_	O-DET
 7	video	video	NOUN	NN	Number=Sing	8	compound	8:compound	_	2:1	N	video cable	n.ARTIFACT	_	_	_	_	B-N-n.ARTIFACT
 8	cable	cable	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	_	2:2	_	_	_	_	_	_	_	I_
-9	to	to	PART	TO	_	11	mark	11:mark	_	_	INF	to	_	_	_	_	_	O-INF
+9	to	to	PART	TO	_	11	mark	11:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	11:aux:pass	_	_	AUX	be	_	_	_	_	_	O-AUX
 11	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	1:advcl:to	SpaceAfter=No	_	V	replace	v.change	_	_	_	_	O-V-v.change
 12	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT

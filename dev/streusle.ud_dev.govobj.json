@@ -40842,10 +40842,10 @@
    {
     "#": 20,
     "word": "yrs",
-    "lemma": "yr",
+    "lemma": "year",
     "upos": "NOUN",
     "xpos": "NNS",
-    "feats": "Number=Plur",
+    "feats": "Abbr=Yes|Number=Plur",
     "head": 21,
     "deprel": "obl:npmod",
     "edeps": "21:obl:npmod",
@@ -41125,7 +41125,7 @@
     ]
    },
    "20": {
-    "lexlemma": "yr",
+    "lexlemma": "year",
     "lexcat": "N",
     "ss": "n.TIME",
     "ss2": null,
@@ -41145,7 +41145,7 @@
      "gov": 18,
      "govlemma": "good",
      "obj": 20,
-     "objlemma": "yr",
+     "objlemma": "year",
      "config": "default"
     }
    },
@@ -54547,16 +54547,16 @@
     "#": 10,
     "word": "interior",
     "lemma": "interior",
-    "upos": "ADJ",
-    "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "upos": "NOUN",
+    "xpos": "NN",
+    "feats": "Number=Sing",
     "head": 11,
     "deprel": "nsubj",
     "edeps": "11:nsubj|12:nsubj:xsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADJ"
+    "lextag": "O-N-n.LOCATION"
    },
    {
     "#": 11,
@@ -54696,8 +54696,8 @@
    },
    "10": {
     "lexlemma": "interior",
-    "lexcat": "ADJ",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.LOCATION",
     "ss2": null,
     "toknums": [
      10
@@ -86357,10 +86357,10 @@
    {
     "#": 10,
     "word": "mins",
-    "lemma": "min",
+    "lemma": "minute",
     "upos": "NOUN",
     "xpos": "NNS",
-    "feats": "Number=Plur",
+    "feats": "Abbr=Yes|Number=Plur",
     "head": 4,
     "deprel": "obl",
     "edeps": "4:obl:in",
@@ -87063,7 +87063,7 @@
      "gov": 4,
      "govlemma": "be",
      "obj": 10,
-     "objlemma": "min",
+     "objlemma": "minute",
      "config": "default"
     }
    },
@@ -87077,7 +87077,7 @@
     ]
    },
    "10": {
-    "lexlemma": "min",
+    "lexlemma": "minute",
     "lexcat": "N",
     "ss": "n.TIME",
     "ss2": null,
@@ -88411,7 +88411,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 10,
@@ -88506,12 +88506,19 @@
    },
    "9": {
     "lexlemma": "to",
-    "lexcat": "INF",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "INF.P",
+    "ss": "p.Purpose",
+    "ss2": "p.Purpose",
     "toknums": [
      9
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 1,
+     "govlemma": "take",
+     "obj": 11,
+     "objlemma": "replace",
+     "config": "subordinating"
+    }
    },
    "10": {
     "lexlemma": "be",

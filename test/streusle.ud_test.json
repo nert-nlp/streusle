@@ -15602,7 +15602,7 @@
     "toks": [
       {"#": 1, "word": "Travelled", "lemma": "travel", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.motion"},
       {"#": 2, "word": "40", "lemma": "40", "upos": "NUM", "xpos": "CD", "feats": "NumType=Card", "head": 3, "deprel": "nummod", "edeps": "3:nummod", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-NUM"},
-      {"#": 3, "word": "mins", "lemma": "min", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.TIME"},
+      {"#": 3, "word": "mins", "lemma": "minute", "upos": "NOUN", "xpos": "NNS", "feats": "Abbr=Yes|Number=Plur", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.TIME"},
       {"#": 4, "word": "after", "lemma": "after", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 5, "deprel": "mark", "edeps": "5:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Time"},
       {"#": 5, "word": "calling", "lemma": "call", "upos": "VERB", "xpos": "VBG", "feats": "VerbForm=Ger", "head": 1, "deprel": "advcl", "edeps": "1:advcl:after", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.communication"},
       {"#": 6, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 7, "deprel": "mark", "edeps": "7:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF.P-p.Purpose"},
@@ -15619,7 +15619,7 @@
     "swes": {
       "1": {"lexlemma": "travel", "lexcat": "V", "ss": "v.motion", "ss2": null, "toknums": [1]},
       "2": {"lexlemma": "40", "lexcat": "NUM", "ss": null, "ss2": null, "toknums": [2]},
-      "3": {"lexlemma": "min", "lexcat": "N", "ss": "n.TIME", "ss2": null, "toknums": [3]},
+      "3": {"lexlemma": "minute", "lexcat": "N", "ss": "n.TIME", "ss2": null, "toknums": [3]},
       "4": {"lexlemma": "after", "lexcat": "P", "ss": "p.Time", "ss2": "p.Time", "toknums": [4]},
       "5": {"lexlemma": "call", "lexcat": "V", "ss": "v.communication", "ss2": null, "toknums": [5]},
       "6": {"lexlemma": "to", "lexcat": "INF.P", "ss": "p.Purpose", "ss2": "p.Purpose", "toknums": [6]},

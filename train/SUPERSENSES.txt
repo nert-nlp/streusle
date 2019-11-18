@@ -1,9 +1,9 @@
   36 ??	_
-26684 _	_
+26674 _	_
    7 `$	`$
  490 n.ACT	_
   79 n.ANIMAL	_
- 818 n.ARTIFACT	_
+ 819 n.ARTIFACT	_
  158 n.ATTRIBUTE	_
   71 n.BODY	_
  603 n.COGNITION	_
@@ -16,7 +16,7 @@
   19 n.MOTIVE	_
   41 n.NATURALOBJECT	_
   41 n.OTHER	_
- 983 n.PERSON	_
+ 987 n.PERSON	_
   16 n.PHENOMENON	_
    3 n.PLANT	_
  298 n.POSSESSION	_
@@ -150,7 +150,7 @@
  322 p.Possessor	p.Possessor
    1 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
- 252 p.Purpose	p.Purpose
+ 257 p.Purpose	p.Purpose
    2 p.Quantity	p.Gestalt
   70 p.Quantity	p.Quantity
   11 p.Quantity	p.Stuff
@@ -211,13 +211,13 @@
  751 v.social	_
 2214 v.stative	_
 ========================
-    7213 n.*
+    7218 n.*
     6333 v.*
-    4538 p.*
+    4543 p.*
 
 n.* by LexCat
 ========================
-7213 N
+7218 N
 
 v.* by LexCat
 ========================
@@ -231,7 +231,7 @@ v.* by LexCat
 
 p.* by LexCat
 ========================
- 201 INF.P
+ 206 INF.P
 3272 P
   52 POSS
  141 PP
@@ -239,7 +239,7 @@ p.* by LexCat
 
 p.* by LexCat + construal type
 ========================
- 144 INF.P	p.X ~> p.X
+ 149 INF.P	p.X ~> p.X
   57 INF.P	p.X ~> p.Y
 2459 P	p.X ~> p.X
  813 P	p.X ~> p.Y
@@ -254,7 +254,7 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
    3 INF.P 	p.LOC ~> *
- 198 INF.P 	p.OTH ~> *
+ 203 INF.P 	p.OTH ~> *
  882 P 	p.LOC ~> *
 2006 P 	p.OTH ~> *
  384 P 	p.TMP ~> *

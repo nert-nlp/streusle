@@ -1,9 +1,9 @@
   48 ??	_
-33137 _	_
+33125 _	_
   12 `$	`$
  719 n.ACT	_
   89 n.ANIMAL	_
-1003 n.ARTIFACT	_
+1004 n.ARTIFACT	_
  217 n.ATTRIBUTE	_
   90 n.BODY	_
  747 n.COGNITION	_
@@ -12,11 +12,11 @@
   41 n.FEELING	_
  773 n.FOOD	_
 1494 n.GROUP	_
- 638 n.LOCATION	_
+ 639 n.LOCATION	_
   25 n.MOTIVE	_
   56 n.NATURALOBJECT	_
   48 n.OTHER	_
-1233 n.PERSON	_
+1237 n.PERSON	_
   23 n.PHENOMENON	_
    5 n.PLANT	_
  352 n.POSSESSION	_
@@ -156,7 +156,7 @@
  378 p.Possessor	p.Possessor
    2 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
- 296 p.Purpose	p.Purpose
+ 302 p.Purpose	p.Purpose
    3 p.Quantity	p.Gestalt
   83 p.Quantity	p.Quantity
   13 p.Quantity	p.Stuff
@@ -221,13 +221,13 @@
  943 v.social	_
 2771 v.stative	_
 ========================
-    9229 n.*
+    9235 n.*
     7686 v.*
-    5474 p.*
+    5480 p.*
 
 n.* by LexCat
 ========================
-9229 N
+9235 N
 
 v.* by LexCat
 ========================
@@ -241,7 +241,7 @@ v.* by LexCat
 
 p.* by LexCat
 ========================
- 247 INF.P
+ 253 INF.P
 3951 P
   59 POSS
  172 PP
@@ -249,7 +249,7 @@ p.* by LexCat
 
 p.* by LexCat + construal type
 ========================
- 163 INF.P	p.X ~> p.X
+ 169 INF.P	p.X ~> p.X
   84 INF.P	p.X ~> p.Y
 2957 P	p.X ~> p.X
  994 P	p.X ~> p.Y
@@ -264,7 +264,7 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
    3 INF.P 	p.LOC ~> *
- 244 INF.P 	p.OTH ~> *
+ 250 INF.P 	p.OTH ~> *
 1089 P 	p.LOC ~> *
 2419 P 	p.OTH ~> *
  443 P 	p.TMP ~> *
