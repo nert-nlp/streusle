@@ -180,10 +180,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                     mismatchOK = True
 
                 if (upos in ('NOUN', 'PROPN'))!=(lc=='N'):
-                    try:
-                        assert upos in ('SYM','X') or (lc in ('PRON','DISC')),(sent['sent_id'],swe,tok)
-                    except AssertionError:
-                        print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
+                    #try:
+                    assert upos in ('SYM','X') or (lc in ('PRON','DISC')),(sent['sent_id'],swe,tok)
+                    #except AssertionError:
+                    #    print('Suspicious lexcat/POS combination:', sent['sent_id'], swe, tok, file=sys.stderr)
                     mismatchOK = True
                 message = f"In {sent['sent_id']}, single-word expression '{tok['word']}' has lexcat {lc}, which is incompatible with its upos {upos}"
                 if (upos=='AUX')!=(lc=='AUX'):
