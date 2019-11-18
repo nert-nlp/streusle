@@ -1,5 +1,5 @@
    6 ??	_
-3234 _	_
+3235 _	_
    3 `$	`$
  107 n.ACT	_
    6 n.ANIMAL	_
@@ -16,7 +16,7 @@
    3 n.MOTIVE	_
    7 n.NATURALOBJECT	_
    3 n.OTHER	_
- 123 n.PERSON	_
+ 122 n.PERSON	_
    3 n.PHENOMENON	_
    2 n.PLANT	_
   26 n.POSSESSION	_
@@ -119,13 +119,13 @@
   90 v.social	_
  292 v.stative	_
 ========================
-    1034 n.*
+    1033 n.*
      660 v.*
      457 p.*
 
 n.* by LexCat
 ========================
-1034 N
+1033 N
 
 v.* by LexCat
 ========================

@@ -1,5 +1,5 @@
    6 ??	_
-3217 _	_
+3218 _	_
    2 `$	`$
  122 n.ACT	_
    4 n.ANIMAL	_
@@ -16,7 +16,7 @@
    3 n.MOTIVE	_
    8 n.NATURALOBJECT	_
    4 n.OTHER	_
- 127 n.PERSON	_
+ 126 n.PERSON	_
    4 n.PHENOMENON	_
   28 n.POSSESSION	_
    1 n.PROCESS	_
@@ -129,13 +129,13 @@
  102 v.social	_
  265 v.stative	_
 ========================
-     983 n.*
+     982 n.*
      693 v.*
      480 p.*
 
 n.* by LexCat
 ========================
- 983 N
+ 982 N
 
 v.* by LexCat
 ========================

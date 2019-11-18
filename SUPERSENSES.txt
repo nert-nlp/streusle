@@ -1,12 +1,12 @@
   48 ??	_
-33125 _	_
+33131 _	_
   12 `$	`$
  719 n.ACT	_
-  89 n.ANIMAL	_
+  88 n.ANIMAL	_
 1004 n.ARTIFACT	_
- 217 n.ATTRIBUTE	_
+ 216 n.ATTRIBUTE	_
   90 n.BODY	_
- 747 n.COGNITION	_
+ 746 n.COGNITION	_
  424 n.COMMUNICATION	_
  426 n.EVENT	_
   41 n.FEELING	_
@@ -16,7 +16,7 @@
   25 n.MOTIVE	_
   56 n.NATURALOBJECT	_
   48 n.OTHER	_
-1237 n.PERSON	_
+1235 n.PERSON	_
   23 n.PHENOMENON	_
    5 n.PLANT	_
  352 n.POSSESSION	_
@@ -26,7 +26,7 @@
    6 n.SHAPE	_
   52 n.STATE	_
   36 n.SUBSTANCE	_
- 542 n.TIME	_
+ 541 n.TIME	_
   26 p.Accompanier	p.Accompanier
    2 p.Accompanier	p.Co-Agent
   25 p.Agent	p.Agent
@@ -221,13 +221,13 @@
  943 v.social	_
 2771 v.stative	_
 ========================
-    9235 n.*
+    9229 n.*
     7686 v.*
     5480 p.*
 
 n.* by LexCat
 ========================
-9235 N
+9229 N
 
 v.* by LexCat
 ========================

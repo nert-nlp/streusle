@@ -1,5 +1,5 @@
 reviews-001325-0001	Highly|ADV recommended|V-v.communication
-reviews-001325-0002	My|PRON.POSS-p.SocialRel:p.Gestalt 8|NUM year_old|N-n.PERSON daughter|N-n.PERSON loves|V-v.emotion this|DET place|N-n.LOCATION .|PUNCT
+reviews-001325-0002	My|PRON.POSS-p.SocialRel:p.Gestalt 8|NUM year_old|ADJ daughter|N-n.PERSON loves|V-v.emotion this|DET place|N-n.LOCATION .|PUNCT
 reviews-001325-0003	The|DET best|ADJ climbing|N-n.ACT club|N-n.GROUP around|P-p.Locus .|PUNCT
 reviews-001325-0004	Hooray|INTJ for|P-p.Beneficiary Craggy|N-n.PERSON .|PUNCT
 reviews-002288-0001	It|PRON 's|V-v.stative well|ADV cool|ADJ .|PUNCT :)|SYM

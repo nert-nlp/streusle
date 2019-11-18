@@ -112,7 +112,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-N-n.PERSON"
+    "lextag": "B-ADJ"
    },
    {
     "#": 4,
@@ -284,8 +284,8 @@
   "smwes": {
    "1": {
     "lexlemma": "year old",
-    "lexcat": "N",
-    "ss": "n.PERSON",
+    "lexcat": "ADJ",
+    "ss": null,
     "ss2": null,
     "toknums": [
      3,

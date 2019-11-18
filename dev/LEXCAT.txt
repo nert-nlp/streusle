@@ -1,5 +1,5 @@
   15 !!@
- 611 ADJ
+ 612 ADJ
  348 ADV
  159 AUX
  200 CCONJ
@@ -8,7 +8,7 @@
   29 INF
   27 INF.P
   10 INTJ
-1034 N
+1033 N
   37 NUM
  334 P
    6 POSS

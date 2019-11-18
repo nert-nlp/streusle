@@ -68,7 +68,7 @@
 3	with	with	ADP	IN	_	8	case	8:case	_	_	P	with	??	_	_	_	_	O-P-??
 4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 5	5	5	NUM	CD	NumType=Card	6	nummod	6:nummod	_	_	NUM	5	_	_	_	_	_	O-NUM
-6	year	year	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	_	1:1	N	year old	n.PERSON	_	_	_	_	B-N-n.PERSON
+6	year	year	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	_	1:1	ADJ	year old	_	_	_	_	_	B-ADJ
 7	old	old	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	1:2	_	_	_	_	_	_	_	I_
 8	daughter	daughter	NOUN	NN	Number=Sing	2	obl	2:obl:with	SpaceAfter=No	_	N	daughter	n.PERSON	_	_	_	_	O-N-n.PERSON
 9	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
