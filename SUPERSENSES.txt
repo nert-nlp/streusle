@@ -1,32 +1,32 @@
   48 ??	_
-33131 _	_
+33097 _	_
   12 `$	`$
- 719 n.ACT	_
+ 721 n.ACT	_
   88 n.ANIMAL	_
-1004 n.ARTIFACT	_
+1005 n.ARTIFACT	_
  216 n.ATTRIBUTE	_
   90 n.BODY	_
- 746 n.COGNITION	_
+ 750 n.COGNITION	_
  424 n.COMMUNICATION	_
- 426 n.EVENT	_
+ 428 n.EVENT	_
   41 n.FEELING	_
  773 n.FOOD	_
 1494 n.GROUP	_
  639 n.LOCATION	_
   25 n.MOTIVE	_
   56 n.NATURALOBJECT	_
-  48 n.OTHER	_
+  49 n.OTHER	_
 1235 n.PERSON	_
   23 n.PHENOMENON	_
    5 n.PLANT	_
- 352 n.POSSESSION	_
+ 353 n.POSSESSION	_
   26 n.PROCESS	_
- 129 n.QUANTITY	_
+ 131 n.QUANTITY	_
   35 n.RELATION	_
    6 n.SHAPE	_
   52 n.STATE	_
   36 n.SUBSTANCE	_
- 541 n.TIME	_
+ 542 n.TIME	_
   26 p.Accompanier	p.Accompanier
    2 p.Accompanier	p.Co-Agent
   25 p.Agent	p.Agent
@@ -68,7 +68,7 @@
   29 p.Cost	p.Cost
    1 p.Cost	p.Extent
   18 p.Cost	p.Locus
- 135 p.Direction	p.Direction
+ 136 p.Direction	p.Direction
    1 p.Direction	p.Goal
   86 p.Duration	p.Duration
    2 p.Duration	p.Extent
@@ -109,7 +109,7 @@
   12 p.Locus	p.Direction
    1 p.Locus	p.Gestalt
    8 p.Locus	p.Goal
- 572 p.Locus	p.Locus
+ 575 p.Locus	p.Locus
   15 p.Locus	p.Path
   28 p.Locus	p.Source
    2 p.Locus	p.Whole
@@ -158,7 +158,7 @@
    2 p.Purpose	p.Locus
  302 p.Purpose	p.Purpose
    3 p.Quantity	p.Gestalt
-  83 p.Quantity	p.Quantity
+  84 p.Quantity	p.Quantity
   13 p.Quantity	p.Stuff
   96 p.Quantity	p.Whole
    5 p.RateUnit	p.RateUnit
@@ -200,49 +200,49 @@
    4 p.Time	p.Whole
    7 p.Topic	p.Goal
    3 p.Topic	p.Identity
- 206 p.Topic	p.Topic
+ 208 p.Topic	p.Topic
    1 p.Whole	p.Circumstance
   66 p.Whole	p.Gestalt
    7 p.Whole	p.Locus
    3 p.Whole	p.Source
   65 p.Whole	p.Whole
   83 v.body	_
- 287 v.change	_
-1101 v.cognition	_
- 973 v.communication	_
+ 290 v.change	_
+1103 v.cognition	_
+ 976 v.communication	_
   11 v.competition	_
   93 v.consumption	_
   47 v.contact	_
   66 v.creation	_
- 241 v.emotion	_
+ 243 v.emotion	_
  609 v.motion	_
- 145 v.perception	_
+ 146 v.perception	_
  316 v.possession	_
- 943 v.social	_
-2771 v.stative	_
+ 944 v.social	_
+2772 v.stative	_
 ========================
-    9229 n.*
-    7686 v.*
-    5480 p.*
+    9243 n.*
+    7699 v.*
+    5487 p.*
 
 n.* by LexCat
 ========================
-9229 N
+9243 N
 
 v.* by LexCat
 ========================
-6811 V
+6817 V
  121 V.IAV
   12 V.LVC.cause
- 123 V.LVC.full
- 314 V.VID
- 206 V.VPC.full
-  99 V.VPC.semi
+ 124 V.LVC.full
+ 320 V.VID
+ 207 V.VPC.full
+  98 V.VPC.semi
 
 p.* by LexCat
 ========================
  253 INF.P
-3951 P
+3958 P
   59 POSS
  172 PP
 1045 PRON.POSS
@@ -251,7 +251,7 @@ p.* by LexCat + construal type
 ========================
  169 INF.P	p.X ~> p.X
   84 INF.P	p.X ~> p.Y
-2957 P	p.X ~> p.X
+2964 P	p.X ~> p.X
  994 P	p.X ~> p.Y
   24 POSS	p.X ~> p.X
   35 POSS	p.X ~> p.Y
@@ -265,8 +265,8 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  250 INF.P 	p.OTH ~> *
-1089 P 	p.LOC ~> *
-2419 P 	p.OTH ~> *
+1093 P 	p.LOC ~> *
+2422 P 	p.OTH ~> *
  443 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *
   53 POSS 	p.OTH ~> *

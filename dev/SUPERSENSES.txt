@@ -1,5 +1,5 @@
    6 ??	_
-3235 _	_
+3231 _	_
    3 `$	`$
  107 n.ACT	_
    6 n.ANIMAL	_
@@ -19,12 +19,12 @@
  122 n.PERSON	_
    3 n.PHENOMENON	_
    2 n.PLANT	_
-  26 n.POSSESSION	_
+  27 n.POSSESSION	_
   10 n.QUANTITY	_
    5 n.RELATION	_
    5 n.STATE	_
    8 n.SUBSTANCE	_
-  36 n.TIME	_
+  37 n.TIME	_
    2 p.Accompanier	p.Accompanier
    1 p.Agent	p.Agent
   12 p.Agent	p.Gestalt
@@ -46,7 +46,7 @@
    1 p.ComparisonRef	p.Purpose
    1 p.Cost	p.Cost
    2 p.Cost	p.Locus
-  14 p.Direction	p.Direction
+  15 p.Direction	p.Direction
    6 p.Duration	p.Duration
    3 p.EndTime	p.EndTime
    9 p.Experiencer	p.Gestalt
@@ -114,32 +114,32 @@
   10 v.creation	_
   25 v.emotion	_
   46 v.motion	_
-  19 v.perception	_
+  20 v.perception	_
   18 v.possession	_
   90 v.social	_
  292 v.stative	_
 ========================
-    1033 n.*
-     660 v.*
-     457 p.*
+    1035 n.*
+     661 v.*
+     458 p.*
 
 n.* by LexCat
 ========================
-1033 N
+1035 N
 
 v.* by LexCat
 ========================
- 609 V
+ 608 V
    5 V.IAV
    7 V.LVC.full
-  22 V.VID
+  24 V.VID
   12 V.VPC.full
    5 V.VPC.semi
 
 p.* by LexCat
 ========================
   27 INF.P
- 328 P
+ 329 P
    6 POSS
   16 PP
   80 PRON.POSS
@@ -148,7 +148,7 @@ p.* by LexCat + construal type
 ========================
   11 INF.P	p.X ~> p.X
   16 INF.P	p.X ~> p.Y
- 248 P	p.X ~> p.X
+ 249 P	p.X ~> p.X
   80 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    5 POSS	p.X ~> p.Y
@@ -161,7 +161,7 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
   27 INF.P 	p.OTH ~> *
-  99 P 	p.LOC ~> *
+ 100 P 	p.LOC ~> *
  202 P 	p.OTH ~> *
   27 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *

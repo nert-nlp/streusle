@@ -1,7 +1,7 @@
    6 ??	_
-3218 _	_
+3212 _	_
    2 `$	`$
- 122 n.ACT	_
+ 123 n.ACT	_
    4 n.ANIMAL	_
   83 n.ARTIFACT	_
   31 n.ATTRIBUTE	_
@@ -20,7 +20,7 @@
    4 n.PHENOMENON	_
   28 n.POSSESSION	_
    1 n.PROCESS	_
-  12 n.QUANTITY	_
+  13 n.QUANTITY	_
    2 n.RELATION	_
    7 n.STATE	_
    1 n.SUBSTANCE	_
@@ -61,7 +61,7 @@
    1 p.InsteadOf	p.InsteadOf
    1 p.Instrument	p.Instrument
    2 p.Locus	p.Goal
-  71 p.Locus	p.Locus
+  72 p.Locus	p.Locus
    1 p.Locus	p.Path
    2 p.Locus	p.Source
    3 p.Manner	p.ComparisonRef
@@ -109,13 +109,13 @@
   19 p.Time	p.Time
    1 p.Time	p.Whole
    1 p.Topic	p.Goal
-  17 p.Topic	p.Topic
+  18 p.Topic	p.Topic
    1 p.Whole	p.Circumstance
    4 p.Whole	p.Gestalt
    2 p.Whole	p.Locus
    5 p.Whole	p.Whole
    3 v.body	_
-  35 v.change	_
+  36 v.change	_
   99 v.cognition	_
   65 v.communication	_
    1 v.competition	_
@@ -127,30 +127,30 @@
   17 v.perception	_
   13 v.possession	_
  102 v.social	_
- 265 v.stative	_
+ 266 v.stative	_
 ========================
-     982 n.*
-     693 v.*
-     480 p.*
+     984 n.*
+     695 v.*
+     482 p.*
 
 n.* by LexCat
 ========================
- 982 N
+ 984 N
 
 v.* by LexCat
 ========================
- 628 V
+ 629 V
   17 V.IAV
    1 V.LVC.cause
    8 V.LVC.full
-  23 V.VID
+  24 V.VID
   11 V.VPC.full
    5 V.VPC.semi
 
 p.* by LexCat
 ========================
   20 INF.P
- 351 P
+ 353 P
    1 POSS
   15 PP
   93 PRON.POSS
@@ -159,7 +159,7 @@ p.* by LexCat + construal type
 ========================
    9 INF.P	p.X ~> p.X
   11 INF.P	p.X ~> p.Y
- 250 P	p.X ~> p.X
+ 252 P	p.X ~> p.X
  101 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    8 PP	p.X ~> p.X
@@ -171,8 +171,8 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
   20 INF.P 	p.OTH ~> *
- 108 P 	p.LOC ~> *
- 211 P 	p.OTH ~> *
+ 109 P 	p.LOC ~> *
+ 212 P 	p.OTH ~> *
   32 P 	p.TMP ~> *
    1 POSS 	p.OTH ~> *
    5 PP 	p.LOC ~> *

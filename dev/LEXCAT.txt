@@ -1,16 +1,16 @@
-  15 !!@
- 612 ADJ
+   8 !!@
+ 613 ADJ
  348 ADV
  159 AUX
  200 CCONJ
- 376 DET
-  21 DISC
+ 377 DET
+  22 DISC
   29 INF
   27 INF.P
   10 INTJ
-1033 N
+1035 N
   37 NUM
- 334 P
+ 335 P
    6 POSS
   16 PP
  361 PRON
@@ -18,10 +18,10 @@
  651 PUNCT
   20 SCONJ
   15 SYM
- 609 V
+ 608 V
    5 V.IAV
    7 V.LVC.full
-  22 V.VID
+  24 V.VID
   12 V.VPC.full
    5 V.VPC.semi
    4 X

@@ -1,27 +1,27 @@
   36 ??	_
-26678 _	_
+26654 _	_
    7 `$	`$
- 490 n.ACT	_
+ 491 n.ACT	_
   78 n.ANIMAL	_
- 819 n.ARTIFACT	_
+ 820 n.ARTIFACT	_
  157 n.ATTRIBUTE	_
   71 n.BODY	_
- 602 n.COGNITION	_
+ 606 n.COGNITION	_
  337 n.COMMUNICATION	_
- 356 n.EVENT	_
+ 358 n.EVENT	_
   34 n.FEELING	_
  579 n.FOOD	_
 1100 n.GROUP	_
  488 n.LOCATION	_
   19 n.MOTIVE	_
   41 n.NATURALOBJECT	_
-  41 n.OTHER	_
+  42 n.OTHER	_
  987 n.PERSON	_
   16 n.PHENOMENON	_
    3 n.PLANT	_
  298 n.POSSESSION	_
   25 n.PROCESS	_
- 107 n.QUANTITY	_
+ 108 n.QUANTITY	_
   28 n.RELATION	_
    6 n.SHAPE	_
   40 n.STATE	_
@@ -103,7 +103,7 @@
    4 p.Interval	p.Interval
   11 p.Locus	p.Direction
    4 p.Locus	p.Goal
- 445 p.Locus	p.Locus
+ 447 p.Locus	p.Locus
   12 p.Locus	p.Path
   22 p.Locus	p.Source
    2 p.Locus	p.Whole
@@ -152,7 +152,7 @@
    2 p.Purpose	p.Locus
  257 p.Purpose	p.Purpose
    2 p.Quantity	p.Gestalt
-  70 p.Quantity	p.Quantity
+  71 p.Quantity	p.Quantity
   11 p.Quantity	p.Stuff
   81 p.Quantity	p.Whole
    5 p.RateUnit	p.RateUnit
@@ -191,48 +191,48 @@
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
    3 p.Topic	p.Identity
- 179 p.Topic	p.Topic
+ 180 p.Topic	p.Topic
   56 p.Whole	p.Gestalt
    5 p.Whole	p.Locus
    3 p.Whole	p.Source
   56 p.Whole	p.Whole
   77 v.body	_
- 235 v.change	_
- 934 v.cognition	_
- 847 v.communication	_
+ 237 v.change	_
+ 936 v.cognition	_
+ 850 v.communication	_
    7 v.competition	_
   74 v.consumption	_
   40 v.contact	_
   51 v.creation	_
- 190 v.emotion	_
+ 192 v.emotion	_
  519 v.motion	_
  109 v.perception	_
  285 v.possession	_
- 751 v.social	_
+ 752 v.social	_
 2214 v.stative	_
 ========================
-    7214 n.*
-    6333 v.*
-    4543 p.*
+    7224 n.*
+    6343 v.*
+    4547 p.*
 
 n.* by LexCat
 ========================
-7214 N
+7224 N
 
 v.* by LexCat
 ========================
-5574 V
+5580 V
   99 V.IAV
   11 V.LVC.cause
- 108 V.LVC.full
- 269 V.VID
- 183 V.VPC.full
-  89 V.VPC.semi
+ 109 V.LVC.full
+ 272 V.VID
+ 184 V.VPC.full
+  88 V.VPC.semi
 
 p.* by LexCat
 ========================
  206 INF.P
-3272 P
+3276 P
   52 POSS
  141 PP
  872 PRON.POSS
@@ -241,7 +241,7 @@ p.* by LexCat + construal type
 ========================
  149 INF.P	p.X ~> p.X
   57 INF.P	p.X ~> p.Y
-2459 P	p.X ~> p.X
+2463 P	p.X ~> p.X
  813 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   30 POSS	p.X ~> p.Y
@@ -255,8 +255,8 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  203 INF.P 	p.OTH ~> *
- 882 P 	p.LOC ~> *
-2006 P 	p.OTH ~> *
+ 884 P 	p.LOC ~> *
+2008 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   47 POSS 	p.OTH ~> *
    5 POSS 	p.TMP ~> *

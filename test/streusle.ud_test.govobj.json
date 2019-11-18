@@ -22681,7 +22681,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-P-p.Topic"
    },
    {
     "#": 15,
@@ -22916,15 +22916,22 @@
   "smwes": {
    "1": {
     "lexlemma": "when it come to",
-    "lexcat": "!!@",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "P",
+    "ss": "p.Topic",
+    "ss2": "p.Topic",
     "toknums": [
      14,
      15,
      16,
      17
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 13,
+     "govlemma": "same",
+     "obj": 18,
+     "objlemma": "quality",
+     "config": "subordinating"
+    }
    }
   },
   "wmwes": {}
@@ -33072,7 +33079,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.ACT"
    },
    {
     "#": 6,
@@ -33237,8 +33244,8 @@
   "smwes": {
    "1": {
     "lexlemma": "check - out",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.ACT",
     "ss2": null,
     "toknums": [
      5,
@@ -51328,7 +51335,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-DISC"
    },
    {
     "#": 2,
@@ -51397,7 +51404,7 @@
   "smwes": {
    "1": {
     "lexlemma": "keep it up",
-    "lexcat": "!!@",
+    "lexcat": "DISC",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -58615,7 +58622,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-ADJ"
    },
    {
     "#": 5,
@@ -58711,7 +58718,7 @@
   "smwes": {
    "1": {
     "lexlemma": "to die for",
-    "lexcat": "!!@",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -67483,7 +67490,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-V.VID-v.change"
    },
    {
     "#": 2,
@@ -67545,8 +67552,8 @@
   "smwes": {
    "1": {
     "lexlemma": "get the job done",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "V.VID",
+    "ss": "v.change",
     "ss2": null,
     "toknums": [
      1,
@@ -80162,7 +80169,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-ADV"
    },
    {
     "#": 3,
@@ -80453,7 +80460,7 @@
   "smwes": {
    "1": {
     "lexlemma": "all the way",
-    "lexcat": "!!@",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -88568,7 +88575,7 @@
   "sent_id": "reviews-241108-0001",
   "text": "STAY AWAY",
   "streusle_sent_id": "ewtb.r.241108.1",
-  "mwe": "STAY_AWAY",
+  "mwe": "STAY~AWAY",
   "toks": [
    {
     "#": 1,
@@ -88581,12 +88588,12 @@
     "deprel": "root",
     "edeps": "0:root",
     "misc": null,
-    "smwe": [
+    "smwe": null,
+    "wmwe": [
      1,
      1
     ],
-    "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-V-v.stative"
    },
    {
     "#": 2,
@@ -88599,29 +88606,53 @@
     "deprel": "advmod",
     "edeps": "1:advmod",
     "misc": null,
-    "smwe": [
+    "smwe": null,
+    "wmwe": [
      1,
      2
     ],
-    "wmwe": null,
-    "lextag": "I_"
+    "lextag": "I~-P-p.Locus"
    }
   ],
   "etoks": [],
-  "swes": {},
-  "smwes": {
+  "swes": {
+   "1": {
+    "lexlemma": "stay",
+    "lexcat": "V",
+    "ss": "v.stative",
+    "ss2": null,
+    "toknums": [
+     1
+    ]
+   },
+   "2": {
+    "lexlemma": "away",
+    "lexcat": "P",
+    "ss": "p.Locus",
+    "ss2": "p.Locus",
+    "toknums": [
+     2
+    ],
+    "heuristic_relation": {
+     "gov": 1,
+     "govlemma": "stay",
+     "obj": null,
+     "objlemma": null,
+     "config": "default"
+    }
+   }
+  },
+  "smwes": {},
+  "wmwes": {
    "1": {
     "lexlemma": "stay away",
-    "lexcat": "!!@",
-    "ss": null,
-    "ss2": null,
     "toknums": [
      1,
      2
-    ]
+    ],
+    "lexcat": null
    }
-  },
-  "wmwes": {}
+  }
  },
  {
   "sent_id": "reviews-241108-0002",
@@ -104038,7 +104069,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-DISC"
    },
    {
     "#": 2,
@@ -104107,7 +104138,7 @@
   "smwes": {
    "1": {
     "lexlemma": "way to go",
-    "lexcat": "!!@",
+    "lexcat": "DISC",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -111096,7 +111127,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-ADV"
    },
    {
     "#": 9,
@@ -111959,7 +111990,7 @@
    },
    "2": {
     "lexlemma": "all the time",
-    "lexcat": "!!@",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -127446,7 +127477,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.QUANTITY"
    },
    {
     "#": 7,
@@ -127640,8 +127671,8 @@
   "smwes": {
    "1": {
     "lexlemma": "the better part of",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.QUANTITY",
     "ss2": null,
     "toknums": [
      6,
@@ -138088,7 +138119,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-ADJ"
    },
    {
     "#": 2,
@@ -138236,7 +138267,7 @@
   "smwes": {
    "1": {
     "lexlemma": "hit or miss",
-    "lexcat": "!!@",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [

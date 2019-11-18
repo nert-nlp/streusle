@@ -2184,7 +2184,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-ADJ"
    },
    {
     "#": 5,
@@ -2559,7 +2559,7 @@
    },
    "2": {
     "lexlemma": "hit and miss",
-    "lexcat": "!!@",
+    "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -4888,7 +4888,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-DISC"
    },
    {
     "#": 2,
@@ -4914,7 +4914,7 @@
   "smwes": {
    "1": {
     "lexlemma": "buyer beware",
-    "lexcat": "!!@",
+    "lexcat": "DISC",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -9826,7 +9826,7 @@
   "sent_id": "reviews-030875-0003",
   "text": "Their location, the northwest corner of S. 10th & Federal Sts., is now home to Slice Pizza.",
   "streusle_sent_id": "ewtb.r.030875.3",
-  "mwe": "Their location , the northwest corner of S._10th & Federal_Sts. , is now home_to Slice_Pizza .",
+  "mwe": "Their location , the northwest corner of S._10th & Federal_Sts. , is_ now _home_to Slice_Pizza .",
   "toks": [
    {
     "#": 1,
@@ -10046,9 +10046,12 @@
     "deprel": "cop",
     "edeps": "16:cop",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     3,
+     1
+    ],
     "wmwe": null,
-    "lextag": "O-V-v.stative"
+    "lextag": "B-V.VID-v.stative"
    },
    {
     "#": 15,
@@ -10063,7 +10066,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "o-ADV"
    },
    {
     "#": 16,
@@ -10078,10 +10081,10 @@
     "misc": null,
     "smwe": [
      3,
-     1
+     2
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "I_"
    },
    {
     "#": 17,
@@ -10096,7 +10099,7 @@
     "misc": null,
     "smwe": [
      3,
-     2
+     3
     ],
     "wmwe": null,
     "lextag": "I_"
@@ -10250,15 +10253,6 @@
      13
     ]
    },
-   "14": {
-    "lexlemma": "be",
-    "lexcat": "V",
-    "ss": "v.stative",
-    "ss2": null,
-    "toknums": [
-     14
-    ]
-   },
    "15": {
     "lexlemma": "now",
     "lexcat": "ADV",
@@ -10300,11 +10294,12 @@
     ]
    },
    "3": {
-    "lexlemma": "home to",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexlemma": "be home to",
+    "lexcat": "V.VID",
+    "ss": "v.stative",
     "ss2": null,
     "toknums": [
+     14,
      16,
      17
     ]
@@ -38551,15 +38546,15 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-V.VID-v.perception"
    },
    {
     "#": 13,
     "word": "know",
-    "lemma": "know",
+    "lemma": "no",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 14,
     "deprel": "advmod",
     "edeps": "14:advmod",
@@ -38725,9 +38720,9 @@
   },
   "smwes": {
    "2": {
-    "lexlemma": "look know further",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexlemma": "look no further",
+    "lexcat": "V.VID",
+    "ss": "v.perception",
     "ss2": null,
     "toknums": [
      12,
@@ -64387,7 +64382,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.TIME"
    },
    {
     "#": 14,
@@ -64544,8 +64539,8 @@
    },
    "2": {
     "lexlemma": "last minute",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.TIME",
     "ss2": null,
     "toknums": [
      13,
@@ -81426,7 +81421,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-DET"
    },
    {
     "#": 4,
@@ -81591,7 +81586,7 @@
   "smwes": {
    "1": {
     "lexlemma": "a touch",
-    "lexcat": "!!@",
+    "lexcat": "DET",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -99753,7 +99748,7 @@
   "sent_id": "reviews-280170-0001",
   "text": "Can't say enough",
   "streusle_sent_id": "ewtb.r.280170.1",
-  "mwe": "Ca n't say enough",
+  "mwe": "Ca~n't~say~enough",
   "toks": [
    {
     "#": 1,
@@ -99767,8 +99762,11 @@
     "edeps": "3:aux",
     "misc": "SpaceAfter=No",
     "smwe": null,
-    "wmwe": null,
-    "lextag": "O-AUX"
+    "wmwe": [
+     1,
+     1
+    ],
+    "lextag": "B-AUX"
    },
    {
     "#": 2,
@@ -99782,8 +99780,11 @@
     "edeps": "3:advmod",
     "misc": null,
     "smwe": null,
-    "wmwe": null,
-    "lextag": "O-ADV"
+    "wmwe": [
+     1,
+     2
+    ],
+    "lextag": "I~-ADV"
    },
    {
     "#": 3,
@@ -99797,8 +99798,11 @@
     "edeps": "0:root",
     "misc": null,
     "smwe": null,
-    "wmwe": null,
-    "lextag": "O-V-v.communication"
+    "wmwe": [
+     1,
+     3
+    ],
+    "lextag": "I~-V-v.communication"
    },
    {
     "#": 4,
@@ -99812,8 +99816,11 @@
     "edeps": "3:obj",
     "misc": null,
     "smwe": null,
-    "wmwe": null,
-    "lextag": "O-ADJ"
+    "wmwe": [
+     1,
+     4
+    ],
+    "lextag": "I~-ADJ"
    }
   ],
   "etoks": [],
@@ -99856,7 +99863,18 @@
    }
   },
   "smwes": {},
-  "wmwes": {}
+  "wmwes": {
+   "1": {
+    "lexlemma": "can not say enough",
+    "toknums": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "lexcat": null
+   }
+  }
  },
  {
   "sent_id": "reviews-280170-0002",
@@ -109333,7 +109351,7 @@
   "sent_id": "reviews-307250-0003",
   "text": "I want my money back!",
   "streusle_sent_id": "ewtb.r.307250.3",
-  "mwe": "I want my money_back !",
+  "mwe": "I want my money~back !",
   "toks": [
    {
     "#": 1,
@@ -109391,12 +109409,12 @@
     "deprel": "obj",
     "edeps": "2:obj",
     "misc": null,
-    "smwe": [
+    "smwe": null,
+    "wmwe": [
      1,
      1
     ],
-    "wmwe": null,
-    "lextag": "B-!!@"
+    "lextag": "B-N-n.POSSESSION"
    },
    {
     "#": 5,
@@ -109409,12 +109427,12 @@
     "deprel": "advmod",
     "edeps": "2:advmod",
     "misc": "SpaceAfter=No",
-    "smwe": [
+    "smwe": null,
+    "wmwe": [
      1,
      2
     ],
-    "wmwe": null,
-    "lextag": "I_"
+    "lextag": "I~-P-p.Direction"
    },
    {
     "#": 6,
@@ -109468,6 +109486,31 @@
      "config": "possessive"
     }
    },
+   "4": {
+    "lexlemma": "money",
+    "lexcat": "N",
+    "ss": "n.POSSESSION",
+    "ss2": null,
+    "toknums": [
+     4
+    ]
+   },
+   "5": {
+    "lexlemma": "back",
+    "lexcat": "P",
+    "ss": "p.Direction",
+    "ss2": "p.Direction",
+    "toknums": [
+     5
+    ],
+    "heuristic_relation": {
+     "gov": 2,
+     "govlemma": "want",
+     "obj": null,
+     "objlemma": null,
+     "config": "default"
+    }
+   },
    "6": {
     "lexlemma": "!",
     "lexcat": "PUNCT",
@@ -109478,19 +109521,17 @@
     ]
    }
   },
-  "smwes": {
+  "smwes": {},
+  "wmwes": {
    "1": {
     "lexlemma": "money back",
-    "lexcat": "!!@",
-    "ss": null,
-    "ss2": null,
     "toknums": [
      4,
      5
-    ]
+    ],
+    "lexcat": null
    }
-  },
-  "wmwes": {}
+  }
  },
  {
   "sent_id": "reviews-308297-0001",

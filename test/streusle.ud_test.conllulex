@@ -1319,7 +1319,7 @@
 11	all	all	ADV	RB	_	13	advmod	13:advmod	_	_	ADV	all	_	_	_	_	_	O-ADV
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	_	_	DET	the	_	_	_	_	_	O-DET
 13	same	same	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_	_	ADJ	same	_	_	_	_	_	O-ADJ
-14	when	when	ADV	WRB	PronType=Int	16	mark	16:mark	_	1:1	!!@	when it come to	_	_	_	_	_	B-!!@
+14	when	when	ADV	WRB	PronType=Int	16	mark	16:mark	_	1:1	P	when it come to	p.Topic	p.Topic	_	_	_	B-P-p.Topic
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	_	1:2	_	_	_	_	_	_	_	I_
 16	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	13:advcl:when	_	1:3	_	_	_	_	_	_	_	I_
 17	to	to	ADP	IN	_	18	case	18:case	_	1:4	_	_	_	_	_	_	_	I_
@@ -1930,7 +1930,7 @@
 2	store	store	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	store	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 3	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 4	friendly	friendly	ADV	RB	_	8	advmod	8:advmod	_	_	ADV	friendly	_	_	_	_	_	O-ADV
-5	check	check	VERB	VB	VerbForm=Inf	8	compound	8:compound	SpaceAfter=No	1:1	!!@	check - out	_	_	_	_	_	B-!!@
+5	check	check	VERB	VB	VerbForm=Inf	8	compound	8:compound	SpaceAfter=No	1:1	N	check - out	n.ACT	_	_	_	_	B-N-n.ACT
 6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 7	out	out	ADP	RP	_	5	compound	5:compound	_	1:3	_	_	_	_	_	_	_	I_
 8	staff	staff	NOUN	NN	Number=Sing	2	list	2:list	_	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
@@ -2964,7 +2964,7 @@
 # text = Keep it up.
 # streusle_sent_id = ewtb.r.139152.3
 # mwe = Keep_it_up .
-1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	!!@	keep it up	_	_	_	_	_	B-!!@
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	DISC	keep it up	_	_	_	_	_	B-DISC
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
 3	up	up	ADP	RP	_	1	compound:prt	1:compound:prt	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 4	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -3380,7 +3380,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	pancakes	pancake	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	_	_	N	pancake	n.FOOD	_	_	_	_	O-N-n.FOOD
 3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-4	to	to	PART	TO	_	5	mark	5:mark	_	1:1	!!@	to die for	_	_	_	_	_	B-!!@
+4	to	to	PART	TO	_	5	mark	5:mark	_	1:1	ADJ	to die for	_	_	_	_	_	B-ADJ
 5	die	die	VERB	VB	VerbForm=Inf	3	ccomp	3:ccomp	_	1:2	_	_	_	_	_	_	_	I_
 6	for	for	ADP	IN	_	5	obl	5:obl	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 7	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -3932,7 +3932,7 @@
 # text = Gets the Job Done
 # streusle_sent_id = ewtb.r.193257.1
 # mwe = Gets_the_Job_Done
-1	Gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	!!@	get the job done	_	_	_	_	_	B-!!@
+1	Gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	1:1	V.VID	get the job done	v.change	_	_	_	_	B-V.VID-v.change
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_	1:2	_	_	_	_	_	_	_	I_
 3	Job	job	NOUN	NN	Number=Sing	1	obj	1:obj|4:nsubj:xsubj	_	1:3	_	_	_	_	_	_	_	I_
 4	Done	done	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_	1:4	_	_	_	_	_	_	_	I_
@@ -4676,7 +4676,7 @@
 # streusle_sent_id = ewtb.r.224117.1
 # mwe = Drove all_the_way over from the highway ... closed at 7 .
 1	Drove	drive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	drive	v.motion	_	_	_	_	O-V-v.motion
-2	all	all	DET	PDT	_	4	det:predet	4:det:predet	_	1:1	!!@	all the way	_	_	_	_	_	B-!!@
+2	all	all	DET	PDT	_	4	det:predet	4:det:predet	_	1:1	ADV	all the way	_	_	_	_	_	B-ADV
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	1:2	_	_	_	_	_	_	_	I_
 4	way	way	NOUN	NN	Number=Sing	1	obl:npmod	1:obl:npmod	_	1:3	_	_	_	_	_	_	_	I_
 5	over	over	ADV	RB	_	4	advmod	4:advmod	_	_	P	over	p.Direction	p.Direction	_	_	_	O-P-p.Direction
@@ -5155,9 +5155,9 @@
 # sent_id = reviews-241108-0001
 # text = STAY AWAY
 # streusle_sent_id = ewtb.r.241108.1
-# mwe = STAY_AWAY
-1	STAY	stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:1	!!@	stay away	_	_	_	_	_	B-!!@
-2	AWAY	away	ADV	RB	_	1	advmod	1:advmod	_	1:2	_	_	_	_	_	_	_	I_
+# mwe = STAY~AWAY
+1	STAY	stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	stay	v.stative	_	1:1	_	stay away	B-V-v.stative
+2	AWAY	away	ADV	RB	_	1	advmod	1:advmod	_	_	P	away	p.Locus	p.Locus	1:2	_	_	I~-P-p.Locus
 
 # sent_id = reviews-241108-0002
 # text = Horrible service.
@@ -6090,7 +6090,7 @@
 # text = Way to go!
 # streusle_sent_id = ewtb.r.287360.7
 # mwe = Way_to_go !
-1	Way	way	NOUN	NN	Number=Sing	0	root	0:root	_	1:1	!!@	way to go	_	_	_	_	_	B-!!@
+1	Way	way	NOUN	NN	Number=Sing	0	root	0:root	_	1:1	DISC	way to go	_	_	_	_	_	B-DISC
 2	to	to	PART	TO	_	3	mark	3:mark	_	1:2	_	_	_	_	_	_	_	I_
 3	go	go	VERB	VB	VerbForm=Inf	1	acl	1:acl:to	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 4	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
@@ -6511,7 +6511,7 @@
 5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 6	cars	car	NOUN	NNS	Number=Plur	4	obj	4:obj	_	_	N	car	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 7	there	there	ADV	RB	PronType=Dem	4	advmod	4:advmod	_	_	ADV	there	_	_	_	_	_	O-ADV
-8	all	all	DET	PDT	_	10	det:predet	10:det:predet	_	2:1	!!@	all the time	_	_	_	_	_	B-!!@
+8	all	all	DET	PDT	_	10	det:predet	10:det:predet	_	2:1	ADV	all the time	_	_	_	_	_	B-ADV
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
 10	time	time	NOUN	NN	Number=Sing	4	obl:tmod	4:obl:tmod	SpaceAfter=No	2:3	_	_	_	_	_	_	_	I_
 11	,	,	PUNCT	,	_	14	punct	14:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
@@ -7487,7 +7487,7 @@
 3	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	look	v.perception	_	_	_	_	O-V-v.perception
 4	great	great	ADJ	JJ	Degree=Pos	3	xcomp	3:xcomp	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 5	for	for	ADP	IN	_	8	case	8:case	_	_	P	for	p.Duration	p.Duration	_	_	_	O-P-p.Duration
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	1:1	!!@	the better part of	_	_	_	_	_	B-!!@
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	1:1	N	the better part of	n.QUANTITY	_	_	_	_	B-N-n.QUANTITY
 7	better	better	ADJ	JJR	Degree=Cmp	8	amod	8:amod	_	1:2	_	_	_	_	_	_	_	I_
 8	part	part	NOUN	NN	Number=Sing	3	obl	3:obl:for	_	1:3	_	_	_	_	_	_	_	I_
 9	of	of	ADP	IN	_	11	case	11:case	_	1:4	_	_	_	_	_	_	_	I_
@@ -8120,7 +8120,7 @@
 # text = Hit or miss on the service.
 # streusle_sent_id = ewtb.r.392826.2
 # mwe = Hit_or_miss on the service .
-1	Hit	hit	NOUN	NN	Number=Sing	0	root	0:root	_	1:1	!!@	hit or miss	_	_	_	_	_	B-!!@
+1	Hit	hit	NOUN	NN	Number=Sing	0	root	0:root	_	1:1	ADJ	hit or miss	_	_	_	_	_	B-ADJ
 2	or	or	CCONJ	CC	_	3	cc	3:cc	_	1:2	_	_	_	_	_	_	_	I_
 3	miss	miss	NOUN	NN	Number=Sing	1	conj	1:conj:or	_	1:3	_	_	_	_	_	_	_	I_
 4	on	on	ADP	IN	_	6	case	6:case	_	_	P	on	p.Topic	p.Topic	_	_	_	O-P-p.Topic
