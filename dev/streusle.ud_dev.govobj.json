@@ -121394,7 +121394,7 @@
   "sent_id": "reviews-351840-0001",
   "text": "Caldwell insurance has been doing our insurance for a couple years now and they have been extremely thorough.",
   "streusle_sent_id": "ewtb.r.351840.1",
-  "mwe": "Caldwell_insurance has been doing~ our ~insurance for a couple years now and they have been extremely thorough .",
+  "mwe": "Caldwell_insurance has been doing~ our ~insurance for a_couple years now and they have been extremely thorough .",
   "toks": [
    {
     "#": 1,
@@ -121539,9 +121539,12 @@
     "deprel": "det",
     "edeps": "10:det",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     3,
+     1
+    ],
     "wmwe": null,
-    "lextag": "O-DET"
+    "lextag": "B-DET"
    },
    {
     "#": 10,
@@ -121554,9 +121557,12 @@
     "deprel": "nummod",
     "edeps": "11:nummod",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     3,
+     2
+    ],
     "wmwe": null,
-    "lextag": "O-N-n.TIME"
+    "lextag": "I_"
    },
    {
     "#": 11,
@@ -121764,24 +121770,6 @@
      "config": "default"
     }
    },
-   "9": {
-    "lexlemma": "a",
-    "lexcat": "DET",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     9
-    ]
-   },
-   "10": {
-    "lexlemma": "couple",
-    "lexcat": "N",
-    "ss": "n.TIME",
-    "ss2": null,
-    "toknums": [
-     10
-    ]
-   },
    "11": {
     "lexlemma": "year",
     "lexcat": "N",
@@ -121873,6 +121861,16 @@
     "toknums": [
      1,
      2
+    ]
+   },
+   "3": {
+    "lexlemma": "a couple",
+    "lexcat": "DET",
+    "ss": null,
+    "ss2": null,
+    "toknums": [
+     9,
+     10
     ]
    }
   },
@@ -126204,7 +126202,7 @@
   "sent_id": "reviews-358063-0003",
   "text": "Staff is very friendly they treat you like a human being and not just another patient.",
   "streusle_sent_id": "ewtb.r.358063.3",
-  "mwe": "Staff is very friendly they treat you like a human being and not just another patient .",
+  "mwe": "Staff is very friendly they treat you like a human_being and not just another patient .",
   "toks": [
    {
     "#": 1,
@@ -126352,9 +126350,12 @@
     "deprel": "amod",
     "edeps": "11:amod",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     1,
+     1
+    ],
     "wmwe": null,
-    "lextag": "O-ADJ"
+    "lextag": "B-N-n.PERSON"
    },
    {
     "#": 11,
@@ -126367,9 +126368,12 @@
     "deprel": "obl",
     "edeps": "6:obl:like",
     "misc": null,
-    "smwe": null,
+    "smwe": [
+     1,
+     2
+    ],
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "I_"
    },
    {
     "#": 12,
@@ -126552,24 +126556,6 @@
      9
     ]
    },
-   "10": {
-    "lexlemma": "human",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     10
-    ]
-   },
-   "11": {
-    "lexlemma": "being",
-    "lexcat": "!!@",
-    "ss": null,
-    "ss2": null,
-    "toknums": [
-     11
-    ]
-   },
    "12": {
     "lexlemma": "and",
     "lexcat": "CCONJ",
@@ -126625,7 +126611,18 @@
     ]
    }
   },
-  "smwes": {},
+  "smwes": {
+   "1": {
+    "lexlemma": "human being",
+    "lexcat": "N",
+    "ss": "n.PERSON",
+    "ss2": null,
+    "toknums": [
+     10,
+     11
+    ]
+   }
+  },
   "wmwes": {}
  },
  {

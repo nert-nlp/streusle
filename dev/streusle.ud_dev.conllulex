@@ -7212,7 +7212,7 @@
 # sent_id = reviews-351840-0001
 # text = Caldwell insurance has been doing our insurance for a couple years now and they have been extremely thorough.
 # streusle_sent_id = ewtb.r.351840.1
-# mwe = Caldwell_insurance has been doing~ our ~insurance for a couple years now and they have been extremely thorough .
+# mwe = Caldwell_insurance has been doing~ our ~insurance for a_couple years now and they have been extremely thorough .
 1	Caldwell	Caldwell	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	_	1:1	N	Caldwell insurance	n.GROUP	_	_	_	_	B-N-n.GROUP
 2	insurance	insurance	PROPN	NNP	Number=Sing	1	flat	1:flat	_	1:2	_	_	_	_	_	_	_	I_
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
@@ -7221,8 +7221,8 @@
 6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	we	p.Beneficiary	p.Possessor	_	_	_	o-PRON.POSS-p.Beneficiary|p.Possessor
 7	insurance	insurance	NOUN	NN	Number=Sing	5	obj	5:obj	_	_	N	insurance	n.ACT	_	2:2	_	_	I~-N-n.ACT
 8	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Duration	p.Duration	_	_	_	O-P-p.Duration
-9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	_	_	DET	a	_	_	_	_	_	O-DET
-10	couple	couple	NOUN	NN	Number=Sing	11	nummod	11:nummod	_	_	N	couple	n.TIME	_	_	_	_	O-N-n.TIME
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	_	3:1	DET	a couple	_	_	_	_	_	B-DET
+10	couple	couple	NOUN	NN	Number=Sing	11	nummod	11:nummod	_	3:2	_	_	_	_	_	_	_	I_
 11	years	year	NOUN	NNS	Number=Plur	5	obl	5:obl:for	_	_	N	year	n.TIME	_	_	_	_	O-N-n.TIME
 12	now	now	ADV	RB	_	11	advmod	11:advmod	_	_	ADV	now	_	_	_	_	_	O-ADV
 13	and	and	CCONJ	CC	_	18	cc	18:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -7495,7 +7495,7 @@
 # sent_id = reviews-358063-0003
 # text = Staff is very friendly they treat you like a human being and not just another patient.
 # streusle_sent_id = ewtb.r.358063.3
-# mwe = Staff is very friendly they treat you like a human being and not just another patient .
+# mwe = Staff is very friendly they treat you like a human_being and not just another patient .
 1	Staff	staff	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 3	very	very	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
@@ -7505,8 +7505,8 @@
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	obj	6:obj	_	_	PRON	you	_	_	_	_	_	O-PRON
 8	like	like	ADP	IN	_	11	case	11:case	_	_	P	like	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_	_	DET	a	_	_	_	_	_	O-DET
-10	human	human	ADJ	JJ	Degree=Pos	11	amod	11:amod	_	_	ADJ	human	_	_	_	_	_	O-ADJ
-11	being	being	NOUN	NN	Number=Sing	6	obl	6:obl:like	_	_	!!@	being	_	_	_	_	_	O-!!@
+10	human	human	ADJ	JJ	Degree=Pos	11	amod	11:amod	_	1:1	N	human being	n.PERSON	_	_	_	_	B-N-n.PERSON
+11	being	being	NOUN	NN	Number=Sing	6	obl	6:obl:like	_	1:2	_	_	_	_	_	_	_	I_
 12	and	and	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 13	not	not	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
 14	just	just	ADV	RB	_	16	advmod	16:advmod	_	_	ADV	just	_	_	_	_	_	O-ADV

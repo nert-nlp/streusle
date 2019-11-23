@@ -472,7 +472,7 @@ reviews-341435-0001	Nice|ADJ~and|CCONJ~quiet|ADJ place|N-n.GROUP with|P-p.PartPo
 reviews-343035-0001	Excellent|ADJ piano|N-n.ARTIFACT lessons|N-n.ACT
 reviews-343035-0002	I|PRON 'm|V-v.stative very|ADV happy|ADJ with|P-p.Stimulus:p.Topic the|DET piano|N-n.ARTIFACT lessons|N-n.ACT Mrs._Lynda_Mcmanus|N-n.PERSON taught|V-v.social me|PRON .|PUNCT
 reviews-343035-0003	Now|ADV I|PRON 'm|V-v.stative able|ADJ to|INF play|V-v.creation the|DET piano|N-n.ARTIFACT pretty|ADV well|ADV .|PUNCT
-reviews-351840-0001	Caldwell_insurance|N-n.GROUP has|AUX been|AUX doing|V-v.stative~ our|PRON.POSS-p.Beneficiary:p.Possessor ~insurance|N-n.ACT for|P-p.Duration a|DET couple|N-n.TIME years|N-n.TIME now|ADV and|CCONJ they|PRON have|AUX been|V-v.stative extremely|ADV thorough|ADJ .|PUNCT
+reviews-351840-0001	Caldwell_insurance|N-n.GROUP has|AUX been|AUX doing|V-v.stative~ our|PRON.POSS-p.Beneficiary:p.Possessor ~insurance|N-n.ACT for|P-p.Duration a_couple|DET years|N-n.TIME now|ADV and|CCONJ they|PRON have|AUX been|V-v.stative extremely|ADV thorough|ADJ .|PUNCT
 reviews-351840-0002	We|PRON 've|AUX only|ADV had|V-v.stative one|NUM urgent|ADJ issue|N-n.COGNITION to|INF deal_with|V.IAV-v.social and|CCONJ they|PRON were|V-v.stative very|ADV prompt|ADJ in|P-p.Circumstance their|PRON.POSS-p.Originator:p.Gestalt response|N-n.COMMUNICATION .|PUNCT
 reviews-351840-0003	Highly|ADV~recommend|V-v.communication !|PUNCT
 reviews-352068-0001	Easy|ADJ registration|N-n.ACT ,|PUNCT helpful|ADJ staff|N-n.GROUP and|CCONJ fun|ADJ teachers|N-n.PERSON !|PUNCT
@@ -491,7 +491,7 @@ reviews-356705-0002	Very|ADV Impressed|ADJ .|PUNCT
 reviews-356705-0003	Great|ADJ electrician|N-n.PERSON .|PUNCT
 reviews-358063-0001	Friendly|ADJ Efficient|ADJ and|CCONJ overall|ADV great|ADJ place|N-n.GROUP for|P-p.Beneficiary people|N-n.PERSON in|P-p.Manner:p.Locus chronic|ADJ intractable|ADJ pain|N-n.STATE
 reviews-358063-0002	Great|ADJ place|N-n.GROUP for|P-p.Beneficiary people|N-n.PERSON in|P-p.Manner:p.Locus chronic|ADJ pain|N-n.STATE .|PUNCT
-reviews-358063-0003	Staff|N-n.GROUP is|V-v.stative very|ADV friendly|ADJ they|PRON treat|V-v.social you|PRON like|P-p.Manner:p.ComparisonRef a|DET human|ADJ being|!!@ and|CCONJ not|ADV just|ADV another|DET patient|N-n.PERSON .|PUNCT
+reviews-358063-0003	Staff|N-n.GROUP is|V-v.stative very|ADV friendly|ADJ they|PRON treat|V-v.social you|PRON like|P-p.Manner:p.ComparisonRef a|DET human_being|N-n.PERSON and|CCONJ not|ADV just|ADV another|DET patient|N-n.PERSON .|PUNCT
 reviews-358063-0004	Very|ADV efficient|ADJ at|P-p.Topic treating|V-v.social chronic|ADJ pain|N-n.STATE !|PUNCT
 reviews-359014-0001	Good|ADJ honest_wrok|N-n.ACT
 reviews-359014-0002	Harlan|N-n.PERSON provides|V-v.social great|ADJ service|N-n.ACT .|PUNCT

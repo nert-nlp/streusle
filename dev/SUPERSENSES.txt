@@ -16,7 +16,7 @@
    3 n.MOTIVE	_
    7 n.NATURALOBJECT	_
    3 n.OTHER	_
- 122 n.PERSON	_
+ 123 n.PERSON	_
    3 n.PHENOMENON	_
    2 n.PLANT	_
   27 n.POSSESSION	_
@@ -24,7 +24,7 @@
    5 n.RELATION	_
    5 n.STATE	_
    8 n.SUBSTANCE	_
-  37 n.TIME	_
+  36 n.TIME	_
    2 p.Accompanier	p.Accompanier
    1 p.Agent	p.Agent
   12 p.Agent	p.Gestalt

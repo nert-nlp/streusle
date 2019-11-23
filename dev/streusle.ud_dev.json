@@ -15477,7 +15477,7 @@
  "sent_id": "reviews-351840-0001",
  "text": "Caldwell insurance has been doing our insurance for a couple years now and they have been extremely thorough.",
  "streusle_sent_id": "ewtb.r.351840.1",
- "mwe": "Caldwell_insurance has been doing~ our ~insurance for a couple years now and they have been extremely thorough .",
+ "mwe": "Caldwell_insurance has been doing~ our ~insurance for a_couple years now and they have been extremely thorough .",
     "toks": [
       {"#": 1, "word": "Caldwell", "lemma": "Caldwell", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 5, "deprel": "nsubj", "edeps": "5:nsubj", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
       {"#": 2, "word": "insurance", "lemma": "insurance", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 1, "deprel": "flat", "edeps": "1:flat", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
@@ -15487,8 +15487,8 @@
       {"#": 6, "word": "our", "lemma": "we", "upos": "PRON", "xpos": "PRP$", "feats": "Number=Plur|Person=1|Poss=Yes|PronType=Prs", "head": 7, "deprel": "nmod:poss", "edeps": "7:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "o-PRON.POSS-p.Beneficiary|p.Possessor"},
       {"#": 7, "word": "insurance", "lemma": "insurance", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": null, "wmwe": [2, 2], "lextag": "I~-N-n.ACT"},
       {"#": 8, "word": "for", "lemma": "for", "upos": "ADP", "xpos": "IN", "feats": null, "head": 11, "deprel": "case", "edeps": "11:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Duration"},
-      {"#": 9, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 10, "deprel": "det", "edeps": "10:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
-      {"#": 10, "word": "couple", "lemma": "couple", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 11, "deprel": "nummod", "edeps": "11:nummod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.TIME"},
+      {"#": 9, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 10, "deprel": "det", "edeps": "10:det", "misc": null, "smwe": [3, 1], "wmwe": null, "lextag": "B-DET"},
+      {"#": 10, "word": "couple", "lemma": "couple", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 11, "deprel": "nummod", "edeps": "11:nummod", "misc": null, "smwe": [3, 2], "wmwe": null, "lextag": "I_"},
       {"#": 11, "word": "years", "lemma": "year", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 5, "deprel": "obl", "edeps": "5:obl:for", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.TIME"},
       {"#": 12, "word": "now", "lemma": "now", "upos": "ADV", "xpos": "RB", "feats": null, "head": 11, "deprel": "advmod", "edeps": "11:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 13, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 18, "deprel": "cc", "edeps": "18:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
@@ -15507,8 +15507,6 @@
       "6": {"lexlemma": "we", "lexcat": "PRON.POSS", "ss": "p.Beneficiary", "ss2": "p.Possessor", "toknums": [6]},
       "7": {"lexlemma": "insurance", "lexcat": "N", "ss": "n.ACT", "ss2": null, "toknums": [7]},
       "8": {"lexlemma": "for", "lexcat": "P", "ss": "p.Duration", "ss2": "p.Duration", "toknums": [8]},
-      "9": {"lexlemma": "a", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [9]},
-      "10": {"lexlemma": "couple", "lexcat": "N", "ss": "n.TIME", "ss2": null, "toknums": [10]},
       "11": {"lexlemma": "year", "lexcat": "N", "ss": "n.TIME", "ss2": null, "toknums": [11]},
       "12": {"lexlemma": "now", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [12]},
       "13": {"lexlemma": "and", "lexcat": "CCONJ", "ss": null, "ss2": null, "toknums": [13]},
@@ -15520,7 +15518,8 @@
       "19": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [19]}
     },
     "smwes": {
-      "1": {"lexlemma": "Caldwell insurance", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [1, 2]}
+      "1": {"lexlemma": "Caldwell insurance", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [1, 2]},
+      "3": {"lexlemma": "a couple", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [9, 10]}
     },
     "wmwes": {
       "2": {"lexlemma": "do insurance", "toknums": [5, 7], "lexcat": null}
@@ -16094,7 +16093,7 @@
  "sent_id": "reviews-358063-0003",
  "text": "Staff is very friendly they treat you like a human being and not just another patient.",
  "streusle_sent_id": "ewtb.r.358063.3",
- "mwe": "Staff is very friendly they treat you like a human being and not just another patient .",
+ "mwe": "Staff is very friendly they treat you like a human_being and not just another patient .",
     "toks": [
       {"#": 1, "word": "Staff", "lemma": "staff", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 4, "deprel": "nsubj", "edeps": "4:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 2, "word": "is", "lemma": "be", "upos": "AUX", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 4, "deprel": "cop", "edeps": "4:cop", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
@@ -16105,8 +16104,8 @@
       {"#": 7, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 6, "deprel": "obj", "edeps": "6:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 8, "word": "like", "lemma": "like", "upos": "ADP", "xpos": "IN", "feats": null, "head": 11, "deprel": "case", "edeps": "11:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Manner|p.ComparisonRef"},
       {"#": 9, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 11, "deprel": "det", "edeps": "11:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
-      {"#": 10, "word": "human", "lemma": "human", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 11, "deprel": "amod", "edeps": "11:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
-      {"#": 11, "word": "being", "lemma": "being", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 6, "deprel": "obl", "edeps": "6:obl:like", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-!!@"},
+      {"#": 10, "word": "human", "lemma": "human", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 11, "deprel": "amod", "edeps": "11:amod", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.PERSON"},
+      {"#": 11, "word": "being", "lemma": "being", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 6, "deprel": "obl", "edeps": "6:obl:like", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 12, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 16, "deprel": "cc", "edeps": "16:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
       {"#": 13, "word": "not", "lemma": "not", "upos": "ADV", "xpos": "RB", "feats": null, "head": 16, "deprel": "advmod", "edeps": "16:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 14, "word": "just", "lemma": "just", "upos": "ADV", "xpos": "RB", "feats": null, "head": 16, "deprel": "advmod", "edeps": "16:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
@@ -16125,8 +16124,6 @@
       "7": {"lexlemma": "you", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [7]},
       "8": {"lexlemma": "like", "lexcat": "P", "ss": "p.Manner", "ss2": "p.ComparisonRef", "toknums": [8]},
       "9": {"lexlemma": "a", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [9]},
-      "10": {"lexlemma": "human", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [10]},
-      "11": {"lexlemma": "being", "lexcat": "!!@", "ss": null, "ss2": null, "toknums": [11]},
       "12": {"lexlemma": "and", "lexcat": "CCONJ", "ss": null, "ss2": null, "toknums": [12]},
       "13": {"lexlemma": "not", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [13]},
       "14": {"lexlemma": "just", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [14]},
@@ -16134,7 +16131,9 @@
       "16": {"lexlemma": "patient", "lexcat": "N", "ss": "n.PERSON", "ss2": null, "toknums": [16]},
       "17": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [17]}
     },
-    "smwes": {},
+    "smwes": {
+      "1": {"lexlemma": "human being", "lexcat": "N", "ss": "n.PERSON", "ss2": null, "toknums": [10, 11]}
+    },
     "wmwes": {}
 },
 {
