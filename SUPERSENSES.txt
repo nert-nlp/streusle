@@ -1,27 +1,27 @@
   48 ??	_
-33097 _	_
+33054 _	_
   12 `$	`$
- 721 n.ACT	_
+ 724 n.ACT	_
   88 n.ANIMAL	_
-1005 n.ARTIFACT	_
- 216 n.ATTRIBUTE	_
+1007 n.ARTIFACT	_
+ 225 n.ATTRIBUTE	_
   90 n.BODY	_
- 750 n.COGNITION	_
- 424 n.COMMUNICATION	_
+ 752 n.COGNITION	_
+ 427 n.COMMUNICATION	_
  428 n.EVENT	_
   41 n.FEELING	_
  773 n.FOOD	_
-1494 n.GROUP	_
- 639 n.LOCATION	_
+1495 n.GROUP	_
+ 640 n.LOCATION	_
   25 n.MOTIVE	_
   56 n.NATURALOBJECT	_
   49 n.OTHER	_
 1236 n.PERSON	_
   23 n.PHENOMENON	_
    5 n.PLANT	_
- 353 n.POSSESSION	_
+ 354 n.POSSESSION	_
   26 n.PROCESS	_
- 131 n.QUANTITY	_
+ 132 n.QUANTITY	_
   35 n.RELATION	_
    6 n.SHAPE	_
   52 n.STATE	_
@@ -207,31 +207,31 @@
    3 p.Whole	p.Source
   65 p.Whole	p.Whole
   83 v.body	_
- 290 v.change	_
+ 299 v.change	_
 1103 v.cognition	_
- 976 v.communication	_
+ 979 v.communication	_
   11 v.competition	_
   93 v.consumption	_
-  47 v.contact	_
+  48 v.contact	_
   66 v.creation	_
  243 v.emotion	_
- 609 v.motion	_
+ 610 v.motion	_
  146 v.perception	_
  316 v.possession	_
- 944 v.social	_
-2772 v.stative	_
+ 946 v.social	_
+2776 v.stative	_
 ========================
-    9243 n.*
-    7699 v.*
+    9266 n.*
+    7719 v.*
     5487 p.*
 
 n.* by LexCat
 ========================
-9243 N
+9266 N
 
 v.* by LexCat
 ========================
-6817 V
+6837 V
  121 V.IAV
   12 V.LVC.cause
  124 V.LVC.full

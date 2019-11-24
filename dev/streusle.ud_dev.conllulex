@@ -2885,7 +2885,7 @@
 8	Motorsports	Motorsports	PROPN	NNPS	Number=Plur	6	flat	6:flat	_	1:3	_	_	_	_	_	_	_	I_
 9	down	down	ADP	IN	_	11	case	11:case	_	_	P	down	p.Locus	p.Path	_	_	_	O-P-p.Locus|p.Path
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_	_	DET	the	_	_	_	_	_	O-DET
-11	road	road	NOUN	NN	Number=Sing	6	nmod	6:nmod:down	SpaceAfter=No	_	!!@	road	_	_	_	_	_	O-!!@
+11	road	road	NOUN	NN	Number=Sing	6	nmod	6:nmod:down	SpaceAfter=No	_	N	road	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 12	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-125629
@@ -3073,7 +3073,7 @@
 13	take	take	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_	1:1	V.IAV	take care of	v.social	_	_	_	_	B-V.IAV-v.social
 14	care	care	NOUN	NN	Number=Sing	13	obj	13:obj	_	1:2	_	_	_	_	_	_	_	I_
 15	of	of	ADP	IN	_	17	case	17:case	_	1:3	_	_	_	_	_	_	_	I_
-16	others	other	NOUN	NNS	Number=Plur	17	compound	17:compound	_	_	!!@	other	_	_	_	_	_	O-!!@
+16	others	other	NOUN	NNS	Number=Plur	17	compound	17:compound	_	_	PRON	other	_	_	_	_	_	O-PRON
 17	belongings	belonging	NOUN	NNS	Number=Plur	13	obl	13:obl:of	SpaceAfter=No	_	N	belonging	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 18	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -5001,7 +5001,7 @@
 8	take	take	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	_	_	V	take	v.motion	_	_	_	_	O-V-v.motion
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 10	car	car	NOUN	NN	Number=Sing	8	obj	8:obj	_	_	N	car	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
-11	peiod	period	NOUN	NN	Number=Sing|Typo=Yes	8	obl:npmod	8:obl:npmod	SpaceAfter=No	_	!!@	period	_	_	_	_	_	O-!!@
+11	peiod	period	NOUN	NN	Number=Sing|Typo=Yes	8	obl:npmod	8:obl:npmod	SpaceAfter=No	_	DISC	period	_	_	_	_	_	O-DISC
 12	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-229142
@@ -5887,7 +5887,7 @@
 8	of	of	ADP	IN	_	9	case	9:case	_	2:2	_	_	_	_	_	_	_	I_
 9	town	town	NOUN	NN	Number=Sing	1	advcl	1:advcl:of	_	2:3	_	_	_	_	_	_	_	I_
 10	on	on	ADP	IN	_	11	case	11:case	_	_	P	on	p.Circumstance	p.Locus	3:1	_	on business	B-P-p.Circumstance|p.Locus
-11	business	business	NOUN	NN	Number=Sing	9	nmod	9:nmod:on	SpaceAfter=No	_	!!@	business	_	_	3:2	_	_	I~-!!@
+11	business	business	NOUN	NN	Number=Sing	9	nmod	9:nmod:on	SpaceAfter=No	_	N	business	n.ACT	_	3:2	_	_	I~-N-n.ACT
 12	,	,	PUNCT	,	_	16	punct	16:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 13	and	and	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	_	_	PRON	it	_	_	_	_	_	O-PRON
@@ -6415,7 +6415,7 @@
 1	Miami	Miami	PROPN	NNP	Number=Sing	5	nmod:poss	5:nmod:poss	SpaceAfter=No	_	N	Miami	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 2	's	's	PART	POS	_	1	case	1:case	_	_	POSS	's	p.Locus	p.Gestalt	_	_	_	O-POSS-p.Locus|p.Gestalt
 3	best	best	ADJ	JJS	Degree=Sup	5	amod	5:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
-4	tutoring	tutoring	NOUN	NN	Number=Sing	5	compound	5:compound	_	_	!!@	tutoring	_	_	_	_	_	O-!!@
+4	tutoring	tutoring	NOUN	NN	Number=Sing	5	compound	5:compound	_	_	N	tutoring	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 5	service	service	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 6	!	!	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
@@ -6511,7 +6511,7 @@
 # mwe = Worst buffet period by_far .
 1	Worst	worst	ADJ	JJS	Degree=Sup	3	amod	3:amod	_	_	ADJ	worst	_	_	_	_	_	O-ADJ
 2	buffet	buffet	NOUN	NN	Number=Sing	3	compound	3:compound	_	_	N	buffet	n.FOOD	_	_	_	_	O-N-n.FOOD
-3	period	period	NOUN	NN	Number=Sing	0	root	0:root	_	_	!!@	period	_	_	_	_	_	O-!!@
+3	period	period	NOUN	NN	Number=Sing	0	root	0:root	_	_	DISC	period	_	_	_	_	_	O-DISC
 4	by	by	ADP	IN	_	5	case	5:case	_	1:1	PP	by far	p.Extent	p.Extent	_	_	_	B-PP-p.Extent
 5	far	far	ADV	RB	Degree=Pos	3	nmod	3:nmod:by	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 6	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -8301,7 +8301,7 @@
 1	so	so	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	so	_	_	_	_	_	O-ADV
 2	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	SpaceAfter=No	_	V	go	v.motion	_	_	_	_	O-V-v.motion
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-4	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	2:conj:and	_	_	!!@	get	_	_	_	_	_	O-!!@
+4	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	2:conj:and	_	_	V	get	v.change	_	_	_	_	O-V-v.change
 5	dancing	dance	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	SpaceAfter=No	_	V	dance	v.social	_	_	_	_	O-V-v.social
 6	!!!!!!!!!!!!!!!!!!!!!!!!!	!!!!!!!!!!!!!!!!!!!!!!!!!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!!!!!!!!!!!!!!!!!!!!!!!!!	_	_	_	_	_	O-PUNCT
 

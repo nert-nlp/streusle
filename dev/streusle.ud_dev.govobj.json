@@ -47564,7 +47564,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.ARTIFACT"
    },
    {
     "#": 12,
@@ -47663,8 +47663,8 @@
    },
    "11": {
     "lexlemma": "road",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.ARTIFACT",
     "ss2": null,
     "toknums": [
      11
@@ -50734,7 +50734,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-PRON"
    },
    {
     "#": 17,
@@ -50886,7 +50886,7 @@
    },
    "16": {
     "lexlemma": "other",
-    "lexcat": "!!@",
+    "lexcat": "PRON",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -83478,7 +83478,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-DISC"
    },
    {
     "#": 12,
@@ -83597,7 +83597,7 @@
    },
    "11": {
     "lexlemma": "period",
-    "lexcat": "!!@",
+    "lexcat": "DISC",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -98289,7 +98289,7 @@
      3,
      2
     ],
-    "lextag": "I~-!!@"
+    "lextag": "I~-N-n.ACT"
    },
    {
     "#": 12,
@@ -98429,8 +98429,8 @@
    },
    "11": {
     "lexlemma": "business",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.ACT",
     "ss2": null,
     "toknums": [
      11
@@ -107542,7 +107542,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.COMMUNICATION"
    },
    {
     "#": 5,
@@ -107613,8 +107613,8 @@
    },
    "4": {
     "lexlemma": "tutoring",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.COMMUNICATION",
     "ss2": null,
     "toknums": [
      4
@@ -109233,7 +109233,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-DISC"
    },
    {
     "#": 4,
@@ -109309,7 +109309,7 @@
    },
    "3": {
     "lexlemma": "period",
-    "lexcat": "!!@",
+    "lexcat": "DISC",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -139381,7 +139381,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-V-v.change"
    },
    {
     "#": 5,
@@ -139445,8 +139445,8 @@
    },
    "4": {
     "lexlemma": "get",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "V",
+    "ss": "v.change",
     "ss2": null,
     "toknums": [
      4

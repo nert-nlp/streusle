@@ -3347,7 +3347,7 @@
 15	firm	firm	NOUN	NN	Number=Sing	13	obj	13:obj	_	_	N	firm	n.GROUP	_	_	_	_	O-N-n.GROUP
 16	in	in	ADP	IN	_	18	case	18:case	_	_	P	in	p.Manner	p.Manner	_	_	_	O-P-p.Manner
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_	_	DET	the	_	_	_	_	_	O-DET
-18	light	light	NOUN	NN	Number=Sing	13	obl	13:obl:in	_	_	!!@	light	_	_	_	_	_	O-!!@
+18	light	light	NOUN	NN	Number=Sing	13	obl	13:obl:in	_	_	N	light	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	20:nsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
 20	wished	wish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_	_	V	wish	v.cognition	_	_	_	_	O-V-v.cognition
 21	to	to	PART	TO	_	20	xcomp	20:xcomp	_	_	INF	to	_	_	_	_	_	O-INF
@@ -4018,7 +4018,7 @@
 1	THE	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	TEACHING	teaching	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_	_	N	teaching	n.ACT	_	_	_	_	O-N-n.ACT
 3	THERE	there	ADV	RB	PronType=Dem	2	advmod	2:advmod	_	_	ADV	there	_	_	_	_	_	O-ADV
-4	SUCKS	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No	_	!!@	suck	_	_	_	_	_	O-!!@
+4	SUCKS	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No	_	V	suck	v.stative	_	_	_	_	O-V-v.stative
 5	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-200566-0002
@@ -4404,7 +4404,7 @@
 # mwe = We got upgraded~to a corner suite !
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj|3:nsubj:xsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
 2	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	get	v.change	_	_	_	_	O-V-v.change
-3	upgraded	upgrade	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	2:xcomp	_	_	!!@	upgrade	_	_	1:1	_	upgrade to	B-!!@
+3	upgraded	upgrade	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	2:xcomp	_	_	V	upgrade	v.change	_	1:1	_	upgrade to	B-V-v.change
 4	to	to	ADP	IN	_	7	case	7:case	_	_	P	to	p.Goal	p.Goal	1:2	_	_	I~-P-p.Goal
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_	_	DET	a	_	_	_	_	_	O-DET
 6	corner	corner	NOUN	NN	Number=Sing	7	compound	7:compound	_	_	N	corner	n.LOCATION	_	_	_	_	O-N-n.LOCATION
@@ -7624,7 +7624,7 @@
 # mwe = A Definite No
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_	_	DET	a	_	_	_	_	_	O-DET
 2	Definite	definite	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	_	ADJ	definite	_	_	_	_	_	O-ADJ
-3	No	no	NOUN	NN	Number=Sing	0	root	0:root	_	_	!!@	no	_	_	_	_	_	O-!!@
+3	No	no	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	no	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 
 # sent_id = reviews-357217-0002
 # text = Incompetent servers, kitchen and management.

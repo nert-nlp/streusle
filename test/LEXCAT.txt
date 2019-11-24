@@ -1,4 +1,3 @@
-   4 !!@
  551 ADJ
  374 ADV
  164 AUX
@@ -8,7 +7,7 @@
   38 INF
   20 INF.P
   17 INTJ
- 984 N
+ 986 N
   41 NUM
  359 P
    1 POSS
@@ -18,7 +17,7 @@
  597 PUNCT
   21 SCONJ
   12 SYM
- 629 V
+ 631 V
   17 V.IAV
    1 V.LVC.cause
    8 V.LVC.full

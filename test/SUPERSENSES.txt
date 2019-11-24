@@ -1,13 +1,13 @@
    6 ??	_
-3212 _	_
+3208 _	_
    2 `$	`$
  123 n.ACT	_
    4 n.ANIMAL	_
   83 n.ARTIFACT	_
-  31 n.ATTRIBUTE	_
+  32 n.ATTRIBUTE	_
   12 n.BODY	_
   69 n.COGNITION	_
-  46 n.COMMUNICATION	_
+  47 n.COMMUNICATION	_
   36 n.EVENT	_
    3 n.FEELING	_
   73 n.FOOD	_
@@ -115,7 +115,7 @@
    2 p.Whole	p.Locus
    5 p.Whole	p.Whole
    3 v.body	_
-  36 v.change	_
+  37 v.change	_
   99 v.cognition	_
   65 v.communication	_
    1 v.competition	_
@@ -127,19 +127,19 @@
   17 v.perception	_
   13 v.possession	_
  102 v.social	_
- 266 v.stative	_
+ 267 v.stative	_
 ========================
-     984 n.*
-     695 v.*
+     986 n.*
+     697 v.*
      482 p.*
 
 n.* by LexCat
 ========================
- 984 N
+ 986 N
 
 v.* by LexCat
 ========================
- 629 V
+ 631 V
   17 V.IAV
    1 V.LVC.cause
    8 V.LVC.full

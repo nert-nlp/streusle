@@ -7136,7 +7136,7 @@
       {"#": 15, "word": "firm", "lemma": "firm", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 13, "deprel": "obj", "edeps": "13:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 16, "word": "in", "lemma": "in", "upos": "ADP", "xpos": "IN", "feats": null, "head": 18, "deprel": "case", "edeps": "18:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Manner"},
       {"#": 17, "word": "the", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art", "head": 18, "deprel": "det", "edeps": "18:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
-      {"#": 18, "word": "light", "lemma": "light", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 13, "deprel": "obl", "edeps": "13:obl:in", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-!!@"},
+      {"#": 18, "word": "light", "lemma": "light", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 13, "deprel": "obl", "edeps": "13:obl:in", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.ATTRIBUTE"},
       {"#": 19, "word": "we", "lemma": "we", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Plur|Person=1|PronType=Prs", "head": 20, "deprel": "nsubj", "edeps": "20:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 20, "word": "wished", "lemma": "wish", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Tense=Past|VerbForm=Fin", "head": 18, "deprel": "acl:relcl", "edeps": "18:acl:relcl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.cognition"},
       {"#": 21, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 20, "deprel": "xcomp", "edeps": "20:xcomp", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF"},
@@ -7167,7 +7167,7 @@
       "15": {"lexlemma": "firm", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [15]},
       "16": {"lexlemma": "in", "lexcat": "P", "ss": "p.Manner", "ss2": "p.Manner", "toknums": [16]},
       "17": {"lexlemma": "the", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [17]},
-      "18": {"lexlemma": "light", "lexcat": "!!@", "ss": null, "ss2": null, "toknums": [18]},
+      "18": {"lexlemma": "light", "lexcat": "N", "ss": "n.ATTRIBUTE", "ss2": null, "toknums": [18]},
       "19": {"lexlemma": "we", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [19]},
       "20": {"lexlemma": "wish", "lexcat": "V", "ss": "v.cognition", "ss2": null, "toknums": [20]},
       "21": {"lexlemma": "to", "lexcat": "INF", "ss": null, "ss2": null, "toknums": [21]},
@@ -8590,7 +8590,7 @@
       {"#": 1, "word": "THE", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art", "head": 2, "deprel": "det", "edeps": "2:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 2, "word": "TEACHING", "lemma": "teaching", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 4, "deprel": "nsubj", "edeps": "4:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.ACT"},
       {"#": 3, "word": "THERE", "lemma": "there", "upos": "ADV", "xpos": "RB", "feats": "PronType=Dem", "head": 2, "deprel": "advmod", "edeps": "2:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
-      {"#": 4, "word": "SUCKS", "lemma": "suck", "upos": "VERB", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-!!@"},
+      {"#": 4, "word": "SUCKS", "lemma": "suck", "upos": "VERB", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 5, "word": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", "lemma": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 4, "deprel": "punct", "edeps": "4:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
     "etoks": [],
@@ -8598,7 +8598,7 @@
       "1": {"lexlemma": "the", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [1]},
       "2": {"lexlemma": "teaching", "lexcat": "N", "ss": "n.ACT", "ss2": null, "toknums": [2]},
       "3": {"lexlemma": "there", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [3]},
-      "4": {"lexlemma": "suck", "lexcat": "!!@", "ss": null, "ss2": null, "toknums": [4]},
+      "4": {"lexlemma": "suck", "lexcat": "V", "ss": "v.stative", "ss2": null, "toknums": [4]},
       "5": {"lexlemma": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [5]}
     },
     "smwes": {},
@@ -9425,7 +9425,7 @@
     "toks": [
       {"#": 1, "word": "We", "lemma": "we", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Plur|Person=1|PronType=Prs", "head": 2, "deprel": "nsubj", "edeps": "2:nsubj|3:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 2, "word": "got", "lemma": "get", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.change"},
-      {"#": 3, "word": "upgraded", "lemma": "upgrade", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 2, "deprel": "xcomp", "edeps": "2:xcomp", "misc": null, "smwe": null, "wmwe": [1, 1], "lextag": "B-!!@"},
+      {"#": 3, "word": "upgraded", "lemma": "upgrade", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 2, "deprel": "xcomp", "edeps": "2:xcomp", "misc": null, "smwe": null, "wmwe": [1, 1], "lextag": "B-V-v.change"},
       {"#": 4, "word": "to", "lemma": "to", "upos": "ADP", "xpos": "IN", "feats": null, "head": 7, "deprel": "case", "edeps": "7:case", "misc": null, "smwe": null, "wmwe": [1, 2], "lextag": "I~-P-p.Goal"},
       {"#": 5, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 7, "deprel": "det", "edeps": "7:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 6, "word": "corner", "lemma": "corner", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 7, "deprel": "compound", "edeps": "7:compound", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.LOCATION"},
@@ -9436,7 +9436,7 @@
     "swes": {
       "1": {"lexlemma": "we", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [1]},
       "2": {"lexlemma": "get", "lexcat": "V", "ss": "v.change", "ss2": null, "toknums": [2]},
-      "3": {"lexlemma": "upgrade", "lexcat": "!!@", "ss": null, "ss2": null, "toknums": [3]},
+      "3": {"lexlemma": "upgrade", "lexcat": "V", "ss": "v.change", "ss2": null, "toknums": [3]},
       "4": {"lexlemma": "to", "lexcat": "P", "ss": "p.Goal", "ss2": "p.Goal", "toknums": [4]},
       "5": {"lexlemma": "a", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [5]},
       "6": {"lexlemma": "corner", "lexcat": "N", "ss": "n.LOCATION", "ss2": null, "toknums": [6]},
@@ -16363,13 +16363,13 @@
     "toks": [
       {"#": 1, "word": "A", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 3, "deprel": "det", "edeps": "3:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 2, "word": "Definite", "lemma": "definite", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 3, "deprel": "amod", "edeps": "3:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
-      {"#": 3, "word": "No", "lemma": "no", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-!!@"}
+      {"#": 3, "word": "No", "lemma": "no", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.COMMUNICATION"}
     ],
     "etoks": [],
     "swes": {
       "1": {"lexlemma": "a", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [1]},
       "2": {"lexlemma": "definite", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [2]},
-      "3": {"lexlemma": "no", "lexcat": "!!@", "ss": null, "ss2": null, "toknums": [3]}
+      "3": {"lexlemma": "no", "lexcat": "N", "ss": "n.COMMUNICATION", "ss2": null, "toknums": [3]}
     },
     "smwes": {},
     "wmwes": {}

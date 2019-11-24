@@ -57924,7 +57924,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.ATTRIBUTE"
    },
    {
     "#": 19,
@@ -58267,8 +58267,8 @@
    },
    "18": {
     "lexlemma": "light",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.ATTRIBUTE",
     "ss2": null,
     "toknums": [
      18
@@ -68982,7 +68982,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-V-v.stative"
    },
    {
     "#": 5,
@@ -69031,8 +69031,8 @@
    },
    "4": {
     "lexlemma": "suck",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "V",
+    "ss": "v.stative",
     "ss2": null,
     "toknums": [
      4
@@ -75738,7 +75738,7 @@
      1,
      1
     ],
-    "lextag": "B-!!@"
+    "lextag": "B-V-v.change"
    },
    {
     "#": 4,
@@ -75841,8 +75841,8 @@
    },
    "3": {
     "lexlemma": "upgrade",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "V",
+    "ss": "v.change",
     "ss2": null,
     "toknums": [
      3
@@ -129792,7 +129792,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-!!@"
+    "lextag": "O-N-n.COMMUNICATION"
    }
   ],
   "etoks": [],
@@ -129817,8 +129817,8 @@
    },
    "3": {
     "lexlemma": "no",
-    "lexcat": "!!@",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.COMMUNICATION",
     "ss2": null,
     "toknums": [
      3
