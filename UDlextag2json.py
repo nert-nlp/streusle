@@ -376,6 +376,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
 
     if lc_tbd>0:
         print('Tokens with lexcat TBD:', lc_tbd, file=sys.stderr)
+        assert False,'PLACEHOLDER LEXCATS ARE DISALLOWED'
 
 if __name__=='__main__':
     argparser = ArgumentParser(description=desc)

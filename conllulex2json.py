@@ -359,6 +359,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
 
     if lc_tbd>0:
         print('Tokens with lexcat TBD:', lc_tbd, file=sys.stderr)
+        assert False,'PLACEHOLDER LEXCATS ARE DISALLOWED'
 
 def print_sent_json(sent):
     list_fields = ("toks", "etoks")
