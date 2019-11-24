@@ -822,7 +822,7 @@
       {"#": 10, "word": "even", "lemma": "even", "upos": "ADV", "xpos": "RB", "feats": null, "head": 11, "deprel": "advmod", "edeps": "11:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 11, "word": "anything", "lemma": "anything", "upos": "PRON", "xpos": "NN", "feats": "Number=Sing", "head": 8, "deprel": "conj", "edeps": "4:obl:to|8:conj:or", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 12, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 13, "deprel": "mark", "edeps": "13:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF.P-p.Characteristic|p.Purpose"},
-      {"#": 13, "word": "eat", "lemma": "eat", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 4, "deprel": "xcomp", "edeps": "4:xcomp", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-V-v.consumption"},
+      {"#": 13, "word": "eat", "lemma": "eat", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 11, "deprel": "acl", "edeps": "11:acl:to", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-V-v.consumption"},
       {"#": 14, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 4, "deprel": "punct", "edeps": "4:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
     "etoks": [],
@@ -14362,7 +14362,7 @@
       {"#": 20, "word": "serious", "lemma": "serious", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 21, "deprel": "amod", "edeps": "21:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 21, "word": "adults", "lemma": "adult", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 18, "deprel": "obj", "edeps": "18:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.PERSON"},
       {"#": 22, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 23, "deprel": "mark", "edeps": "23:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF.P-p.Characteristic|p.Purpose"},
-      {"#": 23, "word": "help", "lemma": "help", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 18, "deprel": "advcl", "edeps": "18:advcl:to", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
+      {"#": 23, "word": "help", "lemma": "help", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 21, "deprel": "acl", "edeps": "21:acl:to", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
       {"#": 24, "word": "serve", "lemma": "serve", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 23, "deprel": "ccomp", "edeps": "23:ccomp", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
       {"#": 25, "word": "/", "lemma": "/", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 26, "deprel": "cc", "edeps": "26:cc", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 26, "word": "cook", "lemma": "cook", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 24, "deprel": "conj", "edeps": "23:ccomp|24:conj", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-V-v.creation"},

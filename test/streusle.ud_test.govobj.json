@@ -6339,9 +6339,9 @@
     "upos": "VERB",
     "xpos": "VB",
     "feats": "VerbForm=Inf",
-    "head": 4,
-    "deprel": "xcomp",
-    "edeps": "4:xcomp",
+    "head": 11,
+    "deprel": "acl",
+    "edeps": "11:acl:to",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -6480,8 +6480,8 @@
      12
     ],
     "heuristic_relation": {
-     "gov": 4,
-     "govlemma": "recommend",
+     "gov": 11,
+     "govlemma": "anything",
      "obj": 13,
      "objlemma": "eat",
      "config": "subordinating"
@@ -114778,9 +114778,9 @@
     "upos": "VERB",
     "xpos": "VB",
     "feats": "VerbForm=Inf",
-    "head": 18,
-    "deprel": "advcl",
-    "edeps": "18:advcl:to",
+    "head": 21,
+    "deprel": "acl",
+    "edeps": "21:acl:to",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -115075,8 +115075,8 @@
      22
     ],
     "heuristic_relation": {
-     "gov": 18,
-     "govlemma": "hire",
+     "gov": 21,
+     "govlemma": "adult",
      "obj": 23,
      "objlemma": "help",
      "config": "subordinating"
