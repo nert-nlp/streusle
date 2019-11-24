@@ -8,6 +8,7 @@ MWE annotation schemers; MWE, noun supersense, and verb supersense annotators:
 * Emily Danchik
 * Michael T. Mordowanec
 * Clarissa Somers
+* Ryan Mannion
 
 Preposition supersense annotation schemers:
 
@@ -58,6 +59,7 @@ Xposition tech gurus
 * Max Kim
 * Joseph Ledford
 * Austin Blodgett
+* Luke Gessler
 
 Bug reports and user feedback
 
@@ -92,3 +94,4 @@ This research was supported in part by:
 * DTRA HDTRA1-16-1-0002/Project # 1553695, eTASC - Empirical Evidence for a Theoretical Approach to Semantic Components
 * DARPA LORELEI Semantic Annotation and Technology Transfer
 * BSF grant 2016375
+* NSF grant IIS-1812778
