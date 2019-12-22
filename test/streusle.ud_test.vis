@@ -4,7 +4,7 @@ reviews-001325-0003	The|DET best|ADJ climbing|N-n.ACT club|N-n.GROUP around|P-p.
 reviews-001325-0004	Hooray|INTJ for|P-p.Beneficiary Craggy|N-n.PERSON .|PUNCT
 reviews-002288-0001	It|PRON 's|V-v.stative well|ADV cool|ADJ .|PUNCT :)|SYM
 reviews-002317-0001	telephone_number|N-n.COMMUNICATION
-reviews-002317-0002	the|DET telephone_number|N-n.COMMUNICATION is|V-v.stative incorrect|ADJ -|PUNCT our|PRON.POSS-p.Possessor new|ADJ mobile_number|N-n.COMMUNICATION is|V-v.stative 07551310002|NUM or|CCONJ landline|N-n.COMMUNICATION 01634|NUM 710033|NUM .|PUNCT
+reviews-002317-0002	the|DET telephone_number|N-n.COMMUNICATION is|V-v.stative incorrect|ADJ -|PUNCT our|PRON.POSS-p.Gestalt new|ADJ mobile_number|N-n.COMMUNICATION is|V-v.stative 07551310002|NUM or|CCONJ landline|N-n.COMMUNICATION 01634|NUM 710033|NUM .|PUNCT
 reviews-002317-0003	thank_you|DISC
 reviews-005265-0001	good|ADJ
 reviews-005265-0002	it|PRON is|V-v.stative a|DET cute|ADJ little|ADJ nice|ADJ and|CCONJ quiet|ADJ library|N-n.GROUP
@@ -123,7 +123,7 @@ reviews-087368-0001	Walgreens|N-n.GROUP on|P-p.Locus University|N-n.LOCATION
 reviews-087368-0002	My|PRON.POSS-p.Originator:p.Gestalt pharmacy|N-n.GROUP order|N-n.COMMUNICATION is|V-v.stative always|ADV correct|ADJ and|CCONJ promptly|ADV delivered|V-v.motion but|CCONJ the|DET pharmacy|N-n.GROUP staff|N-n.GROUP are|V-v.stative always|ADV very|ADV short|ADJ with|P-p.Beneficiary:p.Theme me|PRON and|CCONJ do|AUX n't|ADV seem|V-v.cognition to|INF like|V-v.emotion answering|V-v.communication~questions|N-n.COMMUNICATION .|PUNCT
 reviews-087368-0003	Clean|ADJ store|N-n.ARTIFACT ,|PUNCT friendly|ADV check_-_out|N-n.ACT staff|N-n.GROUP up_front|PP-p.Locus .|PUNCT
 reviews-087368-0004	Good|ADJ selection|N-n.COGNITION .|PUNCT
-reviews-088954-0001	A|DET thoroughly|ADV comprehensive|ADJ service|N-n.ACT ;|PUNCT excellent|ADJ communication|N-n.COMMUNICATION and|CCONJ best|ADV of|P-?? they|PRON are|V-v.stative transparent|ADJ with|P-p.Topic their|PRON.POSS-p.Possessor fee|N-n.POSSESSION (|PUNCT ie|X nothing|PRON is|AUX simply|ADV implied|V-v.communication or|CCONJ assumed|V-v.communication )|PUNCT .|PUNCT
+reviews-088954-0001	A|DET thoroughly|ADV comprehensive|ADJ service|N-n.ACT ;|PUNCT excellent|ADJ communication|N-n.COMMUNICATION and|CCONJ best|ADV of|P-?? they|PRON are|V-v.stative transparent|ADJ with|P-p.Topic their|PRON.POSS-p.Gestalt fee|N-n.POSSESSION (|PUNCT ie|X nothing|PRON is|AUX simply|ADV implied|V-v.communication or|CCONJ assumed|V-v.communication )|PUNCT .|PUNCT
 reviews-089136-0001	AWESOME|ADJ food|N-n.FOOD !|PUNCT
 reviews-089136-0002	Make_sure|V.VID-v.cognition to|INF put|V-v.contact OILY|ADJ sauces|N-n.FOOD on|P-p.Goal:p.Locus your|PRON.POSS-p.Possessor food|N-n.FOOD to|INF.P-p.Purpose make|V-v.stative it|PRON moist|ADJ !|PUNCT
 reviews-089136-0003	YUM|INTJ
@@ -186,7 +186,7 @@ reviews-139152-0002	Very|ADV good|ADJ hospitality|N-n.ATTRIBUTE offered|V-v.soci
 reviews-139152-0003	Keep_it_up|DISC .|PUNCT
 reviews-139152-0004	-|PUNCT Shree_Ghatkopar_Bhatia_Mitra_Mandal|N-n.GROUP
 reviews-145645-0001	spoken|V-v.communication english|N-n.COMMUNICATION rushi|N-n.PERSON
-reviews-145645-0002	can|AUX ever|ADV &|CCONJ never|ADV forget|V-v.cognition the|DET training|N-n.ACT undergone|V-v.social here|ADV which|PRON made|V-v.stative my|PRON.POSS-p.Possessor life|N-n.PROCESS step|V-v.stative onto|P-p.Goal the|DET successful|ADJ job|N-n.ACT without|P-p.Manner any|DET hurdles|N-n.COGNITION .|PUNCT
+reviews-145645-0002	can|AUX ever|ADV &|CCONJ never|ADV forget|V-v.cognition the|DET training|N-n.ACT undergone|V-v.social here|ADV which|PRON made|V-v.stative my|PRON.POSS-p.Agent life|N-n.PROCESS step|V-v.stative onto|P-p.Goal the|DET successful|ADJ job|N-n.ACT without|P-p.Manner any|DET hurdles|N-n.COGNITION .|PUNCT
 reviews-145645-0003	The|DET staff|N-n.GROUP ,|PUNCT material|N-n.COMMUNICATION provided|V-v.social ,|PUNCT infra_structure|N-n.COGNITION ,|PUNCT environment|N-n.COGNITION &|CCONJ low|ADJ fees|N-n.POSSESSION totally|ADV above|P-p.Locus the|DET satisfactory|ADJ mark|N-n.COGNITION
 reviews-146820-0001	Amazing|ADJ service|N-n.ACT !|PUNCT
 reviews-146820-0002	I|PRON just|ADV had|V-v.stative the|DET best|ADJ experience|N-n.EVENT at|P-p.Locus this|DET Kal_Tire|N-n.GROUP location|N-n.LOCATION .|PUNCT
@@ -235,7 +235,7 @@ reviews-181696-0002	The|DET only|ADJ 10.0|NUM "|PUNCT Perfect|ADJ Score|N-n.COMM
 reviews-181696-0003	I|PRON Highly|ADV~Recommend|V-v.communication ,|PUNCT The_Law_Offices_Of_Dale_Gribow|N-n.GROUP !!|PUNCT
 reviews-184290-0001	wow|INTJ wow|INTJ wow|INTJ .|PUNCT
 reviews-184290-0002	the|DET bast|ADJ cab|N-n.GROUP in|P-p.Locus minneapolis|N-n.LOCATION
-reviews-186235-0001	wow|INTJ ,|PUNCT the|DET representative|N-n.PERSON went_ way|ADV _above_and_beyond|V.VID-v.social in|P-p.Circumstance helping|V-v.social me|PRON with|P-p.Theme my|PRON.POSS-p.Possessor account|N-n.POSSESSION set_up|N-n.ACT .|PUNCT
+reviews-186235-0001	wow|INTJ ,|PUNCT the|DET representative|N-n.PERSON went_ way|ADV _above_and_beyond|V.VID-v.social in|P-p.Circumstance helping|V-v.social me|PRON with|P-p.Theme my|PRON.POSS-p.Agent:p.Gestalt account|N-n.POSSESSION set_up|N-n.ACT .|PUNCT
 reviews-186235-0002	i|PRON wish|V-v.cognition the|DET other|ADJ utilities|N-n.ARTIFACT i|PRON had_to|AUX set_up|V.VPC.full-v.creation had|V-v.stative people|N-n.PERSON to|INF.P-p.Characteristic:p.Purpose work|V-v.social~with|P-p.SocialRel:p.Co-Agent like|P-p.ComparisonRef this|PRON ..|PUNCT
 reviews-187163-0001	Linda|N-n.PERSON
 reviews-187163-0002	I|PRON would|AUX highly|ADV~recommend|V-v.communication Landscape_by_Hiro|N-n.GROUP .|PUNCT
@@ -306,7 +306,7 @@ reviews-226715-0001	Inford_Media|N-n.GROUP
 reviews-226715-0002	Media|N-n.COMMUNICATION ,|PUNCT Software|N-n.COMMUNICATION ,|PUNCT Fun_and_Games|N-n.COGNITION ,|PUNCT Website|N-n.COMMUNICATION design|N-n.COGNITION ,|PUNCT Web|N-n.COMMUNICATION Promotion|N-n.COMMUNICATION ,|PUNCT B2B|N-n.COMMUNICATION ,|PUNCT Business|N-n.GROUP Promotion|N-n.COMMUNICATION ,|PUNCT Search_Engine_Optimization|N-n.COGNITION .|PUNCT
 reviews-227515-0001	BEST|ADJ DENTIST|N-n.PERSON EVER|ADV -|PUNCT
 reviews-227515-0002	Very|ADV fast|ADJ and|CCONJ efficient|ADJ service|N-n.ACT .|PUNCT
-reviews-227515-0003	I|PRON have|AUX had|V-v.stative several|ADJ dentists|N-n.PERSON in|P-p.Time my|PRON.POSS-p.Possessor life|N-n.TIME ,|PUNCT but|CCONJ Dr._Deters|N-n.PERSON is|V-v.stative by_far|PP-p.Extent my|PRON.POSS-p.Experiencer:p.Gestalt favorite|N-n.COGNITION .|PUNCT
+reviews-227515-0003	I|PRON have|AUX had|V-v.stative several|ADJ dentists|N-n.PERSON in|P-p.Time my|PRON.POSS-p.Theme:p.Gestalt life|N-n.TIME ,|PUNCT but|CCONJ Dr._Deters|N-n.PERSON is|V-v.stative by_far|PP-p.Extent my|PRON.POSS-p.Experiencer:p.Gestalt favorite|N-n.COGNITION .|PUNCT
 reviews-227515-0004	I|PRON never|ADV wait|V-v.cognition in|P-p.Locus the|DET waiting_room|N-n.LOCATION more_than|P-p.Approximator two|NUM minutes|N-n.TIME and|CCONJ the|DET cleanings|N-n.ACT are|V-v.stative quick|ADJ and|CCONJ painless|ADJ .|PUNCT
 reviews-227605-0001	Good|ADJ local|ADJ steakhouse|N-n.GROUP ,|PUNCT I|PRON recommend|V-v.communication it|PRON !|PUNCT
 reviews-229100-0001	Great|ADJ Place|N-n.GROUP !|PUNCT
@@ -336,7 +336,7 @@ reviews-245928-0004	Do|AUX not|ADV trust|V-v.cognition them|PRON !|PUNCT
 reviews-250878-0001	This|PRON is|V-v.stative my|PRON.POSS-p.Experiencer:p.Gestalt favorite|ADJ coffee_store|N-n.GROUP .|PUNCT
 reviews-250878-0002	Just|ADV ask|V-v.communication American_Express|N-n.GROUP
 reviews-251755-0001	Absolutely|ADV amazing|ADJ job|N-n.ACT !|PUNCT
-reviews-251755-0002	Susanna|N-n.PERSON is|V-v.stative the|DET best|ADJ dress_maker|N-n.PERSON /|PUNCT tailor|N-n.PERSON I|PRON 've|AUX ever|ADV come_across|V.IAV-v.stative in|P-p.Time~ my|PRON.POSS-p.Possessor whole|ADJ ~life|N-n.COGNITION !|PUNCT
+reviews-251755-0002	Susanna|N-n.PERSON is|V-v.stative the|DET best|ADJ dress_maker|N-n.PERSON /|PUNCT tailor|N-n.PERSON I|PRON 've|AUX ever|ADV come_across|V.IAV-v.stative in|P-p.Time~ my|PRON.POSS-p.Theme:p.Gestalt whole|ADJ ~life|N-n.COGNITION !|PUNCT
 reviews-251755-0003	She|PRON makes|V-v.stative every|DET item|N-n.ARTIFACT fit|V-v.body you|PRON perfectly|ADV .|PUNCT
 reviews-251755-0004	She|PRON is|V-v.stative always|ADV so|ADV busy|ADJ ,|PUNCT too|ADV ,|PUNCT which|PRON is|V-v.stative a|DET good|ADJ indication|N-n.COGNITION of|P-p.Topic her|PRON.POSS-p.Gestalt talent|N-n.ATTRIBUTE .|PUNCT
 reviews-251755-0005	She|PRON 's|V-v.stative the|DET best|ADJ !|PUNCT

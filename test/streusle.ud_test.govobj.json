@@ -906,7 +906,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Possessor"
+    "lextag": "O-PRON.POSS-p.Gestalt"
    },
    {
     "#": 8,
@@ -1106,8 +1106,8 @@
    "7": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Gestalt",
+    "ss2": "p.Gestalt",
     "toknums": [
      7
     ],
@@ -33587,7 +33587,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Possessor"
+    "lextag": "O-PRON.POSS-p.Gestalt"
    },
    {
     "#": 16,
@@ -33900,8 +33900,8 @@
    "15": {
     "lexlemma": "they",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Gestalt",
+    "ss2": "p.Gestalt",
     "toknums": [
      15
     ],
@@ -51826,7 +51826,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Possessor"
+    "lextag": "O-PRON.POSS-p.Agent"
    },
    {
     "#": 13,
@@ -52083,8 +52083,8 @@
    "12": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Agent",
+    "ss2": "p.Agent",
     "toknums": [
      12
     ],
@@ -64599,7 +64599,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Possessor"
+    "lextag": "O-PRON.POSS-p.Agent|p.Gestalt"
    },
    {
     "#": 15,
@@ -64768,8 +64768,8 @@
    "14": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Agent",
+    "ss2": "p.Gestalt",
     "toknums": [
      14
     ],
@@ -83047,7 +83047,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Possessor"
+    "lextag": "O-PRON.POSS-p.Theme|p.Gestalt"
    },
    {
     "#": 8,
@@ -83293,8 +83293,8 @@
    "7": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Theme",
+    "ss2": "p.Gestalt",
     "toknums": [
      7
     ],
@@ -90477,7 +90477,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-PRON.POSS-p.Possessor"
+    "lextag": "o-PRON.POSS-p.Theme|p.Gestalt"
    },
    {
     "#": 16,
@@ -90630,8 +90630,8 @@
    "15": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Theme",
+    "ss2": "p.Gestalt",
     "toknums": [
      15
     ],

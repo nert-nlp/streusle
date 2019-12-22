@@ -6009,7 +6009,7 @@
       {"#": 6, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 7, "deprel": "cc", "edeps": "7:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
       {"#": 7, "word": "so", "lemma": "so", "upos": "ADV", "xpos": "RB", "feats": null, "head": 4, "deprel": "conj", "edeps": "4:conj:and", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 8, "word": "are", "lemma": "be", "upos": "AUX", "xpos": "VBP", "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin", "head": 7, "deprel": "cop", "edeps": "7:cop", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
-      {"#": 9, "word": "her", "lemma": "she", "upos": "PRON", "xpos": "PRP$", "feats": "Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs", "head": 10, "deprel": "nmod:poss", "edeps": "10:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Originator|p.Gestalt"},
+      {"#": 9, "word": "her", "lemma": "she", "upos": "PRON", "xpos": "PRP$", "feats": "Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs", "head": 10, "deprel": "nmod:poss", "edeps": "10:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Possessor"},
       {"#": 10, "word": "clothes", "lemma": "clothes", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 7, "deprel": "nsubj", "edeps": "7:nsubj", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.ARTIFACT"},
       {"#": 11, "word": "!", "lemma": "!", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 4, "deprel": "punct", "edeps": "4:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -6021,7 +6021,7 @@
       "6": {"lexlemma": "and", "lexcat": "CCONJ", "ss": null, "ss2": null, "toknums": [6]},
       "7": {"lexlemma": "so", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [7]},
       "8": {"lexlemma": "be", "lexcat": "V", "ss": "v.stative", "ss2": null, "toknums": [8]},
-      "9": {"lexlemma": "she", "lexcat": "PRON.POSS", "ss": "p.Originator", "ss2": "p.Gestalt", "toknums": [9]},
+      "9": {"lexlemma": "she", "lexcat": "PRON.POSS", "ss": "p.Possessor", "ss2": "p.Possessor", "toknums": [9]},
       "10": {"lexlemma": "clothes", "lexcat": "N", "ss": "n.ARTIFACT", "ss2": null, "toknums": [10]},
       "11": {"lexlemma": "!", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [11]}
     },

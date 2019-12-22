@@ -46208,7 +46208,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Originator|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.Possessor"
    },
    {
     "#": 10,
@@ -46300,8 +46300,8 @@
    "9": {
     "lexlemma": "she",
     "lexcat": "PRON.POSS",
-    "ss": "p.Originator",
-    "ss2": "p.Gestalt",
+    "ss": "p.Possessor",
+    "ss2": "p.Possessor",
     "toknums": [
      9
     ],

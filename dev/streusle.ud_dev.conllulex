@@ -2800,7 +2800,7 @@
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 7	so	so	ADV	RB	_	4	conj	4:conj:and	_	_	ADV	so	_	_	_	_	_	O-ADV
 8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	she	p.Originator	p.Gestalt	_	_	_	O-PRON.POSS-p.Originator|p.Gestalt
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	she	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 10	clothes	clothes	NOUN	NNS	Number=Plur	7	nsubj	7:nsubj	SpaceAfter=No	_	N	clothes	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 11	!	!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 

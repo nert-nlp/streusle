@@ -70,7 +70,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 5	incorrect	incorrect	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	incorrect	_	_	_	_	_	O-ADJ
 6	-	-	PUNCT	,	_	5	punct	5:punct	_	_	PUNCT	-	_	_	_	_	_	O-PUNCT
-7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 8	new	new	ADJ	JJ	Degree=Pos	10	amod	10:amod	_	_	ADJ	new	_	_	_	_	_	O-ADJ
 9	mobile	mobile	ADJ	JJ	Degree=Pos	10	amod	10:amod	_	2:1	N	mobile number	n.COMMUNICATION	_	_	_	_	B-N-n.COMMUNICATION
 10	number	number	NOUN	NN	Number=Sing	12	nsubj	12:nsubj|14:nsubj	_	2:2	_	_	_	_	_	_	_	I_
@@ -1965,7 +1965,7 @@
 12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 13	transparent	transparent	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	_	_	ADJ	transparent	_	_	_	_	_	O-ADJ
 14	with	with	ADP	IN	_	16	case	16:case	_	_	P	with	p.Topic	p.Topic	_	_	_	O-P-p.Topic
-15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	they	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 16	fee	fee	NOUN	NN	Number=Sing	13	obl	13:obl:with	_	_	N	fee	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 17	(	(	PUNCT	-LRB-	_	22	punct	22:punct	SpaceAfter=No	_	PUNCT	(	_	_	_	_	_	O-PUNCT
 18	ie	ie	X	FW	_	22	advmod	22:advmod	_	_	X	ie	_	_	_	_	_	O-X
@@ -3004,7 +3004,7 @@
 9	here	here	ADV	RB	PronType=Dem	8	advmod	8:advmod	_	_	ADV	here	_	_	_	_	_	O-ADV
 10	which	which	PRON	WDT	PronType=Rel	11	nsubj	7:ref	_	_	PRON	which	_	_	_	_	_	O-PRON
 11	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_	_	V	make	v.stative	_	_	_	_	O-V-v.stative
-12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	my	p.Agent	p.Agent	_	_	_	O-PRON.POSS-p.Agent
 13	life	life	NOUN	NN	Number=Sing	11	obj	11:obj|14:nsubj:xsubj	_	_	N	life	n.PROCESS	_	_	_	_	O-N-n.PROCESS
 14	step	step	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_	_	V	step	v.stative	_	_	_	_	O-V-v.stative
 15	onto	onto	ADP	IN	_	18	case	18:case	_	_	P	onto	p.Goal	p.Goal	_	_	_	O-P-p.Goal
@@ -3763,7 +3763,7 @@
 11	helping	help	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:in	_	_	V	help	v.social	_	_	_	_	O-V-v.social
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	11:obj	_	_	PRON	I	_	_	_	_	_	O-PRON
 13	with	with	ADP	IN	_	17	case	17:case	_	_	P	with	p.Theme	p.Theme	_	_	_	O-P-p.Theme
-14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.Agent	p.Gestalt	_	_	_	O-PRON.POSS-p.Agent|p.Gestalt
 15	account	account	NOUN	NN	Number=Sing	17	compound	17:compound	_	_	N	account	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 16	set	set	NOUN	NN	Number=Sing	17	compound	17:compound	_	2:1	N	set up	n.ACT	_	_	_	_	B-N-n.ACT
 17	up	up	NOUN	NN	Number=Sing	11	obl	11:obl:with	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
@@ -4841,7 +4841,7 @@
 4	several	several	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	several	_	_	_	_	_	O-ADJ
 5	dentists	dentist	NOUN	NNS	Number=Plur	3	obj	3:obj	_	_	N	dentist	n.PERSON	_	_	_	_	O-N-n.PERSON
 6	in	in	ADP	IN	_	8	case	8:case	_	_	P	in	p.Time	p.Time	_	_	_	O-P-p.Time
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Theme	p.Gestalt	_	_	_	O-PRON.POSS-p.Theme|p.Gestalt
 8	life	life	NOUN	NN	Number=Sing	3	obl	3:obl:in	SpaceAfter=No	_	N	life	n.TIME	_	_	_	_	O-N-n.TIME
 9	,	,	PUNCT	,	_	17	punct	17:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 10	but	but	CCONJ	CC	_	17	cc	17:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
@@ -5289,7 +5289,7 @@
 12	come	come	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	8:acl:relcl	_	2:1	V.IAV	come across	v.stative	_	_	_	_	B-V.IAV-v.stative
 13	across	across	ADP	IN	_	12	obl	12:obl	_	2:2	_	_	_	_	_	_	_	I_
 14	in	in	ADP	IN	_	17	case	17:case	_	_	P	in	p.Time	p.Time	3:1	_	in life	B-P-p.Time
-15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	o-PRON.POSS-p.Possessor
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.Theme	p.Gestalt	_	_	_	o-PRON.POSS-p.Theme|p.Gestalt
 16	whole	whole	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	whole	_	_	_	_	_	o-ADJ
 17	life	life	NOUN	NN	Number=Sing	12	obl	12:obl:in	SpaceAfter=No	_	N	life	n.COGNITION	_	3:2	_	_	I~-N-n.COGNITION
 18	!	!	PUNCT	.	_	8	punct	8:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
