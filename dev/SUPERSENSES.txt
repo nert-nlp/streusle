@@ -54,7 +54,7 @@
   13 p.Explanation	p.Explanation
    4 p.Extent	p.Extent
    1 p.Frequency	p.Frequency
-   7 p.Gestalt	p.Gestalt
+   8 p.Gestalt	p.Gestalt
    2 p.Gestalt	p.Purpose
   16 p.Goal	p.Goal
    3 p.Goal	p.Locus
@@ -83,7 +83,7 @@
    4 p.PartPortion	p.PartPortion
    4 p.Possession	p.Accompanier
    1 p.Possession	p.Locus
-  21 p.Possessor	p.Possessor
+  20 p.Possessor	p.Possessor
   28 p.Purpose	p.Purpose
    2 p.Quantity	p.Quantity
    1 p.Quantity	p.Stuff

@@ -11349,7 +11349,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.Possessor"
+    "lextag": "O-PRON.POSS-p.Gestalt"
    },
    {
     "#": 10,
@@ -11564,8 +11564,8 @@
    "9": {
     "lexlemma": "you",
     "lexcat": "PRON.POSS",
-    "ss": "p.Possessor",
-    "ss2": "p.Possessor",
+    "ss": "p.Gestalt",
+    "ss2": "p.Gestalt",
     "toknums": [
      9
     ],

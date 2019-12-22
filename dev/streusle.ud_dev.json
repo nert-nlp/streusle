@@ -1524,7 +1524,7 @@
       {"#": 6, "word": "who", "lemma": "who", "upos": "PRON", "xpos": "WP", "feats": "PronType=Rel", "head": 8, "deprel": "nsubj", "edeps": "5:ref", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 7, "word": "will", "lemma": "will", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 8, "deprel": "aux", "edeps": "8:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 8, "word": "defend", "lemma": "defend", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 5, "deprel": "acl:relcl", "edeps": "5:acl:relcl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
-      {"#": 9, "word": "your", "lemma": "you", "upos": "PRON", "xpos": "PRP$", "feats": "Person=2|Poss=Yes|PronType=Prs", "head": 10, "deprel": "nmod:poss", "edeps": "10:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Possessor"},
+      {"#": 9, "word": "your", "lemma": "you", "upos": "PRON", "xpos": "PRP$", "feats": "Person=2|Poss=Yes|PronType=Prs", "head": 10, "deprel": "nmod:poss", "edeps": "10:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Gestalt"},
       {"#": 10, "word": "right", "lemma": "right", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 8, "deprel": "obj", "edeps": "8:obj", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.COGNITION"},
       {"#": 11, "word": ",", "lemma": ",", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 12, "deprel": "punct", "edeps": "12:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 12, "word": "contact", "lemma": "contact", "upos": "VERB", "xpos": "VB", "feats": "Mood=Imp|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.communication"},
@@ -1544,7 +1544,7 @@
       "6": {"lexlemma": "who", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [6]},
       "7": {"lexlemma": "will", "lexcat": "AUX", "ss": null, "ss2": null, "toknums": [7]},
       "8": {"lexlemma": "defend", "lexcat": "V", "ss": "v.social", "ss2": null, "toknums": [8]},
-      "9": {"lexlemma": "you", "lexcat": "PRON.POSS", "ss": "p.Possessor", "ss2": "p.Possessor", "toknums": [9]},
+      "9": {"lexlemma": "you", "lexcat": "PRON.POSS", "ss": "p.Gestalt", "ss2": "p.Gestalt", "toknums": [9]},
       "10": {"lexlemma": "right", "lexcat": "N", "ss": "n.COGNITION", "ss2": null, "toknums": [10]},
       "11": {"lexlemma": ",", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [11]},
       "12": {"lexlemma": "contact", "lexcat": "V", "ss": "v.communication", "ss2": null, "toknums": [12]}
