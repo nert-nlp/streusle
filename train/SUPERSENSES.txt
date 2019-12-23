@@ -144,7 +144,7 @@
    2 p.Possession	p.Locus
    1 p.Possession	p.PartPortion
    2 p.Possession	p.Possession
-   3 p.Possession	p.Theme
+  25 p.Possession	p.Theme
    3 p.Possessor	p.Accompanier
    1 p.Possessor	p.Locus
  270 p.Possessor	p.Possessor
@@ -179,8 +179,8 @@
   23 p.Theme	p.Gestalt
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
-  22 p.Theme	p.Purpose
- 134 p.Theme	p.Theme
+  24 p.Theme	p.Purpose
+ 110 p.Theme	p.Theme
    2 p.Theme	p.Whole
    1 p.Time	p.Direction
    2 p.Time	p.Extent
@@ -241,8 +241,8 @@ p.* by LexCat + construal type
 ========================
  149 INF.P	p.X ~> p.X
   57 INF.P	p.X ~> p.Y
-2464 P	p.X ~> p.X
- 812 P	p.X ~> p.Y
+2440 P	p.X ~> p.X
+ 836 P	p.X ~> p.Y
   20 POSS	p.X ~> p.X
   31 POSS	p.X ~> p.Y
   82 PP	p.X ~> p.X

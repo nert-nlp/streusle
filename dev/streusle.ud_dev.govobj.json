@@ -76153,7 +76153,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Theme"
+    "lextag": "O-P-p.Theme|p.Purpose"
    },
    {
     "#": 18,
@@ -76387,7 +76387,7 @@
     "lexlemma": "for",
     "lexcat": "P",
     "ss": "p.Theme",
-    "ss2": "p.Theme",
+    "ss2": "p.Purpose",
     "toknums": [
      17
     ],
@@ -109001,7 +109001,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Theme"
+    "lextag": "O-P-p.Theme|p.Purpose"
    },
    {
     "#": 10,
@@ -109141,7 +109141,7 @@
     "lexlemma": "for",
     "lexcat": "P",
     "ss": "p.Theme",
-    "ss2": "p.Theme",
+    "ss2": "p.Purpose",
     "toknums": [
      9
     ],

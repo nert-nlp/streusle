@@ -127,7 +127,7 @@ reviews-088954-0001	A|DET thoroughly|ADV comprehensive|ADJ service|N-n.ACT ;|PUN
 reviews-089136-0001	AWESOME|ADJ food|N-n.FOOD !|PUNCT
 reviews-089136-0002	Make_sure|V.VID-v.cognition to|INF put|V-v.contact OILY|ADJ sauces|N-n.FOOD on|P-p.Goal:p.Locus your|PRON.POSS-p.Possessor food|N-n.FOOD to|INF.P-p.Purpose make|V-v.stative it|PRON moist|ADJ !|PUNCT
 reviews-089136-0003	YUM|INTJ
-reviews-097548-0001	The|DET company|N-n.GROUP gets|V-v.stative busy|ADJ but|CCONJ you|PRON never|ADV have_to|AUX wait|V-v.cognition long|ADV because|SCONJ they|PRON ARE|V-v.stative orginizied|ADJ ,|PUNCT so|ADV you|PRON are|V-v.stative in|P-p.Locus ,|PUNCT out|P-p.Locus ,|PUNCT and|CCONJ paid|V-v.possession well|ADV for|P-p.Theme your|PRON.POSS-p.Possessor scrap|N-n.ARTIFACT
+reviews-097548-0001	The|DET company|N-n.GROUP gets|V-v.stative busy|ADJ but|CCONJ you|PRON never|ADV have_to|AUX wait|V-v.cognition long|ADV because|SCONJ they|PRON ARE|V-v.stative orginizied|ADJ ,|PUNCT so|ADV you|PRON are|V-v.stative in|P-p.Locus ,|PUNCT out|P-p.Locus ,|PUNCT and|CCONJ paid|V-v.possession well|ADV for|P-p.Possession:p.Theme your|PRON.POSS-p.Possessor scrap|N-n.ARTIFACT
 reviews-101864-0001	No|DET complaints|N-n.COMMUNICATION
 reviews-101864-0002	I|PRON have_ no|DET _complaints|V.LVC.full-v.communication about|P-p.Topic the|DET service|N-n.ACT~ I|PRON ~received|V-v.social .|PUNCT
 reviews-101864-0003	This|DET man|N-n.PERSON was|V-v.stative polite|ADJ ,|PUNCT professional|ADJ ,|PUNCT clean|ADJ and|CCONJ quick|ADJ .|PUNCT
@@ -353,8 +353,8 @@ reviews-256677-0002	This|DET place|N-n.GROUP is|V-v.stative great|ADJ !|PUNCT
 reviews-256677-0003	Craig|N-n.PERSON and|CCONJ Nate|N-n.PERSON are|V-v.stative wonderful|ADJ .|PUNCT
 reviews-256677-0004	I|PRON know|V-v.cognition now|ADV where|ADV to|INF get|V-v.possession all|DET of|P-p.Quantity:p.Whole my|PRON.POSS-p.Possessor wine|N-n.FOOD and|CCONJ beer|N-n.FOOD .|PUNCT
 reviews-256677-0005	No|DET~need|N-n.COGNITION~to|INF go|V-v.motion to|P-p.Goal a|DET grocer|N-n.GROUP again|ADV .|PUNCT
-reviews-257735-0001	Do|AUX n't|ADV waste|V-v.consumption your|PRON.POSS-p.Possessor money|N-n.POSSESSION on|P-p.Theme the|DET jukebox|N-n.ARTIFACT
-reviews-257735-0002	The|DET bartender|N-n.PERSON is|V-v.stative a|DET douchebag|N-n.PERSON and|CCONJ he|PRON has|V-v.stative a|DET little|ADJ console|N-n.ARTIFACT behind|P-p.Locus the|DET bar|N-n.LOCATION where|ADV he|PRON can|AUX delete|V-v.change songs|N-n.COMMUNICATION he|PRON does|AUX n't|ADV like|V-v.emotion ,|PUNCT and|CCONJ you|PRON end_up|V.VPC.full-v.stative paying|V-v.possession for|P-p.Theme it|PRON .|PUNCT
+reviews-257735-0001	Do|AUX n't|ADV waste|V-v.consumption your|PRON.POSS-p.Possessor money|N-n.POSSESSION on|P-p.Possession:p.Theme the|DET jukebox|N-n.ARTIFACT
+reviews-257735-0002	The|DET bartender|N-n.PERSON is|V-v.stative a|DET douchebag|N-n.PERSON and|CCONJ he|PRON has|V-v.stative a|DET little|ADJ console|N-n.ARTIFACT behind|P-p.Locus the|DET bar|N-n.LOCATION where|ADV he|PRON can|AUX delete|V-v.change songs|N-n.COMMUNICATION he|PRON does|AUX n't|ADV like|V-v.emotion ,|PUNCT and|CCONJ you|PRON end_up|V.VPC.full-v.stative paying|V-v.possession for|P-p.Possession:p.Theme it|PRON .|PUNCT
 reviews-257735-0003	Not|ADV enough|ADJ seating|N-n.ATTRIBUTE .|PUNCT
 reviews-263909-0001	Great|ADJ Service|N-n.ACT Great|ADJ People|N-n.PERSON
 reviews-263909-0002	Bisconti|N-n.GROUP wanted|V-v.cognition over|P-p.Approximator $|SYM 300|NUM to|INF.P-p.Theme:p.Purpose fix|V-v.change my|PRON.POSS-p.Possessor laptop|N-n.ARTIFACT and|CCONJ these|DET guys|N-n.PERSON fixed|V-v.change it|PRON for|P-p.Cost $|SYM 90|NUM !|PUNCT

@@ -34922,7 +34922,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Theme"
+    "lextag": "O-P-p.Possession|p.Theme"
    },
    {
     "#": 28,
@@ -35190,7 +35190,7 @@
    "27": {
     "lexlemma": "for",
     "lexcat": "P",
-    "ss": "p.Theme",
+    "ss": "p.Possession",
     "ss2": "p.Theme",
     "toknums": [
      27
@@ -95276,7 +95276,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Theme"
+    "lextag": "O-P-p.Possession|p.Theme"
    },
    {
     "#": 7,
@@ -95366,7 +95366,7 @@
    "6": {
     "lexlemma": "on",
     "lexcat": "P",
-    "ss": "p.Theme",
+    "ss": "p.Possession",
     "ss2": "p.Theme",
     "toknums": [
      6
@@ -95861,7 +95861,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Theme"
+    "lextag": "O-P-p.Possession|p.Theme"
    },
    {
     "#": 31,
@@ -96149,7 +96149,7 @@
    "30": {
     "lexlemma": "for",
     "lexcat": "P",
-    "ss": "p.Theme",
+    "ss": "p.Possession",
     "ss2": "p.Theme",
     "toknums": [
      30

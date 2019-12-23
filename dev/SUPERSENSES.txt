@@ -99,7 +99,8 @@
    1 p.Stimulus	p.Theme
    7 p.Stimulus	p.Topic
    1 p.Theme	p.ComparisonRef
-  18 p.Theme	p.Theme
+   2 p.Theme	p.Purpose
+  16 p.Theme	p.Theme
    2 p.Time	p.Interval
   18 p.Time	p.Time
   10 p.Topic	p.Topic
@@ -148,8 +149,8 @@ p.* by LexCat + construal type
 ========================
   11 INF.P	p.X ~> p.X
   16 INF.P	p.X ~> p.Y
- 249 P	p.X ~> p.X
-  80 P	p.X ~> p.Y
+ 247 P	p.X ~> p.X
+  82 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    5 POSS	p.X ~> p.Y
    8 PP	p.X ~> p.X

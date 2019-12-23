@@ -80,6 +80,7 @@
    1 p.Path	p.Locus
    3 p.Path	p.Path
    1 p.Possession	p.Accompanier
+   3 p.Possession	p.Theme
   29 p.Possessor	p.Possessor
    1 p.Purpose	p.Goal
   17 p.Purpose	p.Purpose
@@ -102,7 +103,7 @@
    1 p.Theme	p.ComparisonRef
    3 p.Theme	p.Gestalt
    1 p.Theme	p.Purpose
-  10 p.Theme	p.Theme
+   7 p.Theme	p.Theme
    1 p.Time	p.Direction
    1 p.Time	p.Duration
    2 p.Time	p.Interval
@@ -159,8 +160,8 @@ p.* by LexCat + construal type
 ========================
    9 INF.P	p.X ~> p.X
   11 INF.P	p.X ~> p.Y
- 252 P	p.X ~> p.X
- 101 P	p.X ~> p.Y
+ 249 P	p.X ~> p.X
+ 104 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    8 PP	p.X ~> p.X
    7 PP	p.X ~> p.Y

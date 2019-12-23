@@ -300,7 +300,7 @@ reviews-202402-0002	When|ADV my|PRON.POSS-p.Possessor server|N-n.PERSON crashed|
 reviews-202402-0003	That|PRON 's|V-v.stative what|PRON I|PRON call|V-v.communication customer_service|N-n.ACT !|PUNCT
 reviews-202709-0001	Elmira|N-n.PERSON ,|PUNCT you|PRON r|V-v.stative the|DET best|ADJ !|PUNCT
 reviews-202709-0002	All|DET I|PRON can|AUX say|V-v.communication is|V-v.stative that|SCONJ Elmira|N-n.PERSON you|PRON are|V-v.stative the|DET best|ADJ I|PRON ve|AUX experienced|V-v.social ,|PUNCT never|ADV before|P-p.Time has|AUX the|DET seamstress|N-n.PERSON done_ a|DET perfect|ADJ _job|V.LVC.full-v.social until|P-p.EndTime i|PRON met|V-v.social you|PRON .|PUNCT
-reviews-202709-0003	I|PRON recommend|V-v.communication you|PRON to|P-p.Recipient:p.Goal everyone|PRON in|P-p.Locus Calgary|N-n.LOCATION ,|PUNCT as|P-p.Explanation she|PRON is|V-v.stative a|DET professional|N-n.PERSON and|CCONJ the|DET cost|N-n.POSSESSION for|P-p.Theme her|PRON was|V-v.stative low|ADJ .|PUNCT
+reviews-202709-0003	I|PRON recommend|V-v.communication you|PRON to|P-p.Recipient:p.Goal everyone|PRON in|P-p.Locus Calgary|N-n.LOCATION ,|PUNCT as|P-p.Explanation she|PRON is|V-v.stative a|DET professional|N-n.PERSON and|CCONJ the|DET cost|N-n.POSSESSION for|P-p.Theme:p.Purpose her|PRON was|V-v.stative low|ADJ .|PUNCT
 reviews-203196-0001	VINGAS|N-n.GROUP
 reviews-203196-0002	VISAKHA_INDUSTRIAL_GASES_PVT._LTD.|N-n.GROUP ,|PUNCT location|N-n.LOCATION at|P-p.Locus google_maps|N-n.COMMUNICATION .|PUNCT
 reviews-205014-0001	A|DET Great|ADJ Help|N-n.COGNITION !|PUNCT
@@ -428,7 +428,7 @@ reviews-306740-0002	My|PRON.POSS-p.SocialRel:p.Gestalt son|N-n.PERSON was|V-v.st
 reviews-306740-0003	A|DET wonderful|ADJ tutoring|N-n.ACT service|N-n.ACT for|P-p.Beneficiary students|N-n.PERSON needing|V-v.cognition help|N-n.ACT with|P-p.Theme elementary|ADJ -|PUNCT middle_school|N-n.GROUP work|N-n.ACT .|PUNCT
 reviews-307209-0001	LOCATION|N-n.GROUP HAS|AUX CLOSED|V-v.stative .|PUNCT
 reviews-307209-0002	HAS|AUX MOVED|V-v.change TO|P-p.Goal 4783|NUM Bay_Rd|N-n.LOCATION Saginaw|N-n.LOCATION~,|PUNCT~Michigan|N-n.LOCATION 48604|NUM (_989_)_755-1109|NUM
-reviews-307250-0001	$|SYM 9.62|NUM excluding|V-v.stative tip|N-n.POSSESSION with|P-p.Accompanier water|N-n.FOOD to|INF.P-p.Characteristic:p.Purpose drink|V-v.consumption for|P-p.Theme the|DET buffet|N-n.FOOD .|PUNCT
+reviews-307250-0001	$|SYM 9.62|NUM excluding|V-v.stative tip|N-n.POSSESSION with|P-p.Accompanier water|N-n.FOOD to|INF.P-p.Characteristic:p.Purpose drink|V-v.consumption for|P-p.Theme:p.Purpose the|DET buffet|N-n.FOOD .|PUNCT
 reviews-307250-0002	Worst|ADJ buffet|N-n.FOOD period|DISC by_far|PP-p.Extent .|PUNCT
 reviews-307250-0003	I|PRON want|V-v.cognition my|PRON.POSS-p.Possessor money|N-n.POSSESSION~back|P-p.Direction !|PUNCT
 reviews-308297-0001	Great|ADJ Place|N-n.GROUP !|PUNCT

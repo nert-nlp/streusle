@@ -2043,7 +2043,7 @@
 24	and	and	CCONJ	CC	_	25	cc	25:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 25	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	19:advmod|20:conj:and	_	_	V	pay	v.possession	_	_	_	_	O-V-v.possession
 26	well	well	ADV	RB	Degree=Pos	25	advmod	25:advmod	_	_	ADV	well	_	_	_	_	_	O-ADV
-27	for	for	ADP	IN	_	29	case	29:case	_	_	P	for	p.Theme	p.Theme	_	_	_	O-P-p.Theme
+27	for	for	ADP	IN	_	29	case	29:case	_	_	P	for	p.Possession	p.Theme	_	_	_	O-P-p.Possession|p.Theme
 28	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	_	_	PRON.POSS	you	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 29	scrap	scrap	NOUN	NN	Number=Sing	25	obl	25:obl:for	_	_	N	scrap	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 
@@ -5558,7 +5558,7 @@
 3	waste	waste	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	_	V	waste	v.consumption	_	_	_	_	O-V-v.consumption
 4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_	_	PRON.POSS	you	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 5	money	money	NOUN	NN	Number=Sing	3	obj	3:obj	_	_	N	money	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
-6	on	on	ADP	IN	_	8	case	8:case	_	_	P	on	p.Theme	p.Theme	_	_	_	O-P-p.Theme
+6	on	on	ADP	IN	_	8	case	8:case	_	_	P	on	p.Possession	p.Theme	_	_	_	O-P-p.Possession|p.Theme
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	_	DET	the	_	_	_	_	_	O-DET
 8	jukebox	jukebox	NOUN	NN	Number=Sing	3	obl	3:obl:on	_	_	N	jukebox	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 
@@ -5595,7 +5595,7 @@
 27	end	end	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	5:conj:and	_	1:1	V.VPC.full	end up	v.stative	_	_	_	_	B-V.VPC.full-v.stative
 28	up	up	ADP	RP	_	27	compound:prt	27:compound:prt	_	1:2	_	_	_	_	_	_	_	I_
 29	paying	pay	VERB	VBG	VerbForm=Ger	27	xcomp	27:xcomp	_	_	V	pay	v.possession	_	_	_	_	O-V-v.possession
-30	for	for	ADP	IN	_	31	case	31:case	_	_	P	for	p.Theme	p.Theme	_	_	_	O-P-p.Theme
+30	for	for	ADP	IN	_	31	case	31:case	_	_	P	for	p.Possession	p.Theme	_	_	_	O-P-p.Possession|p.Theme
 31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obl	29:obl:for	SpaceAfter=No	_	PRON	it	_	_	_	_	_	O-PRON
 32	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

@@ -4559,7 +4559,7 @@
 14	and	and	CCONJ	CC	_	20	cc	20:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	_	_	DET	the	_	_	_	_	_	O-DET
 16	cost	cost	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	_	_	N	cost	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
-17	for	for	ADP	IN	_	18	case	18:case	_	_	P	for	p.Theme	p.Theme	_	_	_	O-P-p.Theme
+17	for	for	ADP	IN	_	18	case	18:case	_	_	P	for	p.Theme	p.Purpose	_	_	_	O-P-p.Theme|p.Purpose
 18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nmod	16:nmod:for	_	_	PRON	she	_	_	_	_	_	O-PRON
 19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	20:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 20	low	low	ADJ	JJ	Degree=Pos	13	conj	2:advcl:as|13:conj:and	SpaceAfter=No	_	ADJ	low	_	_	_	_	_	O-ADJ
@@ -6500,7 +6500,7 @@
 6	water	water	NOUN	NN	Number=Sing	1	nmod	1:nmod:with	_	_	N	water	n.FOOD	_	_	_	_	O-N-n.FOOD
 7	to	to	PART	TO	_	8	mark	8:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
 8	drink	drink	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_	_	V	drink	v.consumption	_	_	_	_	O-V-v.consumption
-9	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Theme	p.Theme	_	_	_	O-P-p.Theme
+9	for	for	ADP	IN	_	11	case	11:case	_	_	P	for	p.Theme	p.Purpose	_	_	_	O-P-p.Theme|p.Purpose
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_	_	DET	the	_	_	_	_	_	O-DET
 11	buffet	buffet	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	SpaceAfter=No	_	N	buffet	n.FOOD	_	_	_	_	O-N-n.FOOD
 12	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
