@@ -185,10 +185,11 @@
    1 p.Theme	p.Characteristic
   19 p.Theme	p.ComparisonRef
   26 p.Theme	p.Gestalt
+   3 p.Theme	p.Goal
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
   27 p.Theme	p.Purpose
- 133 p.Theme	p.Theme
+ 130 p.Theme	p.Theme
    2 p.Theme	p.Whole
    2 p.Time	p.Direction
    1 p.Time	p.Duration
@@ -251,8 +252,8 @@ p.* by LexCat + construal type
 ========================
  169 INF.P	p.X ~> p.X
   84 INF.P	p.X ~> p.Y
-2936 P	p.X ~> p.X
-1022 P	p.X ~> p.Y
+2933 P	p.X ~> p.X
+1025 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   36 POSS	p.X ~> p.Y
   98 PP	p.X ~> p.X
