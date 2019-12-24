@@ -93,7 +93,7 @@
    2 p.Gestalt	p.Purpose
    1 p.Gestalt	p.Source
    2 p.Gestalt	p.Topic
- 196 p.Goal	p.Goal
+ 192 p.Goal	p.Goal
   40 p.Goal	p.Locus
    1 p.Goal	p.Whole
    5 p.Identity	p.ComparisonRef
@@ -139,10 +139,10 @@
    1 p.Originator	p.Instrument
   45 p.Originator	p.Source
    9 p.PartPortion	p.ComparisonRef
-   5 p.PartPortion	p.Goal
+   9 p.PartPortion	p.Goal
    1 p.PartPortion	p.Instrument
   35 p.PartPortion	p.PartPortion
-   6 p.PartPortion	p.Source
+   9 p.PartPortion	p.Source
    1 p.Path	p.Goal
    5 p.Path	p.Locus
   21 p.Path	p.Path
@@ -169,7 +169,7 @@
   19 p.SocialRel	p.Co-Agent
  201 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Source
-  77 p.Source	p.Source
+  74 p.Source	p.Source
   39 p.Species	p.Species
   29 p.StartTime	p.StartTime
    3 p.Stimulus	p.Beneficiary
@@ -252,8 +252,8 @@ p.* by LexCat + construal type
 ========================
  169 INF.P	p.X ~> p.X
   84 INF.P	p.X ~> p.Y
-2933 P	p.X ~> p.X
-1025 P	p.X ~> p.Y
+2926 P	p.X ~> p.X
+1032 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   36 POSS	p.X ~> p.Y
   98 PP	p.X ~> p.X
@@ -266,8 +266,8 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  250 INF.P 	p.OTH ~> *
-1093 P 	p.LOC ~> *
-2422 P 	p.OTH ~> *
+1086 P 	p.LOC ~> *
+2429 P 	p.OTH ~> *
  443 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *
   52 POSS 	p.OTH ~> *
