@@ -2708,7 +2708,7 @@
 5	and	and	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 6	well	well	ADV	RB	Degree=Pos	7	advmod	7:advmod	_	_	ADV	well	_	_	_	_	_	O-ADV
 7	run	run	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	4:conj:and	_	_	V	run	v.social	_	_	_	_	O-V-v.social
-8	with	with	ADP	IN	_	10	case	10:case	_	_	P	with	p.OrgRole	p.Characteristic	_	_	_	O-P-p.OrgRole|p.Characteristic
+8	with	with	ADP	IN	_	10	case	10:case	_	_	P	with	p.OrgRole	p.PartPortion	_	_	_	O-P-p.OrgRole|p.PartPortion
 9	great	great	ADJ	JJ	Degree=Pos	10	amod	10:amod	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 10	people	people	NOUN	NNS	Number=Plur	7	obl	7:obl:with	SpaceAfter=No	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 11	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -7771,7 +7771,7 @@
 1	Well	well	ADV	RB	Degree=Pos	2	advmod	2:advmod	_	_	ADV	well	_	_	_	_	_	O-ADV
 2	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	3:amod	_	_	V	keep	v.stative	_	_	_	_	O-V-v.stative
 3	facility	facility	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	facility	n.GROUP	_	_	_	_	O-N-n.GROUP
-4	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.OrgRole	p.Characteristic	_	_	_	O-P-p.OrgRole|p.Characteristic
+4	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.OrgRole	p.PartPortion	_	_	_	O-P-p.OrgRole|p.PartPortion
 5	friendly	friendly	ADJ	JJ	Degree=Pos	6	amod	6:amod	_	_	ADJ	friendly	_	_	_	_	_	O-ADJ
 6	staff	staff	NOUN	NNS	Number=Plur	3	nmod	3:nmod:with	SpaceAfter=No	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 7	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT

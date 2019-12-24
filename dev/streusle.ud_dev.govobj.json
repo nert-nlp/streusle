@@ -44643,7 +44643,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Characteristic"
+    "lextag": "O-P-p.OrgRole|p.PartPortion"
    },
    {
     "#": 9,
@@ -44760,7 +44760,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.OrgRole",
-    "ss2": "p.Characteristic",
+    "ss2": "p.PartPortion",
     "toknums": [
      8
     ],
@@ -130716,7 +130716,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Characteristic"
+    "lextag": "O-P-p.OrgRole|p.PartPortion"
    },
    {
     "#": 5,
@@ -130797,7 +130797,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.OrgRole",
-    "ss2": "p.Characteristic",
+    "ss2": "p.PartPortion",
     "toknums": [
      4
     ],

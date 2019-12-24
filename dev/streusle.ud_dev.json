@@ -5810,7 +5810,7 @@
       {"#": 5, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 7, "deprel": "cc", "edeps": "7:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
       {"#": 6, "word": "well", "lemma": "well", "upos": "ADV", "xpos": "RB", "feats": "Degree=Pos", "head": 7, "deprel": "advmod", "edeps": "7:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 7, "word": "run", "lemma": "run", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 4, "deprel": "conj", "edeps": "4:conj:and", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
-      {"#": 8, "word": "with", "lemma": "with", "upos": "ADP", "xpos": "IN", "feats": null, "head": 10, "deprel": "case", "edeps": "10:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.OrgRole|p.Characteristic"},
+      {"#": 8, "word": "with", "lemma": "with", "upos": "ADP", "xpos": "IN", "feats": null, "head": 10, "deprel": "case", "edeps": "10:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.OrgRole|p.PartPortion"},
       {"#": 9, "word": "great", "lemma": "great", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 10, "deprel": "amod", "edeps": "10:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 10, "word": "people", "lemma": "people", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 7, "deprel": "obl", "edeps": "7:obl:with", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.PERSON"},
       {"#": 11, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 4, "deprel": "punct", "edeps": "4:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
@@ -5824,7 +5824,7 @@
       "5": {"lexlemma": "and", "lexcat": "CCONJ", "ss": null, "ss2": null, "toknums": [5]},
       "6": {"lexlemma": "well", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [6]},
       "7": {"lexlemma": "run", "lexcat": "V", "ss": "v.social", "ss2": null, "toknums": [7]},
-      "8": {"lexlemma": "with", "lexcat": "P", "ss": "p.OrgRole", "ss2": "p.Characteristic", "toknums": [8]},
+      "8": {"lexlemma": "with", "lexcat": "P", "ss": "p.OrgRole", "ss2": "p.PartPortion", "toknums": [8]},
       "9": {"lexlemma": "great", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [9]},
       "10": {"lexlemma": "people", "lexcat": "N", "ss": "n.PERSON", "ss2": null, "toknums": [10]},
       "11": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [11]}
@@ -16685,7 +16685,7 @@
       {"#": 1, "word": "Well", "lemma": "well", "upos": "ADV", "xpos": "RB", "feats": "Degree=Pos", "head": 2, "deprel": "advmod", "edeps": "2:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 2, "word": "kept", "lemma": "keep", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 3, "deprel": "amod", "edeps": "3:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 3, "word": "facility", "lemma": "facility", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
-      {"#": 4, "word": "with", "lemma": "with", "upos": "ADP", "xpos": "IN", "feats": null, "head": 6, "deprel": "case", "edeps": "6:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.OrgRole|p.Characteristic"},
+      {"#": 4, "word": "with", "lemma": "with", "upos": "ADP", "xpos": "IN", "feats": null, "head": 6, "deprel": "case", "edeps": "6:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.OrgRole|p.PartPortion"},
       {"#": 5, "word": "friendly", "lemma": "friendly", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 6, "deprel": "amod", "edeps": "6:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 6, "word": "staff", "lemma": "staff", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 3, "deprel": "nmod", "edeps": "3:nmod:with", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 7, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 3, "deprel": "punct", "edeps": "3:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
@@ -16695,7 +16695,7 @@
       "1": {"lexlemma": "well", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [1]},
       "2": {"lexlemma": "keep", "lexcat": "V", "ss": "v.stative", "ss2": null, "toknums": [2]},
       "3": {"lexlemma": "facility", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [3]},
-      "4": {"lexlemma": "with", "lexcat": "P", "ss": "p.OrgRole", "ss2": "p.Characteristic", "toknums": [4]},
+      "4": {"lexlemma": "with", "lexcat": "P", "ss": "p.OrgRole", "ss2": "p.PartPortion", "toknums": [4]},
       "5": {"lexlemma": "friendly", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [5]},
       "6": {"lexlemma": "staff", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [6]},
       "7": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [7]}

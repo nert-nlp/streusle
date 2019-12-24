@@ -71,10 +71,10 @@
    9 p.Manner	p.Locus
    1 p.Manner	p.Manner
    2 p.Means	p.Means
-   2 p.OrgRole	p.Characteristic
    1 p.OrgRole	p.Co-Agent
    4 p.OrgRole	p.Gestalt
    2 p.OrgRole	p.Locus
+   2 p.OrgRole	p.PartPortion
    4 p.OrgRole	p.Possessor
    2 p.Originator	p.Agent
    8 p.Originator	p.Gestalt

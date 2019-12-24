@@ -182,7 +182,7 @@ reviews-117893-0001	Aweesome|ADJ
 reviews-117893-0002	Holy_cow|DISC was|V-v.stative that|PRON a|DET delicious|ADJ meal|N-n.FOOD .|PUNCT
 reviews-117893-0003	Hot|ADJ ,|PUNCT fresh|ADJ ,|PUNCT delicious|ADJ .|PUNCT
 reviews-117893-0004	Loved|V-v.emotion every|DET bit|N-n.QUANTITY of|P-p.Quantity:p.Whole it|PRON .|PUNCT :)|SYM
-reviews-118770-0001	This|DET place|N-n.GROUP is|V-v.stative clean|ADJ and|CCONJ well|ADV run|V-v.social with|P-p.OrgRole:p.Characteristic great|ADJ people|N-n.PERSON .|PUNCT
+reviews-118770-0001	This|DET place|N-n.GROUP is|V-v.stative clean|ADJ and|CCONJ well|ADV run|V-v.social with|P-p.OrgRole:p.PartPortion great|ADJ people|N-n.PERSON .|PUNCT
 reviews-118770-0002	The|DET food|N-n.FOOD is|V-v.stative fresh|ADJ and|CCONJ taste|V-v.perception great|ADJ .|PUNCT
 reviews-118770-0003	Great|ADJ value|N-n.COGNITION and|CCONJ service|N-n.ACT .|PUNCT
 reviews-118770-0004	We|PRON will|AUX be|V-v.stative back|P-p.Direction again|ADV and|CCONJ again|ADV !!|PUNCT
@@ -510,7 +510,7 @@ reviews-363633-0003	Staff|N-n.PERSON is|V-v.stative super|ADV friendly|ADJ and|C
 reviews-363633-0004	Price|N-n.POSSESSION is|V-v.stative also|ADV very|ADV reasonable|ADJ .|PUNCT
 reviews-365688-0001	No|DET meat|N-n.FOOD on|P-p.Locus Burger|N-n.FOOD and|CCONJ too|ADV much|ADJ pepper|N-n.FOOD .|PUNCT
 reviews-365688-0002	no|DET place|N-n.LOCATION to|INF.P-p.Characteristic:p.Purpose seat|V-v.stative
-reviews-367586-0001	Well|ADV kept|V-v.stative facility|N-n.GROUP with|P-p.OrgRole:p.Characteristic friendly|ADJ staff|N-n.GROUP .|PUNCT
+reviews-367586-0001	Well|ADV kept|V-v.stative facility|N-n.GROUP with|P-p.OrgRole:p.PartPortion friendly|ADJ staff|N-n.GROUP .|PUNCT
 reviews-368431-0001	Ray_'s_pizza|N-n.GROUP :|PUNCT my|PRON.POSS-p.Experiencer:p.Gestalt favorite|N-n.COGNITION
 reviews-368431-0002	Ray_'s_Pizza|N-n.GROUP is|V-v.stative just|ADV too|ADV good|ADJ .|PUNCT
 reviews-368431-0003	I|PRON wish|V-v.cognition I|PRON could|AUX have|V-v.consumption a|DET slice|N-n.FOOD for|P-p.Circumstance every|DET single|ADJ meal|N-n.EVENT .|PUNCT

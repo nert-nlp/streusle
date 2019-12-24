@@ -119,12 +119,12 @@
    1 p.Means	p.Path
    1 p.OrgRole	p.Accompanier
    4 p.OrgRole	p.Beneficiary
-   4 p.OrgRole	p.Characteristic
    5 p.OrgRole	p.Co-Agent
   25 p.OrgRole	p.Gestalt
    6 p.OrgRole	p.Goal
    3 p.OrgRole	p.Instrument
   24 p.OrgRole	p.Locus
+   4 p.OrgRole	p.PartPortion
   15 p.OrgRole	p.Possessor
    4 p.OrgRole	p.Source
    2 p.OrgRole	p.Whole
