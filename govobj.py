@@ -38,6 +38,10 @@ STRANDING:
 - everyone I work *with*:     gov=work, obj=everyone, config=stranded
 - she is easy to work *with*: gov=work, obj=she,      config=stranded
 
+COPULAR STRANDING:
+- the city I'm *in*:          gov=I, obj=city, config=predicative+stranded
+
+(Not handled: "the store is a pleasure to be in", obj=store)
 
 JSON output sample for 'my grandfather'--the added information is under "heuristic_relation":
 
@@ -85,7 +89,7 @@ def enhance(sent):
                 ed = edeps[0].split(':')
                 tok['head'] = int(ed[0].split('.')[0])  # if a copy node, e.g. "7.1", set head to 7
                 tok['deprel'] = ed[1]
-            
+
 def deenhance(sent):
     """
     Reinstate Basic Dependencies deprels.
@@ -143,19 +147,19 @@ def findgovobj(pexpr, sent):
         pptop = sent['toks'][tok1['head']-1] if tok1['head']>0 else None
         if otok is None:
             otok = pptop
-        
+
         # We need a bunch of heuristics to deal with syntactically weird constructions/expressions.
         # Note that the governor of a SNACS (p.* supersense) expression shouldn't be another SNACS expression, with a few rare exceptions:
         # - copular intransitive P + PP: I was in two weeks AGO: gov = "in"; "they were out FOR the day": gov = "out"
         # - possessives in idiomatic PPs: "on_ our _way", "on_ my _own", etc.
-        
+
         if tok1['lemma']=='as' and sent['toks'][pptop['head']-1]['lemma']=='as': # 2nd AS in as-as construction
             pptop = sent['toks'][pptop['head']-1]   # essentially treat the object of the first AS as the governor of the 2nd AS. "as tall AS a horse": gov = tall, obj = horse
         elif prel=='case' and sent['toks'][pptop['head']-1]['upos']=='ADV' and pptop['deprel'] in ('obl', 'nmod') \
             and sent['toks'][pptop['head']-1]['lemma'] in ('back', 'down', 'out', 'over', 'away', 'home') \
             and not (sent['toks'][pptop['head']-1]['smwe'] and sent['toks'][pptop['head']-1]['smwe'][1]>1) \
             and not findcop(sent['toks'][pptop['head']-1], sent):
-            # correct for weird (and inconsistent) UD analysis where intransitive adposition (ADV) has a PP complement: 
+            # correct for weird (and inconsistent) UD analysis where intransitive adposition (ADV) has a PP complement:
             # "got back FROM france", "made back IN the 60s", "drive 10 minutes more down TO Stevens_Creek", "over BY 16th and 15th"
             pptop = sent['toks'][pptop['head']-1]
             assert not findcop(pptop, sent),(plemma,pptop)
@@ -178,16 +182,16 @@ def findgovobj(pexpr, sent):
         elif len(pexpr['toknums'])==2 and sent['toks'][pexpr['toknums'][1]-1]['head']==t1 and sent['toks'][pexpr['toknums'][1]-1]['deprel']=='fixed':
             if plemma=='at least':  # "at_least pretend to be helpful", fixed(at, least): no object
                 pptop = tok1
-                # Note that Approximator "at_least" is right-headed: "at least 10 more minutes": case(least, at) 
+                # Note that Approximator "at_least" is right-headed: "at least 10 more minutes": case(least, at)
             else:   # "all_of 10 minutes", "less_than an hour" (Approximators): treat as transitive P with no governor
                 otok = pptop
                 pptop = tok1
-        elif plemma in ('about', 'around', 'like', 'over'): # single-word Approximators: "about", "around", "like", "over". 
+        elif plemma in ('about', 'around', 'like', 'over'): # single-word Approximators: "about", "around", "like", "over".
             #assert pexpr['ss']=='p.Approximator'
             # In UD treated as advmod of the measured expression. We treat as transitive P with no governor.
             otok = pptop
             pptop = tok1
-            
+
         elif len(pexpr['toknums'])>1:
             pass
         else:   # adverb fronted before verb: "We have since moved", "I've never before felt...", "never before has...", "off we went"
@@ -199,7 +203,8 @@ def findgovobj(pexpr, sent):
     gtok = sent['toks'][pptop['head']-1] if pptop['head']>0 else None
 
     # is it a stranded preposition?
-    if prel not in {'case', 'mark'} and tok1['xpos']=='IN' and gtok and gtok['deprel'] in {'acl:relcl', 'acl', 'advcl'}:
+    if prel not in {'case', 'mark'} and tok1['xpos']=='IN':
+        if gtok and gtok['deprel'] in {'acl:relcl', 'acl', 'advcl'}:
             # (some other gtok['deprel'] values aren't handled: weirdness mainly with coordination and copular constructions)
             config = 'stranded'
 
@@ -209,14 +214,17 @@ def findgovobj(pexpr, sent):
                 # (not foolproof)
                 subjtok = findsubj(otok, sent)
                 otok = subjtok  # "She"; may be None
+        elif prel=='acl:relcl': # stranding in copular relative clause, e.g. "the city I'm in"
+            config = 'stranded'
+            otok = gtok
 
     # is it a predicative PP or subordinate copular clause?
     coptok = findcop(pptop, sent)
     if coptok:
         if config=='subordinating':
             otok = coptok   # subordinate copular clause: use copula as the object instead of the content predicate
-        elif not config:    # technically a preposition can be both stranded and predicative: "the worst store I have been in". just label it stranded.
-            config = 'predicative'
+        elif not config or config=='stranded':    # technically a preposition can be both stranded and predicative: "the worst store I have been in". just label it stranded.
+            config = 'predicative+stranded' if config=='stranded' else 'predicative'
             # look for subject
             subjtok = findsubj(pptop, sent)
             gtok = subjtok  # may be None
@@ -235,7 +243,7 @@ def findgovobj(pexpr, sent):
         'objlemma': otok['lemma'] if otok else None,
           'config': config
     }
-    
+
     #print(sent['mwe'], (gtok['word'], plemma, otok['word']), config)
 
 with open(sys.argv[1], encoding='utf-8') as inF:
