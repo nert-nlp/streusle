@@ -1473,7 +1473,7 @@
 # text = Our family has been trusting Doctor Hank with our teeth for the last seven years.
 # streusle_sent_id = ewtb.r.067423.2
 # mwe = Our family has been trusting~ Doctor_Hank ~with our teeth for the last seven years .
-1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
+1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	we	p.OrgRole	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgRole|p.Gestalt
 2	family	family	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	5:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
@@ -4797,7 +4797,7 @@
 5	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
 7	take	take	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	_	_	V	take	v.motion	_	_	_	_	O-V-v.motion
-8	you	you	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
+8	you	you	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	you	p.OrgRole	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgRole|p.Gestalt
 9	family	family	NOUN	NN	Number=Sing	7	obj	7:obj	SpaceAfter=No	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 10	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

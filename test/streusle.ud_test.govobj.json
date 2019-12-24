@@ -67755,7 +67755,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"
    },
    {
     "#": 13,
@@ -67993,7 +67993,7 @@
    "12": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.SocialRel",
+    "ss": "p.OrgRole",
     "ss2": "p.Gestalt",
     "toknums": [
      12
@@ -68301,7 +68301,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"
    },
    {
     "#": 14,
@@ -68484,7 +68484,7 @@
    "13": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.SocialRel",
+    "ss": "p.OrgRole",
     "ss2": "p.Gestalt",
     "toknums": [
      13

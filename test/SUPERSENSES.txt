@@ -69,6 +69,7 @@
    6 p.Manner	p.Manner
    1 p.Means	p.Means
    3 p.OrgRole	p.Accompanier
+   2 p.OrgRole	p.Gestalt
    7 p.OrgRole	p.Locus
    8 p.OrgRole	p.Possessor
    1 p.Originator	p.Agent
@@ -91,7 +92,7 @@
    3 p.Recipient	p.Gestalt
   11 p.Recipient	p.Goal
    5 p.SocialRel	p.Co-Agent
-  20 p.SocialRel	p.Gestalt
+  18 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Source
    2 p.Source	p.Source
    2 p.Species	p.Species

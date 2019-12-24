@@ -3159,7 +3159,7 @@
  "streusle_sent_id": "ewtb.r.067423.2",
  "mwe": "Our family has been trusting~ Doctor_Hank ~with our teeth for the last seven years .",
     "toks": [
-      {"#": 1, "word": "Our", "lemma": "we", "upos": "PRON", "xpos": "PRP$", "feats": "Number=Plur|Person=1|Poss=Yes|PronType=Prs", "head": 2, "deprel": "nmod:poss", "edeps": "2:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"},
+      {"#": 1, "word": "Our", "lemma": "we", "upos": "PRON", "xpos": "PRP$", "feats": "Number=Plur|Person=1|Poss=Yes|PronType=Prs", "head": 2, "deprel": "nmod:poss", "edeps": "2:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"},
       {"#": 2, "word": "family", "lemma": "family", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 5, "deprel": "nsubj", "edeps": "5:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 3, "word": "has", "lemma": "have", "upos": "AUX", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 5, "deprel": "aux", "edeps": "5:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 4, "word": "been", "lemma": "be", "upos": "AUX", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 5, "deprel": "aux", "edeps": "5:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
@@ -3178,7 +3178,7 @@
     ],
     "etoks": [],
     "swes": {
-      "1": {"lexlemma": "we", "lexcat": "PRON.POSS", "ss": "p.SocialRel", "ss2": "p.Gestalt", "toknums": [1]},
+      "1": {"lexlemma": "we", "lexcat": "PRON.POSS", "ss": "p.OrgRole", "ss2": "p.Gestalt", "toknums": [1]},
       "2": {"lexlemma": "family", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [2]},
       "3": {"lexlemma": "have", "lexcat": "AUX", "ss": null, "ss2": null, "toknums": [3]},
       "4": {"lexlemma": "be", "lexcat": "AUX", "ss": null, "ss2": null, "toknums": [4]},
@@ -10292,7 +10292,7 @@
       {"#": 5, "word": "place", "lemma": "place", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 6, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 7, "deprel": "mark", "edeps": "7:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF.P-p.Characteristic|p.Purpose"},
       {"#": 7, "word": "take", "lemma": "take", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 5, "deprel": "acl", "edeps": "5:acl:to", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.motion"},
-      {"#": 8, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP$", "feats": null, "head": 9, "deprel": "nmod:poss", "edeps": "9:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"},
+      {"#": 8, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP$", "feats": null, "head": 9, "deprel": "nmod:poss", "edeps": "9:nmod:poss", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"},
       {"#": 9, "word": "family", "lemma": "family", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 7, "deprel": "obj", "edeps": "7:obj", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 10, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 5, "deprel": "punct", "edeps": "5:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -10305,7 +10305,7 @@
       "5": {"lexlemma": "place", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [5]},
       "6": {"lexlemma": "to", "lexcat": "INF.P", "ss": "p.Characteristic", "ss2": "p.Purpose", "toknums": [6]},
       "7": {"lexlemma": "take", "lexcat": "V", "ss": "v.motion", "ss2": null, "toknums": [7]},
-      "8": {"lexlemma": "you", "lexcat": "PRON.POSS", "ss": "p.SocialRel", "ss2": "p.Gestalt", "toknums": [8]},
+      "8": {"lexlemma": "you", "lexcat": "PRON.POSS", "ss": "p.OrgRole", "ss2": "p.Gestalt", "toknums": [8]},
       "9": {"lexlemma": "family", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [9]},
       "10": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [10]}
     },

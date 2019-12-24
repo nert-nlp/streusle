@@ -127,7 +127,7 @@
    4 p.OrgRole	p.Beneficiary
    6 p.OrgRole	p.Characteristic
    6 p.OrgRole	p.Co-Agent
-  11 p.OrgRole	p.Gestalt
+  31 p.OrgRole	p.Gestalt
    6 p.OrgRole	p.Goal
    3 p.OrgRole	p.Instrument
   33 p.OrgRole	p.Locus
@@ -167,7 +167,7 @@
   11 p.Recipient	p.Gestalt
   99 p.Recipient	p.Goal
   19 p.SocialRel	p.Co-Agent
- 221 p.SocialRel	p.Gestalt
+ 201 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Source
   77 p.Source	p.Source
   39 p.Species	p.Species

@@ -73,7 +73,7 @@
    2 p.Means	p.Means
    2 p.OrgRole	p.Characteristic
    1 p.OrgRole	p.Co-Agent
-   2 p.OrgRole	p.Gestalt
+   4 p.OrgRole	p.Gestalt
    2 p.OrgRole	p.Locus
    4 p.OrgRole	p.Possessor
    2 p.Originator	p.Agent
@@ -91,7 +91,7 @@
    1 p.Recipient	p.Direction
    7 p.Recipient	p.Goal
    2 p.SocialRel	p.Co-Agent
-  15 p.SocialRel	p.Gestalt
+  13 p.SocialRel	p.Gestalt
    8 p.Source	p.Source
    5 p.Species	p.Species
    4 p.StartTime	p.StartTime

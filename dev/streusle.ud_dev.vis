@@ -98,7 +98,7 @@ reviews-064146-0002	What|DET a|DET hidden|ADJ~gem|N-n.GROUP !|PUNCT
 reviews-064146-0003	The|DET food|N-n.FOOD is|V-v.stative superb|ADJ and|CCONJ they|PRON were|AUX delivered|V-v.motion nice|ADJ and|CCONJ hot|ADJ !|PUNCT
 reviews-064146-0004	I|PRON highly|ADV~recommend|V-v.communication this|DET place|N-n.GROUP !|PUNCT
 reviews-067423-0001	Doctor_Hank|N-n.PERSON is|V-v.stative Amazing|ADJ
-reviews-067423-0002	Our|PRON.POSS-p.SocialRel:p.Gestalt family|N-n.GROUP has|AUX been|AUX trusting|V-v.cognition~ Doctor_Hank|N-n.PERSON ~with|P-p.Topic our|PRON.POSS-p.Whole:p.Gestalt teeth|N-n.BODY for|P-p.Duration the|DET last|ADJ seven|NUM years|N-n.TIME .|PUNCT
+reviews-067423-0002	Our|PRON.POSS-p.OrgRole:p.Gestalt family|N-n.GROUP has|AUX been|AUX trusting|V-v.cognition~ Doctor_Hank|N-n.PERSON ~with|P-p.Topic our|PRON.POSS-p.Whole:p.Gestalt teeth|N-n.BODY for|P-p.Duration the|DET last|ADJ seven|NUM years|N-n.TIME .|PUNCT
 reviews-067423-0003	I|PRON would|AUX n't|ADV go|V-v.motion to|P-p.Goal anyone|PRON else|ADJ .|PUNCT
 reviews-067423-0004	Everyone|PRON on_staff|PP-p.OrgRole:p.Locus is|V-v.stative very|ADV professional|ADJ and|CCONJ friendly|ADJ .|PUNCT
 reviews-067826-0001	If|SCONJ you|PRON 're|AUX looking|V-v.cognition~for|P-p.Theme homestyle|ADJ Japanese|ADJ food|N-n.FOOD ,|PUNCT you_ca_n't_beat_this|V.VID-v.competition
@@ -318,7 +318,7 @@ reviews-210019-0002	We|PRON go|V-v.motion over|P-p.Direction about|P-p.Approxima
 reviews-210019-0003	We|PRON have|AUX never|ADV had_ a|DET _problem|V.LVC.full-v.cognition with|P-p.Topic the|DET cabins|N-n.ARTIFACT .|PUNCT
 reviews-210019-0004	They|PRON are|V-v.stative always|ADV so|ADV helpful|ADJ .|PUNCT
 reviews-210019-0005	The|DET cabins|N-n.ARTIFACT have|AUX always|ADV been|V-v.stative clean|ADJ .|PUNCT
-reviews-210019-0006	Helen|N-n.PERSON is|V-v.stative a|DET wonderful|ADJ place|N-n.GROUP to|INF.P-p.Characteristic:p.Purpose take|V-v.motion you|PRON.POSS-p.SocialRel:p.Gestalt family|N-n.GROUP .|PUNCT
+reviews-210019-0006	Helen|N-n.PERSON is|V-v.stative a|DET wonderful|ADJ place|N-n.GROUP to|INF.P-p.Characteristic:p.Purpose take|V-v.motion you|PRON.POSS-p.OrgRole:p.Gestalt family|N-n.GROUP .|PUNCT
 reviews-210019-0007	We|PRON recommend|V-v.communication these|DET cabins|N-n.ARTIFACT !|PUNCT
 reviews-211844-0001	Favorite|ADJ DD|N-n.COGNITION spot|N-n.GROUP in|P-p.Locus the|DET area|N-n.LOCATION !|PUNCT
 reviews-217485-0001	I|PRON 'll|AUX admit|V-v.communication I|PRON was|AUX n't|ADV expecting|V-v.cognition much|ADJ from|P-p.Source this|DET place|N-n.GROUP ,|PUNCT but|CCONJ they|PRON really|ADV did|AUX do_ a|DET good|ADJ _job|V.LVC.full-v.social .|PUNCT
