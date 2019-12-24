@@ -199,7 +199,7 @@ if __name__=='__main__':
                     op += '='
                     pattern = '^' + pattern[1:] + '$'
                 r = re.compile(pattern, RE_FLAGS)
-                matchX = (lambda r: lambda s: s is not None and r.search(s) is None)(r)
+                matchX = (lambda r: lambda s: s is None or r.search(s) is None)(r)
             elif pattern.startswith('='):
                 op = '=='
                 pattern = pattern[1:]
