@@ -41,6 +41,13 @@ STRANDING:
 COPULAR STRANDING:
 - the city I'm *in*:          gov=I, obj=city, config=predicative+stranded
 
+AS-AS:
+- eat *as* much as you can:            gov=eat,  obj=much,  config=default
+- he is *as* tall as a horse:          gov=he,   obj=tall,  config=predicative
+- he is as tall *as* a horse:          gov=tall, obj=horse, config=default
+- he is as tall *as* a horse is wide:  gov=tall, obj=horse, config=subordinating
+
+
 (Not handled: "the store is a pleasure to be in", obj=store)
 
 JSON output sample for 'my grandfather'--the added information is under "heuristic_relation":
