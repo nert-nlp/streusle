@@ -112,11 +112,16 @@ def tselect(jsonPath, fields, tknconstraints=[], lexconstraints=[], govobjconstr
             if tknconstraints and not fail:
                 toks = [sent["toks"][i-1] for i in lexe["toknums"]]
                 for fld, matchX in tknconstraints:
-                    if matchX and not any(matchX(tok[fld]) for tok in toks):
+                    combined = tuple(tok[fld] for tok in toks)
+                    if len(combined)==1:
+                        combined = combined[0]
+                    # combined is a tuple if this is a multi-token expression,
+                    # and just a single field value otherwise
+                    if matchX and not matchX(str(combined)):
                         fail = True
                         break
                     if matchX is None:
-                        myprints[fld] = tuple(tok[fld] for tok in toks)
+                        myprints[fld] = combined
 
             if not fail:
                 myprints['_sentid'] = sent["sent_id"]
