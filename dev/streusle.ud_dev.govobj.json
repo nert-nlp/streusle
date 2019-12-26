@@ -47123,7 +47123,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 4,
@@ -47211,7 +47211,7 @@
    "1": {
     "lexlemma": "out of business",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      3,
@@ -56313,7 +56313,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 6,
@@ -56426,7 +56426,7 @@
    "1": {
     "lexlemma": "on a budget",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      5,
@@ -67727,7 +67727,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-P-p.Manner|p.Locus"
+    "lextag": "B-P-p.Characteristic|p.Locus"
    },
    {
     "#": 9,
@@ -68024,7 +68024,7 @@
    "1": {
     "lexlemma": "in need of",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      8,
@@ -73012,7 +73012,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Manner|p.Locus"
+    "lextag": "O-P-p.Characteristic|p.Locus"
    },
    {
     "#": 21,
@@ -73253,7 +73253,7 @@
    "20": {
     "lexlemma": "in",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      20
@@ -74446,7 +74446,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 19,
@@ -74769,7 +74769,7 @@
    "1": {
     "lexlemma": "up and run",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      18,
@@ -125803,7 +125803,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Manner|p.Locus"
+    "lextag": "O-P-p.Characteristic|p.Locus"
    },
    {
     "#": 10,
@@ -125935,7 +125935,7 @@
    "9": {
     "lexlemma": "in",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      9
@@ -126058,7 +126058,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Manner|p.Locus"
+    "lextag": "O-P-p.Characteristic|p.Locus"
    },
    {
     "#": 6,
@@ -126154,7 +126154,7 @@
    "5": {
     "lexlemma": "in",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      5

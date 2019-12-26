@@ -36,6 +36,7 @@
    1 p.Beneficiary	p.Possessor
    8 p.Characteristic	p.Characteristic
    1 p.Characteristic	p.Identity
+   7 p.Characteristic	p.Locus
   15 p.Characteristic	p.Purpose
    6 p.Circumstance	p.Circumstance
    1 p.Circumstance	p.Locus
@@ -68,7 +69,7 @@
    2 p.Locus	p.Path
    4 p.Locus	p.Source
    3 p.Manner	p.ComparisonRef
-   9 p.Manner	p.Locus
+   2 p.Manner	p.Locus
    1 p.Manner	p.Manner
    2 p.Means	p.Means
    1 p.OrgRole	p.Co-Agent

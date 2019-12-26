@@ -2855,7 +2855,7 @@
 # mwe = They are out_of_business .
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-3	out	out	ADP	IN	_	5	case	5:case	_	1:1	PP	out of business	p.Manner	p.Locus	_	_	_	B-PP-p.Manner|p.Locus
+3	out	out	ADP	IN	_	5	case	5:case	_	1:1	PP	out of business	p.Characteristic	p.Locus	_	_	_	B-PP-p.Characteristic|p.Locus
 4	of	of	ADP	IN	_	5	case	5:case	_	1:2	_	_	_	_	_	_	_	I_
 5	business	business	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 6	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -3409,7 +3409,7 @@
 2	since	since	SCONJ	IN	_	7	mark	7:mark	_	_	P	since	p.Explanation	p.Explanation	_	_	_	O-P-p.Explanation
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	SpaceAfter=No	_	PRON	I	_	_	_	_	_	O-PRON
 4	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-5	on	on	ADP	IN	_	7	case	7:case	_	1:1	PP	on a budget	p.Manner	p.Locus	_	_	_	B-PP-p.Manner|p.Locus
+5	on	on	ADP	IN	_	7	case	7:case	_	1:1	PP	on a budget	p.Characteristic	p.Locus	_	_	_	B-PP-p.Characteristic|p.Locus
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_	1:2	_	_	_	_	_	_	_	I_
 7	budget	budget	NOUN	NN	Number=Sing	1	advcl	1:advcl:on	SpaceAfter=No	1:3	_	_	_	_	_	_	_	I_
 8	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -4087,7 +4087,7 @@
 5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	obj	4:obj	_	_	PRON	you	_	_	_	_	_	O-PRON
 6	to	to	ADP	IN	_	7	case	7:case	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
 7	anyone	anyone	PRON	NN	Number=Sing	4	obl	4:obl:to	_	_	PRON	anyone	_	_	_	_	_	O-PRON
-8	in	in	ADP	IN	_	9	case	9:case	_	1:1	P	in need of	p.Manner	p.Locus	_	_	_	B-P-p.Manner|p.Locus
+8	in	in	ADP	IN	_	9	case	9:case	_	1:1	P	in need of	p.Characteristic	p.Locus	_	_	_	B-P-p.Characteristic|p.Locus
 9	need	need	NOUN	NN	Number=Sing	7	nmod	7:nmod:in	_	1:2	_	_	_	_	_	_	_	I_
 10	of	of	ADP	IN	_	9	nmod	9:nmod	_	1:3	_	_	_	_	_	_	_	I_
 11	or	or	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	or	_	_	_	_	_	O-CCONJ
@@ -4394,7 +4394,7 @@
 17	keep	keep	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_	_	V	keep	v.stative	_	_	_	_	O-V-v.stative
 18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 19	dog	dog	NOUN	NN	Number=Sing	17	obj	17:obj	_	_	N	dog	n.ANIMAL	_	_	_	_	O-N-n.ANIMAL
-20	in	in	ADP	IN	_	23	case	23:case	_	_	P	in	p.Manner	p.Locus	_	_	_	O-P-p.Manner|p.Locus
+20	in	in	ADP	IN	_	23	case	23:case	_	_	P	in	p.Characteristic	p.Locus	_	_	_	O-P-p.Characteristic|p.Locus
 21	tip	tip	ADJ	JJ	Degree=Pos	22	amod	22:amod	_	2:1	ADJ	tip top	_	_	_	_	_	B-ADJ
 22	top	top	ADJ	JJ	Degree=Pos	23	amod	23:amod	_	2:2	_	_	_	_	_	_	_	I_
 23	condition	condition	NOUN	NN	Number=Sing	17	obl	17:obl:in	SpaceAfter=No	_	N	condition	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
@@ -4471,7 +4471,7 @@
 15	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	7:conj:and	_	_	V	have	v.stative	_	_	_	_	O-V-v.stative
 16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
 17	company	company	NOUN	NN	Number=Sing	15	obj	15:obj|18:nsubj:xsubj|20:nsubj:xsubj	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
-18	up	up	ADV	RB	_	15	xcomp	15:xcomp	_	1:1	PP	up and run	p.Manner	p.Locus	_	_	_	B-PP-p.Manner|p.Locus
+18	up	up	ADV	RB	_	15	xcomp	15:xcomp	_	1:1	PP	up and run	p.Characteristic	p.Locus	_	_	_	B-PP-p.Characteristic|p.Locus
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_	1:2	_	_	_	_	_	_	_	I_
 20	running	run	VERB	VBG	VerbForm=Ger	18	conj	15:xcomp|18:conj:and	_	1:3	_	_	_	_	_	_	_	I_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -7474,7 +7474,7 @@
 6	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 7	for	for	ADP	IN	_	8	case	8:case	_	_	P	for	p.Beneficiary	p.Beneficiary	_	_	_	O-P-p.Beneficiary
 8	people	people	NOUN	NNS	Number=Plur	6	nmod	6:nmod:for	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
-9	in	in	ADP	IN	_	12	case	12:case	_	_	P	in	p.Manner	p.Locus	_	_	_	O-P-p.Manner|p.Locus
+9	in	in	ADP	IN	_	12	case	12:case	_	_	P	in	p.Characteristic	p.Locus	_	_	_	O-P-p.Characteristic|p.Locus
 10	chronic	chronic	ADJ	JJ	Degree=Pos	12	amod	12:amod	_	_	ADJ	chronic	_	_	_	_	_	O-ADJ
 11	intractable	intractable	ADJ	JJ	Degree=Pos	12	amod	12:amod	_	_	ADJ	intractable	_	_	_	_	_	O-ADJ
 12	pain	pain	NOUN	NN	Number=Sing	8	nmod	8:nmod:in	_	_	N	pain	n.STATE	_	_	_	_	O-N-n.STATE
@@ -7487,7 +7487,7 @@
 2	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	for	for	ADP	IN	_	4	case	4:case	_	_	P	for	p.Beneficiary	p.Beneficiary	_	_	_	O-P-p.Beneficiary
 4	people	people	NOUN	NNS	Number=Plur	2	nmod	2:nmod:for	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
-5	in	in	ADP	IN	_	7	case	7:case	_	_	P	in	p.Manner	p.Locus	_	_	_	O-P-p.Manner|p.Locus
+5	in	in	ADP	IN	_	7	case	7:case	_	_	P	in	p.Characteristic	p.Locus	_	_	_	O-P-p.Characteristic|p.Locus
 6	chronic	chronic	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	chronic	_	_	_	_	_	O-ADJ
 7	pain	pain	NOUN	NN	Number=Sing	4	nmod	4:nmod:in	SpaceAfter=No	_	N	pain	n.STATE	_	_	_	_	O-N-n.STATE
 8	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT

@@ -340,7 +340,7 @@ reviews-251755-0002	Susanna|N-n.PERSON is|V-v.stative the|DET best|ADJ dress_mak
 reviews-251755-0003	She|PRON makes|V-v.stative every|DET item|N-n.ARTIFACT fit|V-v.body you|PRON perfectly|ADV .|PUNCT
 reviews-251755-0004	She|PRON is|V-v.stative always|ADV so|ADV busy|ADJ ,|PUNCT too|ADV ,|PUNCT which|PRON is|V-v.stative a|DET good|ADJ indication|N-n.COGNITION of|P-p.Topic her|PRON.POSS-p.Gestalt talent|N-n.ATTRIBUTE .|PUNCT
 reviews-251755-0005	She|PRON 's|V-v.stative the|DET best|ADJ !|PUNCT
-reviews-252791-0001	no|DET feathers|N-n.NATURALOBJECT in_stock|PP-p.Manner:p.Locus !!!!|PUNCT
+reviews-252791-0001	no|DET feathers|N-n.NATURALOBJECT in_stock|PP-p.Characteristic:p.Locus !!!!|PUNCT
 reviews-252791-0002	I|PRON was|V-v.stative very|ADV upset|ADJ when|ADV I|PRON went|V-v.motion to|P-p.Goal Mother_Plucker|N-n.GROUP ,|PUNCT they|PRON had|V-v.stative NO|DET FEATHERS|N-n.NATURALOBJECT and|CCONJ the|DET quality|N-n.ATTRIBUTE is|V-v.stative TERRIBLE|ADJ .|PUNCT
 reviews-252791-0003	I|PRON had_to|AUX dig|V-v.contact in|P-p.Locus a|DET bag|N-n.ARTIFACT to|INF.P-p.Purpose find|V-v.cognition one|NUM nice|ADJ feather|N-n.NATURALOBJECT ,|PUNCT what|PRON~a|DET~joke|N-n.COGNITION !|PUNCT
 reviews-254908-0001	I|PRON hired|V-v.social this|DET company|N-n.GROUP to|INF.P-p.Purpose unlock|V-v.change my|PRON.POSS-p.Possessor car|N-n.ARTIFACT .|PUNCT
@@ -361,7 +361,7 @@ reviews-263909-0002	Bisconti|N-n.GROUP wanted|V-v.cognition over|P-p.Approximato
 reviews-263909-0003	Call|V-v.communication them|PRON today|N-n.TIME !|PUNCT
 reviews-263909-0004	Had|V-v.stative it|PRON fixed|V-v.change within|P-p.Duration a_few|DET days|N-n.TIME (|PUNCT had_to|AUX order|V-v.communication a|DET part|N-n.ARTIFACT )|PUNCT .|PUNCT
 reviews-264993-0001	An|DET Hour|N-n.TIME Of|P-p.Quantity Prego|N-n.SUBSTANCE Bliss|N-n.COGNITION !|PUNCT
-reviews-264993-0002	I|PRON schedule|V-v.communication my|PRON.POSS-p.Agent:p.Gestalt weekly|ADJ appointment|N-n.EVENT here|ADV just|ADV to|INF.P-p.Purpose get_ a|DET _chance|V.LVC.full-v.cognition to|INF lie|V-v.body comfortably|ADV on|P-p.Manner:p.Locus my|PRON.POSS-p.Whole:p.Gestalt tummy|N-n.BODY .|PUNCT
+reviews-264993-0002	I|PRON schedule|V-v.communication my|PRON.POSS-p.Agent:p.Gestalt weekly|ADJ appointment|N-n.EVENT here|ADV just|ADV to|INF.P-p.Purpose get_ a|DET _chance|V.LVC.full-v.cognition to|INF lie|V-v.body comfortably|ADV on|P-p.Locus my|PRON.POSS-p.Whole:p.Gestalt tummy|N-n.BODY .|PUNCT
 reviews-264993-0003	And|CCONJ the|DET massages|N-n.ACT are|V-v.stative heavenly|ADJ !|PUNCT
 reviews-264993-0004	Very|ADV friendly|ADJ place|N-n.GROUP .|PUNCT
 reviews-266955-0001	The|DET finest|ADJ German_bedding|N-n.ARTIFACT and|CCONJ linens|N-n.ARTIFACT store|N-n.GROUP .|PUNCT
@@ -369,7 +369,7 @@ reviews-266955-0002	Quality|N-n.COGNITION and|CCONJ service|N-n.ACT come|V-v.sta
 reviews-268952-0001	Wonderful|ADJ Atmosphere|N-n.ATTRIBUTE
 reviews-268952-0002	I|PRON have|AUX been|AUX going|V-v.motion there|ADV since|P-p.StartTime I|PRON was|V-v.stative a|DET little|ADJ girl|N-n.PERSON and|CCONJ love|V-v.emotion the|DET friendly|ADJ and|CCONJ relaxing|ADJ atmosphere|N-n.ATTRIBUTE .|PUNCT
 reviews-268952-0003	Dr._Stiefvater|N-n.PERSON has|AUX always|ADV been|V-v.stative very|ADV professional|ADJ and|CCONJ helpful|ADJ .|PUNCT
-reviews-268952-0004	I|PRON would|AUX recommend|V-v.communication Bayside_Chiropractic|N-n.GROUP to|P-p.Recipient:p.Goal anyone|PRON who|PRON is|V-v.stative in_need_of|P-p.Manner:p.Locus a|DET regular|ADJ adjustment|N-n.ACT or|CCONJ is|AUX suffering|V-v.cognition from|P-p.Stimulus:p.Source a|DET chronic|ADJ condition|N-n.STATE .|PUNCT
+reviews-268952-0004	I|PRON would|AUX recommend|V-v.communication Bayside_Chiropractic|N-n.GROUP to|P-p.Recipient:p.Goal anyone|PRON who|PRON is|V-v.stative in_need_of|P-p.Characteristic:p.Locus a|DET regular|ADJ adjustment|N-n.ACT or|CCONJ is|AUX suffering|V-v.cognition from|P-p.Stimulus:p.Source a|DET chronic|ADJ condition|N-n.STATE .|PUNCT
 reviews-270889-0001	Staten_Island_Computers|N-n.GROUP
 reviews-270889-0002	Superior|ADJ work|N-n.ACT -|PUNCT always|ADV comes_through|V.VPC.full-v.social when|ADV we|PRON need|V-v.cognition him|PRON .|PUNCT
 reviews-270889-0003	We|PRON have|AUX tried|V-v.social many|ADJ different|ADJ computer_people|N-n.PERSON until|P-p.EndTime now|ADV -|PUNCT we|PRON will|AUX stick_with|V.IAV-v.social Qualitech_Computers|N-n.GROUP !!!|PUNCT
@@ -392,8 +392,8 @@ reviews-287360-0005	So|ADV professional|ADJ !|PUNCT
 reviews-287360-0006	These|DET guys|N-n.GROUP know|V-v.cognition what|PRON they|PRON 're|AUX doing|V-v.stative !|PUNCT
 reviews-287360-0007	Way_to_go|DISC !|PUNCT
 reviews-289763-0001	Awesome|ADJ service|N-n.ACT with|P-p.Characteristic a|DET smile|N-n.ACT :)|SYM
-reviews-290238-0001	Out_of_business|PP-p.Manner:p.Locus ?|PUNCT
-reviews-290238-0002	I|PRON think|V-v.cognition this|DET location|N-n.GROUP is|V-v.stative no|ADV longer|ADV in_business|PP-p.Manner:p.Locus .|PUNCT
+reviews-290238-0001	Out_of_business|PP-p.Characteristic:p.Locus ?|PUNCT
+reviews-290238-0002	I|PRON think|V-v.cognition this|DET location|N-n.GROUP is|V-v.stative no|ADV longer|ADV in_business|PP-p.Characteristic:p.Locus .|PUNCT
 reviews-290238-0003	If|SCONJ you|PRON check|V-v.communication RecWarehouse.com|N-n.COMMUNICATION ,|PUNCT they|PRON do|AUX n't|ADV list|V-v.communication this|PRON as|P-p.Identity a|DET location|N-n.LOCATION .|PUNCT
 reviews-290238-0004	You|PRON 'll|AUX have_to|AUX drive|V-v.motion 10|NUM miles|N-n.QUANTITY down|P-p.Path 75|NUM to|P-p.Goal Allen|N-n.LOCATION .|PUNCT
 reviews-294978-0001	not|ADV impressive|ADJ enough|ADV
@@ -424,7 +424,7 @@ reviews-313126-0002	However|ADV ,|PUNCT I|PRON did|AUX not|ADV find|V-v.cognitio
 reviews-314024-0001	Old_time|ADJ grocery|N-n.ARTIFACT ,|PUNCT best|ADJ steaks|N-n.FOOD I|PRON have|AUX ever|ADV had|V-v.consumption !|PUNCT
 reviews-314024-0002	Great|ADJ meats|N-n.FOOD that|PRON are|AUX already|ADV cooked|V-v.creation ,|PUNCT easy|ADJ to|INF take|V-v.motion home|P-p.Goal:p.Locus for|P-p.Purpose dinner|N-n.EVENT .|PUNCT
 reviews-314711-0001	Dr._White|N-n.PERSON is|V-v.stative the|DET best|ADJ !|PUNCT
-reviews-314880-0001	I|PRON am|V-v.stative in_love|PP-p.Manner:p.Locus~with|P-p.Stimulus:p.Topic the|DET giant|ADJ plate|N-n.QUANTITY of|P-p.Quantity:p.Stuff nachos|N-n.FOOD !|PUNCT
+reviews-314880-0001	I|PRON am|V-v.stative in_love|PP-p.Characteristic:p.Locus~with|P-p.Stimulus:p.Topic the|DET giant|ADJ plate|N-n.QUANTITY of|P-p.Quantity:p.Stuff nachos|N-n.FOOD !|PUNCT
 reviews-314880-0002	Last|ADJ time|N-n.EVENT I|PRON went|V-v.motion however|ADV ,|PUNCT my|PRON.POSS-p.Possessor beer|N-n.FOOD was|V-v.stative warm|ADJ and|CCONJ the|DET service|N-n.ACT was|V-v.stative so_-_so|ADJ .|PUNCT
 reviews-314880-0003	I|PRON get|V-v.cognition that|DET careless|ADJ teenager|N-n.PERSON kind|N-n.COGNITION of|P-p.Species treatment|N-n.COGNITION from|P-p.Source some|DET of|P-p.Quantity:p.Whole their|PRON.POSS-p.SocialRel:p.Gestalt staff|N-n.GROUP ...|PUNCT perhaps|ADV they|PRON should|AUX hire|V-v.social more|ADV serious|ADJ adults|N-n.PERSON to|INF.P-p.Characteristic:p.Purpose help|V-v.social serve|V-v.social /|PUNCT cook|V-v.creation .|PUNCT
 reviews-314938-0001	The|DET best|ADJ pilates|N-n.ACT on|P-p.Locus the|DET Gold_Coast|N-n.LOCATION !|PUNCT
@@ -465,7 +465,7 @@ reviews-343336-0001	Got_to|AUX love|V-v.emotion this|DET place|N-n.GROUP .|PUNCT
 reviews-343336-0002	Everyone|PRON is|V-v.stative relaxed|ADJ and|CCONJ having_fun|V.LVC.full-v.social !!!|PUNCT
 reviews-343813-0001	Bad|ADJ Service|N-n.ACT
 reviews-343813-0002	Definately|ADV wo|AUX n't|ADV be|AUX returning|V-v.motion .|PUNCT
-reviews-343813-0003	Travelled|V-v.motion 40|NUM mins|N-n.TIME after|P-p.Time calling|V-v.communication to|INF.P-p.Purpose see|V-v.social if|SCONJ a|DET product|N-n.ARTIFACT was|AUX in_stock|PP-p.Manner:p.Locus .|PUNCT
+reviews-343813-0003	Travelled|V-v.motion 40|NUM mins|N-n.TIME after|P-p.Time calling|V-v.communication to|INF.P-p.Purpose see|V-v.social if|SCONJ a|DET product|N-n.ARTIFACT was|AUX in_stock|PP-p.Characteristic:p.Locus .|PUNCT
 reviews-343813-0004	Told|V-v.communication that|SCONJ they|PRON had|V-v.stative plenty|N-n.QUANTITY .|PUNCT
 reviews-343813-0005	Get|V-v.motion there|ADV and|CCONJ there|PRON was|V-v.stative nothing|PRON .|PUNCT
 reviews-343813-0006	Not|ADV impressed|ADJ !!!|PUNCT
@@ -483,7 +483,7 @@ reviews-351950-0002	home_team|N-n.GROUP -|PUNCT thanks|DISC 4|P-p.Explanation pl
 reviews-353891-0001	Great|ADJ Manicure|N-n.ACT
 reviews-353891-0002	This|DET place|N-n.GROUP offers|V-v.stative a|DET great|ADJ manicure|N-n.ACT and|CCONJ pedicure|N-n.ACT .|PUNCT
 reviews-353891-0003	My|PRON.POSS-p.Whole:p.Gestalt nails|N-n.BODY looked|V-v.perception great|ADJ for|P-p.Duration the_better_part_of|N-n.QUANTITY 2|NUM weeks|N-n.TIME !|PUNCT
-reviews-353891-0004	Also|ADV very|ADV friendly|ADJ and|CCONJ the|DET stylists|N-n.PERSON are|V-v.stative not|ADV in|P-p.Manner:p.Locus the|DET "|PUNCT been_there_/_done_that|ADJ "|PUNCT mood|N-n.ATTRIBUTE !|PUNCT
+reviews-353891-0004	Also|ADV very|ADV friendly|ADJ and|CCONJ the|DET stylists|N-n.PERSON are|V-v.stative not|ADV in|P-p.Characteristic:p.Locus the|DET "|PUNCT been_there_/_done_that|ADJ "|PUNCT mood|N-n.ATTRIBUTE !|PUNCT
 reviews-354474-0001	Great|ADJ work|N-n.ACT !|PUNCT
 reviews-354474-0002	The|DET people|N-n.PERSON at|P-p.OrgRole:p.Locus Gulf_Coast_Siding|N-n.GROUP were|V-v.stative very|ADV easy|ADJ and|CCONJ clear|ADJ to|INF work|V-v.social~with|P-p.SocialRel:p.Co-Agent .|PUNCT
 reviews-354474-0003	They|PRON walked_ me|PRON _through|V.VPC.full-v.social all|DET the|DET steps|N-n.ATTRIBUTE involved|ADJ in|P-p.Whole:p.Circumstance the|DET the|DET installation|N-n.ACT project|N-n.ACT so|SCONJ that|SCONJ there|PRON were|V-v.stative no|DET surprises|N-n.COGNITION .|PUNCT

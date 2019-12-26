@@ -35,6 +35,7 @@
    1 p.Beneficiary	p.Theme
    6 p.Characteristic	p.Characteristic
    1 p.Characteristic	p.Identity
+   7 p.Characteristic	p.Locus
   10 p.Characteristic	p.Purpose
    4 p.Circumstance	p.Circumstance
    2 p.Co-Agent	p.Co-Agent
@@ -61,11 +62,11 @@
    1 p.InsteadOf	p.InsteadOf
    1 p.Instrument	p.Instrument
    2 p.Locus	p.Goal
-  72 p.Locus	p.Locus
+  73 p.Locus	p.Locus
    1 p.Locus	p.Path
    2 p.Locus	p.Source
    3 p.Manner	p.ComparisonRef
-  10 p.Manner	p.Locus
+   2 p.Manner	p.Locus
    6 p.Manner	p.Manner
    1 p.Means	p.Means
    3 p.OrgRole	p.Accompanier
@@ -161,8 +162,8 @@ p.* by LexCat + construal type
 ========================
    9 INF.P	p.X ~> p.X
   11 INF.P	p.X ~> p.Y
- 249 P	p.X ~> p.X
- 104 P	p.X ~> p.Y
+ 250 P	p.X ~> p.X
+ 103 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    8 PP	p.X ~> p.X
    7 PP	p.X ~> p.Y
@@ -173,8 +174,8 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
   20 INF.P 	p.OTH ~> *
- 109 P 	p.LOC ~> *
- 212 P 	p.OTH ~> *
+ 110 P 	p.LOC ~> *
+ 211 P 	p.OTH ~> *
   32 P 	p.TMP ~> *
    1 POSS 	p.OTH ~> *
    5 PP 	p.LOC ~> *

@@ -1,5 +1,5 @@
   48 ??	_
-33054 _	_
+33053 _	_
   20 `$	`$
  724 n.ACT	_
   88 n.ANIMAL	_
@@ -45,14 +45,17 @@
    4 p.Causer	p.Causer
    1 p.Causer	p.Gestalt
    1 p.Causer	p.Source
-  52 p.Characteristic	p.Characteristic
+  53 p.Characteristic	p.Characteristic
    9 p.Characteristic	p.Extent
+   2 p.Characteristic	p.Goal
    9 p.Characteristic	p.Identity
-   1 p.Characteristic	p.Manner
+  47 p.Characteristic	p.Locus
   64 p.Characteristic	p.Purpose
+   1 p.Characteristic	p.Source
    4 p.Characteristic	p.Stuff
+   2 p.Characteristic	p.Topic
   64 p.Circumstance	p.Circumstance
-  13 p.Circumstance	p.Locus
+  18 p.Circumstance	p.Locus
    1 p.Circumstance	p.Path
   35 p.Co-Agent	p.Co-Agent
    7 p.Co-Theme	p.Co-Theme
@@ -67,7 +70,8 @@
    3 p.ComparisonRef	p.Source
   29 p.Cost	p.Cost
    1 p.Cost	p.Extent
-  18 p.Cost	p.Locus
+  19 p.Cost	p.Locus
+   1 p.Cost	p.Manner
  136 p.Direction	p.Direction
    1 p.Direction	p.Goal
   86 p.Duration	p.Duration
@@ -109,18 +113,16 @@
   12 p.Locus	p.Direction
    1 p.Locus	p.Gestalt
    8 p.Locus	p.Goal
- 575 p.Locus	p.Locus
+ 576 p.Locus	p.Locus
   15 p.Locus	p.Path
   28 p.Locus	p.Source
    2 p.Locus	p.Whole
   26 p.Manner	p.ComparisonRef
    2 p.Manner	p.Extent
-   2 p.Manner	p.Goal
-  81 p.Manner	p.Locus
-  42 p.Manner	p.Manner
-   3 p.Manner	p.Source
+  28 p.Manner	p.Locus
+  39 p.Manner	p.Manner
+   2 p.Manner	p.Source
    1 p.Manner	p.Stuff
-   1 p.Manner	p.Topic
   16 p.Means	p.Means
    1 p.Means	p.Path
    4 p.OrgRole	p.Accompanier
@@ -144,7 +146,7 @@
   35 p.PartPortion	p.PartPortion
    9 p.PartPortion	p.Source
    1 p.Path	p.Goal
-   5 p.Path	p.Locus
+   6 p.Path	p.Locus
   21 p.Path	p.Path
   11 p.Possession	p.Accompanier
    3 p.Possession	p.Locus
@@ -224,7 +226,7 @@
 ========================
     9266 n.*
     7719 v.*
-    5479 p.*
+    5480 p.*
 
 n.* by LexCat
 ========================
@@ -243,7 +245,7 @@ v.* by LexCat
 p.* by LexCat
 ========================
  253 INF.P
-3958 P
+3959 P
   58 POSS
  172 PP
 1038 PRON.POSS
@@ -252,8 +254,8 @@ p.* by LexCat + construal type
 ========================
  169 INF.P	p.X ~> p.X
   84 INF.P	p.X ~> p.Y
-2926 P	p.X ~> p.X
-1032 P	p.X ~> p.Y
+2925 P	p.X ~> p.X
+1034 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   36 POSS	p.X ~> p.Y
   98 PP	p.X ~> p.X
@@ -266,8 +268,8 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  250 INF.P 	p.OTH ~> *
-1086 P 	p.LOC ~> *
-2429 P 	p.OTH ~> *
+1088 P 	p.LOC ~> *
+2428 P 	p.OTH ~> *
  443 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *
   52 POSS 	p.OTH ~> *

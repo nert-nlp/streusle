@@ -91529,7 +91529,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 4,
@@ -91599,7 +91599,7 @@
    "1": {
     "lexlemma": "in stock",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      3,
@@ -97771,7 +97771,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Manner|p.Locus"
+    "lextag": "O-P-p.Locus"
    },
    {
     "#": 16,
@@ -97946,7 +97946,7 @@
    "15": {
     "lexlemma": "on",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Locus",
     "ss2": "p.Locus",
     "toknums": [
      15
@@ -99611,7 +99611,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-P-p.Manner|p.Locus"
+    "lextag": "B-P-p.Characteristic|p.Locus"
    },
    {
     "#": 11,
@@ -100008,7 +100008,7 @@
    "2": {
     "lexlemma": "in need of",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      10,
@@ -104336,7 +104336,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 2,
@@ -104406,7 +104406,7 @@
    "1": {
     "lexlemma": "out of business",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      1,
@@ -104551,7 +104551,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 9,
@@ -104666,7 +104666,7 @@
    "1": {
     "lexlemma": "in business",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      8,
@@ -113728,7 +113728,7 @@
      2,
      1
     ],
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 4,
@@ -113962,7 +113962,7 @@
    "1": {
     "lexlemma": "in love",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      3,
@@ -124439,7 +124439,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-PP-p.Manner|p.Locus"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 13,
@@ -124604,7 +124604,7 @@
    "1": {
     "lexlemma": "in stock",
     "lexcat": "PP",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      12,
@@ -127823,7 +127823,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Manner|p.Locus"
+    "lextag": "O-P-p.Characteristic|p.Locus"
    },
    {
     "#": 10,
@@ -128068,7 +128068,7 @@
    "9": {
     "lexlemma": "in",
     "lexcat": "P",
-    "ss": "p.Manner",
+    "ss": "p.Characteristic",
     "ss2": "p.Locus",
     "toknums": [
      9

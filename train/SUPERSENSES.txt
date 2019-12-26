@@ -1,5 +1,5 @@
   36 ??	_
-26619 _	_
+26618 _	_
   15 `$	`$
  493 n.ACT	_
   78 n.ANIMAL	_
@@ -45,14 +45,17 @@
    4 p.Causer	p.Causer
    1 p.Causer	p.Gestalt
    1 p.Causer	p.Source
-  38 p.Characteristic	p.Characteristic
+  39 p.Characteristic	p.Characteristic
    9 p.Characteristic	p.Extent
+   2 p.Characteristic	p.Goal
    7 p.Characteristic	p.Identity
-   1 p.Characteristic	p.Manner
+  33 p.Characteristic	p.Locus
   39 p.Characteristic	p.Purpose
+   1 p.Characteristic	p.Source
    4 p.Characteristic	p.Stuff
+   2 p.Characteristic	p.Topic
   54 p.Circumstance	p.Circumstance
-  12 p.Circumstance	p.Locus
+  17 p.Circumstance	p.Locus
    1 p.Circumstance	p.Path
   30 p.Co-Agent	p.Co-Agent
    6 p.Co-Theme	p.Co-Theme
@@ -66,7 +69,8 @@
    3 p.ComparisonRef	p.Source
   26 p.Cost	p.Cost
    1 p.Cost	p.Extent
-  13 p.Cost	p.Locus
+  14 p.Cost	p.Locus
+   1 p.Cost	p.Manner
  113 p.Direction	p.Direction
    1 p.Direction	p.Goal
   71 p.Duration	p.Duration
@@ -109,12 +113,10 @@
    2 p.Locus	p.Whole
   20 p.Manner	p.ComparisonRef
    2 p.Manner	p.Extent
-   2 p.Manner	p.Goal
-  62 p.Manner	p.Locus
-  35 p.Manner	p.Manner
-   3 p.Manner	p.Source
+  24 p.Manner	p.Locus
+  32 p.Manner	p.Manner
+   2 p.Manner	p.Source
    1 p.Manner	p.Stuff
-   1 p.Manner	p.Topic
   13 p.Means	p.Means
    1 p.Means	p.Path
    1 p.OrgRole	p.Accompanier
@@ -138,7 +140,7 @@
   30 p.PartPortion	p.PartPortion
    8 p.PartPortion	p.Source
    1 p.Path	p.Goal
-   4 p.Path	p.Locus
+   5 p.Path	p.Locus
   18 p.Path	p.Path
    6 p.Possession	p.Accompanier
    2 p.Possession	p.Locus
@@ -214,7 +216,7 @@
 ========================
     7242 n.*
     6360 v.*
-    4539 p.*
+    4540 p.*
 
 n.* by LexCat
 ========================
@@ -233,7 +235,7 @@ v.* by LexCat
 p.* by LexCat
 ========================
  206 INF.P
-3276 P
+3277 P
   51 POSS
  141 PP
  865 PRON.POSS
@@ -242,8 +244,8 @@ p.* by LexCat + construal type
 ========================
  149 INF.P	p.X ~> p.X
   57 INF.P	p.X ~> p.Y
-2430 P	p.X ~> p.X
- 846 P	p.X ~> p.Y
+2428 P	p.X ~> p.X
+ 849 P	p.X ~> p.Y
   20 POSS	p.X ~> p.X
   31 POSS	p.X ~> p.Y
   82 PP	p.X ~> p.X
@@ -256,7 +258,7 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  203 INF.P 	p.OTH ~> *
- 877 P 	p.LOC ~> *
+ 878 P 	p.LOC ~> *
 2015 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   46 POSS 	p.OTH ~> *
