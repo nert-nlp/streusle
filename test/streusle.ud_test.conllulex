@@ -2141,7 +2141,7 @@
 27	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 28	there	there	PRON	EX	_	27	expl	27:expl	_	_	PRON	there	_	_	_	_	_	O-PRON
 29	something	something	PRON	NN	Number=Sing	27	nsubj	27:nsubj	_	_	PRON	something	_	_	_	_	_	O-PRON
-30	behind	behind	ADP	IN	_	32	case	32:case	_	2:1	ADJ	behind the scene	_	_	_	_	_	B-ADJ
+30	behind	behind	ADP	IN	_	32	case	32:case	_	2:1	PP	behind the scene	p.Characteristic	p.Locus	_	_	_	B-PP-p.Characteristic|p.Locus
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	_	2:2	_	_	_	_	_	_	_	I_
 32	scenes	scene	NOUN	NNS	Number=Plur	29	nmod	29:nmod:behind	_	2:3	_	_	_	_	_	_	_	I_
 33	at	at	ADP	IN	_	35	case	35:case	_	_	P	at	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -4487,7 +4487,7 @@
 # text = On time, Clean and very nice
 # streusle_sent_id = ewtb.r.216281.1
 # mwe = On_time , Clean and very nice
-1	On	on	ADP	IN	_	2	case	2:case	_	1:1	ADJ	on time	_	_	_	_	_	B-ADJ
+1	On	on	ADP	IN	_	2	case	2:case	_	1:1	PP	on time	p.Characteristic	p.Locus	_	_	_	B-PP-p.Characteristic|p.Locus
 2	time	time	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 3	,	,	PUNCT	,	_	4	punct	4:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 4	Clean	clean	ADJ	JJ	Degree=Pos	2	conj	2:conj:and	_	_	ADJ	clean	_	_	_	_	_	O-ADJ
@@ -7076,7 +7076,7 @@
 1	Good	good	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 2	location	location	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	_	N	location	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 3	and	and	CCONJ	CC	_	6	cc	6:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-4	off	off	ADP	IN	_	5	case	5:case	_	1:1	ADJ	off road	_	_	2:1	_	off road parking	B-ADJ
+4	off	off	ADP	IN	_	5	case	5:case	_	1:1	PP	off road	p.Locus	p.Locus	2:1	_	off road parking	B-PP-p.Locus
 5	road	road	NOUN	NN	Number=Sing	6	compound	6:compound	_	1:2	_	_	_	_	2:2	_	_	I_
 6	parking	parking	NOUN	NN	Number=Sing	2	conj	2:conj:and|7:nsubj	_	_	N	parking	n.COGNITION	_	2:3	_	_	I~-N-n.COGNITION
 7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	make	v.social	_	_	_	_	O-V-v.social

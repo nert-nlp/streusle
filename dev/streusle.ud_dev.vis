@@ -41,7 +41,7 @@ reviews-022900-0001	Very|ADV hard_work|N-n.ACT from|P-p.Agent:p.Source the|DET b
 reviews-022900-0002	Brilll|ADJ .|PUNCT
 reviews-022900-0003	Very|ADV hard_work|N-n.ACT from|P-p.Agent:p.Source the|DET boys_in_blue|N-n.GROUP there|ADV !|PUNCT
 reviews-023926-0001	Great|ADJ job|N-n.ACT !|PUNCT
-reviews-023926-0002	Mercedes|N-n.PERSON and|CCONJ Dan|N-n.PERSON are|V-v.stative very|ADV thorough|ADJ and|CCONJ on_top_of|ADJ everything|PRON !|PUNCT
+reviews-023926-0002	Mercedes|N-n.PERSON and|CCONJ Dan|N-n.PERSON are|V-v.stative very|ADV thorough|ADJ and|CCONJ on_top_of|PP-p.Characteristic:p.Locus everything|PRON !|PUNCT
 reviews-030875-0001	Slice_Pizza|N-n.GROUP at|P-p.Locus former|ADJ Britt_'s|N-n.GROUP Location|N-n.LOCATION
 reviews-030875-0002	Britt_'s_Pizza|N-n.GROUP is|V-v.stative long_gone|ADJ .|PUNCT
 reviews-030875-0003	Their|PRON.POSS-p.Gestalt location|N-n.LOCATION ,|PUNCT the|DET northwest|N-n.LOCATION corner|N-n.LOCATION of|P-p.Whole S._10th|N-n.LOCATION &|CCONJ Federal_Sts.|N-n.LOCATION ,|PUNCT is_ now|ADV _home_to|V.VID-v.stative Slice_Pizza|N-n.GROUP .|PUNCT
@@ -51,7 +51,7 @@ reviews-034313-0002	Mr._Villega|N-n.PERSON is|V-v.stative an|DET exceptional|ADJ
 reviews-034313-0003	He|PRON cross_examined|V.VID-v.social witnesses|N-n.PERSON relentlessly|ADV and|CCONJ had|V-v.stative them|PRON break_down_and|V.VPC.full-v.cognition tell_the_truth|V.VID-v.communication .|PUNCT
 reviews-034313-0004	If|SCONJ you|PRON want|V-v.cognition an|DET attorney|N-n.PERSON who|PRON will|AUX defend|V-v.social your|PRON.POSS-p.Gestalt right|N-n.COGNITION ,|PUNCT contact|V-v.communication Law_Offices_of_Armando_Villega|N-n.GROUP
 reviews-035932-0001	Simple|ADJ ,|PUNCT Quick|ADJ take_away|N-n.FOOD .|PUNCT
-reviews-041925-0001	I|PRON heard|V-v.perception the_libido_band|N-n.GROUP play|V-v.creation live|ADV and|CCONJ they|PRON are|V-v.stative out_of_site|ADJ !!|PUNCT
+reviews-041925-0001	I|PRON heard|V-v.perception the_libido_band|N-n.GROUP play|V-v.creation live|ADV and|CCONJ they|PRON are|V-v.stative out_of_site|PP-p.Characteristic:p.Locus !!|PUNCT
 reviews-041925-0002	I|PRON will|AUX be|AUX calling|V-v.communication tropics|N-n.GROUP for|P-p.Purpose my|PRON.POSS-p.SocialRel:p.Gestalt companie|N-n.GROUP s|POSS-p.Agent:p.Gestalt next|ADJ event|N-n.EVENT !|PUNCT
 reviews-045753-0001	Compare|V-v.stative~to|P-p.ComparisonRef:p.Goal last|ADJ decade|N-n.TIME this|DET University|N-n.GROUP is|AUX gaining|V-v.change more|ADJ prestige|N-n.ATTRIBUTE in|P-?? International|ADJ level|N-n.COGNITION
 reviews-046906-0001	rug|N-n.GROUP works_for_me|V.VID-v.social
@@ -191,7 +191,7 @@ reviews-120992-0002	Stylish|ADJ and|CCONJ contemporary|ADJ ,|PUNCT no_matter|ADV
 reviews-120992-0003	She|PRON 's|V-v.stative an|DET A_+|N-n.COMMUNICATION and|CCONJ so|ADV are|V-v.stative her|PRON.POSS-p.Possessor clothes|N-n.ARTIFACT !|PUNCT
 reviews-124552-0001	They|PRON have|V-v.stative good|ADJ sushi|N-n.FOOD for|P-p.Cost a|DET good|ADJ price|N-n.POSSESSION .|PUNCT
 reviews-124552-0002	My|PRON.POSS-p.Experiencer:p.Gestalt favorite|N-n.COGNITION so_far|ADV in|P-p.Locus Bellevue|N-n.LOCATION .|PUNCT
-reviews-124552-0003	Store|N-n.ARTIFACT is|V-v.stative on_the_ small|ADJ _side|ADJ and|CCONJ atmosphere|N-n.ATTRIBUTE is|V-v.stative just|ADV average|ADJ .|PUNCT
+reviews-124552-0003	Store|N-n.ARTIFACT is|V-v.stative on_the_ small|ADJ _side|PP-p.Characteristic:p.Locus and|CCONJ atmosphere|N-n.ATTRIBUTE is|V-v.stative just|ADV average|ADJ .|PUNCT
 reviews-125522-0001	They|PRON are|V-v.stative out_of_business|PP-p.Characteristic:p.Locus .|PUNCT
 reviews-125522-0002	Nice|ADJ people|N-n.PERSON ...|PUNCT I|PRON hear|V-v.communication .|PUNCT
 reviews-125522-0003	Calls|N-n.COMMUNICATION are|AUX now|ADV forwarded|V-v.communication to|P-p.Recipient:p.Goal Malcolm_Smith_Motorsports|N-n.GROUP down|P-p.Locus:p.Path the|DET road|N-n.ARTIFACT .|PUNCT

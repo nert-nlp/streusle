@@ -36613,7 +36613,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-ADJ"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 31,
@@ -37005,14 +37005,21 @@
    },
    "2": {
     "lexlemma": "behind the scene",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PP",
+    "ss": "p.Characteristic",
+    "ss2": "p.Locus",
     "toknums": [
      30,
      31,
      32
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 29,
+     "govlemma": "something",
+     "obj": 32,
+     "objlemma": "scene",
+     "config": "default"
+    }
    }
   },
   "wmwes": {}
@@ -77101,7 +77108,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-ADJ"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 2,
@@ -77248,13 +77255,20 @@
   "smwes": {
    "1": {
     "lexlemma": "on time",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PP",
+    "ss": "p.Characteristic",
+    "ss2": "p.Locus",
     "toknums": [
      1,
      2
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": null,
+     "govlemma": null,
+     "obj": 2,
+     "objlemma": "time",
+     "config": "default"
+    }
    }
   },
   "wmwes": {}
@@ -121119,7 +121133,7 @@
      2,
      1
     ],
-    "lextag": "B-ADJ"
+    "lextag": "B-PP-p.Locus"
    },
    {
     "#": 5,
@@ -121354,13 +121368,20 @@
   "smwes": {
    "1": {
     "lexlemma": "off road",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PP",
+    "ss": "p.Locus",
+    "ss2": "p.Locus",
     "toknums": [
      4,
      5
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 6,
+     "govlemma": "parking",
+     "obj": 5,
+     "objlemma": "road",
+     "config": "default"
+    }
    }
   },
   "wmwes": {

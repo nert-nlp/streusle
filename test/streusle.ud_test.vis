@@ -133,7 +133,7 @@ reviews-101864-0002	I|PRON have_ no|DET _complaints|V.LVC.full-v.communication a
 reviews-101864-0003	This|DET man|N-n.PERSON was|V-v.stative polite|ADJ ,|PUNCT professional|ADJ ,|PUNCT clean|ADJ and|CCONJ quick|ADJ .|PUNCT
 reviews-101864-0004	I|PRON never|ADV felt|V-v.emotion worried|ADJ and|CCONJ walked_away|V.VPC.full-v.social satisfied|ADJ .|PUNCT
 reviews-103519-0001	umm|INTJ ...|PUNCT
-reviews-103519-0002	okay|INTJ ,|PUNCT I|PRON do|AUX nt|ADV have|V-v.stative a|DET review|N-n.COMMUNICATION ,|PUNCT but|CCONJ why_in_the_hell|ADV would|AUX you|PRON name|V-v.communication your|PRON.POSS-p.OrgRole:p.Possessor business|N-n.GROUP something|PRON that|PRON has|V-v.stative the|DET initials|N-n.COMMUNICATION KKK|N-n.COMMUNICATION ....|PUNCT is|V-v.stative there|PRON something|PRON behind_the_scenes|ADJ at|P-p.Locus this|DET place|N-n.GROUP ?|PUNCT
+reviews-103519-0002	okay|INTJ ,|PUNCT I|PRON do|AUX nt|ADV have|V-v.stative a|DET review|N-n.COMMUNICATION ,|PUNCT but|CCONJ why_in_the_hell|ADV would|AUX you|PRON name|V-v.communication your|PRON.POSS-p.OrgRole:p.Possessor business|N-n.GROUP something|PRON that|PRON has|V-v.stative the|DET initials|N-n.COMMUNICATION KKK|N-n.COMMUNICATION ....|PUNCT is|V-v.stative there|PRON something|PRON behind_the_scenes|PP-p.Characteristic:p.Locus at|P-p.Locus this|DET place|N-n.GROUP ?|PUNCT
 reviews-103519-0003	Like|INTJ I|PRON 'm|V-v.stative legitimately|ADV concerned|ADJ at|P-p.Time this|DET point|N-n.TIME ...|PUNCT lol|INTJ
 reviews-103878-0001	You|PRON~guys|N-n.PERSON do|V-v.stative everything|PRON wonderful|ADV !|PUNCT
 reviews-103878-0002	We|PRON honestly|ADV can|AUX not|ADV think_of|V.IAV-v.cognition even|ADV 1|NUM thing|N-n.OTHER we|PRON did|AUX n't|ADV like|V-v.emotion !|PUNCT
@@ -282,7 +282,7 @@ reviews-214912-0001	I|PRON have|AUX used|V-v.social Bright_Futures|N-n.GROUP for
 reviews-214912-0002	I|PRON have|V-v.stative 3|NUM children|N-n.PERSON there|ADV and|CCONJ they|PRON are|V-v.stative the|DET Best|ADJ .|PUNCT
 reviews-214912-0003	They|PRON are|V-v.stative like|P-p.ComparisonRef family|N-n.GROUP .|PUNCT
 reviews-214912-0004	Your|PRON.POSS-p.SocialRel:p.Gestalt children|N-n.PERSON will|AUX be|AUX taken_care_of|V.IAV-v.social and|CCONJ loved|V-v.emotion by|P-p.Experiencer:p.Agent a|DET professional|ADJ staff|N-n.GROUP .|PUNCT
-reviews-216281-0001	On_time|ADJ ,|PUNCT Clean|ADJ and|CCONJ very|ADV nice|ADJ
+reviews-216281-0001	On_time|PP-p.Characteristic:p.Locus ,|PUNCT Clean|ADJ and|CCONJ very|ADV nice|ADJ
 reviews-216281-0002	I|PRON called|V-v.communication over|P-p.Time:p.Duration the|DET weekend|N-n.TIME due_to|P-p.Explanation clogged|V-v.stative kitchen|N-n.LOCATION sink|N-n.ARTIFACT .|PUNCT
 reviews-216281-0003	Scheduled|V-v.social appointment|N-n.EVENT for|P-p.Time:p.Direction 8:30|NUM Monday|N-n.TIME morning|N-n.TIME .|PUNCT
 reviews-216281-0004	Rich|N-n.PERSON was|V-v.stative here|ADV before|P-p.Time the|DET scheduled|V-v.social time|N-n.EVENT .|PUNCT
@@ -450,7 +450,7 @@ reviews-335490-0001	Cleanest|ADJ guesthouse|N-n.ARTIFACT i|PRON have|AUX been_to
 reviews-335490-0002	Stayed|V-v.social here|ADV for|P-p.Duration 2|NUM nights|N-n.TIME .|PUNCT
 reviews-335490-0003	The|DET owner|N-n.PERSON was|V-v.stative very|ADV friendly|ADJ and|CCONJ helpful|ADJ .|PUNCT
 reviews-335490-0004	The|DET rooms|N-n.ARTIFACT were|V-v.stative very|ADV clean|ADJ and|CCONJ the|DET breakfast|N-n.FOOD was|V-v.stative excellent|ADJ .|PUNCT
-reviews-335490-0005	Good|ADJ location|N-n.LOCATION and|CCONJ off_road|ADJ~parking|N-n.COGNITION made|V-v.social our|PRON.POSS-p.Agent:p.Gestalt stay|N-n.EVENT very|ADV convenient|ADJ .|PUNCT
+reviews-335490-0005	Good|ADJ location|N-n.LOCATION and|CCONJ off_road|PP-p.Locus~parking|N-n.COGNITION made|V-v.social our|PRON.POSS-p.Agent:p.Gestalt stay|N-n.EVENT very|ADV convenient|ADJ .|PUNCT
 reviews-336285-0001	What|DET a|DET Preschool|N-n.GROUP !|PUNCT
 reviews-336285-0002	If|SCONJ you|PRON want|V-v.cognition the|DET best|ADJ for|P-p.Beneficiary your|PRON.POSS-p.SocialRel:p.Gestalt child|N-n.PERSON ,|PUNCT do|AUX n't|ADV hesitate|V-v.cognition in|P-p.Topic visiting|V-v.social this|DET wornderful|ADJ school|N-n.GROUP .|PUNCT
 reviews-336285-0003	This|PRON is|V-v.stative the|DET very|ADV best|ADJ in|P-p.Locus the_Gables|N-n.LOCATION .|PUNCT

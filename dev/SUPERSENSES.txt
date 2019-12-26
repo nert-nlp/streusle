@@ -1,5 +1,5 @@
    6 ??	_
-3227 _	_
+3224 _	_
    3 `$	`$
  108 n.ACT	_
    6 n.ANIMAL	_
@@ -36,7 +36,7 @@
    1 p.Beneficiary	p.Possessor
    8 p.Characteristic	p.Characteristic
    1 p.Characteristic	p.Identity
-   7 p.Characteristic	p.Locus
+  10 p.Characteristic	p.Locus
   15 p.Characteristic	p.Purpose
    6 p.Circumstance	p.Circumstance
    1 p.Circumstance	p.Locus
@@ -123,7 +123,7 @@
 ========================
     1038 n.*
      662 v.*
-     458 p.*
+     461 p.*
 
 n.* by LexCat
 ========================
@@ -143,7 +143,7 @@ p.* by LexCat
   27 INF.P
  329 P
    6 POSS
-  16 PP
+  19 PP
   80 PRON.POSS
 
 p.* by LexCat + construal type
@@ -155,7 +155,7 @@ p.* by LexCat + construal type
    1 POSS	p.X ~> p.X
    5 POSS	p.X ~> p.Y
    8 PP	p.X ~> p.X
-   8 PP	p.X ~> p.Y
+  11 PP	p.X ~> p.Y
   26 PRON.POSS	p.X ~> p.X
   54 PRON.POSS	p.X ~> p.Y
 
@@ -169,6 +169,6 @@ p.* by LexCat + spatiotemporality
    1 POSS 	p.LOC ~> *
    5 POSS 	p.OTH ~> *
   11 PP 	p.LOC ~> *
-   5 PP 	p.OTH ~> *
+   8 PP 	p.OTH ~> *
   80 PRON.POSS 	p.OTH ~> *
 

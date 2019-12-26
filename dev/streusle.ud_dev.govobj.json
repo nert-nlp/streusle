@@ -9296,7 +9296,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-ADJ"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 9,
@@ -9452,14 +9452,21 @@
   "smwes": {
    "1": {
     "lexlemma": "on top of",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PP",
+    "ss": "p.Characteristic",
+    "ss2": "p.Locus",
     "toknums": [
      8,
      9,
      10
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": null,
+     "govlemma": null,
+     "obj": 11,
+     "objlemma": "everything",
+     "config": "default"
+    }
    }
   },
   "wmwes": {}
@@ -11959,7 +11966,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-ADJ"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 12,
@@ -12102,14 +12109,21 @@
    },
    "2": {
     "lexlemma": "out of site",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PP",
+    "ss": "p.Characteristic",
+    "ss2": "p.Locus",
     "toknums": [
      11,
      12,
      13
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 9,
+     "govlemma": "they",
+     "obj": 13,
+     "objlemma": "site",
+     "config": "predicative"
+    }
    }
   },
   "wmwes": {}
@@ -46828,7 +46842,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-ADJ"
+    "lextag": "B-PP-p.Characteristic|p.Locus"
    },
    {
     "#": 4,
@@ -47059,14 +47073,21 @@
   "smwes": {
    "1": {
     "lexlemma": "on the side",
-    "lexcat": "ADJ",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PP",
+    "ss": "p.Characteristic",
+    "ss2": "p.Locus",
     "toknums": [
      3,
      4,
      6
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 1,
+     "govlemma": "store",
+     "obj": 6,
+     "objlemma": "side",
+     "config": "predicative"
+    }
    }
   },
   "wmwes": {}

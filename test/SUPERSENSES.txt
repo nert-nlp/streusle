@@ -1,5 +1,5 @@
    6 ??	_
-3208 _	_
+3205 _	_
    2 `$	`$
  123 n.ACT	_
    4 n.ANIMAL	_
@@ -35,7 +35,7 @@
    1 p.Beneficiary	p.Theme
    6 p.Characteristic	p.Characteristic
    1 p.Characteristic	p.Identity
-   7 p.Characteristic	p.Locus
+   9 p.Characteristic	p.Locus
   10 p.Characteristic	p.Purpose
    4 p.Circumstance	p.Circumstance
    2 p.Co-Agent	p.Co-Agent
@@ -62,7 +62,7 @@
    1 p.InsteadOf	p.InsteadOf
    1 p.Instrument	p.Instrument
    2 p.Locus	p.Goal
-  73 p.Locus	p.Locus
+  74 p.Locus	p.Locus
    1 p.Locus	p.Path
    2 p.Locus	p.Source
    3 p.Manner	p.ComparisonRef
@@ -134,7 +134,7 @@
 ========================
      986 n.*
      697 v.*
-     482 p.*
+     485 p.*
 
 n.* by LexCat
 ========================
@@ -155,7 +155,7 @@ p.* by LexCat
   20 INF.P
  353 P
    1 POSS
-  15 PP
+  18 PP
   93 PRON.POSS
 
 p.* by LexCat + construal type
@@ -165,8 +165,8 @@ p.* by LexCat + construal type
  250 P	p.X ~> p.X
  103 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
-   8 PP	p.X ~> p.X
-   7 PP	p.X ~> p.Y
+   9 PP	p.X ~> p.X
+   9 PP	p.X ~> p.Y
   36 PRON.POSS	p.X ~> p.X
   57 PRON.POSS	p.X ~> p.Y
 
@@ -178,8 +178,8 @@ p.* by LexCat + spatiotemporality
  211 P 	p.OTH ~> *
   32 P 	p.TMP ~> *
    1 POSS 	p.OTH ~> *
-   5 PP 	p.LOC ~> *
-   9 PP 	p.OTH ~> *
+   6 PP 	p.LOC ~> *
+  11 PP 	p.OTH ~> *
    1 PP 	p.TMP ~> *
   93 PRON.POSS 	p.OTH ~> *
 
