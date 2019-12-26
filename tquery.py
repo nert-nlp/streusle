@@ -19,6 +19,8 @@ Interface: ./tquery [OPTIONS] streusle.json [+]<fldname>[<op><pattern>] [[+]<fld
 OPTIONS:
 -H: omit header lines giving commit hash and call info, and column headers (these lines start with "#")
 -I: case-sensitive filtering (case-insensitive by default)
+-L i..[j]: filter to sentences with at least i and no more than j tokens,
+    where i and j are positive integers (j is optional)
 -S: omit sentence IDs in output
 -T: omit token numbers (offsets within the sentence) in output
 
@@ -65,12 +67,14 @@ GOVOBJ_FIELDS = {'g': 'govlemma', 'govlemma': 'govlemma', 'o': 'objlemma', 'objl
 ALL_FIELDS = dict(**TKN_LEVEL_FIELDS, **LEX_LEVEL_FIELDS, **GOVOBJ_FIELDS)
 RE_FLAGS = re.IGNORECASE   # case-insensitive by default
 
-def tselect(jsonPath, fields, tknconstraints=[], lexconstraints=[], govobjconstraints=[]):
+def tselect(jsonPath, fields, tknconstraints=[], lexconstraints=[], govobjconstraints=[], minlen=0, maxlen=float('inf')):
 
     with open(jsonPath, encoding='utf-8') as inF:
         data = json.load(inF)
 
     for sent in data:
+        if not minlen <= len(sent["toks"]) <= maxlen:
+            continue
         for lexe in chain(sent["swes"].values(), sent["smwes"].values()):
             fail = False
             myprints = {k: None for k in fields}
@@ -160,6 +164,8 @@ if __name__=='__main__':
     printHeader = True
     printSentId = True
     printTokOffset = True
+    lowerb = 0
+    upperb = float('inf')
 
 
     args = sys.argv[1:]
@@ -175,6 +181,13 @@ if __name__=='__main__':
             printSentId = False
         elif flag=='-T':    # no token offsets
             printTokOffset = False
+        elif flag=='-L':    # sentence length range
+            v = args.pop(0)
+            lowerb, upperb = v.split('..')
+            assert lowerb,f'-L {v} option is invalid (minimum length required, e.g. "1..10" or "1..")'
+            lowerb = int(lowerb)
+            upperb = int(upperb) if upperb else float('inf')
+            assert 0<lowerb<=upperb,f'-L {v} option is invalid'
         else:
             raise ValueError(f'Invalid flag: {flag}')
 
@@ -264,7 +277,8 @@ if __name__=='__main__':
 
     n = 0
     for myprints in tselect(inFP, prints, tknconstraints=tknconstraints,
-            lexconstraints=lexconstraints, govobjconstraints=govobjconstraints):
+            lexconstraints=lexconstraints, govobjconstraints=govobjconstraints,
+            minlen=lowerb, maxlen=upperb):
 
         print(*[myprints[f] for f in prints],
               #lexe["ss"]+('|'+lexe["ss2"] if lexe["ss2"] and lexe["ss2"]!=lexe["ss"] else ''),     # TODO: make a field for this
