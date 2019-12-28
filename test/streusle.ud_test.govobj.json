@@ -6330,7 +6330,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 13,
@@ -6474,7 +6474,7 @@
    "12": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      12
@@ -42750,7 +42750,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 4,
@@ -42896,7 +42896,7 @@
    "3": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      3
@@ -49606,7 +49606,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 7,
@@ -49704,7 +49704,7 @@
    "6": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      6
@@ -65044,7 +65044,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 14,
@@ -65205,7 +65205,7 @@
    "13": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      13
@@ -65836,7 +65836,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 7,
@@ -65919,7 +65919,7 @@
    "6": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      6
@@ -75351,7 +75351,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 19,
@@ -75549,7 +75549,7 @@
    "18": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      18
@@ -79821,7 +79821,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 9,
@@ -80034,7 +80034,7 @@
    "8": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      8
@@ -92685,7 +92685,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Purpose"
+    "lextag": "O-INF.P-p.Theme|p.Purpose"
    },
    {
     "#": 6,
@@ -92789,7 +92789,7 @@
    "5": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Purpose",
+    "ss": "p.Theme",
     "ss2": "p.Purpose",
     "toknums": [
      5
@@ -109170,7 +109170,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 9,
@@ -109337,7 +109337,7 @@
    "8": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      8
@@ -114783,7 +114783,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 23,
@@ -115083,7 +115083,7 @@
    "22": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      22
@@ -123456,7 +123456,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 11,
@@ -123575,7 +123575,7 @@
    "10": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      10

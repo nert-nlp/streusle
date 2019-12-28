@@ -14173,7 +14173,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 12,
@@ -14301,7 +14301,7 @@
    "11": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      11
@@ -22966,7 +22966,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 4,
@@ -23172,7 +23172,7 @@
    "3": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      3
@@ -42503,7 +42503,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 8,
@@ -42773,7 +42773,7 @@
    "7": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      7
@@ -49600,7 +49600,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 4,
@@ -49776,7 +49776,7 @@
    "3": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      3
@@ -57098,7 +57098,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 4,
@@ -57154,7 +57154,7 @@
    "3": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      3
@@ -79925,7 +79925,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 7,
@@ -80038,7 +80038,7 @@
    "6": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      6
@@ -94584,7 +94584,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 10,
@@ -94709,7 +94709,7 @@
    "9": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      9
@@ -95022,7 +95022,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 5,
@@ -95102,7 +95102,7 @@
    "4": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      4
@@ -108992,7 +108992,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 8,
@@ -109136,7 +109136,7 @@
    "7": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      7
@@ -109763,7 +109763,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 9,
@@ -109908,7 +109908,7 @@
    "8": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      8
@@ -111105,7 +111105,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 7,
@@ -111254,7 +111254,7 @@
    "6": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      6
@@ -122781,7 +122781,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 5,
@@ -122853,7 +122853,7 @@
    "4": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      4
@@ -125088,10 +125088,10 @@
    {
     "#": 7,
     "word": "hireing",
-    "lemma": "hiree",
+    "lemma": "hire",
     "upos": "VERB",
     "xpos": "VBG",
-    "feats": "VerbForm=Ger",
+    "feats": "Typo=Yes|VerbForm=Ger",
     "head": 3,
     "deprel": "conj",
     "edeps": "3:conj:and",
@@ -125128,7 +125128,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Purpose"
+    "lextag": "O-P-p.Theme|p.Purpose"
    },
    {
     "#": 10,
@@ -125233,7 +125233,7 @@
     ]
    },
    "7": {
-    "lexlemma": "hiree",
+    "lexlemma": "hire",
     "lexcat": "V",
     "ss": "v.social",
     "ss2": null,
@@ -125253,14 +125253,14 @@
    "9": {
     "lexlemma": "for",
     "lexcat": "P",
-    "ss": "p.Purpose",
+    "ss": "p.Theme",
     "ss2": "p.Purpose",
     "toknums": [
      9
     ],
     "heuristic_relation": {
      "gov": 7,
-     "govlemma": "hiree",
+     "govlemma": "hire",
      "obj": 11,
      "objlemma": "project",
      "config": "default"
@@ -128578,7 +128578,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 4,
@@ -128775,7 +128775,7 @@
    "3": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      3
@@ -130606,7 +130606,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 4,
@@ -130647,7 +130647,7 @@
    "3": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      3
@@ -134562,7 +134562,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-INF.P-p.Characteristic|p.Purpose"
+    "lextag": "O-INF.P-p.Purpose"
    },
    {
     "#": 11,
@@ -134702,7 +134702,7 @@
    "10": {
     "lexlemma": "to",
     "lexcat": "INF.P",
-    "ss": "p.Characteristic",
+    "ss": "p.Purpose",
     "ss2": "p.Purpose",
     "toknums": [
      10

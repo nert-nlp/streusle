@@ -37,7 +37,6 @@
    8 p.Characteristic	p.Characteristic
    1 p.Characteristic	p.Identity
   10 p.Characteristic	p.Locus
-  15 p.Characteristic	p.Purpose
    6 p.Circumstance	p.Circumstance
    1 p.Circumstance	p.Locus
    3 p.Co-Agent	p.Co-Agent
@@ -85,7 +84,7 @@
    4 p.Possession	p.Accompanier
    1 p.Possession	p.Locus
   21 p.Possessor	p.Possessor
-  28 p.Purpose	p.Purpose
+  42 p.Purpose	p.Purpose
    2 p.Quantity	p.Quantity
    1 p.Quantity	p.Stuff
    7 p.Quantity	p.Whole
@@ -100,7 +99,7 @@
    1 p.Stimulus	p.Theme
    7 p.Stimulus	p.Topic
    1 p.Theme	p.ComparisonRef
-   2 p.Theme	p.Purpose
+   3 p.Theme	p.Purpose
   16 p.Theme	p.Theme
    2 p.Time	p.Interval
   18 p.Time	p.Time
@@ -148,10 +147,10 @@ p.* by LexCat
 
 p.* by LexCat + construal type
 ========================
-  11 INF.P	p.X ~> p.X
-  16 INF.P	p.X ~> p.Y
- 247 P	p.X ~> p.X
-  82 P	p.X ~> p.Y
+  26 INF.P	p.X ~> p.X
+   1 INF.P	p.X ~> p.Y
+ 246 P	p.X ~> p.X
+  83 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    5 POSS	p.X ~> p.Y
    8 PP	p.X ~> p.X

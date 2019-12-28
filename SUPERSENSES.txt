@@ -1,5 +1,5 @@
   48 ??	_
-33038 _	_
+33037 _	_
   20 `$	`$
  724 n.ACT	_
   88 n.ANIMAL	_
@@ -50,7 +50,6 @@
    3 p.Characteristic	p.Goal
    9 p.Characteristic	p.Identity
   58 p.Characteristic	p.Locus
-  64 p.Characteristic	p.Purpose
    1 p.Characteristic	p.Source
    4 p.Characteristic	p.Stuff
    2 p.Characteristic	p.Topic
@@ -97,7 +96,7 @@
    2 p.Gestalt	p.Purpose
    1 p.Gestalt	p.Source
    2 p.Gestalt	p.Topic
- 192 p.Goal	p.Goal
+ 193 p.Goal	p.Goal
   40 p.Goal	p.Locus
    1 p.Goal	p.Whole
    5 p.Identity	p.ComparisonRef
@@ -156,9 +155,9 @@
    3 p.Possessor	p.Accompanier
    1 p.Possessor	p.Locus
  320 p.Possessor	p.Possessor
-   2 p.Purpose	p.Goal
+   1 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
- 302 p.Purpose	p.Purpose
+ 360 p.Purpose	p.Purpose
    3 p.Quantity	p.Gestalt
   84 p.Quantity	p.Quantity
   13 p.Quantity	p.Stuff
@@ -190,7 +189,7 @@
    3 p.Theme	p.Goal
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
-  27 p.Theme	p.Purpose
+  34 p.Theme	p.Purpose
  130 p.Theme	p.Theme
    2 p.Theme	p.Whole
    2 p.Time	p.Direction
@@ -226,7 +225,7 @@
 ========================
     9266 n.*
     7719 v.*
-    5495 p.*
+    5496 p.*
 
 n.* by LexCat
 ========================
@@ -244,7 +243,7 @@ v.* by LexCat
 
 p.* by LexCat
 ========================
- 253 INF.P
+ 254 INF.P
 3959 P
   58 POSS
  187 PP
@@ -252,10 +251,10 @@ p.* by LexCat
 
 p.* by LexCat + construal type
 ========================
- 169 INF.P	p.X ~> p.X
-  84 INF.P	p.X ~> p.Y
-2925 P	p.X ~> p.X
-1034 P	p.X ~> p.Y
+ 229 INF.P	p.X ~> p.X
+  25 INF.P	p.X ~> p.Y
+2924 P	p.X ~> p.X
+1035 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   36 POSS	p.X ~> p.Y
  101 PP	p.X ~> p.X
@@ -267,9 +266,9 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
    3 INF.P 	p.LOC ~> *
- 250 INF.P 	p.OTH ~> *
-1088 P 	p.LOC ~> *
-2428 P 	p.OTH ~> *
+ 251 INF.P 	p.OTH ~> *
+1089 P 	p.LOC ~> *
+2427 P 	p.OTH ~> *
  443 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *
   52 POSS 	p.OTH ~> *

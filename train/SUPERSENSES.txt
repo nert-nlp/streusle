@@ -1,5 +1,5 @@
   36 ??	_
-26609 _	_
+26608 _	_
   15 `$	`$
  493 n.ACT	_
   78 n.ANIMAL	_
@@ -50,7 +50,6 @@
    3 p.Characteristic	p.Goal
    7 p.Characteristic	p.Identity
   39 p.Characteristic	p.Locus
-  39 p.Characteristic	p.Purpose
    1 p.Characteristic	p.Source
    4 p.Characteristic	p.Stuff
    2 p.Characteristic	p.Topic
@@ -93,7 +92,7 @@
    5 p.Gestalt	p.Locus
    1 p.Gestalt	p.Source
    1 p.Gestalt	p.Topic
- 160 p.Goal	p.Goal
+ 161 p.Goal	p.Goal
   35 p.Goal	p.Locus
    1 p.Goal	p.Whole
    5 p.Identity	p.ComparisonRef
@@ -150,9 +149,8 @@
    3 p.Possessor	p.Accompanier
    1 p.Possessor	p.Locus
  270 p.Possessor	p.Possessor
-   1 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
- 257 p.Purpose	p.Purpose
+ 292 p.Purpose	p.Purpose
    2 p.Quantity	p.Gestalt
   71 p.Quantity	p.Quantity
   11 p.Quantity	p.Stuff
@@ -182,7 +180,7 @@
    3 p.Theme	p.Goal
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
-  24 p.Theme	p.Purpose
+  29 p.Theme	p.Purpose
  107 p.Theme	p.Theme
    2 p.Theme	p.Whole
    1 p.Time	p.Direction
@@ -216,7 +214,7 @@
 ========================
     7242 n.*
     6360 v.*
-    4549 p.*
+    4550 p.*
 
 n.* by LexCat
 ========================
@@ -234,7 +232,7 @@ v.* by LexCat
 
 p.* by LexCat
 ========================
- 206 INF.P
+ 207 INF.P
 3277 P
   51 POSS
  150 PP
@@ -242,8 +240,8 @@ p.* by LexCat
 
 p.* by LexCat + construal type
 ========================
- 149 INF.P	p.X ~> p.X
-  57 INF.P	p.X ~> p.Y
+ 185 INF.P	p.X ~> p.X
+  22 INF.P	p.X ~> p.Y
 2428 P	p.X ~> p.X
  849 P	p.X ~> p.Y
   20 POSS	p.X ~> p.X
@@ -257,9 +255,9 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
    3 INF.P 	p.LOC ~> *
- 203 INF.P 	p.OTH ~> *
- 878 P 	p.LOC ~> *
-2015 P 	p.OTH ~> *
+ 204 INF.P 	p.OTH ~> *
+ 879 P 	p.LOC ~> *
+2014 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   46 POSS 	p.OTH ~> *
    5 POSS 	p.TMP ~> *

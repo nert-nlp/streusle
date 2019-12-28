@@ -388,7 +388,7 @@
 9	or	or	CCONJ	CC	_	11	cc	11:cc	_	_	CCONJ	or	_	_	_	_	_	O-CCONJ
 10	even	even	ADV	RB	_	11	advmod	11:advmod	_	_	ADV	even	_	_	_	_	_	O-ADV
 11	anything	anything	PRON	NN	Number=Sing	8	conj	4:obl:to|8:conj:or	_	_	PRON	anything	_	_	_	_	_	O-PRON
-12	to	to	PART	TO	_	13	mark	13:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+12	to	to	PART	TO	_	13	mark	13:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 13	eat	eat	VERB	VB	VerbForm=Inf	11	acl	11:acl:to	SpaceAfter=No	_	V	eat	v.consumption	_	_	_	_	O-V-v.consumption
 14	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -2479,7 +2479,7 @@
 # mwe = Decent place to stay , I would stay there again .
 1	Decent	decent	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	decent	_	_	_	_	_	O-ADJ
 2	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
-3	to	to	PART	TO	_	4	mark	4:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+3	to	to	PART	TO	_	4	mark	4:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 4	stay	stay	VERB	VB	VerbForm=Inf	2	acl	2:acl:to	SpaceAfter=No	_	V	stay	v.social	_	_	_	_	O-V-v.social
 5	,	,	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
@@ -2863,7 +2863,7 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	_	DET	a	_	_	_	_	_	O-DET
 4	great	great	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 5	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
-6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 7	get	get	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	_	_	V	get	v.stative	_	_	_	_	O-V-v.stative
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_	_	DET	a	_	_	_	_	_	O-DET
 9	permit	permit	NOUN	NN	Number=Sing	7	obj	7:obj	_	_	N	permit	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -3785,7 +3785,7 @@
 10	up	up	ADP	RP	_	9	compound:prt	9:compound:prt	_	2:2	_	_	_	_	_	_	_	I_
 11	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_	_	V	have	v.stative	_	_	_	_	O-V-v.stative
 12	people	people	NOUN	NNS	Number=Plur	11	obj	11:obj	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
-13	to	to	PART	TO	_	14	mark	14:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+13	to	to	PART	TO	_	14	mark	14:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 14	work	work	VERB	VB	VerbForm=Inf	12	acl	12:acl:to	_	_	V	work	v.social	_	3:1	_	work with	B-V-v.social
 15	with	with	ADP	IN	_	14	obl	14:obl	_	_	P	with	p.SocialRel	p.Co-Agent	3:2	_	_	I~-P-p.SocialRel|p.Co-Agent
 16	like	like	ADP	IN	_	17	case	17:case	_	_	P	like	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
@@ -3834,7 +3834,7 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_	_	DET	a	_	_	_	_	_	O-DET
 4	great	great	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	great	_	_	_	_	_	O-ADJ
 5	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
-6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+6	to	to	PART	TO	_	7	mark	7:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 7	shop	shop	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	SpaceAfter=No	_	V	shop	v.social	_	_	_	_	O-V-v.social
 8	.	.	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -4384,7 +4384,7 @@
 15	and	and	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 16	suggesting	suggest	VERB	VBG	VerbForm=Ger	7	conj	5:advcl:in|7:conj:and	_	_	V	suggest	v.communication	_	_	_	_	O-V-v.communication
 17	exercises	exercise	NOUN	NNS	Number=Plur	16	obj	16:obj	_	_	N	exercise	n.ACT	_	_	_	_	O-N-n.ACT
-18	to	to	PART	TO	_	19	mark	19:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+18	to	to	PART	TO	_	19	mark	19:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 19	use	use	VERB	VB	VerbForm=Inf	17	acl	17:acl:to	SpaceAfter=No	_	V	use	v.stative	_	_	_	_	O-V-v.stative
 20	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -4659,7 +4659,7 @@
 5	lots	lot	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	_	_	N	lot	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
 6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
 7	people	people	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
-8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 9	talk	talk	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	_	V	talk	v.communication	_	_	_	_	O-V-v.communication
 10	to	to	ADP	IN	_	9	obl	9:obl	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
 11	and	and	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -5407,7 +5407,7 @@
 2	hired	hire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	hire	v.social	_	_	_	_	O-V-v.social
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_	_	DET	this	_	_	_	_	_	O-DET
 4	company	company	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
-5	to	to	PART	TO	_	6	mark	6:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
+5	to	to	PART	TO	_	6	mark	6:mark	_	_	INF.P	to	p.Theme	p.Purpose	_	_	_	O-INF.P-p.Theme|p.Purpose
 6	unlock	unlock	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:to	_	_	V	unlock	v.change	_	_	_	_	O-V-v.change
 7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 8	car	car	NOUN	NN	Number=Sing	6	obj	6:obj	SpaceAfter=No	_	N	car	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -6388,7 +6388,7 @@
 5	,	,	PUNCT	,	_	7	punct	7:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 6	relaxed	relaxed	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	relaxed	_	_	_	_	_	O-ADJ
 7	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
-8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 9	get	get	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	1:1	V.VID	get do	v.social	_	_	_	_	B-V.VID-v.social
 10	stuff	stuff	NOUN	NN	Number=Sing	9	obj	9:obj|11:nsubj:xsubj	_	_	N	stuff	n.OTHER	_	_	_	_	o-N-n.OTHER
 11	done	do	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	9:xcomp	_	1:2	_	_	_	_	_	_	_	I_
@@ -6710,7 +6710,7 @@
 19	more	more	ADV	RBR	_	20	advmod	20:advmod	_	_	ADV	more	_	_	_	_	_	O-ADV
 20	serious	serious	ADJ	JJ	Degree=Pos	21	amod	21:amod	_	_	ADJ	serious	_	_	_	_	_	O-ADJ
 21	adults	adult	NOUN	NNS	Number=Plur	18	obj	18:obj	_	_	N	adult	n.PERSON	_	_	_	_	O-N-n.PERSON
-22	to	to	PART	TO	_	23	mark	23:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+22	to	to	PART	TO	_	23	mark	23:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 23	help	help	VERB	VB	VerbForm=Inf	21	acl	21:acl:to	_	_	V	help	v.social	_	_	_	_	O-V-v.social
 24	serve	serve	VERB	VB	VerbForm=Inf	23	ccomp	23:ccomp	SpaceAfter=No	_	V	serve	v.social	_	_	_	_	O-V-v.social
 25	/	/	PUNCT	,	_	26	cc	26:cc	SpaceAfter=No	_	PUNCT	/	_	_	_	_	_	O-PUNCT
@@ -7215,7 +7215,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_	_	DET	a	_	_	_	_	_	O-DET
 8	regular	regular	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	regular	_	_	_	_	_	O-ADJ
 9	place	place	NOUN	NN	Number=Sing	6	obj	6:obj	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
-10	to	to	PART	TO	_	11	mark	11:mark	_	_	INF.P	to	p.Characteristic	p.Purpose	_	_	_	O-INF.P-p.Characteristic|p.Purpose
+10	to	to	PART	TO	_	11	mark	11:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 11	eat	eat	VERB	VB	VerbForm=Inf	9	acl	9:acl:to	SpaceAfter=No	_	V	eat	v.consumption	_	_	_	_	O-V-v.consumption
 12	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
