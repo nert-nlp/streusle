@@ -171,7 +171,7 @@
  201 p.SocialRel	p.Gestalt
    1 p.SocialRel	p.Source
   74 p.Source	p.Source
-  39 p.Species	p.Species
+  40 p.Species	p.Species
   29 p.StartTime	p.StartTime
    3 p.Stimulus	p.Beneficiary
    6 p.Stimulus	p.Causer
@@ -202,7 +202,7 @@
    4 p.Time	p.Whole
    7 p.Topic	p.Goal
    3 p.Topic	p.Identity
- 208 p.Topic	p.Topic
+ 207 p.Topic	p.Topic
    1 p.Whole	p.Circumstance
   67 p.Whole	p.Gestalt
    7 p.Whole	p.Locus

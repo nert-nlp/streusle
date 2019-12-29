@@ -163,7 +163,7 @@
   12 p.SocialRel	p.Co-Agent
  170 p.SocialRel	p.Gestalt
   64 p.Source	p.Source
-  32 p.Species	p.Species
+  33 p.Species	p.Species
   20 p.StartTime	p.StartTime
    3 p.Stimulus	p.Beneficiary
    5 p.Stimulus	p.Causer
@@ -192,7 +192,7 @@
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
    3 p.Topic	p.Identity
- 180 p.Topic	p.Topic
+ 179 p.Topic	p.Topic
   57 p.Whole	p.Gestalt
    5 p.Whole	p.Locus
    3 p.Whole	p.Source
