@@ -52,7 +52,7 @@ Files
 - psseval.py: Evaluation script for preposition/possessive supersense labeling only.
 - pssid/: Heuristics for identifying SNACS targets.
 
-- setup.py: Setup script for installing this as a Python package via setuputils.
+- setup.py: Setup script for installing this as a Python package via setuptools.
 
 Format
 ------
