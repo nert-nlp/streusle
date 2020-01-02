@@ -52,6 +52,8 @@ Files
 - psseval.py: Evaluation script for preposition/possessive supersense labeling only.
 - pssid/: Heuristics for identifying SNACS targets.
 
+- setup.py: Setup script for installing this as a Python package via setuputils.
+
 Format
 ------
 
@@ -113,6 +115,7 @@ History
      * Several improvements to govobj.py (most notably issue #35, affecting 184 tokens, and a small fix in 58db569 which affected 53 tokens).
      * Subdirectories for splits (train/, dev/, test/) now include .json and .govobj.json files alongside the source .conllulex.
      * Added release preparation scripts under releaseutil/.
+     * Added setup.py.
      * Fixed a very small bug in tquery.py affecting the display of sentence-final matches, and made minor changes in functionality involving null values and negative constraints; token-level attributes of multiword expressions; and a new option to filter by sentence length.
      * Manually corrected all tokens with the placeholder lexcat symbol `!!@` (introduced in v4.0) to have a real lexcat and, if appropriate, a supersense (issue #15).
      * A number of revisions to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically SNACS v2.4, <https://arxiv.org/abs/1704.02134v5>; this incorporates updates for SNACS v2.3 as well).
