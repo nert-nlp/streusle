@@ -5,12 +5,12 @@ STREUSLE Dataset
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
-STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [8]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [14].
+STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [8]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [14]. The 4.2 revises some of the annotations.
 
 Release URL: <https://github.com/nert-nlp/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
 
-The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [9]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.2 (with the exception of one lemma, token 14 in reviews-091704-0004, which is a typo); these were released July 1, 2018 and follow the UD v2 standard.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [9]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.5 plus a few further corrections (specifically, the dev branch at 06d21c3 as of December 28, 2019); these follow the UD v2 standard.
 
 This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [8]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
@@ -70,7 +70,7 @@ Citations describing the annotations in this corpus (main STREUSLE papers in __b
 
 - [4] Jena D. Hwang, Archna Bhatia, Na-Rae Han, Tim O’Gorman, Vivek Srikumar, and Nathan Schneider. Double trouble: the problem of construal in semantic annotation of adpositions. _Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics_, Vancouver, British Columbia, Canada, August 3–4, 2017. <http://people.cs.georgetown.edu/nschneid/p/prepconstrual2.pdf>
 
-- [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Na-Rae Han, Vivek Srikumar, Tim O’Gorman, Sarah R. Moeller, Omri Abend, Austin Blodgett, and Jakob Prange (July 2, 2018). Adposition and Case Supersenses v2: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
+- [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Na-Rae Han, Vivek Srikumar, Tim O’Gorman, Sarah R. Moeller, Omri Abend, Austin Blodgett, and Jakob Prange (July 2, 2018). Adposition and Case Supersenses v2.4: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
 
 - [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018. <http://people.cs.georgetown.edu/nschneid/p/gensuper.pdf>
 
@@ -104,7 +104,7 @@ http://nathan.cl
 History
 -------
 
-  - STREUSLE dev:
+  - STREUSLE 4.2: 2020-01-01.
      * Added streuseval.py, a unified evaluation script for MWEs + supersenses (issue #31).
      * Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
      * Added supdate.py (sentence-wise) and tupdate.py (token-wise) for editing lexical semantic annotations (issue #54).
@@ -115,6 +115,7 @@ History
      * Added release preparation scripts under releaseutil/.
      * Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
      * Manually corrected all tokens with the placeholder lexcat symbol `!!@` (introduced in v4.0) to have a real lexcat and, if appropriate, a supersense (issue #15).
+     * A number of revisions to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically SNACS v2.4, <https://arxiv.org/abs/1704.02134v5>; this incorporates updates for SNACS v2.3 as well).
      * Minor corrections in the data and validation improvements.
      * Updated UD parses to the latest dev version (post-v2.5). Among other things, this improves lemmas for words with nonstandard spellings.
   - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
