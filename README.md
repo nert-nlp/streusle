@@ -110,10 +110,10 @@ History
      * Added supdate.py (sentence-wise) and tupdate.py (token-wise) for editing lexical semantic annotations (issue #54).
      * Added format conversion scripts conllulex2json.py, conllulex2UDlextag.py, and UDlextag2json.py.
      * Normalized the way MWEs within a sentence are numbered in markup (normalize_mwe_numbering.py, issue #42).
-     * Improvements to govobj.py (issue #35, affecting 184 tokens, plus a small fix in 58db569 which affected 53 tokens).
+     * Several improvements to govobj.py (most notably issue #35, affecting 184 tokens, and a small fix in 58db569 which affected 53 tokens).
      * Subdirectories for splits (train/, dev/, test/) now include .json and .govobj.json files alongside the source .conllulex.
      * Added release preparation scripts under releaseutil/.
-     * Fixed a very small bug in tquery.py affecting the display of sentence-final matches.
+     * Fixed a very small bug in tquery.py affecting the display of sentence-final matches, and made minor changes in functionality involving null values and negative constraints; token-level attributes of multiword expressions; and a new option to filter by sentence length.
      * Manually corrected all tokens with the placeholder lexcat symbol `!!@` (introduced in v4.0) to have a real lexcat and, if appropriate, a supersense (issue #15).
      * A number of revisions to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically SNACS v2.4, <https://arxiv.org/abs/1704.02134v5>; this incorporates updates for SNACS v2.3 as well).
      * Minor corrections in the data and validation improvements.
