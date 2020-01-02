@@ -1,7 +1,7 @@
 STREUSLE Dataset
 ================
 
-| ![Example](example.png)  |
+| ![Example](https://raw.githubusercontent.com/nert-nlp/streusle/master/example.png)  |
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
