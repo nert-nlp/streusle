@@ -26,6 +26,7 @@ VSS = {'v.body', 'v.change', 'v.cognition', 'v.communication', 'v.competition',
        'v.perception', 'v.possession', 'v.social', 'v.stative'}
 
 # Adposition (preposition/postposition) and case supersenses
+# As of SNACS v2.5 guidelines, for STREUSLE v4.3
 
 PSS_TREE = {
     'p.Circumstance': {
@@ -48,11 +49,10 @@ PSS_TREE = {
             'p.Purpose': {}}},
     'p.Participant': {
         'p.Causer': {
-            'p.Agent': {
-                'p.Co-Agent': {}}},
+            'p.Agent': {}},
         'p.Theme': {
-            'p.Co-Theme': {},
             'p.Topic': {}},
+        'p.Ancillary': {},
         'p.Stimulus': {},
         'p.Experiencer': {},
         'p.Originator': {},
@@ -65,19 +65,19 @@ PSS_TREE = {
         'p.Species': {},
         'p.Gestalt': {
             'p.Possessor': {},
-            'p.Whole': {}},
+            'p.Whole': {},
+            'p.Org': {}},
         'p.Characteristic': {
             'p.Possession': {},
             'p.PartPortion': {
-                'p.Stuff': {}}},
-        'p.Accompanier': {},
-        'p.InsteadOf': {},
+                'p.Stuff': {}},
+            'p.OrgMember': {}},
+        'p.Ensemble': {},
         'p.ComparisonRef': {},
         'p.RateUnit': {},
         'p.Quantity': {
             'p.Approximator': {}},
-        'p.SocialRel': {
-            'p.OrgRole': {}}},
+        'p.SocialRel': {}},
 }
 
 PSS_PARENTS = {}
@@ -93,7 +93,7 @@ del queue, ss, par, descendants
 
 PSS = set(PSS_PARENTS.keys())
 
-assert len(PSS_DEPTH)==len(PSS)==50
+assert len(PSS_DEPTH)==len(PSS)==49
 assert max(PSS_DEPTH.values())==4
 assert min(PSS_DEPTH.values())==1
 
