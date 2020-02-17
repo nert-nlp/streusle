@@ -6817,7 +6817,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-P-p.InsteadOf"
+    "lextag": "B-P-p.ComparisonRef"
    },
    {
     "#": 6,
@@ -6921,8 +6921,8 @@
    "2": {
     "lexlemma": "instead of",
     "lexcat": "P",
-    "ss": "p.InsteadOf",
-    "ss2": "p.InsteadOf",
+    "ss": "p.ComparisonRef",
+    "ss2": "p.ComparisonRef",
     "toknums": [
      5,
      6
@@ -8997,7 +8997,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 12,
@@ -9154,7 +9154,7 @@
    "11": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      11
@@ -10588,7 +10588,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 6,
@@ -10827,7 +10827,7 @@
    "5": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      5
@@ -12215,7 +12215,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Co-Theme"
+    "lextag": "O-P-p.Theme|p.Ancillary"
    },
    {
     "#": 19,
@@ -12408,8 +12408,8 @@
    "18": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.Co-Theme",
-    "ss2": "p.Co-Theme",
+    "ss": "p.Theme",
+    "ss2": "p.Ancillary",
     "toknums": [
      18
     ],
@@ -13920,7 +13920,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 19,
@@ -14193,7 +14193,7 @@
    "18": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      18
@@ -19768,7 +19768,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 7,
@@ -20046,7 +20046,7 @@
    "6": {
     "lexlemma": "you",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      6
@@ -26156,7 +26156,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 4,
@@ -26296,7 +26296,7 @@
    "3": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      3
@@ -30072,7 +30072,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 12,
@@ -30255,7 +30255,7 @@
    "11": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      11
@@ -36430,7 +36430,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 19,
@@ -36834,7 +36834,7 @@
    "18": {
     "lexlemma": "you",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      18
@@ -38663,7 +38663,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 15,
@@ -38817,7 +38817,7 @@
    "14": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      14
@@ -48409,7 +48409,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 3,
@@ -49113,7 +49113,7 @@
    "2": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      2
@@ -57294,7 +57294,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 8,
@@ -57528,7 +57528,7 @@
    "7": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      7
@@ -57871,7 +57871,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 15,
@@ -58225,7 +58225,7 @@
    "14": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      14
@@ -65080,7 +65080,7 @@
      3,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 16,
@@ -65231,7 +65231,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      15
     ],
@@ -66995,7 +66995,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Accompanier"
+    "lextag": "O-P-p.Org|p.Ancillary"
    },
    {
     "#": 3,
@@ -67027,8 +67027,8 @@
    "2": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.OrgRole",
-    "ss2": "p.Accompanier",
+    "ss": "p.Org",
+    "ss2": "p.Ancillary",
     "toknums": [
      2
     ],
@@ -67687,7 +67687,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 8,
@@ -67747,7 +67747,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 12,
@@ -67762,7 +67762,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Gestalt"
    },
    {
     "#": 13,
@@ -67941,7 +67941,7 @@
    "7": {
     "lexlemma": "he",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      7
@@ -67984,7 +67984,7 @@
    "11": {
     "lexlemma": "in",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      11
@@ -68000,7 +68000,7 @@
    "12": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Gestalt",
     "toknums": [
      12
@@ -68308,7 +68308,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Gestalt"
    },
    {
     "#": 14,
@@ -68491,7 +68491,7 @@
    "13": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Gestalt",
     "toknums": [
      13
@@ -70387,7 +70387,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.SocialRel|p.Co-Agent"
+    "lextag": "O-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 6,
@@ -70462,7 +70462,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      5
     ],
@@ -78123,7 +78123,7 @@
      1,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 11,
@@ -78324,7 +78324,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      10
     ],
@@ -107579,7 +107579,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Possession|p.Accompanier"
+    "lextag": "O-P-p.Possession|p.Ancillary"
    },
    {
     "#": 16,
@@ -107786,7 +107786,7 @@
     "lexlemma": "without",
     "lexcat": "P",
     "ss": "p.Possession",
-    "ss2": "p.Accompanier",
+    "ss2": "p.Ancillary",
     "toknums": [
      15
     ],
@@ -117285,7 +117285,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Co-Agent"
+    "lextag": "O-P-p.Agent|p.Ancillary"
    },
    {
     "#": 5,
@@ -117347,8 +117347,8 @@
    "4": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.Co-Agent",
-    "ss2": "p.Co-Agent",
+    "ss": "p.Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      4
     ],
@@ -118744,7 +118744,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 2,
@@ -119073,7 +119073,7 @@
    "1": {
     "lexlemma": "he",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      1
@@ -128299,7 +128299,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 4,
@@ -128479,7 +128479,7 @@
      2,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 15,
@@ -128520,7 +128520,7 @@
    "3": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      3
@@ -128600,7 +128600,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      14
     ],
@@ -132940,7 +132940,7 @@
      1,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 4,
@@ -133117,7 +133117,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      3
     ],
@@ -134920,7 +134920,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Accompanier"
+    "lextag": "O-P-p.Org|p.Ancillary"
    },
    {
     "#": 4,
@@ -135025,7 +135025,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Accompanier"
+    "lextag": "O-P-p.Org|p.Ancillary"
    },
    {
     "#": 11,
@@ -135246,8 +135246,8 @@
    "3": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.OrgRole",
-    "ss2": "p.Accompanier",
+    "ss": "p.Org",
+    "ss2": "p.Ancillary",
     "toknums": [
      3
     ],
@@ -135323,8 +135323,8 @@
    "10": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.OrgRole",
-    "ss2": "p.Accompanier",
+    "ss": "p.Org",
+    "ss2": "p.Ancillary",
     "toknums": [
      10
     ],
@@ -137078,7 +137078,7 @@
      2,
      3
     ],
-    "lextag": "I~-P-p.Co-Agent"
+    "lextag": "I~-P-p.Agent|p.Ancillary"
    },
    {
     "#": 15,
@@ -137200,8 +137200,8 @@
    "14": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.Co-Agent",
-    "ss2": "p.Co-Agent",
+    "ss": "p.Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      14
     ],

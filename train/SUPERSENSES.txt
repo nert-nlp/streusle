@@ -27,13 +27,13 @@
   40 n.STATE	_
   27 n.SUBSTANCE	_
  465 n.TIME	_
-  24 p.Accompanier	p.Accompanier
-   2 p.Accompanier	p.Co-Agent
   22 p.Agent	p.Agent
+  23 p.Agent	p.Ancillary
    1 p.Agent	p.Beneficiary
  108 p.Agent	p.Gestalt
    1 p.Agent	p.Locus
    4 p.Agent	p.Source
+  23 p.Ancillary	p.Ancillary
   64 p.Approximator	p.Approximator
    2 p.Approximator	p.Extent
   51 p.Beneficiary	p.Beneficiary
@@ -45,6 +45,7 @@
    4 p.Causer	p.Causer
    1 p.Causer	p.Gestalt
    1 p.Causer	p.Source
+   1 p.Characteristic	p.Ancillary
   39 p.Characteristic	p.Characteristic
    9 p.Characteristic	p.Extent
    3 p.Characteristic	p.Goal
@@ -56,12 +57,8 @@
   54 p.Circumstance	p.Circumstance
   17 p.Circumstance	p.Locus
    1 p.Circumstance	p.Path
-  30 p.Co-Agent	p.Co-Agent
-   6 p.Co-Theme	p.Co-Theme
-   2 p.Co-Theme	p.Purpose
-   4 p.Co-Theme	p.Source
-   1 p.ComparisonRef	p.Accompanier
-  96 p.ComparisonRef	p.ComparisonRef
+   1 p.ComparisonRef	p.Ancillary
+ 104 p.ComparisonRef	p.ComparisonRef
   10 p.ComparisonRef	p.Goal
    2 p.ComparisonRef	p.Locus
    9 p.ComparisonRef	p.Purpose
@@ -76,6 +73,7 @@
    2 p.Duration	p.Extent
    2 p.Duration	p.Gestalt
   24 p.EndTime	p.EndTime
+   4 p.Ensemble	p.Ancillary
    6 p.Experiencer	p.Beneficiary
   71 p.Experiencer	p.Gestalt
   10 p.Experiencer	p.Goal
@@ -97,13 +95,13 @@
    1 p.Goal	p.Whole
    5 p.Identity	p.ComparisonRef
   46 p.Identity	p.Identity
-   8 p.InsteadOf	p.InsteadOf
   10 p.Instrument	p.Instrument
    1 p.Instrument	p.Locus
    3 p.Instrument	p.Manner
    6 p.Instrument	p.Path
    1 p.Instrument	p.Theme
    4 p.Interval	p.Interval
+   1 p.Locus	p.Ancillary
   11 p.Locus	p.Direction
    4 p.Locus	p.Goal
  449 p.Locus	p.Locus
@@ -118,21 +116,21 @@
    1 p.Manner	p.Stuff
   13 p.Means	p.Means
    1 p.Means	p.Path
-   1 p.OrgRole	p.Accompanier
-   4 p.OrgRole	p.Beneficiary
-   5 p.OrgRole	p.Co-Agent
-  25 p.OrgRole	p.Gestalt
-   6 p.OrgRole	p.Goal
-   3 p.OrgRole	p.Instrument
-  24 p.OrgRole	p.Locus
-   4 p.OrgRole	p.PartPortion
-  15 p.OrgRole	p.Possessor
-   4 p.OrgRole	p.Source
-   2 p.OrgRole	p.Whole
+   7 p.Org	p.Ancillary
+   4 p.Org	p.Beneficiary
+   3 p.Org	p.Gestalt
+   6 p.Org	p.Goal
+   3 p.Org	p.Instrument
+  24 p.Org	p.Locus
+   3 p.Org	p.Source
+   2 p.Org	p.Whole
+  22 p.OrgMember	p.Gestalt
+   4 p.OrgMember	p.PartPortion
+  15 p.OrgMember	p.Possessor
    8 p.Originator	p.Agent
   62 p.Originator	p.Gestalt
    1 p.Originator	p.Instrument
-  36 p.Originator	p.Source
+  37 p.Originator	p.Source
    7 p.PartPortion	p.ComparisonRef
    8 p.PartPortion	p.Goal
    1 p.PartPortion	p.Instrument
@@ -141,12 +139,12 @@
    1 p.Path	p.Goal
    5 p.Path	p.Locus
   18 p.Path	p.Path
-   6 p.Possession	p.Accompanier
+   6 p.Possession	p.Ancillary
    2 p.Possession	p.Locus
    1 p.Possession	p.PartPortion
    2 p.Possession	p.Possession
   25 p.Possession	p.Theme
-   3 p.Possessor	p.Accompanier
+   4 p.Possessor	p.Ancillary
    1 p.Possessor	p.Locus
  270 p.Possessor	p.Possessor
    2 p.Purpose	p.Locus
@@ -156,11 +154,11 @@
   11 p.Quantity	p.Stuff
   81 p.Quantity	p.Whole
    5 p.RateUnit	p.RateUnit
-   4 p.Recipient	p.Co-Agent
+   4 p.Recipient	p.Ancillary
    7 p.Recipient	p.Direction
    8 p.Recipient	p.Gestalt
   81 p.Recipient	p.Goal
-  12 p.SocialRel	p.Co-Agent
+  12 p.SocialRel	p.Ancillary
  170 p.SocialRel	p.Gestalt
   64 p.Source	p.Source
   33 p.Species	p.Species
@@ -173,14 +171,15 @@
    2 p.Stimulus	p.Source
   63 p.Stimulus	p.Topic
    9 p.Stuff	p.Stuff
-   1 p.Theme	p.Accompanier
+   6 p.Theme	p.Ancillary
    1 p.Theme	p.Characteristic
   17 p.Theme	p.ComparisonRef
   23 p.Theme	p.Gestalt
-   3 p.Theme	p.Goal
+   4 p.Theme	p.Goal
    2 p.Theme	p.Instrument
    1 p.Theme	p.Locus
-  29 p.Theme	p.Purpose
+  31 p.Theme	p.Purpose
+   4 p.Theme	p.Source
  107 p.Theme	p.Theme
    2 p.Theme	p.Whole
    1 p.Time	p.Direction
@@ -192,7 +191,7 @@
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
    3 p.Topic	p.Identity
- 179 p.Topic	p.Topic
+ 181 p.Topic	p.Topic
   57 p.Whole	p.Gestalt
    5 p.Whole	p.Locus
    3 p.Whole	p.Source
@@ -242,8 +241,8 @@ p.* by LexCat + construal type
 ========================
  185 INF.P	p.X ~> p.X
   22 INF.P	p.X ~> p.Y
-2428 P	p.X ~> p.X
- 849 P	p.X ~> p.Y
+2393 P	p.X ~> p.X
+ 884 P	p.X ~> p.Y
   20 POSS	p.X ~> p.X
   31 POSS	p.X ~> p.Y
   84 PP	p.X ~> p.X
@@ -256,8 +255,8 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  204 INF.P 	p.OTH ~> *
- 879 P 	p.LOC ~> *
-2014 P 	p.OTH ~> *
+ 880 P 	p.LOC ~> *
+2013 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   46 POSS 	p.OTH ~> *
    5 POSS 	p.TMP ~> *
