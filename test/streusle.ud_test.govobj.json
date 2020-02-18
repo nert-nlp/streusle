@@ -5809,10 +5809,10 @@
    {
     "#": 14,
     "word": "possible",
-    "lemma": "possible",
+    "lemma": "possibly",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 17,
     "deprel": "advmod",
     "edeps": "17:advmod",
@@ -6062,7 +6062,7 @@
     ]
    },
    "14": {
-    "lexlemma": "possible",
+    "lexlemma": "possibly",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -39213,10 +39213,10 @@
    {
     "#": 23,
     "word": "thier",
-    "lemma": "their",
+    "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": "Typo=Yes",
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 24,
     "deprel": "nmod:poss",
     "edeps": "24:nmod:poss",
@@ -39544,7 +39544,7 @@
     }
    },
    "23": {
-    "lexlemma": "their",
+    "lexlemma": "they",
     "lexcat": "PRON.POSS",
     "ss": "p.Gestalt",
     "ss2": "p.Gestalt",
@@ -43682,10 +43682,10 @@
    {
     "#": 6,
     "word": "outsize",
-    "lemma": "outsize",
+    "lemma": "outside",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 4,
     "deprel": "advmod",
     "edeps": "4:advmod",
@@ -43833,7 +43833,7 @@
     ]
    },
    "6": {
-    "lexlemma": "outsize",
+    "lexlemma": "outside",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -50324,8 +50324,8 @@
     "word": "use",
     "lemma": "use",
     "upos": "VERB",
-    "xpos": "VB",
-    "feats": "VerbForm=Inf",
+    "xpos": "VBN",
+    "feats": "Tense=Past|Typo=Yes|VerbForm=Part",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -59994,10 +59994,10 @@
    {
     "#": 3,
     "word": "there",
-    "lemma": "there",
+    "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 4,
     "deprel": "nmod:poss",
     "edeps": "4:nmod:poss",
@@ -60234,10 +60234,10 @@
    {
     "#": 19,
     "word": "there",
-    "lemma": "there",
+    "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs",
     "head": 20,
     "deprel": "nmod:poss",
     "edeps": "20:nmod:poss",
@@ -60298,7 +60298,7 @@
     ]
    },
    "3": {
-    "lexlemma": "there",
+    "lexlemma": "they",
     "lexcat": "PRON.POSS",
     "ss": "p.SocialRel",
     "ss2": "p.Gestalt",
@@ -60463,7 +60463,7 @@
     }
    },
    "19": {
-    "lexlemma": "there",
+    "lexlemma": "they",
     "lexcat": "PRON.POSS",
     "ss": "p.SocialRel",
     "ss2": "p.Gestalt",
@@ -64264,10 +64264,10 @@
    {
     "#": 2,
     "word": "bast",
-    "lemma": "bast",
+    "lemma": "best",
     "upos": "ADJ",
-    "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "xpos": "JJS",
+    "feats": "Degree=Sup|Typo=Yes",
     "head": 3,
     "deprel": "amod",
     "edeps": "3:amod",
@@ -64334,7 +64334,7 @@
     ]
    },
    "2": {
-    "lexlemma": "bast",
+    "lexlemma": "best",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -79231,7 +79231,7 @@
     "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Person=2|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 2,
     "deprel": "nmod:poss",
     "edeps": "2:nmod:poss",
@@ -101721,7 +101721,7 @@
     "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Person=2|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 17,
     "deprel": "nmod:poss",
     "edeps": "17:nmod:poss",
@@ -107175,7 +107175,7 @@
     "lemma": "taste",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 3,
     "deprel": "parataxis",
     "edeps": "3:parataxis",

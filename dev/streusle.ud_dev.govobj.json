@@ -53142,10 +53142,10 @@
    {
     "#": 11,
     "word": "knowledgable",
-    "lemma": "knowledgable",
+    "lemma": "knowledgeable",
     "upos": "ADJ",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 5,
     "deprel": "conj",
     "edeps": "5:conj:and",
@@ -53252,7 +53252,7 @@
     ]
    },
    "11": {
-    "lexlemma": "knowledgable",
+    "lexlemma": "knowledgeable",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -79948,7 +79948,7 @@
     "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Person=2|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 9,
     "deprel": "nmod:poss",
     "edeps": "9:nmod:poss",
@@ -103620,8 +103620,8 @@
     "word": "you",
     "lemma": "you",
     "upos": "PRON",
-    "xpos": "PRP",
-    "feats": "Case=Nom|Person=2|PronType=Prs",
+    "xpos": "PRP$",
+    "feats": "Person=2|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 7,
     "deprel": "nmod:poss",
     "edeps": "7:nmod:poss",
@@ -114483,10 +114483,10 @@
    {
     "#": 4,
     "word": "cheep",
-    "lemma": "cheep",
+    "lemma": "cheap",
     "upos": "ADJ",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 1,
     "deprel": "parataxis",
     "edeps": "1:parataxis",
@@ -114676,7 +114676,7 @@
     ]
    },
    "4": {
-    "lexlemma": "cheep",
+    "lexlemma": "cheap",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
