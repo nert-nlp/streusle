@@ -76,6 +76,7 @@
   30 p.EndTime	p.EndTime
    4 p.Ensemble	p.Ancillary
    1 p.Experiencer	p.Agent
+   1 p.Experiencer	p.Ancillary
    8 p.Experiencer	p.Beneficiary
   87 p.Experiencer	p.Gestalt
   11 p.Experiencer	p.Goal
@@ -179,7 +180,7 @@
    1 p.Stimulus	p.Theme
   79 p.Stimulus	p.Topic
    9 p.Stuff	p.Stuff
-   7 p.Theme	p.Ancillary
+   6 p.Theme	p.Ancillary
    1 p.Theme	p.Characteristic
   19 p.Theme	p.ComparisonRef
   26 p.Theme	p.Gestalt
