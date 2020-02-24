@@ -3034,7 +3034,7 @@
 12	low	low	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	ADJ	low	_	_	_	_	_	O-ADJ
 13	fees	fee	NOUN	NNS	Number=Plur	2	conj	2:conj|18:nsubj	_	_	N	fee	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 14	totally	totally	ADV	RB	_	18	advmod	18:advmod	_	_	ADV	totally	_	_	_	_	_	O-ADV
-15	above	above	ADP	IN	_	18	case	18:case	_	_	P	above	p.Locus	p.Locus	_	_	_	O-P-p.Locus
+15	above	above	ADP	IN	_	18	case	18:case	_	_	P	above	p.ComparisonRef	p.Locus	_	_	_	O-P-p.ComparisonRef|p.Locus
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_	_	DET	the	_	_	_	_	_	O-DET
 17	satisfactory	satisfactory	ADJ	JJ	Degree=Pos	18	amod	18:amod	_	_	ADJ	satisfactory	_	_	_	_	_	O-ADJ
 18	mark	mark	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	mark	n.COGNITION	_	_	_	_	O-N-n.COGNITION

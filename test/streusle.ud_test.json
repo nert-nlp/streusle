@@ -6477,7 +6477,7 @@
       {"#": 12, "word": "low", "lemma": "low", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 13, "deprel": "amod", "edeps": "13:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 13, "word": "fees", "lemma": "fee", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 2, "deprel": "conj", "edeps": "2:conj|18:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.POSSESSION"},
       {"#": 14, "word": "totally", "lemma": "totally", "upos": "ADV", "xpos": "RB", "feats": null, "head": 18, "deprel": "advmod", "edeps": "18:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
-      {"#": 15, "word": "above", "lemma": "above", "upos": "ADP", "xpos": "IN", "feats": null, "head": 18, "deprel": "case", "edeps": "18:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Locus"},
+      {"#": 15, "word": "above", "lemma": "above", "upos": "ADP", "xpos": "IN", "feats": null, "head": 18, "deprel": "case", "edeps": "18:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.ComparisonRef|p.Locus"},
       {"#": 16, "word": "the", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art", "head": 18, "deprel": "det", "edeps": "18:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 17, "word": "satisfactory", "lemma": "satisfactory", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 18, "deprel": "amod", "edeps": "18:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 18, "word": "mark", "lemma": "mark", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.COGNITION"}
@@ -6496,7 +6496,7 @@
       "12": {"lexlemma": "low", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [12]},
       "13": {"lexlemma": "fee", "lexcat": "N", "ss": "n.POSSESSION", "ss2": null, "toknums": [13]},
       "14": {"lexlemma": "totally", "lexcat": "ADV", "ss": null, "ss2": null, "toknums": [14]},
-      "15": {"lexlemma": "above", "lexcat": "P", "ss": "p.Locus", "ss2": "p.Locus", "toknums": [15]},
+      "15": {"lexlemma": "above", "lexcat": "P", "ss": "p.ComparisonRef", "ss2": "p.Locus", "toknums": [15]},
       "16": {"lexlemma": "the", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [16]},
       "17": {"lexlemma": "satisfactory", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [17]},
       "18": {"lexlemma": "mark", "lexcat": "N", "ss": "n.COGNITION", "ss2": null, "toknums": [18]}

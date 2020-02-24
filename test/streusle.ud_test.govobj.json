@@ -52446,7 +52446,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Locus"
+    "lextag": "O-P-p.ComparisonRef|p.Locus"
    },
    {
     "#": 16,
@@ -52607,7 +52607,7 @@
    "15": {
     "lexlemma": "above",
     "lexcat": "P",
-    "ss": "p.Locus",
+    "ss": "p.ComparisonRef",
     "ss2": "p.Locus",
     "toknums": [
      15

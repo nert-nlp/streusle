@@ -34,7 +34,7 @@
    1 p.Agent	p.Locus
    6 p.Agent	p.Source
   24 p.Ancillary	p.Ancillary
-  73 p.Approximator	p.Approximator
+  72 p.Approximator	p.Approximator
    3 p.Approximator	p.Extent
   58 p.Beneficiary	p.Beneficiary
    2 p.Beneficiary	p.Direction
@@ -59,9 +59,9 @@
    1 p.Circumstance	p.Path
    1 p.ComparisonRef	p.Ancillary
    1 p.ComparisonRef	p.Beneficiary
- 134 p.ComparisonRef	p.ComparisonRef
+ 135 p.ComparisonRef	p.ComparisonRef
   14 p.ComparisonRef	p.Goal
-   3 p.ComparisonRef	p.Locus
+   7 p.ComparisonRef	p.Locus
   10 p.ComparisonRef	p.Purpose
    3 p.ComparisonRef	p.Source
   29 p.Cost	p.Cost
@@ -110,7 +110,7 @@
   12 p.Locus	p.Direction
    1 p.Locus	p.Gestalt
    8 p.Locus	p.Goal
- 579 p.Locus	p.Locus
+ 575 p.Locus	p.Locus
   15 p.Locus	p.Path
   28 p.Locus	p.Source
    2 p.Locus	p.Whole
@@ -252,8 +252,8 @@ p.* by LexCat + construal type
 ========================
  229 INF.P	p.X ~> p.X
   25 INF.P	p.X ~> p.Y
-2885 P	p.X ~> p.X
-1074 P	p.X ~> p.Y
+2881 P	p.X ~> p.X
+1078 P	p.X ~> p.Y
   22 POSS	p.X ~> p.X
   36 POSS	p.X ~> p.Y
  101 PP	p.X ~> p.X
@@ -266,8 +266,8 @@ p.* by LexCat + spatiotemporality
 ========================
    3 INF.P 	p.LOC ~> *
  251 INF.P 	p.OTH ~> *
-1090 P 	p.LOC ~> *
-2426 P 	p.OTH ~> *
+1086 P 	p.LOC ~> *
+2430 P 	p.OTH ~> *
  443 P 	p.TMP ~> *
    1 POSS 	p.LOC ~> *
   52 POSS 	p.OTH ~> *

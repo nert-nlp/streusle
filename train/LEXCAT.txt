@@ -1,4 +1,4 @@
-2992 ADJ
+2993 ADJ
 2911 ADV
 1696 AUX
 1767 CCONJ
@@ -25,4 +25,4 @@
  184 V.VPC.full
   88 V.VPC.semi
   31 X
-3204 _
+3203 _

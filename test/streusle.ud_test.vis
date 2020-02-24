@@ -187,7 +187,7 @@ reviews-139152-0003	Keep_it_up|DISC .|PUNCT
 reviews-139152-0004	-|PUNCT Shree_Ghatkopar_Bhatia_Mitra_Mandal|N-n.GROUP
 reviews-145645-0001	spoken|V-v.communication english|N-n.COMMUNICATION rushi|N-n.PERSON
 reviews-145645-0002	can|AUX ever|ADV &|CCONJ never|ADV forget|V-v.cognition the|DET training|N-n.ACT undergone|V-v.social here|ADV which|PRON made|V-v.stative my|PRON.POSS-p.Agent life|N-n.PROCESS step|V-v.stative onto|P-p.Goal the|DET successful|ADJ job|N-n.ACT without|P-p.Manner any|DET hurdles|N-n.COGNITION .|PUNCT
-reviews-145645-0003	The|DET staff|N-n.GROUP ,|PUNCT material|N-n.COMMUNICATION provided|V-v.social ,|PUNCT infra_structure|N-n.COGNITION ,|PUNCT environment|N-n.COGNITION &|CCONJ low|ADJ fees|N-n.POSSESSION totally|ADV above|P-p.Locus the|DET satisfactory|ADJ mark|N-n.COGNITION
+reviews-145645-0003	The|DET staff|N-n.GROUP ,|PUNCT material|N-n.COMMUNICATION provided|V-v.social ,|PUNCT infra_structure|N-n.COGNITION ,|PUNCT environment|N-n.COGNITION &|CCONJ low|ADJ fees|N-n.POSSESSION totally|ADV above|P-p.ComparisonRef:p.Locus the|DET satisfactory|ADJ mark|N-n.COGNITION
 reviews-146820-0001	Amazing|ADJ service|N-n.ACT !|PUNCT
 reviews-146820-0002	I|PRON just|ADV had|V-v.stative the|DET best|ADJ experience|N-n.EVENT at|P-p.Locus this|DET Kal_Tire|N-n.GROUP location|N-n.LOCATION .|PUNCT
 reviews-146820-0003	Courteous|ADJ ,|PUNCT fast|ADJ and|CCONJ friendly|ADJ .|PUNCT

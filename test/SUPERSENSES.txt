@@ -41,6 +41,7 @@
    1 p.ComparisonRef	p.Beneficiary
   17 p.ComparisonRef	p.ComparisonRef
    1 p.ComparisonRef	p.Goal
+   1 p.ComparisonRef	p.Locus
    2 p.Cost	p.Cost
    3 p.Cost	p.Locus
    8 p.Direction	p.Direction
@@ -59,7 +60,7 @@
    2 p.Identity	p.Identity
    1 p.Instrument	p.Instrument
    2 p.Locus	p.Goal
-  74 p.Locus	p.Locus
+  73 p.Locus	p.Locus
    1 p.Locus	p.Path
    2 p.Locus	p.Source
    3 p.Manner	p.ComparisonRef
@@ -160,8 +161,8 @@ p.* by LexCat + construal type
 ========================
   18 INF.P	p.X ~> p.X
    2 INF.P	p.X ~> p.Y
- 247 P	p.X ~> p.X
- 106 P	p.X ~> p.Y
+ 246 P	p.X ~> p.X
+ 107 P	p.X ~> p.Y
    1 POSS	p.X ~> p.X
    9 PP	p.X ~> p.X
    9 PP	p.X ~> p.Y
@@ -172,8 +173,8 @@ p.* by LexCat + spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
   20 INF.P 	p.OTH ~> *
- 110 P 	p.LOC ~> *
- 211 P 	p.OTH ~> *
+ 109 P 	p.LOC ~> *
+ 212 P 	p.OTH ~> *
   32 P 	p.TMP ~> *
    1 POSS 	p.OTH ~> *
    6 PP 	p.LOC ~> *
