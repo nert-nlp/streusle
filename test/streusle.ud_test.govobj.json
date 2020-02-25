@@ -4673,7 +4673,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 8,
@@ -4802,7 +4802,7 @@
    "7": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      7
@@ -13370,7 +13370,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 14,
@@ -13526,8 +13526,8 @@
    "13": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      13
     ],
@@ -17568,7 +17568,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 5,
@@ -17762,8 +17762,8 @@
    "4": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      4
     ],
@@ -39253,7 +39253,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 26,
@@ -39571,8 +39571,8 @@
    "25": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      25
     ],
@@ -41722,7 +41722,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-P-p.Quantity"
+    "lextag": "o-P-p.QuantityItem"
    },
    {
     "#": 10,
@@ -41937,8 +41937,8 @@
    "9": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      9
     ],
@@ -43079,7 +43079,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 7,
@@ -43312,8 +43312,8 @@
    "6": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      6
     ],
@@ -57279,7 +57279,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 7,
@@ -57512,7 +57512,7 @@
    "6": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      6
@@ -59033,7 +59033,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 15,
@@ -59187,8 +59187,8 @@
    "14": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      14
     ],
@@ -66258,7 +66258,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 21,
@@ -66541,7 +66541,7 @@
    "20": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      20
@@ -69092,7 +69092,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 3,
@@ -69331,7 +69331,7 @@
    "2": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      2
@@ -79791,7 +79791,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 7,
@@ -80009,8 +80009,8 @@
    "6": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      6
     ],
@@ -93568,7 +93568,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-P-p.Quantity"
+    "lextag": "o-P-p.QuantityItem"
    },
    {
     "#": 22,
@@ -93821,8 +93821,8 @@
    "21": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      21
     ],
@@ -94726,7 +94726,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 9,
@@ -94872,7 +94872,7 @@
    "8": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      8
@@ -97435,7 +97435,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 4,
@@ -97506,8 +97506,8 @@
    "3": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      3
     ],
@@ -106345,7 +106345,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 8,
@@ -106432,8 +106432,8 @@
    "7": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      7
     ],
@@ -110136,7 +110136,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 8,
@@ -110220,7 +110220,7 @@
    "7": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      7
@@ -110646,7 +110646,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 9,
@@ -110851,7 +110851,7 @@
    "8": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      8
@@ -113841,7 +113841,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Stuff"
+    "lextag": "O-P-p.QuantityItem|p.Stuff"
    },
    {
     "#": 10,
@@ -113940,7 +113940,7 @@
    "9": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Stuff",
     "toknums": [
      9
@@ -114618,7 +114618,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 12,
@@ -114970,7 +114970,7 @@
    "11": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      11
@@ -118489,7 +118489,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-P-p.Quantity|p.Gestalt"
+    "lextag": "o-P-p.QuantityItem|p.Gestalt"
    },
    {
     "#": 11,
@@ -118647,7 +118647,7 @@
    "10": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Gestalt",
     "toknums": [
      10
@@ -131531,7 +131531,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 4,
@@ -131587,8 +131587,8 @@
    "3": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      3
     ],

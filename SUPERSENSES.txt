@@ -156,10 +156,10 @@
    1 p.Purpose	p.Goal
    2 p.Purpose	p.Locus
  360 p.Purpose	p.Purpose
-   3 p.Quantity	p.Gestalt
-  84 p.Quantity	p.Quantity
-  13 p.Quantity	p.Stuff
-  96 p.Quantity	p.Whole
+   3 p.QuantityItem	p.Gestalt
+  84 p.QuantityItem	p.QuantityItem
+  13 p.QuantityItem	p.Stuff
+  96 p.QuantityItem	p.Whole
    5 p.RateUnit	p.RateUnit
    4 p.Recipient	p.Ancillary
    8 p.Recipient	p.Direction

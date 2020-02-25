@@ -150,10 +150,10 @@
  270 p.Possessor	p.Possessor
    2 p.Purpose	p.Locus
  292 p.Purpose	p.Purpose
-   2 p.Quantity	p.Gestalt
-  71 p.Quantity	p.Quantity
-  11 p.Quantity	p.Stuff
-  81 p.Quantity	p.Whole
+   2 p.QuantityItem	p.Gestalt
+  71 p.QuantityItem	p.QuantityItem
+  11 p.QuantityItem	p.Stuff
+  81 p.QuantityItem	p.Whole
    5 p.RateUnit	p.RateUnit
    4 p.Recipient	p.Ancillary
    7 p.Recipient	p.Direction

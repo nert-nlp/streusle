@@ -294,7 +294,7 @@
 4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	nmod	2:nmod:from	_	_	PRON	myself	_	_	_	_	_	O-PRON
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 6	all	all	DET	DT	_	4	conj	2:nmod:from|4:conj:and	_	_	DET	all	_	_	_	_	_	O-DET
-7	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+7	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 9	wedding	wedding	NOUN	NN	Number=Sing	10	compound	10:compound	_	_	N	wedding	n.EVENT	_	_	_	_	O-N-n.EVENT
 10	guests	guest	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	SpaceAfter=No	_	N	guest	n.PERSON	_	_	_	_	O-N-n.PERSON
@@ -800,7 +800,7 @@
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_	_	DET	a	_	_	_	_	_	O-DET
 11	healthy	healthy	ADJ	JJ	Degree=Pos	12	amod	12:amod	_	3:1	N	healthy dose	n.COGNITION	_	_	_	_	B-N-n.COGNITION
 12	dose	dose	NOUN	NN	Number=Sing	7	obl	7:obl:with	_	3:2	_	_	_	_	_	_	_	I_
-13	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+13	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 14	nasty	nasty	ADJ	JJ	Degree=Pos	16	amod	16:amod	_	_	ADJ	nasty	_	_	_	_	_	O-ADJ
 15	rude	rude	ADJ	JJ	Degree=Pos	16	amod	16:amod	_	_	ADJ	rude	_	_	_	_	_	O-ADJ
 16	attitude	attitude	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	_	_	N	attitude	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
@@ -1030,7 +1030,7 @@
 1	Noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	notice	v.cognition	_	_	_	_	O-V-v.cognition
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_	1:1	DET	a few	_	_	_	_	_	B-DET
 3	few	few	NOUN	NN	Number=Sing	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
-4	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+4	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 5	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	8:det	_	_	DET	these	_	_	_	_	_	O-DET
 6	Cookie	cookie	NOUN	NN	Number=Sing	7	compound	7:compound	_	2:1	N	cookie cutter	n.COGNITION	_	_	_	_	B-N-n.COGNITION
 7	cutter	cutter	NOUN	NN	Number=Sing	8	compound	8:compound	_	2:2	_	_	_	_	_	_	_	I_
@@ -2290,7 +2290,7 @@
 22	with	with	ADP	IN	_	24	case	24:case	_	_	P	with	p.Circumstance	p.Circumstance	_	_	_	O-P-p.Circumstance
 23	thier	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 24	years	year	NOUN	NNS	Number=Plur	15	obl	15:obl:with	_	_	N	year	n.TIME	_	_	_	_	O-N-n.TIME
-25	of	of	ADP	IN	_	28	case	28:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+25	of	of	ADP	IN	_	28	case	28:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 26	hands	hand	NOUN	NNS	Number=Plur	28	compound	28:compound	_	1:1	ADJ	hand on	_	_	_	_	_	B-ADJ
 27	on	on	ADV	RB	_	26	compound	26:compound	_	1:2	_	_	_	_	_	_	_	I_
 28	practice	practice	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	SpaceAfter=No	_	N	practice	n.ACT	_	_	_	_	O-N-n.ACT
@@ -2424,7 +2424,7 @@
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	iobj	5:iobj	_	_	PRON	it	_	_	_	_	_	o-PRON
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_	2:1	DET	a couple	_	_	_	_	_	b-DET
 8	couple	couple	NOUN	NN	Number=Sing	5	obj	5:obj	_	2:2	_	_	_	_	_	_	_	i_
-9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	o-P-p.Quantity
+9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	o-P-p.QuantityItem
 10	tries	try	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	_	_	N	try	n.EVENT	_	1:2	_	_	I~-N-n.EVENT
 11	at	at	ADP	IN	_	13	case	13:case	_	_	P	at	p.Time	p.Time	_	_	_	O-P-p.Time
 12	different	different	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	ADJ	different	_	_	_	_	_	O-ADJ
@@ -2498,7 +2498,7 @@
 3	clean	clean	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No	_	ADJ	clean	_	_	_	_	_	O-ADJ
 4	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 5	plenty	plenty	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	N	plenty	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 7	things	thing	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	thing	n.OTHER	_	_	_	_	O-N-n.OTHER
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF
 9	do	do	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	_	V	do	v.social	_	_	_	_	O-V-v.social
@@ -3312,7 +3312,7 @@
 3	shoot	shoot	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_	_	V	shoot	v.social	_	_	_	_	O-V-v.social
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	O-DET
 5	majority	majority	NOUN	NN	Number=Sing	3	obj	3:obj	_	_	N	majority	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-6	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+6	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 8	firm	firm	NOUN	NN	Number=Sing	10	nmod:poss	10:nmod:poss	SpaceAfter=No	_	N	firm	n.GROUP	_	_	_	_	O-N-n.GROUP
 9	's	's	PART	POS	_	8	case	8:case	_	_	POSS	's	p.Possessor	p.Possessor	_	_	_	O-POSS-p.Possessor
@@ -3410,7 +3410,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_	3:1	N	a great deal	n.QUANTITY	_	_	_	_	B-N-n.QUANTITY
 12	great	great	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	3:2	_	_	_	_	_	_	_	I_
 13	deal	deal	NOUN	NN	Number=Sing	9	obl	9:obl:with	_	3:3	_	_	_	_	_	_	_	I_
-14	of	of	ADP	IN	_	15	case	15:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+14	of	of	ADP	IN	_	15	case	15:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 15	knowledge	knowledge	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	_	_	N	knowledge	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 17	professionalism	professionalism	NOUN	NN	Number=Sing	15	conj	13:nmod:of|15:conj:and	SpaceAfter=No	_	N	professionalism	n.COGNITION	_	_	_	_	O-N-n.COGNITION
@@ -3861,7 +3861,7 @@
 17	fact	fact	NOUN	NN	Number=Sing	15	obj	15:obj	_	_	N	fact	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 18	that	that	SCONJ	IN	_	25	mark	25:mark	_	_	SCONJ	that	_	_	_	_	_	O-SCONJ
 19	all	all	DET	DT	_	25	nsubj	25:nsubj	_	_	DET	all	_	_	_	_	_	O-DET
-20	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+20	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	_	_	DET	the	_	_	_	_	_	O-DET
 22	employees	employee	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	_	_	N	employee	n.PERSON	_	_	_	_	O-N-n.PERSON
 23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
@@ -4026,7 +4026,7 @@
 # streusle_sent_id = ewtb.r.200566.2
 # mwe = ALL OF THE TEACHERS THERE ARE SO MEAN THEY GET MAD~AT YOU FOR~NOTHING !!!!!!!!!!!!!!!!!!!
 1	ALL	all	DET	DT	_	8	nsubj	8:nsubj	_	_	DET	all	_	_	_	_	_	O-DET
-2	OF	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+2	OF	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 3	THE	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
 4	TEACHERS	teacher	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	_	_	N	teacher	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	THERE	there	ADV	RB	PronType=Dem	1	advmod	1:advmod	_	_	ADV	there	_	_	_	_	_	O-ADV
@@ -4657,7 +4657,7 @@
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_	_	DET	this	_	_	_	_	_	O-DET
 4	place	place	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 5	lots	lot	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	_	_	N	lot	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 7	people	people	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 9	talk	talk	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	_	V	talk	v.communication	_	_	_	_	O-V-v.communication
@@ -5456,7 +5456,7 @@
 18	quite	quite	DET	PDT	_	20	det:predet	20:det:predet	_	_	DET	quite	_	_	5:1	_	quite a bit	b-DET
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	_	6:1	N	a bit	n.QUANTITY	_	5:2	_	_	i~-N-n.QUANTITY
 20	bit	bit	NOUN	NN	Number=Sing	17	obj	17:obj	_	6:2	_	_	_	_	5:3	_	_	i_
-21	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	o-P-p.Quantity
+21	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	o-P-p.QuantityItem
 22	time	time	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	_	4:2	_	_	_	_	_	_	_	I_
 23	but	but	CCONJ	CC	_	28	cc	28:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -5527,7 +5527,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	_	_	INF	to	_	_	_	_	_	O-INF
 6	get	get	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_	_	V	get	v.possession	_	_	_	_	O-V-v.possession
 7	all	all	DET	DT	_	6	obj	6:obj	_	_	DET	all	_	_	_	_	_	O-DET
-8	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+8	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 10	wine	wine	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	_	_	N	wine	n.FOOD	_	_	_	_	O-N-n.FOOD
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -5677,7 +5677,7 @@
 # mwe = An Hour Of Prego Bliss !
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	_	_	DET	a	_	_	_	_	_	O-DET
 2	Hour	hour	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	hour	n.TIME	_	_	_	_	O-N-n.TIME
-3	Of	of	ADP	IN	_	5	case	5:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+3	Of	of	ADP	IN	_	5	case	5:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 4	Prego	Prego	PROPN	NNP	Number=Sing	5	compound	5:compound	_	_	N	Prego	n.SUBSTANCE	_	_	_	_	O-N-n.SUBSTANCE
 5	Bliss	bliss	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	SpaceAfter=No	_	N	bliss	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 6	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
@@ -6228,7 +6228,7 @@
 4	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.Characteristic	p.Characteristic	_	_	_	O-P-p.Characteristic
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	SpaceAfter=No	1:1	DET	a lot	_	_	_	_	_	B-DET
 6	lot	lot	NOUN	NN	Number=Sing	3	nmod	3:nmod:with	_	1:2	_	_	_	_	_	_	_	I_
-7	of	of	ADP	IN	_	9	case	9:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+7	of	of	ADP	IN	_	9	case	9:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 8	good	good	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	good	_	_	2:1	_	good work	B-ADJ
 9	work	work	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	_	_	N	work	n.ACT	_	2:2	_	_	I~-N-n.ACT
 
@@ -6452,7 +6452,7 @@
 4	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 5	in	in	ADP	IN	_	6	case	6:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 6	all	all	DET	DT	_	4	nmod	4:nmod:in	_	_	DET	all	_	_	_	_	_	O-DET
-7	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+7	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 8	Dallas	Dallas	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	_	_	N	Dallas	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-307170-0002
@@ -6482,7 +6482,7 @@
 5	services	service	NOUN	NNS	Number=Plur	2	obj	2:obj	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 6	for	for	ADP	IN	_	7	case	7:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
 7	all	all	DET	DT	_	2	obl	2:obl:for	_	_	DET	all	_	_	_	_	_	O-DET
-8	of	of	ADP	IN	_	12	case	12:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+8	of	of	ADP	IN	_	12	case	12:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	my	p.Beneficiary	p.Possessor	_	_	_	O-PRON.POSS-p.Beneficiary|p.Possessor
 10	airport	airport	NOUN	NN	Number=Sing	12	compound	12:compound	_	_	N	airport	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 11	car	car	NOUN	NN	Number=Sing	12	compound	12:compound	_	_	N	car	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -6658,7 +6658,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	_	DET	the	_	_	_	_	_	O-DET
 7	giant	giant	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	giant	_	_	_	_	_	O-ADJ
 8	plate	plate	NOUN	NN	Number=Sing	4	nmod	4:nmod:with	_	_	N	plate	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Stuff	_	_	_	O-P-p.Quantity|p.Stuff
+9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Stuff	_	_	_	O-P-p.QuantityItem|p.Stuff
 10	nachos	nacho	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	SpaceAfter=No	_	N	nacho	n.FOOD	_	_	_	_	O-N-n.FOOD
 11	!	!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
@@ -6699,7 +6699,7 @@
 8	treatment	treatment	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	_	_	N	treatment	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 9	from	from	ADP	IN	_	10	case	10:case	_	_	P	from	p.Source	p.Source	_	_	_	O-P-p.Source
 10	some	some	DET	DT	_	2	obl	2:obl:from	_	_	DET	some	_	_	_	_	_	O-DET
-11	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+11	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 13	staff	staff	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	SpaceAfter=No	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 14	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
@@ -6923,7 +6923,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_	_	DET	a	_	_	_	_	_	o-DET
 8	fair	fair	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	fair	_	_	_	_	_	o-ADJ
 9	amount	amount	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	N	amount	n.QUANTITY	_	_	_	_	o-N-n.QUANTITY
-10	of	of	ADP	IN	_	11	case	11:case	_	_	P	of	p.Quantity	p.Gestalt	_	_	_	o-P-p.Quantity|p.Gestalt
+10	of	of	ADP	IN	_	11	case	11:case	_	_	P	of	p.QuantityItem	p.Gestalt	_	_	_	o-P-p.QuantityItem|p.Gestalt
 11	pain	pain	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	_	1:2	_	_	_	_	_	_	_	I_
 12	for	for	ADP	IN	_	14	case	14:case	_	_	P	for	p.Duration	p.Duration	_	_	_	O-P-p.Duration
 13	several	several	ADJ	JJ	Degree=Pos	14	amod	14:amod	_	_	ADJ	several	_	_	_	_	_	O-ADJ
@@ -7728,7 +7728,7 @@
 # mwe = Fantastic couple of days .
 1	Fantastic	fantastic	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	fantastic	_	_	_	_	_	O-ADJ
 2	couple	couple	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	couple	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-3	of	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+3	of	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 4	days	day	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	SpaceAfter=No	_	N	day	n.TIME	_	_	_	_	O-N-n.TIME
 5	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

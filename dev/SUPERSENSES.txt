@@ -84,9 +84,9 @@
    1 p.Possession	p.Locus
   21 p.Possessor	p.Possessor
   42 p.Purpose	p.Purpose
-   2 p.Quantity	p.Quantity
-   1 p.Quantity	p.Stuff
-   7 p.Quantity	p.Whole
+   2 p.QuantityItem	p.QuantityItem
+   1 p.QuantityItem	p.Stuff
+   7 p.QuantityItem	p.Whole
    1 p.Recipient	p.Direction
    7 p.Recipient	p.Goal
    2 p.SocialRel	p.Ancillary
