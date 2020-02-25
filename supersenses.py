@@ -66,17 +66,18 @@ PSS_TREE = {
         'p.Gestalt': {
             'p.Possessor': {},
             'p.Whole': {},
-            'p.Org': {}},
+            'p.Org': {},
+            'p.QuantityItem': {}},
         'p.Characteristic': {
             'p.Possession': {},
             'p.PartPortion': {
                 'p.Stuff': {}},
-            'p.OrgMember': {}},
+            'p.OrgMember': {},
+            'p.QuantityValue': {
+                'p.Approximator': {}}},
         'p.Ensemble': {},
         'p.ComparisonRef': {},
         'p.RateUnit': {},
-        'p.Quantity': {
-            'p.Approximator': {}},
         'p.SocialRel': {}},
 }
 
@@ -93,7 +94,7 @@ del queue, ss, par, descendants
 
 PSS = set(PSS_PARENTS.keys())
 
-assert len(PSS_DEPTH)==len(PSS)==49
+assert len(PSS_DEPTH)==len(PSS)==50
 assert max(PSS_DEPTH.values())==4
 assert min(PSS_DEPTH.values())==1
 
