@@ -1,5 +1,6 @@
 # newdoc id = reviews-001961
 # sent_id = reviews-001961-0001
+# newpar id = reviews-001961-p0001
 # text = Buyer Beware!!
 # streusle_sent_id = ewtb.r.001961.1
 # mwe = Buyer~Beware !!
@@ -48,6 +49,7 @@
 
 # newdoc id = reviews-008635
 # sent_id = reviews-008635-0001
+# newpar id = reviews-008635-p0001
 # text = Good food and very friendly staff.
 # streusle_sent_id = ewtb.r.008635.1
 # mwe = Good food and very friendly staff .
@@ -97,12 +99,14 @@
 
 # newdoc id = reviews-009389
 # sent_id = reviews-009389-0001
+# newpar id = reviews-009389-p0001
 # text = gone
 # streusle_sent_id = ewtb.r.009389.1
 # mwe = gone
 1	gone	gone	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	gone	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-009389-0002
+# newpar id = reviews-009389-p0002
 # text = library is closed.
 # streusle_sent_id = ewtb.r.009389.2
 # mwe = library is closed .
@@ -123,6 +127,7 @@
 
 # newdoc id = reviews-009775
 # sent_id = reviews-009775-0001
+# newpar id = reviews-009775-p0001
 # text = Want a great burger?
 # streusle_sent_id = ewtb.r.009775.1
 # mwe = Want a great burger ?
@@ -191,6 +196,7 @@
 
 # newdoc id = reviews-009943
 # sent_id = reviews-009943-0001
+# newpar id = reviews-009943-p0001
 # text = such a great idea this was, so easy to load and pack, no ramp, no step up no back aches.
 # streusle_sent_id = ewtb.r.009943.1
 # mwe = such a great idea this was , so easy to load and pack , no ramp , no step up no back_aches .
@@ -239,6 +245,7 @@
 
 # newdoc id = reviews-014483
 # sent_id = reviews-014483-0001
+# newpar id = reviews-014483-p0001
 # text = Poor Service
 # streusle_sent_id = ewtb.r.014483.1
 # mwe = Poor Service
@@ -246,6 +253,7 @@
 2	Service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-014483-0002
+# newpar id = reviews-014483-p0002
 # text = After firing this company my next pool service found the filters had not been cleaned as they should have been.
 # streusle_sent_id = ewtb.r.014483.2
 # mwe = After firing this company my next pool_service found the filters had not been cleaned as they should have been .
@@ -286,6 +294,7 @@
 
 # newdoc id = reviews-014629
 # sent_id = reviews-014629-0001
+# newpar id = reviews-014629-p0001
 # text = There is no delivery.
 # streusle_sent_id = ewtb.r.014629.1
 # mwe = There is no delivery .
@@ -296,6 +305,7 @@
 5	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-014629-0002
+# newpar id = reviews-014629-p0002
 # text = There is no delivery.
 # streusle_sent_id = ewtb.r.014629.2
 # mwe = There is no delivery .
@@ -307,6 +317,7 @@
 
 # newdoc id = reviews-015573
 # sent_id = reviews-015573-0001
+# newpar id = reviews-015573-p0001
 # text = Buyer beware
 # streusle_sent_id = ewtb.r.015573.1
 # mwe = Buyer_beware
@@ -314,6 +325,7 @@
 2	beware	beware	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-015573-0002
+# newpar id = reviews-015573-p0002
 # text = Do not use these guys.
 # streusle_sent_id = ewtb.r.015573.2
 # mwe = Do not use these~guys .
@@ -366,12 +378,14 @@
 
 # newdoc id = reviews-015687
 # sent_id = reviews-015687-0001
+# newpar id = reviews-015687-p0001
 # text = marisol
 # streusle_sent_id = ewtb.r.015687.1
 # mwe = marisol
 1	marisol	marisol	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	marisol	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-015687-0002
+# newpar id = reviews-015687-p0002
 # text = this place is awesome twelve did an amazing job place is clean and staff is friendly
 # streusle_sent_id = ewtb.r.015687.2
 # mwe = this place is awesome twelve did an amazing job place is clean and staff is friendly
@@ -394,6 +408,7 @@
 
 # newdoc id = reviews-016861
 # sent_id = reviews-016861-0001
+# newpar id = reviews-016861-p0001
 # text = Stayed in the Seaview room here in December 2009!
 # streusle_sent_id = ewtb.r.016861.1
 # mwe = Stayed in the Seaview room here in December 2009 !
@@ -452,6 +467,7 @@
 
 # newdoc id = reviews-018268
 # sent_id = reviews-018268-0001
+# newpar id = reviews-018268-p0001
 # text = best square slice around.
 # streusle_sent_id = ewtb.r.018268.1
 # mwe = best square slice around .
@@ -463,6 +479,7 @@
 
 # newdoc id = reviews-020957
 # sent_id = reviews-020957-0001
+# newpar id = reviews-020957-p0001
 # text = He's great!
 # streusle_sent_id = ewtb.r.020957.1
 # mwe = He 's great !
@@ -486,6 +503,7 @@
 
 # newdoc id = reviews-021370
 # sent_id = reviews-021370-0001
+# newpar id = reviews-021370-p0001
 # text = It's fine for...
 # streusle_sent_id = ewtb.r.021370.1
 # mwe = It 's fine for ...
@@ -496,6 +514,7 @@
 5	...	...	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-021370-0002
+# newpar id = reviews-021370-p0002
 # text = It's fine for mass-market chocolate, but with companies like Scharffen Berger, TCHO, and smaller artisan chocolate makers in the area, why?
 # streusle_sent_id = ewtb.r.021370.2
 # mwe = It 's fine for mass_-_market chocolate , but with companies like Scharffen_Berger , TCHO , and smaller artisan chocolate makers in the area , why ?
@@ -531,6 +550,7 @@
 
 # newdoc id = reviews-022900
 # sent_id = reviews-022900-0001
+# newpar id = reviews-022900-p0001
 # text = Very hard work from the boys in blue there!
 # streusle_sent_id = ewtb.r.022900.1
 # mwe = Very hard_work from the boys_in_blue there !
@@ -546,6 +566,7 @@
 10	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-022900-0002
+# newpar id = reviews-022900-p0002
 # text = Brilll.
 # streusle_sent_id = ewtb.r.022900.2
 # mwe = Brilll .
@@ -569,6 +590,7 @@
 
 # newdoc id = reviews-023926
 # sent_id = reviews-023926-0001
+# newpar id = reviews-023926-p0001
 # text = Great job!
 # streusle_sent_id = ewtb.r.023926.1
 # mwe = Great job !
@@ -595,6 +617,7 @@
 
 # newdoc id = reviews-030875
 # sent_id = reviews-030875-0001
+# newpar id = reviews-030875-p0001
 # text = Slice Pizza at former Britt's Location
 # streusle_sent_id = ewtb.r.030875.1
 # mwe = Slice_Pizza at former Britt_'s Location
@@ -607,6 +630,7 @@
 7	Location	location	NOUN	NN	Number=Sing	2	nmod	2:nmod:at	_	_	N	location	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-030875-0002
+# newpar id = reviews-030875-p0002
 # text = Britt's Pizza is long gone.
 # streusle_sent_id = ewtb.r.030875.2
 # mwe = Britt_'s_Pizza is long_gone .
@@ -645,6 +669,7 @@
 
 # newdoc id = reviews-031674
 # sent_id = reviews-031674-0001
+# newpar id = reviews-031674-p0001
 # text = Responsive, kept me apprised of status.
 # streusle_sent_id = ewtb.r.031674.1
 # mwe = Responsive , kept me apprised of status .
@@ -659,6 +684,7 @@
 
 # newdoc id = reviews-034313
 # sent_id = reviews-034313-0001
+# newpar id = reviews-034313-p0001
 # text = criminal defense lawyer
 # streusle_sent_id = ewtb.r.034313.1
 # mwe = criminal_defense_lawyer
@@ -667,6 +693,7 @@
 3	lawyer	lawyer	NOUN	NN	Number=Sing	0	root	0:root	_	1:3	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-034313-0002
+# newpar id = reviews-034313-p0002
 # text = Mr. Villega is an exceptional California criminal defense lawyer.
 # streusle_sent_id = ewtb.r.034313.2
 # mwe = Mr._Villega is an exceptional California criminal_defense_lawyer .
@@ -725,6 +752,7 @@
 
 # newdoc id = reviews-035932
 # sent_id = reviews-035932-0001
+# newpar id = reviews-035932-p0001
 # text = Simple, Quick take away.
 # streusle_sent_id = ewtb.r.035932.1
 # mwe = Simple , Quick take_away .
@@ -737,6 +765,7 @@
 
 # newdoc id = reviews-041925
 # sent_id = reviews-041925-0001
+# newpar id = reviews-041925-p0001
 # text = I heard the libido band play live and they are out of site!!
 # streusle_sent_id = ewtb.r.041925.1
 # mwe = I heard the_libido_band play live and they are out_of_site !!
@@ -774,6 +803,7 @@
 
 # newdoc id = reviews-045753
 # sent_id = reviews-045753-0001
+# newpar id = reviews-045753-p0001
 # text = Compare to last decade this University is gaining more prestige in International level
 # streusle_sent_id = ewtb.r.045753.1
 # mwe = Compare~to last decade this University is gaining more prestige in International level
@@ -793,6 +823,7 @@
 
 # newdoc id = reviews-046906
 # sent_id = reviews-046906-0001
+# newpar id = reviews-046906-p0001
 # text = rug works for me
 # streusle_sent_id = ewtb.r.046906.1
 # mwe = rug works_for_me
@@ -803,6 +834,7 @@
 
 # newdoc id = reviews-047007
 # sent_id = reviews-047007-0001
+# newpar id = reviews-047007-p0001
 # text = Called to check if they had a product I've been using on my dog for years... the boy who answered the phone couldn't possibly have been ruder to me.
 # streusle_sent_id = ewtb.r.047007.1
 # mwe = Called to check if they had a product I 've been using~on my dog for years ... the boy who answered the phone could n't possibly have been ruder to me .
@@ -854,6 +886,7 @@
 
 # newdoc id = reviews-048198
 # sent_id = reviews-048198-0001
+# newpar id = reviews-048198-p0001
 # text = Lovely Cottage
 # streusle_sent_id = ewtb.r.048198.1
 # mwe = Lovely Cottage
@@ -928,6 +961,7 @@
 
 # newdoc id = reviews-048302
 # sent_id = reviews-048302-0001
+# newpar id = reviews-048302-p0001
 # text = Blooming onion, the only reason to visit this restaurant.
 # streusle_sent_id = ewtb.r.048302.1
 # mwe = Blooming_onion , the only reason to visit this restaurant .
@@ -945,6 +979,7 @@
 
 # newdoc id = reviews-052836
 # sent_id = reviews-052836-0001
+# newpar id = reviews-052836-p0001
 # text = Bad food and bad service!
 # streusle_sent_id = ewtb.r.052836.1
 # mwe = Bad food and bad service !
@@ -967,6 +1002,7 @@
 
 # newdoc id = reviews-052884
 # sent_id = reviews-052884-0001
+# newpar id = reviews-052884-p0001
 # text = unique gifts and cards
 # streusle_sent_id = ewtb.r.052884.1
 # mwe = unique gifts and cards
@@ -977,6 +1013,7 @@
 
 # newdoc id = reviews-057644
 # sent_id = reviews-057644-0001
+# newpar id = reviews-057644-p0001
 # text = find another place
 # streusle_sent_id = ewtb.r.057644.1
 # mwe = find another place
@@ -985,6 +1022,7 @@
 3	place	place	NOUN	NN	Number=Sing	1	obj	1:obj	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-057644-0002
+# newpar id = reviews-057644-p0002
 # text = Run down.
 # streusle_sent_id = ewtb.r.057644.2
 # mwe = Run_down .
@@ -1062,6 +1100,7 @@
 
 # newdoc id = reviews-058274
 # sent_id = reviews-058274-0001
+# newpar id = reviews-058274-p0001
 # text = Food - very good for a midnight meal that isn't fast food.
 # streusle_sent_id = ewtb.r.058274.1
 # mwe = Food - very good for a midnight meal that is n't fast_food .
@@ -1114,6 +1153,7 @@
 
 # newdoc id = reviews-059088
 # sent_id = reviews-059088-0001
+# newpar id = reviews-059088-p0001
 # text = Best Cigar lounge on the blouvard.
 # streusle_sent_id = ewtb.r.059088.1
 # mwe = Best Cigar_lounge on the blouvard .
@@ -1167,6 +1207,7 @@
 
 # newdoc id = reviews-059386
 # sent_id = reviews-059386-0001
+# newpar id = reviews-059386-p0001
 # text = Best YET!
 # streusle_sent_id = ewtb.r.059386.1
 # mwe = Best YET !
@@ -1175,6 +1216,7 @@
 3	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-059386-0002
+# newpar id = reviews-059386-p0002
 # text = We go to Japaneiro's all the time and we have NEVER been disappointed!
 # streusle_sent_id = ewtb.r.059386.2
 # mwe = We go to Japaneiro_'s all_the_time and we have NEVER been disappointed !
@@ -1241,6 +1283,7 @@
 
 # newdoc id = reviews-061768
 # sent_id = reviews-061768-0001
+# newpar id = reviews-061768-p0001
 # text = Horrible customer service.
 # streusle_sent_id = ewtb.r.061768.1
 # mwe = Horrible customer_service .
@@ -1313,6 +1356,7 @@
 
 # newdoc id = reviews-063754
 # sent_id = reviews-063754-0001
+# newpar id = reviews-063754-p0001
 # text = Chuck and Gretchen were very positive, and when Alan's refused to work on my bike, Chuck came right out and saw the problem and did what Alan's mechanic wouldn't do.
 # streusle_sent_id = ewtb.r.063754.1
 # mwe = Chuck and Gretchen were very positive , and when Alan_'s refused to work~on my bike , Chuck came right out and saw the problem and did what Alan_'s mechanic would n't do .
@@ -1381,6 +1425,7 @@
 
 # newdoc id = reviews-064100
 # sent_id = reviews-064100-0001
+# newpar id = reviews-064100-p0001
 # text = Great spot to kick back for a cup of joe and a snack.
 # streusle_sent_id = ewtb.r.064100.1
 # mwe = Great spot to kick_back for a cup_of_joe and a snack .
@@ -1409,6 +1454,7 @@
 
 # newdoc id = reviews-064146
 # sent_id = reviews-064146-0001
+# newpar id = reviews-064146-p0001
 # text = Best Pizzas and Calzones in the City!
 # streusle_sent_id = ewtb.r.064146.1
 # mwe = Best Pizzas and Calzones in the City !
@@ -1422,6 +1468,7 @@
 8	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-064146-0002
+# newpar id = reviews-064146-p0002
 # text = What a hidden gem!
 # streusle_sent_id = ewtb.r.064146.2
 # mwe = What a hidden~gem !
@@ -1461,6 +1508,7 @@
 
 # newdoc id = reviews-067423
 # sent_id = reviews-067423-0001
+# newpar id = reviews-067423-p0001
 # text = Doctor Hank is Amazing
 # streusle_sent_id = ewtb.r.067423.1
 # mwe = Doctor_Hank is Amazing
@@ -1470,6 +1518,7 @@
 4	Amazing	amazing	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	amazing	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-067423-0002
+# newpar id = reviews-067423-p0002
 # text = Our family has been trusting Doctor Hank with our teeth for the last seven years.
 # streusle_sent_id = ewtb.r.067423.2
 # mwe = Our family has been trusting~ Doctor_Hank ~with our teeth for the last seven years .
@@ -1519,6 +1568,7 @@
 
 # newdoc id = reviews-067826
 # sent_id = reviews-067826-0001
+# newpar id = reviews-067826-p0001
 # text = If you're looking for homestyle Japanese food, you can't beat this
 # streusle_sent_id = ewtb.r.067826.1
 # mwe = If you 're looking~for homestyle Japanese food , you_ca_n't_beat_this
@@ -1539,6 +1589,7 @@
 
 # newdoc id = reviews-070492
 # sent_id = reviews-070492-0001
+# newpar id = reviews-070492-p0001
 # text = Good, friendly, reasonable service
 # streusle_sent_id = ewtb.r.070492.1
 # mwe = Good , friendly , reasonable service
@@ -1551,6 +1602,7 @@
 
 # newdoc id = reviews-071017
 # sent_id = reviews-071017-0001
+# newpar id = reviews-071017-p0001
 # text = It was ok, nice management, they let us check in early, but the place was old.
 # streusle_sent_id = ewtb.r.071017.1
 # mwe = It was ok , nice management , they let us check_in early , but the place was old .
@@ -1620,6 +1672,7 @@
 
 # newdoc id = reviews-072067
 # sent_id = reviews-072067-0001
+# newpar id = reviews-072067-p0001
 # text = Great School!
 # streusle_sent_id = ewtb.r.072067.1
 # mwe = Great School !
@@ -1628,6 +1681,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-072067-0002
+# newpar id = reviews-072067-p0002
 # text = Teachers good Diverse student body(African-American, Asian, ect.) equals kids staying here!
 # streusle_sent_id = ewtb.r.072067.2
 # mwe = Teachers good Diverse student_body ( African_-_American , Asian , ect. ) equals kids staying here !
@@ -1653,6 +1707,7 @@
 
 # newdoc id = reviews-072271
 # sent_id = reviews-072271-0001
+# newpar id = reviews-072271-p0001
 # text = Pure Beauty
 # streusle_sent_id = ewtb.r.072271.1
 # mwe = Pure Beauty
@@ -1660,6 +1715,7 @@
 2	Beauty	beauty	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	beauty	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 
 # sent_id = reviews-072271-0002
+# newpar id = reviews-072271-p0002
 # text = What a joy to stroll off historic Canyon Road in Santa Fe into a gallery with a gorgeous diversity of art.
 # streusle_sent_id = ewtb.r.072271.2
 # mwe = What a joy to stroll off historic Canyon_Road in Santa_Fe into a gallery with a gorgeous diversity of art .
@@ -1730,6 +1786,7 @@
 
 # newdoc id = reviews-073356
 # sent_id = reviews-073356-0001
+# newpar id = reviews-073356-p0001
 # text = Beautiful hotel!
 # streusle_sent_id = ewtb.r.073356.1
 # mwe = Beautiful hotel !
@@ -1769,6 +1826,7 @@
 
 # newdoc id = reviews-073742
 # sent_id = reviews-073742-0001
+# newpar id = reviews-073742-p0001
 # text = Food is always good
 # streusle_sent_id = ewtb.r.073742.1
 # mwe = Food is always good
@@ -1779,6 +1837,7 @@
 
 # newdoc id = reviews-076440
 # sent_id = reviews-076440-0001
+# newpar id = reviews-076440-p0001
 # text = really amazing the new and exciting plays done at this theatre !
 # streusle_sent_id = ewtb.r.076440.1
 # mwe = really amazing the new and exciting plays done at this theatre !
@@ -1797,6 +1856,7 @@
 
 # newdoc id = reviews-077034
 # sent_id = reviews-077034-0001
+# newpar id = reviews-077034-p0001
 # text = I loved the atmosphere here and the food is good, however the tables are so close together that it feels very cramped.
 # streusle_sent_id = ewtb.r.077034.1
 # mwe = I loved the atmosphere here and the food is good , however the tables are so close together that it feels very cramped .
@@ -1856,6 +1916,7 @@
 
 # newdoc id = reviews-077213
 # sent_id = reviews-077213-0001
+# newpar id = reviews-077213-p0001
 # text = the food is mediocre at best.
 # streusle_sent_id = ewtb.r.077213.1
 # mwe = the food is mediocre at_best .
@@ -1943,6 +2004,7 @@
 
 # newdoc id = reviews-077344
 # sent_id = reviews-077344-0001
+# newpar id = reviews-077344-p0001
 # text = No service.. But good food..
 # streusle_sent_id = ewtb.r.077344.1
 # mwe = No service .. But good food ..
@@ -1956,6 +2018,7 @@
 
 # newdoc id = reviews-079827
 # sent_id = reviews-079827-0001
+# newpar id = reviews-079827-p0001
 # text = Fantastic fresh food!
 # streusle_sent_id = ewtb.r.079827.1
 # mwe = Fantastic fresh food !
@@ -1965,6 +2028,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-079827-0002
+# newpar id = reviews-079827-p0002
 # text = What a neat gem of a restaurant in a corner one wouldn't expect it.
 # streusle_sent_id = ewtb.r.079827.2
 # mwe = What a~ neat ~gem~of~a restaurant in a corner one would n't expect it .
@@ -2038,6 +2102,7 @@
 
 # newdoc id = reviews-080854
 # sent_id = reviews-080854-0001
+# newpar id = reviews-080854-p0001
 # text = Fast and affordable.
 # streusle_sent_id = ewtb.r.080854.1
 # mwe = Fast and affordable .
@@ -2060,6 +2125,7 @@
 
 # newdoc id = reviews-083849
 # sent_id = reviews-083849-0001
+# newpar id = reviews-083849-p0001
 # text = Surprisingly, this little strip mall restaurant has the best sushi I've found in the Tampa area.
 # streusle_sent_id = ewtb.r.083849.1
 # mwe = Surprisingly , this little strip_mall restaurant has the best sushi I 've found in the Tampa area .
@@ -2114,6 +2180,7 @@
 
 # newdoc id = reviews-087176
 # sent_id = reviews-087176-0001
+# newpar id = reviews-087176-p0001
 # text = A++
 # streusle_sent_id = ewtb.r.087176.1
 # mwe = A_++
@@ -2121,6 +2188,7 @@
 2	++	++	SYM	SYM	_	1	compound	1:compound	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-087176-0002
+# newpar id = reviews-087176-p0002
 # text = They are by far the best salon in 50 miles, Trust me I know!!
 # streusle_sent_id = ewtb.r.087176.2
 # mwe = They are by_far the best salon in 50 miles , Trust me I know !!
@@ -2143,6 +2211,7 @@
 
 # newdoc id = reviews-088914
 # sent_id = reviews-088914-0001
+# newpar id = reviews-088914-p0001
 # text = They did a vehicle wrap for my Toyota Venza that looks amazing.
 # streusle_sent_id = ewtb.r.088914.1
 # mwe = They did a vehicle_wrap for my Toyota_Venza that looks amazing .
@@ -2177,6 +2246,7 @@
 
 # newdoc id = reviews-090390
 # sent_id = reviews-090390-0001
+# newpar id = reviews-090390-p0001
 # text = wrong location
 # streusle_sent_id = ewtb.r.090390.1
 # mwe = wrong location
@@ -2184,6 +2254,7 @@
 2	location	location	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	location	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-090390-0002
+# newpar id = reviews-090390-p0002
 # text = this is not where the Blue Water Bridge Duty Free is located.
 # streusle_sent_id = ewtb.r.090390.2
 # mwe = this is not where the Blue_Water_Bridge_Duty_Free is located .
@@ -2228,6 +2299,7 @@
 
 # newdoc id = reviews-096340
 # sent_id = reviews-096340-0001
+# newpar id = reviews-096340-p0001
 # text = ONe of a few.
 # streusle_sent_id = ewtb.r.096340.1
 # mwe = ONe of a few .
@@ -2295,6 +2367,7 @@
 
 # newdoc id = reviews-097507
 # sent_id = reviews-097507-0001
+# newpar id = reviews-097507-p0001
 # text = Best meat pies in Canada
 # streusle_sent_id = ewtb.r.097507.1
 # mwe = Best meat pies in Canada
@@ -2305,6 +2378,7 @@
 5	Canada	Canada	PROPN	NNP	Number=Sing	3	nmod	3:nmod:in	_	_	N	Canada	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-097507-0002
+# newpar id = reviews-097507-p0002
 # text = If you are looking for authentic British meat pies, then look know further.
 # streusle_sent_id = ewtb.r.097507.2
 # mwe = If you are looking~for authentic British meat pies , then look_know_further .
@@ -2376,6 +2450,7 @@
 
 # newdoc id = reviews-099279
 # sent_id = reviews-099279-0001
+# newpar id = reviews-099279-p0001
 # text = excellent!
 # streusle_sent_id = ewtb.r.099279.1
 # mwe = excellent !
@@ -2411,6 +2486,7 @@
 
 # newdoc id = reviews-103609
 # sent_id = reviews-103609-0001
+# newpar id = reviews-103609-p0001
 # text = Great Family Fun and Bonding
 # streusle_sent_id = ewtb.r.103609.1
 # mwe = Great Family_Fun and Bonding
@@ -2421,6 +2497,7 @@
 5	Bonding	bonding	NOUN	NN	Number=Sing	3	conj	3:conj:and	_	_	N	bonding	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-103609-0002
+# newpar id = reviews-103609-p0002
 # text = What more can be said: "Burch's Karate is the GREATEST!"
 # streusle_sent_id = ewtb.r.103609.2
 # mwe = What more can be said : " Burch_'s_Karate is the GREATEST ! "
@@ -2442,6 +2519,7 @@
 
 # newdoc id = reviews-105237
 # sent_id = reviews-105237-0001
+# newpar id = reviews-105237-p0001
 # text = Worst place flour tortillas are always hard the beef enchiladas are discussing meat all over cooked was good many yrs ago but restaurant has gone down hill
 # streusle_sent_id = ewtb.r.105237.1
 # mwe = Worst place flour tortillas are always hard the beef enchiladas are discussing meat all over_cooked was good many yrs ago but restaurant has gone_down_hill
@@ -2475,6 +2553,7 @@
 
 # newdoc id = reviews-105326
 # sent_id = reviews-105326-0001
+# newpar id = reviews-105326-p0001
 # text = How a pizza place should be!
 # streusle_sent_id = ewtb.r.105326.1
 # mwe = How a pizza_place should be !
@@ -2503,6 +2582,7 @@
 
 # newdoc id = reviews-105719
 # sent_id = reviews-105719-0001
+# newpar id = reviews-105719-p0001
 # text = Over priced for Mexican food
 # streusle_sent_id = ewtb.r.105719.1
 # mwe = Over_priced for Mexican food
@@ -2514,6 +2594,7 @@
 
 # newdoc id = reviews-107292
 # sent_id = reviews-107292-0001
+# newpar id = reviews-107292-p0001
 # text = awesome bagels
 # streusle_sent_id = ewtb.r.107292.1
 # mwe = awesome bagels
@@ -2535,6 +2616,7 @@
 
 # newdoc id = reviews-114941
 # sent_id = reviews-114941-0001
+# newpar id = reviews-114941-p0001
 # text = Give them a try!
 # streusle_sent_id = ewtb.r.114941.1
 # mwe = Give_ them _a_try !
@@ -2545,6 +2627,7 @@
 5	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-114941-0002
+# newpar id = reviews-114941-p0002
 # text = The pizzas are huge and super delicious.
 # streusle_sent_id = ewtb.r.114941.2
 # mwe = The pizzas are huge and super delicious .
@@ -2596,6 +2679,7 @@
 
 # newdoc id = reviews-115029
 # sent_id = reviews-115029-0001
+# newpar id = reviews-115029-p0001
 # text = Not friendly, not helpful, overall poor customer service.
 # streusle_sent_id = ewtb.r.115029.1
 # mwe = Not friendly , not helpful , overall poor customer_service .
@@ -2628,12 +2712,14 @@
 
 # newdoc id = reviews-115566
 # sent_id = reviews-115566-0001
+# newpar id = reviews-115566-p0001
 # text = Retired
 # streusle_sent_id = ewtb.r.115566.1
 # mwe = Retired
 1	Retired	retire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	ADJ	retire	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-115566-0002
+# newpar id = reviews-115566-p0002
 # text = Dr Joseph retired.
 # streusle_sent_id = ewtb.r.115566.2
 # mwe = Dr_Joseph retired .
@@ -2655,12 +2741,14 @@
 
 # newdoc id = reviews-117893
 # sent_id = reviews-117893-0001
+# newpar id = reviews-117893-p0001
 # text = Aweesome
 # streusle_sent_id = ewtb.r.117893.1
 # mwe = Aweesome
 1	Aweesome	awesome	ADJ	JJ	Degree=Pos|Typo=Yes	0	root	0:root	_	_	ADJ	awesome	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-117893-0002
+# newpar id = reviews-117893-p0002
 # text = Holy cow was that a delicious meal.
 # streusle_sent_id = ewtb.r.117893.2
 # mwe = Holy_cow was that a delicious meal .
@@ -2698,6 +2786,7 @@
 
 # newdoc id = reviews-118770
 # sent_id = reviews-118770-0001
+# newpar id = reviews-118770-p0001
 # text = This place is clean and well run with great people.
 # streusle_sent_id = ewtb.r.118770.1
 # mwe = This place is clean and well run with great people .
@@ -2751,6 +2840,7 @@
 
 # newdoc id = reviews-120992
 # sent_id = reviews-120992-0001
+# newpar id = reviews-120992-p0001
 # text = Holly - the owner, knows exactly how to make you feel beautiful in clothes.
 # streusle_sent_id = ewtb.r.120992.1
 # mwe = Holly - the owner , knows exactly how to make_ you _feel beautiful in clothes .
@@ -2806,6 +2896,7 @@
 
 # newdoc id = reviews-124552
 # sent_id = reviews-124552-0001
+# newpar id = reviews-124552-p0001
 # text = They have good sushi for a good price.
 # streusle_sent_id = ewtb.r.124552.1
 # mwe = They have good sushi for a good price .
@@ -2850,6 +2941,7 @@
 
 # newdoc id = reviews-125522
 # sent_id = reviews-125522-0001
+# newpar id = reviews-125522-p0001
 # text = They are out of business.
 # streusle_sent_id = ewtb.r.125522.1
 # mwe = They are out_of_business .
@@ -2890,6 +2982,7 @@
 
 # newdoc id = reviews-125629
 # sent_id = reviews-125629-0001
+# newpar id = reviews-125629-p0001
 # text = Anyone else find it a little suspicious that there are not only 20 reviews for this dentist (a HUGE number compared to the others in the area), but that they all have the same unique grammar structure?
 # streusle_sent_id = ewtb.r.125629.1
 # mwe = Anyone else find it a little suspicious that there are not only 20 reviews for this dentist ( a HUGE number compared~to the others in the area ) , but that they all have the same unique grammar_structure ?
@@ -2953,6 +3046,7 @@
 
 # newdoc id = reviews-128908
 # sent_id = reviews-128908-0001
+# newpar id = reviews-128908-p0001
 # text = I love the meat!
 # streusle_sent_id = ewtb.r.128908.1
 # mwe = I love the meat !
@@ -2964,6 +3058,7 @@
 
 # newdoc id = reviews-133260
 # sent_id = reviews-133260-0001
+# newpar id = reviews-133260-p0001
 # text = Great Job!
 # streusle_sent_id = ewtb.r.133260.1
 # mwe = Great Job !
@@ -2972,6 +3067,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-133260-0002
+# newpar id = reviews-133260-p0002
 # text = Thanks for fixing my garage door A++++++++++++++++++
 # streusle_sent_id = ewtb.r.133260.2
 # mwe = Thanks for fixing my garage_door A_++++++++++++++++++
@@ -2986,6 +3082,7 @@
 
 # newdoc id = reviews-134617
 # sent_id = reviews-134617-0001
+# newpar id = reviews-134617-p0001
 # text = Great Neighborhood Hangout
 # streusle_sent_id = ewtb.r.134617.1
 # mwe = Great Neighborhood Hangout
@@ -2994,6 +3091,7 @@
 3	Hangout	hangout	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	hangout	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-134617-0002
+# newpar id = reviews-134617-p0002
 # text = Great place to catch a band or catch up with friends.
 # streusle_sent_id = ewtb.r.134617.2
 # mwe = Great place to catch a band or catch_up~with friends .
@@ -3039,12 +3137,14 @@
 
 # newdoc id = reviews-134741
 # sent_id = reviews-134741-0001
+# newpar id = reviews-134741-p0001
 # text = professional
 # streusle_sent_id = ewtb.r.134741.1
 # mwe = professional
 1	professional	professional	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	professional	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-134741-0002
+# newpar id = reviews-134741-p0002
 # text = Good job very professional.
 # streusle_sent_id = ewtb.r.134741.2
 # mwe = Good job very professional .
@@ -3079,6 +3179,7 @@
 
 # newdoc id = reviews-137883
 # sent_id = reviews-137883-0001
+# newpar id = reviews-137883-p0001
 # text = Your average crappy chain.
 # streusle_sent_id = ewtb.r.137883.1
 # mwe = Your average crappy chain .
@@ -3107,6 +3208,7 @@
 
 # newdoc id = reviews-138699
 # sent_id = reviews-138699-0001
+# newpar id = reviews-138699-p0001
 # text = Great service and awesome prices.
 # streusle_sent_id = ewtb.r.138699.1
 # mwe = Great service and awesome prices .
@@ -3133,6 +3235,7 @@
 
 # newdoc id = reviews-139456
 # sent_id = reviews-139456-0001
+# newpar id = reviews-139456-p0001
 # text = Pleasure to work with.
 # streusle_sent_id = ewtb.r.139456.1
 # mwe = Pleasure~to~work~with .
@@ -3166,6 +3269,7 @@
 
 # newdoc id = reviews-140164
 # sent_id = reviews-140164-0001
+# newpar id = reviews-140164-p0001
 # text = If you want cheaply made glass from India and China, this is not your place.
 # streusle_sent_id = ewtb.r.140164.1
 # mwe = If you want cheaply made glass from India and China , this is not your place .
@@ -3238,6 +3342,7 @@
 
 # newdoc id = reviews-140302
 # sent_id = reviews-140302-0001
+# newpar id = reviews-140302-p0001
 # text = 5 star detail job
 # streusle_sent_id = ewtb.r.140302.1
 # mwe = 5_star detail~job
@@ -3247,6 +3352,7 @@
 4	job	job	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	job	n.ACT	_	2:2	_	_	I~-N-n.ACT
 
 # sent_id = reviews-140302-0002
+# newpar id = reviews-140302-p0002
 # text = I took my Mustang here and it looked amazing after they were done, they did a great job, I'm very satisfied with the results.
 # streusle_sent_id = ewtb.r.140302.2
 # mwe = I took my Mustang here and it looked amazing after they were done , they did_a_ great _job , I 'm very satisfied with the results .
@@ -3316,6 +3422,7 @@
 
 # newdoc id = reviews-147825
 # sent_id = reviews-147825-0001
+# newpar id = reviews-147825-p0001
 # text = Rip Off!
 # streusle_sent_id = ewtb.r.147825.1
 # mwe = Rip_Off !
@@ -3324,6 +3431,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-147825-0002
+# newpar id = reviews-147825-p0002
 # text = 45p for tap water!
 # streusle_sent_id = ewtb.r.147825.2
 # mwe = 45 p for tap_water !
@@ -3383,6 +3491,7 @@
 
 # newdoc id = reviews-148012
 # sent_id = reviews-148012-0001
+# newpar id = reviews-148012-p0001
 # text = Great lunch specials.
 # streusle_sent_id = ewtb.r.148012.1
 # mwe = Great lunch specials .
@@ -3449,6 +3558,7 @@
 
 # newdoc id = reviews-148346
 # sent_id = reviews-148346-0001
+# newpar id = reviews-148346-p0001
 # text = Best place to sleep!!!!!!!
 # streusle_sent_id = ewtb.r.148346.1
 # mwe = Best place to sleep !!!!!!!
@@ -3460,6 +3570,7 @@
 
 # newdoc id = reviews-148566
 # sent_id = reviews-148566-0001
+# newpar id = reviews-148566-p0001
 # text = Good fun for wing night, food eh, beer list eh...
 # streusle_sent_id = ewtb.r.148566.1
 # mwe = Good fun for wing~night , food eh , beer list eh ...
@@ -3479,6 +3590,7 @@
 
 # newdoc id = reviews-149922
 # sent_id = reviews-149922-0001
+# newpar id = reviews-149922-p0001
 # text = Clean rooms, great for the price and cheapest on the exit.
 # streusle_sent_id = ewtb.r.149922.1
 # mwe = Clean rooms , great for the price and cheapest on the exit .
@@ -3522,6 +3634,7 @@
 
 # newdoc id = reviews-154113
 # sent_id = reviews-154113-0001
+# newpar id = reviews-154113-p0001
 # text = A good cut!
 # streusle_sent_id = ewtb.r.154113.1
 # mwe = A good cut !
@@ -3565,6 +3678,7 @@
 
 # newdoc id = reviews-158740
 # sent_id = reviews-158740-0001
+# newpar id = reviews-158740-p0001
 # text = awesome place!!!
 # streusle_sent_id = ewtb.r.158740.1
 # mwe = awesome place !!!
@@ -3617,6 +3731,7 @@
 
 # newdoc id = reviews-162253
 # sent_id = reviews-162253-0001
+# newpar id = reviews-162253-p0001
 # text = Over charged.
 # streusle_sent_id = ewtb.r.162253.1
 # mwe = Over_charged .
@@ -3625,6 +3740,7 @@
 3	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-162253-0002
+# newpar id = reviews-162253-p0002
 # text = I used my card to purchase a meal on the menu and the total on my receipt was $8.95 but when I went on line to check my transaction it show $10.74.
 # streusle_sent_id = ewtb.r.162253.2
 # mwe = I used my card to purchase a meal on the menu and the total on my receipt was $ 8.95 but when I went on_line to check my transaction it show $ 10.74 .
@@ -3690,6 +3806,7 @@
 
 # newdoc id = reviews-162662
 # sent_id = reviews-162662-0001
+# newpar id = reviews-162662-p0001
 # text = Great place for embroidery.
 # streusle_sent_id = ewtb.r.162662.1
 # mwe = Great place for embroidery .
@@ -3733,6 +3850,7 @@
 
 # newdoc id = reviews-162702
 # sent_id = reviews-162702-0001
+# newpar id = reviews-162702-p0001
 # text = The best photographer in Miami
 # streusle_sent_id = ewtb.r.162702.1
 # mwe = The best photographer in Miami
@@ -3743,6 +3861,7 @@
 5	Miami	Miami	PROPN	NNP	Number=Sing	3	nmod	3:nmod:in	_	_	N	Miami	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-162702-0002
+# newpar id = reviews-162702-p0002
 # text = I was soooo lucky to have used Marlon's photography services....such a creative and talented photographer and a pleasure to work with.
 # streusle_sent_id = ewtb.r.162702.2
 # mwe = I was soooo lucky to have used Marlon 's photography services .... such a creative and talented photographer and a_pleasure to work~with .
@@ -3795,6 +3914,7 @@
 
 # newdoc id = reviews-162992
 # sent_id = reviews-162992-0001
+# newpar id = reviews-162992-p0001
 # text = Great Service and hairstyles that last.
 # streusle_sent_id = ewtb.r.162992.1
 # mwe = Great Service and hairstyles that last .
@@ -3807,6 +3927,7 @@
 7	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-162992-0002
+# newpar id = reviews-162992-p0002
 # text = I am pleased with the service that i get at Luxe.
 # streusle_sent_id = ewtb.r.162992.2
 # mwe = I am pleased~with the service that i get at Luxe .
@@ -3842,6 +3963,7 @@
 
 # newdoc id = reviews-163703
 # sent_id = reviews-163703-0001
+# newpar id = reviews-163703-p0001
 # text = Cheap Hotel Rome - Thanks for all your help!
 # streusle_sent_id = ewtb.r.163703.1
 # mwe = Cheap_Hotel_Rome - Thanks for all your help !
@@ -3857,6 +3979,7 @@
 10	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-163703-0002
+# newpar id = reviews-163703-p0002
 # text = Cheap Hotel Rome - thanks for finding us a hotel at the last minute.
 # streusle_sent_id = ewtb.r.163703.2
 # mwe = Cheap_Hotel_Rome - thanks for finding us a hotel at the last_minute .
@@ -3900,6 +4023,7 @@
 
 # newdoc id = reviews-172245
 # sent_id = reviews-172245-0001
+# newpar id = reviews-172245-p0001
 # text = Great store great products
 # streusle_sent_id = ewtb.r.172245.1
 # mwe = Great store great products
@@ -3910,6 +4034,7 @@
 
 # newdoc id = reviews-173758
 # sent_id = reviews-173758-0001
+# newpar id = reviews-173758-p0001
 # text = best place for snowboard eva.
 # streusle_sent_id = ewtb.r.173758.1
 # mwe = best place for snowboard eva .
@@ -3922,6 +4047,7 @@
 
 # newdoc id = reviews-173944
 # sent_id = reviews-173944-0001
+# newpar id = reviews-173944-p0001
 # text = Great Service
 # streusle_sent_id = ewtb.r.173944.1
 # mwe = Great Service
@@ -3929,6 +4055,7 @@
 2	Service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-173944-0002
+# newpar id = reviews-173944-p0002
 # text = Dr Mcdonald is wonderful.
 # streusle_sent_id = ewtb.r.173944.2
 # mwe = Dr_Mcdonald is wonderful .
@@ -3988,6 +4115,7 @@
 
 # newdoc id = reviews-177779
 # sent_id = reviews-177779-0001
+# newpar id = reviews-177779-p0001
 # text = Brain Dead
 # streusle_sent_id = ewtb.r.177779.1
 # mwe = Brain_Dead
@@ -3995,6 +4123,7 @@
 2	Dead	dead	ADJ	JJ	Degree=Pos	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-177779-0002
+# newpar id = reviews-177779-p0002
 # text = Not only are these people completely inefficient and ineffective, but they just don't give a darn.
 # streusle_sent_id = ewtb.r.177779.2
 # mwe = Not_only are these people completely inefficient and ineffective , but they just do~n't~give_a_darn .
@@ -4032,6 +4161,7 @@
 
 # newdoc id = reviews-184731
 # sent_id = reviews-184731-0001
+# newpar id = reviews-184731-p0001
 # text = The World's Fair museum was pretty cool.
 # streusle_sent_id = ewtb.r.184731.1
 # mwe = The World_'s_Fair_museum was pretty cool .
@@ -4047,6 +4177,7 @@
 
 # newdoc id = reviews-186135
 # sent_id = reviews-186135-0001
+# newpar id = reviews-186135-p0001
 # text = Too Expensive
 # streusle_sent_id = ewtb.r.186135.1
 # mwe = Too Expensive
@@ -4054,6 +4185,7 @@
 2	Expensive	expensive	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	expensive	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-186135-0002
+# newpar id = reviews-186135-p0002
 # text = The food's okay, but the price is outrageous.
 # streusle_sent_id = ewtb.r.186135.2
 # mwe = The food 's okay , but the price is outrageous .
@@ -4071,12 +4203,14 @@
 
 # newdoc id = reviews-186275
 # sent_id = reviews-186275-0001
+# newpar id = reviews-186275-p0001
 # text = :)
 # streusle_sent_id = ewtb.r.186275.1
 # mwe = :)
 1	:)	:)	SYM	NFP	_	0	root	0:root	_	_	SYM	:)	_	_	_	_	_	O-SYM
 
 # sent_id = reviews-186275-0002
+# newpar id = reviews-186275-p0002
 # text = I will gladly recommend you to anyone in need of or looking for a good florist.
 # streusle_sent_id = ewtb.r.186275.2
 # mwe = I will gladly recommend you to anyone in_need_of or looking~for a good florist .
@@ -4100,6 +4234,7 @@
 
 # newdoc id = reviews-188461
 # sent_id = reviews-188461-0001
+# newpar id = reviews-188461-p0001
 # text = Totally flavored
 # streusle_sent_id = ewtb.r.188461.1
 # mwe = Totally flavored
@@ -4107,6 +4242,7 @@
 2	flavored	flavored	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	flavored	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-188461-0002
+# newpar id = reviews-188461-p0002
 # text = The statement about "best hamburguers in town" can be even amplifiaed to "best hamburguers in world" Totally worth, juicy, big, fresh, and excellent customer service!
 # streusle_sent_id = ewtb.r.188461.2
 # mwe = The statement about " best hamburguers in_town " can be even amplifiaed to " best hamburguers in world " Totally worth , juicy , big , fresh , and excellent customer_service !
@@ -4147,6 +4283,7 @@
 
 # newdoc id = reviews-189171
 # sent_id = reviews-189171-0001
+# newpar id = reviews-189171-p0001
 # text = A most outstanding, professional firm.
 # streusle_sent_id = ewtb.r.189171.1
 # mwe = A most outstanding , professional firm .
@@ -4160,6 +4297,7 @@
 
 # newdoc id = reviews-190389
 # sent_id = reviews-190389-0001
+# newpar id = reviews-190389-p0001
 # text = very miss informed people!!
 # streusle_sent_id = ewtb.r.190389.1
 # mwe = very miss_informed people !!
@@ -4171,6 +4309,7 @@
 
 # newdoc id = reviews-191597
 # sent_id = reviews-191597-0001
+# newpar id = reviews-191597-p0001
 # text = Awsome!
 # streusle_sent_id = ewtb.r.191597.1
 # mwe = Awsome !
@@ -4186,6 +4325,7 @@
 3	cheap	cheap	ADJ	JJ	Degree=Pos	2	list	2:list	_	_	ADJ	cheap	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-191597-0003
+# newpar id = reviews-191597-p0002
 # text = Every thing here is good.
 # streusle_sent_id = ewtb.r.191597.3
 # mwe = Every_thing here is good .
@@ -4226,6 +4366,7 @@
 
 # newdoc id = reviews-194153
 # sent_id = reviews-194153-0001
+# newpar id = reviews-194153-p0001
 # text = Barb does an AMAZING JOB, she is always learning new things on how to use her hands and body, to give every person an AWESOME MASSAGE, CALL TODAY AND SCHEDULE YOU MUST SEE HER, YOU WILL FALL IN LOVE SHE IS THE BEST OF THE BEST !
 # streusle_sent_id = ewtb.r.194153.1
 # mwe = Barb does~an~ AMAZING ~JOB , she is always learning new things on how to use her hands and body , to give_ every person an AWESOME _MASSAGE , CALL TODAY AND SCHEDULE YOU MUST SEE HER , YOU WILL FALL_IN_LOVE SHE IS THE_BEST_OF_THE_BEST !
@@ -4283,6 +4424,7 @@
 
 # newdoc id = reviews-194313
 # sent_id = reviews-194313-0001
+# newpar id = reviews-194313-p0001
 # text = Excellent Pizza!!
 # streusle_sent_id = ewtb.r.194313.1
 # mwe = Excellent Pizza !!
@@ -4291,6 +4433,7 @@
 3	!!	!!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-194313-0002
+# newpar id = reviews-194313-p0002
 # text = Its the only pizza place I recommend in Woodland Hills.
 # streusle_sent_id = ewtb.r.194313.2
 # mwe = It s the only pizza place I recommend in Woodland_Hills .
@@ -4338,6 +4481,7 @@
 
 # newdoc id = reviews-194830
 # sent_id = reviews-194830-0001
+# newpar id = reviews-194830-p0001
 # text = impressive truly impressive
 # streusle_sent_id = ewtb.r.194830.1
 # mwe = impressive truly impressive
@@ -4346,6 +4490,7 @@
 3	impressive	impressive	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	_	_	ADJ	impressive	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-194830-0002
+# newpar id = reviews-194830-p0002
 # text = The First time I walked in there with my teacup chihuahua puppy I knew I'd be here a lot.
 # streusle_sent_id = ewtb.r.194830.2
 # mwe = The First time I walked in there with my teacup_chihuahua puppy I knew I 'd be here a_lot .
@@ -4402,6 +4547,7 @@
 
 # newdoc id = reviews-198455
 # sent_id = reviews-198455-0001
+# newpar id = reviews-198455-p0001
 # text = Great service
 # streusle_sent_id = ewtb.r.198455.1
 # mwe = Great service
@@ -4409,6 +4555,7 @@
 2	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-198455-0002
+# newpar id = reviews-198455-p0002
 # text = I had a dead battery last week and called this company since they were the closest they had very quick service for a Monday morning, thanks again guys.
 # streusle_sent_id = ewtb.r.198455.2
 # mwe = I had a dead~battery last week and called this company since they were the closest they had very quick service for a Monday morning , thanks again guys .
@@ -4445,12 +4592,14 @@
 
 # newdoc id = reviews-202402
 # sent_id = reviews-202402-0001
+# newpar id = reviews-202402-p0001
 # text = SERVERS
 # streusle_sent_id = ewtb.r.202402.1
 # mwe = SERVERS
 1	SERVERS	server	NOUN	NNS	Number=Plur	0	root	0:root	_	_	N	server	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-202402-0002
+# newpar id = reviews-202402-p0002
 # text = When my server crashed, Greg worked from 7 PM until 4 AM and had my company up and running the next morning.
 # streusle_sent_id = ewtb.r.202402.2
 # mwe = When my server crashed , Greg worked from 7 PM until 4 AM and had my company up_and_running the next morning .
@@ -4494,6 +4643,7 @@
 
 # newdoc id = reviews-202709
 # sent_id = reviews-202709-0001
+# newpar id = reviews-202709-p0001
 # text = Elmira, your the best!
 # streusle_sent_id = ewtb.r.202709.1
 # mwe = Elmira , you r the best !
@@ -4506,6 +4656,7 @@
 7	!	!	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-202709-0002
+# newpar id = reviews-202709-p0002
 # text = All I can say is that Elmira you are the best Ive experienced, never before has the seamstress done a perfect job until i met you.
 # streusle_sent_id = ewtb.r.202709.2
 # mwe = All I can say is that Elmira you are the best I ve experienced , never before has the seamstress done_ a perfect _job until i met you .
@@ -4567,12 +4718,14 @@
 
 # newdoc id = reviews-203196
 # sent_id = reviews-203196-0001
+# newpar id = reviews-203196-p0001
 # text = VINGAS
 # streusle_sent_id = ewtb.r.203196.1
 # mwe = VINGAS
 1	VINGAS	VINGAS	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	VINGAS	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-203196-0002
+# newpar id = reviews-203196-p0002
 # text = VISAKHA INDUSTRIAL GASES PVT. LTD., location at google maps.
 # streusle_sent_id = ewtb.r.203196.2
 # mwe = VISAKHA_INDUSTRIAL_GASES_PVT._LTD. , location at google_maps .
@@ -4590,6 +4743,7 @@
 
 # newdoc id = reviews-205014
 # sent_id = reviews-205014-0001
+# newpar id = reviews-205014-p0001
 # text = A Great Help!
 # streusle_sent_id = ewtb.r.205014.1
 # mwe = A Great Help !
@@ -4599,6 +4753,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-205014-0002
+# newpar id = reviews-205014-p0002
 # text = Ashdown Horse Transport were fantastic!
 # streusle_sent_id = ewtb.r.205014.2
 # mwe = Ashdown_Horse_Transport were fantastic !
@@ -4657,6 +4812,7 @@
 
 # newdoc id = reviews-207783
 # sent_id = reviews-207783-0001
+# newpar id = reviews-207783-p0001
 # text = Not a clothing store
 # streusle_sent_id = ewtb.r.207783.1
 # mwe = Not a clothing store
@@ -4666,6 +4822,7 @@
 4	store	store	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	store	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-207783-0002
+# newpar id = reviews-207783-p0002
 # text = Be more careful when you write reviews- this is an accounting group, not Hollister the clothing store.
 # streusle_sent_id = ewtb.r.207783.2
 # mwe = Be more careful when you write reviews - this is an accounting group , not Hollister the clothing store .
@@ -4692,6 +4849,7 @@
 
 # newdoc id = reviews-208180
 # sent_id = reviews-208180-0001
+# newpar id = reviews-208180-p0001
 # text = Good quality Indian food in a pleasant environment
 # streusle_sent_id = ewtb.r.208180.1
 # mwe = Good quality Indian food in a pleasant environment
@@ -4706,6 +4864,7 @@
 
 # newdoc id = reviews-208310
 # sent_id = reviews-208310-0001
+# newpar id = reviews-208310-p0001
 # text = Whatever you order, you will LOVE!
 # streusle_sent_id = ewtb.r.208310.1
 # mwe = Whatever you order , you will LOVE !
@@ -4720,6 +4879,7 @@
 
 # newdoc id = reviews-210019
 # sent_id = reviews-210019-0001
+# newpar id = reviews-210019-p0001
 # text = We have stayed at Tanglewood for many years now.
 # streusle_sent_id = ewtb.r.210019.1
 # mwe = We have stayed at Tanglewood for many years now .
@@ -4813,6 +4973,7 @@
 
 # newdoc id = reviews-211844
 # sent_id = reviews-211844-0001
+# newpar id = reviews-211844-p0001
 # text = Favorite DD spot in the area!
 # streusle_sent_id = ewtb.r.211844.1
 # mwe = Favorite DD spot in the area !
@@ -4826,6 +4987,7 @@
 
 # newdoc id = reviews-217485
 # sent_id = reviews-217485-0001
+# newpar id = reviews-217485-p0001
 # text = I'll admit I wasn't expecting much from this place, but they really did do a good job.
 # streusle_sent_id = ewtb.r.217485.1
 # mwe = I 'll admit I was n't expecting much from this place , but they really did do_ a good _job .
@@ -4890,12 +5052,14 @@
 
 # newdoc id = reviews-224123
 # sent_id = reviews-224123-0001
+# newpar id = reviews-224123-p0001
 # text = ok
 # streusle_sent_id = ewtb.r.224123.1
 # mwe = ok
 1	ok	ok	INTJ	UH	_	0	root	0:root	_	_	INTJ	ok	_	_	_	_	_	O-INTJ
 
 # sent_id = reviews-224123-0002
+# newpar id = reviews-224123-p0002
 # text = can't remember good or bad, so it must have been meh.
 # streusle_sent_id = ewtb.r.224123.2
 # mwe = ca n't remember good~or~bad , so it must have been meh .
@@ -4916,6 +5080,7 @@
 
 # newdoc id = reviews-228154
 # sent_id = reviews-228154-0001
+# newpar id = reviews-228154-p0001
 # text = Good food and coffee with a nice atmosphere
 # streusle_sent_id = ewtb.r.228154.1
 # mwe = Good food and coffee with a nice atmosphere
@@ -4930,6 +5095,7 @@
 
 # newdoc id = reviews-228944
 # sent_id = reviews-228944-0001
+# newpar id = reviews-228944-p0001
 # text = Best in Memphis
 # streusle_sent_id = ewtb.r.228944.1
 # mwe = Best in Memphis
@@ -4938,6 +5104,7 @@
 3	Memphis	Memphis	PROPN	NNP	Number=Sing	1	obl	1:obl:in	_	_	N	Memphis	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-228944-0002
+# newpar id = reviews-228944-p0002
 # text = This shop is by far the best I have been to.
 # streusle_sent_id = ewtb.r.228944.2
 # mwe = This shop is by_far the best I have been_to .
@@ -5006,6 +5173,7 @@
 
 # newdoc id = reviews-229142
 # sent_id = reviews-229142-0001
+# newpar id = reviews-229142-p0001
 # text = I used Birdies for our Annual Walk Against Drugs and Alcohol event.
 # streusle_sent_id = ewtb.r.229142.1
 # mwe = I used Birdies for our Annual Walk_Against_Drugs_and_Alcohol event .
@@ -5072,6 +5240,7 @@
 
 # newdoc id = reviews-231724
 # sent_id = reviews-231724-0001
+# newpar id = reviews-231724-p0001
 # text = Rooms were outdated, dirty, and small.
 # streusle_sent_id = ewtb.r.231724.1
 # mwe = Rooms were outdated , dirty , and small .
@@ -5109,6 +5278,7 @@
 
 # newdoc id = reviews-232106
 # sent_id = reviews-232106-0001
+# newpar id = reviews-232106-p0001
 # text = Clean & tidy with good atmosphere & pleasant staff.
 # streusle_sent_id = ewtb.r.232106.1
 # mwe = Clean & tidy with good atmosphere & pleasant staff .
@@ -5137,6 +5307,7 @@
 
 # newdoc id = reviews-235462
 # sent_id = reviews-235462-0001
+# newpar id = reviews-235462-p0001
 # text = Hobbs on Mass.
 # streusle_sent_id = ewtb.r.235462.1
 # mwe = Hobbs on Mass .
@@ -5146,6 +5317,7 @@
 4	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-235462-0002
+# newpar id = reviews-235462-p0002
 # text = Absolutely my favorite store in Lawrence, KS
 # streusle_sent_id = ewtb.r.235462.2
 # mwe = Absolutely my favorite store in Lawrence~,~KS
@@ -5160,6 +5332,7 @@
 
 # newdoc id = reviews-236648
 # sent_id = reviews-236648-0001
+# newpar id = reviews-236648-p0001
 # text = Quick and Cheap
 # streusle_sent_id = ewtb.r.236648.1
 # mwe = Quick and Cheap
@@ -5168,6 +5341,7 @@
 3	Cheap	cheap	ADJ	JJ	Degree=Pos	1	conj	1:conj:and	_	_	ADJ	cheap	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-236648-0002
+# newpar id = reviews-236648-p0002
 # text = Walked in and was outta there in 10 mins with a really good deal i thought i was going to be paying alot because i had a DUI but with my DUI and Sr-22 they were able to get me the best deal out there.
 # streusle_sent_id = ewtb.r.236648.2
 # mwe = Walked in and was out_ta there in 10 mins with a really good deal i thought i was going_to be paying a_lot because i had a DUI but with my DUI and Sr_-_22 they were able to get me the best deal out_there .
@@ -5224,6 +5398,7 @@
 
 # newdoc id = reviews-242303
 # sent_id = reviews-242303-0001
+# newpar id = reviews-242303-p0001
 # text = Awesome bacon egg and cheese sandwich for breakfast.
 # streusle_sent_id = ewtb.r.242303.1
 # mwe = Awesome bacon egg and cheese sandwich for breakfast .
@@ -5239,6 +5414,7 @@
 
 # newdoc id = reviews-243369
 # sent_id = reviews-243369-0001
+# newpar id = reviews-243369-p0001
 # text = You are the best!
 # streusle_sent_id = ewtb.r.243369.1
 # mwe = You are the best !
@@ -5249,6 +5425,7 @@
 5	!	!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-243369-0002
+# newpar id = reviews-243369-p0002
 # text = Just received from your flower store.
 # streusle_sent_id = ewtb.r.243369.2
 # mwe = Just received from your flower store .
@@ -5281,6 +5458,7 @@
 
 # newdoc id = reviews-248616
 # sent_id = reviews-248616-0001
+# newpar id = reviews-248616-p0001
 # text = Took a laptop in for a video cable to be replaced.
 # streusle_sent_id = ewtb.r.248616.1
 # mwe = Took_ a laptop _in for a video_cable to be replaced .
@@ -5356,6 +5534,7 @@
 
 # newdoc id = reviews-249889
 # sent_id = reviews-249889-0001
+# newpar id = reviews-249889-p0001
 # text = great garage and customer service.
 # streusle_sent_id = ewtb.r.249889.1
 # mwe = great garage and customer_service .
@@ -5384,6 +5563,7 @@
 
 # newdoc id = reviews-251475
 # sent_id = reviews-251475-0001
+# newpar id = reviews-251475-p0001
 # text = Great People and even better service!
 # streusle_sent_id = ewtb.r.251475.1
 # mwe = Great People and even better service !
@@ -5406,6 +5586,7 @@
 5	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-251475-0003
+# newpar id = reviews-251475-p0002
 # text = In a few words ... I'm pleasantly surprised that you can still find "old school" service out there where company care more about good name and customers than their pockets...
 # streusle_sent_id = ewtb.r.251475.3
 # mwe = In a_few words ... I 'm pleasantly~surprised that you can still find " old_school " service out_there where company care~ more ~about good~name and customers than their pockets ...
@@ -5465,6 +5646,7 @@
 
 # newdoc id = reviews-253807
 # sent_id = reviews-253807-0001
+# newpar id = reviews-253807-p0001
 # text = Cheapest drinks in Keene!
 # streusle_sent_id = ewtb.r.253807.1
 # mwe = Cheapest drinks in Keene !
@@ -5476,6 +5658,7 @@
 
 # newdoc id = reviews-255736
 # sent_id = reviews-255736-0001
+# newpar id = reviews-255736-p0001
 # text = Remember seeing "Stop Making Sense" at Cinema 21 multiple times!
 # streusle_sent_id = ewtb.r.255736.1
 # mwe = Remember seeing " Stop_Making_Sense " at Cinema_21 multiple times !
@@ -5505,6 +5688,7 @@
 
 # newdoc id = reviews-258042
 # sent_id = reviews-258042-0001
+# newpar id = reviews-258042-p0001
 # text = Lovley food and fab chips
 # streusle_sent_id = ewtb.r.258042.1
 # mwe = Lovley food and fab chips
@@ -5516,6 +5700,7 @@
 
 # newdoc id = reviews-262422
 # sent_id = reviews-262422-0001
+# newpar id = reviews-262422-p0001
 # text = Good local bikeshop
 # streusle_sent_id = ewtb.r.262422.1
 # mwe = Good local bike shop
@@ -5525,6 +5710,7 @@
 4	shop	shop	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	shop	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-262422-0002
+# newpar id = reviews-262422-p0002
 # text = Good local bike shop .
 # streusle_sent_id = ewtb.r.262422.2
 # mwe = Good local bike shop .
@@ -5567,12 +5753,14 @@
 
 # newdoc id = reviews-262722
 # sent_id = reviews-262722-0001
+# newpar id = reviews-262722-p0001
 # text = recommended
 # streusle_sent_id = ewtb.r.262722.1
 # mwe = recommended
 1	recommended	recommended	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	recommended	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-262722-0002
+# newpar id = reviews-262722-p0002
 # text = Excellent location.
 # streusle_sent_id = ewtb.r.262722.2
 # mwe = Excellent location .
@@ -5655,6 +5843,7 @@
 
 # newdoc id = reviews-263830
 # sent_id = reviews-263830-0001
+# newpar id = reviews-263830-p0001
 # text = Nice teachers good school
 # streusle_sent_id = ewtb.r.263830.1
 # mwe = Nice teachers good school
@@ -5664,6 +5853,7 @@
 4	school	school	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	_	_	N	school	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-263830-0002
+# newpar id = reviews-263830-p0002
 # text = They are very good teachers and nice people to meet here.
 # streusle_sent_id = ewtb.r.263830.2
 # mwe = They are very good teachers and nice people to meet here .
@@ -5707,6 +5897,7 @@
 
 # newdoc id = reviews-266676
 # sent_id = reviews-266676-0001
+# newpar id = reviews-266676-p0001
 # text = Thanks For A Great Job
 # streusle_sent_id = ewtb.r.266676.1
 # mwe = Thanks For A Great Job
@@ -5717,6 +5908,7 @@
 5	Job	job	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	_	_	N	job	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-266676-0002
+# newpar id = reviews-266676-p0002
 # text = Thanks For The Prompt Service And Great Job You And Your Boys Have Done On Our New Solar System, The Panels On The Roof Look Great And The Power We Are Putting Back In To The Grid Is Great, Great Job Thanks
 # streusle_sent_id = ewtb.r.266676.2
 # mwe = Thanks For The Prompt Service And Great Job You And Your Boys Have Done On Our New Solar System , The Panels On The Roof Look Great And The Power We Are Putting Back In To The Grid Is Great , Great Job Thanks
@@ -5767,6 +5959,7 @@
 
 # newdoc id = reviews-267982
 # sent_id = reviews-267982-0001
+# newpar id = reviews-267982-p0001
 # text = I won a golf lesson certificate with Adz through a charity auction.
 # streusle_sent_id = ewtb.r.267982.1
 # mwe = I won a golf lesson certificate with Adz through a charity auction .
@@ -5822,6 +6015,7 @@
 
 # newdoc id = reviews-275140
 # sent_id = reviews-275140-0001
+# newpar id = reviews-275140-p0001
 # text = I'm really surprised by the negative reviews.
 # streusle_sent_id = ewtb.r.275140.1
 # mwe = I 'm really surprised by the negative reviews .
@@ -5867,6 +6061,7 @@
 
 # newdoc id = reviews-279070
 # sent_id = reviews-279070-0001
+# newpar id = reviews-279070-p0001
 # text = Great Meal
 # streusle_sent_id = ewtb.r.279070.1
 # mwe = Great Meal
@@ -5874,6 +6069,7 @@
 2	Meal	meal	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	meal	n.EVENT	_	_	_	_	O-N-n.EVENT
 
 # sent_id = reviews-279070-0002
+# newpar id = reviews-279070-p0002
 # text = Happened on to this place while out of town on business, and it was great!
 # streusle_sent_id = ewtb.r.279070.2
 # mwe = Happened_on_to this place while out_of_town on~business , and it was great !
@@ -5933,6 +6129,7 @@
 
 # newdoc id = reviews-279437
 # sent_id = reviews-279437-0001
+# newpar id = reviews-279437-p0001
 # text = Excellent service, close to the morse redline stop.
 # streusle_sent_id = ewtb.r.279437.1
 # mwe = Excellent service , close~to the morse~red_line stop .
@@ -5963,6 +6160,7 @@
 
 # newdoc id = reviews-280170
 # sent_id = reviews-280170-0001
+# newpar id = reviews-280170-p0001
 # text = Can't say enough
 # streusle_sent_id = ewtb.r.280170.1
 # mwe = Ca~n't~say~enough
@@ -5972,6 +6170,7 @@
 4	enough	enough	ADJ	JJ	Degree=Pos	3	obj	3:obj	_	_	ADJ	enough	_	_	1:4	_	_	I~-ADJ
 
 # sent_id = reviews-280170-0002
+# newpar id = reviews-280170-p0002
 # text = I used to tan down the street before I was referred to this place by one of my friends.
 # streusle_sent_id = ewtb.r.280170.2
 # mwe = I used_to tan down the street before I was referred to this place by one of my friends .
@@ -6051,6 +6250,7 @@
 
 # newdoc id = reviews-287454
 # sent_id = reviews-287454-0001
+# newpar id = reviews-287454-p0001
 # text = This is not your usual cheap hotdog place.
 # streusle_sent_id = ewtb.r.287454.1
 # mwe = This is not your usual cheap hotdog place .
@@ -6128,12 +6328,14 @@
 
 # newdoc id = reviews-287501
 # sent_id = reviews-287501-0001
+# newpar id = reviews-287501-p0001
 # text = Kliotech
 # streusle_sent_id = ewtb.r.287501.1
 # mwe = Kliotech
 1	Kliotech	Kliotech	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	Kliotech	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-287501-0002
+# newpar id = reviews-287501-p0002
 # text = A company which provide good quality portals, E-commerce solutions,web based MMOG ... etc
 # streusle_sent_id = ewtb.r.287501.2
 # mwe = A company which provide good quality portals , E-commerce~solutions , web based MMOG ... etc
@@ -6156,6 +6358,7 @@
 
 # newdoc id = reviews-288894
 # sent_id = reviews-288894-0001
+# newpar id = reviews-288894-p0001
 # text = Wrong Information
 # streusle_sent_id = ewtb.r.288894.1
 # mwe = Wrong Information
@@ -6163,6 +6366,7 @@
 2	Information	information	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	information	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 
 # sent_id = reviews-288894-0002
+# newpar id = reviews-288894-p0002
 # text = The address is for Noida Location not for Gurgaon Location.
 # streusle_sent_id = ewtb.r.288894.2
 # mwe = The address is for Noida Location not for Gurgaon Location .
@@ -6193,6 +6397,7 @@
 
 # newdoc id = reviews-288930
 # sent_id = reviews-288930-0001
+# newpar id = reviews-288930-p0001
 # text = great! :P
 # streusle_sent_id = ewtb.r.288930.1
 # mwe = great ! :P
@@ -6259,6 +6464,7 @@
 
 # newdoc id = reviews-291088
 # sent_id = reviews-291088-0001
+# newpar id = reviews-291088-p0001
 # text = I am a new patient.
 # streusle_sent_id = ewtb.r.291088.1
 # mwe = I am a new patient .
@@ -6316,6 +6522,7 @@
 
 # newdoc id = reviews-294812
 # sent_id = reviews-294812-0001
+# newpar id = reviews-294812-p0001
 # text = It's now called Sushi Lover.
 # streusle_sent_id = ewtb.r.294812.1
 # mwe = It 's now called Sushi_Lover .
@@ -6355,6 +6562,7 @@
 
 # newdoc id = reviews-296406
 # sent_id = reviews-296406-0001
+# newpar id = reviews-296406-p0001
 # text = Horrible tap water.
 # streusle_sent_id = ewtb.r.296406.1
 # mwe = Horrible tap_water .
@@ -6375,6 +6583,7 @@
 
 # newdoc id = reviews-305681
 # sent_id = reviews-305681-0001
+# newpar id = reviews-305681-p0001
 # text = This is a great facility.
 # streusle_sent_id = ewtb.r.305681.1
 # mwe = This is a great facility .
@@ -6409,6 +6618,7 @@
 
 # newdoc id = reviews-306740
 # sent_id = reviews-306740-0001
+# newpar id = reviews-306740-p0001
 # text = Miami's best tutoring service!
 # streusle_sent_id = ewtb.r.306740.1
 # mwe = Miami 's best tutoring service !
@@ -6420,6 +6630,7 @@
 6	!	!	PUNCT	.	_	5	punct	5:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-306740-0002
+# newpar id = reviews-306740-p0002
 # text = My son was able to advance a full two grades within 9 months!
 # streusle_sent_id = ewtb.r.306740.2
 # mwe = My son was able to advance a full two grades within 9 months !
@@ -6460,6 +6671,7 @@
 
 # newdoc id = reviews-307209
 # sent_id = reviews-307209-0001
+# newpar id = reviews-307209-p0001
 # text = LOCATION HAS CLOSED.
 # streusle_sent_id = ewtb.r.307209.1
 # mwe = LOCATION HAS CLOSED .
@@ -6489,6 +6701,7 @@
 
 # newdoc id = reviews-307250
 # sent_id = reviews-307250-0001
+# newpar id = reviews-307250-p0001
 # text = $9.62 excluding tip with water to drink for the buffet.
 # streusle_sent_id = ewtb.r.307250.1
 # mwe = $ 9.62 excluding tip with water to drink for the buffet .
@@ -6529,6 +6742,7 @@
 
 # newdoc id = reviews-308297
 # sent_id = reviews-308297-0001
+# newpar id = reviews-308297-p0001
 # text = Great Place!
 # streusle_sent_id = ewtb.r.308297.1
 # mwe = Great Place !
@@ -6537,6 +6751,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-308297-0002
+# newpar id = reviews-308297-p0002
 # text = This is one of my favorite places to eat for lunch.
 # streusle_sent_id = ewtb.r.308297.2
 # mwe = This is one of my favorite places to eat for lunch .
@@ -6603,6 +6818,7 @@
 
 # newdoc id = reviews-309168
 # sent_id = reviews-309168-0001
+# newpar id = reviews-309168-p0001
 # text = love this park
 # streusle_sent_id = ewtb.r.309168.1
 # mwe = love this park
@@ -6611,6 +6827,7 @@
 3	park	park	NOUN	NN	Number=Sing	1	obj	1:obj	_	_	N	park	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-309168-0002
+# newpar id = reviews-309168-p0002
 # text = this is a great park to have kids birthday parties at!!
 # streusle_sent_id = ewtb.r.309168.2
 # mwe = this is a great park to have kids birthday_parties at !!
@@ -6629,6 +6846,7 @@
 
 # newdoc id = reviews-310018
 # sent_id = reviews-310018-0001
+# newpar id = reviews-310018-p0001
 # text = Natasha is the BEST photographer we have ever worked with.
 # streusle_sent_id = ewtb.r.310018.1
 # mwe = Natasha is the BEST photographer we have ever worked~with .
@@ -6686,6 +6904,7 @@
 
 # newdoc id = reviews-313558
 # sent_id = reviews-313558-0001
+# newpar id = reviews-313558-p0001
 # text = Dentist you can trust
 # streusle_sent_id = ewtb.r.313558.1
 # mwe = Dentist you can trust
@@ -6695,6 +6914,7 @@
 4	trust	trust	VERB	VB	VerbForm=Inf	1	acl:relcl	1:acl:relcl	_	_	V	trust	v.emotion	_	_	_	_	O-V-v.emotion
 
 # sent_id = reviews-313558-0002
+# newpar id = reviews-313558-p0002
 # text = If possible I try the services on myself before I bring in my son.
 # streusle_sent_id = ewtb.r.313558.2
 # mwe = If possible I try the services on myself before I bring_in my son .
@@ -6773,6 +6993,7 @@
 
 # newdoc id = reviews-317326
 # sent_id = reviews-317326-0001
+# newpar id = reviews-317326-p0001
 # text = Midtown Reston has great location and luxurious environment.
 # streusle_sent_id = ewtb.r.317326.1
 # mwe = Midtown_Reston has great location and luxurious environment .
@@ -6797,6 +7018,7 @@
 
 # newdoc id = reviews-317480
 # sent_id = reviews-317480-0001
+# newpar id = reviews-317480-p0001
 # text = Great atmosphere, great food.
 # streusle_sent_id = ewtb.r.317480.1
 # mwe = Great atmosphere , great food .
@@ -6818,6 +7040,7 @@
 
 # newdoc id = reviews-323248
 # sent_id = reviews-323248-0001
+# newpar id = reviews-323248-p0001
 # text = Summary: Not cheep, but very fast, and super friendly service.
 # streusle_sent_id = ewtb.r.323248.1
 # mwe = Summary : Not cheep , but very fast , and super friendly service .
@@ -6887,6 +7110,7 @@
 
 # newdoc id = reviews-325538
 # sent_id = reviews-325538-0001
+# newpar id = reviews-325538-p0001
 # text = Wonderful staff and great service !!
 # streusle_sent_id = ewtb.r.325538.1
 # mwe = Wonderful staff and great service !!
@@ -6899,6 +7123,7 @@
 
 # newdoc id = reviews-327766
 # sent_id = reviews-327766-0001
+# newpar id = reviews-327766-p0001
 # text = Checked in real late, but staff was very kind and helpful.
 # streusle_sent_id = ewtb.r.327766.1
 # mwe = Checked_in real late , but staff was very kind and helpful .
@@ -6969,6 +7194,7 @@
 
 # newdoc id = reviews-330275
 # sent_id = reviews-330275-0001
+# newpar id = reviews-330275-p0001
 # text = Some of the nicest people and very good work standards
 # streusle_sent_id = ewtb.r.330275.1
 # mwe = Some of the nicest people and very good work standards
@@ -6985,6 +7211,7 @@
 
 # newdoc id = reviews-332785
 # sent_id = reviews-332785-0001
+# newpar id = reviews-332785-p0001
 # text = Thanks for following me around the store
 # streusle_sent_id = ewtb.r.332785.1
 # mwe = Thanks for following me around the store
@@ -6997,6 +7224,7 @@
 7	store	store	NOUN	NN	Number=Sing	3	obl	3:obl:around	_	_	N	store	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-332785-0002
+# newpar id = reviews-332785-p0002
 # text = Enough said.
 # streusle_sent_id = ewtb.r.332785.2
 # mwe = Enough_said .
@@ -7055,6 +7283,7 @@
 
 # newdoc id = reviews-332972
 # sent_id = reviews-332972-0001
+# newpar id = reviews-332972-p0001
 # text = The best pizza ever im fat so ive had a ton of pizza other than pizza from chicago its the best
 # streusle_sent_id = ewtb.r.332972.1
 # mwe = The best pizza ever i m fat so i ve had a_ton of pizza other_than pizza from chicago it s the best
@@ -7085,6 +7314,7 @@
 
 # newdoc id = reviews-335815
 # sent_id = reviews-335815-0001
+# newpar id = reviews-335815-p0001
 # text = Very poor customer service.
 # streusle_sent_id = ewtb.r.335815.1
 # mwe = Very poor customer_service .
@@ -7135,6 +7365,7 @@
 
 # newdoc id = reviews-340891
 # sent_id = reviews-340891-0001
+# newpar id = reviews-340891-p0001
 # text = The food tasted like rat feces
 # streusle_sent_id = ewtb.r.340891.1
 # mwe = The food tasted like rat feces
@@ -7147,6 +7378,7 @@
 
 # newdoc id = reviews-341435
 # sent_id = reviews-341435-0001
+# newpar id = reviews-341435-p0001
 # text = Nice and quiet place with cosy living room just outside the city.
 # streusle_sent_id = ewtb.r.341435.1
 # mwe = Nice~and~quiet place with cosy living_room just outside the city .
@@ -7166,6 +7398,7 @@
 
 # newdoc id = reviews-343035
 # sent_id = reviews-343035-0001
+# newpar id = reviews-343035-p0001
 # text = Excellent piano lessons
 # streusle_sent_id = ewtb.r.343035.1
 # mwe = Excellent piano lessons
@@ -7174,6 +7407,7 @@
 3	lessons	lesson	NOUN	NNS	Number=Plur	0	root	0:root	_	_	N	lesson	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-343035-0002
+# newpar id = reviews-343035-p0002
 # text = I'm very happy with the piano lessons Mrs. Lynda Mcmanus taught me.
 # streusle_sent_id = ewtb.r.343035.2
 # mwe = I 'm very happy with the piano lessons Mrs._Lynda_Mcmanus taught me .
@@ -7210,6 +7444,7 @@
 
 # newdoc id = reviews-351840
 # sent_id = reviews-351840-0001
+# newpar id = reviews-351840-p0001
 # text = Caldwell insurance has been doing our insurance for a couple years now and they have been extremely thorough.
 # streusle_sent_id = ewtb.r.351840.1
 # mwe = Caldwell_insurance has been doing~ our ~insurance for a_couple years now and they have been extremely thorough .
@@ -7267,6 +7502,7 @@
 
 # newdoc id = reviews-352068
 # sent_id = reviews-352068-0001
+# newpar id = reviews-352068-p0001
 # text = Easy registration, helpful staff and fun teachers!
 # streusle_sent_id = ewtb.r.352068.1
 # mwe = Easy registration , helpful staff and fun teachers !
@@ -7282,6 +7518,7 @@
 
 # newdoc id = reviews-353684
 # sent_id = reviews-353684-0001
+# newpar id = reviews-353684-p0001
 # text = My favorite place to eat.
 # streusle_sent_id = ewtb.r.353684.1
 # mwe = My favorite place to eat .
@@ -7322,6 +7559,7 @@
 
 # newdoc id = reviews-354860
 # sent_id = reviews-354860-0001
+# newpar id = reviews-354860-p0001
 # text = The best company in Phuket for creating website and e-commerce website.
 # streusle_sent_id = ewtb.r.354860.1
 # mwe = The best company in Phuket for creating website and e-commerce website .
@@ -7388,6 +7626,7 @@
 
 # newdoc id = reviews-356361
 # sent_id = reviews-356361-0001
+# newpar id = reviews-356361-p0001
 # text = Great service
 # streusle_sent_id = ewtb.r.356361.1
 # mwe = Great service
@@ -7395,6 +7634,7 @@
 2	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-356361-0002
+# newpar id = reviews-356361-p0002
 # text = A very well established service with a satisfying outcome.
 # streusle_sent_id = ewtb.r.356361.2
 # mwe = A very well established service with a satisfying outcome .
@@ -7434,6 +7674,7 @@
 
 # newdoc id = reviews-356705
 # sent_id = reviews-356705-0001
+# newpar id = reviews-356705-p0001
 # text = You were extremely polite and professional.
 # streusle_sent_id = ewtb.r.356705.1
 # mwe = You were extremely polite and professional .
@@ -7463,6 +7704,7 @@
 
 # newdoc id = reviews-358063
 # sent_id = reviews-358063-0001
+# newpar id = reviews-358063-p0001
 # text = Friendly Efficient and overall great place for people in chronic intractable pain
 # streusle_sent_id = ewtb.r.358063.1
 # mwe = Friendly Efficient and overall great place for people in chronic intractable pain
@@ -7480,6 +7722,7 @@
 12	pain	pain	NOUN	NN	Number=Sing	8	nmod	8:nmod:in	_	_	N	pain	n.STATE	_	_	_	_	O-N-n.STATE
 
 # sent_id = reviews-358063-0002
+# newpar id = reviews-358063-p0002
 # text = Great place for people in chronic pain.
 # streusle_sent_id = ewtb.r.358063.2
 # mwe = Great place for people in chronic pain .
@@ -7528,6 +7771,7 @@
 
 # newdoc id = reviews-359014
 # sent_id = reviews-359014-0001
+# newpar id = reviews-359014-p0001
 # text = Good honest wrok
 # streusle_sent_id = ewtb.r.359014.1
 # mwe = Good honest_wrok
@@ -7536,6 +7780,7 @@
 3	wrok	work	NOUN	NN	Number=Sing|Typo=Yes	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-359014-0002
+# newpar id = reviews-359014-p0002
 # text = Harlan provides great service.
 # streusle_sent_id = ewtb.r.359014.2
 # mwe = Harlan provides great service .
@@ -7614,6 +7859,7 @@
 
 # newdoc id = reviews-359287
 # sent_id = reviews-359287-0001
+# newpar id = reviews-359287-p0001
 # text = High guality pup food at a good price.
 # streusle_sent_id = ewtb.r.359287.1
 # mwe = High guality pup food at a good price .
@@ -7629,6 +7875,7 @@
 
 # newdoc id = reviews-359433
 # sent_id = reviews-359433-0001
+# newpar id = reviews-359433-p0001
 # text = Great Place To Use The Fix appliances Plumbing Air Conditioning & Electric Problems.
 # streusle_sent_id = ewtb.r.359433.1
 # mwe = Great Place To Use The Fix appliances Plumbing Air_Conditioning & Electric Problems .
@@ -7695,6 +7942,7 @@
 
 # newdoc id = reviews-363633
 # sent_id = reviews-363633-0001
+# newpar id = reviews-363633-p0001
 # text = Favorite Restaurant
 # streusle_sent_id = ewtb.r.363633.1
 # mwe = Favorite Restaurant
@@ -7741,6 +7989,7 @@
 
 # newdoc id = reviews-365688
 # sent_id = reviews-365688-0001
+# newpar id = reviews-365688-p0001
 # text = No meat on Burger and too much pepper.
 # streusle_sent_id = ewtb.r.365688.1
 # mwe = No meat on Burger and too much pepper .
@@ -7765,6 +8014,7 @@
 
 # newdoc id = reviews-367586
 # sent_id = reviews-367586-0001
+# newpar id = reviews-367586-p0001
 # text = Well kept facility with friendly staff.
 # streusle_sent_id = ewtb.r.367586.1
 # mwe = Well kept facility with friendly staff .
@@ -7778,6 +8028,7 @@
 
 # newdoc id = reviews-368431
 # sent_id = reviews-368431-0001
+# newpar id = reviews-368431-p0001
 # text = Ray's pizza : my favorite
 # streusle_sent_id = ewtb.r.368431.1
 # mwe = Ray_'s_pizza : my favorite
@@ -7789,6 +8040,7 @@
 6	favorite	favorite	NOUN	NN	Number=Sing	3	appos	3:appos	_	_	N	favorite	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 
 # sent_id = reviews-368431-0002
+# newpar id = reviews-368431-p0002
 # text = Ray's Pizza is just too good.
 # streusle_sent_id = ewtb.r.368431.2
 # mwe = Ray_'s_Pizza is just too good .
@@ -7841,6 +8093,7 @@
 
 # newdoc id = reviews-369957
 # sent_id = reviews-369957-0001
+# newpar id = reviews-369957-p0001
 # text = beware they will rip u off
 # streusle_sent_id = ewtb.r.369957.1
 # mwe = beware they will rip_ u _off
@@ -7853,6 +8106,7 @@
 
 # newdoc id = reviews-371492
 # sent_id = reviews-371492-0001
+# newpar id = reviews-371492-p0001
 # text = Excellent service!
 # streusle_sent_id = ewtb.r.371492.1
 # mwe = Excellent service !
@@ -7861,6 +8115,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-371492-0002
+# newpar id = reviews-371492-p0002
 # text = I am so glad that we now have a good nail shop on San Mateo Avenue!
 # streusle_sent_id = ewtb.r.371492.2
 # mwe = I am so glad that we now have a good nail shop on San_Mateo_Avenue !
@@ -7929,6 +8184,7 @@
 
 # newdoc id = reviews-372582
 # sent_id = reviews-372582-0001
+# newpar id = reviews-372582-p0001
 # text = Prime rib was very tough.
 # streusle_sent_id = ewtb.r.372582.1
 # mwe = Prime_rib was very tough .
@@ -7959,6 +8215,7 @@
 
 # newdoc id = reviews-372665
 # sent_id = reviews-372665-0001
+# newpar id = reviews-372665-p0001
 # text = Is not a service office
 # streusle_sent_id = ewtb.r.372665.1
 # mwe = Is not a service_office
@@ -7969,6 +8226,7 @@
 5	office	office	NOUN	NN	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-372665-0002
+# newpar id = reviews-372665-p0002
 # text = This is a delivery office only and does not take walk ins but they do have a blue box out front.
 # streusle_sent_id = ewtb.r.372665.2
 # mwe = This is a delivery office only and does not take_walk_ins but they do have a blue box out_front .
@@ -8034,6 +8292,7 @@
 
 # newdoc id = reviews-374000
 # sent_id = reviews-374000-0001
+# newpar id = reviews-374000-p0001
 # text = GREAT Store GREAT Service!
 # streusle_sent_id = ewtb.r.374000.1
 # mwe = GREAT Store GREAT Service !
@@ -8044,6 +8303,7 @@
 5	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-374000-0002
+# newpar id = reviews-374000-p0002
 # text = “This store is great!!
 # streusle_sent_id = ewtb.r.374000.2
 # mwe = “ This store is great !!
@@ -8112,6 +8372,7 @@
 
 # newdoc id = reviews-379701
 # sent_id = reviews-379701-0001
+# newpar id = reviews-379701-p0001
 # text = VERYYYY!!!! VERYYY!! Good auto repair men.
 # streusle_sent_id = ewtb.r.379701.1
 # mwe = VERYYYY !!!! VERYYY !! Good auto_repair men .
@@ -8169,6 +8430,7 @@
 
 # newdoc id = reviews-380048
 # sent_id = reviews-380048-0001
+# newpar id = reviews-380048-p0001
 # text = Fantastic Nova Scotia Cottage
 # streusle_sent_id = ewtb.r.380048.1
 # mwe = Fantastic Nova_Scotia Cottage
@@ -8178,6 +8440,7 @@
 4	Cottage	cottage	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	cottage	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 
 # sent_id = reviews-380048-0002
+# newpar id = reviews-380048-p0002
 # text = We had a fantastic time.
 # streusle_sent_id = ewtb.r.380048.2
 # mwe = We had_a_ fantastic _time .
@@ -8238,6 +8501,7 @@
 
 # newdoc id = reviews-385436
 # sent_id = reviews-385436-0001
+# newpar id = reviews-385436-p0001
 # text = This is the best Mediterranean Restaurant in the West Valley, I have friend who drive from central Phx to come here.
 # streusle_sent_id = ewtb.r.385436.1
 # mwe = This is the best Mediterranean Restaurant in the West_Valley , I have friend who drive from central Phx to come here .
@@ -8267,6 +8531,7 @@
 
 # newdoc id = reviews-389136
 # sent_id = reviews-389136-0001
+# newpar id = reviews-389136-p0001
 # text = great!
 # streusle_sent_id = ewtb.r.389136.1
 # mwe = great !
@@ -8274,6 +8539,7 @@
 2	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-389136-0002
+# newpar id = reviews-389136-p0002
 # text = I go Disco dancing and Cheerleading.
 # streusle_sent_id = ewtb.r.389136.2
 # mwe = I go Disco dancing and Cheerleading .
@@ -8315,6 +8581,7 @@
 
 # newdoc id = reviews-395149
 # sent_id = reviews-395149-0001
+# newpar id = reviews-395149-p0001
 # text = WONDERFUL service.
 # streusle_sent_id = ewtb.r.395149.1
 # mwe = WONDERFUL service .
