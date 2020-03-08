@@ -3482,7 +3482,7 @@
 16	same	same	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	same	_	_	_	_	_	O-ADJ
 17	politeness	politeness	NOUN	NN	Number=Sing	14	obj	14:obj	_	_	N	politeness	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 18	to	to	ADP	IN	_	20	case	20:case	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
-19	there	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
+19	there	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes	20	nmod:poss	20:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 20	customers	customer	NOUN	NNS	Number=Plur	14	obl	14:obl:to	SpaceAfter=No	_	N	customer	n.PERSON	_	_	_	_	O-N-n.PERSON
 21	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

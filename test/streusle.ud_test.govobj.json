@@ -60237,7 +60237,7 @@
     "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs",
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 20,
     "deprel": "nmod:poss",
     "edeps": "20:nmod:poss",

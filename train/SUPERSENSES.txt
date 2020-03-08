@@ -1,5 +1,5 @@
   36 ??	_
-26608 _	_
+26614 _	_
   15 `$	`$
  493 n.ACT	_
   78 n.ANIMAL	_
@@ -7,7 +7,7 @@
  165 n.ATTRIBUTE	_
   71 n.BODY	_
  607 n.COGNITION	_
- 339 n.COMMUNICATION	_
+ 341 n.COMMUNICATION	_
  358 n.EVENT	_
   34 n.FEELING	_
  579 n.FOOD	_
@@ -16,7 +16,7 @@
   19 n.MOTIVE	_
   41 n.NATURALOBJECT	_
   42 n.OTHER	_
- 987 n.PERSON	_
+ 988 n.PERSON	_
   16 n.PHENOMENON	_
    3 n.PLANT	_
  299 n.POSSESSION	_
@@ -192,7 +192,7 @@
    3 p.Time	p.Whole
    6 p.Topic	p.Goal
    3 p.Topic	p.Identity
- 181 p.Topic	p.Topic
+ 182 p.Topic	p.Topic
   57 p.Whole	p.Gestalt
    5 p.Whole	p.Locus
    3 p.Whole	p.Source
@@ -210,19 +210,19 @@
  109 v.perception	_
  285 v.possession	_
  754 v.social	_
-2217 v.stative	_
+2218 v.stative	_
 ========================
-    7242 n.*
-    6360 v.*
-    4550 p.*
+    7245 n.*
+    6361 v.*
+    4551 p.*
 
 n.* by LexCat
 ========================
-7242 N
+7245 N
 
 v.* by LexCat
 ========================
-5597 V
+5598 V
   99 V.IAV
   11 V.LVC.cause
  109 V.LVC.full
@@ -233,7 +233,7 @@ v.* by LexCat
 p.* by LexCat
 ========================
  207 INF.P
-3277 P
+3278 P
   51 POSS
  150 PP
  865 PRON.POSS
@@ -242,7 +242,7 @@ p.* by LexCat + construal type
 ========================
  185 INF.P	p.X ~> p.X
   22 INF.P	p.X ~> p.Y
-2392 P	p.X ~> p.X
+2393 P	p.X ~> p.X
  885 P	p.X ~> p.Y
   20 POSS	p.X ~> p.X
   31 POSS	p.X ~> p.Y
@@ -257,7 +257,7 @@ p.* by LexCat + spatiotemporality
    3 INF.P 	p.LOC ~> *
  204 INF.P 	p.OTH ~> *
  877 P 	p.LOC ~> *
-2016 P 	p.OTH ~> *
+2017 P 	p.OTH ~> *
  384 P 	p.TMP ~> *
   46 POSS 	p.OTH ~> *
    5 POSS 	p.TMP ~> *
