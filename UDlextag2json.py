@@ -274,7 +274,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             continue
 
         if ln.startswith('#'):
-            if ln.startswith('# newdoc '): continue
+            if ln.startswith('# newdoc ') or ln.startswith('# newpar '): continue
             m = re.match(r'^# (\w+) = (.*)$', ln)
             k, v = m.group(1), m.group(2)
             assert k not in ('toks', 'swes', 'smwes', 'wmwes')
