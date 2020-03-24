@@ -1,5 +1,6 @@
 # newdoc id = reviews-001325
 # sent_id = reviews-001325-0001
+# newpar id = reviews-001325-p0001
 # text = Highly recommended
 # streusle_sent_id = ewtb.r.001325.1
 # mwe = Highly recommended
@@ -7,6 +8,7 @@
 2	recommended	recommend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
 
 # sent_id = reviews-001325-0002
+# newpar id = reviews-001325-p0002
 # text = My 8 year old daughter loves this place.
 # streusle_sent_id = ewtb.r.001325.2
 # mwe = My 8 year_old daughter loves this place .
@@ -42,6 +44,7 @@
 
 # newdoc id = reviews-002288
 # sent_id = reviews-002288-0001
+# newpar id = reviews-002288-p0001
 # text = It's well cool. :)
 # streusle_sent_id = ewtb.r.002288.1
 # mwe = It 's well cool . :)
@@ -54,6 +57,7 @@
 
 # newdoc id = reviews-002317
 # sent_id = reviews-002317-0001
+# newpar id = reviews-002317-p0001
 # text = telephone number
 # streusle_sent_id = ewtb.r.002317.1
 # mwe = telephone_number
@@ -61,6 +65,7 @@
 2	number	number	NOUN	NN	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-002317-0002
+# newpar id = reviews-002317-p0002
 # text = the telephone number is incorrect - our new mobile number is 07551310002 or landline 01634 710033.
 # streusle_sent_id = ewtb.r.002317.2
 # mwe = the telephone_number is incorrect - our new mobile_number is 07551310002 or landline 01634 710033 .
@@ -91,12 +96,14 @@
 
 # newdoc id = reviews-005265
 # sent_id = reviews-005265-0001
+# newpar id = reviews-005265-p0001
 # text = good
 # streusle_sent_id = ewtb.r.005265.1
 # mwe = good
 1	good	good	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-005265-0002
+# newpar id = reviews-005265-p0002
 # text = it is a cute little nice and quiet library
 # streusle_sent_id = ewtb.r.005265.2
 # mwe = it is a cute little nice and quiet library
@@ -112,6 +119,7 @@
 
 # newdoc id = reviews-005760
 # sent_id = reviews-005760-0001
+# newpar id = reviews-005760-p0001
 # text = OK Food, Slow service
 # streusle_sent_id = ewtb.r.005760.1
 # mwe = OK Food , Slow service
@@ -122,6 +130,7 @@
 5	service	service	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-005760-0002
+# newpar id = reviews-005760-p0002
 # text = The food was incredibly bland.
 # streusle_sent_id = ewtb.r.005760.2
 # mwe = The food was incredibly bland .
@@ -169,6 +178,7 @@
 
 # newdoc id = reviews-011806
 # sent_id = reviews-011806-0001
+# newpar id = reviews-011806-p0001
 # text = absolutely fantastic experience getting my iphone upgraded at Zion ...
 # streusle_sent_id = ewtb.r.011806.1
 # mwe = absolutely fantastic experience getting my iphone upgraded at Zion ...
@@ -206,6 +216,7 @@
 
 # newdoc id = reviews-012047
 # sent_id = reviews-012047-0001
+# newpar id = reviews-012047-p0001
 # text = Very knowledgeable and friendly design build firm.
 # streusle_sent_id = ewtb.r.012047.1
 # mwe = Very knowledgeable and friendly design build firm .
@@ -259,6 +270,7 @@
 
 # newdoc id = reviews-014764
 # sent_id = reviews-014764-0001
+# newpar id = reviews-014764-p0001
 # text = Daniel and his assistant both did a great job.
 # streusle_sent_id = ewtb.r.014764.1
 # mwe = Daniel and his assistant both did_a_ great _job .
@@ -294,7 +306,7 @@
 4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	nmod	2:nmod:from	_	_	PRON	myself	_	_	_	_	_	O-PRON
 5	and	and	CCONJ	CC	_	6	cc	6:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 6	all	all	DET	DT	_	4	conj	2:nmod:from|4:conj:and	_	_	DET	all	_	_	_	_	_	O-DET
-7	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+7	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	we	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 9	wedding	wedding	NOUN	NN	Number=Sing	10	compound	10:compound	_	_	N	wedding	n.EVENT	_	_	_	_	O-N-n.EVENT
 10	guests	guest	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	SpaceAfter=No	_	N	guest	n.PERSON	_	_	_	_	O-N-n.PERSON
@@ -302,6 +314,7 @@
 
 # newdoc id = reviews-022273
 # sent_id = reviews-022273-0001
+# newpar id = reviews-022273-p0001
 # text = Good food, good location, and good prices.
 # streusle_sent_id = ewtb.r.022273.1
 # mwe = Good food , good location , and good prices .
@@ -339,6 +352,7 @@
 
 # newdoc id = reviews-024306
 # sent_id = reviews-024306-0001
+# newpar id = reviews-024306-p0001
 # text = Worst Tasting Pizza
 # streusle_sent_id = ewtb.r.024306.1
 # mwe = Worst Tasting Pizza
@@ -347,6 +361,7 @@
 3	Pizza	pizza	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	pizza	n.FOOD	_	_	_	_	O-N-n.FOOD
 
 # sent_id = reviews-024306-0002
+# newpar id = reviews-024306-p0002
 # text = This place had the worst tasting pizza I have ever tasted it was possible the worst food I've ever eaten.
 # streusle_sent_id = ewtb.r.024306.2
 # mwe = This place had the worst tasting pizza I have ever tasted it was possible the worst food I 've ever eaten .
@@ -363,7 +378,7 @@
 11	tasted	taste	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	7:acl:relcl	_	_	V	taste	v.perception	_	_	_	_	O-V-v.perception
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	_	_	PRON	it	_	_	_	_	_	O-PRON
 13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	17:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-14	possible	possible	ADV	RB	_	17	advmod	17:advmod	_	_	ADV	possible	_	_	_	_	_	O-ADV
+14	possible	possibly	ADV	RB	Typo=Yes	17	advmod	17:advmod	_	_	ADV	possibly	_	_	_	_	_	O-ADV
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_	_	DET	the	_	_	_	_	_	O-DET
 16	worst	worst	ADJ	JJS	Degree=Sup	17	amod	17:amod	_	_	ADJ	worst	_	_	_	_	_	O-ADJ
 17	food	food	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
@@ -394,6 +409,7 @@
 
 # newdoc id = reviews-025516
 # sent_id = reviews-025516-0001
+# newpar id = reviews-025516-p0001
 # text = Very friendly people offering a brilliant service.
 # streusle_sent_id = ewtb.r.025516.1
 # mwe = Very friendly people offering~ a brilliant ~service .
@@ -414,7 +430,7 @@
 2	scented	scent	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	3:amod	_	1:1	N	scent flower	n.ARTIFACT	_	_	_	_	B-N-n.ARTIFACT
 3	flowers	flower	NOUN	NNS	Number=Plur	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
 4	home	home	ADV	RB	_	1	advmod	1:advmod	_	_	ADV	home	_	_	_	_	_	O-ADV
-5	instead	instead	ADV	RB	_	7	case	7:case	_	2:1	P	instead of	p.InsteadOf	p.InsteadOf	_	_	_	B-P-p.InsteadOf
+5	instead	instead	ADV	RB	_	7	case	7:case	_	2:1	P	instead of	p.ComparisonRef	p.ComparisonRef	_	_	_	B-P-p.ComparisonRef
 6	of	of	ADP	IN	_	5	fixed	5:fixed	_	2:2	_	_	_	_	_	_	_	I_
 7	postcards	postcard	NOUN	NNS	Number=Plur	1	obl	1:obl:instead_of	SpaceAfter=No	_	N	postcard	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 8	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -434,6 +450,7 @@
 
 # newdoc id = reviews-025894
 # sent_id = reviews-025894-0001
+# newpar id = reviews-025894-p0001
 # text = Average food and deathly slow service
 # streusle_sent_id = ewtb.r.025894.1
 # mwe = Average food and deathly slow service
@@ -445,6 +462,7 @@
 6	service	service	NOUN	NN	Number=Sing	2	conj	2:conj:and	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-025894-0002
+# newpar id = reviews-025894-p0002
 # text = I have eaten here several times and everytime the service is slower than slow.
 # streusle_sent_id = ewtb.r.025894.2
 # mwe = I have eaten here several times and every time the service is slower than slow .
@@ -516,6 +534,7 @@
 
 # newdoc id = reviews-028996
 # sent_id = reviews-028996-0001
+# newpar id = reviews-028996-p0001
 # text = Farrell Electric is a very good electrical contractor.
 # streusle_sent_id = ewtb.r.028996.1
 # mwe = Farrell_Electric is a very good electrical contractor .
@@ -543,7 +562,7 @@
 8	to	to	ADP	IN	_	9	case	9:case	_	_	P	to	p.Goal	p.Goal	_	_	_	O-P-p.Goal
 9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	6:obl:to	_	_	PRON	they	_	_	_	_	_	O-PRON
 10	for	for	ADP	IN	_	13	case	13:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
-11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	my	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 12	commercial	commercial	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	ADJ	commercial	_	_	_	_	_	O-ADJ
 13	business	business	NOUN	NN	Number=Sing	6	obl	6:obl:for	SpaceAfter=No	_	N	business	n.GROUP	_	_	_	_	O-N-n.GROUP
 14	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -573,6 +592,7 @@
 
 # newdoc id = reviews-030395
 # sent_id = reviews-030395-0001
+# newpar id = reviews-030395-p0001
 # text = Sanctuary is amazing!
 # streusle_sent_id = ewtb.r.030395.1
 # mwe = Sanctuary is amazing !
@@ -582,6 +602,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-030395-0002
+# newpar id = reviews-030395-p0002
 # text = Sanctuary serves delicious, somewhat healthy food in a great restaurant/fast food style.
 # streusle_sent_id = ewtb.r.030395.2
 # mwe = Sanctuary serves delicious , somewhat healthy food in a great restaurant / fast_food style .
@@ -624,6 +645,7 @@
 
 # newdoc id = reviews-030430
 # sent_id = reviews-030430-0001
+# newpar id = reviews-030430-p0001
 # text = Amazing customer service
 # streusle_sent_id = ewtb.r.030430.1
 # mwe = Amazing customer_service
@@ -632,6 +654,7 @@
 3	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-030430-0002
+# newpar id = reviews-030430-p0002
 # text = I think the women at this salon know that their business is based primarily from referrals. :)
 # streusle_sent_id = ewtb.r.030430.2
 # mwe = I think the women at this salon know that their business is based primarily from referrals . :)
@@ -639,7 +662,7 @@
 2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	think	v.cognition	_	_	_	_	O-V-v.cognition
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
 4	women	woman	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	_	_	N	woman	n.PERSON	_	_	_	_	O-N-n.PERSON
-5	at	at	ADP	IN	_	7	case	7:case	_	_	P	at	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
+5	at	at	ADP	IN	_	7	case	7:case	_	_	P	at	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	_	_	DET	this	_	_	_	_	_	O-DET
 7	salon	salon	NOUN	NN	Number=Sing	4	nmod	4:nmod:at	_	_	N	salon	n.GROUP	_	_	_	_	O-N-n.GROUP
 8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_	_	V	know	v.cognition	_	_	_	_	O-V-v.cognition
@@ -688,6 +711,7 @@
 
 # newdoc id = reviews-034320
 # sent_id = reviews-034320-0001
+# newpar id = reviews-034320-p0001
 # text = Fresh and unic!
 # streusle_sent_id = ewtb.r.034320.1
 # mwe = Fresh and unic !
@@ -697,6 +721,7 @@
 4	!	!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-034320-0002
+# newpar id = reviews-034320-p0002
 # text = Very professional, talented, unic and fresh work.
 # streusle_sent_id = ewtb.r.034320.2
 # mwe = Very professional , talented , unic and fresh work .
@@ -732,7 +757,7 @@
 15	art	art	NOUN	NN	Number=Sing	14	obj	14:obj	_	_	N	art	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 16	to	to	ADP	IN	_	20	case	20:case	_	_	P	to	??	_	_	_	_	O-P-??
 17	/	/	PUNCT	HYPH	_	18	cc	18:cc	_	_	PUNCT	/	_	_	_	_	_	O-PUNCT
-18	with	with	ADP	IN	_	16	conj	16:conj|20:case	_	_	P	with	p.Co-Theme	p.Co-Theme	_	_	_	O-P-p.Co-Theme
+18	with	with	ADP	IN	_	16	conj	16:conj|20:case	_	_	P	with	p.Theme	p.Ancillary	_	_	_	O-P-p.Theme|p.Ancillary
 19	commercial	commercial	ADJ	JJ	Degree=Pos	20	amod	20:amod	_	_	ADJ	commercial	_	_	_	_	_	O-ADJ
 20	purpose	purpose	NOUN	NN	Number=Sing	14	obl	14:obl:with	SpaceAfter=No	_	N	purpose	n.MOTIVE	_	_	_	_	O-N-n.MOTIVE
 21	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -746,6 +771,7 @@
 
 # newdoc id = reviews-034858
 # sent_id = reviews-034858-0001
+# newpar id = reviews-034858-p0001
 # text = Thank you for fixing the leak on my bathroom!
 # streusle_sent_id = ewtb.r.034858.1
 # mwe = Thank_you for fixing the leak on my bathroom !
@@ -769,6 +795,7 @@
 
 # newdoc id = reviews-034995
 # sent_id = reviews-034995-0001
+# newpar id = reviews-034995-p0001
 # text = Food is often expired so check the dates every time!
 # streusle_sent_id = ewtb.r.034995.1
 # mwe = Food is often expired so check the dates every time !
@@ -800,7 +827,7 @@
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_	_	DET	a	_	_	_	_	_	O-DET
 11	healthy	healthy	ADJ	JJ	Degree=Pos	12	amod	12:amod	_	3:1	N	healthy dose	n.COGNITION	_	_	_	_	B-N-n.COGNITION
 12	dose	dose	NOUN	NN	Number=Sing	7	obl	7:obl:with	_	3:2	_	_	_	_	_	_	_	I_
-13	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+13	of	of	ADP	IN	_	16	case	16:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 14	nasty	nasty	ADJ	JJ	Degree=Pos	16	amod	16:amod	_	_	ADJ	nasty	_	_	_	_	_	O-ADJ
 15	rude	rude	ADJ	JJ	Degree=Pos	16	amod	16:amod	_	_	ADJ	rude	_	_	_	_	_	O-ADJ
 16	attitude	attitude	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	_	_	N	attitude	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
@@ -811,6 +838,7 @@
 
 # newdoc id = reviews-035993
 # sent_id = reviews-035993-0001
+# newpar id = reviews-035993-p0001
 # text = They have fresh flowers, lasted a long while in the vase, and the two ladies at the shop know the business well.
 # streusle_sent_id = ewtb.r.035993.1
 # mwe = They have fresh flowers , lasted a long while in the vase , and the two ladies at the shop know the business well .
@@ -831,7 +859,7 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_	_	DET	the	_	_	_	_	_	O-DET
 16	two	two	NUM	CD	NumType=Card	17	nummod	17:nummod	_	_	NUM	two	_	_	_	_	_	O-NUM
 17	ladies	lady	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	_	_	N	lady	n.PERSON	_	_	_	_	O-N-n.PERSON
-18	at	at	ADP	IN	_	20	case	20:case	_	_	P	at	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
+18	at	at	ADP	IN	_	20	case	20:case	_	_	P	at	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	_	_	DET	the	_	_	_	_	_	O-DET
 20	shop	shop	NOUN	NN	Number=Sing	17	nmod	17:nmod:at	_	_	N	shop	n.GROUP	_	_	_	_	O-N-n.GROUP
 21	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	2:conj:and	_	_	V	know	v.cognition	_	_	_	_	O-V-v.cognition
@@ -866,6 +894,7 @@
 
 # newdoc id = reviews-037179
 # sent_id = reviews-037179-0001
+# newpar id = reviews-037179-p0001
 # text = spot on
 # streusle_sent_id = ewtb.r.037179.1
 # mwe = spot_on
@@ -873,6 +902,7 @@
 2	on	on	ADJ	JJ	Degree=Pos	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-037179-0002
+# newpar id = reviews-037179-p0002
 # text = this kebab shop is one of the best around the meat is good and fresh and the chilly sauce is the best, keep them lovely kebabs coming and a happy new year to all the staff
 # streusle_sent_id = ewtb.r.037179.2
 # mwe = this kebab shop is one of the best around the meat is good and fresh and the chilly sauce is the best , keep_ them$1 lovely kebabs _coming$1 and a happy_new_year to all the staff
@@ -916,6 +946,7 @@
 
 # newdoc id = reviews-038523
 # sent_id = reviews-038523-0001
+# newpar id = reviews-038523-p0001
 # text = Friendly service.
 # streusle_sent_id = ewtb.r.038523.1
 # mwe = Friendly service .
@@ -945,6 +976,7 @@
 
 # newdoc id = reviews-039173
 # sent_id = reviews-039173-0001
+# newpar id = reviews-039173-p0001
 # text = The waiting staff is really friendly, its like every one knows each other, the manager is really sweet and the food..well no complaints from me.
 # streusle_sent_id = ewtb.r.039173.1
 # mwe = The waiting_staff is really friendly , it s like every_one knows each_other , the manager is really sweet and the food .. well no complaints from me .
@@ -994,12 +1026,14 @@
 
 # newdoc id = reviews-042085
 # sent_id = reviews-042085-0001
+# newpar id = reviews-042085-p0001
 # text = Rubbish
 # streusle_sent_id = ewtb.r.042085.1
 # mwe = Rubbish
 1	Rubbish	rubbish	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	rubbish	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 
 # sent_id = reviews-042085-0002
+# newpar id = reviews-042085-p0002
 # text = Took 1+ hour to deliver to Chatham, hair in food, driver didn't know area.
 # streusle_sent_id = ewtb.r.042085.2
 # mwe = Took 1 + hour to deliver to Chatham , hair in food , driver did n't know area .
@@ -1030,7 +1064,7 @@
 1	Noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	notice	v.cognition	_	_	_	_	O-V-v.cognition
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_	1:1	DET	a few	_	_	_	_	_	B-DET
 3	few	few	NOUN	NN	Number=Sing	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
-4	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+4	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 5	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	8:det	_	_	DET	these	_	_	_	_	_	O-DET
 6	Cookie	cookie	NOUN	NN	Number=Sing	7	compound	7:compound	_	2:1	N	cookie cutter	n.COGNITION	_	_	_	_	B-N-n.COGNITION
 7	cutter	cutter	NOUN	NN	Number=Sing	8	compound	8:compound	_	2:2	_	_	_	_	_	_	_	I_
@@ -1060,6 +1094,7 @@
 
 # newdoc id = reviews-042530
 # sent_id = reviews-042530-0001
+# newpar id = reviews-042530-p0001
 # text = a staple!
 # streusle_sent_id = ewtb.r.042530.1
 # mwe = a staple !
@@ -1068,6 +1103,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-042530-0002
+# newpar id = reviews-042530-p0002
 # text = I live in the neighborhood and this place is one of my favorites for a tasty, quick and inexpensive meal.
 # streusle_sent_id = ewtb.r.042530.2
 # mwe = I live in the neighborhood and this place is one of my favorites for a tasty , quick and inexpensive meal .
@@ -1138,6 +1174,7 @@
 
 # newdoc id = reviews-045972
 # sent_id = reviews-045972-0001
+# newpar id = reviews-045972-p0001
 # text = Feel good
 # streusle_sent_id = ewtb.r.045972.1
 # mwe = Feel good
@@ -1145,6 +1182,7 @@
 2	good	good	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-045972-0002
+# newpar id = reviews-045972-p0002
 # text = I just wanted to try your clinic because I was not totally happy with my current therapist I regularly see.
 # streusle_sent_id = ewtb.r.045972.2
 # mwe = I just wanted to try your clinic because I was not totally happy with my current therapist I regularly see .
@@ -1153,7 +1191,7 @@
 3	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	want	v.cognition	_	_	_	_	O-V-v.cognition
 4	to	to	PART	TO	_	5	mark	5:mark	_	_	INF	to	_	_	_	_	_	O-INF
 5	try	try	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_	_	V	try	v.possession	_	_	_	_	O-V-v.possession
-6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	you	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	_	_	PRON.POSS	you	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 7	clinic	clinic	NOUN	NN	Number=Sing	5	obj	5:obj	_	_	N	clinic	n.GROUP	_	_	_	_	O-N-n.GROUP
 8	because	because	SCONJ	IN	_	13	mark	13:mark	_	_	SCONJ	because	_	_	_	_	_	O-SCONJ
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	13:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
@@ -1192,6 +1230,7 @@
 
 # newdoc id = reviews-046500
 # sent_id = reviews-046500-0001
+# newpar id = reviews-046500-p0001
 # text = Mens and Boys Barbers, on the number 9 Bus route.
 # streusle_sent_id = ewtb.r.046500.1
 # mwe = Men_s_and_Boys_Barbers , on the number 9 Bus~route .
@@ -1221,6 +1260,7 @@
 
 # newdoc id = reviews-047891
 # sent_id = reviews-047891-0001
+# newpar id = reviews-047891-p0001
 # text = Great job on my roof and the pricing was fair.
 # streusle_sent_id = ewtb.r.047891.1
 # mwe = Great job on my roof and the pricing was fair .
@@ -1250,6 +1290,7 @@
 
 # newdoc id = reviews-048201
 # sent_id = reviews-048201-0001
+# newpar id = reviews-048201-p0001
 # text = Very Mediocre donuts!
 # streusle_sent_id = ewtb.r.048201.1
 # mwe = Very Mediocre donuts !
@@ -1259,6 +1300,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-048201-0002
+# newpar id = reviews-048201-p0002
 # text = The Donuts were very over proofed, making them stale and bready.
 # streusle_sent_id = ewtb.r.048201.2
 # mwe = The Donuts were very over_proofed , making them stale and bready .
@@ -1328,6 +1370,7 @@
 
 # newdoc id = reviews-048644
 # sent_id = reviews-048644-0001
+# newpar id = reviews-048644-p0001
 # text = Don't judge a book by its cover
 # streusle_sent_id = ewtb.r.048644.1
 # mwe = Do~n't~judge~a~book~by~its~cover
@@ -1341,6 +1384,7 @@
 8	cover	cover	NOUN	NN	Number=Sing	3	obl	3:obl:by	_	_	N	cover	n.ARTIFACT	_	1:8	_	_	I~-N-n.ARTIFACT
 
 # sent_id = reviews-048644-0002
+# newpar id = reviews-048644-p0002
 # text = From the outside Ichiban looks like it will be terrible.
 # streusle_sent_id = ewtb.r.048644.2
 # mwe = From the outside Ichiban looks like it will be terrible .
@@ -1407,6 +1451,7 @@
 
 # newdoc id = reviews-054269
 # sent_id = reviews-054269-0001
+# newpar id = reviews-054269-p0001
 # text = Excellent energy efficiency
 # streusle_sent_id = ewtb.r.054269.1
 # mwe = Excellent energy efficiency
@@ -1415,6 +1460,7 @@
 3	efficiency	efficiency	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	efficiency	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 
 # sent_id = reviews-054269-0002
+# newpar id = reviews-054269-p0002
 # text = Compact's Corona dryers remove at least twice as much water as the previous dryers, allowing a production increase of over 10% and a significant energy saving.
 # streusle_sent_id = ewtb.r.054269.2
 # mwe = Compact_'s Corona_dryers remove at_least twice as much water as the previous dryers , allowing a production increase of over 10 % and a significant energy~saving .
@@ -1451,6 +1497,7 @@
 
 # newdoc id = reviews-056408
 # sent_id = reviews-056408-0001
+# newpar id = reviews-056408-p0001
 # text = Dessert was good.
 # streusle_sent_id = ewtb.r.056408.1
 # mwe = Dessert was good .
@@ -1471,6 +1518,7 @@
 
 # newdoc id = reviews-058009
 # sent_id = reviews-058009-0001
+# newpar id = reviews-058009-p0001
 # text = It taste better than In and Out....
 # streusle_sent_id = ewtb.r.058009.1
 # mwe = It taste better than In_and_Out ....
@@ -1485,6 +1533,7 @@
 
 # newdoc id = reviews-058878
 # sent_id = reviews-058878-0001
+# newpar id = reviews-058878-p0001
 # text = Nice little locally owned greek bar and grill.
 # streusle_sent_id = ewtb.r.058878.1
 # mwe = Nice little locally_owned greek bar_and_grill .
@@ -1516,12 +1565,13 @@
 
 # newdoc id = reviews-059655
 # sent_id = reviews-059655-0001
+# newpar id = reviews-059655-p0001
 # text = the team at barton car wash was very friendly .
 # streusle_sent_id = ewtb.r.059655.1
 # mwe = the team at barton_car_wash was very friendly .
 1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	team	team	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_	_	N	team	n.GROUP	_	_	_	_	O-N-n.GROUP
-3	at	at	ADP	IN	_	6	case	6:case	_	_	P	at	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
+3	at	at	ADP	IN	_	6	case	6:case	_	_	P	at	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
 4	barton	barton	PROPN	NNP	Number=Sing	6	compound	6:compound	_	1:1	N	barton car wash	n.GROUP	_	_	_	_	B-N-n.GROUP
 5	car	car	PROPN	NNP	Number=Sing	6	compound	6:compound	_	1:2	_	_	_	_	_	_	_	I_
 6	wash	wash	PROPN	NNP	Number=Sing	2	nmod	2:nmod:at	_	1:3	_	_	_	_	_	_	_	I_
@@ -1555,6 +1605,7 @@
 
 # newdoc id = reviews-059685
 # sent_id = reviews-059685-0001
+# newpar id = reviews-059685-p0001
 # text = Fast and great service on pool covers
 # streusle_sent_id = ewtb.r.059685.1
 # mwe = Fast and great service on pool_covers
@@ -1568,6 +1619,7 @@
 
 # newdoc id = reviews-060396
 # sent_id = reviews-060396-0001
+# newpar id = reviews-060396-p0001
 # text = The best Thai food I've ever had in Australia, very fresh and so much favor of authentic Thai .
 # streusle_sent_id = ewtb.r.060396.1
 # mwe = The best Thai food I 've ever had in Australia , very fresh and so much favor of authentic Thai .
@@ -1614,6 +1666,7 @@
 
 # newdoc id = reviews-061079
 # sent_id = reviews-061079-0001
+# newpar id = reviews-061079-p0001
 # text = Friendliest place I have ever stayed!
 # streusle_sent_id = ewtb.r.061079.1
 # mwe = Friendliest place I have ever stayed !
@@ -1627,6 +1680,7 @@
 
 # newdoc id = reviews-061721
 # sent_id = reviews-061721-0001
+# newpar id = reviews-061721-p0001
 # text = What a Dump!
 # streusle_sent_id = ewtb.r.061721.1
 # mwe = What a Dump !
@@ -1636,6 +1690,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-061721-0002
+# newpar id = reviews-061721-p0002
 # text = The food is terrible.
 # streusle_sent_id = ewtb.r.061721.2
 # mwe = The food is terrible .
@@ -1686,6 +1741,7 @@
 
 # newdoc id = reviews-080814
 # sent_id = reviews-080814-0001
+# newpar id = reviews-080814-p0001
 # text = Fantastic professional service -
 # streusle_sent_id = ewtb.r.080814.1
 # mwe = Fantastic professional service -
@@ -1736,6 +1792,7 @@
 
 # newdoc id = reviews-081116
 # sent_id = reviews-081116-0001
+# newpar id = reviews-081116-p0001
 # text = Best fried shrimp in the state!
 # streusle_sent_id = ewtb.r.081116.1
 # mwe = Best fried shrimp in the state !
@@ -1749,6 +1806,7 @@
 
 # newdoc id = reviews-083563
 # sent_id = reviews-083563-0001
+# newpar id = reviews-083563-p0001
 # text = We would like to thank our emergency plumbers who visted our shop in Morningside Road today.
 # streusle_sent_id = ewtb.r.083563.1
 # mwe = We would_like~to~thank our emergency plumbers who visted our shop in Morningside_Road today .
@@ -1762,7 +1820,7 @@
 8	plumbers	plumber	NOUN	NNS	Number=Plur	5	obj	5:obj|10:nsubj	_	_	N	plumber	n.PERSON	_	_	_	_	O-N-n.PERSON
 9	who	who	PRON	WP	PronType=Rel	10	nsubj	8:ref	_	_	PRON	who	_	_	_	_	_	O-PRON
 10	visted	visit	VERB	VBD	Mood=Ind|Tense=Past|Typo=Yes|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_	_	V	visit	v.motion	_	_	_	_	O-V-v.motion
-11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	we	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	we	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 12	shop	shop	NOUN	NN	Number=Sing	10	obj	10:obj	_	_	N	shop	n.GROUP	_	_	_	_	O-N-n.GROUP
 13	in	in	ADP	IN	_	15	case	15:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 14	Morningside	Morningside	PROPN	NNP	Number=Sing	15	compound	15:compound	_	3:1	N	Morningside Road	n.LOCATION	_	_	_	_	B-N-n.LOCATION
@@ -1799,6 +1857,7 @@
 
 # newdoc id = reviews-085009
 # sent_id = reviews-085009-0001
+# newpar id = reviews-085009-p0001
 # text = Awesome Landscaping Job
 # streusle_sent_id = ewtb.r.085009.1
 # mwe = Awesome Landscaping Job
@@ -1807,6 +1866,7 @@
 3	Job	job	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	job	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-085009-0002
+# newpar id = reviews-085009-p0002
 # text = MFJ Inc transformed our run down back yard into a place of beauty.
 # streusle_sent_id = ewtb.r.085009.2
 # mwe = MFJ_Inc transformed our run_down back_yard into a place of beauty .
@@ -1857,6 +1917,7 @@
 
 # newdoc id = reviews-086914
 # sent_id = reviews-086914-0001
+# newpar id = reviews-086914-p0001
 # text = Wonderful Wonderful People!
 # streusle_sent_id = ewtb.r.086914.1
 # mwe = Wonderful Wonderful People !
@@ -1866,6 +1927,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-086914-0002
+# newpar id = reviews-086914-p0002
 # text = I refer to VNHH often and love you guys.
 # streusle_sent_id = ewtb.r.086914.2
 # mwe = I refer~to VNHH often and love you~guys .
@@ -1882,6 +1944,7 @@
 
 # newdoc id = reviews-087368
 # sent_id = reviews-087368-0001
+# newpar id = reviews-087368-p0001
 # text = Walgreens on University
 # streusle_sent_id = ewtb.r.087368.1
 # mwe = Walgreens on University
@@ -1890,6 +1953,7 @@
 3	University	University	PROPN	NNP	Number=Sing	1	nmod	1:nmod:on	_	_	N	University	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-087368-0002
+# newpar id = reviews-087368-p0002
 # text = My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and don't seem to like answering questions.
 # streusle_sent_id = ewtb.r.087368.2
 # mwe = My pharmacy order is always correct and promptly delivered but the pharmacy staff are always very short with me and do n't seem to like answering~questions .
@@ -1948,6 +2012,7 @@
 
 # newdoc id = reviews-088954
 # sent_id = reviews-088954-0001
+# newpar id = reviews-088954-p0001
 # text = A thoroughly comprehensive service; excellent communication and best of they are transparent with their fee (ie nothing is simply implied or assumed).
 # streusle_sent_id = ewtb.r.088954.1
 # mwe = A thoroughly comprehensive service ; excellent communication and best of they are transparent with their fee ( ie nothing is simply implied or assumed ) .
@@ -1980,6 +2045,7 @@
 
 # newdoc id = reviews-089136
 # sent_id = reviews-089136-0001
+# newpar id = reviews-089136-p0001
 # text = AWESOME food!
 # streusle_sent_id = ewtb.r.089136.1
 # mwe = AWESOME food !
@@ -2014,6 +2080,7 @@
 
 # newdoc id = reviews-097548
 # sent_id = reviews-097548-0001
+# newpar id = reviews-097548-p0001
 # text = The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap
 # streusle_sent_id = ewtb.r.097548.1
 # mwe = The company gets busy but you never have_to wait long because they ARE orginizied , so you are in , out , and paid well for your scrap
@@ -2049,6 +2116,7 @@
 
 # newdoc id = reviews-101864
 # sent_id = reviews-101864-0001
+# newpar id = reviews-101864-p0001
 # text = No complaints
 # streusle_sent_id = ewtb.r.101864.1
 # mwe = No complaints
@@ -2056,6 +2124,7 @@
 2	complaints	complaint	NOUN	NNS	Number=Plur	0	root	0:root	_	_	N	complaint	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 
 # sent_id = reviews-101864-0002
+# newpar id = reviews-101864-p0002
 # text = I have no complaints about the service I received.
 # streusle_sent_id = ewtb.r.101864.2
 # mwe = I have_ no _complaints about the service~ I ~received .
@@ -2102,6 +2171,7 @@
 
 # newdoc id = reviews-103519
 # sent_id = reviews-103519-0001
+# newpar id = reviews-103519-p0001
 # text = umm...
 # streusle_sent_id = ewtb.r.103519.1
 # mwe = umm ...
@@ -2109,6 +2179,7 @@
 2	...	...	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-103519-0002
+# newpar id = reviews-103519-p0002
 # text = okay, I dont have a review, but why in the hell would you name your business something that has the initials KKK....is there something behind the scenes at this place?
 # streusle_sent_id = ewtb.r.103519.2
 # mwe = okay , I do nt have a review , but why_in_the_hell would you name your business something that has the initials KKK .... is there something behind_the_scenes at this place ?
@@ -2129,7 +2200,7 @@
 15	would	would	AUX	MD	VerbForm=Fin	17	aux	17:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
 16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	17:nsubj	_	_	PRON	you	_	_	_	_	_	O-PRON
 17	name	name	VERB	VB	VerbForm=Inf	6	conj	6:conj:but	_	_	V	name	v.communication	_	_	_	_	O-V-v.communication
-18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_	_	PRON.POSS	you	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_	_	PRON.POSS	you	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 19	business	business	NOUN	NN	Number=Sing	17	iobj	17:iobj	_	_	N	business	n.GROUP	_	_	_	_	O-N-n.GROUP
 20	something	something	PRON	NN	Number=Sing	17	obj	17:obj|22:nsubj	_	_	PRON	something	_	_	_	_	_	O-PRON
 21	that	that	PRON	WDT	PronType=Rel	22	nsubj	20:ref	_	_	PRON	that	_	_	_	_	_	O-PRON
@@ -2166,6 +2237,7 @@
 
 # newdoc id = reviews-103878
 # sent_id = reviews-103878-0001
+# newpar id = reviews-103878-p0001
 # text = You guys do everything wonderful!
 # streusle_sent_id = ewtb.r.103878.1
 # mwe = You~guys do everything wonderful !
@@ -2197,6 +2269,7 @@
 
 # newdoc id = reviews-104703
 # sent_id = reviews-104703-0001
+# newpar id = reviews-104703-p0001
 # text = best
 # streusle_sent_id = ewtb.r.104703.1
 # mwe = best
@@ -2233,6 +2306,7 @@
 
 # newdoc id = reviews-107608
 # sent_id = reviews-107608-0001
+# newpar id = reviews-107608-p0001
 # text = excellence in glasgow
 # streusle_sent_id = ewtb.r.107608.1
 # mwe = excellence in glasgow
@@ -2241,6 +2315,7 @@
 3	glasgow	glasgow	PROPN	NNP	Number=Sing	1	nmod	1:nmod:in	_	_	N	glasgow	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-107608-0002
+# newpar id = reviews-107608-p0002
 # text = Iv just had my bmw z3 rear window replaced by the guys at kelvin trimmers.
 # streusle_sent_id = ewtb.r.107608.2
 # mwe = I v just had my bmw_z3 rear_window replaced by the guys at kelvin_trimmers .
@@ -2257,7 +2332,7 @@
 11	by	by	ADP	IN	_	13	case	13:case	_	_	P	by	p.Agent	p.Agent	_	_	_	O-P-p.Agent
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	_	_	DET	the	_	_	_	_	_	O-DET
 13	guys	guy	NOUN	NNS	Number=Plur	10	obl	10:obl:by	_	_	N	guy	n.PERSON	_	_	_	_	O-N-n.PERSON
-14	at	at	ADP	IN	_	16	case	16:case	_	_	P	at	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
+14	at	at	ADP	IN	_	16	case	16:case	_	_	P	at	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
 15	kelvin	kelvin	PROPN	NNP	Number=Sing	16	compound	16:compound	_	3:1	N	kelvin trimmers	n.GROUP	_	_	_	_	B-N-n.GROUP
 16	trimmers	trimmers	PROPN	NNPS	Number=Plur	13	nmod	13:nmod:at	SpaceAfter=No	3:2	_	_	_	_	_	_	_	I_
 17	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -2288,9 +2363,9 @@
 20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 21	can	can	AUX	MD	VerbForm=Fin	17	advcl	17:advcl:as	_	_	AUX	can	_	_	_	_	_	O-AUX
 22	with	with	ADP	IN	_	24	case	24:case	_	_	P	with	p.Circumstance	p.Circumstance	_	_	_	O-P-p.Circumstance
-23	thier	their	PRON	PRP$	Typo=Yes	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	their	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
+23	thier	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes	24	nmod:poss	24:nmod:poss	_	_	PRON.POSS	they	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 24	years	year	NOUN	NNS	Number=Plur	15	obl	15:obl:with	_	_	N	year	n.TIME	_	_	_	_	O-N-n.TIME
-25	of	of	ADP	IN	_	28	case	28:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+25	of	of	ADP	IN	_	28	case	28:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 26	hands	hand	NOUN	NNS	Number=Plur	28	compound	28:compound	_	1:1	ADJ	hand on	_	_	_	_	_	B-ADJ
 27	on	on	ADV	RB	_	26	compound	26:compound	_	1:2	_	_	_	_	_	_	_	I_
 28	practice	practice	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	SpaceAfter=No	_	N	practice	n.ACT	_	_	_	_	O-N-n.ACT
@@ -2306,6 +2381,7 @@
 
 # newdoc id = reviews-118668
 # sent_id = reviews-118668-0001
+# newpar id = reviews-118668-p0001
 # text = Hidden Treasure.
 # streusle_sent_id = ewtb.r.118668.1
 # mwe = Hidden Treasure .
@@ -2393,6 +2469,7 @@
 
 # newdoc id = reviews-118679
 # sent_id = reviews-118679-0001
+# newpar id = reviews-118679-p0001
 # text = I really want to like this place since I work right around the corner.
 # streusle_sent_id = ewtb.r.118679.1
 # mwe = I really want to like this place since I work right around_the_corner .
@@ -2424,7 +2501,7 @@
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	iobj	5:iobj	_	_	PRON	it	_	_	_	_	_	o-PRON
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_	2:1	DET	a couple	_	_	_	_	_	b-DET
 8	couple	couple	NOUN	NN	Number=Sing	5	obj	5:obj	_	2:2	_	_	_	_	_	_	_	i_
-9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	o-P-p.Quantity
+9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	o-P-p.QuantityItem
 10	tries	try	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	_	_	N	try	n.EVENT	_	1:2	_	_	I~-N-n.EVENT
 11	at	at	ADP	IN	_	13	case	13:case	_	_	P	at	p.Time	p.Time	_	_	_	O-P-p.Time
 12	different	different	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	ADJ	different	_	_	_	_	_	O-ADJ
@@ -2459,6 +2536,7 @@
 
 # newdoc id = reviews-120724
 # sent_id = reviews-120724-0001
+# newpar id = reviews-120724-p0001
 # text = it was a little to high dollar for me
 # streusle_sent_id = ewtb.r.120724.1
 # mwe = it was a_little to high_dollar for me
@@ -2474,6 +2552,7 @@
 
 # newdoc id = reviews-122514
 # sent_id = reviews-122514-0001
+# newpar id = reviews-122514-p0001
 # text = Decent place to stay, I would stay there again.
 # streusle_sent_id = ewtb.r.122514.1
 # mwe = Decent place to stay , I would stay there again .
@@ -2498,7 +2577,7 @@
 3	clean	clean	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No	_	ADJ	clean	_	_	_	_	_	O-ADJ
 4	,	,	PUNCT	,	_	9	punct	9:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 5	plenty	plenty	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	N	plenty	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 7	things	thing	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	thing	n.OTHER	_	_	_	_	O-N-n.OTHER
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF
 9	do	do	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	_	V	do	v.social	_	_	_	_	O-V-v.social
@@ -2514,6 +2593,7 @@
 
 # newdoc id = reviews-122564
 # sent_id = reviews-122564-0001
+# newpar id = reviews-122564-p0001
 # text = good outside, bad inside
 # streusle_sent_id = ewtb.r.122564.1
 # mwe = good outside , bad inside
@@ -2524,6 +2604,7 @@
 5	inside	inside	ADV	RB	_	2	conj	2:conj	_	_	P	inside	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 
 # sent_id = reviews-122564-0002
+# newpar id = reviews-122564-p0002
 # text = the apartment only looks good outsize, inside is too bad.
 # streusle_sent_id = ewtb.r.122564.2
 # mwe = the apartment only looks good outsize , inside is too bad .
@@ -2532,7 +2613,7 @@
 3	only	only	ADV	RB	_	4	advmod	4:advmod	_	_	ADV	only	_	_	_	_	_	O-ADV
 4	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	look	v.perception	_	_	_	_	O-V-v.perception
 5	good	good	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	_	_	ADJ	good	_	_	_	_	_	O-ADJ
-6	outsize	outsize	ADV	RB	_	4	advmod	4:advmod	SpaceAfter=No	_	ADV	outsize	_	_	_	_	_	O-ADV
+6	outsize	outside	ADV	RB	Typo=Yes	4	advmod	4:advmod	SpaceAfter=No	_	ADV	outside	_	_	_	_	_	O-ADV
 7	,	,	PUNCT	,	_	4	punct	4:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 8	inside	inside	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_	_	N	inside	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
@@ -2581,6 +2662,7 @@
 
 # newdoc id = reviews-124492
 # sent_id = reviews-124492-0001
+# newpar id = reviews-124492-p0001
 # text = Great product, great service!!!
 # streusle_sent_id = ewtb.r.124492.1
 # mwe = Great product , great service !!!
@@ -2592,6 +2674,7 @@
 6	!!!	!!!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!!!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-124492-0002
+# newpar id = reviews-124492-p0002
 # text = Installed Biometrics and Got Excellent Service.
 # streusle_sent_id = ewtb.r.124492.2
 # mwe = Installed Biometrics and Got Excellent Service .
@@ -2605,6 +2688,7 @@
 
 # newdoc id = reviews-126086
 # sent_id = reviews-126086-0001
+# newpar id = reviews-126086-p0001
 # text = I like I Move CA - Los Angeles Movers, they moved me before, but this time they were awesome :)
 # streusle_sent_id = ewtb.r.126086.1
 # mwe = I like I_Move_CA_-_Los_Angeles_Movers , they moved me before , but this time they were awesome :)
@@ -2633,6 +2717,7 @@
 
 # newdoc id = reviews-126134
 # sent_id = reviews-126134-0001
+# newpar id = reviews-126134-p0001
 # text = Usually very quick and timely.
 # streusle_sent_id = ewtb.r.126134.1
 # mwe = Usually very quick~and~timely .
@@ -2657,12 +2742,14 @@
 
 # newdoc id = reviews-128808
 # sent_id = reviews-128808-0001
+# newpar id = reviews-128808-p0001
 # text = Relish
 # streusle_sent_id = ewtb.r.128808.1
 # mwe = Relish
 1	Relish	Relish	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	Relish	n.FOOD	_	_	_	_	O-N-n.FOOD
 
 # sent_id = reviews-128808-0002
+# newpar id = reviews-128808-p0002
 # text = A Top Quality Sandwich made to artistic standards.
 # streusle_sent_id = ewtb.r.128808.2
 # mwe = A Top~Quality Sandwich made to artistic standards .
@@ -2704,6 +2791,7 @@
 
 # newdoc id = reviews-130216
 # sent_id = reviews-130216-0001
+# newpar id = reviews-130216-p0001
 # text = Fast Service Called them one hour ago and they just left my house five minutes ago.
 # streusle_sent_id = ewtb.r.130216.1
 # mwe = Fast Service Called them one hour ago and they just left my house five minutes ago .
@@ -2754,6 +2842,7 @@
 
 # newdoc id = reviews-130647
 # sent_id = reviews-130647-0001
+# newpar id = reviews-130647-p0001
 # text = Will never use again.
 # streusle_sent_id = ewtb.r.130647.1
 # mwe = Will never use again .
@@ -2797,6 +2886,7 @@
 
 # newdoc id = reviews-131965
 # sent_id = reviews-131965-0001
+# newpar id = reviews-131965-p0001
 # text = Great service
 # streusle_sent_id = ewtb.r.131965.1
 # mwe = Great service
@@ -2804,11 +2894,12 @@
 2	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-131965-0002
+# newpar id = reviews-131965-p0002
 # text = We at R&L Plumbing Services are pleased with your professionalism and the extra mile you went to get out computers working correctly, you will be our first call if anything happens again and we will refer you to other people with computer issues.
 # streusle_sent_id = ewtb.r.131965.2
 # mwe = We at R&L_Plumbing_Services are pleased~with your professionalism and the_extra_mile_ you _went to get_ out computers _working correctly , you will be_ our _first_call if anything happens again and we will refer you to other people with computer issues .
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	_	_	PRON	we	_	_	_	_	_	O-PRON
-2	at	at	ADP	IN	_	5	case	5:case	_	_	P	at	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
+2	at	at	ADP	IN	_	5	case	5:case	_	_	P	at	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
 3	R&L	R&L	PROPN	NNP	Number=Sing	5	compound	5:compound	_	1:1	N	R&L Plumbing Services	n.GROUP	_	_	_	_	B-N-n.GROUP
 4	Plumbing	Plumbing	PROPN	NNP	Number=Sing	5	compound	5:compound	_	1:2	_	_	_	_	_	_	_	I_
 5	Services	Services	PROPN	NNP	Number=Sing	1	nmod	1:nmod:at	_	1:3	_	_	_	_	_	_	_	I_
@@ -2855,6 +2946,7 @@
 
 # newdoc id = reviews-138110
 # sent_id = reviews-138110-0001
+# newpar id = reviews-138110-p0001
 # text = This is a great place to get a permit
 # streusle_sent_id = ewtb.r.138110.1
 # mwe = This is a great place to get a permit
@@ -2869,6 +2961,7 @@
 9	permit	permit	NOUN	NN	Number=Sing	7	obj	7:obj	_	_	N	permit	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 
 # sent_id = reviews-138110-0002
+# newpar id = reviews-138110-p0002
 # text = I had to get a permit here, it was cool
 # streusle_sent_id = ewtb.r.138110.2
 # mwe = I had_to get a permit here , it was cool
@@ -2886,6 +2979,7 @@
 
 # newdoc id = reviews-138249
 # sent_id = reviews-138249-0001
+# newpar id = reviews-138249-p0001
 # text = These guys do great work at VERY reasonable prices.
 # streusle_sent_id = ewtb.r.138249.1
 # mwe = These guys do_ great _work at VERY reasonable prices .
@@ -2906,7 +3000,7 @@
 # mwe = I have use them four times for fixing items from pushing out a dent in a bumper to fixing the fender on my beloved Miata .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
-3	use	use	VERB	VB	VerbForm=Inf	0	root	0:root	_	_	V	use	v.social	_	_	_	_	O-V-v.social
+3	use	use	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	0	root	0:root	_	_	V	use	v.social	_	_	_	_	O-V-v.social
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj	_	_	PRON	they	_	_	_	_	_	O-PRON
 5	four	four	NUM	CD	NumType=Card	6	nummod	6:nummod	_	_	NUM	four	_	_	_	_	_	O-NUM
 6	times	time	NOUN	NNS	Number=Plur	3	obl:npmod	3:obl:npmod	_	_	N	time	n.EVENT	_	_	_	_	O-N-n.EVENT
@@ -2944,6 +3038,7 @@
 
 # newdoc id = reviews-139152
 # sent_id = reviews-139152-0001
+# newpar id = reviews-139152-p0001
 # text = Hospitality.!
 # streusle_sent_id = ewtb.r.139152.1
 # mwe = Hospitality .!
@@ -2951,6 +3046,7 @@
 2	.!	.!	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-139152-0002
+# newpar id = reviews-139152-p0002
 # text = Very good hospitality offered.!
 # streusle_sent_id = ewtb.r.139152.2
 # mwe = Very good hospitality offered .!
@@ -2982,6 +3078,7 @@
 
 # newdoc id = reviews-145645
 # sent_id = reviews-145645-0001
+# newpar id = reviews-145645-p0001
 # text = spoken english rushi
 # streusle_sent_id = ewtb.r.145645.1
 # mwe = spoken english rushi
@@ -2990,6 +3087,7 @@
 3	rushi	rushi	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	rushi	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-145645-0002
+# newpar id = reviews-145645-p0002
 # text = can ever & never forget the training undergone here which made my life step onto the successful job without any hurdles.
 # streusle_sent_id = ewtb.r.145645.2
 # mwe = can ever & never forget the training undergone here which made my life step onto the successful job without any hurdles .
@@ -3034,13 +3132,14 @@
 12	low	low	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	ADJ	low	_	_	_	_	_	O-ADJ
 13	fees	fee	NOUN	NNS	Number=Plur	2	conj	2:conj|18:nsubj	_	_	N	fee	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 14	totally	totally	ADV	RB	_	18	advmod	18:advmod	_	_	ADV	totally	_	_	_	_	_	O-ADV
-15	above	above	ADP	IN	_	18	case	18:case	_	_	P	above	p.Locus	p.Locus	_	_	_	O-P-p.Locus
+15	above	above	ADP	IN	_	18	case	18:case	_	_	P	above	p.ComparisonRef	p.Locus	_	_	_	O-P-p.ComparisonRef|p.Locus
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_	_	DET	the	_	_	_	_	_	O-DET
 17	satisfactory	satisfactory	ADJ	JJ	Degree=Pos	18	amod	18:amod	_	_	ADJ	satisfactory	_	_	_	_	_	O-ADJ
 18	mark	mark	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	mark	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 
 # newdoc id = reviews-146820
 # sent_id = reviews-146820-0001
+# newpar id = reviews-146820-p0001
 # text = Amazing service!
 # streusle_sent_id = ewtb.r.146820.1
 # mwe = Amazing service !
@@ -3049,6 +3148,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-146820-0002
+# newpar id = reviews-146820-p0002
 # text = I just had the best experience at this Kal Tire location.
 # streusle_sent_id = ewtb.r.146820.2
 # mwe = I just had the best experience at this Kal_Tire location .
@@ -3078,6 +3178,7 @@
 
 # newdoc id = reviews-152281
 # sent_id = reviews-152281-0001
+# newpar id = reviews-152281-p0001
 # text = Great Service, Thanks Don.
 # streusle_sent_id = ewtb.r.152281.1
 # mwe = Great Service , Thanks Don .
@@ -3099,6 +3200,7 @@
 
 # newdoc id = reviews-153921
 # sent_id = reviews-153921-0001
+# newpar id = reviews-153921-p0001
 # text = Fresh and Excellent Quality
 # streusle_sent_id = ewtb.r.153921.1
 # mwe = Fresh and Excellent Quality
@@ -3108,6 +3210,7 @@
 4	Quality	quality	NOUN	NN	Number=Sing	1	conj	1:conj:and	_	_	N	quality	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 
 # sent_id = reviews-153921-0002
+# newpar id = reviews-153921-p0002
 # text = We order take out from here all the time and we are never disappointed.
 # streusle_sent_id = ewtb.r.153921.2
 # mwe = We order take_out from here all_the_time and we are never disappointed .
@@ -3170,6 +3273,7 @@
 
 # newdoc id = reviews-155050
 # sent_id = reviews-155050-0001
+# newpar id = reviews-155050-p0001
 # text = amazing, fun, great beers.
 # streusle_sent_id = ewtb.r.155050.1
 # mwe = amazing , fun , great beers .
@@ -3202,6 +3306,7 @@
 
 # newdoc id = reviews-158285
 # sent_id = reviews-158285-0001
+# newpar id = reviews-158285-p0001
 # text = Restaurant on top was renovated, food was decent, price was way to high for Duluth for quality, new decor seems tacky
 # streusle_sent_id = ewtb.r.158285.1
 # mwe = Restaurant on top was renovated , food was decent , price was way to high for Duluth for quality , new decor seems tacky
@@ -3232,6 +3337,7 @@
 
 # newdoc id = reviews-163250
 # sent_id = reviews-163250-0001
+# newpar id = reviews-163250-p0001
 # text = Great service
 # streusle_sent_id = ewtb.r.163250.1
 # mwe = Great service
@@ -3239,6 +3345,7 @@
 2	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-163250-0002
+# newpar id = reviews-163250-p0002
 # text = These people were so helpful this week and did everything to sort out my windscreen and insurance.
 # streusle_sent_id = ewtb.r.163250.2
 # mwe = These people were so helpful this week and did everything to sort_out my windscreen and insurance .
@@ -3304,6 +3411,7 @@
 
 # newdoc id = reviews-165032
 # sent_id = reviews-165032-0001
+# newpar id = reviews-165032-p0001
 # text = Michael helped shoot the majority of my firm's website and we could not have been happier.
 # streusle_sent_id = ewtb.r.165032.1
 # mwe = Michael helped shoot the majority of my firm 's website and we could not have been happier .
@@ -3312,8 +3420,8 @@
 3	shoot	shoot	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_	_	V	shoot	v.social	_	_	_	_	O-V-v.social
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	DET	the	_	_	_	_	_	O-DET
 5	majority	majority	NOUN	NN	Number=Sing	3	obj	3:obj	_	_	N	majority	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-6	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+6	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	my	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 8	firm	firm	NOUN	NN	Number=Sing	10	nmod:poss	10:nmod:poss	SpaceAfter=No	_	N	firm	n.GROUP	_	_	_	_	O-N-n.GROUP
 9	's	's	PART	POS	_	8	case	8:case	_	_	POSS	's	p.Possessor	p.Possessor	_	_	_	O-POSS-p.Possessor
 10	website	website	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	_	_	N	website	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
@@ -3343,7 +3451,7 @@
 11	that	that	PRON	WDT	PronType=Rel	13	nsubj	10:ref	_	_	PRON	that	_	_	_	_	_	O-PRON
 12	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
 13	represent	represent	VERB	VB	VerbForm=Inf	10	acl:relcl	10:acl:relcl	_	_	V	represent	v.social	_	_	_	_	O-V-v.social
-14	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	_	_	PRON.POSS	we	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+14	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	_	_	PRON.POSS	we	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 15	firm	firm	NOUN	NN	Number=Sing	13	obj	13:obj	_	_	N	firm	n.GROUP	_	_	_	_	O-N-n.GROUP
 16	in	in	ADP	IN	_	18	case	18:case	_	_	P	in	p.Manner	p.Manner	_	_	_	O-P-p.Manner
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -3374,6 +3482,7 @@
 
 # newdoc id = reviews-166983
 # sent_id = reviews-166983-0001
+# newpar id = reviews-166983-p0001
 # text = The pancakes are to die for.
 # streusle_sent_id = ewtb.r.166983.1
 # mwe = The pancakes are to_die_for .
@@ -3387,6 +3496,7 @@
 
 # newdoc id = reviews-169610
 # sent_id = reviews-169610-0001
+# newpar id = reviews-169610-p0001
 # text = house closing
 # streusle_sent_id = ewtb.r.169610.1
 # mwe = house closing
@@ -3394,6 +3504,7 @@
 2	closing	closing	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	closing	n.EVENT	_	_	_	_	O-N-n.EVENT
 
 # sent_id = reviews-169610-0002
+# newpar id = reviews-169610-p0002
 # text = Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism!
 # streusle_sent_id = ewtb.r.169610.2
 # mwe = Mrs._Tolchin provided~ us ~with excellent service and came with a_great_deal of knowledge and professionalism !
@@ -3410,7 +3521,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_	3:1	N	a great deal	n.QUANTITY	_	_	_	_	B-N-n.QUANTITY
 12	great	great	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	3:2	_	_	_	_	_	_	_	I_
 13	deal	deal	NOUN	NN	Number=Sing	9	obl	9:obl:with	_	3:3	_	_	_	_	_	_	_	I_
-14	of	of	ADP	IN	_	15	case	15:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+14	of	of	ADP	IN	_	15	case	15:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 15	knowledge	knowledge	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	_	_	N	knowledge	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 16	and	and	CCONJ	CC	_	17	cc	17:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 17	professionalism	professionalism	NOUN	NN	Number=Sing	15	conj	13:nmod:of|15:conj:and	SpaceAfter=No	_	N	professionalism	n.COGNITION	_	_	_	_	O-N-n.COGNITION
@@ -3433,6 +3544,7 @@
 
 # newdoc id = reviews-171120
 # sent_id = reviews-171120-0001
+# newpar id = reviews-171120-p0001
 # text = this is the worst Sams club I've ever been to
 # streusle_sent_id = ewtb.r.171120.1
 # mwe = this is the worst Sam_s_club I 've ever been_to
@@ -3451,6 +3563,7 @@
 
 # newdoc id = reviews-171255
 # sent_id = reviews-171255-0001
+# newpar id = reviews-171255-p0001
 # text = what a mindblowing servicing
 # streusle_sent_id = ewtb.r.171255.1
 # mwe = what a mind_blowing servicing
@@ -3461,12 +3574,13 @@
 5	servicing	servicing	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	servicing	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-171255-0002
+# newpar id = reviews-171255-p0002
 # text = They treat there employees with respect and concern and expect that they will extend the same politeness to there customers.
 # streusle_sent_id = ewtb.r.171255.2
 # mwe = They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj|10:nsubj	_	_	PRON	they	_	_	_	_	_	O-PRON
 2	treat	treat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	treat	v.social	_	_	_	_	O-V-v.social
-3	there	there	PRON	PRP$	_	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	there	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
+3	there	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes	4	nmod:poss	4:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 4	employees	employee	NOUN	NNS	Number=Plur	2	obj	2:obj	_	_	N	employee	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.Manner	p.Manner	_	_	_	O-P-p.Manner
 6	respect	respect	NOUN	NN	Number=Sing	2	obl	2:obl:with	_	_	N	respect	n.COGNITION	_	_	_	_	O-N-n.COGNITION
@@ -3482,12 +3596,13 @@
 16	same	same	ADJ	JJ	Degree=Pos	17	amod	17:amod	_	_	ADJ	same	_	_	_	_	_	O-ADJ
 17	politeness	politeness	NOUN	NN	Number=Sing	14	obj	14:obj	_	_	N	politeness	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 18	to	to	ADP	IN	_	20	case	20:case	_	_	P	to	p.Recipient	p.Goal	_	_	_	O-P-p.Recipient|p.Goal
-19	there	there	PRON	PRP$	_	20	nmod:poss	20:nmod:poss	_	_	PRON.POSS	there	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
+19	there	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes	20	nmod:poss	20:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 20	customers	customer	NOUN	NNS	Number=Plur	14	obl	14:obl:to	SpaceAfter=No	_	N	customer	n.PERSON	_	_	_	_	O-N-n.PERSON
 21	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-171877
 # sent_id = reviews-171877-0001
+# newpar id = reviews-171877-p0001
 # text = ipad reiew
 # streusle_sent_id = ewtb.r.171877.1
 # mwe = ipad reiew
@@ -3495,6 +3610,7 @@
 2	reiew	review	NOUN	NN	Number=Sing|Typo=Yes	0	root	0:root	_	_	N	review	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 
 # sent_id = reviews-171877-0002
+# newpar id = reviews-171877-p0002
 # text = they are the best orthodontics in the world.
 # streusle_sent_id = ewtb.r.171877.2
 # mwe = they are the best orthodontics in~the~world .
@@ -3536,6 +3652,7 @@
 
 # newdoc id = reviews-174824
 # sent_id = reviews-174824-0001
+# newpar id = reviews-174824-p0001
 # text = Yeah they ruined some shirts I had too.
 # streusle_sent_id = ewtb.r.174824.1
 # mwe = Yeah they ruined some shirts I had too .
@@ -3558,6 +3675,7 @@
 
 # newdoc id = reviews-175434
 # sent_id = reviews-175434-0001
+# newpar id = reviews-175434-p0001
 # text = This is a Ralph's
 # streusle_sent_id = ewtb.r.175434.1
 # mwe = This is a Ralph_'s
@@ -3568,6 +3686,7 @@
 5	's	's	PART	POS	_	4	case	4:case	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-175434-0002
+# newpar id = reviews-175434-p0002
 # text = I just called this number and it is a Ralph's Market.
 # streusle_sent_id = ewtb.r.175434.2
 # mwe = I just called this number and it is a Ralph_'s_Market .
@@ -3587,6 +3706,7 @@
 
 # newdoc id = reviews-178726
 # sent_id = reviews-178726-0001
+# newpar id = reviews-178726-p0001
 # text = Excellent medical care!!!!!!
 # streusle_sent_id = ewtb.r.178726.1
 # mwe = Excellent medical_care !!!!!!
@@ -3603,6 +3723,7 @@
 2	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_	_	V	recommend	v.communication	_	_	_	_	O-V-v.communication
 
 # sent_id = reviews-178726-0003
+# newpar id = reviews-178726-p0002
 # text = I went to this urgent care center and was blown away with their service.
 # streusle_sent_id = ewtb.r.178726.3
 # mwe = I went to this urgent_care center and was blown_away with their service .
@@ -3682,6 +3803,7 @@
 
 # newdoc id = reviews-181696
 # sent_id = reviews-181696-0001
+# newpar id = reviews-181696-p0001
 # text = Winning Attorney!
 # streusle_sent_id = ewtb.r.181696.1
 # mwe = Winning Attorney !
@@ -3690,6 +3812,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-181696-0002
+# newpar id = reviews-181696-p0002
 # text = The only 10.0 "Perfect Score" AVVO Rated Attorney I Have Ever Met.
 # streusle_sent_id = ewtb.r.181696.2
 # mwe = The only 10.0 " Perfect Score " AVVO Rated Attorney I Have Ever Met .
@@ -3727,6 +3850,7 @@
 
 # newdoc id = reviews-184290
 # sent_id = reviews-184290-0001
+# newpar id = reviews-184290-p0001
 # text = wow wow wow.
 # streusle_sent_id = ewtb.r.184290.1
 # mwe = wow wow wow .
@@ -3740,13 +3864,14 @@
 # streusle_sent_id = ewtb.r.184290.2
 # mwe = the bast cab in minneapolis
 1	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_	_	DET	the	_	_	_	_	_	O-DET
-2	bast	bast	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	_	ADJ	bast	_	_	_	_	_	O-ADJ
+2	bast	best	ADJ	JJS	Degree=Sup|Typo=Yes	3	amod	3:amod	_	_	ADJ	best	_	_	_	_	_	O-ADJ
 3	cab	cab	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	cab	n.GROUP	_	_	_	_	O-N-n.GROUP
 4	in	in	ADP	IN	_	5	case	5:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 5	minneapolis	minneapolis	PROPN	NNP	Number=Sing	3	nmod	3:nmod:in	_	_	N	minneapolis	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # newdoc id = reviews-186235
 # sent_id = reviews-186235-0001
+# newpar id = reviews-186235-p0001
 # text = wow, the representative went way above and beyond in helping me with my account set up.
 # streusle_sent_id = ewtb.r.186235.1
 # mwe = wow , the representative went_ way _above_and_beyond in helping me with my account set_up .
@@ -3787,19 +3912,21 @@
 12	people	people	NOUN	NNS	Number=Plur	11	obj	11:obj	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 13	to	to	PART	TO	_	14	mark	14:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 14	work	work	VERB	VB	VerbForm=Inf	12	acl	12:acl:to	_	_	V	work	v.social	_	3:1	_	work with	B-V-v.social
-15	with	with	ADP	IN	_	14	obl	14:obl	_	_	P	with	p.SocialRel	p.Co-Agent	3:2	_	_	I~-P-p.SocialRel|p.Co-Agent
+15	with	with	ADP	IN	_	14	obl	14:obl	_	_	P	with	p.SocialRel	p.Ancillary	3:2	_	_	I~-P-p.SocialRel|p.Ancillary
 16	like	like	ADP	IN	_	17	case	17:case	_	_	P	like	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
 17	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nmod	12:nmod:like	SpaceAfter=No	_	PRON	this	_	_	_	_	_	O-PRON
 18	..	..	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	..	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-187163
 # sent_id = reviews-187163-0001
+# newpar id = reviews-187163-p0001
 # text = Linda
 # streusle_sent_id = ewtb.r.187163.1
 # mwe = Linda
 1	Linda	Linda	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	Linda	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-187163-0002
+# newpar id = reviews-187163-p0002
 # text = I would highly recommend Landscape by Hiro.
 # streusle_sent_id = ewtb.r.187163.2
 # mwe = I would highly~recommend Landscape_by_Hiro .
@@ -3826,6 +3953,7 @@
 
 # newdoc id = reviews-188382
 # sent_id = reviews-188382-0001
+# newpar id = reviews-188382-p0001
 # text = This is a great place to shop.
 # streusle_sent_id = ewtb.r.188382.1
 # mwe = This is a great place to shop .
@@ -3861,7 +3989,7 @@
 17	fact	fact	NOUN	NN	Number=Sing	15	obj	15:obj	_	_	N	fact	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 18	that	that	SCONJ	IN	_	25	mark	25:mark	_	_	SCONJ	that	_	_	_	_	_	O-SCONJ
 19	all	all	DET	DT	_	25	nsubj	25:nsubj	_	_	DET	all	_	_	_	_	_	O-DET
-20	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+20	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	_	_	DET	the	_	_	_	_	_	O-DET
 22	employees	employee	NOUN	NNS	Number=Plur	19	nmod	19:nmod:of	_	_	N	employee	n.PERSON	_	_	_	_	O-N-n.PERSON
 23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
@@ -3890,14 +4018,16 @@
 
 # newdoc id = reviews-192399
 # sent_id = reviews-192399-0001
+# newpar id = reviews-192399-p0001
 # text = Kyle with Bullwark
 # streusle_sent_id = ewtb.r.192399.1
 # mwe = Kyle with Bullwark
 1	Kyle	Kyle	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	Kyle	n.PERSON	_	_	_	_	O-N-n.PERSON
-2	with	with	ADP	IN	_	3	case	3:case	_	_	P	with	p.OrgRole	p.Accompanier	_	_	_	O-P-p.OrgRole|p.Accompanier
+2	with	with	ADP	IN	_	3	case	3:case	_	_	P	with	p.Org	p.Ancillary	_	_	_	O-P-p.Org|p.Ancillary
 3	Bullwark	Bullwark	PROPN	NNP	Number=Sing	1	nmod	1:nmod:with	_	_	N	Bullwark	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-192399-0002
+# newpar id = reviews-192399-p0002
 # text = Great job!
 # streusle_sent_id = ewtb.r.192399.2
 # mwe = Great job !
@@ -3929,6 +4059,7 @@
 
 # newdoc id = reviews-193257
 # sent_id = reviews-193257-0001
+# newpar id = reviews-193257-p0001
 # text = Gets the Job Done
 # streusle_sent_id = ewtb.r.193257.1
 # mwe = Gets_the_Job_Done
@@ -3938,6 +4069,7 @@
 4	Done	done	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_	1:4	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-193257-0002
+# newpar id = reviews-193257-p0002
 # text = We have utilized Mr. Pozza and his firm twice now in our family and both times have been very pleased.
 # streusle_sent_id = ewtb.r.193257.2
 # mwe = We have utilized Mr._Pozza and his firm twice now in our family and both times have been very pleased .
@@ -3947,12 +4079,12 @@
 4	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	3:obj	_	1:1	N	Mr. Pozza	n.PERSON	_	_	_	_	B-N-n.PERSON
 5	Pozza	Pozza	PROPN	NNP	Number=Sing	4	flat	4:flat	_	1:2	_	_	_	_	_	_	_	I_
 6	and	and	CCONJ	CC	_	8	cc	8:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	he	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_	_	PRON.POSS	he	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 8	firm	firm	NOUN	NN	Number=Sing	4	conj	3:obj|4:conj:and	_	_	N	firm	n.GROUP	_	_	_	_	O-N-n.GROUP
 9	twice	twice	ADV	RB	NumType=Mult	3	advmod	3:advmod	_	_	ADV	twice	_	_	_	_	_	O-ADV
 10	now	now	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	now	_	_	_	_	_	O-ADV
-11	in	in	ADP	IN	_	13	case	13:case	_	_	P	in	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
-12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	we	p.OrgRole	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgRole|p.Gestalt
+11	in	in	ADP	IN	_	13	case	13:case	_	_	P	in	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	we	p.OrgMember	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgMember|p.Gestalt
 13	family	family	NOUN	NN	Number=Sing	3	obl	3:obl:in	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 14	and	and	CCONJ	CC	_	20	cc	20:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 15	both	both	DET	DT	_	16	det	16:det	_	_	DET	both	_	_	_	_	_	O-DET
@@ -3979,7 +4111,7 @@
 10	refer	refer	VERB	VB	VerbForm=Inf	6	conj	4:xcomp|6:conj:or	_	_	V	refer	v.communication	_	_	_	_	O-V-v.communication
 11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj	_	_	PRON	he	_	_	_	_	_	O-PRON
 12	to	to	ADP	IN	_	14	case	14:case	_	_	P	to	??	_	_	_	_	O-P-??
-13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.OrgRole	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgRole|p.Gestalt
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_	_	PRON.POSS	my	p.OrgMember	p.Gestalt	_	_	_	O-PRON.POSS-p.OrgMember|p.Gestalt
 14	family	family	NOUN	NN	Number=Sing	10	obl	10:obl:to	_	_	N	family	n.GROUP	_	_	_	_	O-N-n.GROUP
 15	or	or	CCONJ	CC	_	16	cc	16:cc	_	_	CCONJ	or	_	_	_	_	_	O-CCONJ
 16	friends	friend	NOUN	NNS	Number=Plur	14	conj	10:obl:to|14:conj:or	SpaceAfter=No	_	N	friend	n.PERSON	_	_	_	_	O-N-n.PERSON
@@ -3987,6 +4119,7 @@
 
 # newdoc id = reviews-199045
 # sent_id = reviews-199045-0001
+# newpar id = reviews-199045-p0001
 # text = green curry and red curry is awesome!
 # streusle_sent_id = ewtb.r.199045.1
 # mwe = green_curry and red_curry is awesome !
@@ -4012,6 +4145,7 @@
 
 # newdoc id = reviews-200566
 # sent_id = reviews-200566-0001
+# newpar id = reviews-200566-p0001
 # text = THE TEACHING THERE SUCKS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # streusle_sent_id = ewtb.r.200566.1
 # mwe = THE TEACHING THERE SUCKS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -4026,7 +4160,7 @@
 # streusle_sent_id = ewtb.r.200566.2
 # mwe = ALL OF THE TEACHERS THERE ARE SO MEAN THEY GET MAD~AT YOU FOR~NOTHING !!!!!!!!!!!!!!!!!!!
 1	ALL	all	DET	DT	_	8	nsubj	8:nsubj	_	_	DET	all	_	_	_	_	_	O-DET
-2	OF	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+2	OF	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 3	THE	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_	_	DET	the	_	_	_	_	_	O-DET
 4	TEACHERS	teacher	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	_	_	N	teacher	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	THERE	there	ADV	RB	PronType=Dem	1	advmod	1:advmod	_	_	ADV	there	_	_	_	_	_	O-ADV
@@ -4059,6 +4193,7 @@
 
 # newdoc id = reviews-200668
 # sent_id = reviews-200668-0001
+# newpar id = reviews-200668-p0001
 # text = kudos to Allentown Post Office staff
 # streusle_sent_id = ewtb.r.200668.1
 # mwe = kudos to Allentown_Post_Office staff
@@ -4070,6 +4205,7 @@
 6	staff	staff	NOUN	NNS	Number=Plur	1	nmod	1:nmod:to	_	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-200668-0002
+# newpar id = reviews-200668-p0002
 # text = The staff in Allentown are friendly, helpful and a delight to know..
 # streusle_sent_id = ewtb.r.200668.2
 # mwe = The staff in Allentown are friendly , helpful and a delight to know ..
@@ -4090,12 +4226,14 @@
 
 # newdoc id = reviews-206303
 # sent_id = reviews-206303-0001
+# newpar id = reviews-206303-p0001
 # text = Natasha
 # streusle_sent_id = ewtb.r.206303.1
 # mwe = Natasha
 1	Natasha	Natasha	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	Natasha	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-206303-0002
+# newpar id = reviews-206303-p0002
 # text = A real pleasure training with Natasha.
 # streusle_sent_id = ewtb.r.206303.2
 # mwe = A real pleasure training with Natasha .
@@ -4103,7 +4241,7 @@
 2	real	real	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	_	ADJ	real	_	_	_	_	_	O-ADJ
 3	pleasure	pleasure	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	pleasure	n.FEELING	_	_	_	_	O-N-n.FEELING
 4	training	train	VERB	VBG	VerbForm=Ger	3	csubj	3:csubj	_	_	V	train	v.social	_	_	_	_	O-V-v.social
-5	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.SocialRel	p.Co-Agent	_	_	_	O-P-p.SocialRel|p.Co-Agent
+5	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.SocialRel	p.Ancillary	_	_	_	O-P-p.SocialRel|p.Ancillary
 6	Natasha	Natasha	PROPN	NNP	Number=Sing	4	obl	4:obl:with	SpaceAfter=No	_	N	Natasha	n.PERSON	_	_	_	_	O-N-n.PERSON
 7	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -4166,6 +4304,7 @@
 
 # newdoc id = reviews-207348
 # sent_id = reviews-207348-0001
+# newpar id = reviews-207348-p0001
 # text = Feels like you are in Brooklyn, but people watching is entertaining.
 # streusle_sent_id = ewtb.r.207348.1
 # mwe = Feels like you are in Brooklyn , but people_watching is entertaining .
@@ -4185,6 +4324,7 @@
 
 # newdoc id = reviews-210153
 # sent_id = reviews-210153-0001
+# newpar id = reviews-210153-p0001
 # text = Poor Taste
 # streusle_sent_id = ewtb.r.210153.1
 # mwe = Poor Taste
@@ -4192,6 +4332,7 @@
 2	Taste	taste	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	taste	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 
 # sent_id = reviews-210153-0002
+# newpar id = reviews-210153-p0002
 # text = There is no lower rating for Noonan's Liquor, owners and employees.
 # streusle_sent_id = ewtb.r.210153.2
 # mwe = There is no lower rating for Noonan_'s_Liquor , owners and employees .
@@ -4230,6 +4371,7 @@
 
 # newdoc id = reviews-210875
 # sent_id = reviews-210875-0001
+# newpar id = reviews-210875-p0001
 # text = Bulwark regarding service by Eric
 # streusle_sent_id = ewtb.r.210875.1
 # mwe = Bulwark regarding service by Eric
@@ -4240,6 +4382,7 @@
 5	Eric	Eric	PROPN	NNP	Number=Sing	3	nmod	3:nmod:by	_	_	N	Eric	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-210875-0002
+# newpar id = reviews-210875-p0002
 # text = Just wanted you to know that Eric came by as scheduled today and sprayed our house for scorpions.
 # streusle_sent_id = ewtb.r.210875.2
 # mwe = Just wanted you to know that Eric came_by as scheduled today and sprayed~ our house ~for scorpions .
@@ -4302,6 +4445,7 @@
 
 # newdoc id = reviews-211709
 # sent_id = reviews-211709-0001
+# newpar id = reviews-211709-p0001
 # text = Best ceviche that I'd had so far! :)
 # streusle_sent_id = ewtb.r.211709.1
 # mwe = Best ceviche that I 'd had so_far ! :)
@@ -4318,6 +4462,7 @@
 
 # newdoc id = reviews-211933
 # sent_id = reviews-211933-0001
+# newpar id = reviews-211933-p0001
 # text = Deep tissue massage helps with pain in neck and shoulders
 # streusle_sent_id = ewtb.r.211933.1
 # mwe = Deep_tissue massage helps with pain in neck and shoulders
@@ -4333,6 +4478,7 @@
 10	shoulders	shoulder	NOUN	NNS	Number=Plur	8	conj	6:nmod:in|8:conj:and	_	_	N	shoulder	n.BODY	_	_	_	_	O-N-n.BODY
 
 # sent_id = reviews-211933-0002
+# newpar id = reviews-211933-p0002
 # text = Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area.
 # streusle_sent_id = ewtb.r.211933.2
 # mwe = Seth provides deep_tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area .
@@ -4390,6 +4536,7 @@
 
 # newdoc id = reviews-212369
 # sent_id = reviews-212369-0001
+# newpar id = reviews-212369-p0001
 # text = Place is legit.
 # streusle_sent_id = ewtb.r.212369.1
 # mwe = Place is legit .
@@ -4422,6 +4569,7 @@
 
 # newdoc id = reviews-214912
 # sent_id = reviews-214912-0001
+# newpar id = reviews-214912-p0001
 # text = I have used Bright Futures for the last 7 years.
 # streusle_sent_id = ewtb.r.214912.1
 # mwe = I have used Bright_Futures for the last 7 years .
@@ -4484,6 +4632,7 @@
 
 # newdoc id = reviews-216281
 # sent_id = reviews-216281-0001
+# newpar id = reviews-216281-p0001
 # text = On time, Clean and very nice
 # streusle_sent_id = ewtb.r.216281.1
 # mwe = On_time , Clean and very nice
@@ -4496,6 +4645,7 @@
 7	nice	nice	ADJ	JJ	Degree=Pos	2	conj	2:conj:and	_	_	ADJ	nice	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-216281-0002
+# newpar id = reviews-216281-p0002
 # text = I called over the weekend due to clogged kitchen sink.
 # streusle_sent_id = ewtb.r.216281.2
 # mwe = I called over the weekend due_to clogged kitchen sink .
@@ -4549,7 +4699,7 @@
 7	nice	nice	ADJ	JJ	Degree=Pos	4	conj	4:conj:and	_	_	ADJ	nice	_	_	_	_	_	O-ADJ
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF	to	_	_	_	_	_	O-INF
 9	work	work	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:to	_	_	V	work	v.social	_	1:1	_	work with	B-V-v.social
-10	with	with	ADP	IN	_	9	obl	9:obl	_	_	P	with	p.SocialRel	p.Co-Agent	1:2	_	_	I~-P-p.SocialRel|p.Co-Agent
+10	with	with	ADP	IN	_	9	obl	9:obl	_	_	P	with	p.SocialRel	p.Ancillary	1:2	_	_	I~-P-p.SocialRel|p.Ancillary
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 12	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_	_	V	give	v.communication	_	2:1	_	give price	B-V-v.communication
 13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	_	_	DET	a	_	_	_	_	_	o-DET
@@ -4583,6 +4733,7 @@
 
 # newdoc id = reviews-217747
 # sent_id = reviews-217747-0001
+# newpar id = reviews-217747-p0001
 # text = exelent Job
 # streusle_sent_id = ewtb.r.217747.1
 # mwe = exelent Job
@@ -4622,7 +4773,7 @@
 # text = You company and services will be recommended by us to everyone."
 # streusle_sent_id = ewtb.r.217747.4
 # mwe = You company and services will be recommended by us to everyone . "
-1	You	you	PRON	PRP$	_	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
+1	You	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs|Typo=Yes	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	you	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 2	company	company	NOUN	NN	Number=Sing	7	nsubj:pass	7:nsubj:pass	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 4	services	service	NOUN	NNS	Number=Plur	2	conj	2:conj:and|7:nsubj:pass	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
@@ -4638,6 +4789,7 @@
 
 # newdoc id = reviews-219984
 # sent_id = reviews-219984-0001
+# newpar id = reviews-219984-p0001
 # text = never response the phone call
 # streusle_sent_id = ewtb.r.219984.1
 # mwe = never response the phone_call
@@ -4649,6 +4801,7 @@
 
 # newdoc id = reviews-223040
 # sent_id = reviews-223040-0001
+# newpar id = reviews-223040-p0001
 # text = I love this place lots of people to talk to and school is across the street!
 # streusle_sent_id = ewtb.r.223040.1
 # mwe = I love this place lots of people to talk to and school is across the street !
@@ -4657,7 +4810,7 @@
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_	_	DET	this	_	_	_	_	_	O-DET
 4	place	place	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 5	lots	lot	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	_	_	N	lot	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+6	of	of	ADP	IN	_	7	case	7:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 7	people	people	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 8	to	to	PART	TO	_	9	mark	9:mark	_	_	INF.P	to	p.Purpose	p.Purpose	_	_	_	O-INF.P-p.Purpose
 9	talk	talk	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_	_	V	talk	v.communication	_	_	_	_	O-V-v.communication
@@ -4672,6 +4825,7 @@
 
 # newdoc id = reviews-224117
 # sent_id = reviews-224117-0001
+# newpar id = reviews-224117-p0001
 # text = Drove all the way over from the highway... closed at 7.
 # streusle_sent_id = ewtb.r.224117.1
 # mwe = Drove all_the_way over from the highway ... closed at 7 .
@@ -4700,6 +4854,7 @@
 
 # newdoc id = reviews-225861
 # sent_id = reviews-225861-0001
+# newpar id = reviews-225861-p0001
 # text = My favorite place...
 # streusle_sent_id = ewtb.r.225861.1
 # mwe = My favorite place ...
@@ -4709,6 +4864,7 @@
 4	...	...	PUNCT	,	_	3	punct	3:punct	_	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-225861-0002
+# newpar id = reviews-225861-p0002
 # text = My daughter and I stayed here again from the 7th to the 14th of December.
 # streusle_sent_id = ewtb.r.225861.2
 # mwe = My daughter and I stayed here again from the 7th to the 14th of December .
@@ -4776,6 +4932,7 @@
 
 # newdoc id = reviews-226715
 # sent_id = reviews-226715-0001
+# newpar id = reviews-226715-p0001
 # text = Inford Media
 # streusle_sent_id = ewtb.r.226715.1
 # mwe = Inford_Media
@@ -4783,6 +4940,7 @@
 2	Media	Media	PROPN	NNP	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-226715-0002
+# newpar id = reviews-226715-p0002
 # text = Media, Software, Fun and Games, Website design, Web Promotion, B2B, Business Promotion, Search Engine Optimization.
 # streusle_sent_id = ewtb.r.226715.2
 # mwe = Media , Software , Fun_and_Games , Website design , Web Promotion , B2B , Business Promotion , Search_Engine_Optimization .
@@ -4812,6 +4970,7 @@
 
 # newdoc id = reviews-227515
 # sent_id = reviews-227515-0001
+# newpar id = reviews-227515-p0001
 # text = BEST DENTIST EVER -
 # streusle_sent_id = ewtb.r.227515.1
 # mwe = BEST DENTIST EVER -
@@ -4821,6 +4980,7 @@
 4	-	-	PUNCT	,	_	2	punct	2:punct	_	_	PUNCT	-	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-227515-0002
+# newpar id = reviews-227515-p0002
 # text = Very fast and efficient service.
 # streusle_sent_id = ewtb.r.227515.2
 # mwe = Very fast and efficient service .
@@ -4880,6 +5040,7 @@
 
 # newdoc id = reviews-227605
 # sent_id = reviews-227605-0001
+# newpar id = reviews-227605-p0001
 # text = Good local steakhouse, I recommend it!
 # streusle_sent_id = ewtb.r.227605.1
 # mwe = Good local steakhouse , I recommend it !
@@ -4894,6 +5055,7 @@
 
 # newdoc id = reviews-229100
 # sent_id = reviews-229100-0001
+# newpar id = reviews-229100-p0001
 # text = Great Place!
 # streusle_sent_id = ewtb.r.229100.1
 # mwe = Great Place !
@@ -4902,6 +5064,7 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-229100-0002
+# newpar id = reviews-229100-p0002
 # text = Love this place!!
 # streusle_sent_id = ewtb.r.229100.2
 # mwe = Love this place !!
@@ -4984,6 +5147,7 @@
 
 # newdoc id = reviews-229442
 # sent_id = reviews-229442-0001
+# newpar id = reviews-229442-p0001
 # text = nice friendly local bagel place
 # streusle_sent_id = ewtb.r.229442.1
 # mwe = nice friendly local bagel place
@@ -4994,6 +5158,7 @@
 5	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-229442-0002
+# newpar id = reviews-229442-p0002
 # text = there might be bigger and more well known bagel places in the area but Family Bagels are nice people, small shop and incredibly friendly.
 # streusle_sent_id = ewtb.r.229442.2
 # mwe = there might be bigger and more well_known bagel places in the area but Family_Bagels are nice people , small shop and incredibly friendly .
@@ -5055,6 +5220,7 @@
 
 # newdoc id = reviews-232278
 # sent_id = reviews-232278-0001
+# newpar id = reviews-232278-p0001
 # text = You are the only one auto glass repair shop in the area I would count on.
 # streusle_sent_id = ewtb.r.232278.1
 # mwe = You are the only one auto_glass~repair~shop in the area I would count_on .
@@ -5078,6 +5244,7 @@
 
 # newdoc id = reviews-235190
 # sent_id = reviews-235190-0001
+# newpar id = reviews-235190-p0001
 # text = Channel Guide
 # streusle_sent_id = ewtb.r.235190.1
 # mwe = Channel Guide
@@ -5085,6 +5252,7 @@
 2	Guide	guide	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	guide	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 
 # sent_id = reviews-235190-0002
+# newpar id = reviews-235190-p0002
 # text = Believe it or not, but the channel guide has been most helpful to my family members that visit and don't know where to start when it comes to watching satellite tv.
 # streusle_sent_id = ewtb.r.235190.2
 # mwe = Believe_it_or_not , but the channel guide has been most helpful to my family members that visit and do n't know where to start when_it_comes_to watching satellite_tv .
@@ -5153,6 +5321,7 @@
 
 # newdoc id = reviews-241108
 # sent_id = reviews-241108-0001
+# newpar id = reviews-241108-p0001
 # text = STAY AWAY
 # streusle_sent_id = ewtb.r.241108.1
 # mwe = STAY~AWAY
@@ -5160,6 +5329,7 @@
 2	AWAY	away	ADV	RB	_	1	advmod	1:advmod	_	_	P	away	p.Locus	p.Locus	1:2	_	_	I~-P-p.Locus
 
 # sent_id = reviews-241108-0002
+# newpar id = reviews-241108-p0002
 # text = Horrible service.
 # streusle_sent_id = ewtb.r.241108.2
 # mwe = Horrible service .
@@ -5195,6 +5365,7 @@
 
 # newdoc id = reviews-245928
 # sent_id = reviews-245928-0001
+# newpar id = reviews-245928-p0001
 # text = Rude and Untrustworthy
 # streusle_sent_id = ewtb.r.245928.1
 # mwe = Rude and Untrustworthy
@@ -5203,6 +5374,7 @@
 3	Untrustworthy	untrustworthy	ADJ	JJ	Degree=Pos	1	conj	1:conj:and	_	_	ADJ	untrustworthy	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-245928-0002
+# newpar id = reviews-245928-p0002
 # text = These guys took Customer Service 101 from a Neanderthal.
 # streusle_sent_id = ewtb.r.245928.2
 # mwe = These guys took Customer_Service 101 from a Neanderthal .
@@ -5241,6 +5413,7 @@
 
 # newdoc id = reviews-250878
 # sent_id = reviews-250878-0001
+# newpar id = reviews-250878-p0001
 # text = This is my favorite coffee store.
 # streusle_sent_id = ewtb.r.250878.1
 # mwe = This is my favorite coffee_store .
@@ -5263,6 +5436,7 @@
 
 # newdoc id = reviews-251755
 # sent_id = reviews-251755-0001
+# newpar id = reviews-251755-p0001
 # text = Absolutely amazing job!
 # streusle_sent_id = ewtb.r.251755.1
 # mwe = Absolutely amazing job !
@@ -5272,6 +5446,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-251755-0002
+# newpar id = reviews-251755-p0002
 # text = Susanna is the best dress maker/tailor I've ever come across in my whole life!
 # streusle_sent_id = ewtb.r.251755.2
 # mwe = Susanna is the best dress_maker / tailor I 've ever come_across in~ my whole ~life !
@@ -5341,6 +5516,7 @@
 
 # newdoc id = reviews-252791
 # sent_id = reviews-252791-0001
+# newpar id = reviews-252791-p0001
 # text = no feathers in stock!!!!
 # streusle_sent_id = ewtb.r.252791.1
 # mwe = no feathers in_stock !!!!
@@ -5400,6 +5576,7 @@
 
 # newdoc id = reviews-254908
 # sent_id = reviews-254908-0001
+# newpar id = reviews-254908-p0001
 # text = I hired this company to unlock my car.
 # streusle_sent_id = ewtb.r.254908.1
 # mwe = I hired this company to unlock my car .
@@ -5456,7 +5633,7 @@
 18	quite	quite	DET	PDT	_	20	det:predet	20:det:predet	_	_	DET	quite	_	_	5:1	_	quite a bit	b-DET
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	_	6:1	N	a bit	n.QUANTITY	_	5:2	_	_	i~-N-n.QUANTITY
 20	bit	bit	NOUN	NN	Number=Sing	17	obj	17:obj	_	6:2	_	_	_	_	5:3	_	_	i_
-21	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	o-P-p.Quantity
+21	of	of	ADP	IN	_	22	case	22:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	o-P-p.QuantityItem
 22	time	time	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	_	4:2	_	_	_	_	_	_	_	I_
 23	but	but	CCONJ	CC	_	28	cc	28:cc	_	_	CCONJ	but	_	_	_	_	_	O-CCONJ
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_	_	DET	the	_	_	_	_	_	O-DET
@@ -5468,6 +5645,7 @@
 
 # newdoc id = reviews-255757
 # sent_id = reviews-255757-0001
+# newpar id = reviews-255757-p0001
 # text = they recovered the pics geeksquad deleted.
 # streusle_sent_id = ewtb.r.255757.1
 # mwe = they recovered the pics geeksquad deleted .
@@ -5488,6 +5666,7 @@
 
 # newdoc id = reviews-256677
 # sent_id = reviews-256677-0001
+# newpar id = reviews-256677-p0001
 # text = Love Hop City
 # streusle_sent_id = ewtb.r.256677.1
 # mwe = Love Hop_City
@@ -5496,6 +5675,7 @@
 3	City	City	PROPN	NNP	Number=Sing	1	obj	1:obj	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-256677-0002
+# newpar id = reviews-256677-p0002
 # text = This place is great!
 # streusle_sent_id = ewtb.r.256677.2
 # mwe = This place is great !
@@ -5527,7 +5707,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	_	_	INF	to	_	_	_	_	_	O-INF
 6	get	get	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_	_	V	get	v.possession	_	_	_	_	O-V-v.possession
 7	all	all	DET	DT	_	6	obj	6:obj	_	_	DET	all	_	_	_	_	_	O-DET
-8	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+8	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_	_	PRON.POSS	my	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 10	wine	wine	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	_	_	N	wine	n.FOOD	_	_	_	_	O-N-n.FOOD
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -5550,6 +5730,7 @@
 
 # newdoc id = reviews-257735
 # sent_id = reviews-257735-0001
+# newpar id = reviews-257735-p0001
 # text = Don't waste your money on the jukebox
 # streusle_sent_id = ewtb.r.257735.1
 # mwe = Do n't waste your money on the jukebox
@@ -5563,6 +5744,7 @@
 8	jukebox	jukebox	NOUN	NN	Number=Sing	3	obl	3:obl:on	_	_	N	jukebox	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 
 # sent_id = reviews-257735-0002
+# newpar id = reviews-257735-p0002
 # text = The bartender is a douchebag and he has a little console behind the bar where he can delete songs he doesn't like, and you end up paying for it.
 # streusle_sent_id = ewtb.r.257735.2
 # mwe = The bartender is a douchebag and he has a little console behind the bar where he can delete songs he does n't like , and you end_up paying for it .
@@ -5610,6 +5792,7 @@
 
 # newdoc id = reviews-263909
 # sent_id = reviews-263909-0001
+# newpar id = reviews-263909-p0001
 # text = Great Service Great People
 # streusle_sent_id = ewtb.r.263909.1
 # mwe = Great Service Great People
@@ -5619,6 +5802,7 @@
 4	People	people	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 
 # sent_id = reviews-263909-0002
+# newpar id = reviews-263909-p0002
 # text = Bisconti wanted over $300 to fix my laptop and these guys fixed it for $90!
 # streusle_sent_id = ewtb.r.263909.2
 # mwe = Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !
@@ -5672,17 +5856,19 @@
 
 # newdoc id = reviews-264993
 # sent_id = reviews-264993-0001
+# newpar id = reviews-264993-p0001
 # text = An Hour Of Prego Bliss!
 # streusle_sent_id = ewtb.r.264993.1
 # mwe = An Hour Of Prego Bliss !
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	_	_	DET	a	_	_	_	_	_	O-DET
 2	Hour	hour	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	hour	n.TIME	_	_	_	_	O-N-n.TIME
-3	Of	of	ADP	IN	_	5	case	5:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+3	Of	of	ADP	IN	_	5	case	5:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 4	Prego	Prego	PROPN	NNP	Number=Sing	5	compound	5:compound	_	_	N	Prego	n.SUBSTANCE	_	_	_	_	O-N-n.SUBSTANCE
 5	Bliss	bliss	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	SpaceAfter=No	_	N	bliss	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 6	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-264993-0002
+# newpar id = reviews-264993-p0002
 # text = I schedule my weekly appointment here just to get a chance to lie comfortably on my tummy.
 # streusle_sent_id = ewtb.r.264993.2
 # mwe = I schedule my weekly appointment here just to get_ a _chance to lie comfortably on my tummy .
@@ -5727,6 +5913,7 @@
 
 # newdoc id = reviews-266955
 # sent_id = reviews-266955-0001
+# newpar id = reviews-266955-p0001
 # text = The finest German bedding and linens store.
 # streusle_sent_id = ewtb.r.266955.1
 # mwe = The finest German_bedding and linens store .
@@ -5753,6 +5940,7 @@
 
 # newdoc id = reviews-268952
 # sent_id = reviews-268952-0001
+# newpar id = reviews-268952-p0001
 # text = Wonderful Atmosphere
 # streusle_sent_id = ewtb.r.268952.1
 # mwe = Wonderful Atmosphere
@@ -5760,6 +5948,7 @@
 2	Atmosphere	atmosphere	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	atmosphere	n.ATTRIBUTE	_	_	_	_	O-N-n.ATTRIBUTE
 
 # sent_id = reviews-268952-0002
+# newpar id = reviews-268952-p0002
 # text = I have been going there since I was a little girl and love the friendly and relaxing atmosphere.
 # streusle_sent_id = ewtb.r.268952.2
 # mwe = I have been going there since I was a little girl and love the friendly and relaxing atmosphere .
@@ -5828,6 +6017,7 @@
 
 # newdoc id = reviews-270889
 # sent_id = reviews-270889-0001
+# newpar id = reviews-270889-p0001
 # text = Staten Island Computers
 # streusle_sent_id = ewtb.r.270889.1
 # mwe = Staten_Island_Computers
@@ -5836,6 +6026,7 @@
 3	Computers	Computers	PROPN	NNPS	Number=Plur	0	root	0:root	_	1:3	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-270889-0002
+# newpar id = reviews-270889-p0002
 # text = Superior work - always comes through when we need him.
 # streusle_sent_id = ewtb.r.270889.2
 # mwe = Superior work - always comes_through when we need him .
@@ -5875,12 +6066,14 @@
 
 # newdoc id = reviews-275595
 # sent_id = reviews-275595-0001
+# newpar id = reviews-275595-p0001
 # text = teeth
 # streusle_sent_id = ewtb.r.275595.1
 # mwe = teeth
 1	teeth	tooth	NOUN	NNS	Number=Plur	0	root	0:root	_	_	N	tooth	n.BODY	_	_	_	_	O-N-n.BODY
 
 # sent_id = reviews-275595-0002
+# newpar id = reviews-275595-p0002
 # text = this dentist want to pull the tooth out always.. always wants to do the cheapest for his benefit.. not unless he knows you.
 # streusle_sent_id = ewtb.r.275595.2
 # mwe = this dentist want to pull_ the _tooth_out always .. always wants to do the cheapest for his benefit .. not unless he knows you .
@@ -5929,7 +6122,7 @@
 12	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl:because	_	_	V	tell	v.communication	_	_	_	_	O-V-v.communication
 13	others	other	NOUN	NNS	Number=Plur	12	obj	12:obj	_	_	PRON	other	_	_	_	_	_	O-PRON
 14	about	about	ADP	IN	_	17	case	17:case	_	_	P	about	p.Topic	p.Topic	_	_	_	O-P-p.Topic
-15	you	you	PRON	PRP$	_	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
+15	you	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs|Typo=Yes	17	nmod:poss	17:nmod:poss	_	_	PRON.POSS	you	p.Gestalt	p.Gestalt	_	_	_	O-PRON.POSS-p.Gestalt
 16	payment	payment	NOUN	NN	Number=Sing	17	compound	17:compound	_	_	N	payment	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 17	status	status	NOUN	NN	Number=Sing	12	obl	12:obl:about	SpaceAfter=No	_	N	status	n.STATE	_	_	_	_	O-N-n.STATE
 18	.	.	PUNCT	.	_	6	punct	6:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -5947,6 +6140,7 @@
 
 # newdoc id = reviews-277703
 # sent_id = reviews-277703-0001
+# newpar id = reviews-277703-p0001
 # text = The best Supermarket in Bay Ridge have everything what a customer needs.
 # streusle_sent_id = ewtb.r.277703.1
 # mwe = The best Supermarket in Bay_Ridge have everything what a customer needs .
@@ -5966,6 +6160,7 @@
 
 # newdoc id = reviews-283903
 # sent_id = reviews-283903-0001
+# newpar id = reviews-283903-p0001
 # text = very reasonable prices.
 # streusle_sent_id = ewtb.r.283903.1
 # mwe = very reasonable prices .
@@ -5994,6 +6189,7 @@
 
 # newdoc id = reviews-286172
 # sent_id = reviews-286172-0001
+# newpar id = reviews-286172-p0001
 # text = This place is awesome
 # streusle_sent_id = ewtb.r.286172.1
 # mwe = This place is awesome
@@ -6003,6 +6199,7 @@
 4	awesome	awesome	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	awesome	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-286172-0002
+# newpar id = reviews-286172-p0002
 # text = Great work, good price.
 # streusle_sent_id = ewtb.r.286172.2
 # mwe = Great work , good price .
@@ -6023,6 +6220,7 @@
 
 # newdoc id = reviews-287360
 # sent_id = reviews-287360-0001
+# newpar id = reviews-287360-p0001
 # text = So delightful.
 # streusle_sent_id = ewtb.r.287360.1
 # mwe = So delightful .
@@ -6097,6 +6295,7 @@
 
 # newdoc id = reviews-289763
 # sent_id = reviews-289763-0001
+# newpar id = reviews-289763-p0001
 # text = Awesome service with a smile :)
 # streusle_sent_id = ewtb.r.289763.1
 # mwe = Awesome service with a smile :)
@@ -6109,6 +6308,7 @@
 
 # newdoc id = reviews-290238
 # sent_id = reviews-290238-0001
+# newpar id = reviews-290238-p0001
 # text = Out of business?
 # streusle_sent_id = ewtb.r.290238.1
 # mwe = Out_of_business ?
@@ -6118,6 +6318,7 @@
 4	?	?	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	?	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-290238-0002
+# newpar id = reviews-290238-p0002
 # text = I think this location is no longer in business.
 # streusle_sent_id = ewtb.r.290238.2
 # mwe = I think this location is no longer in_business .
@@ -6170,6 +6371,7 @@
 
 # newdoc id = reviews-294978
 # sent_id = reviews-294978-0001
+# newpar id = reviews-294978-p0001
 # text = not impressive enough
 # streusle_sent_id = ewtb.r.294978.1
 # mwe = not impressive enough
@@ -6178,6 +6380,7 @@
 3	enough	enough	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	enough	_	_	_	_	_	O-ADV
 
 # sent_id = reviews-294978-0002
+# newpar id = reviews-294978-p0002
 # text = It's a fine place, I'm just a little mystified about the Michelin star.
 # streusle_sent_id = ewtb.r.294978.2
 # mwe = It 's a fine place , I 'm just a_little mystified about the Michelin_star .
@@ -6219,6 +6422,7 @@
 
 # newdoc id = reviews-295935
 # sent_id = reviews-295935-0001
+# newpar id = reviews-295935-p0001
 # text = Very Informative website with alot of good work
 # streusle_sent_id = ewtb.r.295935.1
 # mwe = Very Informative website with a_lot of good~work
@@ -6228,12 +6432,13 @@
 4	with	with	ADP	IN	_	6	case	6:case	_	_	P	with	p.Characteristic	p.Characteristic	_	_	_	O-P-p.Characteristic
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	SpaceAfter=No	1:1	DET	a lot	_	_	_	_	_	B-DET
 6	lot	lot	NOUN	NN	Number=Sing	3	nmod	3:nmod:with	_	1:2	_	_	_	_	_	_	_	I_
-7	of	of	ADP	IN	_	9	case	9:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+7	of	of	ADP	IN	_	9	case	9:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 8	good	good	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	good	_	_	2:1	_	good work	B-ADJ
 9	work	work	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	_	_	N	work	n.ACT	_	2:2	_	_	I~-N-n.ACT
 
 # newdoc id = reviews-296357
 # sent_id = reviews-296357-0001
+# newpar id = reviews-296357-p0001
 # text = Close to my house, this is the only reason I would go to this particular QT.
 # streusle_sent_id = ewtb.r.296357.1
 # mwe = Close to my house , this is the only reason I would go to this particular QT .
@@ -6258,6 +6463,7 @@
 
 # newdoc id = reviews-299169
 # sent_id = reviews-299169-0001
+# newpar id = reviews-299169-p0001
 # text = Terrible customer service
 # streusle_sent_id = ewtb.r.299169.1
 # mwe = Terrible customer_service
@@ -6266,6 +6472,7 @@
 3	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-299169-0002
+# newpar id = reviews-299169-p0002
 # text = Fried rice has NO flavor, it literally taste like water.
 # streusle_sent_id = ewtb.r.299169.2
 # mwe = Fried_rice has NO flavor , it literally taste like water .
@@ -6277,7 +6484,7 @@
 6	,	,	PUNCT	,	_	3	punct	3:punct	_	_	PUNCT	,	_	_	_	_	_	O-PUNCT
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	_	_	PRON	it	_	_	_	_	_	O-PRON
 8	literally	literally	ADV	RB	_	9	advmod	9:advmod	_	_	ADV	literally	_	_	_	_	_	O-ADV
-9	taste	taste	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_	_	V	taste	v.perception	_	_	_	_	O-V-v.perception
+9	taste	taste	VERB	VBP	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	3	parataxis	3:parataxis	_	_	V	taste	v.perception	_	_	_	_	O-V-v.perception
 10	like	like	ADP	IN	_	11	case	11:case	_	_	P	like	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
 11	water	water	NOUN	NN	Number=Sing	9	obl	9:obl:like	SpaceAfter=No	_	N	water	n.FOOD	_	_	_	_	O-N-n.FOOD
 12	.	.	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
@@ -6300,7 +6507,7 @@
 12	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	8:parataxis	_	1:1	AUX	have to	_	_	_	_	_	B-AUX
 13	to	to	PART	TO	_	14	mark	14:mark	_	1:2	_	_	_	_	_	_	_	I_
 14	leave	leave	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_	_	V	leave	v.motion	_	_	_	_	O-V-v.motion
-15	without	without	ADP	IN	_	17	case	17:case	_	_	P	without	p.Possession	p.Accompanier	_	_	_	O-P-p.Possession|p.Accompanier
+15	without	without	ADP	IN	_	17	case	17:case	_	_	P	without	p.Possession	p.Ancillary	_	_	_	O-P-p.Possession|p.Ancillary
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	_	_	DET	a	_	_	_	_	_	O-DET
 17	refund	refund	NOUN	NN	Number=Sing	14	obl	14:obl:without	_	_	N	refund	n.POSSESSION	_	_	_	_	O-N-n.POSSESSION
 18	and	and	CCONJ	CC	_	20	cc	20:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
@@ -6310,6 +6517,7 @@
 
 # newdoc id = reviews-299524
 # sent_id = reviews-299524-0001
+# newpar id = reviews-299524-p0001
 # text = Quality has fallen over the years, but still the best go-to burger place on the East Bay.
 # streusle_sent_id = ewtb.r.299524.1
 # mwe = Quality has fallen over_the_years , but still the best go_-_to burger place on the East_Bay .
@@ -6337,6 +6545,7 @@
 
 # newdoc id = reviews-302465
 # sent_id = reviews-302465-0001
+# newpar id = reviews-302465-p0001
 # text = Great place
 # streusle_sent_id = ewtb.r.302465.1
 # mwe = Great place
@@ -6344,6 +6553,7 @@
 2	place	place	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	place	n.GROUP	_	_	_	_	O-N-n.GROUP
 
 # sent_id = reviews-302465-0002
+# newpar id = reviews-302465-p0002
 # text = Really great service and kind staff.
 # streusle_sent_id = ewtb.r.302465.2
 # mwe = Really great service and kind staff .
@@ -6409,6 +6619,7 @@
 
 # newdoc id = reviews-303728
 # sent_id = reviews-303728-0001
+# newpar id = reviews-303728-p0001
 # text = Great gym and great services.
 # streusle_sent_id = ewtb.r.303728.1
 # mwe = Great gym and great services .
@@ -6421,6 +6632,7 @@
 
 # newdoc id = reviews-304759
 # sent_id = reviews-304759-0001
+# newpar id = reviews-304759-p0001
 # text = A very nice park.
 # streusle_sent_id = ewtb.r.304759.1
 # mwe = A very nice park .
@@ -6443,6 +6655,7 @@
 
 # newdoc id = reviews-307170
 # sent_id = reviews-307170-0001
+# newpar id = reviews-307170-p0001
 # text = Best Limo Limousine service in all of Dallas
 # streusle_sent_id = ewtb.r.307170.1
 # mwe = Best Limo Limousine service in all of Dallas
@@ -6452,10 +6665,11 @@
 4	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 5	in	in	ADP	IN	_	6	case	6:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 6	all	all	DET	DT	_	4	nmod	4:nmod:in	_	_	DET	all	_	_	_	_	_	O-DET
-7	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+7	of	of	ADP	IN	_	8	case	8:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 8	Dallas	Dallas	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	_	_	N	Dallas	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-307170-0002
+# newpar id = reviews-307170-p0002
 # text = Great Limos company int he DFW fort Worth Metro area.
 # streusle_sent_id = ewtb.r.307170.2
 # mwe = Great Limos company int he DFW_ fort_Worth _Metro_area .
@@ -6482,7 +6696,7 @@
 5	services	service	NOUN	NNS	Number=Plur	2	obj	2:obj	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 6	for	for	ADP	IN	_	7	case	7:case	_	_	P	for	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
 7	all	all	DET	DT	_	2	obl	2:obl:for	_	_	DET	all	_	_	_	_	_	O-DET
-8	of	of	ADP	IN	_	12	case	12:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+8	of	of	ADP	IN	_	12	case	12:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	_	_	PRON.POSS	my	p.Beneficiary	p.Possessor	_	_	_	O-PRON.POSS-p.Beneficiary|p.Possessor
 10	airport	airport	NOUN	NN	Number=Sing	12	compound	12:compound	_	_	N	airport	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 11	car	car	NOUN	NN	Number=Sing	12	compound	12:compound	_	_	N	car	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
@@ -6494,6 +6708,7 @@
 
 # newdoc id = reviews-309258
 # sent_id = reviews-309258-0001
+# newpar id = reviews-309258-p0001
 # text = slow service
 # streusle_sent_id = ewtb.r.309258.1
 # mwe = slow service
@@ -6501,6 +6716,7 @@
 2	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-309258-0002
+# newpar id = reviews-309258-p0002
 # text = I used to take my cars there all thetime, but management changes hands too frequently, the service has been slow, and they often try to "add on" extra services, which sometimes is not needed.
 # streusle_sent_id = ewtb.r.309258.2
 # mwe = I used_to take my cars there all_the_time , but management changes hands too frequently , the service has been slow , and they often try to " add_on " extra services , which sometimes is not needed .
@@ -6560,6 +6776,7 @@
 
 # newdoc id = reviews-313126
 # sent_id = reviews-313126-0001
+# newpar id = reviews-313126-p0001
 # text = I gave Dr. Rohatgi 2 stars because her assistant was very pleasant.
 # streusle_sent_id = ewtb.r.313126.1
 # mwe = I gave Dr._Rohatgi 2_stars because her assistant was very pleasant .
@@ -6599,6 +6816,7 @@
 
 # newdoc id = reviews-314024
 # sent_id = reviews-314024-0001
+# newpar id = reviews-314024-p0001
 # text = Old time grocery, best steaks I have ever had!
 # streusle_sent_id = ewtb.r.314024.1
 # mwe = Old_time grocery , best steaks I have ever had !
@@ -6635,6 +6853,7 @@
 
 # newdoc id = reviews-314711
 # sent_id = reviews-314711-0001
+# newpar id = reviews-314711-p0001
 # text = Dr. White is the best!
 # streusle_sent_id = ewtb.r.314711.1
 # mwe = Dr._White is the best !
@@ -6647,6 +6866,7 @@
 
 # newdoc id = reviews-314880
 # sent_id = reviews-314880-0001
+# newpar id = reviews-314880-p0001
 # text = I am in love with the giant plate of nachos!
 # streusle_sent_id = ewtb.r.314880.1
 # mwe = I am in_love~with the giant plate of nachos !
@@ -6658,7 +6878,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_	_	DET	the	_	_	_	_	_	O-DET
 7	giant	giant	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	ADJ	giant	_	_	_	_	_	O-ADJ
 8	plate	plate	NOUN	NN	Number=Sing	4	nmod	4:nmod:with	_	_	N	plate	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.Quantity	p.Stuff	_	_	_	O-P-p.Quantity|p.Stuff
+9	of	of	ADP	IN	_	10	case	10:case	_	_	P	of	p.QuantityItem	p.Stuff	_	_	_	O-P-p.QuantityItem|p.Stuff
 10	nachos	nacho	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	SpaceAfter=No	_	N	nacho	n.FOOD	_	_	_	_	O-N-n.FOOD
 11	!	!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
@@ -6699,7 +6919,7 @@
 8	treatment	treatment	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	_	_	N	treatment	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 9	from	from	ADP	IN	_	10	case	10:case	_	_	P	from	p.Source	p.Source	_	_	_	O-P-p.Source
 10	some	some	DET	DT	_	2	obl	2:obl:from	_	_	DET	some	_	_	_	_	_	O-DET
-11	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.Quantity	p.Whole	_	_	_	O-P-p.Quantity|p.Whole
+11	of	of	ADP	IN	_	13	case	13:case	_	_	P	of	p.QuantityItem	p.Whole	_	_	_	O-P-p.QuantityItem|p.Whole
 12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	_	PRON.POSS	they	p.SocialRel	p.Gestalt	_	_	_	O-PRON.POSS-p.SocialRel|p.Gestalt
 13	staff	staff	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	SpaceAfter=No	_	N	staff	n.GROUP	_	_	_	_	O-N-n.GROUP
 14	...	...	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No	_	PUNCT	...	_	_	_	_	_	O-PUNCT
@@ -6719,6 +6939,7 @@
 
 # newdoc id = reviews-314938
 # sent_id = reviews-314938-0001
+# newpar id = reviews-314938-p0001
 # text = The best pilates on the Gold Coast!
 # streusle_sent_id = ewtb.r.314938.1
 # mwe = The best pilates on the Gold_Coast !
@@ -6733,6 +6954,7 @@
 
 # newdoc id = reviews-325330
 # sent_id = reviews-325330-0001
+# newpar id = reviews-325330-p0001
 # text = Not impressed.
 # streusle_sent_id = ewtb.r.325330.1
 # mwe = Not impressed .
@@ -6778,6 +7000,7 @@
 
 # newdoc id = reviews-325741
 # sent_id = reviews-325741-0001
+# newpar id = reviews-325741-p0001
 # text = Class act.
 # streusle_sent_id = ewtb.r.325741.1
 # mwe = Class_act .
@@ -6843,13 +7066,14 @@
 1	Would	would	AUX	MD	VerbForm=Fin	2	aux	2:aux	_	_	AUX	would	_	_	_	_	_	O-AUX
 2	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:1	V.LVC.full	do business	v.social	_	_	_	_	B-V.LVC.full-v.social
 3	business	business	NOUN	NN	Number=Sing	2	obj	2:obj	_	1:2	_	_	_	_	_	_	_	I_
-4	with	with	ADP	IN	_	5	case	5:case	_	_	P	with	p.Co-Agent	p.Co-Agent	_	_	_	O-P-p.Co-Agent
+4	with	with	ADP	IN	_	5	case	5:case	_	_	P	with	p.Agent	p.Ancillary	_	_	_	O-P-p.Agent|p.Ancillary
 5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	nmod	3:nmod:with	_	_	PRON	they	_	_	_	_	_	O-PRON
 6	again	again	ADV	RB	_	2	advmod	2:advmod	SpaceAfter=No	_	ADV	again	_	_	_	_	_	O-ADV
 7	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # newdoc id = reviews-327867
 # sent_id = reviews-327867-0001
+# newpar id = reviews-327867-p0001
 # text = Good clean store nice car wash
 # streusle_sent_id = ewtb.r.327867.1
 # mwe = Good clean store nice car_wash
@@ -6862,6 +7086,7 @@
 
 # newdoc id = reviews-329807
 # sent_id = reviews-329807-0001
+# newpar id = reviews-329807-p0001
 # text = Best Electrician in Florence
 # streusle_sent_id = ewtb.r.329807.1
 # mwe = Best Electrician in Florence
@@ -6871,6 +7096,7 @@
 4	Florence	Florence	PROPN	NNP	Number=Sing	2	nmod	2:nmod:in	_	_	N	Florence	n.LOCATION	_	_	_	_	O-N-n.LOCATION
 
 # sent_id = reviews-329807-0002
+# newpar id = reviews-329807-p0002
 # text = I have been using Steele Electric for years.
 # streusle_sent_id = ewtb.r.329807.2
 # mwe = I have been using Steele_Electric for years .
@@ -6911,6 +7137,7 @@
 
 # newdoc id = reviews-332068
 # sent_id = reviews-332068-0001
+# newpar id = reviews-332068-p0001
 # text = Would not recommend I Was in a fair amount of pain for several weeks.
 # streusle_sent_id = ewtb.r.332068.1
 # mwe = Would not recommend I Was in_ a fair amount of _pain for several weeks .
@@ -6923,7 +7150,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_	_	DET	a	_	_	_	_	_	o-DET
 8	fair	fair	ADJ	JJ	Degree=Pos	9	amod	9:amod	_	_	ADJ	fair	_	_	_	_	_	o-ADJ
 9	amount	amount	NOUN	NN	Number=Sing	3	parataxis	3:parataxis	_	_	N	amount	n.QUANTITY	_	_	_	_	o-N-n.QUANTITY
-10	of	of	ADP	IN	_	11	case	11:case	_	_	P	of	p.Quantity	p.Gestalt	_	_	_	o-P-p.Quantity|p.Gestalt
+10	of	of	ADP	IN	_	11	case	11:case	_	_	P	of	p.QuantityItem	p.Gestalt	_	_	_	o-P-p.QuantityItem|p.Gestalt
 11	pain	pain	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	_	1:2	_	_	_	_	_	_	_	I_
 12	for	for	ADP	IN	_	14	case	14:case	_	_	P	for	p.Duration	p.Duration	_	_	_	O-P-p.Duration
 13	several	several	ADJ	JJ	Degree=Pos	14	amod	14:amod	_	_	ADJ	several	_	_	_	_	_	O-ADJ
@@ -6934,7 +7161,7 @@
 # text = his clinic is very very dirty he is a real disaster to go totally not organized for every step he take .
 # streusle_sent_id = ewtb.r.332068.2
 # mwe = his clinic is very very dirty he is a real disaster to go totally not organized for every step_ he _take .
-1	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	he	p.OrgRole	p.Possessor	_	_	_	O-PRON.POSS-p.OrgRole|p.Possessor
+1	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	_	PRON.POSS	he	p.OrgMember	p.Possessor	_	_	_	O-PRON.POSS-p.OrgMember|p.Possessor
 2	clinic	clinic	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_	_	N	clinic	n.GROUP	_	_	_	_	O-N-n.GROUP
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 4	very	very	ADV	RB	_	5	advmod	5:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
@@ -6959,6 +7186,7 @@
 
 # newdoc id = reviews-333628
 # sent_id = reviews-333628-0001
+# newpar id = reviews-333628-p0001
 # text = WHAT A GREAT DEAL THANK YOU
 # streusle_sent_id = ewtb.r.333628.1
 # mwe = WHAT A GREAT DEAL THANK_YOU
@@ -6971,6 +7199,7 @@
 
 # newdoc id = reviews-334808
 # sent_id = reviews-334808-0001
+# newpar id = reviews-334808-p0001
 # text = Great deals, great pizza!
 # streusle_sent_id = ewtb.r.334808.1
 # mwe = Great deals , great pizza !
@@ -6983,6 +7212,7 @@
 
 # newdoc id = reviews-334928
 # sent_id = reviews-334928-0001
+# newpar id = reviews-334928-p0001
 # text = One of the better vegetarian sandwiches I've had in Seattle.
 # streusle_sent_id = ewtb.r.334928.1
 # mwe = One of the better vegetarian sandwiches I 've had in Seattle .
@@ -7019,6 +7249,7 @@
 
 # newdoc id = reviews-335490
 # sent_id = reviews-335490-0001
+# newpar id = reviews-335490-p0001
 # text = Cleanest guesthouse i have been to
 # streusle_sent_id = ewtb.r.335490.1
 # mwe = Cleanest guesthouse i have been_to
@@ -7030,6 +7261,7 @@
 6	to	to	ADP	IN	_	2	acl:relcl	2:acl:relcl	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-335490-0002
+# newpar id = reviews-335490-p0002
 # text = Stayed here for 2 nights.
 # streusle_sent_id = ewtb.r.335490.2
 # mwe = Stayed here for 2 nights .
@@ -7088,6 +7320,7 @@
 
 # newdoc id = reviews-336285
 # sent_id = reviews-336285-0001
+# newpar id = reviews-336285-p0001
 # text = What a Preschool!
 # streusle_sent_id = ewtb.r.336285.1
 # mwe = What a Preschool !
@@ -7097,6 +7330,7 @@
 4	!	!	PUNCT	.	_	3	punct	3:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-336285-0002
+# newpar id = reviews-336285-p0002
 # text = If you want the best for your child, don't hesitate in visiting this wornderful school.
 # streusle_sent_id = ewtb.r.336285.2
 # mwe = If you want the best for your child , do n't hesitate in visiting this wornderful school .
@@ -7135,6 +7369,7 @@
 
 # newdoc id = reviews-336305
 # sent_id = reviews-336305-0001
+# newpar id = reviews-336305-p0001
 # text = hard to forgive such an awful margarita and steep prices but the food can be good
 # streusle_sent_id = ewtb.r.336305.1
 # mwe = hard to forgive such an awful margarita and steep~prices but the food can be good
@@ -7157,6 +7392,7 @@
 
 # newdoc id = reviews-341750
 # sent_id = reviews-341750-0001
+# newpar id = reviews-341750-p0001
 # text = Not so good
 # streusle_sent_id = ewtb.r.341750.1
 # mwe = Not so good
@@ -7165,6 +7401,7 @@
 3	good	good	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	good	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-341750-0002
+# newpar id = reviews-341750-p0002
 # text = Not worth the money.
 # streusle_sent_id = ewtb.r.341750.2
 # mwe = Not worth the money .
@@ -7230,6 +7467,7 @@
 
 # newdoc id = reviews-343336
 # sent_id = reviews-343336-0001
+# newpar id = reviews-343336-p0001
 # text = Got to love this place.
 # streusle_sent_id = ewtb.r.343336.1
 # mwe = Got_to love this place .
@@ -7254,6 +7492,7 @@
 
 # newdoc id = reviews-343813
 # sent_id = reviews-343813-0001
+# newpar id = reviews-343813-p0001
 # text = Bad Service
 # streusle_sent_id = ewtb.r.343813.1
 # mwe = Bad Service
@@ -7261,6 +7500,7 @@
 2	Service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-343813-0002
+# newpar id = reviews-343813-p0002
 # text = Definately won't be returning.
 # streusle_sent_id = ewtb.r.343813.2
 # mwe = Definately wo n't be returning .
@@ -7323,6 +7563,7 @@
 
 # newdoc id = reviews-346074
 # sent_id = reviews-346074-0001
+# newpar id = reviews-346074-p0001
 # text = Did a great job of removing my tree in Conyers.
 # streusle_sent_id = ewtb.r.346074.1
 # mwe = Did~ a great ~job of removing my tree in Conyers .
@@ -7348,6 +7589,7 @@
 
 # newdoc id = reviews-346563
 # sent_id = reviews-346563-0001
+# newpar id = reviews-346563-p0001
 # text = A TERRIBLE EXPERIENCE!
 # streusle_sent_id = ewtb.r.346563.1
 # mwe = A TERRIBLE EXPERIENCE !
@@ -7437,6 +7679,7 @@
 
 # newdoc id = reviews-351950
 # sent_id = reviews-351950-0001
+# newpar id = reviews-351950-p0001
 # text = local crew!!!
 # streusle_sent_id = ewtb.r.351950.1
 # mwe = local crew !!!
@@ -7458,6 +7701,7 @@
 
 # newdoc id = reviews-353891
 # sent_id = reviews-353891-0001
+# newpar id = reviews-353891-p0001
 # text = Great Manicure
 # streusle_sent_id = ewtb.r.353891.1
 # mwe = Great Manicure
@@ -7465,6 +7709,7 @@
 2	Manicure	manicure	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	manicure	n.ACT	_	_	_	_	O-N-n.ACT
 
 # sent_id = reviews-353891-0002
+# newpar id = reviews-353891-p0002
 # text = This place offers a great manicure and pedicure.
 # streusle_sent_id = ewtb.r.353891.2
 # mwe = This place offers a great manicure and pedicure .
@@ -7521,6 +7766,7 @@
 
 # newdoc id = reviews-354474
 # sent_id = reviews-354474-0001
+# newpar id = reviews-354474-p0001
 # text = Great work!
 # streusle_sent_id = ewtb.r.354474.1
 # mwe = Great work !
@@ -7529,12 +7775,13 @@
 3	!	!	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	!	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-354474-0002
+# newpar id = reviews-354474-p0002
 # text = The people at Gulf Coast Siding were very easy and clear to work with.
 # streusle_sent_id = ewtb.r.354474.2
 # mwe = The people at Gulf_Coast_Siding were very easy and clear to work~with .
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	_	_	DET	the	_	_	_	_	_	O-DET
 2	people	people	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj|11:nsubj	_	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
-3	at	at	ADP	IN	_	6	case	6:case	_	_	P	at	p.OrgRole	p.Locus	_	_	_	O-P-p.OrgRole|p.Locus
+3	at	at	ADP	IN	_	6	case	6:case	_	_	P	at	p.Org	p.Locus	_	_	_	O-P-p.Org|p.Locus
 4	Gulf	Gulf	PROPN	NNP	Number=Sing	5	compound	5:compound	_	1:1	N	Gulf Coast Siding	n.GROUP	_	_	_	_	B-N-n.GROUP
 5	Coast	Coast	PROPN	NNP	Number=Sing	6	compound	6:compound	_	1:2	_	_	_	_	_	_	_	I_
 6	Siding	Siding	PROPN	NNP	Number=Sing	2	nmod	2:nmod:at	_	1:3	_	_	_	_	_	_	_	I_
@@ -7545,7 +7792,7 @@
 11	clear	clear	ADJ	JJ	Degree=Pos	9	conj	9:conj:and	_	_	ADJ	clear	_	_	_	_	_	O-ADJ
 12	to	to	PART	TO	_	13	mark	13:mark	_	_	INF	to	_	_	_	_	_	O-INF
 13	work	work	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	_	_	V	work	v.social	_	2:1	_	work with	B-V-v.social
-14	with	with	ADP	IN	_	13	obl	13:obl	SpaceAfter=No	_	P	with	p.SocialRel	p.Co-Agent	2:2	_	_	I~-P-p.SocialRel|p.Co-Agent
+14	with	with	ADP	IN	_	13	obl	13:obl	SpaceAfter=No	_	P	with	p.SocialRel	p.Ancillary	2:2	_	_	I~-P-p.SocialRel|p.Ancillary
 15	.	.	PUNCT	.	_	9	punct	9:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-354474-0003
@@ -7597,6 +7844,7 @@
 
 # newdoc id = reviews-354555
 # sent_id = reviews-354555-0001
+# newpar id = reviews-354555-p0001
 # text = the service is quick.
 # streusle_sent_id = ewtb.r.354555.1
 # mwe = the service is quick .
@@ -7619,6 +7867,7 @@
 
 # newdoc id = reviews-357217
 # sent_id = reviews-357217-0001
+# newpar id = reviews-357217-p0001
 # text = A Definite No
 # streusle_sent_id = ewtb.r.357217.1
 # mwe = A Definite No
@@ -7627,6 +7876,7 @@
 3	No	no	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	no	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 
 # sent_id = reviews-357217-0002
+# newpar id = reviews-357217-p0002
 # text = Incompetent servers, kitchen and management.
 # streusle_sent_id = ewtb.r.357217.2
 # mwe = Incompetent servers , kitchen and management .
@@ -7700,6 +7950,7 @@
 
 # newdoc id = reviews-362073
 # sent_id = reviews-362073-0001
+# newpar id = reviews-362073-p0001
 # text = Great food and nice people very pleasant experience.
 # streusle_sent_id = ewtb.r.362073.1
 # mwe = Great food and nice people very pleasant experience .
@@ -7715,6 +7966,7 @@
 
 # newdoc id = reviews-363428
 # sent_id = reviews-363428-0001
+# newpar id = reviews-363428-p0001
 # text = Pam the Pom
 # streusle_sent_id = ewtb.r.363428.1
 # mwe = Pam the Pom
@@ -7723,12 +7975,13 @@
 3	Pom	Pom	PROPN	NNP	Number=Sing	1	appos	1:appos	_	_	N	Pom	n.ANIMAL	_	_	_	_	O-N-n.ANIMAL
 
 # sent_id = reviews-363428-0002
+# newpar id = reviews-363428-p0002
 # text = Fantastic couple of days.
 # streusle_sent_id = ewtb.r.363428.2
 # mwe = Fantastic couple of days .
 1	Fantastic	fantastic	ADJ	JJ	Degree=Pos	2	amod	2:amod	_	_	ADJ	fantastic	_	_	_	_	_	O-ADJ
 2	couple	couple	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	couple	n.QUANTITY	_	_	_	_	O-N-n.QUANTITY
-3	of	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.Quantity	p.Quantity	_	_	_	O-P-p.Quantity
+3	of	of	ADP	IN	_	4	case	4:case	_	_	P	of	p.QuantityItem	p.QuantityItem	_	_	_	O-P-p.QuantityItem
 4	days	day	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	SpaceAfter=No	_	N	day	n.TIME	_	_	_	_	O-N-n.TIME
 5	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
@@ -7763,6 +8016,7 @@
 
 # newdoc id = reviews-363482
 # sent_id = reviews-363482-0001
+# newpar id = reviews-363482-p0001
 # text = The food is excellent, but very overpriced.
 # streusle_sent_id = ewtb.r.363482.1
 # mwe = The food is excellent , but very overpriced .
@@ -7797,6 +8051,7 @@
 
 # newdoc id = reviews-369608
 # sent_id = reviews-369608-0001
+# newpar id = reviews-369608-p0001
 # text = The management and staff are superb.
 # streusle_sent_id = ewtb.r.369608.1
 # mwe = The management and staff are superb .
@@ -7814,7 +8069,7 @@
 # mwe = I worked~with Sam_Mones who took_ great _care_of me .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	_	V	work	v.social	_	1:1	_	work with	B-V-v.social
-3	with	with	ADP	IN	_	4	case	4:case	_	_	P	with	p.SocialRel	p.Co-Agent	1:2	_	_	I~-P-p.SocialRel|p.Co-Agent
+3	with	with	ADP	IN	_	4	case	4:case	_	_	P	with	p.SocialRel	p.Ancillary	1:2	_	_	I~-P-p.SocialRel|p.Ancillary
 4	Sam	Sam	PROPN	NNP	Number=Sing	2	obl	2:obl:with|7:nsubj	_	2:1	N	Sam Mones	n.PERSON	_	_	_	_	B-N-n.PERSON
 5	Mones	Mones	PROPN	NNP	Number=Sing	4	flat	4:flat	_	2:2	_	_	_	_	_	_	_	I_
 6	who	who	PRON	WP	PronType=Rel	7	nsubj	4:ref	_	_	PRON	who	_	_	_	_	_	O-PRON
@@ -7843,12 +8098,14 @@
 
 # newdoc id = reviews-374344
 # sent_id = reviews-374344-0001
+# newpar id = reviews-374344-p0001
 # text = AMAZING
 # streusle_sent_id = ewtb.r.374344.1
 # mwe = AMAZING
 1	AMAZING	amazing	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	amazing	_	_	_	_	_	O-ADJ
 
 # sent_id = reviews-374344-0002
+# newpar id = reviews-374344-p0002
 # text = Absoul is the greatest donair man on the planet.
 # streusle_sent_id = ewtb.r.374344.2
 # mwe = Absoul is the greatest donair man on the planet .
@@ -7933,6 +8190,7 @@
 
 # newdoc id = reviews-384229
 # sent_id = reviews-384229-0001
+# newpar id = reviews-384229-p0001
 # text = great tmobile service
 # streusle_sent_id = ewtb.r.384229.1
 # mwe = great tmobile service
@@ -7941,19 +8199,20 @@
 3	service	service	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	service	n.ARTIFACT	_	_	_	_	O-N-n.ARTIFACT
 
 # sent_id = reviews-384229-0002
+# newpar id = reviews-384229-p0002
 # text = I was with verizon and I checked my service with tmobile and it was great so I thought I would try tmobile.
 # streusle_sent_id = ewtb.r.384229.2
 # mwe = I was with verizon and I checked my service with tmobile and it was great so I thought I would try tmobile .
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
-3	with	with	ADP	IN	_	4	case	4:case	_	_	P	with	p.OrgRole	p.Accompanier	_	_	_	O-P-p.OrgRole|p.Accompanier
+3	with	with	ADP	IN	_	4	case	4:case	_	_	P	with	p.Org	p.Ancillary	_	_	_	O-P-p.Org|p.Ancillary
 4	verizon	verizon	PROPN	NNP	Number=Sing	0	root	0:root	_	_	N	verizon	n.GROUP	_	_	_	_	O-N-n.GROUP
 5	and	and	CCONJ	CC	_	7	cc	7:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 7	checked	check	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_	_	V	check	v.cognition	_	_	_	_	O-V-v.cognition
 8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	_	PRON.POSS	my	p.Beneficiary	p.Possessor	_	_	_	O-PRON.POSS-p.Beneficiary|p.Possessor
 9	service	service	NOUN	NN	Number=Sing	7	obj	7:obj	_	_	N	service	n.ACT	_	_	_	_	O-N-n.ACT
-10	with	with	ADP	IN	_	11	case	11:case	_	_	P	with	p.OrgRole	p.Accompanier	_	_	_	O-P-p.OrgRole|p.Accompanier
+10	with	with	ADP	IN	_	11	case	11:case	_	_	P	with	p.Org	p.Ancillary	_	_	_	O-P-p.Org|p.Ancillary
 11	tmobile	tmobile	PROPN	NNP	Number=Sing	7	obl	7:obl:with	_	_	N	tmobile	n.GROUP	_	_	_	_	O-N-n.GROUP
 12	and	and	CCONJ	CC	_	15	cc	15:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	_	_	PRON	it	_	_	_	_	_	O-PRON
@@ -7994,6 +8253,7 @@
 
 # newdoc id = reviews-388121
 # sent_id = reviews-388121-0001
+# newpar id = reviews-388121-p0001
 # text = Too many kids, too many knifings, too many taserings.
 # streusle_sent_id = ewtb.r.388121.1
 # mwe = Too many kids , too many knifings , too many taserings .
@@ -8012,6 +8272,7 @@
 
 # newdoc id = reviews-389298
 # sent_id = reviews-389298-0001
+# newpar id = reviews-389298-p0001
 # text = Great quality doors and great quality people!
 # streusle_sent_id = ewtb.r.389298.1
 # mwe = Great quality doors and great quality people !
@@ -8062,7 +8323,7 @@
 11	to	to	PART	TO	_	12	mark	12:mark	_	_	INF	to	_	_	_	_	_	O-INF
 12	get	get	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:to	_	1:1	V.IAV	get along	v.social	_	2:1	_	get along with	B-V.IAV-v.social
 13	along	along	ADV	RB	_	12	advmod	12:advmod	_	1:2	_	_	_	_	2:2	_	_	I_
-14	with	with	ADP	IN	_	12	obl	12:obl	SpaceAfter=No	_	P	with	p.Co-Agent	p.Co-Agent	2:3	_	_	I~-P-p.Co-Agent
+14	with	with	ADP	IN	_	12	obl	12:obl	SpaceAfter=No	_	P	with	p.Agent	p.Ancillary	2:3	_	_	I~-P-p.Agent|p.Ancillary
 15	.	.	PUNCT	.	_	10	punct	10:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-389298-0004
@@ -8081,6 +8342,7 @@
 
 # newdoc id = reviews-390330
 # sent_id = reviews-390330-0001
+# newpar id = reviews-390330-p0001
 # text = I appreciate the quick, good service and the reasonable prices and will definitely use American Pride Irrigation & Landscaping again.
 # streusle_sent_id = ewtb.r.390330.1
 # mwe = I appreciate the quick , good service and the reasonable prices and will definitely use American_Pride_Irrigation_&_Landscaping again .
@@ -8109,6 +8371,7 @@
 
 # newdoc id = reviews-392826
 # sent_id = reviews-392826-0001
+# newpar id = reviews-392826-p0001
 # text = Extremely greasy.
 # streusle_sent_id = ewtb.r.392826.1
 # mwe = Extremely greasy .
@@ -8159,6 +8422,7 @@
 
 # newdoc id = reviews-395218
 # sent_id = reviews-395218-0001
+# newpar id = reviews-395218-p0001
 # text = Tire Gooroo
 # streusle_sent_id = ewtb.r.395218.1
 # mwe = Tire_Gooroo
@@ -8166,6 +8430,7 @@
 2	Gooroo	Gooroo	PROPN	NNP	Number=Sing	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
 
 # sent_id = reviews-395218-0002
+# newpar id = reviews-395218-p0002
 # text = David Bundren is the Tire GooRoo.
 # streusle_sent_id = ewtb.r.395218.2
 # mwe = David_Bundren is the Tire_GooRoo .
@@ -8179,6 +8444,7 @@
 
 # newdoc id = reviews-395640
 # sent_id = reviews-395640-0001
+# newpar id = reviews-395640-p0001
 # text = Don't bother.
 # streusle_sent_id = ewtb.r.395640.1
 # mwe = Do n't bother .
@@ -8205,6 +8471,7 @@
 
 # newdoc id = reviews-396046
 # sent_id = reviews-396046-0001
+# newpar id = reviews-396046-p0001
 # text = Worst experience ever like a sardine can and the bartender downstairs is the rudest person I have ever met.
 # streusle_sent_id = ewtb.r.396046.1
 # mwe = Worst experience ever like a sardine_can and the bartender downstairs is the rudest person I have ever met .

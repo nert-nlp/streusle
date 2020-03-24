@@ -1,7 +1,7 @@
 STREUSLE Dataset
 ================
 
-| ![Example](example.png)  |
+| ![Example](https://raw.githubusercontent.com/nert-nlp/streusle/master/example.png)  |
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
@@ -16,6 +16,7 @@ This dataset's multiword expression and supersense annotations are licensed unde
 
 An independent effort to improve the MWE annotations from those in STREUSLE 3.0 resulted in the [HAMSTER](https://github.com/eltimster/HAMSTER) resource [13]. The HAMSTER revisions have not been merged with the 4.0 revisions, though we intend to do so for a future release.
 
+[![PyPI version](https://badge.fury.io/py/streusle.svg)](https://badge.fury.io/py/streusle)
 
 Files
 -----
@@ -52,7 +53,7 @@ Files
 - psseval.py: Evaluation script for preposition/possessive supersense labeling only.
 - pssid/: Heuristics for identifying SNACS targets.
 
-- setup.py: Setup script for installing this as a Python package via setuputils.
+- setup.py: Setup script for installing this as a Python package via setuptools.
 
 Format
 ------

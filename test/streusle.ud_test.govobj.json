@@ -4673,7 +4673,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 8,
@@ -4802,7 +4802,7 @@
    "7": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      7
@@ -5809,10 +5809,10 @@
    {
     "#": 14,
     "word": "possible",
-    "lemma": "possible",
+    "lemma": "possibly",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 17,
     "deprel": "advmod",
     "edeps": "17:advmod",
@@ -6062,7 +6062,7 @@
     ]
    },
    "14": {
-    "lexlemma": "possible",
+    "lexlemma": "possibly",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -6817,7 +6817,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-P-p.InsteadOf"
+    "lextag": "B-P-p.ComparisonRef"
    },
    {
     "#": 6,
@@ -6921,8 +6921,8 @@
    "2": {
     "lexlemma": "instead of",
     "lexcat": "P",
-    "ss": "p.InsteadOf",
-    "ss2": "p.InsteadOf",
+    "ss": "p.ComparisonRef",
+    "ss2": "p.ComparisonRef",
     "toknums": [
      5,
      6
@@ -8997,7 +8997,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 12,
@@ -9154,7 +9154,7 @@
    "11": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      11
@@ -10588,7 +10588,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 6,
@@ -10827,7 +10827,7 @@
    "5": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      5
@@ -12215,7 +12215,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Co-Theme"
+    "lextag": "O-P-p.Theme|p.Ancillary"
    },
    {
     "#": 19,
@@ -12408,8 +12408,8 @@
    "18": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.Co-Theme",
-    "ss2": "p.Co-Theme",
+    "ss": "p.Theme",
+    "ss2": "p.Ancillary",
     "toknums": [
      18
     ],
@@ -13370,7 +13370,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 14,
@@ -13526,8 +13526,8 @@
    "13": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      13
     ],
@@ -13920,7 +13920,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 19,
@@ -14193,7 +14193,7 @@
    "18": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      18
@@ -17568,7 +17568,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 5,
@@ -17762,8 +17762,8 @@
    "4": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      4
     ],
@@ -19768,7 +19768,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 7,
@@ -20046,7 +20046,7 @@
    "6": {
     "lexlemma": "you",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      6
@@ -26156,7 +26156,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 4,
@@ -26296,7 +26296,7 @@
    "3": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      3
@@ -30072,7 +30072,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 12,
@@ -30255,7 +30255,7 @@
    "11": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      11
@@ -36430,7 +36430,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 19,
@@ -36834,7 +36834,7 @@
    "18": {
     "lexlemma": "you",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      18
@@ -38663,7 +38663,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 15,
@@ -38817,7 +38817,7 @@
    "14": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      14
@@ -39213,10 +39213,10 @@
    {
     "#": 23,
     "word": "thier",
-    "lemma": "their",
+    "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": "Typo=Yes",
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 24,
     "deprel": "nmod:poss",
     "edeps": "24:nmod:poss",
@@ -39253,7 +39253,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 26,
@@ -39544,7 +39544,7 @@
     }
    },
    "23": {
-    "lexlemma": "their",
+    "lexlemma": "they",
     "lexcat": "PRON.POSS",
     "ss": "p.Gestalt",
     "ss2": "p.Gestalt",
@@ -39571,8 +39571,8 @@
    "25": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      25
     ],
@@ -41722,7 +41722,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-P-p.Quantity"
+    "lextag": "o-P-p.QuantityItem"
    },
    {
     "#": 10,
@@ -41937,8 +41937,8 @@
    "9": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      9
     ],
@@ -43079,7 +43079,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 7,
@@ -43312,8 +43312,8 @@
    "6": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      6
     ],
@@ -43682,10 +43682,10 @@
    {
     "#": 6,
     "word": "outsize",
-    "lemma": "outsize",
+    "lemma": "outside",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 4,
     "deprel": "advmod",
     "edeps": "4:advmod",
@@ -43833,7 +43833,7 @@
     ]
    },
    "6": {
-    "lexlemma": "outsize",
+    "lexlemma": "outside",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -48409,7 +48409,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 3,
@@ -49113,7 +49113,7 @@
    "2": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      2
@@ -50324,8 +50324,8 @@
     "word": "use",
     "lemma": "use",
     "upos": "VERB",
-    "xpos": "VB",
-    "feats": "VerbForm=Inf",
+    "xpos": "VBN",
+    "feats": "Tense=Past|Typo=Yes|VerbForm=Part",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -52446,7 +52446,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Locus"
+    "lextag": "O-P-p.ComparisonRef|p.Locus"
    },
    {
     "#": 16,
@@ -52607,7 +52607,7 @@
    "15": {
     "lexlemma": "above",
     "lexcat": "P",
-    "ss": "p.Locus",
+    "ss": "p.ComparisonRef",
     "ss2": "p.Locus",
     "toknums": [
      15
@@ -57279,7 +57279,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 7,
@@ -57294,7 +57294,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 8,
@@ -57512,7 +57512,7 @@
    "6": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      6
@@ -57528,7 +57528,7 @@
    "7": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      7
@@ -57871,7 +57871,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 15,
@@ -58225,7 +58225,7 @@
    "14": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      14
@@ -59033,7 +59033,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 15,
@@ -59187,8 +59187,8 @@
    "14": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      14
     ],
@@ -59994,10 +59994,10 @@
    {
     "#": 3,
     "word": "there",
-    "lemma": "there",
+    "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 4,
     "deprel": "nmod:poss",
     "edeps": "4:nmod:poss",
@@ -60234,10 +60234,10 @@
    {
     "#": 19,
     "word": "there",
-    "lemma": "there",
+    "lemma": "they",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Number=Plur|Person=3|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 20,
     "deprel": "nmod:poss",
     "edeps": "20:nmod:poss",
@@ -60298,7 +60298,7 @@
     ]
    },
    "3": {
-    "lexlemma": "there",
+    "lexlemma": "they",
     "lexcat": "PRON.POSS",
     "ss": "p.SocialRel",
     "ss2": "p.Gestalt",
@@ -60463,7 +60463,7 @@
     }
    },
    "19": {
-    "lexlemma": "there",
+    "lexlemma": "they",
     "lexcat": "PRON.POSS",
     "ss": "p.SocialRel",
     "ss2": "p.Gestalt",
@@ -64264,10 +64264,10 @@
    {
     "#": 2,
     "word": "bast",
-    "lemma": "bast",
+    "lemma": "best",
     "upos": "ADJ",
-    "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "xpos": "JJS",
+    "feats": "Degree=Sup|Typo=Yes",
     "head": 3,
     "deprel": "amod",
     "edeps": "3:amod",
@@ -64334,7 +64334,7 @@
     ]
    },
    "2": {
-    "lexlemma": "bast",
+    "lexlemma": "best",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -65080,7 +65080,7 @@
      3,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 16,
@@ -65231,7 +65231,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      15
     ],
@@ -66258,7 +66258,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 21,
@@ -66541,7 +66541,7 @@
    "20": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      20
@@ -66995,7 +66995,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Accompanier"
+    "lextag": "O-P-p.Org|p.Ancillary"
    },
    {
     "#": 3,
@@ -67027,8 +67027,8 @@
    "2": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.OrgRole",
-    "ss2": "p.Accompanier",
+    "ss": "p.Org",
+    "ss2": "p.Ancillary",
     "toknums": [
      2
     ],
@@ -67687,7 +67687,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 8,
@@ -67747,7 +67747,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 12,
@@ -67762,7 +67762,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Gestalt"
    },
    {
     "#": 13,
@@ -67941,7 +67941,7 @@
    "7": {
     "lexlemma": "he",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      7
@@ -67984,7 +67984,7 @@
    "11": {
     "lexlemma": "in",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      11
@@ -68000,7 +68000,7 @@
    "12": {
     "lexlemma": "we",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Gestalt",
     "toknums": [
      12
@@ -68308,7 +68308,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Gestalt"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Gestalt"
    },
    {
     "#": 14,
@@ -68491,7 +68491,7 @@
    "13": {
     "lexlemma": "my",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Gestalt",
     "toknums": [
      13
@@ -69092,7 +69092,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 3,
@@ -69331,7 +69331,7 @@
    "2": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      2
@@ -70387,7 +70387,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.SocialRel|p.Co-Agent"
+    "lextag": "O-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 6,
@@ -70462,7 +70462,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      5
     ],
@@ -78123,7 +78123,7 @@
      1,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 11,
@@ -78324,7 +78324,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      10
     ],
@@ -79231,7 +79231,7 @@
     "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Person=2|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 2,
     "deprel": "nmod:poss",
     "edeps": "2:nmod:poss",
@@ -79791,7 +79791,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 7,
@@ -80009,8 +80009,8 @@
    "6": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      6
     ],
@@ -93568,7 +93568,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-P-p.Quantity"
+    "lextag": "o-P-p.QuantityItem"
    },
    {
     "#": 22,
@@ -93821,8 +93821,8 @@
    "21": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      21
     ],
@@ -94726,7 +94726,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 9,
@@ -94872,7 +94872,7 @@
    "8": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      8
@@ -97435,7 +97435,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 4,
@@ -97506,8 +97506,8 @@
    "3": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      3
     ],
@@ -101721,7 +101721,7 @@
     "lemma": "you",
     "upos": "PRON",
     "xpos": "PRP$",
-    "feats": null,
+    "feats": "Person=2|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 17,
     "deprel": "nmod:poss",
     "edeps": "17:nmod:poss",
@@ -106345,7 +106345,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 8,
@@ -106432,8 +106432,8 @@
    "7": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      7
     ],
@@ -107175,7 +107175,7 @@
     "lemma": "taste",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 3,
     "deprel": "parataxis",
     "edeps": "3:parataxis",
@@ -107579,7 +107579,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Possession|p.Accompanier"
+    "lextag": "O-P-p.Possession|p.Ancillary"
    },
    {
     "#": 16,
@@ -107786,7 +107786,7 @@
     "lexlemma": "without",
     "lexcat": "P",
     "ss": "p.Possession",
-    "ss2": "p.Accompanier",
+    "ss2": "p.Ancillary",
     "toknums": [
      15
     ],
@@ -110136,7 +110136,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 8,
@@ -110220,7 +110220,7 @@
    "7": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      7
@@ -110646,7 +110646,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 9,
@@ -110851,7 +110851,7 @@
    "8": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      8
@@ -113841,7 +113841,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Stuff"
+    "lextag": "O-P-p.QuantityItem|p.Stuff"
    },
    {
     "#": 10,
@@ -113940,7 +113940,7 @@
    "9": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Stuff",
     "toknums": [
      9
@@ -114618,7 +114618,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity|p.Whole"
+    "lextag": "O-P-p.QuantityItem|p.Whole"
    },
    {
     "#": 12,
@@ -114970,7 +114970,7 @@
    "11": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Whole",
     "toknums": [
      11
@@ -117285,7 +117285,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Co-Agent"
+    "lextag": "O-P-p.Agent|p.Ancillary"
    },
    {
     "#": 5,
@@ -117347,8 +117347,8 @@
    "4": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.Co-Agent",
-    "ss2": "p.Co-Agent",
+    "ss": "p.Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      4
     ],
@@ -118489,7 +118489,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "o-P-p.Quantity|p.Gestalt"
+    "lextag": "o-P-p.QuantityItem|p.Gestalt"
    },
    {
     "#": 11,
@@ -118647,7 +118647,7 @@
    "10": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
+    "ss": "p.QuantityItem",
     "ss2": "p.Gestalt",
     "toknums": [
      10
@@ -118744,7 +118744,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON.POSS-p.OrgRole|p.Possessor"
+    "lextag": "O-PRON.POSS-p.OrgMember|p.Possessor"
    },
    {
     "#": 2,
@@ -119073,7 +119073,7 @@
    "1": {
     "lexlemma": "he",
     "lexcat": "PRON.POSS",
-    "ss": "p.OrgRole",
+    "ss": "p.OrgMember",
     "ss2": "p.Possessor",
     "toknums": [
      1
@@ -128299,7 +128299,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Locus"
+    "lextag": "O-P-p.Org|p.Locus"
    },
    {
     "#": 4,
@@ -128479,7 +128479,7 @@
      2,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 15,
@@ -128520,7 +128520,7 @@
    "3": {
     "lexlemma": "at",
     "lexcat": "P",
-    "ss": "p.OrgRole",
+    "ss": "p.Org",
     "ss2": "p.Locus",
     "toknums": [
      3
@@ -128600,7 +128600,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      14
     ],
@@ -131531,7 +131531,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.Quantity"
+    "lextag": "O-P-p.QuantityItem"
    },
    {
     "#": 4,
@@ -131587,8 +131587,8 @@
    "3": {
     "lexlemma": "of",
     "lexcat": "P",
-    "ss": "p.Quantity",
-    "ss2": "p.Quantity",
+    "ss": "p.QuantityItem",
+    "ss2": "p.QuantityItem",
     "toknums": [
      3
     ],
@@ -132940,7 +132940,7 @@
      1,
      2
     ],
-    "lextag": "I~-P-p.SocialRel|p.Co-Agent"
+    "lextag": "I~-P-p.SocialRel|p.Ancillary"
    },
    {
     "#": 4,
@@ -133117,7 +133117,7 @@
     "lexlemma": "with",
     "lexcat": "P",
     "ss": "p.SocialRel",
-    "ss2": "p.Co-Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      3
     ],
@@ -134920,7 +134920,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Accompanier"
+    "lextag": "O-P-p.Org|p.Ancillary"
    },
    {
     "#": 4,
@@ -135025,7 +135025,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-P-p.OrgRole|p.Accompanier"
+    "lextag": "O-P-p.Org|p.Ancillary"
    },
    {
     "#": 11,
@@ -135246,8 +135246,8 @@
    "3": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.OrgRole",
-    "ss2": "p.Accompanier",
+    "ss": "p.Org",
+    "ss2": "p.Ancillary",
     "toknums": [
      3
     ],
@@ -135323,8 +135323,8 @@
    "10": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.OrgRole",
-    "ss2": "p.Accompanier",
+    "ss": "p.Org",
+    "ss2": "p.Ancillary",
     "toknums": [
      10
     ],
@@ -137078,7 +137078,7 @@
      2,
      3
     ],
-    "lextag": "I~-P-p.Co-Agent"
+    "lextag": "I~-P-p.Agent|p.Ancillary"
    },
    {
     "#": 15,
@@ -137200,8 +137200,8 @@
    "14": {
     "lexlemma": "with",
     "lexcat": "P",
-    "ss": "p.Co-Agent",
-    "ss2": "p.Co-Agent",
+    "ss": "p.Agent",
+    "ss2": "p.Ancillary",
     "toknums": [
      14
     ],

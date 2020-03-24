@@ -18,14 +18,25 @@ for udDoc in udDocs:
 
 nSentsChanged = nToksChanged = nToksAdded = nTagsChanged = nLemmasChanged = nMorphChanged = nDepsChanged = nEDepsChanged = nAutoLemmaFix = nMiscChanged = 0
 for sent in sentences(CONLLULEX):
-    # metadata shouldn't change (assume tokenization hasn't changed)
-    print(*sent.meta, sep='\n')
     newudDoc, newudsent = ud[sent.meta_dict['sent_id']]
     if len(sent.tokens)!=len(newudsent.tokens):
         print(f"Number of tokens for sentence {sent.meta_dict['sent_id']} has changed", file=sys.stderr)
     sentChanged = False
     oldudtoks = {t.offset: t for t in sent.tokens}
     assert len(oldudtoks)==len(sent.tokens)
+
+    # ensure UD sentence metadata lines are present (before STREUSLE-specific metadata lines)
+    assert len(newudsent.meta)<len(sent.meta)
+    if sent.meta[:len(newudsent.meta)] != newudsent.meta:
+        # incorporate new UD metadata
+        for entry in newudsent.meta:
+            print(entry)
+        for entry in sent.meta:
+            if entry not in newudsent.meta: # STREUSLE-specific (assumes UD lines already in STREUSLE are unchanged in new UD)
+                print(entry)
+    else:
+        print(*sent.meta, sep='\n')
+
     for newudtok in newudsent.tokens:
         tok = oldudtoks.get(newudtok.offset)
         oldud = '\t'.join(tok.orig.split('\t')[:10]) if tok else None   # newud may be a new ellipsis node

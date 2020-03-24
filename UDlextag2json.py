@@ -146,12 +146,15 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                     assert False,f"In {sent['sent_id']}, invalid supersense(s) in lexical entry: {lexe}"
                 elif ss.startswith('p.'):
                     assert ss2.startswith('p.')
-                    assert ss2 not in {'p.Experiencer', 'p.Stimulus', 'p.Originator', 'p.Recipient', 'p.SocialRel', 'p.OrgRole'},(f'{ss2} should never be function',lexe)
+                    assert ss2 not in {'p.Experiencer', 'p.Stimulus', 'p.Originator', 'p.Recipient', 'p.SocialRel', 'p.Org', 'p.OrgMember', 'p.Ensemble', 'p.QuantityValue'},(f'{ss2} should never be function',lexe)
                     if ss!=ss2:
                         ssA, ss2A = ancestors(ss), ancestors(ss2)
                         # there are just a few permissible combinations where one is the ancestor of the other
-                        if (ss,ss2) not in {('p.Whole','p.Gestalt'), ('p.Goal','p.Locus'), ('p.Circumstance','p.Locus'),
-                            ('p.Circumstance','p.Path'), ('p.Locus','p.Goal'), ('p.Locus','p.Source'), ('p.Characteristic','p.Stuff')}:
+                        if (ss,ss2) not in {('p.Circumstance','p.Locus'), ('p.Circumstance','p.Path'),
+                            ('p.Locus','p.Goal'), ('p.Locus','p.Source'),
+                            ('p.Characteristic','p.Stuff'),
+                            ('p.Whole','p.Gestalt'), ('p.Org', 'p.Gestalt'),
+                            ('p.QuantityItem','p.Gestalt'), ('p.Goal','p.Locus')}:
                             assert ss not in ss2A,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
                             assert ss2 not in ssA,f"In {sent['sent_id']}, unexpected construal: {ss} ~> {ss2}"
             else:
@@ -271,7 +274,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             continue
 
         if ln.startswith('#'):
-            if ln.startswith('# newdoc '): continue
+            if ln.startswith('# newdoc ') or ln.startswith('# newpar '): continue
             m = re.match(r'^# (\w+) = (.*)$', ln)
             k, v = m.group(1), m.group(2)
             assert k not in ('toks', 'swes', 'smwes', 'wmwes')
