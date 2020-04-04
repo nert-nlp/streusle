@@ -61,6 +61,8 @@ Xposition tech gurus
 * Austin Blodgett
 * Luke Gessler
 
+STREUSLE module for Pepper: Luke Gessler
+
 Bug reports and user feedback
 
 * Daniel Hershcovich

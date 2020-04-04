@@ -5,7 +5,7 @@ STREUSLE Dataset
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
-STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [8]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [14]. The 4.2 revises some of the annotations.
+STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [8]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [14]. The 4.2 and 4.3 releases revise some of the annotations.
 
 Release URL: <https://github.com/nert-nlp/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
@@ -55,14 +55,17 @@ Files
 
 - setup.py: Setup script for installing this as a Python package via setuptools.
 
-Format
-------
+Formats
+-------
 
-STREUSLE 4.0+ uses the [CONLLULEX](CONLLULEX.md) tabular data format, with scripts to convert to and from JSON as well as [Excel-compatible CSV](EXCEL.md). (The .sst and .tags formats from STREUSLE 3.0 are not expressive enough and are no longer supported.)
+- The canonical data format for STREUSLE 4.0+ is the [CONLLULEX](CONLLULEX.md) tabular format. It extends the CoNLL-U format from the Universal Dependencies project with additional columns for lexical semantic annotations. (The .sst and .tags formats from STREUSLE 3.0 are not expressive enough and are no longer supported.)
 
-Other Formats
--------------
-STREUSLE can be converted into other formats with [Pepper](http://corpus-tools.org/pepper/). See [instructions for converting](https://github.com/nert-nlp/streusle-pepper-importer).
+- Scripts support conversion between .conllulex and a JSON format.
+The JSON can be enriched with syntactic details of the preposition/possessive relations via the govobj.py script.
+
+- Other scripts support conversion between .conllulex and [Excel-compatible CSV](EXCEL.md).
+
+- Luke Gessler has written a module for the [Pepper](http://corpus-tools.org/pepper/) tool so that STREUSLE data can be converted to other Pepper-supported formats, including PAULA XML and ANNIS. See [instructions for converting](https://github.com/nert-nlp/streusle-pepper-importer).
 
 References
 ----------
@@ -77,7 +80,7 @@ Citations describing the annotations in this corpus (main STREUSLE papers in __b
 
 - [4] Jena D. Hwang, Archna Bhatia, Na-Rae Han, Tim O’Gorman, Vivek Srikumar, and Nathan Schneider. Double trouble: the problem of construal in semantic annotation of adpositions. _Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics_, Vancouver, British Columbia, Canada, August 3–4, 2017. <http://people.cs.georgetown.edu/nschneid/p/prepconstrual2.pdf>
 
-- [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Na-Rae Han, Vivek Srikumar, Tim O’Gorman, Sarah R. Moeller, Omri Abend, Austin Blodgett, and Jakob Prange (July 2, 2018). Adposition and Case Supersenses v2.4: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
+- [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Vivek Srikumar, Na-Rae Han, Tim O'Gorman, Sarah R. Moeller, Omri Abend, Adi Shalev, Austin Blodgett, and Jakob Prange (April 1, 2020). Adposition and Case Supersenses v2.5: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
 
 - [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018. <http://people.cs.georgetown.edu/nschneid/p/gensuper.pdf>
 
@@ -111,6 +114,11 @@ http://nathan.cl
 History
 -------
 
+  - STREUSLE 4.3: RELEASE DATE TBA. DATA FREEZE 2020-03-08.
+     * Updated preposition/possessive annotations to SNACS v2.5 guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v6>), which includes changes in the set of labels.
+     * Added a sentence that had been omitted from a document in the training set.
+     * Updated UD parses to the latest dev version (post-v2.5). This improves lemmas for misspelled words and adds paragraph boundaries.
+     * Link from README to new Pepper converter module.
   - STREUSLE 4.2: 2020-01-01.
      * Added streuseval.py, a unified evaluation script for MWEs + supersenses (issue #31).
      * Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
