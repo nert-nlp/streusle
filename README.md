@@ -60,6 +60,10 @@ Format
 
 STREUSLE 4.0+ uses the [CONLLULEX](CONLLULEX.md) tabular data format, with scripts to convert to and from JSON as well as [Excel-compatible CSV](EXCEL.md). (The .sst and .tags formats from STREUSLE 3.0 are not expressive enough and are no longer supported.)
 
+Other Formats
+-------------
+STREUSLE can be converted into other formats with [Pepper](http://corpus-tools.org/pepper/). See [instructions for converting](https://github.com/nert-nlp/streusle-pepper-importer).
+
 References
 ----------
 
