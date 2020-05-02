@@ -5,16 +5,17 @@ STREUSLE Dataset
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
-STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [8]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [14]. The 4.2 and 4.3 releases revise some of the annotations.
+STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [9]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7, 8]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the annotations.
 
 Release URL: <https://github.com/nert-nlp/streusle>  
-Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
+Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>  
+Online corpus search in ANNIS: <https://corpling.uis.georgetown.edu/annis/#_c=c3RyZXVzbGVfNC4z> ([instructions](https://docs.google.com/document/d/e/2PACX-1vTpRsg7B4lj_YnVf-tVGNZCekg_I2k81sGfLayyaJW35k8L8eJJrt4IC-qESrWcl494NXGh2SIeSwi5/pub))
 
-The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [9]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.5 plus a few further corrections (specifically, the dev branch at 06d21c3 as of December 28, 2019); these follow the UD v2 standard.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [10]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.5 plus a few further corrections (specifically, the dev branch at 06d21c3 as of December 28, 2019); these follow the UD v2 standard.
 
-This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [8]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
+This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [9]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
-An independent effort to improve the MWE annotations from those in STREUSLE 3.0 resulted in the [HAMSTER](https://github.com/eltimster/HAMSTER) resource [13]. The HAMSTER revisions have not been merged with the 4.0 revisions, though we intend to do so for a future release.
+An independent effort to improve the MWE annotations from those in STREUSLE 3.0 resulted in the [HAMSTER](https://github.com/eltimster/HAMSTER) resource [14]. The HAMSTER revisions have not been merged with the 4.0 revisions, though we intend to do so for a future release.
 
 [![PyPI version](https://badge.fury.io/py/streusle.svg)](https://badge.fury.io/py/streusle)
 
@@ -86,21 +87,23 @@ Citations describing the annotations in this corpus (main STREUSLE papers in __b
 
 - __[7] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri Abend. Comprehensive supersense disambiguation of English prepositions and possessives. _Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics_, Melbourne, Australia, July 15–20, 2018. <http://people.cs.georgetown.edu/nschneid/p/pssdisambig.pdf>__
 
+- [8] Nelson F. Liu, Daniel Hershcovich, Michael Kranzlein, and Nathan Schneider (April 30, 2020). Lexical semantic recognition. arXiv preprint. <https://arxiv.org/abs/2004.15008>
+
 Related work:
 
-- [8] Ann Bies, Justin Mott, Colin Warner, and Seth Kulick. English Web Treebank. Linguistic Data Consortium, Philadelphia, Pennsylvania, August 16, 2012. <https://catalog.ldc.upenn.edu/LDC2012T13>
+- [9] Ann Bies, Justin Mott, Colin Warner, and Seth Kulick. English Web Treebank. Linguistic Data Consortium, Philadelphia, Pennsylvania, August 16, 2012. <https://catalog.ldc.upenn.edu/LDC2012T13>
 
-- [9] Natalia Silveira, Timothy Dozat, Marie-Catherine de Marneffe, Samuel R. Bowman, Miriam Connor, John Bauer, and Christopher D. Manning (2014). A gold standard dependency corpus for English. _Proceedings of the Ninth International Conference on Language Resources and Evaluation_, Reykjavík, Iceland, May 26–31, 2014. <http://www.lrec-conf.org/proceedings/lrec2014/pdf/1089_Paper.pdf>
+- [10] Natalia Silveira, Timothy Dozat, Marie-Catherine de Marneffe, Samuel R. Bowman, Miriam Connor, John Bauer, and Christopher D. Manning (2014). A gold standard dependency corpus for English. _Proceedings of the Ninth International Conference on Language Resources and Evaluation_, Reykjavík, Iceland, May 26–31, 2014. <http://www.lrec-conf.org/proceedings/lrec2014/pdf/1089_Paper.pdf>
 
-- [10] Nathan Schneider, Emily Danchik, Chris Dyer, and Noah A. Smith. Discriminative lexical semantic segmentation with gaps: running the MWE gamut. _Transactions of the Association for Computational Linguistics_, 2(April):193−206, 2014. http://www.cs.cmu.edu/~ark/LexSem/mwe.pdf
+- [11] Nathan Schneider, Emily Danchik, Chris Dyer, and Noah A. Smith. Discriminative lexical semantic segmentation with gaps: running the MWE gamut. _Transactions of the Association for Computational Linguistics_, 2(April):193−206, 2014. http://www.cs.cmu.edu/~ark/LexSem/mwe.pdf
 
-- [11] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <http://www.cs.cmu.edu/~nschneid/pssts.pdf>
+- [12] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <http://www.cs.cmu.edu/~nschneid/pssts.pdf>
 
-- [12] Nathan Schneider, Dirk Hovy, Anders Johannsen, and Marine Carpuat. SemEval-2016 Task 10: Detecting Minimal Semantic Units and their Meanings (DiMSUM). _Proceedings of the 10th International Workshop on Semantic Evaluation_, San Diego, California, June 16–17, 2016. <http://people.cs.georgetown.edu/nschneid/p/dimsum.pdf>
+- [13] Nathan Schneider, Dirk Hovy, Anders Johannsen, and Marine Carpuat. SemEval-2016 Task 10: Detecting Minimal Semantic Units and their Meanings (DiMSUM). _Proceedings of the 10th International Workshop on Semantic Evaluation_, San Diego, California, June 16–17, 2016. <http://people.cs.georgetown.edu/nschneid/p/dimsum.pdf>
 
-- [13] King Chan, Julian Brooke, and Timothy Baldwin. Semi-automated resolution of inconsistency for a harmonized multiword expression and dependency parse annotation. _Proceedings of the 13th Workshop on Multiword Expressions_, Valencia, Spain, April 4, 2017. <http://www.aclweb.org/anthology/W17-1726>
+- [14] King Chan, Julian Brooke, and Timothy Baldwin. Semi-automated resolution of inconsistency for a harmonized multiword expression and dependency parse annotation. _Proceedings of the 13th Workshop on Multiword Expressions_, Valencia, Spain, April 4, 2017. <http://www.aclweb.org/anthology/W17-1726>
 
-- [14] PARSEME Shared Task 1.1 - Annotation guidelines. 2018. <http://parsemefr.lif.univ-mrs.fr/parseme-st-guidelines/1.1/?page=home>
+- [15] PARSEME Shared Task 1.1 - Annotation guidelines. 2018. <http://parsemefr.lif.univ-mrs.fr/parseme-st-guidelines/1.1/?page=home>
 
 Contact
 -------
@@ -114,11 +117,12 @@ http://nathan.cl
 History
 -------
 
-  - STREUSLE 4.3: RELEASE DATE TBA. DATA FREEZE 2020-03-08.
+  - STREUSLE 4.3: 2020-05-01.
      * Updated preposition/possessive annotations to SNACS v2.5 guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v6>), which includes changes in the set of labels.
      * Added a sentence that had been omitted from a document in the training set.
      * Updated UD parses to the latest dev version (post-v2.5). This improves lemmas for misspelled words and adds paragraph boundaries.
      * Link from README to new Pepper converter module.
+     * Link from README to online search tool using ANNIS.
   - STREUSLE 4.2: 2020-01-01.
      * Added streuseval.py, a unified evaluation script for MWEs + supersenses (issue #31).
      * Added streusvis.py, for viewing sentences with their MWE and supersense annotations.
@@ -134,7 +138,7 @@ History
      * A number of revisions to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically SNACS v2.4, <https://arxiv.org/abs/1704.02134v5>; this incorporates updates for SNACS v2.3 as well).
      * Minor corrections in the data and validation improvements.
      * Updated UD parses to the latest dev version (post-v2.5). Among other things, this improves lemmas for words with nonstandard spellings.
-  - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [14]; some MWE groupings revised in the process.
+  - STREUSLE 4.1: 2018-07-02. Added subtypes to verbal MWEs (871 tokens) per PARSEME Shared Task 1.1 guidelines [15]; some MWE groupings revised in the process.
     Minor improvements to SNACS (preposition/possessive supersense) annotations coordinated with updated guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v3>).
     Implementation of SNACS (preposition/possessive supersense) target identification heuristics from [7].
     New utility scripts for listing/filtering tokens (tquery.py) and converting to and from an Excel-compatible CSV format.
