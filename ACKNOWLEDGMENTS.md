@@ -63,6 +63,8 @@ Xposition tech gurus
 
 STREUSLE module for Pepper: Luke Gessler
 
+Release infrastructure contributions: Daniel Hershcovich
+
 Bug reports and user feedback
 
 * Daniel Hershcovich
