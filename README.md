@@ -117,6 +117,8 @@ http://nathan.cl
 History
 -------
 
+  - STREUSLE 4.4pre: TBD.
+     * Update govobj.py to recognize a different style of annotation for preposition stranding.
   - STREUSLE 4.3: 2020-05-01.
      * Updated preposition/possessive annotations to SNACS v2.5 guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v6>), which includes changes in the set of labels.
      * Added a sentence that had been omitted from a document in the training set.

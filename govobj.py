@@ -210,20 +210,27 @@ def findgovobj(pexpr, sent):
     gtok = sent['toks'][pptop['head']-1] if pptop['head']>0 else None
 
     # is it a stranded preposition?
-    if prel not in {'case', 'mark'} and tok1['xpos']=='IN':
-        if gtok and gtok['deprel'] in {'acl:relcl', 'acl', 'advcl'}:
-            # (some other gtok['deprel'] values aren't handled: weirdness mainly with coordination and copular constructions)
-            config = 'stranded'
+    # UD-EWT is actually inconsistent: sometimes it promotes the preposition
+    # as if the NP is elided; in other cases there is a nonprojective `case`
+    # dependency (the "right" way): https://github.com/UniversalDependencies/UD_English-EWT/issues/87
+    if tok1['xpos']=='IN':
+        if prel not in {'case', 'mark'}:
+            # the ellipsis analysis
+            if gtok and gtok['deprel'] in {'acl:relcl', 'acl', 'advcl'}:
+                # (some other gtok['deprel'] values aren't handled: weirdness mainly with coordination and copular constructions)
+                config = 'stranded'
 
-            # preposition stranding in relative clause or adjective raising (exclude particle in relative clause)
-            otok = sent['toks'][gtok['head']-1] if gtok['head']>0 else None
-            if gtok['deprel']=='advcl': # adjective raising: e.g. "She was easy to work with": otok is "easy"
-                # (not foolproof)
-                subjtok = findsubj(otok, sent)
-                otok = subjtok  # "She"; may be None
-        elif prel=='acl:relcl': # stranding in copular relative clause, e.g. "the city I'm in"
+                # preposition stranding in relative clause or adjective raising (exclude particle in relative clause)
+                otok = sent['toks'][gtok['head']-1] if gtok['head']>0 else None
+                if gtok['deprel']=='advcl': # adjective raising: e.g. "She was easy to work with": otok is "easy"
+                    # (not foolproof)
+                    subjtok = findsubj(otok, sent)
+                    otok = subjtok  # "She"; may be None
+            elif prel=='acl:relcl': # stranding in copular relative clause, e.g. "the city I'm in"
+                config = 'stranded'
+                otok = gtok
+        elif otok['#'] < tok1['#']: # head is to the left
             config = 'stranded'
-            otok = gtok
 
     # is it a predicative PP or subordinate copular clause?
     coptok = findcop(pptop, sent)
