@@ -17,7 +17,8 @@ This dataset's multiword expression and supersense annotations are licensed unde
 
 An independent effort to improve the MWE annotations from those in STREUSLE 3.0 resulted in the [HAMSTER](https://github.com/eltimster/HAMSTER) resource [14]. The HAMSTER revisions have not been merged with the 4.0 revisions, though we intend to do so for a future release.
 
-[![PyPI version](https://badge.fury.io/py/streusle.svg)](https://badge.fury.io/py/streusle)
+[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/) [![PyPI version](https://badge.fury.io/py/streusle.svg)](https://badge.fury.io/py/streusle)
+
 
 Files
 -----
