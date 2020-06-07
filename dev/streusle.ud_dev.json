@@ -5276,8 +5276,8 @@
       {"#": 23, "word": "restaurant", "lemma": "restaurant", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 25, "deprel": "nsubj", "edeps": "25:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 24, "word": "has", "lemma": "have", "upos": "AUX", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 25, "deprel": "aux", "edeps": "25:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 25, "word": "gone", "lemma": "go", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 18, "deprel": "conj", "edeps": "18:conj:but", "misc": null, "smwe": [2, 1], "wmwe": null, "lextag": "B-V.VID-v.change"},
-      {"#": 26, "word": "down", "lemma": "down", "upos": "X", "xpos": "GW", "feats": null, "head": 27, "deprel": "goeswith", "edeps": "27:goeswith", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "I_"},
-      {"#": 27, "word": "hill", "lemma": "hill", "upos": "ADV", "xpos": "RB", "feats": null, "head": 25, "deprel": "advmod", "edeps": "25:advmod", "misc": null, "smwe": [2, 3], "wmwe": null, "lextag": "I_"}
+      {"#": 26, "word": "down", "lemma": "down", "upos": "X", "xpos": "GW", "feats": null, "head": 25, "deprel": "advmod", "edeps": "25:advmod", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 27, "word": "hill", "lemma": "hill", "upos": "ADV", "xpos": "RB", "feats": null, "head": 26, "deprel": "goeswith", "edeps": "26:goeswith", "misc": null, "smwe": [2, 3], "wmwe": null, "lextag": "I_"}
     ],
     "etoks": [],
     "swes": {
@@ -5376,11 +5376,11 @@
  "streusle_sent_id": "ewtb.r.105719.1",
  "mwe": "Over_priced for Mexican food",
     "toks": [
-      {"#": 1, "word": "Over", "lemma": "over", "upos": "X", "xpos": "GW", "feats": null, "head": 2, "deprel": "goeswith", "edeps": "2:goeswith", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-ADJ"},
-      {"#": 2, "word": "priced", "lemma": "priced", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 1, "word": "Over", "lemma": "over", "upos": "X", "xpos": "GW", "feats": null, "head": 0, "deprel": "root", "edeps": "0:root", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-ADJ"},
+      {"#": 2, "word": "priced", "lemma": "priced", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 1, "deprel": "goeswith", "edeps": "1:goeswith", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 3, "word": "for", "lemma": "for", "upos": "ADP", "xpos": "IN", "feats": null, "head": 5, "deprel": "case", "edeps": "5:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.ComparisonRef"},
       {"#": 4, "word": "Mexican", "lemma": "mexican", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 5, "deprel": "amod", "edeps": "5:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
-      {"#": 5, "word": "food", "lemma": "food", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 2, "deprel": "obl", "edeps": "2:obl:for", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.FOOD"}
+      {"#": 5, "word": "food", "lemma": "food", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 1, "deprel": "obl", "edeps": "1:obl:for", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.FOOD"}
     ],
     "etoks": [],
     "swes": {
@@ -8947,9 +8947,9 @@
  "streusle_sent_id": "ewtb.r.190389.1",
  "mwe": "very miss_informed people !!",
     "toks": [
-      {"#": 1, "word": "very", "lemma": "very", "upos": "ADV", "xpos": "RB", "feats": null, "head": 3, "deprel": "advmod", "edeps": "3:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
-      {"#": 2, "word": "miss", "lemma": "mis", "upos": "X", "xpos": "AFX", "feats": null, "head": 3, "deprel": "goeswith", "edeps": "3:goeswith", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-ADJ"},
-      {"#": 3, "word": "informed", "lemma": "informed", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 4, "deprel": "amod", "edeps": "4:amod", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 1, "word": "very", "lemma": "very", "upos": "ADV", "xpos": "RB", "feats": null, "head": 2, "deprel": "advmod", "edeps": "2:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
+      {"#": 2, "word": "miss", "lemma": "mis", "upos": "X", "xpos": "AFX", "feats": null, "head": 4, "deprel": "amod", "edeps": "4:amod", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-ADJ"},
+      {"#": 3, "word": "informed", "lemma": "informed", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 2, "deprel": "goeswith", "edeps": "2:goeswith", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 4, "word": "people", "lemma": "people", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 0, "deprel": "root", "edeps": "0:root", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.PERSON"},
       {"#": 5, "word": "!!", "lemma": "!!", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 4, "deprel": "punct", "edeps": "4:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -12318,8 +12318,8 @@
       {"#": 32, "word": "Are", "lemma": "be", "upos": "AUX", "xpos": "VBP", "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin", "head": 33, "deprel": "aux", "edeps": "33:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 33, "word": "Putting", "lemma": "put", "upos": "VERB", "xpos": "VBG", "feats": "VerbForm=Ger", "head": 30, "deprel": "acl:relcl", "edeps": "30:acl:relcl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
       {"#": 34, "word": "Back", "lemma": "back", "upos": "ADV", "xpos": "RB", "feats": null, "head": 33, "deprel": "advmod", "edeps": "33:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Direction"},
-      {"#": 35, "word": "In", "lemma": "in", "upos": "X", "xpos": "GW", "feats": null, "head": 36, "deprel": "goeswith", "edeps": "36:goeswith", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-X"},
-      {"#": 36, "word": "To", "lemma": "to", "upos": "ADP", "xpos": "IN", "feats": null, "head": 38, "deprel": "case", "edeps": "38:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Goal"},
+      {"#": 35, "word": "In", "lemma": "in", "upos": "X", "xpos": "GW", "feats": null, "head": 38, "deprel": "case", "edeps": "38:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-X"},
+      {"#": 36, "word": "To", "lemma": "to", "upos": "ADP", "xpos": "IN", "feats": null, "head": 35, "deprel": "goeswith", "edeps": "35:goeswith", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Goal"},
       {"#": 37, "word": "The", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art", "head": 38, "deprel": "det", "edeps": "38:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 38, "word": "Grid", "lemma": "grid", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 34, "deprel": "obl", "edeps": "34:obl:to", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.COGNITION"},
       {"#": 39, "word": "Is", "lemma": "be", "upos": "AUX", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 40, "deprel": "cop", "edeps": "40:cop", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},

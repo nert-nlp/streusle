@@ -7416,9 +7416,9 @@
 # streusle_sent_id = ewtb.r.341750.3
 # mwe = Bland and over_cooked .
 1	Bland	bland	ADJ	JJ	Degree=Pos	0	root	0:root	_	_	ADJ	bland	_	_	_	_	_	O-ADJ
-2	and	and	CCONJ	CC	_	4	cc	4:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
-3	over	over	X	GW	_	4	goeswith	4:goeswith	_	1:1	ADJ	over cooked	_	_	_	_	_	B-ADJ
-4	cooked	cooked	ADJ	JJ	Degree=Pos	1	conj	1:conj:and	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
+2	and	and	CCONJ	CC	_	3	cc	3:cc	_	_	CCONJ	and	_	_	_	_	_	O-CCONJ
+3	over	over	X	GW	_	1	conj	1:conj:and	_	1:1	ADJ	over cooked	_	_	_	_	_	B-ADJ
+4	cooked	cooked	ADJ	JJ	Degree=Pos	3	goeswith	3:goeswith	SpaceAfter=No	1:2	_	_	_	_	_	_	_	I_
 5	.	.	PUNCT	.	_	1	punct	1:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 
 # sent_id = reviews-341750-0004
@@ -7433,8 +7433,8 @@
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 7	in	in	ADP	IN	_	12	case	12:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 8	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_	_	DET	a	_	_	_	_	_	O-DET
-9	over	over	X	GW	_	10	goeswith	10:goeswith	_	2:1	ADJ	over priced	_	_	_	_	_	B-ADJ
-10	priced	priced	ADJ	JJ	Degree=Pos	12	amod	12:amod	_	2:2	_	_	_	_	_	_	_	I_
+9	over	over	X	GW	_	12	amod	12:amod	_	2:1	ADJ	over priced	_	_	_	_	_	B-ADJ
+10	priced	priced	ADJ	JJ	Degree=Pos	9	goeswith	9:goeswith	_	2:2	_	_	_	_	_	_	_	I_
 11	Olive	Olive	PROPN	NNP	Number=Sing	12	compound	12:compound	_	3:1	N	Olive Garden	n.GROUP	_	_	_	_	B-N-n.GROUP
 12	Garden	Garden	PROPN	NNP	Number=Sing	2	advcl	2:advcl:in	SpaceAfter=No	3:2	_	_	_	_	_	_	_	I_
 13	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT

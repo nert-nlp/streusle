@@ -2548,8 +2548,8 @@
 23	restaurant	restaurant	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	_	_	N	restaurant	n.GROUP	_	_	_	_	O-N-n.GROUP
 24	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	25:aux	_	_	AUX	have	_	_	_	_	_	O-AUX
 25	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	18:conj:but	_	2:1	V.VID	go down hill	v.change	_	_	_	_	B-V.VID-v.change
-26	down	down	X	GW	_	27	goeswith	27:goeswith	_	2:2	_	_	_	_	_	_	_	I_
-27	hill	hill	ADV	RB	_	25	advmod	25:advmod	_	2:3	_	_	_	_	_	_	_	I_
+26	down	down	X	GW	_	25	advmod	25:advmod	_	2:2	_	_	_	_	_	_	_	I_
+27	hill	hill	ADV	RB	_	26	goeswith	26:goeswith	_	2:3	_	_	_	_	_	_	_	I_
 
 # newdoc id = reviews-105326
 # sent_id = reviews-105326-0001
@@ -2586,11 +2586,11 @@
 # text = Over priced for Mexican food
 # streusle_sent_id = ewtb.r.105719.1
 # mwe = Over_priced for Mexican food
-1	Over	over	X	GW	_	2	goeswith	2:goeswith	_	1:1	ADJ	over priced	_	_	_	_	_	B-ADJ
-2	priced	priced	ADJ	JJ	Degree=Pos	0	root	0:root	_	1:2	_	_	_	_	_	_	_	I_
+1	Over	over	X	GW	_	0	root	0:root	_	1:1	ADJ	over priced	_	_	_	_	_	B-ADJ
+2	priced	priced	ADJ	JJ	Degree=Pos	1	goeswith	1:goeswith	_	1:2	_	_	_	_	_	_	_	I_
 3	for	for	ADP	IN	_	5	case	5:case	_	_	P	for	p.ComparisonRef	p.ComparisonRef	_	_	_	O-P-p.ComparisonRef
 4	Mexican	mexican	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	ADJ	mexican	_	_	_	_	_	O-ADJ
-5	food	food	NOUN	NN	Number=Sing	2	obl	2:obl:for	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
+5	food	food	NOUN	NN	Number=Sing	1	obl	1:obl:for	_	_	N	food	n.FOOD	_	_	_	_	O-N-n.FOOD
 
 # newdoc id = reviews-107292
 # sent_id = reviews-107292-0001
@@ -4301,9 +4301,9 @@
 # text = very miss informed people!!
 # streusle_sent_id = ewtb.r.190389.1
 # mwe = very miss_informed people !!
-1	very	very	ADV	RB	_	3	advmod	3:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
-2	miss	mis	X	AFX	_	3	goeswith	3:goeswith	_	1:1	ADJ	mis informed	_	_	_	_	_	B-ADJ
-3	informed	informed	ADJ	JJ	Degree=Pos	4	amod	4:amod	_	1:2	_	_	_	_	_	_	_	I_
+1	very	very	ADV	RB	_	2	advmod	2:advmod	_	_	ADV	very	_	_	_	_	_	O-ADV
+2	miss	mis	X	AFX	_	4	amod	4:amod	_	1:1	ADJ	mis informed	_	_	_	_	_	B-ADJ
+3	informed	informed	ADJ	JJ	Degree=Pos	2	goeswith	2:goeswith	_	1:2	_	_	_	_	_	_	_	I_
 4	people	people	NOUN	NNS	Number=Plur	0	root	0:root	SpaceAfter=No	_	N	people	n.PERSON	_	_	_	_	O-N-n.PERSON
 5	!!	!!	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	!!	_	_	_	_	_	O-PUNCT
 
@@ -5946,8 +5946,8 @@
 32	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	33	aux	33:aux	_	_	AUX	be	_	_	_	_	_	O-AUX
 33	Putting	put	VERB	VBG	VerbForm=Ger	30	acl:relcl	30:acl:relcl	_	_	V	put	v.social	_	_	_	_	O-V-v.social
 34	Back	back	ADV	RB	_	33	advmod	33:advmod	_	_	P	back	p.Direction	p.Direction	_	_	_	O-P-p.Direction
-35	In	in	X	GW	_	36	goeswith	36:goeswith	_	_	X	in	_	_	_	_	_	O-X
-36	To	to	ADP	IN	_	38	case	38:case	_	_	P	to	p.Goal	p.Goal	_	_	_	O-P-p.Goal
+35	In	in	X	GW	_	38	case	38:case	_	_	X	in	_	_	_	_	_	O-X
+36	To	to	ADP	IN	_	35	goeswith	35:goeswith	_	_	P	to	p.Goal	p.Goal	_	_	_	O-P-p.Goal
 37	The	the	DET	DT	Definite=Def|PronType=Art	38	det	38:det	_	_	DET	the	_	_	_	_	_	O-DET
 38	Grid	grid	NOUN	NN	Number=Sing	34	obl	34:obl:to	_	_	N	grid	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 39	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	40:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
