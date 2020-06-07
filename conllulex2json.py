@@ -236,8 +236,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
 
         if ln.startswith('#'):  # metadata
             if store_conllulex=='full': sent_conllulex += ln + '\n'
-            if ln.startswith('# newdoc ') or ln.startswith('# newpar '): continue
+            if ln.startswith('# newdoc ') or ln.startswith('# newpar ') or ln.startswith('# TODO: '): continue
             m = re.match(r'^# (\w+) = (.*)$', ln)
+            assert m,ln
             k, v = m.group(1), m.group(2)
             assert k not in ('toks', 'swes', 'smwes', 'wmwes')
             sent[k] = v

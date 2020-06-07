@@ -1,3 +1,5 @@
+import sys
+
 class Token:
     def __init__(self, string):
         self.fields = string.split("\t")
@@ -19,8 +21,11 @@ class Sentence:
         self.meta = meta
         self.meta_dict = {}
         for meta_info in meta:
-            k, v = meta_info.strip("# ").split(" = ")
-            self.meta_dict[k] = v
+            if ' = ' not in meta_info:
+                print('Ignoring comment line:', meta_info, file=sys.stderr)
+            else:
+                k, v = meta_info.strip("# ").split(" = ")
+                self.meta_dict[k] = v
 
 def sentences(filename):
     tokens, meta = [], []
