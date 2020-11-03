@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="streusle",
-    version="4.3",
+    version="4.4",
     author="Nathan Schneider",
     author_email="nathan.schneider@georgetown.edu",
     description="STREUSLE: a corpus with comprehensive lexical semantic annotation (multiword expressions, supersenses)",
