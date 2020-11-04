@@ -118,7 +118,7 @@ http://nathan.cl
 History
 -------
 
-  - STREUSLE 4.4: 2020-11-03.
+  - STREUSLE 4.4: 2020-11-04.
      * Update govobj.py to recognize a different style of annotation for preposition stranding.
      * Update UD to v2.6.
   - STREUSLE 4.3: 2020-05-01.
