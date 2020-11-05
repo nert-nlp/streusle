@@ -5,7 +5,7 @@ STREUSLE Dataset
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
-STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [9]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7, 8]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the annotations.
+STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [9]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7, 8]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the semantic annotations. The 4.4 release updates only UD annotations.
 
 Release URL: <https://github.com/nert-nlp/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>  
@@ -106,6 +106,9 @@ Related work:
 
 - [15] PARSEME Shared Task 1.1 - Annotation guidelines. 2018. <http://parsemefr.lif.univ-mrs.fr/parseme-st-guidelines/1.1/?page=home>
 
+- [16] Daniel Hershcovich, Nathan Schneider, Dotan Dvir, Jakob Prange, Miryam de Lhoneux, and Omri Abend. Comparison by conversion: reverse-engineering UCCA from syntax and lexical semantics. _Proceedings of the Second International Workshop on Designing Meaning Representations_, Online, December 13, 2020. <https://arxiv.org/abs/2011.00834> ([rule-based system](https://github.com/danielhers/streusle/blob/streusle2ucca/README_conllulex2ucca.md), [statistical system](https://github.com/danielhers/hit-scir-ucca-parser))
+
+
 Contact
 -------
 
@@ -121,6 +124,7 @@ History
   - STREUSLE 4.4: 2020-11-04.
      * Update govobj.py to recognize a different style of annotation for preposition stranding.
      * Update UD to v2.6.
+     * Link from README to [16], a new paper on converting STREUSLE annotations to UCCA (Universal Conceptual Cognitive Annotation), which uses this version of the data in experiments.
   - STREUSLE 4.3: 2020-05-01.
      * Updated preposition/possessive annotations to SNACS v2.5 guidelines ([5], specifically <https://arxiv.org/abs/1704.02134v6>), which includes changes in the set of labels.
      * Added a sentence that had been omitted from a document in the training set.
