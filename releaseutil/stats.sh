@@ -9,11 +9,11 @@ DOCS=`fgrep '# newdoc id' $DATA | wc -l`
 echo "* Documents:           $DOCS" >> STATS.md
 SENTS=`fgrep '# sent_id' $DATA | wc -l`
 echo "* Sentences:           $SENTS" >> STATS.md
-WORDS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | wc -l`
-echo "* Tokens:              $WORDS (excludes ellipsis nodes)" >> STATS.md
-LEMMAS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f3 | sort | uniq | wc -l`
+WORDS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | wc -l`
+echo "* Tokens:              $WORDS (excludes ellipsis nodes and multiword tokens)" >> STATS.md
+LEMMAS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | cut -f3 | sort | uniq | wc -l`
 echo "* Unique lemmas:       $LEMMAS" >> STATS.md
-LEXTAGS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sort | uniq | wc -l`
+LEXTAGS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | cut -f19 | sort | uniq | wc -l`
 echo "* Unique full lextags: $LEXTAGS" >> STATS.md
 echo "* [LexCat](LEXCAT.txt)" >> STATS.md
 echo "* [MWEs](MWES.txt)" >> STATS.md
@@ -31,10 +31,10 @@ echo "" >> MWES.txt
 
 echo "MWE Gaps" >> MWES.txt
 echo "========" >> MWES.txt
-GAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I[~_]' | wc -l`
-SGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I_' | wc -l`
-WGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I~' | wc -l`
-MULTIGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | fgrep -v 'CopyOf=' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? (I_\S* )+[bio]' | wc -l`
+GAPS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I[~_]' | wc -l`
+SGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I_' | wc -l`
+WGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? I~' | wc -l`
+MULTIGAPS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-.]' | cut -f19 | sed -E 's/(.[^-]*)(-.*)?/\1/' | tr '\n' ' ' | egrep -o '[bio][~_]? (I_\S* )+[bio]' | wc -l`
 echo -n "Strong gaps:   " >> MWES.txt
 printf "%4d\n" "$SGAPS" >> MWES.txt
 echo -n "Weak gaps:     " >> MWES.txt
