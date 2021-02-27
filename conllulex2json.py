@@ -246,6 +246,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
             if 'toks' not in sent:
                 sent['toks'] = []   # excludes ellipsis tokens, so they don't interfere with indexing
                 sent['etoks'] = []  # ellipsis tokens only
+                sent['mwtoks'] = [] # multiword tokens
                 sent['swes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['smwes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['wmwes'] = defaultdict(lambda: {'lexlemma': None, 'toknums': []})
@@ -259,28 +260,38 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
 
             tok = {}
             tokNum = conllu_cols[0]
-            isEllipsis = re.match(r'^\d+$', tokNum) is None
-            if isEllipsis:  # ellipsis node indices are like 24.1
+            isMWT = isEllipsis = False
+            if re.match(r'^\d+$', tokNum):  # single word
+                sent_conllulex += ln + '\n'
+                tokNum = int(tokNum)
+            else:
+                if '-' in tokNum:   # multiword token e.g. 3-4: applies to words with clitics
+                    # these just have the surface form, no lemma POS etc.
+                    isMWT = True
+                    part1, part2 = tokNum.split('-')
+                if '.' in tokNum:   # ellipsis node indices are like 24.1
+                    isEllipsis = True
+                    assert not isMWT
+                    part1, part2 = tokNum.split('.')
+
                 if store_conllulex=='full': sent_conllulex += ln + '\n'
-                part1, part2 = tokNum.split('.')
                 part1 = int(part1)
                 part2 = int(part2)
                 tokNum = (part1, part2, tokNum) # ellipsis token offset is a tuple. include the string for convenience
-            else:
-                sent_conllulex += ln + '\n'
-                tokNum = int(tokNum)
+
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
-            assert tok['lemma']!='_' and tok['upos']!='_',tok
+            if not isMWT:
+                assert tok['lemma']!='_' and tok['upos']!='_',tok
             if morph_syn:
                 tok['feats'], tok['head'], tok['deprel'], tok['edeps'] = conllu_cols[5:9]
                 if tok['head']=='_':
-                    assert isEllipsis
+                    assert isEllipsis or isMWT
                     tok['head'] = None
                 else:
                     tok['head'] = int(tok['head'])
                 if tok['deprel']=='_':
-                    assert isEllipsis
+                    assert isEllipsis or isMWT
                     tok['deprel'] = None
             if misc:
                 tok['misc'] = conllu_cols[9]
@@ -288,7 +299,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
                 if nullable_conllu_fld in tok and tok[nullable_conllu_fld]=='_':
                     tok[nullable_conllu_fld] = None
 
-            if not isEllipsis:
+            if not (isEllipsis or isMWT):
                 # Load STREUSLE-specific columns
 
                 tok['smwe'], tok['lexcat'], tok['lexlemma'], tok['ss'], tok['ss2'], \
@@ -354,6 +365,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
 
             if isEllipsis:
                 sent['etoks'].append(tok)
+            elif isMWT:
+                sent['mwtoks'].append(tok)
             else:
                 sent['toks'].append(tok)
     if sent:
@@ -366,7 +379,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=F
         assert False,'PLACEHOLDER LEXCATS ARE DISALLOWED'
 
 def print_sent_json(sent):
-    list_fields = ("toks", "etoks")
+    list_fields = ("toks", "etoks", "mwtoks")
     dict_fields = ("swes", "smwes", "wmwes")
 
     sent_copy = dict(sent)

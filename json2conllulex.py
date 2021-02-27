@@ -40,25 +40,25 @@ def build_conllulex(sents):
 
         # body
 
-        # merge regular and ellipsis tokens
+        # merge regular, ellipsis, multiword tokens
         toks = sent["toks"]
-        for etok in reversed(sent["etoks"]):
+        for etok in reversed(chain(sent["etoks"],sent["mwtoks"])):
             before, subnum, s = etok["#"]
             etok["#"] = s
             toks.insert(before, etok)
         for tok in toks:
-            isEllipsis = isinstance(tok["#"], str)
-            if isEllipsis: assert '.' in tok["#"]
+            isSpecial = isinstance(tok["#"], str)   # ellipsis or multiword token
+            if isSpecial: assert '.' in tok["#"] or '-' in tok["#"]
             row = []
             for fld in CONLLU:
                 v = tok[CONLLU_TO_JSON_FIELDS.get(fld, fld.lower())]
                 if not v and v!=0:
-                    assert isEllipsis or fld in ('FEATS', 'MISC'),(fld,v)
+                    assert isSpecial or fld in ('FEATS', 'MISC'),(fld,v)
                     v = '_'
                 row.append(str(v))
 
             # SMWE
-            if isEllipsis:
+            if isSpecial:
                 # this is an ellipsis token. it doesn't have any lexical semantic info
                 row.extend(list('_'*9))
                 result += '\t'.join(row) + '\n'
