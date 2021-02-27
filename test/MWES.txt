@@ -39,13 +39,13 @@ Strong MWEs by LexCat
      10 DISC
       1 INTJ
     129 N
-     10 P
+     11 P
      18 PP
       2 PRON
       1 SCONJ
      17 V.IAV
       1 V.LVC.cause
       8 V.LVC.full
-     24 V.VID
+     23 V.VID
      11 V.VPC.full
       5 V.VPC.semi

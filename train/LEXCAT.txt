@@ -1,5 +1,5 @@
    2994 ADJ
-   2911 ADV
+   2753 ADV
    1697 AUX
    1767 CCONJ
    3298 DET
@@ -8,15 +8,15 @@
     207 INF.P
     106 INTJ
    7245 N
-    509 NUM
+    523 NUM
    3313 P
      52 POSS
     150 PP
    4339 PRON
     880 PRON.POSS
-   4629 PUNCT
-    440 SCONJ
-    107 SYM
+   4617 PUNCT
+    599 SCONJ
+    119 SYM
    5598 V
      99 V.IAV
      11 V.LVC.cause
@@ -24,5 +24,5 @@
     272 V.VID
     184 V.VPC.full
      88 V.VPC.semi
-     31 X
-   3203 _
+     14 X
+   3754 _

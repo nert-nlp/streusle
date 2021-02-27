@@ -37,6 +37,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -209,6 +210,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -393,6 +395,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -527,6 +530,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "hooray",
@@ -591,7 +595,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -673,6 +677,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -776,6 +798,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -1066,6 +1089,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -1260,6 +1284,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -1298,6 +1323,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -1455,6 +1481,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -1624,6 +1651,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "ok",
@@ -1772,6 +1800,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -1964,9 +1993,9 @@
     "upos": "PUNCT",
     "xpos": "-LRB-",
     "feats": null,
-    "head": 10,
+    "head": 11,
     "deprel": "punct",
-    "edeps": "10:punct",
+    "edeps": "11:punct",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -2009,9 +2038,9 @@
     "upos": "PUNCT",
     "xpos": "-RRB-",
     "feats": null,
-    "head": 10,
+    "head": 11,
     "deprel": "punct",
-    "edeps": "10:punct",
+    "edeps": "11:punct",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -2034,6 +2063,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -2365,6 +2395,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "expensive",
@@ -2657,6 +2688,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "absolutely",
@@ -3020,6 +3052,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "sheer",
@@ -3311,6 +3344,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -3582,6 +3616,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -3720,7 +3755,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -3793,7 +3828,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "o-PRON"
@@ -3983,9 +4018,27 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "they're",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -4314,6 +4367,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Daniel",
@@ -4499,6 +4553,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -4737,6 +4792,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "many",
@@ -5029,6 +5085,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -5185,7 +5242,7 @@
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -5299,7 +5356,7 @@
     "head": 13,
     "deprel": "nsubj",
     "edeps": "13:nsubj|15:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "o-PRON"
@@ -5387,6 +5444,40 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "it's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "but",
@@ -5573,6 +5664,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "worst",
@@ -5876,7 +5968,7 @@
     "head": 21,
     "deprel": "nsubj",
     "edeps": "21:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -5943,6 +6035,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     18,
+     19,
+     "18-19"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -6177,7 +6287,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -6364,6 +6474,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -6643,6 +6771,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -6869,6 +6998,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "send",
@@ -7072,6 +7202,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "recommend",
@@ -7247,6 +7378,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "average",
@@ -7554,6 +7686,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -8048,6 +8181,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "one",
@@ -8317,6 +8451,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "ridiculous",
@@ -8498,6 +8633,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "there",
@@ -8749,6 +8885,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "be",
@@ -8844,7 +8981,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -9046,6 +9183,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -9488,6 +9643,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -9715,6 +9871,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Sanctuary",
@@ -9931,7 +10088,7 @@
     "#": 12,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": ",",
     "feats": null,
     "head": 14,
@@ -9940,7 +10097,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 13,
@@ -10010,6 +10167,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Sanctuary",
@@ -10119,7 +10277,7 @@
    },
    "12": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -10257,6 +10415,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -10384,6 +10543,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "and",
@@ -10484,6 +10644,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "amazing",
@@ -10787,6 +10948,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -11058,6 +11220,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -11220,7 +11383,7 @@
     "head": 10,
     "deprel": "nsubj",
     "edeps": "10:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -11383,6 +11546,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "Edit",
@@ -11626,6 +11807,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fresh",
@@ -11825,6 +12007,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -12191,7 +12374,7 @@
     "#": 17,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": "HYPH",
     "feats": null,
     "head": 18,
@@ -12200,7 +12383,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 18,
@@ -12264,6 +12447,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Paula",
@@ -12398,7 +12582,7 @@
    },
    "17": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -12513,6 +12697,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "bravo",
@@ -12700,6 +12885,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "for",
@@ -12847,6 +13033,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -13043,6 +13230,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "food",
@@ -13479,6 +13667,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "also",
@@ -13719,9 +13908,9 @@
     "upos": "PUNCT",
     "xpos": ",",
     "feats": null,
-    "head": 2,
+    "head": 6,
     "deprel": "punct",
-    "edeps": "2:punct",
+    "edeps": "6:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -14029,6 +14218,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -14416,6 +14606,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -14608,6 +14799,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -14711,6 +14903,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -15313,6 +15506,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -15712,6 +15906,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "friendly",
@@ -15857,6 +16052,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "attentive",
@@ -15992,6 +16188,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -16151,7 +16348,7 @@
     "head": 9,
     "deprel": "nsubj",
     "edeps": "9:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -16515,6 +16712,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "its",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -16836,7 +17051,7 @@
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -16903,6 +17118,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "its",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "yes",
@@ -16994,6 +17227,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "rubbish",
@@ -17234,7 +17468,7 @@
     "head": 17,
     "deprel": "aux",
     "edeps": "17:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -17291,9 +17525,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 10,
+    "head": 17,
     "deprel": "punct",
-    "edeps": "10:punct",
+    "edeps": "17:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -17301,6 +17535,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     15,
+     16,
+     "15-16"
+    ],
+    "word": "didn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "take",
@@ -17573,7 +17825,7 @@
    {
     "#": 5,
     "word": "these",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -17749,6 +18001,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "notice",
@@ -17776,7 +18029,7 @@
     }
    },
    "5": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -18050,6 +18303,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "5": {
     "lexlemma": ",",
@@ -18183,6 +18437,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -18553,6 +18808,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -19050,6 +19306,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "and",
@@ -19337,7 +19594,7 @@
     "#": 10,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 12,
@@ -19346,7 +19603,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 11,
@@ -19440,6 +19697,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fast",
@@ -19531,7 +19789,7 @@
    },
    "10": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -19651,6 +19909,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "feel",
@@ -19997,6 +20256,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -20243,7 +20503,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -20445,6 +20705,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "now",
@@ -20601,7 +20879,7 @@
     "head": 5,
     "deprel": "compound",
     "edeps": "5:compound",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -20809,6 +21087,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Mens",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "6": {
     "lexlemma": ",",
@@ -21005,6 +21301,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": ",",
@@ -21221,6 +21518,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -21452,6 +21750,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "will",
@@ -21595,6 +21894,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -21845,6 +22145,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -22126,7 +22427,7 @@
     "head": 13,
     "deprel": "aux",
     "edeps": "13:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -22301,6 +22602,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "doesnt",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -22669,7 +22988,7 @@
     "#": 14,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 16,
@@ -22769,6 +23088,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -22952,7 +23272,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": [
      1,
@@ -23088,6 +23408,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -23367,6 +23705,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "from",
@@ -23516,7 +23855,7 @@
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": [
      1,
@@ -23649,6 +23988,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "couldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -23892,7 +24249,7 @@
     "head": 12,
     "deprel": "aux",
     "edeps": "12:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": [
      1,
@@ -23971,6 +24328,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     9,
+     10,
+     "9-10"
+    ],
+    "word": "cannot",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -24292,6 +24667,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -24458,6 +24834,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "excellent",
@@ -24506,7 +24883,7 @@
     "head": 4,
     "deprel": "nmod:poss",
     "edeps": "4:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -24972,6 +25349,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Compact's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "5": {
     "lexlemma": "remove",
@@ -25336,6 +25731,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "dessert",
@@ -25460,6 +25856,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "rest",
@@ -25647,6 +26044,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -25874,6 +26272,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "nice",
@@ -25990,6 +26389,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -26075,6 +26475,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -26274,6 +26675,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -26450,6 +26852,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "and",
@@ -26643,6 +27046,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "i",
@@ -26855,6 +27259,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fast",
@@ -26999,7 +27404,7 @@
     "head": 8,
     "deprel": "nsubj",
     "edeps": "8:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -27246,6 +27651,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -27672,6 +28095,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -27923,6 +28347,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "friendliest",
@@ -28005,8 +28430,8 @@
     "xpos": "WDT",
     "feats": "PronType=Int",
     "head": 3,
-    "deprel": "det",
-    "edeps": "3:det",
+    "deprel": "det:predet",
+    "edeps": "3:det:predet",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -28059,6 +28484,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "what",
@@ -28183,6 +28609,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -28406,6 +28833,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -28635,6 +29063,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -28711,7 +29140,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -28778,6 +29207,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "just",
@@ -28905,6 +29352,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fantastic",
@@ -28955,7 +29403,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -29299,9 +29747,10 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -29627,6 +30076,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "truly",
@@ -29810,6 +30260,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -30172,6 +30623,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -30562,6 +31014,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -30760,6 +31213,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "2scompany",
@@ -30847,6 +31301,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "awesome",
@@ -31115,6 +31570,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "transform",
@@ -31504,6 +31960,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -31743,6 +32200,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -31861,6 +32319,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "wonderful",
@@ -32072,6 +32531,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -32244,6 +32704,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Walgreens",
@@ -32338,12 +32799,12 @@
     "#": 4,
     "word": "is",
     "lemma": "be",
-    "upos": "VERB",
+    "upos": "AUX",
     "xpos": "VBZ",
     "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
-    "deprel": "aux:pass",
-    "edeps": "6:aux:pass",
+    "deprel": "cop",
+    "edeps": "6:cop|9:aux:pass",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -32599,7 +33060,7 @@
     "head": 23,
     "deprel": "aux",
     "edeps": "23:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -32717,6 +33178,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     21,
+     22,
+     "21-22"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -33185,6 +33664,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "clean",
@@ -33326,6 +33806,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -33623,7 +34104,7 @@
     "#": 18,
     "word": "ie",
     "lemma": "ie",
-    "upos": "X",
+    "upos": "ADV",
     "xpos": "FW",
     "feats": null,
     "head": 22,
@@ -33632,7 +34113,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-X"
+    "lextag": "O-ADV"
    },
    {
     "#": 19,
@@ -33756,6 +34237,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -33933,7 +34415,7 @@
    },
    "18": {
     "lexlemma": "ie",
-    "lexcat": "X",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -34069,6 +34551,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "awesome",
@@ -34325,6 +34808,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "to",
@@ -34493,6 +34977,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "yum",
@@ -34956,6 +35441,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -35281,6 +35767,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "no",
@@ -35474,6 +35961,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -35751,6 +36239,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -36004,6 +36493,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -36121,6 +36611,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "umm",
@@ -36205,7 +36696,7 @@
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -36713,6 +37204,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "dont",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "okay",
@@ -37055,7 +37564,7 @@
     "head": 5,
     "deprel": "nsubj",
     "edeps": "5:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -37182,6 +37691,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "like",
@@ -37388,6 +37915,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "you",
@@ -37502,7 +38030,7 @@
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -37628,7 +38156,7 @@
     "head": 13,
     "deprel": "aux",
     "edeps": "13:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -37680,6 +38208,40 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "cannot",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "didn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -37827,6 +38389,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -37902,7 +38465,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -37969,6 +38532,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "Ive",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -38225,6 +38806,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Darla",
@@ -38398,6 +38980,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "excellence",
@@ -38718,6 +39301,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -39323,6 +39907,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -39666,9 +40251,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -39676,6 +40261,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -39770,6 +40356,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "hidden",
@@ -39921,6 +40508,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "asian",
@@ -40170,6 +40758,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "go",
@@ -40581,6 +41170,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -40926,6 +41516,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "get",
@@ -41134,6 +41725,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -41435,6 +42027,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -41620,7 +42213,7 @@
     "head": 5,
     "deprel": "nsubj",
     "edeps": "5:nsubj|15:nsubj|17:nsubj:xsubj|18:nsubj:xsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -41879,6 +42472,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "unfortunately",
@@ -42117,7 +42728,7 @@
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -42319,6 +42930,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -42623,6 +43252,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -42874,6 +43504,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "decent",
@@ -43043,9 +43674,9 @@
     "upos": "PUNCT",
     "xpos": ",",
     "feats": null,
-    "head": 9,
+    "head": 5,
     "deprel": "punct",
-    "edeps": "9:punct",
+    "edeps": "5:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -43263,6 +43894,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "room",
@@ -43534,6 +44166,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -43786,6 +44419,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -44057,6 +44691,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "too",
@@ -44458,6 +45093,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -44748,6 +45384,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -44920,6 +45557,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "install",
@@ -45347,6 +45985,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -45617,6 +46256,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "usually",
@@ -45811,6 +46451,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "4": {
     "lexlemma": "she",
@@ -45894,6 +46535,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Relish",
@@ -46057,6 +46699,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -46326,6 +46969,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -46511,6 +47155,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "drum",
@@ -46840,6 +47485,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fast",
@@ -47245,7 +47891,7 @@
     "head": 16,
     "deprel": "nsubj",
     "edeps": "16:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -47372,6 +48018,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     14,
+     15,
+     "14-15"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -47663,6 +48327,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "will",
@@ -47796,6 +48461,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -48118,6 +48784,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -48352,6 +49019,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -49100,6 +49768,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -49655,6 +50324,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -49927,6 +50597,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -50033,7 +50704,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -50188,9 +50859,10 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -50681,6 +51353,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -51067,6 +51740,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -51164,6 +51838,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "hospitality",
@@ -51270,6 +51945,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -51397,6 +52073,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "4": {
     "lexlemma": ".",
@@ -51536,6 +52213,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "-",
@@ -51617,6 +52295,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "speak",
@@ -51987,6 +52666,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "can",
@@ -52495,6 +53175,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -52715,6 +53396,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "amazing",
@@ -52941,6 +53623,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -53152,6 +53835,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "courteous",
@@ -53309,6 +53993,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -53436,6 +54121,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "nice",
@@ -53545,6 +54231,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fresh",
@@ -53834,6 +54521,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -54086,6 +54774,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -54531,6 +55220,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -54840,6 +55530,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "amazing",
@@ -55035,7 +55726,7 @@
     "head": 14,
     "deprel": "nsubj",
     "edeps": "14:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -55138,6 +55829,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "its",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "service",
@@ -55622,6 +56331,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "restaurant",
@@ -55902,6 +56612,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -55934,7 +56645,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -56209,9 +56920,10 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -56555,7 +57267,7 @@
     "head": 14,
     "deprel": "nsubj",
     "edeps": "14:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -56682,6 +57394,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -56947,7 +57677,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -57071,6 +57801,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -57306,7 +58054,7 @@
     "head": 10,
     "deprel": "nmod:poss",
     "edeps": "10:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-N-n.GROUP"
@@ -57463,6 +58211,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "firm's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "Michael",
@@ -58115,6 +58881,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -58427,7 +59194,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -58518,6 +59285,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "He's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "he",
@@ -58684,6 +59469,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -58775,6 +59561,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "house",
@@ -59097,6 +59884,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "provide",
@@ -59435,6 +60223,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "she",
@@ -59606,7 +60395,7 @@
     "head": 7,
     "deprel": "nmod:poss",
     "edeps": "7:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -59660,7 +60449,7 @@
     "head": 11,
     "deprel": "nsubj",
     "edeps": "11:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -59733,6 +60522,40 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "Sams",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -59837,8 +60660,8 @@
     "xpos": "WDT",
     "feats": "PronType=Int",
     "head": 5,
-    "deprel": "det",
-    "edeps": "5:det",
+    "deprel": "det:predet",
+    "edeps": "5:det:predet",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -59912,6 +60735,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "what",
@@ -60278,6 +61102,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -60538,6 +61363,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "ipad",
@@ -60713,6 +61539,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -60944,6 +61771,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "i",
@@ -61156,6 +61984,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "now",
@@ -61376,6 +62205,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "yeah",
@@ -61500,6 +62330,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "horrible",
@@ -61584,7 +62415,7 @@
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -61612,6 +62443,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "Ralph's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -61806,7 +62655,7 @@
     "head": 12,
     "deprel": "nmod:poss",
     "edeps": "12:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -61867,6 +62716,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     10,
+     11,
+     "10-11"
+    ],
+    "word": "Ralph's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -62048,6 +62915,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "excellent",
@@ -62120,6 +62988,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -62388,6 +63257,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -62662,6 +63532,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "finally",
@@ -62829,6 +63700,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "wonderful",
@@ -62947,6 +63819,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "clean",
@@ -63086,6 +63959,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -63228,7 +64102,7 @@
     "#": 5,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 7,
@@ -63237,7 +64111,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 6,
@@ -63322,6 +64196,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "will",
@@ -63343,7 +64218,7 @@
    },
    "5": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -63455,6 +64330,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "win",
@@ -63720,6 +64596,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -64057,6 +64934,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -64199,6 +65077,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "wow",
@@ -64323,6 +65202,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -64676,6 +65556,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "wow",
@@ -65129,6 +66010,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "i",
@@ -65334,6 +66216,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Linda",
@@ -65491,6 +66374,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -65681,6 +66565,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "excellent",
@@ -65870,6 +66755,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -65970,7 +66856,7 @@
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj|15:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -66352,6 +67238,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -66763,7 +67667,7 @@
     "head": 13,
     "deprel": "nsubj",
     "edeps": "13:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -66830,6 +67734,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     10,
+     11,
+     "10-11"
+    ],
+    "word": "she's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "particularly",
@@ -67014,6 +67936,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Kyle",
@@ -67106,6 +68029,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -67311,6 +68235,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "listen",
@@ -67452,6 +68377,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -67555,6 +68481,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -67901,6 +68828,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -68372,6 +69300,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -68684,6 +69613,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "and",
@@ -68850,6 +69780,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "remember",
@@ -69008,6 +69939,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -69318,6 +70250,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "all",
@@ -69596,7 +70529,7 @@
     "head": 9,
     "deprel": "nsubj",
     "edeps": "9:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -69669,6 +70602,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     6,
+     7,
+     "6-7"
+    ],
+    "word": "IVE",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -69864,6 +70815,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "kudos",
@@ -70133,6 +71085,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -70294,6 +71247,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Natasha",
@@ -70421,6 +71375,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -70705,6 +71660,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "always",
@@ -71180,6 +72136,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "she",
@@ -71516,6 +72473,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -71809,6 +72767,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "feel",
@@ -71976,6 +72935,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "poor",
@@ -72105,7 +73065,7 @@
     "head": 9,
     "deprel": "nmod:poss",
     "edeps": "9:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -72226,6 +73186,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "Noonan's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "there",
@@ -72462,6 +73440,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -72553,6 +73532,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "CLH",
@@ -72650,6 +73630,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "bulwark",
@@ -73012,6 +73993,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "just",
@@ -73281,16 +74263,16 @@
     "#": 5,
     "word": "how",
     "lemma": "how",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 6,
-    "deprel": "advmod",
-    "edeps": "6:advmod",
+    "deprel": "mark",
+    "edeps": "6:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 6,
@@ -73591,6 +74573,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "he",
@@ -73630,7 +74613,7 @@
    },
    "5": {
     "lexlemma": "how",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -73870,6 +74853,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "!",
@@ -73956,7 +74940,7 @@
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -74059,6 +75043,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "I'd",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -74311,6 +75313,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "massage",
@@ -74817,6 +75820,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Seth",
@@ -75385,6 +76389,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "he",
@@ -75652,6 +76657,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "place",
@@ -75827,6 +76833,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -75988,6 +76995,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "room",
@@ -76208,6 +77216,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -76485,6 +77494,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -76672,6 +77682,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -76956,6 +77967,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "you",
@@ -77205,6 +78217,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": ",",
@@ -77452,6 +78465,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -77676,6 +78690,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "schedule",
@@ -77879,6 +78894,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Rich",
@@ -78238,6 +79254,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "he",
@@ -78479,6 +79496,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -78558,6 +79576,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -78640,6 +79659,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": ".",
@@ -78703,6 +79723,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "excellent",
@@ -78926,6 +79947,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "\"",
@@ -79144,6 +80166,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -79422,6 +80445,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "you",
@@ -79654,6 +80678,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "never",
@@ -79960,6 +80985,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -80358,6 +81384,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "drive",
@@ -80554,6 +81581,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "who",
@@ -80663,6 +81691,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -80959,6 +81988,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -81342,6 +82372,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "it",
@@ -81669,7 +82700,7 @@
     "#": 13,
     "word": "mega",
     "lemma": "mega",
-    "upos": "X",
+    "upos": "ADV",
     "xpos": "AFX",
     "feats": null,
     "head": 14,
@@ -81678,7 +82709,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-X"
+    "lextag": "O-ADV"
    },
    {
     "#": 14,
@@ -81841,6 +82872,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "okay",
@@ -81973,7 +83005,7 @@
    },
    "13": {
     "lexlemma": "mega",
-    "lexcat": "X",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -82119,6 +83151,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -82505,6 +83538,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "media",
@@ -82754,6 +83788,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -82893,6 +83928,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -83242,6 +84278,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -83727,6 +84764,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -84030,6 +85068,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -84160,6 +85199,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -84260,6 +85300,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "love",
@@ -84453,6 +85494,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "have",
@@ -84665,6 +85707,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "place",
@@ -84758,7 +85801,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -84951,6 +85994,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Dont",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -85133,6 +86194,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "bad",
@@ -85254,6 +86316,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "go",
@@ -85372,6 +86435,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -85496,6 +86560,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "nice",
@@ -85956,6 +87021,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "there",
@@ -86567,6 +87633,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "while",
@@ -87088,6 +88155,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "you",
@@ -87287,6 +88355,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "channel",
@@ -87638,7 +88707,7 @@
     "head": 23,
     "deprel": "aux",
     "edeps": "23:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -87677,16 +88746,16 @@
     "#": 24,
     "word": "where",
     "lemma": "where",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 26,
-    "deprel": "advmod",
-    "edeps": "26:advmod",
+    "deprel": "mark",
+    "edeps": "26:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 25,
@@ -87722,7 +88791,7 @@
     "#": 27,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 29,
@@ -87734,7 +88803,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-V.VID-v.stative"
+    "lextag": "B-P-p.Topic"
    },
    {
     "#": 28,
@@ -87858,6 +88927,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     21,
+     22,
+     "21-22"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "5": {
     "lexlemma": ",",
@@ -88046,7 +89133,7 @@
    },
    "24": {
     "lexlemma": "where",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -88105,15 +89192,22 @@
    },
    "2": {
     "lexlemma": "when it come to",
-    "lexcat": "V.VID",
-    "ss": "v.stative",
-    "ss2": null,
+    "lexcat": "P",
+    "ss": "p.Topic",
+    "ss2": "p.Topic",
     "toknums": [
      27,
      28,
      29,
      30
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 26,
+     "govlemma": "start",
+     "obj": 31,
+     "objlemma": "watch",
+     "config": "subordinating"
+    }
    },
    "3": {
     "lexlemma": "satellite tv",
@@ -88331,6 +89425,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -88542,6 +89637,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": ",",
@@ -88629,6 +89725,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "stay",
@@ -88721,6 +89818,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "horrible",
@@ -88806,6 +89904,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "absolutely",
@@ -89047,6 +90146,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -89231,6 +90331,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "rude",
@@ -89272,7 +90373,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -89427,9 +90528,10 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -89635,6 +90737,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -89793,6 +90896,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -89962,6 +91066,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -90104,6 +91209,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "just",
@@ -90206,6 +91312,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "absolutely",
@@ -90353,7 +91460,7 @@
     "#": 7,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": ",",
     "feats": null,
     "head": 8,
@@ -90362,7 +91469,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 8,
@@ -90389,7 +91496,7 @@
     "head": 12,
     "deprel": "nsubj",
     "edeps": "12:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -90543,6 +91650,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     9,
+     10,
+     "9-10"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "Susanna",
@@ -90582,7 +91707,7 @@
    },
    "7": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -90846,6 +91971,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "she",
@@ -91186,6 +92312,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "she",
@@ -91374,7 +92501,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -91441,6 +92568,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "She's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "she",
@@ -91580,6 +92725,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "no",
@@ -91700,7 +92846,7 @@
     "#": 5,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 7,
@@ -91709,7 +92855,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 6,
@@ -91959,6 +93105,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -91998,7 +93145,7 @@
    },
    "5": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -92368,8 +93515,8 @@
     "xpos": "WP",
     "feats": "PronType=Int",
     "head": 16,
-    "deprel": "det",
-    "edeps": "16:det",
+    "deprel": "det:predet",
+    "edeps": "16:det:predet",
     "misc": null,
     "smwe": null,
     "wmwe": [
@@ -92431,6 +93578,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -92749,6 +93897,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -93073,6 +94222,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -93704,6 +94854,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "after",
@@ -94084,6 +95235,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -94196,6 +95348,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "many",
@@ -94287,6 +95440,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "love",
@@ -94395,6 +95549,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -94543,6 +95698,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Craig",
@@ -94657,16 +95813,16 @@
     "#": 4,
     "word": "where",
     "lemma": "where",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 6,
-    "deprel": "advmod",
-    "edeps": "6:advmod",
+    "deprel": "mark",
+    "edeps": "6:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 5,
@@ -94805,6 +95961,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -94835,7 +95992,7 @@
    },
    "4": {
     "lexlemma": "where",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -95093,6 +96250,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "no",
@@ -95212,7 +96370,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -95324,6 +96482,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -95635,16 +96811,16 @@
     "#": 15,
     "word": "where",
     "lemma": "where",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Rel",
     "head": 18,
-    "deprel": "advmod",
-    "edeps": "18:advmod",
+    "deprel": "mark",
+    "edeps": "18:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 16,
@@ -95731,7 +96907,7 @@
     "head": 23,
     "deprel": "aux",
     "edeps": "23:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -95909,6 +97085,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     21,
+     22,
+     "21-22"
+    ],
+    "word": "doesn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -96045,7 +97239,7 @@
    },
    "15": {
     "lexlemma": "where",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -96277,6 +97471,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "not",
@@ -96386,6 +97581,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -96501,8 +97697,8 @@
     "xpos": "CD",
     "feats": "NumType=Card",
     "head": 4,
-    "deprel": "compound",
-    "edeps": "4:compound",
+    "deprel": "nummod",
+    "edeps": "4:nummod",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -96586,7 +97782,7 @@
    {
     "#": 11,
     "word": "these",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -96705,6 +97901,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Bisconti",
@@ -96818,7 +98015,7 @@
     ]
    },
    "11": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -96968,6 +98165,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "call",
@@ -97254,6 +98452,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "have",
@@ -97484,6 +98683,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -97834,6 +99034,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -98120,6 +99321,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "and",
@@ -98247,6 +99449,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -98422,6 +99625,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -98605,6 +99809,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "quality",
@@ -98711,6 +99916,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "wonderful",
@@ -99027,6 +100233,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -99374,6 +100581,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "have",
@@ -99830,6 +101038,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -100102,6 +101311,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -100224,7 +101434,7 @@
     "#": 7,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 9,
@@ -100233,7 +101443,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 8,
@@ -100297,6 +101507,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "superior",
@@ -100336,7 +101547,7 @@
    },
    "7": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -100675,6 +101886,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -100840,6 +102052,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "tooth",
@@ -101251,9 +102464,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 21,
+    "head": 24,
     "deprel": "punct",
-    "edeps": "21:punct",
+    "edeps": "24:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -101261,6 +102474,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -101777,6 +102991,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "and",
@@ -102056,6 +103271,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "which",
@@ -102324,6 +103540,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -102514,6 +103731,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -102637,9 +103855,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -102647,6 +103865,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "quick",
@@ -102774,6 +103993,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "friendly",
@@ -102874,6 +104094,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -103013,6 +104234,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -103125,6 +104347,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "definitely",
@@ -103217,6 +104440,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "so",
@@ -103317,6 +104541,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "what",
@@ -103389,7 +104614,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -103573,6 +104798,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "wouldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -103739,6 +104982,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -103824,6 +105068,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "so",
@@ -103865,7 +105110,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -103932,7 +105177,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -103984,9 +105229,27 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "they're",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -104138,6 +105401,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "4": {
     "lexlemma": "!",
@@ -104262,6 +105526,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "awesome",
@@ -104405,6 +105670,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "4": {
     "lexlemma": "?",
@@ -104602,6 +105868,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -104803,7 +106070,7 @@
     "head": 9,
     "deprel": "aux",
     "edeps": "9:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -104915,6 +106182,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "if",
@@ -105069,7 +106354,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj|5:nsubj:xsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -105247,6 +106532,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "You'll",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "you",
@@ -105420,6 +106723,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "not",
@@ -105468,7 +106772,7 @@
     "head": 5,
     "deprel": "nsubj",
     "edeps": "5:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -105558,7 +106862,7 @@
     "head": 12,
     "deprel": "nsubj",
     "edeps": "12:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -105727,6 +107031,40 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -106092,6 +107430,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "nothing",
@@ -106385,6 +107724,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "very",
@@ -106765,6 +108105,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "close",
@@ -107012,6 +108353,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "terrible",
@@ -107231,6 +108573,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "have",
@@ -107354,7 +108697,7 @@
     "#": 1,
     "word": "When",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 3,
@@ -107363,7 +108706,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 2,
@@ -107673,10 +109016,11 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -108214,6 +109558,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "quality",
@@ -108421,6 +109766,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -108557,6 +109903,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "really",
@@ -108888,6 +110235,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -109062,7 +110410,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -109270,6 +110618,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -109505,6 +110871,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -109678,6 +111045,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -109820,6 +111188,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -109968,6 +111337,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -110155,6 +111525,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -110434,6 +111805,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Great",
@@ -110770,6 +112142,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -110985,6 +112358,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "slow",
@@ -111667,6 +113041,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -112057,7 +113432,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -112124,6 +113499,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "dont",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -112398,6 +113791,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -112745,6 +114139,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "however",
@@ -113071,6 +114466,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "grocery",
@@ -113386,6 +114782,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -113635,6 +115032,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "be",
@@ -113875,6 +115273,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -114290,6 +115689,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "last",
@@ -114819,7 +116219,7 @@
     "#": 25,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": ",",
     "feats": null,
     "head": 26,
@@ -114828,7 +116228,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 26,
@@ -114862,6 +116262,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -115116,7 +116517,7 @@
    },
    "25": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -115279,6 +116680,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -115409,6 +116811,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "not",
@@ -115616,7 +117019,7 @@
     "#": 12,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 14,
@@ -115625,7 +117028,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 13,
@@ -115764,6 +117167,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "overpriced",
@@ -115873,7 +117277,7 @@
    },
    "12": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -116003,7 +117407,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -116055,6 +117459,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "won't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -116164,6 +117586,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": ".",
@@ -116593,6 +118016,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -117045,6 +118469,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -117334,6 +118759,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "would",
@@ -117506,6 +118932,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -117626,6 +119053,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "best",
@@ -117823,6 +119251,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -118103,6 +119532,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -118281,9 +119711,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -118291,6 +119721,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -118571,6 +120002,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "would",
@@ -119069,6 +120501,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "he",
@@ -119383,6 +120816,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "what",
@@ -119533,6 +120967,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -119698,7 +121133,7 @@
     "head": 9,
     "deprel": "nsubj",
     "edeps": "9:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -119780,6 +121215,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "one",
@@ -120116,6 +121569,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "and",
@@ -120365,6 +121819,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "cleanest",
@@ -120515,6 +121970,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "stay",
@@ -120709,6 +122165,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -120959,6 +122416,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -121266,6 +122724,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "good",
@@ -121464,6 +122923,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "what",
@@ -121656,7 +123116,7 @@
     "head": 12,
     "deprel": "aux",
     "edeps": "12:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -121783,6 +123243,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     10,
+     11,
+     "10-11"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "if",
@@ -122120,6 +123598,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -122460,6 +123939,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "hard",
@@ -122671,6 +124151,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "not",
@@ -122786,6 +124267,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "not",
@@ -122876,7 +124358,7 @@
     "#": 3,
     "word": "over",
     "lemma": "over",
-    "upos": "X",
+    "upos": "ADJ",
     "xpos": "GW",
     "feats": null,
     "head": 1,
@@ -122894,7 +124376,7 @@
     "#": 4,
     "word": "cooked",
     "lemma": "cooked",
-    "upos": "ADJ",
+    "upos": "X",
     "xpos": "JJ",
     "feats": "Degree=Pos",
     "head": 3,
@@ -122925,6 +124407,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "bland",
@@ -123104,7 +124587,7 @@
     "#": 9,
     "word": "over",
     "lemma": "over",
-    "upos": "X",
+    "upos": "ADJ",
     "xpos": "GW",
     "feats": null,
     "head": 12,
@@ -123122,7 +124605,7 @@
     "#": 10,
     "word": "priced",
     "lemma": "priced",
-    "upos": "ADJ",
+    "upos": "X",
     "xpos": "JJ",
     "feats": "Degree=Pos",
     "head": 9,
@@ -123189,6 +124672,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -123490,6 +124974,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -123668,9 +125153,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 2,
+    "head": 3,
     "deprel": "punct",
-    "edeps": "2:punct",
+    "edeps": "3:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -123678,6 +125163,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "but",
@@ -123823,6 +125309,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "love",
@@ -123994,6 +125481,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "everyone",
@@ -124093,6 +125581,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "bad",
@@ -124147,7 +125636,7 @@
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -124214,6 +125703,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "won't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "definitely",
@@ -124497,6 +126004,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "travel",
@@ -124740,6 +126248,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "tell",
@@ -124912,6 +126421,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "get",
@@ -125033,6 +126543,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "not",
@@ -125244,6 +126755,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -125431,6 +126943,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -125531,6 +127044,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -125640,6 +127154,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -125779,6 +127294,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -125972,6 +127488,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -126140,6 +127657,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -126304,6 +127822,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -126401,7 +127920,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -126566,7 +128085,7 @@
     "head": 15,
     "deprel": "aux",
     "edeps": "15:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -126663,6 +128182,40 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "wouldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     13,
+     14,
+     "13-14"
+    ],
+    "word": "wouldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -126892,6 +128445,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "local",
@@ -127043,6 +128597,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "-",
@@ -127149,6 +128704,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -127315,6 +128871,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -127601,6 +129158,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -128013,6 +129571,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "also",
@@ -128218,6 +129777,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -128498,6 +130058,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -128960,6 +130521,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "they",
@@ -129324,6 +130886,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -129460,6 +131023,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "thanks",
@@ -129557,6 +131121,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -129705,6 +131270,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "and",
@@ -129817,6 +131383,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "a",
@@ -129962,6 +131529,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "incompetent",
@@ -130188,6 +131756,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "expect",
@@ -130612,6 +132181,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -131037,6 +132607,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "even",
@@ -131311,6 +132882,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -131450,6 +133022,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Pam",
@@ -131565,6 +133138,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "fantastic",
@@ -131720,6 +133294,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "breathtaking",
@@ -131906,9 +133481,9 @@
     "upos": "NOUN",
     "xpos": "NN",
     "feats": "Number=Sing",
-    "head": 1,
+    "head": 4,
     "deprel": "parataxis",
-    "edeps": "1:parataxis",
+    "edeps": "4:parataxis",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -131981,9 +133556,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 4,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "4:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -131991,6 +133566,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "nothing",
@@ -132255,6 +133831,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -132559,6 +134136,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "how",
@@ -132817,6 +134395,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -133094,6 +134673,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -133379,6 +134959,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -133513,6 +135094,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "amazing",
@@ -133685,6 +135267,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "Absoul",
@@ -133836,9 +135419,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -133846,6 +135429,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "highly",
@@ -134053,7 +135637,7 @@
     "head": 14,
     "deprel": "nmod:poss",
     "edeps": "14:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -134132,6 +135716,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "World's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "if",
@@ -134339,6 +135941,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "lest",
@@ -134517,6 +136120,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -134668,6 +136272,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "3",
@@ -134751,9 +136356,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -134761,6 +136366,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "!",
@@ -134839,6 +136445,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -135224,6 +136831,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -135756,6 +137364,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -136120,6 +137729,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "too",
@@ -136361,6 +137971,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "great",
@@ -136686,6 +138297,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -137097,6 +138709,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -137405,6 +139018,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -137861,6 +139475,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -138086,6 +139701,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "extremely",
@@ -138240,6 +139856,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "4": {
     "lexlemma": "on",
@@ -138346,7 +139963,7 @@
     "head": 6,
     "deprel": "aux:pass",
     "edeps": "6:aux:pass",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -138488,6 +140105,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "weren't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -138721,6 +140356,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "pretty",
@@ -138840,6 +140476,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {},
   "smwes": {
    "1": {
@@ -138980,6 +140617,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "3": {
     "lexlemma": "be",
@@ -139049,7 +140687,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -139101,6 +140739,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -139158,7 +140814,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -139227,16 +140883,16 @@
     "#": 6,
     "word": "how",
     "lemma": "how",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 10,
-    "deprel": "advmod",
-    "edeps": "10:advmod",
+    "deprel": "mark",
+    "edeps": "10:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 7,
@@ -139315,6 +140971,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -139363,7 +141037,7 @@
    },
    "6": {
     "lexlemma": "how",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -139733,6 +141407,7 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [],
   "swes": {
    "1": {
     "lexlemma": "worst",
@@ -139941,7 +141616,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -139993,6 +141668,24 @@
    }
   ],
   "etoks": [],
+  "mwtoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "DONt",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",

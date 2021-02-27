@@ -1,5 +1,5 @@
    4151 ADJ
-   3633 ADV
+   3454 ADV
    2020 AUX
    2175 CCONJ
    4057 DET
@@ -8,21 +8,21 @@
     254 INF.P
     133 INTJ
    9269 N
-    587 NUM
-   4007 P
+    601 NUM
+   4008 P
      59 POSS
     187 PP
    5099 PRON
    1058 PRON.POSS
-   5877 PUNCT
-    481 SCONJ
-    134 SYM
+   5857 PUNCT
+    663 SCONJ
+    154 SYM
    6838 V
     121 V.IAV
      12 V.LVC.cause
     124 V.LVC.full
-    320 V.VID
+    319 V.VID
     207 V.VPC.full
      98 V.VPC.semi
-     37 X
-   3963 _
+     17 X
+   4661 _

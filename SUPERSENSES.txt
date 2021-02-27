@@ -1,5 +1,5 @@
-     48 ??	_
-  33043 _	_
+     47 ??	_
+  33738 _	_
      20 `$	`$
     724 n.ACT	_
      88 n.ANIMAL	_
@@ -196,12 +196,12 @@
       2 p.Time	p.Extent
       3 p.Time	p.Gestalt
       1 p.Time	p.Goal
-     31 p.Time	p.Interval
+     32 p.Time	p.Interval
     313 p.Time	p.Time
       4 p.Time	p.Whole
       7 p.Topic	p.Goal
       3 p.Topic	p.Identity
-    210 p.Topic	p.Topic
+    211 p.Topic	p.Topic
       1 p.Whole	p.Circumstance
      67 p.Whole	p.Gestalt
       7 p.Whole	p.Locus
@@ -220,11 +220,11 @@
     146 v.perception	_
     316 v.possession	_
     946 v.social	_
-   2777 v.stative	_
+   2776 v.stative	_
 ========================
 9269 n.*
-7720 v.*
-5497 p.*
+7719 v.*
+5499 p.*
 
 n.* by LexCat
 ========================
@@ -236,14 +236,14 @@ v.* by LexCat
     121 V.IAV
      12 V.LVC.cause
     124 V.LVC.full
-    320 V.VID
+    319 V.VID
     207 V.VPC.full
      98 V.VPC.semi
 
 p.* by LexCat
 ========================
     254 INF.P
-   3960 P
+   3962 P
      58 POSS
     187 PP
    1038 PRON.POSS
@@ -252,8 +252,8 @@ p.* by LexCat + construal type
 ========================
     229 INF.P	p.X ~> p.X
      25 INF.P	p.X ~> p.Y
-   2882 P	p.X ~> p.X
-   1078 P	p.X ~> p.Y
+   2883 P	p.X ~> p.X
+   1079 P	p.X ~> p.Y
      22 POSS	p.X ~> p.X
      36 POSS	p.X ~> p.Y
     101 PP	p.X ~> p.X
@@ -267,8 +267,8 @@ p.* by LexCat + spatiotemporality
       3 INF.P 	p.LOC ~> *
     251 INF.P 	p.OTH ~> *
    1086 P 	p.LOC ~> *
-   2431 P 	p.OTH ~> *
-    443 P 	p.TMP ~> *
+   2432 P 	p.OTH ~> *
+    444 P 	p.TMP ~> *
       1 POSS 	p.LOC ~> *
      52 POSS 	p.OTH ~> *
       5 POSS 	p.TMP ~> *
