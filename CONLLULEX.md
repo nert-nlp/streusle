@@ -114,7 +114,7 @@ The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
     * The BIO symbols are: `O` for token not belonging to any MWE, `B` for the token beginning an MWE, `I_` for a token continuing a strong MWE, and `I~` for a token continuing a weak MWE. Lowercase variants `o`, `b`, `i_`, and `i~` apply when the token is contained within a separate discontinuous MWE.
 
-    * If the token is not continuing a strong expression (i.e. everything but `I_` and `i_`), the LEXTAG and supersense (if applicable) are appended following hyphens. If SS and SS2 are identical, only one copy is included in the tag; if they differ, they are rendered as SS`|`SS2.
+    * If the token is not continuing a strong expression (i.e. everything but `I_` and `i_`), the LEXCAT and supersense (if applicable) are appended following hyphens. If SS and SS2 are identical, only one copy is included in the tag; if they differ, they are rendered as SS`|`SS2.
 
     * Thus, for the tokens *have a good experience w*, the respective LEXTAG values are:
 
