@@ -98,14 +98,14 @@ def compute_lexcat(tokNum, smwe, smweGroupToks, ss, lexlemma, poses, rels):
         return '!@'
     return upos
 
-def supersenses_for_lexcat(lc):
+def supersenses_for_lexcat(lc): # specific to English
     if lc=='N': return NSS
     if lc=='V' or lc.startswith('V.'):
         if lc!='V':
             assert lc in {'V.VID', 'V.VPC.full', 'V.VPC.semi', 'V.LVC.full', 'V.LVC.cause', 'V.IAV'},lc # PARSEME 1.1 verbal MWE subtypes
         return VSS
-    if lc in ('P', 'PP', 'INF.P'): return PSS
-    if lc in ('POSS', 'PRON.POSS'): return PSS | {'`$'}
+    if lc in ('P', 'PP', 'INF.P'): return (PSS - {'p.Content'})
+    if lc in ('POSS', 'PRON.POSS'): return (PSS - {'p.Content'}) | {'`$'}
 
 ALL_LEXCATS = {'N', 'PRON', 'V', 'P', 'PP', 'INF', 'INF.P', 'POSS', 'PRON.POSS', 'DISC', 'AUX',
                'ADJ', 'ADV', 'DET', 'CCONJ', 'SCONJ', 'INTJ', 'NUM', 'SYM', 'PUNCT', 'X'}

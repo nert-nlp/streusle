@@ -26,7 +26,7 @@ VSS = {'v.body', 'v.change', 'v.cognition', 'v.communication', 'v.competition',
        'v.perception', 'v.possession', 'v.social', 'v.stative'}
 
 # Adposition (preposition/postposition) and case supersenses
-# As of SNACS v2.5 guidelines, for STREUSLE v4.3
+# As of SNACS v2.6 guidelines, for STREUSLE v4.5
 
 PSS_TREE = {
     'p.Circumstance': {
@@ -48,10 +48,12 @@ PSS_TREE = {
         'p.Explanation': {
             'p.Purpose': {}}},
     'p.Participant': {
-        'p.Causer': {
+        'p.Causer': {},
+        'p.Force': {
             'p.Agent': {}},
         'p.Theme': {
-            'p.Topic': {}},
+            'p.Topic': {},
+            'p.Content': {}},
         'p.Ancillary': {},
         'p.Stimulus': {},
         'p.Experiencer': {},
@@ -77,7 +79,7 @@ PSS_TREE = {
                 'p.Approximator': {}}},
         'p.Ensemble': {},
         'p.ComparisonRef': {},
-        'p.RateUnit': {},
+        'p.SetIteration': {},
         'p.SocialRel': {}},
 }
 
@@ -94,7 +96,7 @@ del queue, ss, par, descendants
 
 PSS = set(PSS_PARENTS.keys())
 
-assert len(PSS_DEPTH)==len(PSS)==50
+assert len(PSS_DEPTH)==len(PSS)==52
 assert max(PSS_DEPTH.values())==4
 assert min(PSS_DEPTH.values())==1
 
@@ -112,6 +114,10 @@ PSS_REMOVED = {'1DTrajectory', '2DArea', '3DMedium',
     'Transit', 'Traversed', 'Value', 'ValueComparison', 'Via'}
 
 # Note also that Part/Portion was renamed to PartPortion in STREUSLE 4.1
+# In SNACS 2.6/STREUSLE 4.5:
+#  - RateUnit was renamed to SetIteration
+#  - old Causer was renamed to Force, but Causer remains in the hierarchy with a new meaning
+#  - added: Content (but not for English)
 
 def coarsen_pss(ss, depth):
     coarse = ss
