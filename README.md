@@ -5,13 +5,21 @@ STREUSLE Dataset
 |:---:|
 | *STREUSLE annotations visualized with streusvis.py* |
 
-STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [9]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic supersenses for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7, 8]. The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the semantic annotations. The 4.4 release updates only UD annotations.
+STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [9]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic __supersenses__ for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7, 8]. Lexical expressions also feature a __lexical category__ label indicating its holistic grammatical status; for verbal multiword expressions, these labels incorporate categories from the PARSEME 1.1 guidelines [15]. For each token, these pieces of information are concatenated together into a __lextag__: a sentence's words and their lextags are sufficient to recover lexical categories, supersenses, and multiword expressions [8].
+
+🧮 **_[Corpus Stats](STATS.MD)_**: >55k words, >3k multiword expression instances, >22k supersense-tagged expressions
+
+👩‍💻 **_Using the data_**: The canonical file with source annotations is streusle.conllulex.
+**For scripting, the JSON format will likely be preferred. See [Formats](#formats) below.**
+
+🤖 **_Tagger_**: Code for a lexical semantic recognition tagger [8] trained on STREUSLE can be downloaded at: <https://github.com/nelson-liu/lexical-semantic-recognition/>
 
 Release URL: <https://github.com/nert-nlp/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>  
-Online corpus search in ANNIS: <https://corpling.uis.georgetown.edu/annis/#_c=c3RyZXVzbGVfNC4z> ([instructions](https://docs.google.com/document/d/e/2PACX-1vTpRsg7B4lj_YnVf-tVGNZCekg_I2k81sGfLayyaJW35k8L8eJJrt4IC-qESrWcl494NXGh2SIeSwi5/pub))
+Online corpus search in ANNIS: <https://corpling.uis.georgetown.edu/annis/#_c=c3RyZXVzbGVfNC4z> ([instructions](https://docs.google.com/document/d/e/2PACX-1vTpRsg7B4lj_YnVf-tVGNZCekg_I2k81sGfLayyaJW35k8L8eJJrt4IC-qESrWcl494NXGh2SIeSwi5/pub))  
+Browse semantic annotations of prepositions/possessives on the Xposition website [17]: <http://www.xposition.org/en/>
 
-The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [10]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.6 (specifically, the dev branch at 37cf2bf as of June 7, 2020); these follow the UD v2 standard.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [10]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.10 (released May 15, 2022); these follow the UD v2 standard.
 
 This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [9]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
@@ -62,8 +70,9 @@ Formats
 
 - The canonical data format for STREUSLE 4.0+ is the [CONLLULEX](CONLLULEX.md) tabular format. It extends the CoNLL-U format from the Universal Dependencies project with additional columns for lexical semantic annotations. (The .sst and .tags formats from STREUSLE 3.0 are not expressive enough and are no longer supported.)
 
-- Scripts support conversion between .conllulex and a JSON format.
-The JSON can be enriched with syntactic details of the preposition/possessive relations via the govobj.py script.
+- Scripts support conversion between .conllulex and a JSON format: conllulex2json.py, json2conllulex.py.
+A JSON file can be enriched with syntactic details of the preposition/possessive relations via the govobj.py script.
+JSON files are included in the train, dev, and test subdirectories.
 
 - Other scripts support conversion between .conllulex and [Excel-compatible CSV](EXCEL.md).
 
@@ -82,23 +91,23 @@ Citations describing the annotations in this corpus (main STREUSLE papers in __b
 
 - [4] Jena D. Hwang, Archna Bhatia, Na-Rae Han, Tim O’Gorman, Vivek Srikumar, and Nathan Schneider. Double trouble: the problem of construal in semantic annotation of adpositions. _Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics_, Vancouver, British Columbia, Canada, August 3–4, 2017. <http://people.cs.georgetown.edu/nschneid/p/prepconstrual2.pdf>
 
-- [5] Nathan Schneider, Jena D. Hwang, Archna Bhatia, Vivek Srikumar, Na-Rae Han, Tim O'Gorman, Sarah R. Moeller, Omri Abend, Adi Shalev, Austin Blodgett, and Jakob Prange (April 1, 2020). Adposition and Case Supersenses v2.5: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
+- [5] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Archna Bhatia, Na-Rae Han, Tim O'Gorman, Sarah R. Moeller, Omri Abend, Adi Shalev, Austin Blodgett, and Jakob Prange (June 14, 2022). Adposition and Case Supersenses v2.6: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
 
 - [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018. <http://people.cs.georgetown.edu/nschneid/p/gensuper.pdf>
 
 - __[7] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri Abend. Comprehensive supersense disambiguation of English prepositions and possessives. _Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics_, Melbourne, Australia, July 15–20, 2018. <http://people.cs.georgetown.edu/nschneid/p/pssdisambig.pdf>__
 
-- [8] Nelson F. Liu, Daniel Hershcovich, Michael Kranzlein, and Nathan Schneider (April 30, 2020). Lexical semantic recognition. arXiv preprint. <https://arxiv.org/abs/2004.15008>
-
 Related work:
+
+- [8] Nelson F. Liu, Daniel Hershcovich, Michael Kranzlein, and Nathan Schneider (2021). Lexical semantic recognition. *Proceedings of the 17th Workshop on Multiword Expressions (MWE 2021)*, Online, August 6, 2021. <https://people.cs.georgetown.edu/nschneid/p/lsr.pdf> ([tagger code](https://github.com/nelson-liu/lexical-semantic-recognition/))
 
 - [9] Ann Bies, Justin Mott, Colin Warner, and Seth Kulick. English Web Treebank. Linguistic Data Consortium, Philadelphia, Pennsylvania, August 16, 2012. <https://catalog.ldc.upenn.edu/LDC2012T13>
 
 - [10] Natalia Silveira, Timothy Dozat, Marie-Catherine de Marneffe, Samuel R. Bowman, Miriam Connor, John Bauer, and Christopher D. Manning (2014). A gold standard dependency corpus for English. _Proceedings of the Ninth International Conference on Language Resources and Evaluation_, Reykjavík, Iceland, May 26–31, 2014. <http://www.lrec-conf.org/proceedings/lrec2014/pdf/1089_Paper.pdf>
 
-- [11] Nathan Schneider, Emily Danchik, Chris Dyer, and Noah A. Smith. Discriminative lexical semantic segmentation with gaps: running the MWE gamut. _Transactions of the Association for Computational Linguistics_, 2(April):193−206, 2014. http://www.cs.cmu.edu/~ark/LexSem/mwe.pdf
+- [11] Nathan Schneider, Emily Danchik, Chris Dyer, and Noah A. Smith. Discriminative lexical semantic segmentation with gaps: running the MWE gamut. _Transactions of the Association for Computational Linguistics_, 2(April):193−206, 2014. https://people.cs.georgetown.edu/nschneid/p/mwe.pdf
 
-- [12] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <http://www.cs.cmu.edu/~nschneid/pssts.pdf>
+- [12] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, and Martha Palmer. A hierarchy with, of, and for preposition supersenses. _Proceedings of the 9th Linguistic Annotation Workshop_, Denver, Colorado, June 5, 2015. <https://people.cs.georgetown.edu/nschneid/p/pssts.pdf>
 
 - [13] Nathan Schneider, Dirk Hovy, Anders Johannsen, and Marine Carpuat. SemEval-2016 Task 10: Detecting Minimal Semantic Units and their Meanings (DiMSUM). _Proceedings of the 10th International Workshop on Semantic Evaluation_, San Diego, California, June 16–17, 2016. <http://people.cs.georgetown.edu/nschneid/p/dimsum.pdf>
 
@@ -108,6 +117,7 @@ Related work:
 
 - [16] Daniel Hershcovich, Nathan Schneider, Dotan Dvir, Jakob Prange, Miryam de Lhoneux, and Omri Abend. Comparison by conversion: reverse-engineering UCCA from syntax and lexical semantics. _Proceedings of the Second International Workshop on Designing Meaning Representations_, Online, December 13, 2020. <https://arxiv.org/abs/2011.00834> ([rule-based system](https://github.com/danielhers/streusle/blob/streusle2ucca/README_conllulex2ucca.md), [statistical system](https://github.com/danielhers/hit-scir-ucca-parser))
 
+- [17] Luke Gessler, Austin Blodgett, Joseph Ledford, and Nathan Schneider (2022). Xposition: An online multilingual database of adpositional semantics. _Proceedings of the 13th Linguistic Resources and Evaluation Conference_, Marseille, France, June 20-25, 2022. <https://people.cs.georgetown.edu/nschneid/p/xposition.pdf> ([website](http://www.xposition.org))
 
 Contact
 -------
@@ -121,6 +131,15 @@ http://nathan.cl
 History
 -------
 
+### Synopsis of changes since 4.0
+
+The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the semantic annotations. The 4.4 release updates only UD annotations. The 4.5 release updates UD annotations and renames a couple of semantic labels.
+
+### Detailed changes
+
+  - STREUSLE 4.5: 2022-06-14.
+     * Update SNACS annotations to the v2.6 standard (automatically rename p.Causer -> p.Force and p.RateUnit -> p.SetIteration).
+     * Update UD to v2.10. This affects many UPOS tags and lemmas, especially for proper names. The UD update also introduces lines encoding multiword tokens (not to be confused with multiword *expressions*) for clitics.
   - STREUSLE 4.4: 2020-11-04.
      * Update govobj.py to recognize a different style of annotation for preposition stranding.
      * Update UD to v2.6.
