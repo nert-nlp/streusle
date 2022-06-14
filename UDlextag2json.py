@@ -67,7 +67,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                     sent[x+'mwes'][mwe_group]['toknums'].append(tokNum)
                     sent[x+'mwes'][mwe_group]['lexlemma'] += ' ' + sent['toks'][tokNum-1]['lemma']
                 sent[x+'mwes'][mwe_group]['lexlemma'] = sent[x+'mwes'][mwe_group]['lexlemma'][1:] # delete leading space
-                assert ' ' in sent[x+'mwes'][mwe_group]['lexlemma']
+                assert ' ' in sent[x+'mwes'][mwe_group]['lexlemma']  # TODO: may need to be commented out to allow for goeswith MWEs
                 mwe_group += 1
         del mwe_group
 
@@ -132,7 +132,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
         lexes_to_validate = chain(sent['swes'].values(), sent['smwes'].values()) if validate_type else []
         for lexe in lexes_to_validate:
             sent['toks'][lexe['toknums'][0]-1]
-            assert lexe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in lexe['toknums']),f"In {sent['sent_id']}, MWE lemma is incorrect: {lexe} vs. {sent['toks'][lexe['toknums'][0]-1]}"
+            assert assert lexe['lexlemma']==' '.join(lem for i in lexe['toknums'] for lem in [sent['toks'][i-1]['lemma']] if lem!='_'),f"In {sent['sent_id']}, MWE lemma is incorrect: {lexe} vs. {sent['toks'][lexe['toknums'][0]-1]}"
             lc = lexe['lexcat']
             if lc.endswith('!@'): lc_tbd += 1
             valid_ss = supersenses_for_lexcat(lc)
@@ -212,10 +212,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             if validate_type:
                 assert lc!='PP',f"In {sent['sent_id']}, PP should only apply to strong MWEs, but occurs for single-word expression '{tok['word']}'"
         for smwe in sent['smwes'].values():
-            assert len(smwe['toknums'])>1
+            assert len(smwe['toknums'])>1,smwe
         for wmwe in sent['wmwes'].values():
             assert len(wmwe['toknums'])>1,f"In {sent['sent_id']}, weak MWE has only one token according to group indices: {wmwe}"
-            assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(wmwe,sent['toks'][wmwe['toknums'][0]-1])
+            assert wmwe['lexlemma']==' '.join(sent['toks'][i-1]['lemma'] for i in wmwe['toknums']),(sent["sent_id"],wmwe,sent['toks'][wmwe['toknums'][0]-1])
         # we already checked that noninitial tokens in an MWE have _ as their lemma
 
         # check lextags
@@ -281,8 +281,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             sent[k] = v
         else:
             if 'toks' not in sent:
-                sent['toks'] = []   # excludes ellipsis tokens, so they don't interfere with indexing
-                sent['etoks'] = []  # ellipsis tokens only
+                sent['toks'] = []   # excludes ellipsis and multiword tokens, so they don't interfere with indexing
+                sent['etoks'] = []  # ellipsis tokens and multiword tokens only (not to be confused with MWEs)
                 sent['swes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['smwes'] = defaultdict(lambda: {'lexlemma': None, 'lexcat': None, 'ss': None, 'ss2': None, 'toknums': []})
                 sent['wmwes'] = defaultdict(lambda: {'lexlemma': None, 'toknums': []})
@@ -296,26 +296,36 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
 
             tok = {}
             tokNum = conllu_cols[0]
-            isEllipsis = re.match(r'^\d+$', tokNum) is None
-            if isEllipsis:  # ellipsis node indices are like 24.1
-                part1, part2 = tokNum.split('.')
+
+            # Special kinds of tokens: ellipsis nodes and multiword tokens.
+            # These do not receive STREUSLE annotations.
+            isEllipsis = isMWT = False
+            if re.match(r'^\d+$', tokNum) is None:
+                if '.' in tokNum:
+                    isEllipsis = True # ellipsis token (e.g. 24.1), part of enhanced representation
+                elif '-' in tokNum:
+                    isMWT = True # multiword token (e.g. 10-11), used for clitics
+            if isEllipsis or isMWT:
+                if store_conllulex=='full': sent_conllulex += ln + '\n'
+                part1, part2 = tokNum.split('.' if isEllipsis else '-')
                 part1 = int(part1)
                 part2 = int(part2)
-                tokNum = (part1, part2, tokNum) # ellipsis token offset is a tuple. include the string for convenience
+                tokNum = (part1, part2, tokNum) # token offset is a tuple. include the string for convenience
             else:
+                sent_conllulex += ln + '\n'
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
-            assert tok['lemma']!='_' and tok['upos']!='_',tok
+            assert isMWT or (tok['upos']!='_' and (tok['lemma']!='_' or tok['upos']=='X' and conllu_cols[7]=='goeswith')),tok
             if morph_syn:
                 tok['feats'], tok['head'], tok['deprel'], tok['edeps'] = conllu_cols[5:9]
                 if tok['head']=='_':
-                    assert isEllipsis
+                    assert isEllipsis or isMWT
                     tok['head'] = None
                 else:
                     tok['head'] = int(tok['head'])
                 if tok['deprel']=='_':
-                    assert isEllipsis
+                    assert isEllipsis or isMWT
                     tok['deprel'] = None
             if misc:
                 tok['misc'] = conllu_cols[9]
@@ -323,7 +333,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                 if nullable_conllu_fld in tok and tok[nullable_conllu_fld]=='_':
                     tok[nullable_conllu_fld] = None
 
-            if not isEllipsis:
+            if not isEllipsis and not isMWT:
                 # Load STREUSLE-specific columns
                 #tok['smwe'], tok['lexcat'], tok['lexlemma'], tok['ss'], tok['ss2'], \
                 #    tok['wmwe'], tok['wcat'], tok['wlemma'], tok['lextag'] = lex_cols
@@ -372,7 +382,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                 tok['_lextag'] = {'mweflag': mweflag, 'lexcat': lexcat, 'ss': ss, 'ss2': ss2}
                 # these will be moved to the lexical expression level in _unpack_lextags()
 
-            if isEllipsis:
+            if isEllipsis or isMWT:
                 sent['etoks'].append(tok)
             else:
                 sent['toks'].append(tok)
