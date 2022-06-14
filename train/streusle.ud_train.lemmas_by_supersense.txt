@@ -1,0 +1,4899 @@
+   6	for	??
+   6	to	??
+   5	on	??
+   4	like	??
+   4	with	??
+   3	as	??
+   3	in	??
+   1	in this day	??
+   1	my	??
+   1	out	??
+   1	since	??
+   1	through	??
+   3	they	`$
+   1	he	`$
+   1	my	`$
+   1	there	`$
+   1	you	`$
+ 133	service	n.ACT
+  36	work	n.ACT
+  23	job	n.ACT
+  18	customer service	n.ACT
+  16	repair	n.ACT
+   7	care	n.ACT
+   7	delivery	n.ACT
+   7	oil change	n.ACT
+   6	dining	n.ACT
+   6	printing	n.ACT
+   6	procedure	n.ACT
+   5	help	n.ACT
+   5	maintenance	n.ACT
+   5	surgery	n.ACT
+   4	acupuncture	n.ACT
+   4	driving	n.ACT
+   4	haircut	n.ACT
+   4	inspection	n.ACT
+   4	parking	n.ACT
+   3	action	n.ACT
+   3	attempt	n.ACT
+   3	counseling	n.ACT
+   3	cut	n.ACT
+   3	moving	n.ACT
+   3	ride	n.ACT
+   3	sale	n.ACT
+   3	wait	n.ACT
+   2	accommodation	n.ACT
+   2	ballet	n.ACT
+   2	business	n.ACT
+   2	deal	n.ACT
+   2	disposal	n.ACT
+   2	eating	n.ACT
+   2	experience	n.ACT
+   2	fusion	n.ACT
+   2	heating	n.ACT
+   2	jiu - jitsu	n.ACT
+   2	mma	n.ACT
+   2	ordering	n.ACT
+   2	pedicure	n.ACT
+   2	planning	n.ACT
+   2	practice	n.ACT
+   2	renovation	n.ACT
+   2	road test	n.ACT
+   2	sleep	n.ACT
+   2	test	n.ACT
+   2	test drive	n.ACT
+   2	towing	n.ACT
+   2	training	n.ACT
+   2	waiting	n.ACT
+   2	way	n.ACT
+   2	yoga	n.ACT
+   1	PAT testing	n.ACT
+   1	Pilates	n.ACT
+   1	SERVICE	n.ACT
+   1	abuse	n.ACT
+   1	activity	n.ACT
+   1	addition	n.ACT
+   1	advertising	n.ACT
+   1	alignment	n.ACT
+   1	alteration	n.ACT
+   1	baking	n.ACT
+   1	balance	n.ACT
+   1	ballroom	n.ACT
+   1	barn dance	n.ACT
+   1	baseball	n.ACT
+   1	behavior	n.ACT
+   1	bench test	n.ACT
+   1	blow	n.ACT
+   1	blowdry	n.ACT
+   1	build	n.ACT
+   1	bull fighting	n.ACT
+   1	bullfight	n.ACT
+   1	call back	n.ACT
+   1	cancellation	n.ACT
+   1	car wash	n.ACT
+   1	change	n.ACT
+   1	check - in	n.ACT
+   1	checkout	n.ACT
+   1	cleaning	n.ACT
+   1	closing	n.ACT
+   1	color	n.ACT
+   1	compliance	n.ACT
+   1	construction	n.ACT
+   1	contribution	n.ACT
+   1	costumer service	n.ACT
+   1	customer relation	n.ACT
+   1	dental work	n.ACT
+   1	disco	n.ACT
+   1	dispatch	n.ACT
+   1	execution	n.ACT
+   1	fight	n.ACT
+   1	finance	n.ACT
+   1	follow - up	n.ACT
+   1	football	n.ACT
+   1	gathering	n.ACT
+   1	hair cut	n.ACT
+   1	hairstyling	n.ACT
+   1	healing	n.ACT
+   1	highlight	n.ACT
+   1	hospitality	n.ACT
+   1	hosting	n.ACT
+   1	identity theft	n.ACT
+   1	jazz	n.ACT
+   1	labor	n.ACT
+   1	lighting	n.ACT
+   1	line dancing	n.ACT
+   1	living	n.ACT
+   1	lodging	n.ACT
+   1	magic act	n.ACT
+   1	manicure	n.ACT
+   1	move	n.ACT
+   1	offering	n.ACT
+   1	operation	n.ACT
+   1	origami	n.ACT
+   1	paperwork	n.ACT
+   1	patronage	n.ACT
+   1	pickup	n.ACT
+   1	primary care	n.ACT
+   1	professional help	n.ACT
+   1	quilling	n.ACT
+   1	reball	n.ACT
+   1	reception	n.ACT
+   1	recount	n.ACT
+   1	refurb	n.ACT
+   1	remodel	n.ACT
+   1	remodeling	n.ACT
+   1	removal	n.ACT
+   1	rental	n.ACT
+   1	replacement	n.ACT
+   1	rescue	n.ACT
+   1	research	n.ACT
+   1	restoration	n.ACT
+   1	retail	n.ACT
+   1	return	n.ACT
+   1	roofing	n.ACT
+   1	rotation	n.ACT
+   1	schooling	n.ACT
+   1	self service	n.ACT
+   1	sequence	n.ACT
+   1	serving	n.ACT
+   1	set up	n.ACT
+   1	shave	n.ACT
+   1	shopping	n.ACT
+   1	shot	n.ACT
+   1	smoking	n.ACT
+   1	spay and neuter	n.ACT
+   1	spraying	n.ACT
+   1	state inspection	n.ACT
+   1	street	n.ACT
+   1	struggle	n.ACT
+   1	support	n.ACT
+   1	svce	n.ACT
+   1	tap	n.ACT
+   1	task	n.ACT
+   1	tasting	n.ACT
+   1	teaching	n.ACT
+   1	test driving	n.ACT
+   1	therapy	n.ACT
+   1	thing	n.ACT
+   1	trade - in	n.ACT
+   1	transportation	n.ACT
+   1	travel	n.ACT
+   1	try	n.ACT
+   1	usage	n.ACT
+   1	walk	n.ACT
+   1	walking	n.ACT
+  25	dog	n.ANIMAL
+  10	animal	n.ANIMAL
+   6	pet	n.ANIMAL
+   4	Gracee	n.ANIMAL
+   3	cat	n.ANIMAL
+   3	pup	n.ANIMAL
+   2	ant	n.ANIMAL
+   2	bug	n.ANIMAL
+   2	puppy	n.ANIMAL
+   2	wasp	n.ANIMAL
+   1	Bodhi	n.ANIMAL
+   1	Romeo	n.ANIMAL
+   1	bear	n.ANIMAL
+   1	bee	n.ANIMAL
+   1	bull	n.ANIMAL
+   1	camel	n.ANIMAL
+   1	deer	n.ANIMAL
+   1	do	n.ANIMAL
+   1	fly	n.ANIMAL
+   1	goat	n.ANIMAL
+   1	kitty	n.ANIMAL
+   1	lab	n.ANIMAL
+   1	lamb	n.ANIMAL
+   1	ostrich	n.ANIMAL
+   1	pony	n.ANIMAL
+   1	rescue puppy	n.ANIMAL
+   1	wildlife	n.ANIMAL
+   1	year old	n.ANIMAL
+   1	yellow lab	n.ANIMAL
+  86	car	n.ARTIFACT
+  23	tire	n.ARTIFACT
+  19	room	n.ARTIFACT
+  15	dress	n.ARTIFACT
+  14	home	n.ARTIFACT
+  14	product	n.ARTIFACT
+  14	window	n.ARTIFACT
+  12	piece	n.ARTIFACT
+  11	item	n.ARTIFACT
+  10	table	n.ARTIFACT
+   9	building	n.ARTIFACT
+   9	door	n.ARTIFACT
+   9	furniture	n.ARTIFACT
+   8	picture	n.ARTIFACT
+   8	vehicle	n.ARTIFACT
+   7	apartment	n.ARTIFACT
+   7	clothing	n.ARTIFACT
+   7	engine	n.ARTIFACT
+   7	part	n.ARTIFACT
+   6	equipment	n.ARTIFACT
+   6	gift	n.ARTIFACT
+   6	tattoo	n.ARTIFACT
+   5	bathroom	n.ARTIFACT
+   5	facility	n.ARTIFACT
+   5	fence	n.ARTIFACT
+   5	lighting	n.ARTIFACT
+   5	phone	n.ARTIFACT
+   5	screen	n.ARTIFACT
+   5	tile	n.ARTIFACT
+   4	bike	n.ARTIFACT
+   4	board	n.ARTIFACT
+   4	bottle	n.ARTIFACT
+   4	can	n.ARTIFACT
+   4	curtain	n.ARTIFACT
+   4	fixture	n.ARTIFACT
+   4	gate	n.ARTIFACT
+   4	house	n.ARTIFACT
+   4	key	n.ARTIFACT
+   4	poster	n.ARTIFACT
+   4	shower	n.ARTIFACT
+   4	stuff	n.ARTIFACT
+   4	suite	n.ARTIFACT
+   4	truck	n.ARTIFACT
+   3	alarm	n.ARTIFACT
+   3	bag	n.ARTIFACT
+   3	chair	n.ARTIFACT
+   3	chandelier	n.ARTIFACT
+   3	clothes	n.ARTIFACT
+   3	compressor	n.ARTIFACT
+   3	computer	n.ARTIFACT
+   3	course	n.ARTIFACT
+   3	decor	n.ARTIFACT
+   3	desk	n.ARTIFACT
+   3	dresser	n.ARTIFACT
+   3	garage door	n.ARTIFACT
+   3	gown	n.ARTIFACT
+   3	grinder	n.ARTIFACT
+   3	jar	n.ARTIFACT
+   3	light	n.ARTIFACT
+   3	machine	n.ARTIFACT
+   3	nail	n.ARTIFACT
+   3	package	n.ARTIFACT
+   3	paper	n.ARTIFACT
+   3	shoe	n.ARTIFACT
+   3	sign	n.ARTIFACT
+   3	store	n.ARTIFACT
+   3	thing	n.ARTIFACT
+   3	towel	n.ARTIFACT
+   3	wheel lock	n.ARTIFACT
+   2	09 XF	n.ARTIFACT
+   2	Ferrari	n.ARTIFACT
+   2	Hino	n.ARTIFACT
+   2	Lexus	n.ARTIFACT
+   2	Range Rover Sport	n.ARTIFACT
+   2	accessory	n.ARTIFACT
+   2	appliance	n.ARTIFACT
+   2	banner	n.ARTIFACT
+   2	bar	n.ARTIFACT
+   2	bed	n.ARTIFACT
+   2	card	n.ARTIFACT
+   2	ceiling	n.ARTIFACT
+   2	chest of drawer	n.ARTIFACT
+   2	cigarette	n.ARTIFACT
+   2	collection	n.ARTIFACT
+   2	copy	n.ARTIFACT
+   2	deck	n.ARTIFACT
+   2	dining room	n.ARTIFACT
+   2	drawer	n.ARTIFACT
+   2	garage	n.ARTIFACT
+   2	gearbox	n.ARTIFACT
+   2	glass	n.ARTIFACT
+   2	grill	n.ARTIFACT
+   2	guitar	n.ARTIFACT
+   2	hammer	n.ARTIFACT
+   2	hat	n.ARTIFACT
+   2	heat	n.ARTIFACT
+   2	hotel	n.ARTIFACT
+   2	insert	n.ARTIFACT
+   2	leg	n.ARTIFACT
+   2	linen	n.ARTIFACT
+   2	menu	n.ARTIFACT
+   2	motor	n.ARTIFACT
+   2	napkin	n.ARTIFACT
+   2	peddle	n.ARTIFACT
+   2	photo	n.ARTIFACT
+   2	purse	n.ARTIFACT
+   2	roof	n.ARTIFACT
+   2	route	n.ARTIFACT
+   2	runflat	n.ARTIFACT
+   2	seat	n.ARTIFACT
+   2	set	n.ARTIFACT
+   2	sink	n.ARTIFACT
+   2	skylight	n.ARTIFACT
+   2	spring	n.ARTIFACT
+   2	stain	n.ARTIFACT
+   2	stationery	n.ARTIFACT
+   2	suitcase	n.ARTIFACT
+   2	suv	n.ARTIFACT
+   2	tote	n.ARTIFACT
+   2	track	n.ARTIFACT
+   2	uniform	n.ARTIFACT
+   2	unit	n.ARTIFACT
+   2	van	n.ARTIFACT
+   2	ventilator	n.ARTIFACT
+   2	wall	n.ARTIFACT
+   1	'07 Ford Fusion	n.ARTIFACT
+   1	2001 Nissan Frontier	n.ARTIFACT
+   1	2004 x - type	n.ARTIFACT
+   1	2009 XF	n.ARTIFACT
+   1	2010 Genesis	n.ARTIFACT
+   1	2010 Hyundai Genesis	n.ARTIFACT
+   1	BMW	n.ARTIFACT
+   1	BMW 330i	n.ARTIFACT
+   1	Cruze	n.ARTIFACT
+   1	Grizzly 700	n.ARTIFACT
+   1	HOTEL	n.ARTIFACT
+   1	Jeep	n.ARTIFACT
+   1	Mini Cooper	n.ARTIFACT
+   1	Rhino 700	n.ARTIFACT
+   1	SUV	n.ARTIFACT
+   1	Walmart	n.ARTIFACT
+   1	a / c	n.ARTIFACT
+   1	addition	n.ARTIFACT
+   1	air conditioning	n.ARTIFACT
+   1	air duct	n.ARTIFACT
+   1	air filter	n.ARTIFACT
+   1	antibiotic	n.ARTIFACT
+   1	antique	n.ARTIFACT
+   1	arrangement	n.ARTIFACT
+   1	art	n.ARTIFACT
+   1	artwork	n.ARTIFACT
+   1	auto	n.ARTIFACT
+   1	back	n.ARTIFACT
+   1	backpack	n.ARTIFACT
+   1	ball pit	n.ARTIFACT
+   1	bath	n.ARTIFACT
+   1	bathing suit	n.ARTIFACT
+   1	bdr	n.ARTIFACT
+   1	bell	n.ARTIFACT
+   1	blanket	n.ARTIFACT
+   1	blower fan	n.ARTIFACT
+   1	boat	n.ARTIFACT
+   1	bodice	n.ARTIFACT
+   1	book	n.ARTIFACT
+   1	boot	n.ARTIFACT
+   1	bowel	n.ARTIFACT
+   1	box	n.ARTIFACT
+   1	brake	n.ARTIFACT
+   1	bus	n.ARTIFACT
+   1	bus line	n.ARTIFACT
+   1	business card	n.ARTIFACT
+   1	cab	n.ARTIFACT
+   1	cabinet	n.ARTIFACT
+   1	camera	n.ARTIFACT
+   1	canister	n.ARTIFACT
+   1	cap	n.ARTIFACT
+   1	catalogue	n.ARTIFACT
+   1	cellphone	n.ARTIFACT
+   1	chapter	n.ARTIFACT
+   1	check engine light	n.ARTIFACT
+   1	city	n.ARTIFACT
+   1	cleaner	n.ARTIFACT
+   1	clock	n.ARTIFACT
+   1	common room	n.ARTIFACT
+   1	complex	n.ARTIFACT
+   1	condo	n.ARTIFACT
+   1	condominium	n.ARTIFACT
+   1	cookbook	n.ARTIFACT
+   1	costume	n.ARTIFACT
+   1	couch	n.ARTIFACT
+   1	counter	n.ARTIFACT
+   1	cowboy boot	n.ARTIFACT
+   1	craft	n.ARTIFACT
+   1	crap	n.ARTIFACT
+   1	crap hole	n.ARTIFACT
+   1	crown	n.ARTIFACT
+   1	cup	n.ARTIFACT
+   1	dance floor	n.ARTIFACT
+   1	dancewear	n.ARTIFACT
+   1	decking	n.ARTIFACT
+   1	design	n.ARTIFACT
+   1	dinner plate	n.ARTIFACT
+   1	doctor 's office	n.ARTIFACT
+   1	double bed	n.ARTIFACT
+   1	drawing	n.ARTIFACT
+   1	drug	n.ARTIFACT
+   1	earring	n.ARTIFACT
+   1	electric outlet	n.ARTIFACT
+   1	envelope	n.ARTIFACT
+   1	fabric book	n.ARTIFACT
+   1	fan	n.ARTIFACT
+   1	fashion accessory	n.ARTIFACT
+   1	filigree	n.ARTIFACT
+   1	filter	n.ARTIFACT
+   1	fire alarm	n.ARTIFACT
+   1	flat	n.ARTIFACT
+   1	flat - screen tv	n.ARTIFACT
+   1	flyer	n.ARTIFACT
+   1	french tip	n.ARTIFACT
+   1	fridge	n.ARTIFACT
+   1	furnace	n.ARTIFACT
+   1	furnishings	n.ARTIFACT
+   1	fuse	n.ARTIFACT
+   1	g 1	n.ARTIFACT
+   1	garbage bag	n.ARTIFACT
+   1	garden	n.ARTIFACT
+   1	gear	n.ARTIFACT
+   1	gear box	n.ARTIFACT
+   1	gel	n.ARTIFACT
+   1	graphic	n.ARTIFACT
+   1	gymnasium	n.ARTIFACT
+   1	handbag	n.ARTIFACT
+   1	head	n.ARTIFACT
+   1	headboard	n.ARTIFACT
+   1	heel	n.ARTIFACT
+   1	high - rise	n.ARTIFACT
+   1	hood	n.ARTIFACT
+   1	hooptie	n.ARTIFACT
+   1	hose	n.ARTIFACT
+   1	hostess stand	n.ARTIFACT
+   1	ice machine	n.ARTIFACT
+   1	inventory	n.ARTIFACT
+   1	jeans	n.ARTIFACT
+   1	jewelry	n.ARTIFACT
+   1	jug	n.ARTIFACT
+   1	junk	n.ARTIFACT
+   1	keep sake	n.ARTIFACT
+   1	kitchen	n.ARTIFACT
+   1	lab	n.ARTIFACT
+   1	lab coat	n.ARTIFACT
+   1	labyrinth	n.ARTIFACT
+   1	laundry	n.ARTIFACT
+   1	line	n.ARTIFACT
+   1	lodge	n.ARTIFACT
+   1	manifold	n.ARTIFACT
+   1	material	n.ARTIFACT
+   1	member card	n.ARTIFACT
+   1	microwave	n.ARTIFACT
+   1	model	n.ARTIFACT
+   1	nail drill	n.ARTIFACT
+   1	needle	n.ARTIFACT
+   1	nightstand	n.ARTIFACT
+   1	nissan	n.ARTIFACT
+   1	oblivion	n.ARTIFACT
+   1	office	n.ARTIFACT
+   1	oil change	n.ARTIFACT
+   1	oil tank	n.ARTIFACT
+   1	one	n.ARTIFACT
+   1	onesie	n.ARTIFACT
+   1	opening	n.ARTIFACT
+   1	oven	n.ARTIFACT
+   1	pain med	n.ARTIFACT
+   1	papers	n.ARTIFACT
+   1	parking space	n.ARTIFACT
+   1	patio	n.ARTIFACT
+   1	pharmacy	n.ARTIFACT
+   1	pickup	n.ARTIFACT
+   1	plug	n.ARTIFACT
+   1	pool	n.ARTIFACT
+   1	porch	n.ARTIFACT
+   1	pos	n.ARTIFACT
+   1	postcard	n.ARTIFACT
+   1	potpourri	n.ARTIFACT
+   1	present	n.ARTIFACT
+   1	printer	n.ARTIFACT
+   1	property	n.ARTIFACT
+   1	pry bar	n.ARTIFACT
+   1	pull - up	n.ARTIFACT
+   1	queen	n.ARTIFACT
+   1	queen bed	n.ARTIFACT
+   1	rack	n.ARTIFACT
+   1	radio	n.ARTIFACT
+   1	rear window	n.ARTIFACT
+   1	receipt	n.ARTIFACT
+   1	refrigerator	n.ARTIFACT
+   1	residence	n.ARTIFACT
+   1	ribbon	n.ARTIFACT
+   1	ride	n.ARTIFACT
+   1	robe	n.ARTIFACT
+   1	rv	n.ARTIFACT
+   1	scrap metal	n.ARTIFACT
+   1	screw	n.ARTIFACT
+   1	seal	n.ARTIFACT
+   1	second	n.ARTIFACT
+   1	server	n.ARTIFACT
+   1	sheet metal	n.ARTIFACT
+   1	shirt	n.ARTIFACT
+   1	shower head	n.ARTIFACT
+   1	showroom	n.ARTIFACT
+   1	signage	n.ARTIFACT
+   1	silverware	n.ARTIFACT
+   1	snowboard	n.ARTIFACT
+   1	sofa bed	n.ARTIFACT
+   1	spare	n.ARTIFACT
+   1	spay and neuter	n.ARTIFACT
+   1	spirit	n.ARTIFACT
+   1	spoon	n.ARTIFACT
+   1	spring clip	n.ARTIFACT
+   1	stair	n.ARTIFACT
+   1	stall	n.ARTIFACT
+   1	steering wheel	n.ARTIFACT
+   1	sticker	n.ARTIFACT
+   1	stove	n.ARTIFACT
+   1	street	n.ARTIFACT
+   1	strobe light	n.ARTIFACT
+   1	sunroom	n.ARTIFACT
+   1	tank	n.ARTIFACT
+   1	tea spoon	n.ARTIFACT
+   1	telephone	n.ARTIFACT
+   1	thinset	n.ARTIFACT
+   1	thumpstar	n.ARTIFACT
+   1	tissue	n.ARTIFACT
+   1	toilet seat	n.ARTIFACT
+   1	tow truck	n.ARTIFACT
+   1	townhouse	n.ARTIFACT
+   1	traffic	n.ARTIFACT
+   1	traffic light	n.ARTIFACT
+   1	train	n.ARTIFACT
+   1	trainer	n.ARTIFACT
+   1	tub	n.ARTIFACT
+   1	tv	n.ARTIFACT
+   1	utensil	n.ARTIFACT
+   1	waffle maker	n.ARTIFACT
+   1	wait	n.ARTIFACT
+   1	walkway	n.ARTIFACT
+   1	warehouse	n.ARTIFACT
+   1	water	n.ARTIFACT
+   1	window pane	n.ARTIFACT
+   1	windshield washer fluid	n.ARTIFACT
+   1	wine glass	n.ARTIFACT
+   1	wire	n.ARTIFACT
+   1	wok	n.ARTIFACT
+   1	wood grain	n.ARTIFACT
+   1	wrapping paper	n.ARTIFACT
+  19	quality	n.ATTRIBUTE
+  11	atmosphere	n.ATTRIBUTE
+   5	professionalism	n.ATTRIBUTE
+   4	flavor	n.ATTRIBUTE
+   4	rudeness	n.ATTRIBUTE
+   4	workmanship	n.ATTRIBUTE
+   3	attitude	n.ATTRIBUTE
+   3	style	n.ATTRIBUTE
+   2	beauty	n.ATTRIBUTE
+   2	compassion	n.ATTRIBUTE
+   2	efficiency	n.ATTRIBUTE
+   2	honesty	n.ATTRIBUTE
+   2	hospitality	n.ATTRIBUTE
+   2	look	n.ATTRIBUTE
+   2	personality	n.ATTRIBUTE
+   2	pricing	n.ATTRIBUTE
+   2	standard	n.ATTRIBUTE
+   2	star	n.ATTRIBUTE
+   2	taste	n.ATTRIBUTE
+   2	tint	n.ATTRIBUTE
+   2	value	n.ATTRIBUTE
+   1	2 star	n.ATTRIBUTE
+   1	3 star	n.ATTRIBUTE
+   1	a shame	n.ATTRIBUTE
+   1	a stretch	n.ATTRIBUTE
+   1	access	n.ATTRIBUTE
+   1	accessibility	n.ATTRIBUTE
+   1	age	n.ATTRIBUTE
+   1	ambiance	n.ATTRIBUTE
+   1	appearance	n.ATTRIBUTE
+   1	appreciation	n.ATTRIBUTE
+   1	aspect	n.ATTRIBUTE
+   1	asset	n.ATTRIBUTE
+   1	bang for buck	n.ATTRIBUTE
+   1	brown	n.ATTRIBUTE
+   1	color	n.ATTRIBUTE
+   1	condition	n.ATTRIBUTE
+   1	courtesy	n.ATTRIBUTE
+   1	decor	n.ATTRIBUTE
+   1	deliciousness	n.ATTRIBUTE
+   1	detail	n.ATTRIBUTE
+   1	difficulty	n.ATTRIBUTE
+   1	disgrace	n.ATTRIBUTE
+   1	dos base	n.ATTRIBUTE
+   1	durability	n.ATTRIBUTE
+   1	décor	n.ATTRIBUTE
+   1	favorite	n.ATTRIBUTE
+   1	fear	n.ATTRIBUTE
+   1	first run	n.ATTRIBUTE
+   1	five star	n.ATTRIBUTE
+   1	friendliness	n.ATTRIBUTE
+   1	fuel economy	n.ATTRIBUTE
+   1	goodness	n.ATTRIBUTE
+   1	grandeur	n.ATTRIBUTE
+   1	grandure	n.ATTRIBUTE
+   1	integrity	n.ATTRIBUTE
+   1	interest	n.ATTRIBUTE
+   1	kindness	n.ATTRIBUTE
+   1	knowledge	n.ATTRIBUTE
+   1	layout	n.ATTRIBUTE
+   1	leakage	n.ATTRIBUTE
+   1	lighting	n.ATTRIBUTE
+   1	love	n.ATTRIBUTE
+   1	memory	n.ATTRIBUTE
+   1	model	n.ATTRIBUTE
+   1	monotony	n.ATTRIBUTE
+   1	month old	n.ATTRIBUTE
+   1	neon	n.ATTRIBUTE
+   1	one - star	n.ATTRIBUTE
+   1	organisation	n.ATTRIBUTE
+   1	parking	n.ATTRIBUTE
+   1	passion	n.ATTRIBUTE
+   1	patience	n.ATTRIBUTE
+   1	preparedness	n.ATTRIBUTE
+   1	pure breed	n.ATTRIBUTE
+   1	responsiveness	n.ATTRIBUTE
+   1	safety	n.ATTRIBUTE
+   1	selection	n.ATTRIBUTE
+   1	semi-sketchiness	n.ATTRIBUTE
+   1	sense of humor	n.ATTRIBUTE
+   1	sense of humour	n.ATTRIBUTE
+   1	size	n.ATTRIBUTE
+   1	soul	n.ATTRIBUTE
+   1	speed	n.ATTRIBUTE
+   1	spice	n.ATTRIBUTE
+   1	talent	n.ATTRIBUTE
+   1	temperament	n.ATTRIBUTE
+   1	texture	n.ATTRIBUTE
+   1	type	n.ATTRIBUTE
+   1	unprofessionalism	n.ATTRIBUTE
+   1	unwillingness	n.ATTRIBUTE
+   1	updo	n.ATTRIBUTE
+   1	variety	n.ATTRIBUTE
+   1	vibe	n.ATTRIBUTE
+   1	way	n.ATTRIBUTE
+   1	welfare	n.ATTRIBUTE
+  35	hair	n.BODY
+   4	back	n.BODY
+   3	neck	n.BODY
+   2	foot	n.BODY
+   2	heart	n.BODY
+   2	ingrown toenail	n.BODY
+   2	nail	n.BODY
+   2	toe	n.BODY
+   1	big toe	n.BODY
+   1	blood pressure	n.BODY
+   1	body	n.BODY
+   1	cuticle	n.BODY
+   1	face	n.BODY
+   1	finger	n.BODY
+   1	gene	n.BODY
+   1	hair style	n.BODY
+   1	head	n.BODY
+   1	male pattern baldness	n.BODY
+   1	mouth	n.BODY
+   1	root	n.BODY
+   1	side	n.BODY
+   1	smile	n.BODY
+   1	teeth	n.BODY
+   1	tooth	n.BODY
+   1	valve	n.BODY
+   1	wisdom teeth	n.BODY
+  30	way	n.COGNITION
+  29	problem	n.COGNITION
+  13	kind	n.COGNITION
+  12	option	n.COGNITION
+   9	selection	n.COGNITION
+   9	type	n.COGNITION
+   8	expectation	n.COGNITION
+   8	issue	n.COGNITION
+   8	line	n.COGNITION
+   8	treatment	n.COGNITION
+   7	rule	n.COGNITION
+   6	choice	n.COGNITION
+   6	idea	n.COGNITION
+   5	gem	n.COGNITION
+   5	manner	n.COGNITION
+   5	reason	n.COGNITION
+   5	style	n.COGNITION
+   4	craving	n.COGNITION
+   4	experience	n.COGNITION
+   4	fault	n.COGNITION
+   4	favorite	n.COGNITION
+   4	knowledge	n.COGNITION
+   4	music	n.COGNITION
+   4	need	n.COGNITION
+   4	nightmare	n.COGNITION
+   4	parking	n.COGNITION
+   4	plan	n.COGNITION
+   4	skill	n.COGNITION
+   4	sort	n.COGNITION
+   4	world	n.COGNITION
+   3	attention	n.COGNITION
+   3	concern	n.COGNITION
+   3	fun	n.COGNITION
+   3	hassle	n.COGNITION
+   3	heaven	n.COGNITION
+   3	help	n.COGNITION
+   3	history	n.COGNITION
+   3	job	n.COGNITION
+   3	look	n.COGNITION
+   3	mental health	n.COGNITION
+   3	miracle	n.COGNITION
+   3	perfection	n.COGNITION
+   3	point	n.COGNITION
+   3	policy	n.COGNITION
+   3	quality	n.COGNITION
+   3	range	n.COGNITION
+   3	room	n.COGNITION
+   3	strategy	n.COGNITION
+   3	surprise	n.COGNITION
+   3	system	n.COGNITION
+   3	test	n.COGNITION
+   3	time	n.COGNITION
+   3	trouble	n.COGNITION
+   3	upgrade	n.COGNITION
+   3	variety	n.COGNITION
+   2	ability	n.COGNITION
+   2	advice	n.COGNITION
+   2	award	n.COGNITION
+   2	behavior	n.COGNITION
+   2	care	n.COGNITION
+   2	challenge	n.COGNITION
+   2	change	n.COGNITION
+   2	class	n.COGNITION
+   2	color	n.COGNITION
+   2	con	n.COGNITION
+   2	condition	n.COGNITION
+   2	course	n.COGNITION
+   2	difficulty	n.COGNITION
+   2	economy	n.COGNITION
+   2	excellence	n.COGNITION
+   2	exception	n.COGNITION
+   2	fact	n.COGNITION
+   2	fear	n.COGNITION
+   2	form	n.COGNITION
+   2	fps	n.COGNITION
+   2	graphic design	n.COGNITION
+   2	home make	n.COGNITION
+   2	household	n.COGNITION
+   2	info	n.COGNITION
+   2	karma	n.COGNITION
+   2	lack	n.COGNITION
+   2	lesson	n.COGNITION
+   2	level	n.COGNITION
+   2	market	n.COGNITION
+   2	matter	n.COGNITION
+   2	mistake	n.COGNITION
+   2	mystery	n.COGNITION
+   2	part	n.COGNITION
+   2	position	n.COGNITION
+   2	proof	n.COGNITION
+   2	reality	n.COGNITION
+   2	replacement	n.COGNITION
+   2	reputation	n.COGNITION
+   2	requirement	n.COGNITION
+   2	responsibility	n.COGNITION
+   2	space	n.COGNITION
+   2	sport	n.COGNITION
+   2	taste	n.COGNITION
+   2	value	n.COGNITION
+   1	God	n.COGNITION
+   1	Mom / Pop	n.COGNITION
+   1	Nowheresville	n.COGNITION
+   1	a shame	n.COGNITION
+   1	a to - do	n.COGNITION
+   1	a treat	n.COGNITION
+   1	ada	n.COGNITION
+   1	all kind	n.COGNITION
+   1	alternative	n.COGNITION
+   1	angel	n.COGNITION
+   1	apprehension	n.COGNITION
+   1	approval	n.COGNITION
+   1	association	n.COGNITION
+   1	assortment	n.COGNITION
+   1	atmosphere	n.COGNITION
+   1	attempt	n.COGNITION
+   1	attention to detail	n.COGNITION
+   1	authority	n.COGNITION
+   1	auto	n.COGNITION
+   1	back office	n.COGNITION
+   1	bait and switch	n.COGNITION
+   1	ballroom	n.COGNITION
+   1	beginner	n.COGNITION
+   1	belt	n.COGNITION
+   1	big deal	n.COGNITION
+   1	bottom line	n.COGNITION
+   1	boutique	n.COGNITION
+   1	business	n.COGNITION
+   1	case	n.COGNITION
+   1	category	n.COGNITION
+   1	cause	n.COGNITION
+   1	chance	n.COGNITION
+   1	chiropractic	n.COGNITION
+   1	clue	n.COGNITION
+   1	college	n.COGNITION
+   1	combo	n.COGNITION
+   1	common courtesy	n.COGNITION
+   1	competition	n.COGNITION
+   1	conclusion	n.COGNITION
+   1	confidence	n.COGNITION
+   1	contrast	n.COGNITION
+   1	core	n.COGNITION
+   1	crap	n.COGNITION
+   1	culture	n.COGNITION
+   1	dance	n.COGNITION
+   1	deal	n.COGNITION
+   1	decision	n.COGNITION
+   1	depth	n.COGNITION
+   1	design	n.COGNITION
+   1	designer	n.COGNITION
+   1	detail	n.COGNITION
+   1	difference	n.COGNITION
+   1	dip	n.COGNITION
+   1	direction take	n.COGNITION
+   1	disappointment	n.COGNITION
+   1	doubt	n.COGNITION
+   1	down fall	n.COGNITION
+   1	down side	n.COGNITION
+   1	drama	n.COGNITION
+   1	dream	n.COGNITION
+   1	drive force	n.COGNITION
+   1	duty	n.COGNITION
+   1	education	n.COGNITION
+   1	energy	n.COGNITION
+   1	entertainment	n.COGNITION
+   1	expertise	n.COGNITION
+   1	falsehood	n.COGNITION
+   1	find	n.COGNITION
+   1	finding	n.COGNITION
+   1	first class	n.COGNITION
+   1	flow	n.COGNITION
+   1	game	n.COGNITION
+   1	gap	n.COGNITION
+   1	gift	n.COGNITION
+   1	glitch	n.COGNITION
+   1	good night 's sleep	n.COGNITION
+   1	great ear	n.COGNITION
+   1	half truth	n.COGNITION
+   1	have doubt	n.COGNITION
+   1	healthcare	n.COGNITION
+   1	heebee gee bees'	n.COGNITION
+   1	hesitation	n.COGNITION
+   1	high end	n.COGNITION
+   1	high hope	n.COGNITION
+   1	hole in the wall	n.COGNITION
+   1	horror	n.COGNITION
+   1	hospitality	n.COGNITION
+   1	hype	n.COGNITION
+   1	identity	n.COGNITION
+   1	information	n.COGNITION
+   1	input	n.COGNITION
+   1	inquire	n.COGNITION
+   1	interaction	n.COGNITION
+   1	intimacy	n.COGNITION
+   1	junk	n.COGNITION
+   1	key performance indicator	n.COGNITION
+   1	kindergarten	n.COGNITION
+   1	landmark	n.COGNITION
+   1	layer	n.COGNITION
+   1	life	n.COGNITION
+   1	line up	n.COGNITION
+   1	loop	n.COGNITION
+   1	loving	n.COGNITION
+   1	manners	n.COGNITION
+   1	medical school	n.COGNITION
+   1	memory	n.COGNITION
+   1	method	n.COGNITION
+   1	mind blow	n.COGNITION
+   1	mindset	n.COGNITION
+   1	misconception	n.COGNITION
+   1	misfortune	n.COGNITION
+   1	mix bag	n.COGNITION
+   1	mixed bag	n.COGNITION
+   1	mixture	n.COGNITION
+   1	mush	n.COGNITION
+   1	negative	n.COGNITION
+   1	new lease on life	n.COGNITION
+   1	niche market	n.COGNITION
+   1	no problem	n.COGNITION
+   1	number 1 choice	n.COGNITION
+   1	objective	n.COGNITION
+   1	observation	n.COGNITION
+   1	old fashion	n.COGNITION
+   1	one - way street	n.COGNITION
+   1	opinion	n.COGNITION
+   1	opportunity	n.COGNITION
+   1	opposite	n.COGNITION
+   1	ordeal	n.COGNITION
+   1	palette	n.COGNITION
+   1	parameter	n.COGNITION
+   1	perfectionist	n.COGNITION
+   1	phantom	n.COGNITION
+   1	phobia	n.COGNITION
+   1	photography	n.COGNITION
+   1	pick	n.COGNITION
+   1	pitfall	n.COGNITION
+   1	planning	n.COGNITION
+   1	pleasure	n.COGNITION
+   1	polite	n.COGNITION
+   1	poor	n.COGNITION
+   1	possibility	n.COGNITION
+   1	power	n.COGNITION
+   1	premise	n.COGNITION
+   1	pretense	n.COGNITION
+   1	price range	n.COGNITION
+   1	pro	n.COGNITION
+   1	program	n.COGNITION
+   1	promise	n.COGNITION
+   1	punk	n.COGNITION
+   1	question	n.COGNITION
+   1	recommendation	n.COGNITION
+   1	reflection	n.COGNITION
+   1	republican	n.COGNITION
+   1	request	n.COGNITION
+   1	resource	n.COGNITION
+   1	result	n.COGNITION
+   1	reward	n.COGNITION
+   1	right	n.COGNITION
+   1	rip - off	n.COGNITION
+   1	risk	n.COGNITION
+   1	root	n.COGNITION
+   1	rubbish	n.COGNITION
+   1	runaround	n.COGNITION
+   1	safety	n.COGNITION
+   1	scale	n.COGNITION
+   1	science	n.COGNITION
+   1	search engine optimization	n.COGNITION
+   1	second chance	n.COGNITION
+   1	second home	n.COGNITION
+   1	sense	n.COGNITION
+   1	sensitivity	n.COGNITION
+   1	seo	n.COGNITION
+   1	setting	n.COGNITION
+   1	shame	n.COGNITION
+   1	shark	n.COGNITION
+   1	side	n.COGNITION
+   1	sign	n.COGNITION
+   1	sitcom	n.COGNITION
+   1	situation	n.COGNITION
+   1	smirk	n.COGNITION
+   1	smoker 's haven	n.COGNITION
+   1	smorgasbord	n.COGNITION
+   1	source	n.COGNITION
+   1	special	n.COGNITION
+   1	staple	n.COGNITION
+   1	state of the art	n.COGNITION
+   1	story	n.COGNITION
+   1	stress	n.COGNITION
+   1	strike	n.COGNITION
+   1	structure	n.COGNITION
+   1	support	n.COGNITION
+   1	team building	n.COGNITION
+   1	testament	n.COGNITION
+   1	thought	n.COGNITION
+   1	tight corner	n.COGNITION
+   1	time and again	n.COGNITION
+   1	timing	n.COGNITION
+   1	tool	n.COGNITION
+   1	township	n.COGNITION
+   1	traffic	n.COGNITION
+   1	trap	n.COGNITION
+   1	trend	n.COGNITION
+   1	truth	n.COGNITION
+   1	turn	n.COGNITION
+   1	understanding	n.COGNITION
+   1	update	n.COGNITION
+   1	utility	n.COGNITION
+   1	varietal	n.COGNITION
+   1	view	n.COGNITION
+   1	vintage	n.COGNITION
+   1	weight loss	n.COGNITION
+   1	witness protection program	n.COGNITION
+   1	year old	n.COGNITION
+  32	review	n.COMMUNICATION
+  19	name	n.COMMUNICATION
+  11	menu	n.COMMUNICATION
+  11	question	n.COMMUNICATION
+  10	order	n.COMMUNICATION
+   9	website	n.COMMUNICATION
+   7	5 star	n.COMMUNICATION
+   7	number	n.COMMUNICATION
+   6	comment	n.COMMUNICATION
+   6	internet	n.COMMUNICATION
+   6	list	n.COMMUNICATION
+   5	answer	n.COMMUNICATION
+   5	email	n.COMMUNICATION
+   4	English	n.COMMUNICATION
+   4	a +	n.COMMUNICATION
+   4	communication	n.COMMUNICATION
+   4	conversation	n.COMMUNICATION
+   4	phone call	n.COMMUNICATION
+   4	request	n.COMMUNICATION
+   3	advice	n.COMMUNICATION
+   3	application	n.COMMUNICATION
+   3	excuse	n.COMMUNICATION
+   3	quote	n.COMMUNICATION
+   3	rating	n.COMMUNICATION
+   3	response	n.COMMUNICATION
+   3	story	n.COMMUNICATION
+   3	top notch	n.COMMUNICATION
+   3	word	n.COMMUNICATION
+   2	ad	n.COMMUNICATION
+   2	bs	n.COMMUNICATION
+   2	call	n.COMMUNICATION
+   2	certificate	n.COMMUNICATION
+   2	compliment	n.COMMUNICATION
+   2	estimate	n.COMMUNICATION
+   2	feedback	n.COMMUNICATION
+   2	information	n.COMMUNICATION
+   2	language	n.COMMUNICATION
+   2	movie	n.COMMUNICATION
+   2	one star	n.COMMUNICATION
+   2	paperwork	n.COMMUNICATION
+   2	policy	n.COMMUNICATION
+   2	record	n.COMMUNICATION
+   2	recording	n.COMMUNICATION
+   2	schedule	n.COMMUNICATION
+   2	site	n.COMMUNICATION
+   2	social media	n.COMMUNICATION
+   2	software	n.COMMUNICATION
+   2	statement	n.COMMUNICATION
+   2	the real deal	n.COMMUNICATION
+   2	video	n.COMMUNICATION
+   1	# 1	n.COMMUNICATION
+   1	*ss	n.COMMUNICATION
+   1	4 star	n.COMMUNICATION
+   1	800 number	n.COMMUNICATION
+   1	Balazick	n.COMMUNICATION
+   1	Blue Book	n.COMMUNICATION
+   1	Facebook	n.COMMUNICATION
+   1	Health Care Proxy	n.COMMUNICATION
+   1	Italiano	n.COMMUNICATION
+   1	Pennysaver	n.COMMUNICATION
+   1	Seinfeld	n.COMMUNICATION
+   1	Telugu	n.COMMUNICATION
+   1	WWW	n.COMMUNICATION
+   1	YouTube	n.COMMUNICATION
+   1	a +++	n.COMMUNICATION
+   1	a +++++	n.COMMUNICATION
+   1	account	n.COMMUNICATION
+   1	advise	n.COMMUNICATION
+   1	agreement	n.COMMUNICATION
+   1	apology	n.COMMUNICATION
+   1	arrangement	n.COMMUNICATION
+   1	award	n.COMMUNICATION
+   1	barcode	n.COMMUNICATION
+   1	barcoding	n.COMMUNICATION
+   1	be a nice touch	n.COMMUNICATION
+   1	birthday card	n.COMMUNICATION
+   1	bodytalk	n.COMMUNICATION
+   1	card	n.COMMUNICATION
+   1	claim	n.COMMUNICATION
+   1	com	n.COMMUNICATION
+   1	complaint	n.COMMUNICATION
+   1	computer network	n.COMMUNICATION
+   1	confirmation	n.COMMUNICATION
+   1	connection	n.COMMUNICATION
+   1	contact information	n.COMMUNICATION
+   1	contract	n.COMMUNICATION
+   1	coupon	n.COMMUNICATION
+   1	credit score	n.COMMUNICATION
+   1	cussing	n.COMMUNICATION
+   1	design	n.COMMUNICATION
+   1	direction	n.COMMUNICATION
+   1	downloading	n.COMMUNICATION
+   1	e-mail	n.COMMUNICATION
+   1	fact	n.COMMUNICATION
+   1	five - star	n.COMMUNICATION
+   1	fps	n.COMMUNICATION
+   1	fuss	n.COMMUNICATION
+   1	game	n.COMMUNICATION
+   1	give and take	n.COMMUNICATION
+   1	greeting	n.COMMUNICATION
+   1	http://en.wikipedia.org/wiki/bullfighting	n.COMMUNICATION
+   1	http://www.consumerreports.org/health/healthy-living/beauty-personal-care/hair-loss-10-08/hair-loss.htm	n.COMMUNICATION
+   1	invitation	n.COMMUNICATION
+   1	label	n.COMMUNICATION
+   1	last name	n.COMMUNICATION
+   1	laughter	n.COMMUNICATION
+   1	letter	n.COMMUNICATION
+   1	license	n.COMMUNICATION
+   1	logo	n.COMMUNICATION
+   1	main feature	n.COMMUNICATION
+   1	marketing	n.COMMUNICATION
+   1	marking	n.COMMUNICATION
+   1	misinformation	n.COMMUNICATION
+   1	music	n.COMMUNICATION
+   1	negotiation	n.COMMUNICATION
+   1	news	n.COMMUNICATION
+   1	note	n.COMMUNICATION
+   1	one - star	n.COMMUNICATION
+   1	original	n.COMMUNICATION
+   1	overstatement	n.COMMUNICATION
+   1	page	n.COMMUNICATION
+   1	phone number	n.COMMUNICATION
+   1	point	n.COMMUNICATION
+   1	postcard	n.COMMUNICATION
+   1	preview	n.COMMUNICATION
+   1	query	n.COMMUNICATION
+   1	rave review	n.COMMUNICATION
+   1	reference	n.COMMUNICATION
+   1	regulation	n.COMMUNICATION
+   1	resume	n.COMMUNICATION
+   1	rosette	n.COMMUNICATION
+   1	sale pitch	n.COMMUNICATION
+   1	score	n.COMMUNICATION
+   1	section	n.COMMUNICATION
+   1	sentence	n.COMMUNICATION
+   1	service paper	n.COMMUNICATION
+   1	show	n.COMMUNICATION
+   1	sign	n.COMMUNICATION
+   1	slang	n.COMMUNICATION
+   1	social security number	n.COMMUNICATION
+   1	song	n.COMMUNICATION
+   1	star	n.COMMUNICATION
+   1	suggestion	n.COMMUNICATION
+   1	ten star	n.COMMUNICATION
+   1	the holy grail	n.COMMUNICATION
+   1	the point	n.COMMUNICATION
+   1	the real thing	n.COMMUNICATION
+   1	two thumb up	n.COMMUNICATION
+   1	update	n.COMMUNICATION
+   1	vote	n.COMMUNICATION
+   1	warning	n.COMMUNICATION
+   1	web site	n.COMMUNICATION
+   1	white page	n.COMMUNICATION
+   1	wonderful wild Wildernest inn	n.COMMUNICATION
+   1	www.designofashion.com	n.COMMUNICATION
+   1	www.norcalfightingalliance.com	n.COMMUNICATION
+   1	www.veraakulov.com	n.COMMUNICATION
+   1	yelling	n.COMMUNICATION
+   1	youtube	n.COMMUNICATION
+  52	time	n.EVENT
+  48	experience	n.EVENT
+  13	visit	n.EVENT
+  12	appointment	n.EVENT
+  11	wedding	n.EVENT
+   9	night	n.EVENT
+   8	day	n.EVENT
+   8	lunch	n.EVENT
+   7	dinner	n.EVENT
+   7	event	n.EVENT
+   7	meal	n.EVENT
+   7	stay	n.EVENT
+   7	treatment	n.EVENT
+   5	lesson	n.EVENT
+   4	class	n.EVENT
+   4	funeral	n.EVENT
+   4	job	n.EVENT
+   4	party	n.EVENT
+   4	point	n.EVENT
+   4	trip	n.EVENT
+   3	arrival	n.EVENT
+   3	breakfast	n.EVENT
+   3	case	n.EVENT
+   3	last minute	n.EVENT
+   3	occasion	n.EVENT
+   3	reservation	n.EVENT
+   3	session	n.EVENT
+   3	vacation	n.EVENT
+   2	NYE	n.EVENT
+   2	birthday	n.EVENT
+   2	break	n.EVENT
+   2	closing	n.EVENT
+   2	death	n.EVENT
+   2	emission test	n.EVENT
+   2	evening	n.EVENT
+   2	fight	n.EVENT
+   2	finish	n.EVENT
+   2	game	n.EVENT
+   2	holiday	n.EVENT
+   2	oil change	n.EVENT
+   2	opening	n.EVENT
+   2	project	n.EVENT
+   2	reversal	n.EVENT
+   2	special	n.EVENT
+   2	start	n.EVENT
+   2	surgery	n.EVENT
+   2	test	n.EVENT
+   2	test drive	n.EVENT
+   2	wedding day	n.EVENT
+   2	wine tasting	n.EVENT
+   1	Crim	n.EVENT
+   1	Friday	n.EVENT
+   1	India heritage tour	n.EVENT
+   1	LFTD	n.EVENT
+   1	NCAA final 4	n.EVENT
+   1	New Year 's Eve	n.EVENT
+   1	Valentine 's	n.EVENT
+   1	addition	n.EVENT
+   1	adventure tour	n.EVENT
+   1	attack	n.EVENT
+   1	attempt	n.EVENT
+   1	birthday party	n.EVENT
+   1	call	n.EVENT
+   1	car accident	n.EVENT
+   1	check in	n.EVENT
+   1	check out	n.EVENT
+   1	check up	n.EVENT
+   1	checkout	n.EVENT
+   1	close	n.EVENT
+   1	course	n.EVENT
+   1	cut	n.EVENT
+   1	date	n.EVENT
+   1	delivery	n.EVENT
+   1	disaster	n.EVENT
+   1	emergency	n.EVENT
+   1	encounter	n.EVENT
+   1	end	n.EVENT
+   1	engagement	n.EVENT
+   1	family emergency	n.EVENT
+   1	fire drill	n.EVENT
+   1	first time	n.EVENT
+   1	flea market	n.EVENT
+   1	followup	n.EVENT
+   1	girl night	n.EVENT
+   1	haircut	n.EVENT
+   1	have experience	n.EVENT
+   1	holiday dinner	n.EVENT
+   1	injury	n.EVENT
+   1	interview	n.EVENT
+   1	luncheon	n.EVENT
+   1	matter	n.EVENT
+   1	mistake	n.EVENT
+   1	moment	n.EVENT
+   1	move	n.EVENT
+   1	movie	n.EVENT
+   1	night out	n.EVENT
+   1	outing	n.EVENT
+   1	part	n.EVENT
+   1	repair	n.EVENT
+   1	second chance	n.EVENT
+   1	service	n.EVENT
+   1	situation	n.EVENT
+   1	state inspection	n.EVENT
+   1	step	n.EVENT
+   1	suicide	n.EVENT
+   1	task	n.EVENT
+   1	tasting	n.EVENT
+   1	test - drive	n.EVENT
+   1	the most important day of life	n.EVENT
+   1	today	n.EVENT
+   1	tour	n.EVENT
+   1	weekend	n.EVENT
+   1	world series	n.EVENT
+   2	disappointment	n.FEELING
+   2	discomfort	n.FEELING
+   2	faith	n.FEELING
+   1	anger	n.FEELING
+   1	attitude	n.FEELING
+   1	caring	n.FEELING
+   1	compassion	n.FEELING
+   1	concern	n.FEELING
+   1	confidence	n.FEELING
+   1	confusion	n.FEELING
+   1	consideration	n.FEELING
+   1	discontent	n.FEELING
+   1	dismay	n.FEELING
+   1	distain	n.FEELING
+   1	entertainment	n.FEELING
+   1	fear	n.FEELING
+   1	frustration	n.FEELING
+   1	have the pleasure	n.FEELING
+   1	hesitation	n.FEELING
+   1	hunger	n.FEELING
+   1	interest	n.FEELING
+   1	satisfaction	n.FEELING
+   1	sinking feeling	n.FEELING
+   1	stress	n.FEELING
+   1	surprise	n.FEELING
+   1	sympathy	n.FEELING
+   1	tension	n.FEELING
+   1	well - being	n.FEELING
+   1	worry	n.FEELING
+ 109	food	n.FOOD
+  15	pizza	n.FOOD
+  11	dish	n.FOOD
+  11	wine	n.FOOD
+  10	coffee	n.FOOD
+  10	salad	n.FOOD
+   9	cake	n.FOOD
+   8	beer	n.FOOD
+   8	cheese	n.FOOD
+   8	meat	n.FOOD
+   8	roll	n.FOOD
+   7	meal	n.FOOD
+   7	pho	n.FOOD
+   7	steak	n.FOOD
+   6	breakfast	n.FOOD
+   6	dessert	n.FOOD
+   6	drink	n.FOOD
+   6	order	n.FOOD
+   6	salsa	n.FOOD
+   6	sandwich	n.FOOD
+   6	slice	n.FOOD
+   5	dinner	n.FOOD
+   5	ingredient	n.FOOD
+   5	mezza luna	n.FOOD
+   4	chicken	n.FOOD
+   4	entree	n.FOOD
+   4	pie	n.FOOD
+   4	sauce	n.FOOD
+   4	wing	n.FOOD
+   3	bloody mary	n.FOOD
+   3	bread	n.FOOD
+   3	chocolate	n.FOOD
+   3	cuisine	n.FOOD
+   3	item	n.FOOD
+   3	lunch	n.FOOD
+   3	milk	n.FOOD
+   3	queso	n.FOOD
+   3	side	n.FOOD
+   3	soda	n.FOOD
+   3	soup	n.FOOD
+   3	sushi	n.FOOD
+   3	tempura	n.FOOD
+   3	water	n.FOOD
+   2	affair	n.FOOD
+   2	bagel	n.FOOD
+   2	bbq	n.FOOD
+   2	cookie	n.FOOD
+   2	crab	n.FOOD
+   2	cuban coffee	n.FOOD
+   2	duck	n.FOOD
+   2	enchilada	n.FOOD
+   2	fare	n.FOOD
+   2	fat	n.FOOD
+   2	flatbread	n.FOOD
+   2	foie gras	n.FOOD
+   2	fry	n.FOOD
+   2	grill	n.FOOD
+   2	guacamole	n.FOOD
+   2	hummus	n.FOOD
+   2	lamb	n.FOOD
+   2	lobster	n.FOOD
+   2	mix	n.FOOD
+   2	mussel	n.FOOD
+   2	pepper	n.FOOD
+   2	piece	n.FOOD
+   2	pizza roll	n.FOOD
+   2	pork	n.FOOD
+   2	rice	n.FOOD
+   2	sampler	n.FOOD
+   2	scallop	n.FOOD
+   2	snack	n.FOOD
+   2	stuff	n.FOOD
+   2	sweet potato	n.FOOD
+   2	taco	n.FOOD
+   2	tail	n.FOOD
+   2	take out	n.FOOD
+   2	tea	n.FOOD
+   2	tuna	n.FOOD
+   2	vegetable	n.FOOD
+   2	veggy	n.FOOD
+   1	BRAWLER	n.FOOD
+   1	BUFFALO wing	n.FOOD
+   1	Brawler	n.FOOD
+   1	Chicken salad	n.FOOD
+   1	Egg Drop Soup	n.FOOD
+   1	Guinness	n.FOOD
+   1	Hormel 's chili	n.FOOD
+   1	Love Stout	n.FOOD
+   1	NYC pizza	n.FOOD
+   1	NYC style pizza	n.FOOD
+   1	Neptune platter	n.FOOD
+   1	New York pizza	n.FOOD
+   1	New York style pizza	n.FOOD
+   1	Nitrogen Love Stout	n.FOOD
+   1	Tempura	n.FOOD
+   1	american cheese	n.FOOD
+   1	amuse	n.FOOD
+   1	angry lobster	n.FOOD
+   1	antipasto	n.FOOD
+   1	antipasto misto	n.FOOD
+   1	app	n.FOOD
+   1	appetizer	n.FOOD
+   1	arancini di riso	n.FOOD
+   1	asparagus	n.FOOD
+   1	banana split	n.FOOD
+   1	bar - b - que	n.FOOD
+   1	batter	n.FOOD
+   1	bbq chicken pizza	n.FOOD
+   1	beef	n.FOOD
+   1	black bean	n.FOOD
+   1	blacken catfish	n.FOOD
+   1	bowl	n.FOOD
+   1	breast	n.FOOD
+   1	burger	n.FOOD
+   1	burrito	n.FOOD
+   1	butter	n.FOOD
+   1	cabbage	n.FOOD
+   1	canape'	n.FOOD
+   1	chicken finger	n.FOOD
+   1	chili	n.FOOD
+   1	chili relleno	n.FOOD
+   1	chimichanga	n.FOOD
+   1	chip	n.FOOD
+   1	chocolate lava cake	n.FOOD
+   1	chocolate mousse	n.FOOD
+   1	club sandwich	n.FOOD
+   1	colada	n.FOOD
+   1	combo	n.FOOD
+   1	condiment	n.FOOD
+   1	crab rangoon	n.FOOD
+   1	cracker	n.FOOD
+   1	crepe	n.FOOD
+   1	crust	n.FOOD
+   1	deli sandwich	n.FOOD
+   1	delicacy	n.FOOD
+   1	dog	n.FOOD
+   1	dogs	n.FOOD
+   1	dogwood grill cheese	n.FOOD
+   1	eat	n.FOOD
+   1	egg benedict	n.FOOD
+   1	egg roll	n.FOOD
+   1	enchilada sauce	n.FOOD
+   1	enchiladas	n.FOOD
+   1	esa	n.FOOD
+   1	extract	n.FOOD
+   1	fast food	n.FOOD
+   1	feed	n.FOOD
+   1	filler vegetable	n.FOOD
+   1	fish	n.FOOD
+   1	flake	n.FOOD
+   1	forkful	n.FOOD
+   1	french fry	n.FOOD
+   1	fritter	n.FOOD
+   1	frosting	n.FOOD
+   1	fruit	n.FOOD
+   1	fry egg	n.FOOD
+   1	fry plantain	n.FOOD
+   1	garnish	n.FOOD
+   1	gelato	n.FOOD
+   1	gnocchi	n.FOOD
+   1	grandma	n.FOOD
+   1	grandma slice	n.FOOD
+   1	grocery	n.FOOD
+   1	grounds	n.FOOD
+   1	ham	n.FOOD
+   1	hole	n.FOOD
+   1	ipa	n.FOOD
+   1	jalapeno	n.FOOD
+   1	juice	n.FOOD
+   1	kid 's meal	n.FOOD
+   1	kid meal	n.FOOD
+   1	kung pao chicken	n.FOOD
+   1	laffa	n.FOOD
+   1	liquor	n.FOOD
+   1	lo mein	n.FOOD
+   1	mac and cheese	n.FOOD
+   1	mango	n.FOOD
+   1	margarita	n.FOOD
+   1	meatball	n.FOOD
+   1	mimosa	n.FOOD
+   1	mole	n.FOOD
+   1	moo shu	n.FOOD
+   1	morelias enchilada	n.FOOD
+   1	nacho	n.FOOD
+   1	nigiri	n.FOOD
+   1	omelet	n.FOOD
+   1	option	n.FOOD
+   1	orange chicken	n.FOOD
+   1	oregano	n.FOOD
+   1	panko	n.FOOD
+   1	parmesan	n.FOOD
+   1	parmigiana	n.FOOD
+   1	pasta	n.FOOD
+   1	pastry	n.FOOD
+   1	patty	n.FOOD
+   1	peanut	n.FOOD
+   1	pepperoni	n.FOOD
+   1	plate	n.FOOD
+   1	popcorn	n.FOOD
+   1	portion	n.FOOD
+   1	potato	n.FOOD
+   1	puff	n.FOOD
+   1	pumpkin spice latte	n.FOOD
+   1	purple hull pea	n.FOOD
+   1	quesadilla	n.FOOD
+   1	refreshment	n.FOOD
+   1	risotto	n.FOOD
+   1	salatim	n.FOOD
+   1	salmon	n.FOOD
+   1	salsa verde	n.FOOD
+   1	saltimboca	n.FOOD
+   1	sashimi	n.FOOD
+   1	seafood	n.FOOD
+   1	selection	n.FOOD
+   1	semifreddo	n.FOOD
+   1	sesame	n.FOOD
+   1	shrimp	n.FOOD
+   1	shrimp satay	n.FOOD
+   1	shrimp scampi	n.FOOD
+   1	sirloin	n.FOOD
+   1	spaghetti alla barese	n.FOOD
+   1	spare rib	n.FOOD
+   1	special	n.FOOD
+   1	spice	n.FOOD
+   1	spring roll	n.FOOD
+   1	starter	n.FOOD
+   1	sugar	n.FOOD
+   1	sweet	n.FOOD
+   1	take - out	n.FOOD
+   1	tofu	n.FOOD
+   1	tortilla soup	n.FOOD
+   1	turkey	n.FOOD
+   1	veggie	n.FOOD
+   1	wanton	n.FOOD
+   1	wedge	n.FOOD
+   1	wine flight	n.FOOD
+   1	wonton	n.FOOD
+   1	yam	n.FOOD
+ 119	place	n.GROUP
+  59	staff	n.GROUP
+  40	restaurant	n.GROUP
+  34	store	n.GROUP
+  31	company	n.GROUP
+  29	family	n.GROUP
+  24	hotel	n.GROUP
+  21	business	n.GROUP
+  17	office	n.GROUP
+  15	salon	n.GROUP
+  15	shop	n.GROUP
+  13	guy	n.GROUP
+  13	team	n.GROUP
+  12	management	n.GROUP
+  10	school	n.GROUP
+   9	dealership	n.GROUP
+   7	program	n.GROUP
+   6	department	n.GROUP
+   6	group	n.GROUP
+   6	gym	n.GROUP
+   6	spot	n.GROUP
+   5	A&E	n.GROUP
+   5	VCU	n.GROUP
+   5	designer	n.GROUP
+   5	establishment	n.GROUP
+   5	guest	n.GROUP
+   5	hospital	n.GROUP
+   4	Bowtie	n.GROUP
+   4	Exile	n.GROUP
+   4	FusionRetail	n.GROUP
+   4	Midas	n.GROUP
+   4	Starbucks	n.GROUP
+   4	chain	n.GROUP
+   4	college	n.GROUP
+   4	community	n.GROUP
+   4	employee	n.GROUP
+   4	firm	n.GROUP
+   4	location	n.GROUP
+   4	motel	n.GROUP
+   4	people	n.GROUP
+   4	practice	n.GROUP
+   4	wait staff	n.GROUP
+   3	Alto	n.GROUP
+   3	Auto Towing	n.GROUP
+   3	BNA	n.GROUP
+   3	Ham 's	n.GROUP
+   3	Home Delivery Service	n.GROUP
+   3	Just Autos	n.GROUP
+   3	Lake Forest Tots	n.GROUP
+   3	Second Home	n.GROUP
+   3	apartment	n.GROUP
+   3	church	n.GROUP
+   3	crew	n.GROUP
+   3	customer	n.GROUP
+   3	daycare	n.GROUP
+   3	dominos	n.GROUP
+   3	high school	n.GROUP
+   3	market	n.GROUP
+   3	neighborhood	n.GROUP
+   3	party	n.GROUP
+   3	pub	n.GROUP
+   3	studio	n.GROUP
+   3	supplier	n.GROUP
+   3	the Laundry Tub	n.GROUP
+   3	theatre	n.GROUP
+   3	town	n.GROUP
+   2	BJ 's	n.GROUP
+   2	Braman Honda	n.GROUP
+   2	Brickell Honda	n.GROUP
+   2	Cheveux	n.GROUP
+   2	China Delight	n.GROUP
+   2	Eagle Transmission	n.GROUP
+   2	Endo Sushi	n.GROUP
+   2	FHS	n.GROUP
+   2	FITNESS UNLIMITED	n.GROUP
+   2	Fraiser 's	n.GROUP
+   2	HCC	n.GROUP
+   2	Hickory Furniture Mart	n.GROUP
+   2	Hino	n.GROUP
+   2	Kitchen Aid	n.GROUP
+   2	Liquidweb	n.GROUP
+   2	Lovely Nails	n.GROUP
+   2	Mama Mia 's	n.GROUP
+   2	Max 's	n.GROUP
+   2	NDI	n.GROUP
+   2	Orr	n.GROUP
+   2	Papeluna	n.GROUP
+   2	Sears	n.GROUP
+   2	Signs of Saltford	n.GROUP
+   2	TEXAS ROADHOUSE	n.GROUP
+   2	Tmobile	n.GROUP
+   2	Verizon	n.GROUP
+   2	WalMart	n.GROUP
+   2	Warner Family	n.GROUP
+   2	Zahav	n.GROUP
+   2	b&b	n.GROUP
+   2	bakery	n.GROUP
+   2	band	n.GROUP
+   2	bunch	n.GROUP
+   2	cafe	n.GROUP
+   2	cast	n.GROUP
+   2	child	n.GROUP
+   2	class	n.GROUP
+   2	client base	n.GROUP
+   2	clinic	n.GROUP
+   2	club	n.GROUP
+   2	collection agency	n.GROUP
+   2	farm	n.GROUP
+   2	folk	n.GROUP
+   2	friend	n.GROUP
+   2	gang	n.GROUP
+   2	garage	n.GROUP
+   2	house	n.GROUP
+   2	inn	n.GROUP
+   2	other	n.GROUP
+   2	pro	n.GROUP
+   2	provider	n.GROUP
+   2	side	n.GROUP
+   2	sonic	n.GROUP
+   2	student	n.GROUP
+   2	university	n.GROUP
+   2	you guy	n.GROUP
+   1	4 - year college	n.GROUP
+   1	A CLASS Garage Doors	n.GROUP
+   1	A CLASS Garage Doors dr service	n.GROUP
+   1	A Dong	n.GROUP
+   1	Adelphi Hotel	n.GROUP
+   1	Adorn	n.GROUP
+   1	Advanced auto parts	n.GROUP
+   1	Allen Tire	n.GROUP
+   1	Alta Moda	n.GROUP
+   1	Amelia Gentle Dentistry	n.GROUP
+   1	Atlanta Paperback Book Printing	n.GROUP
+   1	Award Dance Centre	n.GROUP
+   1	Aztec	n.GROUP
+   1	B&B	n.GROUP
+   1	BC / BS	n.GROUP
+   1	BK	n.GROUP
+   1	BU	n.GROUP
+   1	Ball Square Cafe	n.GROUP
+   1	Barrett Motor Cars of San Antonio	n.GROUP
+   1	Bascom Light Rail	n.GROUP
+   1	Best and Affordable Tour Operators and Tours Agents	n.GROUP
+   1	Bexar County Tax Office	n.GROUP
+   1	Bistro Tallulah	n.GROUP
+   1	Bloom Legal	n.GROUP
+   1	Blue Cross / Blue Shield	n.GROUP
+   1	Blue cross	n.GROUP
+   1	Bonafide	n.GROUP
+   1	Bonanza	n.GROUP
+   1	Bradley Chevron	n.GROUP
+   1	Bright Star Tours	n.GROUP
+   1	Bright Star Tours and Travels	n.GROUP
+   1	Buckingham Condominiums	n.GROUP
+   1	Buddakan	n.GROUP
+   1	Burger King	n.GROUP
+   1	COMCAST	n.GROUP
+   1	Cafe	n.GROUP
+   1	Caffe Bella Italia	n.GROUP
+   1	Canadian Outback	n.GROUP
+   1	Carnegie Mellon	n.GROUP
+   1	Chili 's	n.GROUP
+   1	Chipotle	n.GROUP
+   1	Clark County School District	n.GROUP
+   1	Comfort Zone	n.GROUP
+   1	Comfort zone	n.GROUP
+   1	Console Pros	n.GROUP
+   1	Cranmore Dental and Implant Clinic	n.GROUP
+   1	Creekside Apartments	n.GROUP
+   1	Crust on Broad	n.GROUP
+   1	Cycle City	n.GROUP
+   1	DECOR and YOU	n.GROUP
+   1	Dartmouth	n.GROUP
+   1	Days Inn	n.GROUP
+   1	Dealer	n.GROUP
+   1	Decor and You	n.GROUP
+   1	Dillards	n.GROUP
+   1	Duke	n.GROUP
+   1	Dumb Friends League	n.GROUP
+   1	Edmark	n.GROUP
+   1	El Paradero	n.GROUP
+   1	Elite Flyers	n.GROUP
+   1	Eulogic	n.GROUP
+   1	FITNESS 500	n.GROUP
+   1	Fancy Flowers	n.GROUP
+   1	Fidelity Leasing	n.GROUP
+   1	First Glass Window	n.GROUP
+   1	Flagship CVTS	n.GROUP
+   1	Flying Squirrels	n.GROUP
+   1	Fountain Dental Practice	n.GROUP
+   1	Fran pcs	n.GROUP
+   1	Franklin High School	n.GROUP
+   1	Fresh Design Studio	n.GROUP
+   1	Fuji Sushi	n.GROUP
+   1	GM	n.GROUP
+   1	Garment District	n.GROUP
+   1	Geno 's	n.GROUP
+   1	Giovanni Ristorante	n.GROUP
+   1	Google	n.GROUP
+   1	Green Buffet	n.GROUP
+   1	HDS	n.GROUP
+   1	HONKA Log Homes	n.GROUP
+   1	HR Office	n.GROUP
+   1	Hair by Nivine	n.GROUP
+   1	Health Care Proxy	n.GROUP
+   1	Hellada Gallery	n.GROUP
+   1	Hom - Excel	n.GROUP
+   1	Home - Excel	n.GROUP
+   1	Honda	n.GROUP
+   1	Hot Iron	n.GROUP
+   1	Howard	n.GROUP
+   1	IHOP	n.GROUP
+   1	IRS	n.GROUP
+   1	Ikea	n.GROUP
+   1	Instep	n.GROUP
+   1	Ipanema	n.GROUP
+   1	JUNO and OPEN	n.GROUP
+   1	Jack 's	n.GROUP
+   1	Jamaica Way	n.GROUP
+   1	Jazz Club	n.GROUP
+   1	Just Like Family	n.GROUP
+   1	Kids first West Chester	n.GROUP
+   1	Kingston upon Hull	n.GROUP
+   1	Kobey 's	n.GROUP
+   1	Kumon Parents	n.GROUP
+   1	Kwik Kar	n.GROUP
+   1	L'espalier	n.GROUP
+   1	La Crosse	n.GROUP
+   1	La Hacienda	n.GROUP
+   1	Le petit	n.GROUP
+   1	Leon 's	n.GROUP
+   1	Liberty construction	n.GROUP
+   1	Little Farmer	n.GROUP
+   1	London Aquarium	n.GROUP
+   1	Lucky Panda	n.GROUP
+   1	Mackinaw Tourist	n.GROUP
+   1	Madrid	n.GROUP
+   1	Marriott	n.GROUP
+   1	Mazda	n.GROUP
+   1	Modell 's	n.GROUP
+   1	Mr. Squeege	n.GROUP
+   1	NW hospital	n.GROUP
+   1	NY jets	n.GROUP
+   1	Napa	n.GROUP
+   1	National Home Furnishings	n.GROUP
+   1	New China	n.GROUP
+   1	Nick 's	n.GROUP
+   1	Nidd Design	n.GROUP
+   1	Noble driving school	n.GROUP
+   1	Nordstrom	n.GROUP
+   1	Novotel	n.GROUP
+   1	Outback	n.GROUP
+   1	PJC	n.GROUP
+   1	PMA	n.GROUP
+   1	Panera	n.GROUP
+   1	Patio World	n.GROUP
+   1	Peachstate Powersports	n.GROUP
+   1	Peking Garden	n.GROUP
+   1	Phet and G&G Automotive	n.GROUP
+   1	Pizza Hut	n.GROUP
+   1	Prestige Hino	n.GROUP
+   1	Professional Driving School	n.GROUP
+   1	Prominent Builders	n.GROUP
+   1	Providence Aesthetics and Medical Spa	n.GROUP
+   1	Prudential Steamboat Realty	n.GROUP
+   1	Purple Goose	n.GROUP
+   1	QuikTrip	n.GROUP
+   1	Qwest DSL	n.GROUP
+   1	RADISON WARWICK	n.GROUP
+   1	RUTH CHRIS	n.GROUP
+   1	Radison	n.GROUP
+   1	Radison - Warwick	n.GROUP
+   1	Radison Warwick	n.GROUP
+   1	Raina 's	n.GROUP
+   1	Richmond	n.GROUP
+   1	Richmond Ukrops	n.GROUP
+   1	Roll UP Crepes	n.GROUP
+   1	Run on	n.GROUP
+   1	Rutgers	n.GROUP
+   1	SRD PAT testing	n.GROUP
+   1	Salmagundi	n.GROUP
+   1	Saucey 's	n.GROUP
+   1	Scots	n.GROUP
+   1	Sears Automotives	n.GROUP
+   1	Sharayu	n.GROUP
+   1	Sheraton	n.GROUP
+   1	Spears Roofing	n.GROUP
+   1	St. Thomas the Apostle	n.GROUP
+   1	Stainless Steel	n.GROUP
+   1	Student Tour India Package	n.GROUP
+   1	Subway Sandwiches	n.GROUP
+   1	Sun Devil Auto	n.GROUP
+   1	Sun Toyota	n.GROUP
+   1	Sussman Kia	n.GROUP
+   1	T 's	n.GROUP
+   1	T 's Cafe	n.GROUP
+   1	TGIF	n.GROUP
+   1	TIGER HEATING and AIR	n.GROUP
+   1	Taco Mac	n.GROUP
+   1	Taj Mahal	n.GROUP
+   1	Tanglewood Apartments	n.GROUP
+   1	Team Texas Construction	n.GROUP
+   1	Texas Roadhouse	n.GROUP
+   1	Tiger Heating	n.GROUP
+   1	Tintman Nationwide tints Ltd	n.GROUP
+   1	TomiPilates	n.GROUP
+   1	Toyota	n.GROUP
+   1	Trader Joe 's	n.GROUP
+   1	Trek	n.GROUP
+   1	Trio 's	n.GROUP
+   1	Tussey Mountain Tree Plantation	n.GROUP
+   1	U of R	n.GROUP
+   1	U. Penn	n.GROUP
+   1	US News	n.GROUP
+   1	United Air Duct	n.GROUP
+   1	United Air Duct Cleaning	n.GROUP
+   1	VCU Medical Center	n.GROUP
+   1	Vassar	n.GROUP
+   1	Vetri	n.GROUP
+   1	Vigor	n.GROUP
+   1	Vintage Hostel	n.GROUP
+   1	Wedding Gallery	n.GROUP
+   1	Wessex	n.GROUP
+   1	Westfield	n.GROUP
+   1	Whole Foods	n.GROUP
+   1	Wildernest inn	n.GROUP
+   1	William and Mary	n.GROUP
+   1	Willow Lounge	n.GROUP
+   1	World Hats Mart	n.GROUP
+   1	Wunderbar pet sitting	n.GROUP
+   1	Yards Brewery	n.GROUP
+   1	Yelp	n.GROUP
+   1	Youngstown Sports Grille	n.GROUP
+   1	a - team	n.GROUP
+   1	a Ward Dance Centre	n.GROUP
+   1	agency	n.GROUP
+   1	amusement park	n.GROUP
+   1	and company	n.GROUP
+   1	angel	n.GROUP
+   1	area	n.GROUP
+   1	art school	n.GROUP
+   1	audience	n.GROUP
+   1	auto shop	n.GROUP
+   1	bar	n.GROUP
+   1	barbershop	n.GROUP
+   1	bee	n.GROUP
+   1	beginning yoga with Brittany	n.GROUP
+   1	belgian tavern	n.GROUP
+   1	better business bureau	n.GROUP
+   1	big box store	n.GROUP
+   1	biz	n.GROUP
+   1	boutique	n.GROUP
+   1	bradley food and beverage	n.GROUP
+   1	breeder	n.GROUP
+   1	car dealer	n.GROUP
+   1	cater	n.GROUP
+   1	cinema	n.GROUP
+   1	client	n.GROUP
+   1	co.	n.GROUP
+   1	collection	n.GROUP
+   1	color I phat	n.GROUP
+   1	convenience store	n.GROUP
+   1	course	n.GROUP
+   1	craft wonderland	n.GROUP
+   1	crowd	n.GROUP
+   1	customer service	n.GROUP
+   1	design	n.GROUP
+   1	ensemble	n.GROUP
+   1	er	n.GROUP
+   1	facility	n.GROUP
+   1	familia	n.GROUP
+   1	family business	n.GROUP
+   1	family practice	n.GROUP
+   1	fitness center	n.GROUP
+   1	front staff	n.GROUP
+   1	grocery shop	n.GROUP
+   1	grocery store	n.GROUP
+   1	helper	n.GROUP
+   1	herd	n.GROUP
+   1	hoa salon	n.GROUP
+   1	home team	n.GROUP
+   1	hood	n.GROUP
+   1	host	n.GROUP
+   1	hot topic	n.GROUP
+   1	house of Joy	n.GROUP
+   1	house of Joy Chinese Restaurant	n.GROUP
+   1	household	n.GROUP
+   1	industry	n.GROUP
+   1	insurance	n.GROUP
+   1	jail	n.GROUP
+   1	jazz club	n.GROUP
+   1	jiffy lube	n.GROUP
+   1	kc chiefs	n.GROUP
+   1	kitchen	n.GROUP
+   1	knights inn	n.GROUP
+   1	laundromat	n.GROUP
+   1	laundry	n.GROUP
+   1	leader	n.GROUP
+   1	line	n.GROUP
+   1	local business	n.GROUP
+   1	lube	n.GROUP
+   1	mobile mechanic	n.GROUP
+   1	multiplex	n.GROUP
+   1	ncfa	n.GROUP
+   1	ohm	n.GROUP
+   1	one	n.GROUP
+   1	operation	n.GROUP
+   1	parishioner	n.GROUP
+   1	patient see	n.GROUP
+   1	petting zoo	n.GROUP
+   1	phillies	n.GROUP
+   1	population	n.GROUP
+   1	prominent builder	n.GROUP
+   1	property	n.GROUP
+   1	property management	n.GROUP
+   1	pure pilates	n.GROUP
+   1	rage Taco & rage Burrito	n.GROUP
+   1	record label	n.GROUP
+   1	red sox	n.GROUP
+   1	resident	n.GROUP
+   1	resort	n.GROUP
+   1	rest	n.GROUP
+   1	resturant	n.GROUP
+   1	scrummy yummy	n.GROUP
+   1	security	n.GROUP
+   1	seo	n.GROUP
+   1	shelter	n.GROUP
+   1	shopping center	n.GROUP
+   1	small town	n.GROUP
+   1	society	n.GROUP
+   1	spill the Whisky	n.GROUP
+   1	station	n.GROUP
+   1	steak house	n.GROUP
+   1	supercuts	n.GROUP
+   1	system	n.GROUP
+   1	that be Amore	n.GROUP
+   1	the Brick	n.GROUP
+   1	the Creative Workshop	n.GROUP
+   1	the Grill	n.GROUP
+   1	the Hilton	n.GROUP
+   1	the Rams	n.GROUP
+   1	the Willow Lounge	n.GROUP
+   1	the new kid on the block	n.GROUP
+   1	thing	n.GROUP
+   1	vendor	n.GROUP
+   1	waiter	n.GROUP
+   1	wal mart	n.GROUP
+   1	will and grace	n.GROUP
+   1	work	n.GROUP
+   1	work staff	n.GROUP
+   1	worker	n.GROUP
+   1	workshop	n.GROUP
+   1	you have get Maids	n.GROUP
+   1	zoo	n.GROUP
+  25	area	n.LOCATION
+  21	room	n.LOCATION
+  17	place	n.LOCATION
+  13	location	n.LOCATION
+   7	street	n.LOCATION
+   6	Warwick	n.LOCATION
+   6	address	n.LOCATION
+   6	front desk	n.LOCATION
+   6	town	n.LOCATION
+   5	Chicago	n.LOCATION
+   5	home	n.LOCATION
+   4	17th	n.LOCATION
+   4	NJ	n.LOCATION
+   4	NYC	n.LOCATION
+   4	broad	n.LOCATION
+   4	counter	n.LOCATION
+   4	house	n.LOCATION
+   4	store	n.LOCATION
+   4	table	n.LOCATION
+   4	trash	n.LOCATION
+   3	Canada	n.LOCATION
+   3	Manson	n.LOCATION
+   3	Murfreesboro	n.LOCATION
+   3	NY	n.LOCATION
+   3	Nashville	n.LOCATION
+   3	New Jersey	n.LOCATION
+   3	New York	n.LOCATION
+   3	Richmond	n.LOCATION
+   3	Santa Fe	n.LOCATION
+   3	Sicily	n.LOCATION
+   3	Virginia	n.LOCATION
+   3	bathroom	n.LOCATION
+   3	bedroom	n.LOCATION
+   3	city	n.LOCATION
+   3	destination	n.LOCATION
+   3	er	n.LOCATION
+   3	floor	n.LOCATION
+   3	front	n.LOCATION
+   3	hotel	n.LOCATION
+   3	kitchen	n.LOCATION
+   3	parking lot	n.LOCATION
+   3	pool	n.LOCATION
+   3	work	n.LOCATION
+   2	Baltimore	n.LOCATION
+   2	Brooklyn	n.LOCATION
+   2	Dallas	n.LOCATION
+   2	La Jolla	n.LOCATION
+   2	Lewiston	n.LOCATION
+   2	North County	n.LOCATION
+   2	Rittenhouse Square	n.LOCATION
+   2	San Antonio	n.LOCATION
+   2	Saratoga	n.LOCATION
+   2	Seattle	n.LOCATION
+   2	Tampa	n.LOCATION
+   2	Toronto	n.LOCATION
+   2	Wildwood	n.LOCATION
+   2	Woodinville	n.LOCATION
+   2	cafeteria	n.LOCATION
+   2	centre	n.LOCATION
+   2	chinatown	n.LOCATION
+   2	coast	n.LOCATION
+   2	corner	n.LOCATION
+   2	country	n.LOCATION
+   2	desk	n.LOCATION
+   2	downtown	n.LOCATION
+   2	grounds	n.LOCATION
+   2	lobby	n.LOCATION
+   2	locker room	n.LOCATION
+   2	lot	n.LOCATION
+   2	metro	n.LOCATION
+   2	next door	n.LOCATION
+   2	office	n.LOCATION
+   2	part	n.LOCATION
+   2	region	n.LOCATION
+   2	school	n.LOCATION
+   2	shop	n.LOCATION
+   2	space	n.LOCATION
+   2	warehouse	n.LOCATION
+   2	world	n.LOCATION
+   1	14th street	n.LOCATION
+   1	15th	n.LOCATION
+   1	16th	n.LOCATION
+   1	17th street	n.LOCATION
+   1	21st St	n.LOCATION
+   1	7th	n.LOCATION
+   1	AMES	n.LOCATION
+   1	Alpharetta	n.LOCATION
+   1	America	n.LOCATION
+   1	Asia	n.LOCATION
+   1	Atlanta	n.LOCATION
+   1	Australia	n.LOCATION
+   1	Bandera Road	n.LOCATION
+   1	Bellevue	n.LOCATION
+   1	Bethesda	n.LOCATION
+   1	Boothbay Harbor	n.LOCATION
+   1	Boston	n.LOCATION
+   1	Branford	n.LOCATION
+   1	Broad	n.LOCATION
+   1	CENTER CITY PHILLY	n.LOCATION
+   1	Californian	n.LOCATION
+   1	Canal Walk	n.LOCATION
+   1	Carytown	n.LOCATION
+   1	Cayuga St.	n.LOCATION
+   1	Central Iowa	n.LOCATION
+   1	Centre	n.LOCATION
+   1	Chamberlain Road Hull	n.LOCATION
+   1	Chelan	n.LOCATION
+   1	Chennai	n.LOCATION
+   1	Clarkson University	n.LOCATION
+   1	Collingswood	n.LOCATION
+   1	Colorado	n.LOCATION
+   1	Creekside	n.LOCATION
+   1	Dandenong	n.LOCATION
+   1	Downtown	n.LOCATION
+   1	Dupont Circle	n.LOCATION
+   1	EARTHHHHHHH	n.LOCATION
+   1	El Paradero	n.LOCATION
+   1	Europe	n.LOCATION
+   1	Evergreen Parkway	n.LOCATION
+   1	FRANCE	n.LOCATION
+   1	Fernandina	n.LOCATION
+   1	Fort Lee	n.LOCATION
+   1	Friendly	n.LOCATION
+   1	GREEN BAY	n.LOCATION
+   1	Galleries Lafayette	n.LOCATION
+   1	Gare du Nord	n.LOCATION
+   1	Georgia	n.LOCATION
+   1	Glasgow	n.LOCATION
+   1	Greenfield Ave	n.LOCATION
+   1	Greensboro	n.LOCATION
+   1	HH	n.LOCATION
+   1	Holderness Road	n.LOCATION
+   1	I - 24	n.LOCATION
+   1	India	n.LOCATION
+   1	Kansas City	n.LOCATION
+   1	LA	n.LOCATION
+   1	LOCUST	n.LOCATION
+   1	LOCUST STREET	n.LOCATION
+   1	LaGrange	n.LOCATION
+   1	Lake St. Louis	n.LOCATION
+   1	Locust	n.LOCATION
+   1	Logan Circle	n.LOCATION
+   1	London	n.LOCATION
+   1	Long Beach	n.LOCATION
+   1	MISSISSIPPI	n.LOCATION
+   1	MO	n.LOCATION
+   1	McLean	n.LOCATION
+   1	Meadowrun	n.LOCATION
+   1	Military Road	n.LOCATION
+   1	Montgomery	n.LOCATION
+   1	Mulberry	n.LOCATION
+   1	Napa	n.LOCATION
+   1	Oklahoma	n.LOCATION
+   1	Opera Plaza	n.LOCATION
+   1	Orlando	n.LOCATION
+   1	Oxford , England	n.LOCATION
+   1	PHILLY	n.LOCATION
+   1	Palatine	n.LOCATION
+   1	Paris	n.LOCATION
+   1	Pennsylvania	n.LOCATION
+   1	Philly	n.LOCATION
+   1	Pottstown	n.LOCATION
+   1	Renton	n.LOCATION
+   1	Richmond city limit	n.LOCATION
+   1	Rt 1	n.LOCATION
+   1	Sacre Coeur	n.LOCATION
+   1	San Jose	n.LOCATION
+   1	Santa Rosa	n.LOCATION
+   1	Saratoga Springs	n.LOCATION
+   1	Scordia	n.LOCATION
+   1	Sf	n.LOCATION
+   1	Short Pump	n.LOCATION
+   1	Solana Beach	n.LOCATION
+   1	South Bend	n.LOCATION
+   1	Split , Croatia	n.LOCATION
+   1	Springfield , IL	n.LOCATION
+   1	Stevens Creek	n.LOCATION
+   1	Stokes Street	n.LOCATION
+   1	Stony Point	n.LOCATION
+   1	Suzanne , Vancouver	n.LOCATION
+   1	TX	n.LOCATION
+   1	Tacoma	n.LOCATION
+   1	Temecula	n.LOCATION
+   1	Troy	n.LOCATION
+   1	Tucson	n.LOCATION
+   1	UK	n.LOCATION
+   1	UTC La Jolla	n.LOCATION
+   1	UW	n.LOCATION
+   1	Village	n.LOCATION
+   1	WA	n.LOCATION
+   1	WA.	n.LOCATION
+   1	WARWICK TOWNSHIP	n.LOCATION
+   1	Walnut	n.LOCATION
+   1	Wenatchee hill	n.LOCATION
+   1	Wildwood , NJ	n.LOCATION
+   1	Willis	n.LOCATION
+   1	Wisconsin Ave	n.LOCATION
+   1	Yampa Valley	n.LOCATION
+   1	Youngstown	n.LOCATION
+   1	back	n.LOCATION
+   1	bar	n.LOCATION
+   1	block	n.LOCATION
+   1	boarder	n.LOCATION
+   1	bottom	n.LOCATION
+   1	boulevard	n.LOCATION
+   1	brewery	n.LOCATION
+   1	building	n.LOCATION
+   1	calmness	n.LOCATION
+   1	campsite	n.LOCATION
+   1	campus	n.LOCATION
+   1	cape	n.LOCATION
+   1	center	n.LOCATION
+   1	chair	n.LOCATION
+   1	clubhouse	n.LOCATION
+   1	college	n.LOCATION
+   1	complex	n.LOCATION
+   1	countertop	n.LOCATION
+   1	curb	n.LOCATION
+   1	deck	n.LOCATION
+   1	door	n.LOCATION
+   1	east coast	n.LOCATION
+   1	eastgardens	n.LOCATION
+   1	edge	n.LOCATION
+   1	edmonton	n.LOCATION
+   1	entrance	n.LOCATION
+   1	forsyth	n.LOCATION
+   1	france	n.LOCATION
+   1	front door	n.LOCATION
+   1	garage	n.LOCATION
+   1	grocery store	n.LOCATION
+   1	hall	n.LOCATION
+   1	hallway	n.LOCATION
+   1	highway	n.LOCATION
+   1	houston	n.LOCATION
+   1	kennel	n.LOCATION
+   1	lane	n.LOCATION
+   1	locust	n.LOCATION
+   1	lounge	n.LOCATION
+   1	middle	n.LOCATION
+   1	neighbourhood	n.LOCATION
+   1	northeast	n.LOCATION
+   1	philly	n.LOCATION
+   1	premise	n.LOCATION
+   1	pub	n.LOCATION
+   1	rear	n.LOCATION
+   1	road	n.LOCATION
+   1	roadside	n.LOCATION
+   1	salon	n.LOCATION
+   1	showroom floor	n.LOCATION
+   1	side	n.LOCATION
+   1	site	n.LOCATION
+   1	south	n.LOCATION
+   1	south Florida	n.LOCATION
+   1	southeast	n.LOCATION
+   1	spot	n.LOCATION
+   1	stadium	n.LOCATION
+   1	state	n.LOCATION
+   1	station	n.LOCATION
+   1	storefront	n.LOCATION
+   1	sub-division	n.LOCATION
+   1	the fan	n.LOCATION
+   1	top	n.LOCATION
+   1	top to bottom	n.LOCATION
+   1	valley	n.LOCATION
+   1	waiting area	n.LOCATION
+   1	walnut	n.LOCATION
+   1	way	n.LOCATION
+   1	winter park	n.LOCATION
+   1	wisconsin	n.LOCATION
+  11	reason	n.MOTIVE
+   3	need	n.MOTIVE
+   2	passion	n.MOTIVE
+   1	appetite	n.MOTIVE
+   1	benefit	n.MOTIVE
+   1	responsibility	n.MOTIVE
+   8	flower	n.NATURALOBJECT
+   5	wood	n.NATURALOBJECT
+   2	noise	n.NATURALOBJECT
+   2	wind	n.NATURALOBJECT
+   1	Columbia River	n.NATURALOBJECT
+   1	Spring Mountain	n.NATURALOBJECT
+   1	beach	n.NATURALOBJECT
+   1	bone	n.NATURALOBJECT
+   1	crack	n.NATURALOBJECT
+   1	field	n.NATURALOBJECT
+   1	fire	n.NATURALOBJECT
+   1	hailstorm	n.NATURALOBJECT
+   1	hill	n.NATURALOBJECT
+   1	hole	n.NATURALOBJECT
+   1	light	n.NATURALOBJECT
+   1	metal	n.NATURALOBJECT
+   1	mildew	n.NATURALOBJECT
+   1	mold	n.NATURALOBJECT
+   1	mould	n.NATURALOBJECT
+   1	mountain	n.NATURALOBJECT
+   1	nest	n.NATURALOBJECT
+   1	nitrogen	n.NATURALOBJECT
+   1	room temperature	n.NATURALOBJECT
+   1	scene	n.NATURALOBJECT
+   1	snow	n.NATURALOBJECT
+   1	spring	n.NATURALOBJECT
+   1	tree	n.NATURALOBJECT
+   1	water	n.NATURALOBJECT
+   1	Stuff	n.OTHER
+   1	stuff	n.OTHER
+  59	people	n.PERSON
+  35	friend	n.PERSON
+  34	owner	n.PERSON
+  32	customer	n.PERSON
+  27	manager	n.PERSON
+  25	doctor	n.PERSON
+  25	guy	n.PERSON
+  24	person	n.PERSON
+  16	wife	n.PERSON
+  12	vet	n.PERSON
+  11	chef	n.PERSON
+  11	child	n.PERSON
+  11	girl	n.PERSON
+  10	kid	n.PERSON
+  10	patient	n.PERSON
+   9	dentist	n.PERSON
+   9	husband	n.PERSON
+   9	instructor	n.PERSON
+   9	mechanic	n.PERSON
+   9	student	n.PERSON
+   8	server	n.PERSON
+   7	dealer	n.PERSON
+   7	reviewer	n.PERSON
+   7	woman	n.PERSON
+   6	Gerry	n.PERSON
+   6	Mike	n.PERSON
+   6	employee	n.PERSON
+   6	member	n.PERSON
+   6	staff	n.PERSON
+   5	client	n.PERSON
+   5	daughter	n.PERSON
+   5	jerk	n.PERSON
+   5	lady	n.PERSON
+   5	surgeon	n.PERSON
+   5	teacher	n.PERSON
+   5	waitress	n.PERSON
+   5	worker	n.PERSON
+   5	year old	n.PERSON
+   4	Dan	n.PERSON
+   4	David	n.PERSON
+   4	Dr. Shady	n.PERSON
+   4	Rod	n.PERSON
+   4	Stuart	n.PERSON
+   4	contractor	n.PERSON
+   4	guest	n.PERSON
+   4	man	n.PERSON
+   4	neighbor	n.PERSON
+   4	receptionist	n.PERSON
+   4	son	n.PERSON
+   3	Ahmed	n.PERSON
+   3	Ana	n.PERSON
+   3	Dave	n.PERSON
+   3	Dr. Mann	n.PERSON
+   3	Holly	n.PERSON
+   3	Janice	n.PERSON
+   3	Jason	n.PERSON
+   3	Joe	n.PERSON
+   3	Mark	n.PERSON
+   3	Michael	n.PERSON
+   3	Nick	n.PERSON
+   3	Ted	n.PERSON
+   3	baby	n.PERSON
+   3	director	n.PERSON
+   3	girlfriend	n.PERSON
+   3	innkeeper	n.PERSON
+   3	lover	n.PERSON
+   3	month old	n.PERSON
+   3	parent	n.PERSON
+   3	sale man	n.PERSON
+   3	salesman	n.PERSON
+   3	stylist	n.PERSON
+   3	vendor	n.PERSON
+   2	Andrew	n.PERSON
+   2	Bud	n.PERSON
+   2	Craig	n.PERSON
+   2	Deb	n.PERSON
+   2	Derrick	n.PERSON
+   2	Doctor Gonzales	n.PERSON
+   2	Dr Nelson	n.PERSON
+   2	Dr. Aster	n.PERSON
+   2	Dr. Liau	n.PERSON
+   2	Dr. Romanick	n.PERSON
+   2	Dr. Ruona	n.PERSON
+   2	Dr. Taylor	n.PERSON
+   2	Dr. Wallen	n.PERSON
+   2	James	n.PERSON
+   2	Jana Kueck	n.PERSON
+   2	Jeff	n.PERSON
+   2	John	n.PERSON
+   2	Johnette	n.PERSON
+   2	Kim	n.PERSON
+   2	Linda	n.PERSON
+   2	Nigel	n.PERSON
+   2	Phet	n.PERSON
+   2	Stephanie	n.PERSON
+   2	Steve	n.PERSON
+   2	Steven	n.PERSON
+   2	Tiffany	n.PERSON
+   2	Tina	n.PERSON
+   2	Ulistic	n.PERSON
+   2	aunt	n.PERSON
+   2	ballerina	n.PERSON
+   2	boyfriend	n.PERSON
+   2	broker	n.PERSON
+   2	chick	n.PERSON
+   2	clerk	n.PERSON
+   2	climber	n.PERSON
+   2	co-worker	n.PERSON
+   2	crafter	n.PERSON
+   2	dad	n.PERSON
+   2	detective	n.PERSON
+   2	dude	n.PERSON
+   2	fan	n.PERSON
+   2	female	n.PERSON
+   2	folk	n.PERSON
+   2	grandparent	n.PERSON
+   2	greeter	n.PERSON
+   2	home inspector	n.PERSON
+   2	host	n.PERSON
+   2	junkie	n.PERSON
+   2	landlord	n.PERSON
+   2	mark	n.PERSON
+   2	model	n.PERSON
+   2	nurse	n.PERSON
+   2	one	n.PERSON
+   2	partner	n.PERSON
+   2	photographer	n.PERSON
+   2	physio	n.PERSON
+   2	professor	n.PERSON
+   2	provider	n.PERSON
+   2	regular	n.PERSON
+   2	sales guy	n.PERSON
+   2	salesperson	n.PERSON
+   2	seeker	n.PERSON
+   2	smoker	n.PERSON
+   2	specialist	n.PERSON
+   2	technician	n.PERSON
+   2	waiter	n.PERSON
+   1	Alan Grissom	n.PERSON
+   1	Anna Maria Jose Mudo	n.PERSON
+   1	Anna Marie	n.PERSON
+   1	Anne	n.PERSON
+   1	Anthony	n.PERSON
+   1	BRETT	n.PERSON
+   1	BT	n.PERSON
+   1	Barbara Quimba	n.PERSON
+   1	Barrett	n.PERSON
+   1	Bea	n.PERSON
+   1	Boyles	n.PERSON
+   1	Brendan	n.PERSON
+   1	Cathy	n.PERSON
+   1	Cesar Gracie	n.PERSON
+   1	Chris	n.PERSON
+   1	Cj	n.PERSON
+   1	Danny	n.PERSON
+   1	Dave Terrell	n.PERSON
+   1	Dealer	n.PERSON
+   1	Deb Watson	n.PERSON
+   1	Debi	n.PERSON
+   1	Doctor	n.PERSON
+   1	Doctor Stout	n.PERSON
+   1	Dr David Nelson	n.PERSON
+   1	Dr Greenwalt	n.PERSON
+   1	Dr. Chao	n.PERSON
+   1	Dr. Christopher T. Strzalka	n.PERSON
+   1	Dr. Faris	n.PERSON
+   1	Dr. Ghassemlou	n.PERSON
+   1	Dr. Lucy Nichols	n.PERSON
+   1	Dr. Obina	n.PERSON
+   1	Dr. Olbina	n.PERSON
+   1	Dr. Strzalka	n.PERSON
+   1	Dr. de Barros	n.PERSON
+   1	Dustin	n.PERSON
+   1	Edwin	n.PERSON
+   1	Eva Marie	n.PERSON
+   1	Fiona	n.PERSON
+   1	Frank mcclelland	n.PERSON
+   1	GUYS	n.PERSON
+   1	Govind	n.PERSON
+   1	Gus	n.PERSON
+   1	Gustavo Guerra	n.PERSON
+   1	James Bateman	n.PERSON
+   1	Jana	n.PERSON
+   1	Jean	n.PERSON
+   1	Jerry	n.PERSON
+   1	Jill	n.PERSON
+   1	Jim Smith	n.PERSON
+   1	Julie	n.PERSON
+   1	KB	n.PERSON
+   1	Karla	n.PERSON
+   1	Karla Ferguson - Granger	n.PERSON
+   1	Kathy	n.PERSON
+   1	Kelly	n.PERSON
+   1	Kevin	n.PERSON
+   1	Kusal Goonewardena	n.PERSON
+   1	Levi	n.PERSON
+   1	Lynda	n.PERSON
+   1	Marek	n.PERSON
+   1	Marek Dzida	n.PERSON
+   1	Matt	n.PERSON
+   1	Michael Chestney	n.PERSON
+   1	Mimmy	n.PERSON
+   1	Mr. Guerra	n.PERSON
+   1	Mrs Closs	n.PERSON
+   1	Ms. Sue	n.PERSON
+   1	Neal	n.PERSON
+   1	New Yorker	n.PERSON
+   1	PA	n.PERSON
+   1	Pam Gillies	n.PERSON
+   1	Peter	n.PERSON
+   1	Peter Barrett	n.PERSON
+   1	Peterson	n.PERSON
+   1	Phillip	n.PERSON
+   1	Pomper	n.PERSON
+   1	R. Morris	n.PERSON
+   1	Rachel McInnis	n.PERSON
+   1	Ray	n.PERSON
+   1	Rendy	n.PERSON
+   1	Richard	n.PERSON
+   1	Richard Joule	n.PERSON
+   1	Robin Talley	n.PERSON
+   1	Rocky M. Lange	n.PERSON
+   1	Rod Jacobsen	n.PERSON
+   1	Roger M.	n.PERSON
+   1	Sandy	n.PERSON
+   1	Scot	n.PERSON
+   1	Scott Larson	n.PERSON
+   1	Seth Bloom	n.PERSON
+   1	Shannon	n.PERSON
+   1	Sherri	n.PERSON
+   1	Sierra	n.PERSON
+   1	Stephanie Fairchild	n.PERSON
+   1	Steven Starr	n.PERSON
+   1	Stewart	n.PERSON
+   1	Sue	n.PERSON
+   1	Ted Jurek	n.PERSON
+   1	Tom	n.PERSON
+   1	Vera	n.PERSON
+   1	Vic Canever	n.PERSON
+   1	a nervous wreck	n.PERSON
+   1	accountant	n.PERSON
+   1	adult	n.PERSON
+   1	advisor	n.PERSON
+   1	advocate	n.PERSON
+   1	agent	n.PERSON
+   1	attorney	n.PERSON
+   1	b****	n.PERSON
+   1	baker	n.PERSON
+   1	barber	n.PERSON
+   1	bartender	n.PERSON
+   1	black belt	n.PERSON
+   1	bmil	n.PERSON
+   1	bodyworker	n.PERSON
+   1	bride	n.PERSON
+   1	burglar	n.PERSON
+   1	bus boy	n.PERSON
+   1	buyer	n.PERSON
+   1	car dealer	n.PERSON
+   1	cashier	n.PERSON
+   1	celebrity	n.PERSON
+   1	chambermaid	n.PERSON
+   1	child molester	n.PERSON
+   1	child predator	n.PERSON
+   1	chiro	n.PERSON
+   1	cleaning lady	n.PERSON
+   1	co worker	n.PERSON
+   1	coach	n.PERSON
+   1	colleague	n.PERSON
+   1	comedian	n.PERSON
+   1	communicator	n.PERSON
+   1	connoisseur	n.PERSON
+   1	contact	n.PERSON
+   1	coordinator	n.PERSON
+   1	cop	n.PERSON
+   1	counselor	n.PERSON
+   1	country girl	n.PERSON
+   1	coworker	n.PERSON
+   1	cpa	n.PERSON
+   1	criminal attorney	n.PERSON
+   1	criminal defense attorney	n.PERSON
+   1	crook	n.PERSON
+   1	designer	n.PERSON
+   1	diner	n.PERSON
+   1	dj	n.PERSON
+   1	doc	n.PERSON
+   1	drip	n.PERSON
+   1	driver	n.PERSON
+   1	eater	n.PERSON
+   1	elder	n.PERSON
+   1	evictee	n.PERSON
+   1	expert	n.PERSON
+   1	exterminator	n.PERSON
+   1	f'er	n.PERSON
+   1	father	n.PERSON
+   1	fiance	n.PERSON
+   1	florist	n.PERSON
+   1	genius	n.PERSON
+   1	gentleman	n.PERSON
+   1	golfer	n.PERSON
+   1	grandfather	n.PERSON
+   1	grandmother	n.PERSON
+   1	hairdresser	n.PERSON
+   1	hairstylist	n.PERSON
+   1	health inspector	n.PERSON
+   1	holder	n.PERSON
+   1	hooker	n.PERSON
+   1	hostess	n.PERSON
+   1	human	n.PERSON
+   1	infant	n.PERSON
+   1	intruder	n.PERSON
+   1	judge	n.PERSON
+   1	kiddie	n.PERSON
+   1	lawyer	n.PERSON
+   1	leader	n.PERSON
+   1	liar	n.PERSON
+   1	life coach	n.PERSON
+   1	longshoreman	n.PERSON
+   1	maid	n.PERSON
+   1	man of word	n.PERSON
+   1	manger	n.PERSON
+   1	massage therapist	n.PERSON
+   1	mechanics	n.PERSON
+   1	miscreant	n.PERSON
+   1	mom	n.PERSON
+   1	mother	n.PERSON
+   1	nerd	n.PERSON
+   1	newborn	n.PERSON
+   1	next - door neighbor	n.PERSON
+   1	non-smoker	n.PERSON
+   1	operator	n.PERSON
+   1	osteo	n.PERSON
+   1	pastor	n.PERSON
+   1	patron	n.PERSON
+   1	physiotherapist	n.PERSON
+   1	police	n.PERSON
+   1	princess	n.PERSON
+   1	principal	n.PERSON
+   1	proprietor	n.PERSON
+   1	reception	n.PERSON
+   1	repeat customer	n.PERSON
+   1	representative	n.PERSON
+   1	sale guy	n.PERSON
+   1	sale lady	n.PERSON
+   1	sale manager	n.PERSON
+   1	sale person	n.PERSON
+   1	salespeople	n.PERSON
+   1	scientist	n.PERSON
+   1	seamstress	n.PERSON
+   1	sheister	n.PERSON
+   1	sister - in - law	n.PERSON
+   1	sister in law	n.PERSON
+   1	soccer mom	n.PERSON
+   1	sommelier	n.PERSON
+   1	stoner	n.PERSON
+   1	superintendent	n.PERSON
+   1	supervisor	n.PERSON
+   1	supreme being	n.PERSON
+   1	tax payer	n.PERSON
+   1	tenant	n.PERSON
+   1	therapist	n.PERSON
+   1	thief	n.PERSON
+   1	toddler	n.PERSON
+   1	tourist	n.PERSON
+   1	traveler	n.PERSON
+   1	traveller	n.PERSON
+   1	trimmer	n.PERSON
+   1	ufc fighter	n.PERSON
+   1	valet	n.PERSON
+   1	vegetarian	n.PERSON
+   1	victim	n.PERSON
+   1	visitor	n.PERSON
+   1	waiting staff	n.PERSON
+   1	waitstaff	n.PERSON
+   1	walk - in	n.PERSON
+   1	world traveler	n.PERSON
+   1	writer	n.PERSON
+   1	youngster	n.PERSON
+   1	yr old	n.PERSON
+   7	result	n.PHENOMENON
+   5	life	n.PHENOMENON
+   1	energy	n.PHENOMENON
+   1	noise	n.PHENOMENON
+   1	outcome	n.PHENOMENON
+   1	pressure	n.PHENOMENON
+   1	Christmas tree	n.PLANT
+   1	herb	n.PLANT
+   1	tree	n.PLANT
+  73	price	n.POSSESSION
+  27	money	n.POSSESSION
+  10	rate	n.POSSESSION
+   8	cost	n.POSSESSION
+   7	cash	n.POSSESSION
+   7	fee	n.POSSESSION
+   6	deal	n.POSSESSION
+   5	bill	n.POSSESSION
+   5	charge	n.POSSESSION
+   5	deposit	n.POSSESSION
+   5	dollar	n.POSSESSION
+   5	insurance	n.POSSESSION
+   5	payment	n.POSSESSION
+   5	quote	n.POSSESSION
+   5	sale	n.POSSESSION
+   4	credit	n.POSSESSION
+   4	credit card	n.POSSESSION
+   4	purchase	n.POSSESSION
+   4	receipt	n.POSSESSION
+   3	billing	n.POSSESSION
+   3	buck	n.POSSESSION
+   3	budget	n.POSSESSION
+   3	coupon	n.POSSESSION
+   3	discount	n.POSSESSION
+   3	estimate	n.POSSESSION
+   3	membership	n.POSSESSION
+   3	policy	n.POSSESSION
+   3	return	n.POSSESSION
+   3	tip	n.POSSESSION
+   3	warranty	n.POSSESSION
+   2	agreement	n.POSSESSION
+   2	check	n.POSSESSION
+   2	check card	n.POSSESSION
+   2	contract	n.POSSESSION
+   2	full price	n.POSSESSION
+   2	gift certificate	n.POSSESSION
+   2	guarantee	n.POSSESSION
+   2	lease	n.POSSESSION
+   2	ownership	n.POSSESSION
+   2	penalty	n.POSSESSION
+   2	price range	n.POSSESSION
+   2	pricing	n.POSSESSION
+   2	tax	n.POSSESSION
+   2	total	n.POSSESSION
+   2	wallet	n.POSSESSION
+   1	$	n.POSSESSION
+   1	Discount	n.POSSESSION
+   1	amount	n.POSSESSION
+   1	balance	n.POSSESSION
+   1	bonus	n.POSSESSION
+   1	business	n.POSSESSION
+   1	buying	n.POSSESSION
+   1	card	n.POSSESSION
+   1	cc	n.POSSESSION
+   1	certificate	n.POSSESSION
+   1	corking fee	n.POSSESSION
+   1	credit card minimum	n.POSSESSION
+   1	debit	n.POSSESSION
+   1	financing	n.POSSESSION
+   1	fund	n.POSSESSION
+   1	get discount	n.POSSESSION
+   1	gift card	n.POSSESSION
+   1	inventory	n.POSSESSION
+   1	invest vanguard	n.POSSESSION
+   1	investment	n.POSSESSION
+   1	invoice	n.POSSESSION
+   1	liability	n.POSSESSION
+   1	mark up	n.POSSESSION
+   1	offer	n.POSSESSION
+   1	overage	n.POSSESSION
+   1	p	n.POSSESSION
+   1	parking	n.POSSESSION
+   1	penny	n.POSSESSION
+   1	pocket	n.POSSESSION
+   1	premium	n.POSSESSION
+   1	price quote	n.POSSESSION
+   1	price tag	n.POSSESSION
+   1	profit	n.POSSESSION
+   1	record	n.POSSESSION
+   1	refund	n.POSSESSION
+   1	rent	n.POSSESSION
+   1	service fee	n.POSSESSION
+   1	sticker price	n.POSSESSION
+   1	toll	n.POSSESSION
+   1	transaction	n.POSSESSION
+   1	value	n.POSSESSION
+   5	process	n.PROCESS
+   2	change	n.PROCESS
+   2	life	n.PROCESS
+   1	age	n.PROCESS
+   1	amendment	n.PROCESS
+   1	assembly line	n.PROCESS
+   1	cycle	n.PROCESS
+   1	decline	n.PROCESS
+   1	handcraft	n.PROCESS
+   1	method	n.PROCESS
+   1	practice	n.PROCESS
+   1	pregnancy	n.PROCESS
+   1	procedure	n.PROCESS
+   1	progress	n.PROCESS
+   1	stage	n.PROCESS
+   1	start to finish	n.PROCESS
+   1	system	n.PROCESS
+   1	triage	n.PROCESS
+   1	turnover	n.PROCESS
+   7	amount	n.QUANTITY
+   6	mile	n.QUANTITY
+   5	lot	n.QUANTITY
+   5	plenty	n.QUANTITY
+   4	%	n.QUANTITY
+   4	pair	n.QUANTITY
+   3	a number	n.QUANTITY
+   3	inch	n.QUANTITY
+   3	lack	n.QUANTITY
+   3	part	n.QUANTITY
+   3	rest	n.QUANTITY
+   3	time	n.QUANTITY
+   2	a bit	n.QUANTITY
+   2	block	n.QUANTITY
+   2	half	n.QUANTITY
+   2	k	n.QUANTITY
+   2	number	n.QUANTITY
+   2	piece	n.QUANTITY
+   2	portion	n.QUANTITY
+   2	pound	n.QUANTITY
+   2	size	n.QUANTITY
+   2	thousand	n.QUANTITY
+   2	ton	n.QUANTITY
+   1	3 fold	n.QUANTITY
+   1	99	n.QUANTITY
+   1	a couple	n.QUANTITY
+   1	a handful	n.QUANTITY
+   1	batch	n.QUANTITY
+   1	case	n.QUANTITY
+   1	cup	n.QUANTITY
+   1	distance	n.QUANTITY
+   1	dozen	n.QUANTITY
+   1	foot	n.QUANTITY
+   1	hundred	n.QUANTITY
+   1	kb	n.QUANTITY
+   1	majority	n.QUANTITY
+   1	mpg	n.QUANTITY
+   1	none	n.QUANTITY
+   1	one more thing	n.QUANTITY
+   1	ounce	n.QUANTITY
+   1	pint	n.QUANTITY
+   1	portion generous	n.QUANTITY
+   1	proportion	n.QUANTITY
+   1	roomful	n.QUANTITY
+   1	sq ft	n.QUANTITY
+   1	worth	n.QUANTITY
+   2	decrease	n.RELATION
+   2	part	n.RELATION
+   2	percent	n.RELATION
+   2	portion	n.RELATION
+   1	%	n.RELATION
+   1	West	n.RELATION
+   1	bac	n.RELATION
+   1	back	n.RELATION
+   1	bronze	n.RELATION
+   1	discount	n.RELATION
+   1	gas mileage	n.RELATION
+   1	gold award	n.RELATION
+   1	half	n.RELATION
+   1	increase	n.RELATION
+   1	mpg	n.RELATION
+   1	number	n.RELATION
+   1	number 1	n.RELATION
+   1	remainder	n.RELATION
+   1	resemblance	n.RELATION
+   1	sister	n.RELATION
+   1	tenth	n.RELATION
+   1	time	n.RELATION
+   1	top	n.RELATION
+   1	walking distance	n.RELATION
+   2	square	n.SHAPE
+   1	glob	n.SHAPE
+   1	loop	n.SHAPE
+   1	pyramid	n.SHAPE
+   1	rectangle	n.SHAPE
+   6	pain	n.STATE
+   3	state	n.STATE
+   2	back pain	n.STATE
+   2	condition	n.STATE
+   1	aortic stenosis	n.STATE
+   1	cancer	n.STATE
+   1	college	n.STATE
+   1	difficulty	n.STATE
+   1	discomfort	n.STATE
+   1	end	n.STATE
+   1	exhaustion	n.STATE
+   1	hard time	n.STATE
+   1	health	n.STATE
+   1	herpes	n.STATE
+   1	hustle and bustle	n.STATE
+   1	infertility	n.STATE
+   1	injury	n.STATE
+   1	lack	n.STATE
+   1	life	n.STATE
+   1	panic attack	n.STATE
+   1	place packed	n.STATE
+   1	pressure	n.STATE
+   1	room temperature	n.STATE
+   1	shape	n.STATE
+   1	situation	n.STATE
+   1	symptom	n.STATE
+   1	toothache	n.STATE
+   1	traffic	n.STATE
+   1	understaffing	n.STATE
+   1	way	n.STATE
+   1	worth every penny	n.STATE
+   3	oil	n.SUBSTANCE
+   3	smoke	n.SUBSTANCE
+   2	concrete	n.SUBSTANCE
+   2	drug	n.SUBSTANCE
+   2	grease	n.SUBSTANCE
+   2	leather	n.SUBSTANCE
+   1	air	n.SUBSTANCE
+   1	anesthetic	n.SUBSTANCE
+   1	brick	n.SUBSTANCE
+   1	exhaust	n.SUBSTANCE
+   1	metal	n.SUBSTANCE
+   1	nail polish	n.SUBSTANCE
+   1	pesticide	n.SUBSTANCE
+   1	plastic	n.SUBSTANCE
+   1	second hand smoke	n.SUBSTANCE
+   1	sewage	n.SUBSTANCE
+   1	shampoo	n.SUBSTANCE
+   1	shellac	n.SUBSTANCE
+  55	year	n.TIME
+  51	day	n.TIME
+  41	time	n.TIME
+  31	minute	n.TIME
+  26	month	n.TIME
+  26	week	n.TIME
+  25	hour	n.TIME
+  18	night	n.TIME
+  13	weekend	n.TIME
+  12	am	n.TIME
+  12	morning	n.TIME
+   9	Sunday	n.TIME
+   9	pm	n.TIME
+   9	today	n.TIME
+   7	evening	n.TIME
+   7	min	n.TIME
+   5	date	n.TIME
+   5	future	n.TIME
+   5	yesterday	n.TIME
+   4	Friday	n.TIME
+   4	Monday	n.TIME
+   4	Saturday	n.TIME
+   4	afternoon	n.TIME
+   4	life	n.TIME
+   4	winter	n.TIME
+   3	August	n.TIME
+   2	80'	n.TIME
+   2	April	n.TIME
+   2	January	n.TIME
+   2	May	n.TIME
+   2	Year	n.TIME
+   2	half	n.TIME
+   2	last minute	n.TIME
+   2	middle	n.TIME
+   2	past	n.TIME
+   2	summer	n.TIME
+   2	tonight	n.TIME
+   1	'60	n.TIME
+   1	10th	n.TIME
+   1	15th	n.TIME
+   1	1960'	n.TIME
+   1	1970	n.TIME
+   1	21st	n.TIME
+   1	4th	n.TIME
+   1	6th	n.TIME
+   1	JULY	n.TIME
+   1	July	n.TIME
+   1	June	n.TIME
+   1	MARCH	n.TIME
+   1	March	n.TIME
+   1	NOV	n.TIME
+   1	November	n.TIME
+   1	Oct	n.TIME
+   1	September	n.TIME
+   1	Thursday	n.TIME
+   1	Tuesday	n.TIME
+   1	Wednesday's	n.TIME
+   1	all the time	n.TIME
+   1	back to back	n.TIME
+   1	beginning	n.TIME
+   1	daytime	n.TIME
+   1	lifetime	n.TIME
+   1	m	n.TIME
+   1	mid-afternoon	n.TIME
+   1	min.	n.TIME
+   1	noon	n.TIME
+   1	period	n.TIME
+   1	s	n.TIME
+   1	start	n.TIME
+   1	sunday	n.TIME
+   1	the other day	n.TIME
+   1	toda	n.TIME
+   1	tomorrow	n.TIME
+   1	weekday	n.TIME
+   1	while	n.TIME
+   1	work week	n.TIME
+   1	year old	n.TIME
+   1	year to come	n.TIME
+  19	with	p.Accompanier
+   3	along with	p.Accompanier
+   3	together	p.Accompanier
+   1	without	p.Accompanier
+  38	my	p.Agent
+  25	they	p.Agent
+  22	by	p.Agent
+  14	you	p.Agent
+  11	we	p.Agent
+   9	he	p.Agent
+   3	's	p.Agent
+   3	from	p.Agent
+   2	its	p.Agent
+   2	of	p.Agent
+   2	she	p.Agent
+   1	for	p.Agent
+   1	on	p.Agent
+   1	our	p.Agent
+   1	there	p.Agent
+  22	about	p.Approximator
+  14	over	p.Approximator
+   8	at least	p.Approximator
+   7	less than	p.Approximator
+   4	around	p.Approximator
+   3	just about	p.Approximator
+   2	as	p.Approximator
+   2	more than	p.Approximator
+   1	a matter of	p.Approximator
+   1	all of	p.Approximator
+   1	like	p.Approximator
+   1	plus	p.Approximator
+  49	for	p.Beneficiary
+  10	to	p.Beneficiary
+   7	with	p.Beneficiary
+   2	's	p.Beneficiary
+   2	my	p.Beneficiary
+   2	on	p.Beneficiary
+   2	towards	p.Beneficiary
+   1	against	p.Beneficiary
+   1	he	p.Beneficiary
+   1	you	p.Beneficiary
+   2	by	p.Causer
+   2	my	p.Causer
+   2	of	p.Causer
+   1	from	p.Causer
+   1	he	p.Causer
+   1	they	p.Causer
+  38	to	p.Characteristic
+  32	with	p.Characteristic
+  11	as	p.Characteristic
+   9	of	p.Characteristic
+   5	in	p.Characteristic
+   2	for	p.Characteristic
+   1	without	p.Characteristic
+  17	with	p.Circumstance
+  11	in	p.Circumstance
+   9	on	p.Circumstance
+   7	without	p.Circumstance
+   5	for	p.Circumstance
+   3	at	p.Circumstance
+   2	as	p.Circumstance
+   1	accord to	p.Circumstance
+   1	as long as	p.Circumstance
+   1	despite	p.Circumstance
+   1	in experience	p.Circumstance
+   1	in spite of	p.Circumstance
+   1	in the end	p.Circumstance
+   1	in the process of	p.Circumstance
+   1	in time of need	p.Circumstance
+   1	on the spot	p.Circumstance
+   1	regardless of	p.Circumstance
+   1	through	p.Circumstance
+   1	under circumstance	p.Circumstance
+   1	with the way it be	p.Circumstance
+  30	with	p.Co-Agent
+   5	with	p.Co-Theme
+   3	from	p.Co-Theme
+   2	for	p.Co-Theme
+   1	off	p.Co-Theme
+   1	to	p.Co-Theme
+  35	than	p.ComparisonRef
+  29	as	p.ComparisonRef
+  16	like	p.ComparisonRef
+  16	to	p.ComparisonRef
+  14	for	p.ComparisonRef
+   2	from	p.ComparisonRef
+   2	more like	p.ComparisonRef
+   2	over	p.ComparisonRef
+   1	against	p.ComparisonRef
+   1	as usual	p.ComparisonRef
+   1	of	p.ComparisonRef
+   1	unlike	p.ComparisonRef
+   1	with	p.ComparisonRef
+  22	for	p.Cost
+  12	at	p.Cost
+   3	of	p.Cost
+   1	as	p.Cost
+   1	at a premium	p.Cost
+   1	for free	p.Cost
+  58	back	p.Direction
+  26	in	p.Direction
+   8	out	p.Direction
+   5	away	p.Direction
+   4	off	p.Direction
+   3	over	p.Direction
+   3	up	p.Direction
+   2	down	p.Direction
+   1	around	p.Direction
+   1	away from	p.Direction
+   1	back and forth	p.Direction
+   1	for	p.Direction
+   1	into	p.Direction
+  58	for	p.Duration
+   4	in	p.Duration
+   2	's	p.Duration
+   2	as	p.Duration
+   2	through	p.Duration
+   2	throughout	p.Duration
+   2	within	p.Duration
+   1	in no time	p.Duration
+   1	over the year	p.Duration
+   1	to date	p.Duration
+  15	until	p.EndTime
+   8	to	p.EndTime
+   1	till	p.EndTime
+  40	my	p.Experiencer
+  10	to	p.Experiencer
+  10	you	p.Experiencer
+   8	we	p.Experiencer
+   6	for	p.Experiencer
+   4	's	p.Experiencer
+   4	they	p.Experiencer
+   2	he	p.Experiencer
+   2	of	p.Experiencer
+   1	she	p.Experiencer
+  30	for	p.Explanation
+  20	as	p.Explanation
+  17	since	p.Explanation
+   9	due to	p.Explanation
+   8	after	p.Explanation
+   8	because of	p.Explanation
+   3	from	p.Explanation
+   2	thanks to	p.Explanation
+   1	on a whim	p.Explanation
+   1	with good reason	p.Explanation
+   8	at all	p.Extent
+   6	at best	p.Extent
+   4	at least	p.Extent
+   4	by far	p.Extent
+   1	as	p.Extent
+   1	beyond	p.Extent
+   1	by any stretch of the imagination	p.Extent
+   1	for the most part	p.Extent
+   1	in every way	p.Extent
+   1	in large part	p.Extent
+   1	of all time	p.Extent
+   1	on all level	p.Extent
+   1	over and above	p.Extent
+   1	to	p.Extent
+   1	to death	p.Extent
+   4	for	p.Frequency
+   2	over	p.Frequency
+   1	as	p.Frequency
+   1	on a basis	p.Frequency
+  63	of	p.Gestalt
+  19	my	p.Gestalt
+  19	they	p.Gestalt
+   9	he	p.Gestalt
+   9	its	p.Gestalt
+   8	's	p.Gestalt
+   3	on	p.Gestalt
+   3	we	p.Gestalt
+   3	you	p.Gestalt
+   2	at	p.Gestalt
+   2	there	p.Gestalt
+   1	about	p.Gestalt
+   1	from	p.Gestalt
+   1	it	p.Gestalt
+   1	she	p.Gestalt
+   1	whose	p.Gestalt
+ 138	to	p.Goal
+  22	into	p.Goal
+  10	home	p.Goal
+   9	in	p.Goal
+   9	on	p.Goal
+   2	between	p.Goal
+   2	inside	p.Goal
+   1	at	p.Goal
+   1	in front of	p.Goal
+   1	in to	p.Goal
+   1	nearby	p.Goal
+   1	over	p.Goal
+   1	to my surprise	p.Goal
+   1	upon	p.Goal
+  22	as	p.Identity
+  22	of	p.Identity
+   5	like	p.Identity
+   1	for	p.Identity
+   1	in	p.Identity
+   4	instead of	p.InsteadOf
+   4	rather than	p.InsteadOf
+   6	with	p.Instrument
+   4	over the phone	p.Instrument
+   3	in	p.Instrument
+   2	by	p.Instrument
+   2	through	p.Instrument
+   1	of	p.Instrument
+   1	on	p.Instrument
+   1	over	p.Instrument
+   1	without	p.Instrument
+   4	back	p.Interval
+ 220	in	p.Locus
+  91	at	p.Locus
+  44	on	p.Locus
+  17	around	p.Locus
+   8	in town	p.Locus
+   7	away	p.Locus
+   7	of	p.Locus
+   6	from	p.Locus
+   5	all over	p.Locus
+   5	inside	p.Locus
+   5	off	p.Locus
+   5	under	p.Locus
+   4	below	p.Locus
+   4	near	p.Locus
+   4	out	p.Locus
+   4	outside	p.Locus
+   4	within	p.Locus
+   3	by	p.Locus
+   3	in front of	p.Locus
+   3	next to	p.Locus
+   3	to	p.Locus
+   3	up	p.Locus
+   2	away from	p.Locus
+   2	back	p.Locus
+   2	behind	p.Locus
+   2	between	p.Locus
+   2	off of	p.Locus
+   2	out of	p.Locus
+   2	over	p.Locus
+   2	round	p.Locus
+   2	up front	p.Locus
+   1	across	p.Locus
+   1	across from	p.Locus
+   1	around corner	p.Locus
+   1	around the corner	p.Locus
+   1	atop	p.Locus
+   1	before	p.Locus
+   1	behind the wheel	p.Locus
+   1	down	p.Locus
+   1	downstairs	p.Locus
+   1	from standpoint	p.Locus
+   1	in between	p.Locus
+   1	indoors	p.Locus
+   1	into	p.Locus
+   1	nearby	p.Locus
+   1	on top of	p.Locus
+   1	out there	p.Locus
+   1	outside of	p.Locus
+   1	past	p.Locus
+   1	through	p.Locus
+   1	throughout	p.Locus
+   1	upstairs	p.Locus
+  20	in	p.Manner
+  18	like	p.Manner
+  13	with	p.Manner
+   9	on time	p.Manner
+   6	without	p.Manner
+   4	on way	p.Manner
+   2	as	p.Manner
+   2	from Hell	p.Manner
+   2	in business	p.Manner
+   2	in person	p.Manner
+   2	in stock	p.Manner
+   2	into	p.Manner
+   2	on	p.Manner
+   2	on duty	p.Manner
+   2	what like	p.Manner
+   1	all about	p.Manner
+   1	at	p.Manner
+   1	at all cost	p.Manner
+   1	at fault	p.Manner
+   1	at peace	p.Manner
+   1	in detail	p.Manner
+   1	in hurry	p.Manner
+   1	in limbo	p.Manner
+   1	in line	p.Manner
+   1	in love	p.Manner
+   1	in search of	p.Manner
+   1	in the best interest	p.Manner
+   1	in the middle of	p.Manner
+   1	in the midst of	p.Manner
+   1	in time	p.Manner
+   1	in traffic	p.Manner
+   1	of	p.Manner
+   1	on a budget	p.Manner
+   1	on call	p.Manner
+   1	on hold	p.Manner
+   1	on own	p.Manner
+   1	on purpose	p.Manner
+   1	on the cheap	p.Manner
+   1	on the lookout	p.Manner
+   1	on the market	p.Manner
+   1	on the phone	p.Manner
+   1	on the side	p.Manner
+   1	out of	p.Manner
+   1	out of control	p.Manner
+   1	out of date	p.Manner
+   1	out of the ordinary	p.Manner
+   1	to go	p.Manner
+   1	under	p.Manner
+   1	under warranty	p.Manner
+   1	up and run	p.Manner
+   1	up to date	p.Manner
+   1	up to par	p.Manner
+   1	with fly color	p.Manner
+   9	by	p.Means
+   3	with	p.Means
+   1	over	p.Means
+   1	through	p.Means
+  22	at	p.OrgRole
+  10	with	p.OrgRole
+   6	to	p.OrgRole
+   5	my	p.OrgRole
+   5	of	p.OrgRole
+   4	for	p.OrgRole
+   4	from	p.OrgRole
+   4	they	p.OrgRole
+   3	through	p.OrgRole
+   3	we	p.OrgRole
+   2	's	p.OrgRole
+   2	he	p.OrgRole
+   1	in	p.OrgRole
+   1	on	p.OrgRole
+   1	she	p.OrgRole
+   1	you	p.OrgRole
+  36	from	p.Originator
+  24	they	p.Originator
+  21	my	p.Originator
+   8	by	p.Originator
+   6	you	p.Originator
+   5	's	p.Originator
+   4	he	p.Originator
+   2	we	p.Originator
+   1	of	p.Originator
+   1	she	p.Originator
+   1	there	p.Originator
+   1	via	p.Originator
+  10	with	p.PartPortion
+   7	like	p.PartPortion
+   5	except	p.PartPortion
+   5	from	p.PartPortion
+   4	nothing but	p.PartPortion
+   4	to	p.PartPortion
+   2	aside from	p.PartPortion
+   2	but	p.PartPortion
+   2	other than	p.PartPortion
+   2	such as	p.PartPortion
+   1	apart from	p.PartPortion
+   1	besides	p.PartPortion
+   1	except for	p.PartPortion
+   1	with the exception of	p.PartPortion
+   6	through	p.Path
+   3	around	p.Path
+   3	down	p.Path
+   3	in	p.Path
+   2	over	p.Path
+   1	by	p.Path
+   1	into	p.Path
+   1	out	p.Path
+   1	out of way	p.Path
+   1	past	p.Path
+   1	round	p.Path
+   7	with	p.Possession
+   3	of	p.Possession
+   2	in	p.Possession
+   1	minus	p.Possession
+   1	out of	p.Possession
+ 152	my	p.Possessor
+  64	we	p.Possessor
+  47	you	p.Possessor
+  28	they	p.Possessor
+  14	's	p.Possessor
+  10	he	p.Possessor
+   4	she	p.Possessor
+   3	with	p.Possessor
+   2	there	p.Possessor
+   1	on	p.Possessor
+   1	ur	p.Possessor
+ 140	to	p.Purpose
+ 110	for	p.Purpose
+   2	in	p.Purpose
+   1	for the sake of	p.Purpose
+   1	in hope to	p.Purpose
+   1	into	p.Purpose
+   1	to eat	p.Purpose
+ 161	of	p.Quantity
+   3	out of	p.Quantity
+   4	per	p.RateUnit
+   1	by	p.RateUnit
+  81	to	p.Recipient
+   5	my	p.Recipient
+   4	at	p.Recipient
+   4	with	p.Recipient
+   3	for	p.Recipient
+   1	she	p.Recipient
+   1	they	p.Recipient
+   1	we	p.Recipient
+ 106	my	p.SocialRel
+  21	we	p.SocialRel
+  14	he	p.SocialRel
+  13	they	p.SocialRel
+  12	with	p.SocialRel
+  10	you	p.SocialRel
+   7	she	p.SocialRel
+   6	's	p.SocialRel
+   4	of	p.SocialRel
+   3	its	p.SocialRel
+  49	from	p.Source
+  10	out of	p.Source
+   4	off	p.Source
+   2	off of	p.Source
+   1	of	p.Source
+   1	out of the way	p.Source
+  32	of	p.Species
+  12	from	p.StartTime
+   8	since	p.StartTime
+  28	with	p.Stimulus
+  21	about	p.Stimulus
+  12	at	p.Stimulus
+  11	of	p.Stimulus
+  11	to	p.Stimulus
+   6	for	p.Stimulus
+   5	by	p.Stimulus
+   3	in	p.Stimulus
+   2	from	p.Stimulus
+   9	of	p.Stuff
+  84	for	p.Theme
+  24	with	p.Theme
+  19	on	p.Theme
+  17	like	p.Theme
+  15	to	p.Theme
+  14	of	p.Theme
+   9	my	p.Theme
+   4	in	p.Theme
+   2	between	p.Theme
+   1	's	p.Theme
+   1	its	p.Theme
+  62	after	p.Time
+  51	before	p.Time
+  49	in	p.Time
+  40	on	p.Time
+  34	at	p.Time
+  13	ago	p.Time
+  12	during	p.Time
+   8	by	p.Time
+   5	since	p.Time
+   5	upon	p.Time
+   4	as	p.Time
+   4	within	p.Time
+   3	's	p.Time
+   3	as soon as	p.Time
+   2	between	p.Time
+   2	past	p.Time
+   1	afterward	p.Time
+   1	ahead of time	p.Time
+   1	apart	p.Time
+   1	around the clock	p.Time
+   1	at first	p.Time
+   1	beyond	p.Time
+   1	circa	p.Time
+   1	for	p.Time
+   1	in between	p.Time
+   1	in the mean time	p.Time
+   1	in this day and age	p.Time
+   1	near	p.Time
+   1	of	p.Time
+   1	of late	p.Time
+   1	off the bat	p.Time
+   1	to	p.Time
+  63	about	p.Topic
+  33	of	p.Topic
+  30	with	p.Topic
+  24	on	p.Topic
+  20	in	p.Topic
+   7	to	p.Topic
+   4	at	p.Topic
+   3	for	p.Topic
+   2	as to	p.Topic
+   1	re	p.Topic
+   1	when it come to	p.Topic
+  53	of	p.Whole
+  43	my	p.Whole
+   7	you	p.Whole
+   3	from	p.Whole
+   3	in	p.Whole
+   2	's	p.Whole
+   2	among	p.Whole
+   2	on	p.Whole
+   2	she	p.Whole
+   1	among other	p.Whole
+   1	he	p.Whole
+   1	we	p.Whole
+   4	get do	v.body
+   4	wear	v.body
+   3	cut	v.body
+   3	get	v.body
+   3	have	v.body
+   3	pass away	v.body
+   3	sleep	v.body
+   3	style	v.body
+   3	work out	v.body
+   2	cry	v.body
+   2	do	v.body
+   2	have pedicure	v.body
+   2	pound	v.body
+   2	put down	v.body
+   2	smoke	v.body
+   2	try on	v.body
+   2	work	v.body
+   1	change	v.body
+   1	color	v.body
+   1	cut nail	v.body
+   1	deep condition	v.body
+   1	do a job	v.body
+   1	do hair	v.body
+   1	do surgery	v.body
+   1	even up	v.body
+   1	feel	v.body
+   1	fix	v.body
+   1	fuse	v.body
+   1	get infection	v.body
+   1	get nail fill	v.body
+   1	get treatment	v.body
+   1	get up	v.body
+   1	groom	v.body
+   1	grow out	v.body
+   1	have do	v.body
+   1	have on	v.body
+   1	hurt	v.body
+   1	kill	v.body
+   1	pass on	v.body
+   1	shower	v.body
+   1	smile	v.body
+   1	spay	v.body
+   1	straighten	v.body
+   1	sweat	v.body
+   1	take off	v.body
+   1	take out	v.body
+   1	treat	v.body
+   1	vomit	v.body
+   1	wash	v.body
+  27	fix	v.change
+  11	change	v.change
+   9	replace	v.change
+   8	cancel	v.change
+   7	add	v.change
+   7	get	v.change
+   6	clean	v.change
+   6	do	v.change
+   6	finish	v.change
+   5	close	v.change
+   5	stop	v.change
+   4	repair	v.change
+   3	break	v.change
+   3	complete	v.change
+   3	go out	v.change
+   3	improve	v.change
+   3	start	v.change
+   2	become	v.change
+   2	clean up	v.change
+   2	copy	v.change
+   2	die	v.change
+   2	drop	v.change
+   2	dry out	v.change
+   2	expand	v.change
+   2	extend	v.change
+   2	get healthy	v.change
+   2	grow up	v.change
+   2	keep	v.change
+   2	lose	v.change
+   2	remove	v.change
+   2	rip out	v.change
+   2	skip	v.change
+   2	split	v.change
+   2	update	v.change
+   2	warm up	v.change
+   1	activate	v.change
+   1	adapt	v.change
+   1	amend	v.change
+   1	attach	v.change
+   1	avoid	v.change
+   1	begin	v.change
+   1	bite the dust	v.change
+   1	blow out	v.change
+   1	break down	v.change
+   1	budge	v.change
+   1	burn	v.change
+   1	cause	v.change
+   1	change lightbulb	v.change
+   1	come	v.change
+   1	come apart	v.change
+   1	come on	v.change
+   1	cut	v.change
+   1	cut down on	v.change
+   1	cut short	v.change
+   1	develop	v.change
+   1	dismiss	v.change
+   1	distort	v.change
+   1	do it	v.change
+   1	do re-wiring	v.change
+   1	elevate	v.change
+   1	execute	v.change
+   1	fall	v.change
+   1	fill up	v.change
+   1	fix - up	v.change
+   1	fixed	v.change
+   1	flood	v.change
+   1	fold	v.change
+   1	get act together	v.change
+   1	get into	v.change
+   1	get older	v.change
+   1	get replace	v.change
+   1	get to	v.change
+   1	go downhill	v.change
+   1	go wrong	v.change
+   1	graduate	v.change
+   1	grow	v.change
+   1	have	v.change
+   1	have blowout	v.change
+   1	have replace	v.change
+   1	hit the ground	v.change
+   1	install	v.change
+   1	jimmy rig	v.change
+   1	jump - start	v.change
+   1	keep from	v.change
+   1	lock	v.change
+   1	make	v.change
+   1	make repair	v.change
+   1	mask	v.change
+   1	not budge	v.change
+   1	open	v.change
+   1	pack up	v.change
+   1	proceed	v.change
+   1	pull out	v.change
+   1	quit	v.change
+   1	quit smoking	v.change
+   1	rectify	v.change
+   1	refold	v.change
+   1	remodel	v.change
+   1	resolve	v.change
+   1	retract	v.change
+   1	reverse	v.change
+   1	ruin	v.change
+   1	sabotage	v.change
+   1	save	v.change
+   1	scrub	v.change
+   1	shut down	v.change
+   1	shut off	v.change
+   1	slip	v.change
+   1	spice up	v.change
+   1	step	v.change
+   1	step it up notch	v.change
+   1	take time	v.change
+   1	thrash	v.change
+   1	turn	v.change
+   1	turn into	v.change
+   1	turn on	v.change
+   1	turn to	v.change
+   1	wake up	v.change
+  78	want	v.cognition
+  65	know	v.cognition
+  64	find	v.cognition
+  51	need	v.cognition
+  37	think	v.cognition
+  29	feel	v.cognition
+  24	look	v.cognition
+  21	expect	v.cognition
+  20	seem	v.cognition
+  18	wait	v.cognition
+  16	learn	v.cognition
+  15	see	v.cognition
+  12	choose	v.cognition
+  12	mean	v.cognition
+  10	believe	v.cognition
+  10	consider	v.cognition
+  10	decide	v.cognition
+   9	understand	v.cognition
+   8	care	v.cognition
+   8	forget	v.cognition
+   8	remember	v.cognition
+   8	trust	v.cognition
+   8	try	v.cognition
+   7	let	v.cognition
+   7	make	v.cognition
+   6	deal with	v.cognition
+   6	guess	v.cognition
+   6	imagine	v.cognition
+   6	notice	v.cognition
+   5	check	v.cognition
+   5	give	v.cognition
+   5	give up	v.cognition
+   5	make sure	v.cognition
+   4	beware	v.cognition
+   4	ensure	v.cognition
+   4	experience	v.cognition
+   4	have problem	v.cognition
+   4	pay attention	v.cognition
+   4	rate	v.cognition
+   4	realize	v.cognition
+   4	sound	v.cognition
+   3	avoid	v.cognition
+   3	deserve	v.cognition
+   3	diagnose	v.cognition
+   3	figure	v.cognition
+   3	find out	v.cognition
+   3	fool	v.cognition
+   3	get	v.cognition
+   3	have issue	v.cognition
+   3	hesitate	v.cognition
+   3	look forward to	v.cognition
+   3	make up	v.cognition
+   3	miss	v.cognition
+   3	new	v.cognition
+   3	prefer	v.cognition
+   3	prepare	v.cognition
+   3	prove	v.cognition
+   3	require	v.cognition
+   3	research	v.cognition
+   3	teach	v.cognition
+   3	tell	v.cognition
+   3	train	v.cognition
+   3	wish	v.cognition
+   2	achieve	v.cognition
+   2	amaze	v.cognition
+   2	appreciate	v.cognition
+   2	associate	v.cognition
+   2	bear	v.cognition
+   2	can not wait	v.cognition
+   2	change mind	v.cognition
+   2	come	v.cognition
+   2	confuse	v.cognition
+   2	discover	v.cognition
+   2	exceed	v.cognition
+   2	feel like a number	v.cognition
+   2	figure out	v.cognition
+   2	focus	v.cognition
+   2	get it	v.cognition
+   2	have	v.cognition
+   2	have experience	v.cognition
+   2	have to	v.cognition
+   2	help	v.cognition
+   2	hope	v.cognition
+   2	impress	v.cognition
+   2	lose	v.cognition
+   2	put	v.cognition
+   2	suspect	v.cognition
+   2	watch out	v.cognition
+   2	wonder	v.cognition
+   1	I figure	v.cognition
+   1	accept	v.cognition
+   1	accomplish	v.cognition
+   1	admit	v.cognition
+   1	allow	v.cognition
+   1	anticipate	v.cognition
+   1	approve	v.cognition
+   1	assuage	v.cognition
+   1	assume	v.cognition
+   1	assure	v.cognition
+   1	attempt	v.cognition
+   1	baffle	v.cognition
+   1	base on	v.cognition
+   1	be	v.cognition
+   1	be inclined	v.cognition
+   1	be sure	v.cognition
+   1	beg to differ	v.cognition
+   1	believe I	v.cognition
+   1	better believe	v.cognition
+   1	bless	v.cognition
+   1	blow away	v.cognition
+   1	boast	v.cognition
+   1	can not go wrong	v.cognition
+   1	cheat	v.cognition
+   1	come across	v.cognition
+   1	come away	v.cognition
+   1	compare	v.cognition
+   1	compose	v.cognition
+   1	count	v.cognition
+   1	cover	v.cognition
+   1	cross check	v.cognition
+   1	dare	v.cognition
+   1	define	v.cognition
+   1	demand	v.cognition
+   1	determine	v.cognition
+   1	develop	v.cognition
+   1	disappoint	v.cognition
+   1	do a favor	v.cognition
+   1	do yourself a favor	v.cognition
+   1	dream	v.cognition
+   1	effect	v.cognition
+   1	endeavor	v.cognition
+   1	evaluate	v.cognition
+   1	fall	v.cognition
+   1	fall for	v.cognition
+   1	feel the need	v.cognition
+   1	fend for	v.cognition
+   1	fit	v.cognition
+   1	follow	v.cognition
+   1	for get that	v.cognition
+   1	get away	v.cognition
+   1	get away with	v.cognition
+   1	get correct	v.cognition
+   1	get over	v.cognition
+   1	get result	v.cognition
+   1	get through	v.cognition
+   1	give chance	v.cognition
+   1	go above and beyond	v.cognition
+   1	go over	v.cognition
+   1	handle	v.cognition
+   1	hassle	v.cognition
+   1	have a clue	v.cognition
+   1	have a problem	v.cognition
+   1	have doubt	v.cognition
+   1	have in mind	v.cognition
+   1	have option	v.cognition
+   1	have plan	v.cognition
+   1	have the audacity	v.cognition
+   1	have time	v.cognition
+   1	hit	v.cognition
+   1	hit the nail on the head	v.cognition
+   1	hurt	v.cognition
+   1	ignore	v.cognition
+   1	influence	v.cognition
+   1	inspect	v.cognition
+   1	intend	v.cognition
+   1	involve	v.cognition
+   1	judge	v.cognition
+   1	keep in mind	v.cognition
+   1	keep you eye open	v.cognition
+   1	know better	v.cognition
+   1	know for	v.cognition
+   1	know job	v.cognition
+   1	know stuff	v.cognition
+   1	know what they be do	v.cognition
+   1	lead to believe	v.cognition
+   1	leave it at that	v.cognition
+   1	leave to be desire	v.cognition
+   1	license	v.cognition
+   1	lie	v.cognition
+   1	live up to	v.cognition
+   1	look to	v.cognition
+   1	look up	v.cognition
+   1	make a mistake	v.cognition
+   1	make a point of	v.cognition
+   1	make decision	v.cognition
+   1	make due	v.cognition
+   1	make mistake	v.cognition
+   1	make up for	v.cognition
+   1	mang	v.cognition
+   1	meet	v.cognition
+   1	mind	v.cognition
+   1	misrepresent	v.cognition
+   1	mix up	v.cognition
+   1	muster	v.cognition
+   1	outshine	v.cognition
+   1	pick up	v.cognition
+   1	plan	v.cognition
+   1	play dumb	v.cognition
+   1	point out	v.cognition
+   1	pride on	v.cognition
+   1	promise	v.cognition
+   1	put up with	v.cognition
+   1	quit	v.cognition
+   1	rank	v.cognition
+   1	regard	v.cognition
+   1	regret	v.cognition
+   1	relate	v.cognition
+   1	relax	v.cognition
+   1	resource	v.cognition
+   1	restore	v.cognition
+   1	rush	v.cognition
+   1	satisfy	v.cognition
+   1	save	v.cognition
+   1	score	v.cognition
+   1	search high and low	v.cognition
+   1	seek out	v.cognition
+   1	set	v.cognition
+   1	set out	v.cognition
+   1	settle	v.cognition
+   1	show	v.cognition
+   1	solve	v.cognition
+   1	sort out	v.cognition
+   1	spend	v.cognition
+   1	spoil	v.cognition
+   1	stand for	v.cognition
+   1	stay	v.cognition
+   1	strain	v.cognition
+   1	stumble across	v.cognition
+   1	suck	v.cognition
+   1	surprise	v.cognition
+   1	take	v.cognition
+   1	take into account	v.cognition
+   1	take it	v.cognition
+   1	take on	v.cognition
+   1	take pride	v.cognition
+   1	take the plunge	v.cognition
+   1	take time	v.cognition
+   1	test	v.cognition
+   1	think of	v.cognition
+   1	think so	v.cognition
+   1	thought	v.cognition
+   1	threaten	v.cognition
+   1	track down	v.cognition
+   1	trust I	v.cognition
+   1	trust gut	v.cognition
+   1	turn out	v.cognition
+   1	value	v.cognition
+   1	wait around	v.cognition
+   1	warn	v.cognition
+   1	warrant	v.cognition
+   1	work	v.cognition
+   1	worry	v.cognition
+   1	write in stone	v.cognition
+ 120	say	v.communication
+  85	tell	v.communication
+  81	recommend	v.communication
+  62	call	v.communication
+  59	ask	v.communication
+  20	order	v.communication
+  17	explain	v.communication
+  15	read	v.communication
+  15	talk	v.communication
+  14	give	v.communication
+  12	speak	v.communication
+  10	answer	v.communication
+  10	suggest	v.communication
+   9	refuse	v.communication
+   8	promise	v.communication
+   8	state	v.communication
+   7	call back	v.communication
+   7	claim	v.communication
+   7	describe	v.communication
+   7	refer	v.communication
+   6	agree	v.communication
+   6	get	v.communication
+   6	let know	v.communication
+   6	warn	v.communication
+   6	write	v.communication
+   5	admit	v.communication
+   5	complain	v.communication
+   5	listen	v.communication
+   5	offer	v.communication
+   5	yell	v.communication
+   4	argue	v.communication
+   4	greet	v.communication
+   4	guarantee	v.communication
+   4	hear	v.communication
+   4	inform	v.communication
+   4	laugh	v.communication
+   4	request	v.communication
+   3	chat	v.communication
+   3	contact	v.communication
+   3	email	v.communication
+   3	rate	v.communication
+   3	respond	v.communication
+   3	sign	v.communication
+   3	sign up	v.communication
+   3	spread the word	v.communication
+   2	apologize	v.communication
+   2	assure	v.communication
+   2	book	v.communication
+   2	call in	v.communication
+   2	call up	v.communication
+   2	come	v.communication
+   2	comment	v.communication
+   2	confirm	v.communication
+   2	discuss	v.communication
+   2	encourage	v.communication
+   2	express	v.communication
+   2	giggle	v.communication
+   2	give a call	v.communication
+   2	give quote	v.communication
+   2	go	v.communication
+   2	google	v.communication
+   2	hang up	v.communication
+   2	have to say	v.communication
+   2	inquire	v.communication
+   2	insult	v.communication
+   2	list	v.communication
+   2	make	v.communication
+   2	make order	v.communication
+   2	mark	v.communication
+   2	mention	v.communication
+   2	name	v.communication
+   2	phone	v.communication
+   2	post	v.communication
+   2	refer to	v.communication
+   2	ring	v.communication
+   2	send	v.communication
+   2	sign in	v.communication
+   1	accuse	v.communication
+   1	add	v.communication
+   1	advertise	v.communication
+   1	advise	v.communication
+   1	alert	v.communication
+   1	approach	v.communication
+   1	ask for back	v.communication
+   1	aswer phone	v.communication
+   1	attest	v.communication
+   1	brief	v.communication
+   1	bring up	v.communication
+   1	call in sick	v.communication
+   1	check	v.communication
+   1	come in	v.communication
+   1	come up	v.communication
+   1	compliment	v.communication
+   1	congratulate	v.communication
+   1	convince	v.communication
+   1	could not recommend enough	v.communication
+   1	declare	v.communication
+   1	decline	v.communication
+   1	demand	v.communication
+   1	disagree	v.communication
+   1	do paperwork	v.communication
+   1	drop the issue	v.communication
+   1	follow - up	v.communication
+   1	get answer	v.communication
+   1	get call	v.communication
+   1	get in touch	v.communication
+   1	get on the phone	v.communication
+   1	get picture	v.communication
+   1	give alternative	v.communication
+   1	give description	v.communication
+   1	give explanation	v.communication
+   1	give instruction	v.communication
+   1	give opinion	v.communication
+   1	give the go ahead	v.communication
+   1	give the run around	v.communication
+   1	give tip	v.communication
+   1	go cry	v.communication
+   1	go over	v.communication
+   1	guess	v.communication
+   1	host	v.communication
+   1	interrupt	v.communication
+   1	interview	v.communication
+   1	itemize	v.communication
+   1	join	v.communication
+   1	kid	v.communication
+   1	leave comment	v.communication
+   1	leave number	v.communication
+   1	lie	v.communication
+   1	lodge complaint	v.communication
+   1	look	v.communication
+   1	make appointment	v.communication
+   1	make complaint	v.communication
+   1	make recommendation	v.communication
+   1	misinform	v.communication
+   1	negotiate	v.communication
+   1	not to mention	v.communication
+   1	ordered	v.communication
+   1	pass	v.communication
+   1	pester	v.communication
+   1	picture	v.communication
+   1	place	v.communication
+   1	place order	v.communication
+   1	point	v.communication
+   1	prescribe	v.communication
+   1	print	v.communication
+   1	print out	v.communication
+   1	provide	v.communication
+   1	put on hold	v.communication
+   1	question	v.communication
+   1	quote	v.communication
+   1	rave	v.communication
+   1	receive	v.communication
+   1	reflect	v.communication
+   1	remind	v.communication
+   1	reply	v.communication
+   1	report	v.communication
+   1	reserve	v.communication
+   1	rub it in	v.communication
+   1	say no	v.communication
+   1	say sorry	v.communication
+   1	see	v.communication
+   1	share	v.communication
+   1	shut up	v.communication
+   1	start out	v.communication
+   1	sum up	v.communication
+   1	take	v.communication
+   1	take down	v.communication
+   1	take order	v.communication
+   1	talk down	v.communication
+   1	talk down to	v.communication
+   1	teach	v.communication
+   1	tell to face	v.communication
+   1	thank	v.communication
+   1	thank you	v.communication
+   1	try	v.communication
+   1	try to tell	v.communication
+   1	urge	v.communication
+   1	visit	v.communication
+   1	voice	v.communication
+   1	write review	v.communication
+   1	yelp	v.communication
+   1	beat	v.competition
+   1	conquer	v.competition
+   1	do better	v.competition
+   1	make	v.competition
+   1	price out of	v.competition
+   1	surpass	v.competition
+   1	win	v.competition
+  27	eat	v.consumption
+  17	have	v.consumption
+   6	use	v.consumption
+   4	drink	v.consumption
+   3	try	v.consumption
+   3	waste	v.consumption
+   2	work	v.consumption
+   1	dine	v.consumption
+   1	feed	v.consumption
+   1	fill up	v.consumption
+   1	finish	v.consumption
+   1	graze	v.consumption
+   1	have a bite	v.consumption
+   1	lick	v.consumption
+   1	nibble	v.consumption
+   1	satisfy	v.consumption
+   1	take a bite	v.consumption
+   1	throw out	v.consumption
+   1	trash	v.consumption
+   3	break	v.contact
+   2	fit	v.contact
+   2	install	v.contact
+   2	kiss	v.contact
+   2	put	v.contact
+   2	use	v.contact
+   1	attach	v.contact
+   1	blow	v.contact
+   1	climb	v.contact
+   1	cover	v.contact
+   1	fill	v.contact
+   1	flip	v.contact
+   1	force	v.contact
+   1	grab	v.contact
+   1	insert	v.contact
+   1	lean	v.contact
+   1	leave	v.contact
+   1	open	v.contact
+   1	press	v.contact
+   1	pull	v.contact
+   1	push	v.contact
+   1	put on	v.contact
+   1	rig	v.contact
+   1	run	v.contact
+   1	sandwich	v.contact
+   1	slap	v.contact
+   1	slit	v.contact
+   1	stick	v.contact
+   1	toss	v.contact
+   1	touch	v.contact
+   1	trip	v.contact
+   1	work	v.contact
+   1	wrap	v.contact
+  14	make	v.creation
+   9	cook	v.creation
+   4	prepare	v.creation
+   2	bake	v.creation
+   2	build	v.creation
+   2	copy	v.creation
+   1	compose	v.creation
+   1	create	v.creation
+   1	design	v.creation
+   1	do	v.creation
+   1	execute	v.creation
+   1	generate	v.creation
+   1	give	v.creation
+   1	grill	v.creation
+   1	home - cook	v.creation
+   1	invent	v.creation
+   1	open	v.creation
+   1	play	v.creation
+   1	pre-make	v.creation
+   1	recreate	v.creation
+   1	sear	v.creation
+   1	set up	v.creation
+   1	start	v.creation
+   1	write	v.creation
+  46	love	v.emotion
+  27	like	v.emotion
+  22	enjoy	v.emotion
+  12	feel	v.emotion
+  10	care	v.emotion
+   9	trust	v.emotion
+   8	hope	v.emotion
+   5	appreciate	v.emotion
+   5	hate	v.emotion
+   4	wish	v.emotion
+   3	regret	v.emotion
+   2	disappoint	v.emotion
+   2	fall	v.emotion
+   2	go	v.emotion
+   2	impress	v.emotion
+   1	<3	v.emotion
+   1	amaze	v.emotion
+   1	be	v.emotion
+   1	believe	v.emotion
+   1	believe in	v.emotion
+   1	bruise ego	v.emotion
+   1	cope	v.emotion
+   1	deal with	v.emotion
+   1	fear	v.emotion
+   1	feel good	v.emotion
+   1	feel like	v.emotion
+   1	feel like it	v.emotion
+   1	give a crap	v.emotion
+   1	give feeling	v.emotion
+   1	have	v.emotion
+   1	have it	v.emotion
+   1	jaw drop	v.emotion
+   1	leave	v.emotion
+   1	like it	v.emotion
+   1	love show	v.emotion
+   1	mind	v.emotion
+   1	move	v.emotion
+   1	pressure	v.emotion
+   1	put	v.emotion
+   1	put off	v.emotion
+   1	sadden	v.emotion
+   1	satisfy	v.emotion
+   1	scare	v.emotion
+   1	stress out	v.emotion
+   1	suck it up	v.emotion
+   1	suffer	v.emotion
+   1	surprise	v.emotion
+   1	take courage	v.emotion
+   1	take pride	v.emotion
+   1	worry	v.emotion
+ 134	go	v.motion
+  51	come	v.motion
+  26	leave	v.motion
+  23	drive	v.motion
+  22	bring	v.motion
+  22	take	v.motion
+  19	move	v.motion
+  16	walk	v.motion
+  13	arrive	v.motion
+  13	return	v.motion
+  11	be to	v.motion
+  11	deliver	v.motion
+  10	send	v.motion
+   9	get	v.motion
+   7	stay	v.motion
+   7	travel	v.motion
+   6	come out	v.motion
+   6	tow	v.motion
+   5	take in	v.motion
+   4	drop off	v.motion
+   4	put	v.motion
+   4	stop in	v.motion
+   3	be	v.motion
+   3	bring in	v.motion
+   3	come over	v.motion
+   3	go in	v.motion
+   3	park	v.motion
+   3	pick up	v.motion
+   3	run	v.motion
+   3	ship	v.motion
+   3	stop by	v.motion
+   2	attend	v.motion
+   2	bring back	v.motion
+   2	enter	v.motion
+   2	grab	v.motion
+   2	move in	v.motion
+   2	move out	v.motion
+   2	pick	v.motion
+   2	walk out	v.motion
+   2	wonder	v.motion
+   1	blow	v.motion
+   1	come and go	v.motion
+   1	come by	v.motion
+   1	come down	v.motion
+   1	come in	v.motion
+   1	cross	v.motion
+   1	delivered	v.motion
+   1	driving up	v.motion
+   1	dump	v.motion
+   1	fall	v.motion
+   1	flip	v.motion
+   1	fly	v.motion
+   1	get out	v.motion
+   1	get the hell	v.motion
+   1	give	v.motion
+   1	give ride	v.motion
+   1	go back	v.motion
+   1	go on a trip	v.motion
+   1	go to heck	v.motion
+   1	go to school	v.motion
+   1	go to work	v.motion
+   1	haul off	v.motion
+   1	hike	v.motion
+   1	land	v.motion
+   1	load	v.motion
+   1	mail	v.motion
+   1	make it	v.motion
+   1	make the drive	v.motion
+   1	make trip	v.motion
+   1	parade	v.motion
+   1	pop in	v.motion
+   1	pull	v.motion
+   1	relocate	v.motion
+   1	ride on rail	v.motion
+   1	run for the hill	v.motion
+   1	rush	v.motion
+   1	send over	v.motion
+   1	separate	v.motion
+   1	ski	v.motion
+   1	speed	v.motion
+   1	spill	v.motion
+   1	steep	v.motion
+   1	step	v.motion
+   1	stick	v.motion
+   1	stop	v.motion
+   1	take back	v.motion
+   1	throw	v.motion
+   1	turn	v.motion
+   1	unload	v.motion
+   1	walk around	v.motion
+   1	wander	v.motion
+  35	see	v.perception
+  30	look	v.perception
+  14	taste	v.perception
+   6	hear	v.perception
+   5	feel	v.perception
+   5	hurt	v.perception
+   4	watch	v.perception
+   3	listen	v.perception
+   2	smell	v.perception
+   1	catch my eye	v.perception
+   1	here	v.perception
+   1	present	v.perception
+   1	reek	v.perception
+   1	ring	v.perception
+  39	pay	v.possession
+  27	charge	v.possession
+  25	get	v.possession
+  22	buy	v.possession
+  14	give	v.possession
+  12	purchase	v.possession
+  10	have	v.possession
+  10	pick up	v.possession
+   9	take	v.possession
+   8	sell	v.possession
+   7	receive	v.possession
+   6	own	v.possession
+   6	spend	v.possession
+   5	quote	v.possession
+   5	return	v.possession
+   4	offer	v.possession
+   4	order	v.possession
+   3	rent	v.possession
+   3	steal	v.possession
+   2	book	v.possession
+   2	cost	v.possession
+   2	cut deal	v.possession
+   2	grab	v.possession
+   2	look	v.possession
+   2	overcharge	v.possession
+   2	owe	v.possession
+   2	rent out	v.possession
+   2	run	v.possession
+   2	use	v.possession
+   1	accept	v.possession
+   1	acquire	v.possession
+   1	adopt	v.possession
+   1	afford	v.possession
+   1	apply	v.possession
+   1	bait and switch	v.possession
+   1	belong to	v.possession
+   1	bilk	v.possession
+   1	break the bank	v.possession
+   1	bring	v.possession
+   1	carry out	v.possession
+   1	charge a dime	v.possession
+   1	charger	v.possession
+   1	come	v.possession
+   1	compensate	v.possession
+   1	cover	v.possession
+   1	deal in	v.possession
+   1	discount	v.possession
+   1	fund	v.possession
+   1	get business	v.possession
+   1	get off	v.possession
+   1	give deal	v.possession
+   1	give tip	v.possession
+   1	honor	v.possession
+   1	include	v.possession
+   1	leave	v.possession
+   1	make cash	v.possession
+   1	make sale	v.possession
+   1	mark up	v.possession
+   1	pay cash	v.possession
+   1	provide	v.possession
+   1	put down	v.possession
+   1	reap	v.possession
+   1	refund	v.possession
+   1	reimburse	v.possession
+   1	resell	v.possession
+   1	revive	v.possession
+   1	ring up	v.possession
+   1	rob	v.possession
+   1	shell out	v.possession
+   1	show	v.possession
+   1	squeeze	v.possession
+   1	take back	v.possession
+   1	take for	v.possession
+   1	take off	v.possession
+   1	want	v.possession
+  49	work	v.social
+  36	try	v.social
+  29	use	v.social
+  28	help	v.social
+  24	live	v.social
+  23	do	v.social
+  21	get	v.social
+  18	see	v.social
+  17	go	v.social
+  12	meet	v.social
+  12	stay	v.social
+  12	treat	v.social
+  11	check out	v.social
+  11	serve	v.social
+  11	take care of	v.social
+  10	take the time	v.social
+   9	provide	v.social
+   9	show	v.social
+   9	take	v.social
+   9	visit	v.social
+   8	deal with	v.social
+   8	show up	v.social
+   7	let	v.social
+   7	run	v.social
+   7	wait	v.social
+   6	do a job	v.social
+   6	shop	v.social
+   6	waste time	v.social
+   5	dine	v.social
+   5	do work	v.social
+   5	make	v.social
+   4	attend	v.social
+   4	bother	v.social
+   4	close	v.social
+   4	give	v.social
+   4	go through	v.social
+   4	manage	v.social
+   4	take time	v.social
+   3	catch	v.social
+   3	do business	v.social
+   3	give chance	v.social
+   3	handle	v.social
+   3	have	v.social
+   3	have experience	v.social
+   3	help out	v.social
+   3	hire	v.social
+   3	introduce	v.social
+   3	offer	v.social
+   3	operate	v.social
+   3	push	v.social
+   3	put	v.social
+   3	receive	v.social
+   3	support	v.social
+   3	train	v.social
+   2	apply	v.social
+   2	attend to	v.social
+   2	be in hand	v.social
+   2	board	v.social
+   2	book	v.social
+   2	carry out	v.social
+   2	come	v.social
+   2	deliver	v.social
+   2	do introduction	v.social
+   2	enrol	v.social
+   2	establish	v.social
+   2	fight	v.social
+   2	fool	v.social
+   2	frequent	v.social
+   2	give a try	v.social
+   2	go out of way	v.social
+   2	go the extra mile	v.social
+   2	greet	v.social
+   2	lace up	v.social
+   2	mess up	v.social
+   2	miss	v.social
+   2	perform	v.social
+   2	plan	v.social
+   2	prepare	v.social
+   2	pretend	v.social
+   2	put at ease	v.social
+   2	rip off	v.social
+   2	seat	v.social
+   2	stop in	v.social
+   2	suit	v.social
+   2	supply	v.social
+   2	take off	v.social
+   2	work do	v.social
+   1	accommodate	v.social
+   1	accomplish	v.social
+   1	act	v.social
+   1	adopt	v.social
+   1	annoy	v.social
+   1	approach	v.social
+   1	assist	v.social
+   1	attempt	v.social
+   1	attract	v.social
+   1	avail of	v.social
+   1	award	v.social
+   1	back up	v.social
+   1	be there	v.social
+   1	be through	v.social
+   1	block	v.social
+   1	book a reservation	v.social
+   1	bring	v.social
+   1	can be assure	v.social
+   1	cancel	v.social
+   1	care receive	v.social
+   1	catch up	v.social
+   1	chase	v.social
+   1	check back	v.social
+   1	check in	v.social
+   1	come across	v.social
+   1	come in	v.social
+   1	come through	v.social
+   1	come with	v.social
+   1	complete	v.social
+   1	contract	v.social
+   1	cover up	v.social
+   1	dine in	v.social
+   1	do a favor	v.social
+   1	do job	v.social
+   1	do research	v.social
+   1	drink	v.social
+   1	eat	v.social
+   1	ensure	v.social
+   1	exceed	v.social
+   1	experience have	v.social
+   1	facilitate	v.social
+   1	fill	v.social
+   1	find	v.social
+   1	follow	v.social
+   1	force	v.social
+   1	gain entry	v.social
+   1	get appointment	v.social
+   1	get by	v.social
+   1	get in touch	v.social
+   1	get nail do	v.social
+   1	get to know	v.social
+   1	get to work	v.social
+   1	give a chance	v.social
+   1	give it shot	v.social
+   1	give liberty	v.social
+   1	give test	v.social
+   1	give the opportunity	v.social
+   1	go above and beyond	v.social
+   1	go ahead	v.social
+   1	go for it	v.social
+   1	go on	v.social
+   1	go out	v.social
+   1	go out of business	v.social
+   1	go with	v.social
+   1	grow up	v.social
+   1	guide	v.social
+   1	hang out	v.social
+   1	happen	v.social
+   1	have a time	v.social
+   1	have cut	v.social
+   1	have do	v.social
+   1	have problem	v.social
+   1	have surgery	v.social
+   1	hide	v.social
+   1	hit up	v.social
+   1	hold	v.social
+   1	host	v.social
+   1	ignore	v.social
+   1	install	v.social
+   1	instruct	v.social
+   1	interview	v.social
+   1	involve	v.social
+   1	jack	v.social
+   1	join	v.social
+   1	jump	v.social
+   1	keep	v.social
+   1	lead the way	v.social
+   1	leave no stone unturned	v.social
+   1	let down	v.social
+   1	look	v.social
+   1	maintain	v.social
+   1	make a buck	v.social
+   1	make appointment	v.social
+   1	make friend	v.social
+   1	make good	v.social
+   1	make money	v.social
+   1	make sure	v.social
+   1	make time	v.social
+   1	match	v.social
+   1	matter	v.social
+   1	mingle	v.social
+   1	nail it	v.social
+   1	neglect	v.social
+   1	negotiate	v.social
+   1	order	v.social
+   1	overcome issue	v.social
+   1	own and operate	v.social
+   1	pass	v.social
+   1	pass up	v.social
+   1	pat test	v.social
+   1	personalize	v.social
+   1	play	v.social
+   1	practice	v.social
+   1	pre-screen	v.social
+   1	present	v.social
+   1	press	v.social
+   1	pressure	v.social
+   1	prove	v.social
+   1	provide service	v.social
+   1	pull over	v.social
+   1	put in charge	v.social
+   1	put on a pedestal	v.social
+   1	put up with	v.social
+   1	raise	v.social
+   1	raise on	v.social
+   1	rape	v.social
+   1	re-interview	v.social
+   1	re-schedule	v.social
+   1	re-train	v.social
+   1	reciprocate	v.social
+   1	renege	v.social
+   1	reschedule	v.social
+   1	reside	v.social
+   1	respect	v.social
+   1	restore	v.social
+   1	return favor	v.social
+   1	scare	v.social
+   1	schedule	v.social
+   1	see the sun	v.social
+   1	send	v.social
+   1	send over	v.social
+   1	set up	v.social
+   1	settle	v.social
+   1	share	v.social
+   1	shoot the breeze	v.social
+   1	shop around	v.social
+   1	sit	v.social
+   1	spend	v.social
+   1	spend time	v.social
+   1	squeeze in	v.social
+   1	squirm	v.social
+   1	stand around	v.social
+   1	step up to the plate	v.social
+   1	stick up	v.social
+   1	stick with	v.social
+   1	struggle	v.social
+   1	take a chance	v.social
+   1	take approach	v.social
+   1	take as far as can	v.social
+   1	take break	v.social
+   1	take heed	v.social
+   1	take in	v.social
+   1	take of	v.social
+   1	take on	v.social
+   1	take out	v.social
+   1	talk into	v.social
+   1	test out	v.social
+   1	thank	v.social
+   1	thrive	v.social
+   1	throw	v.social
+   1	tolerate	v.social
+   1	tour	v.social
+   1	track down	v.social
+   1	treat like dirt	v.social
+   1	treat to	v.social
+   1	try out	v.social
+   1	turn down	v.social
+   1	turn over	v.social
+   1	wait on	v.social
+   1	wash and fold	v.social
+   1	welcome	v.social
+   1	who - know - what	v.social
+   1	work every angle	v.social
+   1	work perform	v.social
+1441	be	v.stative
+ 208	have	v.stative
+  63	do	v.stative
+  54	get	v.stative
+  23	take	v.stative
+  22	make	v.stative
+  17	keep	v.stative
+  13	go	v.stative
+  12	sit	v.stative
+  10	give	v.stative
+  10	wait	v.stative
+   8	continue	v.stative
+   8	stay	v.stative
+   8	work	v.stative
+   7	compare	v.stative
+   7	happen	v.stative
+   7	start	v.stative
+   6	come	v.stative
+   6	end up	v.stative
+   6	last	v.stative
+   6	run	v.stative
+   6	save	v.stative
+   5	become	v.stative
+   5	include	v.stative
+   5	maintain	v.stative
+   5	offer	v.stative
+   5	open	v.stative
+   5	stand	v.stative
+   5	suck	v.stative
+   4	miss	v.stative
+   4	receive	v.stative
+   4	use	v.stative
+   3	add	v.stative
+   3	be a joke	v.stative
+   3	begin	v.stative
+   3	blow	v.stative
+   3	face	v.stative
+   3	have experience	v.stative
+   3	lack	v.stative
+   3	put	v.stative
+   3	see	v.stative
+   2	base	v.stative
+   2	be in for a treat	v.stative
+   2	come out	v.stative
+   2	fit	v.stative
+   2	go on	v.stative
+   2	go through	v.stative
+   2	graduate	v.stative
+   2	have to	v.stative
+   2	install	v.stative
+   2	leave	v.stative
+   2	let	v.stative
+   2	pass	v.stative
+   2	place	v.stative
+   2	play	v.stative
+   2	preserve	v.stative
+   2	range	v.stative
+   2	represent	v.stative
+   2	show	v.stative
+   2	size	v.stative
+   2	split	v.stative
+   2	surround	v.stative
+   2	tend	v.stative
+   2	try	v.stative
+   2	turn out	v.stative
+   2	waste time	v.stative
+   2	were	v.stative
+   1	access	v.stative
+   1	adorn	v.stative
+   1	afford	v.stative
+   1	apply	v.stative
+   1	arrange	v.stative
+   1	ban	v.stative
+   1	base on	v.stative
+   1	be a big baby	v.stative
+   1	be a no brainer	v.stative
+   1	be a pain	v.stative
+   1	be a plus	v.stative
+   1	be happy camper	v.stative
+   1	be in	v.stative
+   1	be make to	v.stative
+   1	be no more	v.stative
+   1	be out of this world	v.stative
+   1	be rude	v.stative
+   1	be say and do	v.stative
+   1	be sure to	v.stative
+   1	be to	v.stative
+   1	be up	v.stative
+   1	bear	v.stative
+   1	beat	v.stative
+   1	by	v.stative
+   1	carry	v.stative
+   1	cause	v.stative
+   1	close	v.stative
+   1	come in	v.stative
+   1	come over budget	v.stative
+   1	come through	v.stative
+   1	come time	v.stative
+   1	come to	v.stative
+   1	come with	v.stative
+   1	complete	v.stative
+   1	consist of	v.stative
+   1	couple	v.stative
+   1	couple with	v.stative
+   1	cover	v.stative
+   1	damage	v.stative
+   1	deal	v.stative
+   1	decorate	v.stative
+   1	depend	v.stative
+   1	do wonder	v.stative
+   1	drench	v.stative
+   1	drive	v.stative
+   1	end	v.stative
+   1	equip	v.stative
+   1	exceed	v.stative
+   1	excel	v.stative
+   1	execute	v.stative
+   1	exist	v.stative
+   1	experience	v.stative
+   1	face with	v.stative
+   1	fail	v.stative
+   1	fall	v.stative
+   1	feature	v.stative
+   1	feel	v.stative
+   1	fill	v.stative
+   1	fill role	v.stative
+   1	find	v.stative
+   1	follow	v.stative
+   1	get a flat	v.stative
+   1	get home	v.stative
+   1	get in car accident	v.stative
+   1	get into a accident	v.stative
+   1	get result	v.stative
+   1	go along	v.stative
+   1	go forward	v.stative
+   1	go off	v.stative
+   1	go out the door	v.stative
+   1	go with	v.stative
+   1	have a pedicure	v.stative
+   1	have a problem	v.stative
+   1	have a time	v.stative
+   1	have do	v.stative
+   1	have problem	v.stative
+   1	have to do with	v.stative
+   1	have to offer	v.stative
+   1	hold	v.stative
+   1	hold up	v.stative
+   1	hurry up	v.stative
+   1	keep safe	v.stative
+   1	leak	v.stative
+   1	leave a lot to be desire	v.stative
+   1	leave behind	v.stative
+   1	leave to be desire	v.stative
+   1	let alone	v.stative
+   1	license	v.stative
+   1	line up	v.stative
+   1	live	v.stative
+   1	live through	v.stative
+   1	locate	v.stative
+   1	make it	v.stative
+   1	manifest	v.stative
+   1	microwave	v.stative
+   1	mislabel	v.stative
+   1	nestle	v.stative
+   1	operate	v.stative
+   1	over power	v.stative
+   1	overcook	v.stative
+   1	park	v.stative
+   1	pass the time	v.stative
+   1	peel	v.stative
+   1	perform	v.stative
+   1	proceed	v.stative
+   1	push	v.stative
+   1	put hair on chest	v.stative
+   1	quiet down	v.stative
+   1	resolve	v.stative
+   1	rock	v.stative
+   1	ruin	v.stative
+   1	run rough	v.stative
+   1	season	v.stative
+   1	seat	v.stative
+   1	secure	v.stative
+   1	separate	v.stative
+   1	serve	v.stative
+   1	set	v.stative
+   1	set apart	v.stative
+   1	sit around	v.stative
+   1	sit down	v.stative
+   1	smile	v.stative
+   1	smooth	v.stative
+   1	sound	v.stative
+   1	sound off	v.stative
+   1	spend	v.stative
+   1	stack	v.stative
+   1	stand around	v.stative
+   1	stand the test of time	v.stative
+   1	start out	v.stative
+   1	stay away	v.stative
+   1	stock up	v.stative
+   1	stop	v.stative
+   1	take forever	v.stative
+   1	take over	v.stative
+   1	take time	v.stative
+   1	tone down	v.stative
+   1	total	v.stative
+   1	tout	v.stative
+   1	try out	v.stative
+   1	turn	v.stative
+   1	underpin	v.stative
+   1	verify	v.stative
+   1	walk	v.stative
+   1	waste	v.stative
+   1	we	v.stative
+   1	well feed	v.stative
+   1	where	v.stative
+   1	whir	v.stative
+   1	win	v.stative
+   1	wrap	v.stative

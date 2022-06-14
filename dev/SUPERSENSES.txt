@@ -1,5 +1,5 @@
       6 ??	_
-   3224 _	_
+   3311 _	_
       3 `$	`$
     108 n.ACT	_
       6 n.ANIMAL	_
@@ -94,7 +94,7 @@
       8 p.Source	p.Source
       5 p.Species	p.Species
       4 p.StartTime	p.StartTime
-      1 p.Stimulus	p.Causer
+      1 p.Stimulus	p.Force
       1 p.Stimulus	p.Theme
       7 p.Stimulus	p.Topic
       1 p.Theme	p.ComparisonRef

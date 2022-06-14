@@ -1,8 +1,8 @@
     548 ADJ
-    374 ADV
+    365 ADV
     164 AUX
-    208 CCONJ
-    382 DET
+    209 CCONJ
+    381 DET
      22 DISC
      38 INF
      20 INF.P
@@ -14,9 +14,9 @@
      18 PP
     398 PRON
      95 PRON.POSS
-    597 PUNCT
-     21 SCONJ
-     12 SYM
+    593 PUNCT
+     32 SCONJ
+     16 SYM
     631 V
      17 V.IAV
       1 V.LVC.cause
@@ -24,5 +24,4 @@
      24 V.VID
      11 V.VPC.full
       5 V.VPC.semi
-      2 X
-    381 _
+    452 _

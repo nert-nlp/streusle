@@ -1,4 +1,4 @@
-Strong MWEs: 2446
+Strong MWEs: 2436
 Weak MWEs:    558
 
 MWE Gaps
@@ -11,9 +11,9 @@ Multi-gap MWEs:   4
 Strong MWE token positions
 ==========================
 There are ... MWEs >= ... tokens long:
-   2446 1
-   2446 2
-    573 3
+   2448 1
+   2448 2
+    572 3
     129 4
      35 5
      11 6
@@ -33,23 +33,23 @@ Weak MWE token positions
 
 Strong MWEs by LexCat
 =====================
-     82 ADJ
-     37 ADV
+     79 ADJ
+     34 ADV
     116 AUX
       7 CCONJ
      78 DET
     135 DISC
       2 INF.P
       1 INTJ
-    940 N
+    939 N
     116 P
     150 PP
-     10 PRON
+      8 PRON
       7 SCONJ
       2 SYM
      99 V.IAV
      11 V.LVC.cause
     109 V.LVC.full
-    272 V.VID
+    271 V.VID
     184 V.VPC.full
      88 V.VPC.semi

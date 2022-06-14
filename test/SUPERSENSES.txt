@@ -1,13 +1,13 @@
       6 ??	_
-   3205 _	_
+   3276 _	_
       2 `$	`$
     123 n.ACT	_
       4 n.ANIMAL	_
-     83 n.ARTIFACT	_
+     84 n.ARTIFACT	_
      32 n.ATTRIBUTE	_
      12 n.BODY	_
      69 n.COGNITION	_
-     47 n.COMMUNICATION	_
+     46 n.COMMUNICATION	_
      36 n.EVENT	_
       3 n.FEELING	_
      73 n.FOOD	_

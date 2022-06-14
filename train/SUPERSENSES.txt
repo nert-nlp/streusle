@@ -1,18 +1,18 @@
-     36 ??	_
-  26614 _	_
+     35 ??	_
+  27238 _	_
      15 `$	`$
     493 n.ACT	_
      78 n.ANIMAL	_
     821 n.ARTIFACT	_
-    165 n.ATTRIBUTE	_
+    166 n.ATTRIBUTE	_
      71 n.BODY	_
     607 n.COGNITION	_
     341 n.COMMUNICATION	_
     358 n.EVENT	_
      34 n.FEELING	_
-    579 n.FOOD	_
+    578 n.FOOD	_
    1101 n.GROUP	_
-    489 n.LOCATION	_
+    481 n.LOCATION	_
      19 n.MOTIVE	_
      41 n.NATURALOBJECT	_
      42 n.OTHER	_
@@ -21,7 +21,7 @@
       3 n.PLANT	_
     299 n.POSSESSION	_
      25 n.PROCESS	_
-    109 n.QUANTITY	_
+    106 n.QUANTITY	_
      28 n.RELATION	_
       6 n.SHAPE	_
      40 n.STATE	_
@@ -42,9 +42,6 @@
      10 p.Beneficiary	p.Goal
       6 p.Beneficiary	p.Possessor
       7 p.Beneficiary	p.Theme
-      4 p.Causer	p.Causer
-      1 p.Causer	p.Gestalt
-      1 p.Causer	p.Source
       1 p.Characteristic	p.Ancillary
      39 p.Characteristic	p.Characteristic
       9 p.Characteristic	p.Extent
@@ -84,6 +81,9 @@
       9 p.Explanation	p.Time
      32 p.Extent	p.Extent
       1 p.Extent	p.Whole
+      4 p.Force	p.Force
+      1 p.Force	p.Gestalt
+      1 p.Force	p.Source
       1 p.Frequency	p.Extent
       6 p.Frequency	p.Frequency
       1 p.Frequency	p.Manner
@@ -154,20 +154,20 @@
      71 p.QuantityItem	p.QuantityItem
      11 p.QuantityItem	p.Stuff
      81 p.QuantityItem	p.Whole
-      5 p.RateUnit	p.RateUnit
       4 p.Recipient	p.Ancillary
       7 p.Recipient	p.Direction
       8 p.Recipient	p.Gestalt
      81 p.Recipient	p.Goal
+      5 p.SetIteration	p.SetIteration
      12 p.SocialRel	p.Ancillary
     170 p.SocialRel	p.Gestalt
      64 p.Source	p.Source
      33 p.Species	p.Species
      20 p.StartTime	p.StartTime
       3 p.Stimulus	p.Beneficiary
-      5 p.Stimulus	p.Causer
      13 p.Stimulus	p.Direction
       2 p.Stimulus	p.Explanation
+      5 p.Stimulus	p.Force
      11 p.Stimulus	p.Goal
       2 p.Stimulus	p.Source
      63 p.Stimulus	p.Topic
@@ -187,7 +187,7 @@
       2 p.Time	p.Extent
       3 p.Time	p.Gestalt
       1 p.Time	p.Goal
-     27 p.Time	p.Interval
+     28 p.Time	p.Interval
     276 p.Time	p.Time
       3 p.Time	p.Whole
       6 p.Topic	p.Goal
@@ -198,9 +198,9 @@
       3 p.Whole	p.Source
      56 p.Whole	p.Whole
      77 v.body	_
-    244 v.change	_
+    243 v.change	_
     936 v.cognition	_
-    853 v.communication	_
+    854 v.communication	_
       7 v.competition	_
      74 v.consumption	_
      41 v.contact	_
@@ -210,19 +210,19 @@
     109 v.perception	_
     285 v.possession	_
     754 v.social	_
-   2218 v.stative	_
+   2217 v.stative	_
 ========================
-7245 n.*
-6361 v.*
-4551 p.*
+7234 n.*
+6360 v.*
+4552 p.*
 
 n.* by LexCat
 ========================
-   7245 N
+   7234 N
 
 v.* by LexCat
 ========================
-   5598 V
+   5597 V
      99 V.IAV
      11 V.LVC.cause
     109 V.LVC.full
@@ -233,7 +233,7 @@ v.* by LexCat
 p.* by LexCat
 ========================
     207 INF.P
-   3278 P
+   3279 P
      51 POSS
     150 PP
     865 PRON.POSS
@@ -243,7 +243,7 @@ p.* by LexCat + construal type
     185 INF.P	p.X ~> p.X
      22 INF.P	p.X ~> p.Y
    2393 P	p.X ~> p.X
-    885 P	p.X ~> p.Y
+    886 P	p.X ~> p.Y
      20 POSS	p.X ~> p.X
      31 POSS	p.X ~> p.Y
      84 PP	p.X ~> p.X
@@ -258,7 +258,7 @@ p.* by LexCat + spatiotemporality
     204 INF.P 	p.OTH ~> *
     877 P 	p.LOC ~> *
    2017 P 	p.OTH ~> *
-    384 P 	p.TMP ~> *
+    385 P 	p.TMP ~> *
      46 POSS 	p.OTH ~> *
       5 POSS 	p.TMP ~> *
      50 PP 	p.LOC ~> *

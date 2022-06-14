@@ -319,7 +319,7 @@
    {
     "#": 2,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -404,7 +404,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -591,7 +591,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -672,7 +672,24 @@
     "lextag": "O-SYM"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -1228,7 +1245,7 @@
     "lemma": "thank",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -1964,9 +1981,9 @@
     "upos": "PUNCT",
     "xpos": "-LRB-",
     "feats": null,
-    "head": 10,
+    "head": 11,
     "deprel": "punct",
-    "edeps": "10:punct",
+    "edeps": "11:punct",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -2009,9 +2026,9 @@
     "upos": "PUNCT",
     "xpos": "-RRB-",
     "feats": null,
-    "head": 10,
+    "head": 11,
     "deprel": "punct",
-    "edeps": "10:punct",
+    "edeps": "11:punct",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -2602,9 +2619,9 @@
     "upos": "VERB",
     "xpos": "VBN",
     "feats": "Tense=Past|VerbForm=Part",
-    "head": 5,
+    "head": 4,
     "deprel": "xcomp",
-    "edeps": "5:xcomp",
+    "edeps": "4:xcomp",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -3415,7 +3432,7 @@
     "lemma": "specialize",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -3720,7 +3737,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -3753,7 +3770,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -3793,7 +3810,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "o-PRON"
@@ -3804,7 +3821,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "aux",
     "edeps": "7:aux",
@@ -3852,7 +3869,7 @@
     "lemma": "help",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "conj",
     "edeps": "3:conj:and",
@@ -3982,10 +3999,27 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "they're",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -4217,16 +4251,16 @@
     "#": 5,
     "word": "both",
     "lemma": "both",
-    "upos": "DET",
-    "xpos": "DT",
+    "upos": "CCONJ",
+    "xpos": "CC",
     "feats": null,
     "head": 1,
-    "deprel": "advmod",
-    "edeps": "1:advmod",
+    "deprel": "cc:preconj",
+    "edeps": "1:cc:preconj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-DET"
+    "lextag": "O-CCONJ"
    },
    {
     "#": 6,
@@ -4234,7 +4268,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -4360,7 +4394,7 @@
    },
    "5": {
     "lexlemma": "both",
-    "lexcat": "DET",
+    "lexcat": "CCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -5181,11 +5215,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -5299,7 +5333,7 @@
     "head": 13,
     "deprel": "nsubj",
     "edeps": "13:nsubj|15:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "o-PRON"
@@ -5386,7 +5420,40 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "it's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "but",
@@ -5529,7 +5596,7 @@
    {
     "#": 1,
     "word": "Worst",
-    "lemma": "worst",
+    "lemma": "bad",
     "upos": "ADV",
     "xpos": "RBS",
     "feats": "Degree=Sup",
@@ -5575,7 +5642,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "worst",
+    "lexlemma": "bad",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -5647,7 +5714,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -5674,7 +5741,7 @@
    {
     "#": 5,
     "word": "worst",
-    "lemma": "worst",
+    "lemma": "bad",
     "upos": "ADV",
     "xpos": "RBS",
     "feats": "Degree=Sup",
@@ -5737,7 +5804,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 11,
     "deprel": "aux",
     "edeps": "11:aux",
@@ -5816,7 +5883,7 @@
     "head": 17,
     "deprel": "advmod",
     "edeps": "17:advmod",
-    "misc": null,
+    "misc": "CorrectForm=possibly",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -5839,7 +5906,7 @@
    {
     "#": 16,
     "word": "worst",
-    "lemma": "worst",
+    "lemma": "bad",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -5876,7 +5943,7 @@
     "head": 21,
     "deprel": "nsubj",
     "edeps": "21:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -5887,7 +5954,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 21,
     "deprel": "aux",
     "edeps": "21:aux",
@@ -5942,7 +6009,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     18,
+     19,
+     "18-19"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -5981,7 +6065,7 @@
     ]
    },
    "5": {
-    "lexlemma": "worst",
+    "lexlemma": "bad",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -6080,7 +6164,7 @@
     ]
    },
    "16": {
-    "lexlemma": "worst",
+    "lexlemma": "bad",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -6173,11 +6257,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -6363,7 +6447,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -6741,7 +6842,7 @@
     "lemma": "send",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -6950,7 +7051,7 @@
     "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -6980,7 +7081,7 @@
     "lemma": "call",
     "upos": "VERB",
     "xpos": "VB",
-    "feats": "VerbForm=Inf",
+    "feats": "Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 1,
     "deprel": "ccomp",
     "edeps": "1:ccomp",
@@ -7333,7 +7434,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
@@ -7427,7 +7528,7 @@
     "head": 9,
     "deprel": "det",
     "edeps": "9:det",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectSpaceAfter=Yes|SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-DET"
@@ -7495,7 +7596,7 @@
    {
     "#": 13,
     "word": "slower",
-    "lemma": "slower",
+    "lemma": "slow",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -7664,7 +7765,7 @@
     ]
    },
    "13": {
-    "lexlemma": "slower",
+    "lexlemma": "slow",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -7682,7 +7783,7 @@
     ],
     "heuristic_relation": {
      "gov": 13,
-     "govlemma": "slower",
+     "govlemma": "slow",
      "obj": 15,
      "objlemma": "slow",
      "config": "default"
@@ -7782,7 +7883,7 @@
     "lemma": "leave",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -8409,7 +8510,7 @@
    {
     "#": 5,
     "word": "better",
-    "lemma": "better",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -8424,7 +8525,7 @@
    {
     "#": 6,
     "word": "mexican",
-    "lemma": "mexican",
+    "lemma": "Mexican",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -8536,7 +8637,7 @@
     ]
    },
    "5": {
-    "lexlemma": "better",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -8545,7 +8646,7 @@
     ]
    },
    "6": {
-    "lexlemma": "mexican",
+    "lexlemma": "Mexican",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -8844,7 +8945,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -8855,7 +8956,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "cop",
     "edeps": "3:cop",
@@ -8915,7 +9016,7 @@
     "lemma": "refer",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "ccomp",
     "edeps": "3:ccomp",
@@ -9045,7 +9146,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -9225,7 +9343,7 @@
     "lemma": "own",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -9321,7 +9439,7 @@
     "lemma": "need",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -9931,7 +10049,7 @@
     "#": 12,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": ",",
     "feats": null,
     "head": 14,
@@ -9940,7 +10058,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 13,
@@ -10119,7 +10237,7 @@
    },
    "12": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -10201,7 +10319,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -10358,7 +10476,7 @@
     "lemma": "deliver",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -10536,7 +10654,7 @@
     "lemma": "think",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -10626,7 +10744,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "ccomp",
     "edeps": "2:ccomp",
@@ -11002,7 +11120,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "cop",
     "edeps": "4:cop",
@@ -11162,7 +11280,7 @@
    {
     "#": 4,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -11220,7 +11338,7 @@
     "head": 10,
     "deprel": "nsubj",
     "edeps": "10:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -11231,7 +11349,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 10,
     "deprel": "aux",
     "edeps": "10:aux",
@@ -11382,7 +11500,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "Edit",
@@ -11412,7 +11547,7 @@
     ]
    },
    "4": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -11604,7 +11739,7 @@
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectForm=unique|SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -11758,7 +11893,7 @@
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and|9:amod",
-    "misc": null,
+    "misc": "CorrectForm=unique",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -12191,7 +12326,7 @@
     "#": 17,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": "HYPH",
     "feats": null,
     "head": 18,
@@ -12200,7 +12335,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 18,
@@ -12398,7 +12533,7 @@
    },
    "17": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -12548,7 +12683,7 @@
     "lemma": "thank",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -12959,8 +13094,8 @@
     "xpos": "VB",
     "feats": "Mood=Imp|VerbForm=Fin",
     "head": 4,
-    "deprel": "advcl",
-    "edeps": "4:advcl",
+    "deprel": "parataxis",
+    "edeps": "4:parataxis",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -13174,7 +13309,7 @@
     "lemma": "more",
     "upos": "ADV",
     "xpos": "RBR",
-    "feats": null,
+    "feats": "Degree=Cmp",
     "head": 3,
     "deprel": "advmod",
     "edeps": "3:advmod",
@@ -13261,7 +13396,7 @@
     "lemma": "end",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -13673,7 +13808,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -13719,9 +13854,9 @@
     "upos": "PUNCT",
     "xpos": ",",
     "feats": null,
-    "head": 2,
+    "head": 6,
     "deprel": "punct",
-    "edeps": "2:punct",
+    "edeps": "6:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -13733,7 +13868,7 @@
     "lemma": "last",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "acl:relcl",
     "edeps": "4:acl:relcl",
@@ -13958,7 +14093,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -14300,7 +14435,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -14840,7 +14975,7 @@
    {
     "#": 8,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -15050,7 +15185,7 @@
    {
     "#": 22,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -15371,7 +15506,7 @@
      "gov": 5,
      "govlemma": "one",
      "obj": 8,
-     "objlemma": "best",
+     "objlemma": "good",
      "config": "default"
     }
    },
@@ -15385,7 +15520,7 @@
     ]
    },
    "8": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -15403,7 +15538,7 @@
     ],
     "heuristic_relation": {
      "gov": 8,
-     "govlemma": "best",
+     "govlemma": "good",
      "obj": null,
      "objlemma": null,
      "config": "default"
@@ -15518,7 +15653,7 @@
     ]
    },
    "22": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -16151,7 +16286,7 @@
     "head": 9,
     "deprel": "nsubj",
     "edeps": "9:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -16514,7 +16649,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "its",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -16836,7 +16988,7 @@
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -16902,7 +17054,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "its",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "yes",
@@ -17020,7 +17189,7 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -17230,11 +17399,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 17,
     "deprel": "aux",
     "edeps": "17:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -17291,16 +17460,33 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 10,
+    "head": 17,
     "deprel": "punct",
-    "edeps": "10:punct",
+    "edeps": "17:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     15,
+     16,
+     "15-16"
+    ],
+    "word": "didn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "take",
@@ -17510,7 +17696,7 @@
     "lemma": "notice",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -17541,9 +17727,9 @@
     "#": 3,
     "word": "few",
     "lemma": "few",
-    "upos": "NOUN",
-    "xpos": "NN",
-    "feats": "Number=Sing",
+    "upos": "ADJ",
+    "xpos": "JJ",
+    "feats": "Degree=Pos",
     "head": 1,
     "deprel": "obj",
     "edeps": "1:obj",
@@ -17573,7 +17759,7 @@
    {
     "#": 5,
     "word": "these",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -17700,12 +17886,12 @@
     "#": 13,
     "word": "New",
     "lemma": "New",
-    "upos": "PROPN",
+    "upos": "ADJ",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Degree=Pos",
     "head": 14,
-    "deprel": "compound",
-    "edeps": "14:compound",
+    "deprel": "amod",
+    "edeps": "14:amod",
     "misc": null,
     "smwe": [
      3,
@@ -17776,7 +17962,7 @@
     }
    },
    "5": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -18242,7 +18428,7 @@
     "lemma": "live",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -19009,7 +19195,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 15,
     "deprel": "cop",
     "edeps": "15:cop",
@@ -19294,7 +19480,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "parataxis",
     "edeps": "4:parataxis",
@@ -19337,7 +19523,7 @@
     "#": 10,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 12,
@@ -19346,7 +19532,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 11,
@@ -19369,7 +19555,7 @@
     "lemma": "walk",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "advcl",
     "edeps": "7:advcl:when",
@@ -19531,7 +19717,7 @@
    },
    "10": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -19625,7 +19811,7 @@
     "lemma": "feel",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -19716,7 +19902,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -19971,7 +20157,7 @@
     "lemma": "see",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 17,
     "deprel": "acl:relcl",
     "edeps": "17:acl:relcl",
@@ -20243,7 +20429,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -20254,7 +20440,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
@@ -20374,7 +20560,7 @@
     "lemma": "what",
     "upos": "PRON",
     "xpos": "WP",
-    "feats": "PronType=Int",
+    "feats": "PronType=Rel",
     "head": 10,
     "deprel": "obj",
     "edeps": "10:obj",
@@ -20419,7 +20605,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 11,
     "deprel": "acl:relcl",
     "edeps": "11:acl:relcl",
@@ -20444,7 +20630,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "now",
@@ -20601,7 +20804,7 @@
     "head": 5,
     "deprel": "compound",
     "edeps": "5:compound",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -20615,11 +20818,11 @@
     "lemma": "'s",
     "upos": "PART",
     "xpos": "POS",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 1,
     "deprel": "case",
     "edeps": "1:case",
-    "misc": null,
+    "misc": "CorrectForm='s",
     "smwe": [
      1,
      2
@@ -20808,7 +21011,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Mens",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "6": {
     "lexlemma": ",",
@@ -21678,7 +21898,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "cop",
     "edeps": "6:cop",
@@ -22126,7 +22346,7 @@
     "head": 13,
     "deprel": "aux",
     "edeps": "13:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -22300,7 +22520,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "doesnt",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -22491,7 +22728,7 @@
     "lemma": "try",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -22611,7 +22848,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 13,
     "deprel": "cop",
     "edeps": "13:cop",
@@ -22669,7 +22906,7 @@
     "#": 14,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 16,
@@ -22707,7 +22944,7 @@
     "lemma": "come",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 13,
     "deprel": "advcl",
     "edeps": "13:advcl:when",
@@ -22952,7 +23189,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": [
      1,
@@ -23087,7 +23324,24 @@
     "lextag": "I~-N-n.ARTIFACT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -23516,7 +23770,7 @@
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": [
      1,
@@ -23563,7 +23817,7 @@
    {
     "#": 5,
     "word": "farther",
-    "lemma": "farther",
+    "lemma": "far",
     "upos": "ADV",
     "xpos": "RBR",
     "feats": "Degree=Cmp",
@@ -23648,7 +23902,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "couldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -23687,7 +23958,7 @@
     ]
    },
    "5": {
-    "lexlemma": "farther",
+    "lexlemma": "far",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -23705,7 +23976,7 @@
     ],
     "heuristic_relation": {
      "gov": 5,
-     "govlemma": "farther",
+     "govlemma": "far",
      "obj": 8,
      "objlemma": "truth",
      "config": "default"
@@ -23742,7 +24013,7 @@
   "smwes": {},
   "wmwes": {
    "1": {
-    "lexlemma": "could not be farther from the truth",
+    "lexlemma": "could not be far from the truth",
     "toknums": [
      2,
      3,
@@ -23892,7 +24163,7 @@
     "head": 12,
     "deprel": "aux",
     "edeps": "12:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": [
      1,
@@ -23970,7 +24241,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     9,
+     10,
+     "9-10"
+    ],
+    "word": "cannot",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -24221,7 +24509,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "conj",
     "edeps": "4:conj:and",
@@ -24506,7 +24794,7 @@
     "head": 4,
     "deprel": "nmod:poss",
     "edeps": "4:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -24574,7 +24862,7 @@
     "lemma": "remove",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -24587,8 +24875,8 @@
     "#": 6,
     "word": "at",
     "lemma": "at",
-    "upos": "ADV",
-    "xpos": "RB",
+    "upos": "ADP",
+    "xpos": "IN",
     "feats": null,
     "head": 7,
     "deprel": "case",
@@ -24605,8 +24893,8 @@
     "#": 7,
     "word": "least",
     "lemma": "least",
-    "upos": "ADV",
-    "xpos": "RBS",
+    "upos": "ADJ",
+    "xpos": "JJS",
     "feats": "Degree=Sup",
     "head": 8,
     "deprel": "obl",
@@ -24833,7 +25121,7 @@
     "#": 22,
     "word": "over",
     "lemma": "over",
-    "upos": "ADP",
+    "upos": "ADV",
     "xpos": "IN",
     "feats": null,
     "head": 23,
@@ -24971,7 +25259,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Compact's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "5": {
     "lexlemma": "remove",
@@ -25537,11 +25842,11 @@
     "lemma": "taste",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": null,
+    "misc": "CorrectForm=tastes",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-V-v.perception"
@@ -25549,7 +25854,7 @@
    {
     "#": 3,
     "word": "better",
-    "lemma": "better",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -25667,7 +25972,7 @@
     ]
    },
    "3": {
-    "lexlemma": "better",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -25685,7 +25990,7 @@
     ],
     "heuristic_relation": {
      "gov": 3,
-     "govlemma": "better",
+     "govlemma": "good",
      "obj": 5,
      "objlemma": "In",
      "config": "default"
@@ -25791,7 +26096,7 @@
    {
     "#": 5,
     "word": "greek",
-    "lemma": "greek",
+    "lemma": "Greek",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -25894,7 +26199,7 @@
     ]
    },
    "5": {
-    "lexlemma": "greek",
+    "lexlemma": "Greek",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -26388,7 +26693,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -26518,7 +26823,7 @@
    {
     "#": 1,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -26645,7 +26950,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -26947,7 +27252,7 @@
    {
     "#": 2,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -26962,7 +27267,7 @@
    {
     "#": 3,
     "word": "Thai",
-    "lemma": "thai",
+    "lemma": "Thai",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -26999,7 +27304,7 @@
     "head": 8,
     "deprel": "nsubj",
     "edeps": "8:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -27010,7 +27315,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 8,
     "deprel": "aux",
     "edeps": "8:aux",
@@ -27217,7 +27522,7 @@
    {
     "#": 20,
     "word": "Thai",
-    "lemma": "thai",
+    "lemma": "Thai",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -27245,7 +27550,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -27257,7 +27579,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -27266,7 +27588,7 @@
     ]
    },
    "3": {
-    "lexlemma": "thai",
+    "lexlemma": "Thai",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -27419,7 +27741,7 @@
      "gov": 17,
      "govlemma": "favor",
      "obj": 20,
-     "objlemma": "thai",
+     "objlemma": "Thai",
      "config": "default"
     }
    },
@@ -27433,7 +27755,7 @@
     ]
    },
    "20": {
-    "lexlemma": "thai",
+    "lexlemma": "Thai",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -27526,7 +27848,7 @@
     "lemma": "most",
     "upos": "ADV",
     "xpos": "RBS",
-    "feats": null,
+    "feats": "Degree=Sup",
     "head": 6,
     "deprel": "advmod",
     "edeps": "6:advmod",
@@ -27553,7 +27875,7 @@
    {
     "#": 7,
     "word": "thai",
-    "lemma": "thai",
+    "lemma": "Thai",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -27646,7 +27968,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 8,
     "deprel": "parataxis",
     "edeps": "8:parataxis",
@@ -27728,7 +28050,7 @@
     ]
    },
    "7": {
-    "lexlemma": "thai",
+    "lexlemma": "Thai",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -27819,7 +28141,7 @@
    {
     "#": 1,
     "word": "Friendliest",
-    "lemma": "friendliest",
+    "lemma": "friendly",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -27867,7 +28189,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
@@ -27925,7 +28247,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "friendliest",
+    "lexlemma": "friendly",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -28005,8 +28327,8 @@
     "xpos": "WDT",
     "feats": "PronType=Int",
     "head": 3,
-    "deprel": "det",
-    "edeps": "3:det",
+    "deprel": "det:predet",
+    "edeps": "3:det:predet",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -28711,7 +29033,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -28777,7 +29099,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "just",
@@ -28955,7 +29294,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -29003,7 +29342,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -29084,7 +29423,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "parataxis",
     "edeps": "4:parataxis",
@@ -29262,7 +29601,7 @@
     "head": 18,
     "deprel": "conj",
     "edeps": "18:conj:and|21:compound",
-    "misc": null,
+    "misc": "CorrectForm=surveillance",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-N-n.ACT"
@@ -29301,7 +29640,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -29517,7 +29856,7 @@
    {
     "#": 2,
     "word": "james",
-    "lemma": "james",
+    "lemma": "James",
     "upos": "PROPN",
     "xpos": "NNP",
     "feats": "Number=Sing",
@@ -29535,7 +29874,7 @@
    {
     "#": 3,
     "word": "bond",
-    "lemma": "bond",
+    "lemma": "Bond",
     "upos": "PROPN",
     "xpos": "NNP",
     "feats": "Number=Sing",
@@ -29685,7 +30024,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "james bond",
+    "lexlemma": "James Bond",
     "lexcat": "N",
     "ss": "n.PERSON",
     "ss2": null,
@@ -29706,7 +30045,7 @@
    {
     "#": 1,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -29812,7 +30151,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -30050,11 +30389,11 @@
     "lemma": "visit",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|Typo=Yes|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin",
     "head": 8,
     "deprel": "acl:relcl",
     "edeps": "8:acl:relcl",
-    "misc": null,
+    "misc": "CorrectForm=visited",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-V-v.motion"
@@ -30419,7 +30758,7 @@
     "lemma": "save",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -30467,7 +30806,7 @@
     "feats": "Number=Sing",
     "head": 5,
     "deprel": "obj",
-    "edeps": "5:obj",
+    "edeps": "5:obj|12:nsubj:xsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -30480,9 +30819,9 @@
     "upos": "VERB",
     "xpos": "VBG",
     "feats": "VerbForm=Ger",
-    "head": 12,
-    "deprel": "aux",
-    "edeps": "12:aux",
+    "head": 8,
+    "deprel": "acl",
+    "edeps": "8:acl",
     "misc": null,
     "smwe": null,
     "wmwe": [
@@ -30501,7 +30840,7 @@
     "head": 11,
     "deprel": "det",
     "edeps": "11:det",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectSpaceAfter=Yes|SpaceAfter=No",
     "smwe": [
      2,
      1
@@ -30530,13 +30869,13 @@
    {
     "#": 12,
     "word": "worse",
-    "lemma": "worse",
+    "lemma": "bad",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
-    "head": 8,
-    "deprel": "acl",
-    "edeps": "8:acl",
+    "head": 9,
+    "deprel": "xcomp",
+    "edeps": "9:xcomp",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
@@ -30645,7 +30984,7 @@
     ]
    },
    "12": {
-    "lexlemma": "worse",
+    "lexlemma": "bad",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -30677,7 +31016,7 @@
   },
   "wmwes": {
    "1": {
-    "lexlemma": "get worse",
+    "lexlemma": "get bad",
     "toknums": [
      9,
      12
@@ -30927,7 +31266,7 @@
     "lemma": "transform",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -31929,7 +32268,7 @@
     "lemma": "refer",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -32010,7 +32349,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -32338,12 +32677,12 @@
     "#": 4,
     "word": "is",
     "lemma": "be",
-    "upos": "VERB",
+    "upos": "AUX",
     "xpos": "VBZ",
     "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
-    "deprel": "aux:pass",
-    "edeps": "6:aux:pass",
+    "deprel": "cop",
+    "edeps": "6:cop|9:aux:pass",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -32490,7 +32829,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 17,
     "deprel": "cop",
     "edeps": "17:cop",
@@ -32595,11 +32934,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 23,
     "deprel": "aux",
     "edeps": "23:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -32716,7 +33055,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     21,
+     22,
+     "21-22"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -33487,7 +33843,7 @@
    {
     "#": 9,
     "word": "best",
-    "lemma": "best",
+    "lemma": "well",
     "upos": "ADV",
     "xpos": "RBS",
     "feats": "Degree=Sup",
@@ -33535,7 +33891,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 13,
     "deprel": "cop",
     "edeps": "13:cop",
@@ -33623,7 +33979,7 @@
     "#": 18,
     "word": "ie",
     "lemma": "ie",
-    "upos": "X",
+    "upos": "ADV",
     "xpos": "FW",
     "feats": null,
     "head": 22,
@@ -33632,7 +33988,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-X"
+    "lextag": "O-ADV"
    },
    {
     "#": 19,
@@ -33830,7 +34186,7 @@
     ]
    },
    "9": {
-    "lexlemma": "best",
+    "lexlemma": "well",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -33848,7 +34204,7 @@
     ],
     "heuristic_relation": {
      "gov": 9,
-     "govlemma": "best",
+     "govlemma": "well",
      "obj": null,
      "objlemma": null,
      "config": "default"
@@ -33933,7 +34289,7 @@
    },
    "18": {
     "lexlemma": "ie",
-    "lexcat": "X",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -34535,9 +34891,9 @@
     "upos": "NOUN",
     "xpos": "NN",
     "feats": "Number=Sing",
-    "head": 4,
+    "head": 3,
     "deprel": "nsubj",
-    "edeps": "4:nsubj",
+    "edeps": "3:nsubj|4:nsubj:xsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -34550,9 +34906,9 @@
     "upos": "VERB",
     "xpos": "VBZ",
     "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
-    "head": 4,
-    "deprel": "aux",
-    "edeps": "4:aux",
+    "head": 0,
+    "deprel": "root",
+    "edeps": "0:root",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -34565,9 +34921,9 @@
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
-    "head": 0,
-    "deprel": "root",
-    "edeps": "0:root",
+    "head": 3,
+    "deprel": "xcomp",
+    "edeps": "3:xcomp",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -34624,10 +34980,10 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
-    "head": 4,
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
+    "head": 3,
     "deprel": "conj",
-    "edeps": "4:conj:but",
+    "edeps": "3:conj:but",
     "misc": null,
     "smwe": [
      1,
@@ -34720,7 +35076,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 15,
     "deprel": "cop",
     "edeps": "15:cop",
@@ -34739,7 +35095,7 @@
     "head": 8,
     "deprel": "advcl",
     "edeps": "8:advcl:because",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectForm=organized|SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -34795,10 +35151,10 @@
     "lemma": "be",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
-    "head": 15,
-    "deprel": "advcl",
-    "edeps": "15:advcl",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
+    "head": 3,
+    "deprel": "parataxis",
+    "edeps": "3:parataxis",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -35331,7 +35687,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -35445,7 +35801,7 @@
     "lemma": "receive",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 7,
     "deprel": "acl:relcl",
     "edeps": "7:acl:relcl",
@@ -35897,7 +36253,7 @@
     "lemma": "feel",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -35942,7 +36298,7 @@
     "lemma": "walk",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "conj",
     "edeps": "3:conj:and",
@@ -36201,11 +36557,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -36712,7 +37068,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "dont",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "okay",
@@ -37055,7 +37428,7 @@
     "head": 5,
     "deprel": "nsubj",
     "edeps": "5:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -37066,7 +37439,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -37181,7 +37554,24 @@
     "lextag": "O-INTJ"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "like",
@@ -37332,7 +37722,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -37502,7 +37892,7 @@
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -37624,11 +38014,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 13,
     "deprel": "aux",
     "edeps": "13:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -37679,7 +38069,40 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "cannot",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "didn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "we",
@@ -37813,7 +38236,7 @@
    {
     "#": 1,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -37829,7 +38252,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -37850,7 +38273,7 @@
    {
     "#": 1,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -37902,7 +38325,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -37913,7 +38336,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "aux",
     "edeps": "7:aux",
@@ -37968,10 +38391,27 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "Ive",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -38152,7 +38592,7 @@
     "head": 3,
     "deprel": "parataxis",
     "edeps": "3:parataxis",
-    "misc": null,
+    "misc": "CorrectForm=recommend",
     "smwe": null,
     "wmwe": [
      1,
@@ -38453,7 +38893,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -38464,7 +38904,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
@@ -38686,7 +39126,7 @@
    {
     "#": 16,
     "word": "trimmers",
-    "lemma": "trimmers",
+    "lemma": "trimmer",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -38717,7 +39157,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Iv",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -38826,7 +39283,7 @@
      "gov": 13,
      "govlemma": "guy",
      "obj": 16,
-     "objlemma": "trimmers",
+     "objlemma": "trimmer",
      "config": "default"
     }
    },
@@ -38862,7 +39319,7 @@
     ]
    },
    "3": {
-    "lexlemma": "kelvin trimmers",
+    "lexlemma": "kelvin trimmer",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -38931,7 +39388,7 @@
     "lemma": "work",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "acl:relcl",
     "edeps": "2:acl:relcl",
@@ -38961,7 +39418,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "cop",
     "edeps": "7:cop",
@@ -38980,7 +39437,7 @@
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectForm=helpful|SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -39187,9 +39644,9 @@
     "upos": "AUX",
     "xpos": "MD",
     "feats": "VerbForm=Fin",
-    "head": 17,
+    "head": 18,
     "deprel": "advcl",
-    "edeps": "17:advcl:as",
+    "edeps": "18:advcl:as",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -39220,7 +39677,7 @@
     "head": 24,
     "deprel": "nmod:poss",
     "edeps": "24:nmod:poss",
-    "misc": null,
+    "misc": "CorrectForm=they",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON.POSS-p.Gestalt"
@@ -39651,7 +40108,7 @@
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectForm=recommend|SpaceAfter=No",
     "smwe": null,
     "wmwe": [
      1,
@@ -39666,9 +40123,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -39847,7 +40304,7 @@
    {
     "#": 3,
     "word": "asian",
-    "lemma": "asian",
+    "lemma": "Asian",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -39923,7 +40380,7 @@
   "etoks": [],
   "swes": {
    "3": {
-    "lexlemma": "asian",
+    "lexlemma": "Asian",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -40114,7 +40571,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 11,
     "deprel": "cop",
     "edeps": "11:cop",
@@ -40774,7 +41231,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -40900,7 +41357,7 @@
     "lemma": "relax",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
@@ -41039,7 +41496,7 @@
    {
     "#": 1,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -41136,7 +41593,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -41154,7 +41611,7 @@
     ],
     "heuristic_relation": {
      "gov": 1,
-     "govlemma": "best",
+     "govlemma": "good",
      "obj": 3,
      "objlemma": "HR",
      "config": "default"
@@ -41235,7 +41692,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -41340,7 +41797,7 @@
     "lemma": "work",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "advcl",
     "edeps": "3:advcl:since",
@@ -41620,7 +42077,7 @@
     "head": 5,
     "deprel": "nsubj",
     "edeps": "5:nsubj|15:nsubj|17:nsubj:xsubj|18:nsubj:xsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -41631,7 +42088,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
@@ -41808,7 +42265,7 @@
     "lemma": "decide",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "conj",
     "edeps": "5:conj:and",
@@ -41878,7 +42335,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "unfortunately",
@@ -42113,11 +42587,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -42233,7 +42707,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 12,
     "deprel": "aux",
     "edeps": "12:aux",
@@ -42318,7 +42792,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -42526,9 +43017,9 @@
     "#": 4,
     "word": "little",
     "lemma": "little",
-    "upos": "NOUN",
-    "xpos": "NN",
-    "feats": "Number=Sing",
+    "upos": "ADJ",
+    "xpos": "JJ",
+    "feats": "Degree=Pos",
     "head": 5,
     "deprel": "advmod",
     "edeps": "5:advmod",
@@ -42550,7 +43041,7 @@
     "head": 6,
     "deprel": "advmod",
     "edeps": "6:advmod",
-    "misc": null,
+    "misc": "CorrectForm=too",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -43012,7 +43503,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "cop",
     "edeps": "3:cop",
@@ -43043,9 +43534,9 @@
     "upos": "PUNCT",
     "xpos": ",",
     "feats": null,
-    "head": 9,
+    "head": 5,
     "deprel": "punct",
-    "edeps": "9:punct",
+    "edeps": "5:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -43464,9 +43955,9 @@
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
-    "head": 2,
-    "deprel": "amod",
-    "edeps": "2:amod",
+    "head": 0,
+    "deprel": "root",
+    "edeps": "0:root",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -43479,9 +43970,9 @@
     "upos": "ADV",
     "xpos": "RB",
     "feats": null,
-    "head": 0,
-    "deprel": "root",
-    "edeps": "0:root",
+    "head": 1,
+    "deprel": "advmod",
+    "edeps": "1:advmod",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -43494,9 +43985,9 @@
     "upos": "PUNCT",
     "xpos": ",",
     "feats": null,
-    "head": 2,
+    "head": 1,
     "deprel": "punct",
-    "edeps": "2:punct",
+    "edeps": "1:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -43509,9 +44000,9 @@
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
-    "head": 5,
-    "deprel": "amod",
-    "edeps": "5:amod",
+    "head": 1,
+    "deprel": "conj",
+    "edeps": "1:conj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -43524,9 +44015,9 @@
     "upos": "ADV",
     "xpos": "RB",
     "feats": null,
-    "head": 2,
-    "deprel": "conj",
-    "edeps": "2:conj",
+    "head": 4,
+    "deprel": "advmod",
+    "edeps": "4:advmod",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -43553,8 +44044,8 @@
      2
     ],
     "heuristic_relation": {
-     "gov": null,
-     "govlemma": null,
+     "gov": 1,
+     "govlemma": "good",
      "obj": null,
      "objlemma": null,
      "config": "default"
@@ -43587,8 +44078,8 @@
      5
     ],
     "heuristic_relation": {
-     "gov": null,
-     "govlemma": null,
+     "gov": 4,
+     "govlemma": "bad",
      "obj": null,
      "objlemma": null,
      "config": "default"
@@ -43689,7 +44180,7 @@
     "head": 4,
     "deprel": "advmod",
     "edeps": "4:advmod",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectForm=outside|SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -44291,7 +44782,7 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 11,
     "deprel": "aux",
     "edeps": "11:aux",
@@ -44366,7 +44857,7 @@
     "lemma": "say",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 11,
     "deprel": "parataxis",
     "edeps": "11:parataxis",
@@ -44378,7 +44869,7 @@
    {
     "#": 15,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -44593,7 +45084,7 @@
     ]
    },
    "15": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -44819,7 +45310,7 @@
     "lemma": "install",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -44833,8 +45324,8 @@
     "word": "Biometrics",
     "lemma": "Biometrics",
     "upos": "PROPN",
-    "xpos": "NNP",
-    "feats": "Number=Sing",
+    "xpos": "NNPS",
+    "feats": "Number=Plur",
     "head": 1,
     "deprel": "obj",
     "edeps": "1:obj",
@@ -44864,7 +45355,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
@@ -45015,7 +45506,7 @@
     "lemma": "like",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -45048,7 +45539,7 @@
     "lemma": "move",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "compound",
     "edeps": "9:compound",
@@ -45135,7 +45626,7 @@
    {
     "#": 9,
     "word": "Movers",
-    "lemma": "Movers",
+    "lemma": "Mover",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -45186,7 +45677,7 @@
     "lemma": "move",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "parataxis",
     "edeps": "2:parataxis",
@@ -45306,7 +45797,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 21,
     "deprel": "cop",
     "edeps": "21:cop",
@@ -45493,7 +45984,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "I move CA - Los Angeles Movers",
+    "lexlemma": "I move CA - Los Angeles Mover",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -46183,7 +46674,7 @@
    {
     "#": 2,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -46337,7 +46828,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -46619,7 +47110,7 @@
     "lemma": "call",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "parataxis",
     "edeps": "2:parataxis",
@@ -46739,7 +47230,7 @@
     "lemma": "leave",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "conj",
     "edeps": "3:conj:and",
@@ -47245,7 +47736,7 @@
     "head": 16,
     "deprel": "nsubj",
     "edeps": "16:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -47256,7 +47747,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 16,
     "deprel": "aux",
     "edeps": "16:aux",
@@ -47343,7 +47834,7 @@
    {
     "#": 21,
     "word": "better",
-    "lemma": "better",
+    "lemma": "well",
     "upos": "ADV",
     "xpos": "RBR",
     "feats": "Degree=Cmp",
@@ -47371,7 +47862,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     14,
+     15,
+     "14-15"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -47530,7 +48038,7 @@
     ]
    },
    "21": {
-    "lexlemma": "better",
+    "lexlemma": "well",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -47888,7 +48396,7 @@
     "lemma": "speed",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -48450,7 +48958,7 @@
    {
     "#": 5,
     "word": "Services",
-    "lemma": "Services",
+    "lemma": "Service",
     "upos": "PROPN",
     "xpos": "NNP",
     "feats": "Number=Sing",
@@ -48471,7 +48979,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "cop",
     "edeps": "7:cop",
@@ -48636,7 +49144,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin",
     "head": 14,
     "deprel": "acl:relcl",
     "edeps": "14:acl:relcl",
@@ -48684,14 +49192,14 @@
    {
     "#": 19,
     "word": "out",
-    "lemma": "our",
+    "lemma": "we",
     "upos": "PRON",
     "xpos": "PRP$",
     "feats": "Number=Plur|Person=1|Poss=Yes|PronType=Prs|Typo=Yes",
     "head": 20,
     "deprel": "nmod:poss",
     "edeps": "20:nmod:poss",
-    "misc": null,
+    "misc": "CorrectForm=our",
     "smwe": null,
     "wmwe": null,
     "lextag": "o-PRON.POSS-p.Possessor"
@@ -49057,16 +49565,16 @@
     "#": 43,
     "word": "computer",
     "lemma": "computer",
-    "upos": "ADJ",
-    "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "upos": "NOUN",
+    "xpos": "NN",
+    "feats": "Number=Sing",
     "head": 44,
-    "deprel": "amod",
-    "edeps": "44:amod",
+    "deprel": "compound",
+    "edeps": "44:compound",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADJ"
+    "lextag": "O-N-n.ARTIFACT"
    },
    {
     "#": 44,
@@ -49122,7 +49630,7 @@
      "gov": 1,
      "govlemma": "we",
      "obj": 5,
-     "objlemma": "Services",
+     "objlemma": "Service",
      "config": "default"
     }
    },
@@ -49220,7 +49728,7 @@
     }
    },
    "19": {
-    "lexlemma": "our",
+    "lexlemma": "we",
     "lexcat": "PRON.POSS",
     "ss": "p.Possessor",
     "ss2": "p.Possessor",
@@ -49429,8 +49937,8 @@
    },
    "43": {
     "lexlemma": "computer",
-    "lexcat": "ADJ",
-    "ss": null,
+    "lexcat": "N",
+    "ss": "n.ARTIFACT",
     "ss2": null,
     "toknums": [
      43
@@ -49457,7 +49965,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "R&L Plumbing Services",
+    "lexlemma": "R&L Plumbing Service",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -49775,7 +50283,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -50033,7 +50541,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -50066,7 +50574,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -50190,7 +50698,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -50310,7 +50818,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
@@ -50329,7 +50837,7 @@
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": null,
+    "misc": "CorrectForm=use",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-V-v.social"
@@ -50996,7 +51504,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
@@ -51588,22 +52096,22 @@
    {
     "#": 2,
     "word": "english",
-    "lemma": "english",
-    "upos": "PROPN",
+    "lemma": "English",
+    "upos": "ADJ",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Degree=Pos",
     "head": 3,
-    "deprel": "compound",
-    "edeps": "3:compound",
+    "deprel": "amod",
+    "edeps": "3:amod",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-N-n.COMMUNICATION"
+    "lextag": "O-ADJ"
    },
    {
     "#": 3,
     "word": "rushi",
-    "lemma": "rushi",
+    "lemma": "Rushi",
     "upos": "PROPN",
     "xpos": "NNP",
     "feats": "Number=Sing",
@@ -51628,16 +52136,16 @@
     ]
    },
    "2": {
-    "lexlemma": "english",
-    "lexcat": "N",
-    "ss": "n.COMMUNICATION",
+    "lexlemma": "English",
+    "lexcat": "ADJ",
+    "ss": null,
     "ss2": null,
     "toknums": [
      2
     ]
    },
    "3": {
-    "lexlemma": "rushi",
+    "lexlemma": "Rushi",
     "lexcat": "N",
     "ss": "n.PERSON",
     "ss2": null,
@@ -51811,7 +52319,7 @@
     "lemma": "make",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 7,
     "deprel": "acl:relcl",
     "edeps": "7:acl:relcl",
@@ -52789,7 +53297,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -52816,7 +53324,7 @@
    {
     "#": 5,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -52979,7 +53487,7 @@
     ]
    },
    "5": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -53613,7 +54121,7 @@
     "lemma": "order",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -53778,7 +54286,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 14,
     "deprel": "cop",
     "edeps": "14:cop",
@@ -54236,9 +54744,9 @@
     "#": 5,
     "word": "little",
     "lemma": "little",
-    "upos": "NOUN",
-    "xpos": "NN",
-    "feats": "Number=Sing",
+    "upos": "ADJ",
+    "xpos": "JJ",
+    "feats": "Degree=Pos",
     "head": 9,
     "deprel": "obl:npmod",
     "edeps": "9:obl:npmod",
@@ -54430,7 +54938,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 15,
     "deprel": "acl:relcl",
     "edeps": "15:acl:relcl",
@@ -54475,7 +54983,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 22,
     "deprel": "cop",
     "edeps": "22:cop",
@@ -54981,9 +55489,9 @@
     "#": 5,
     "word": "little",
     "lemma": "little",
-    "upos": "NOUN",
-    "xpos": "NN",
-    "feats": "Number=Sing",
+    "upos": "ADJ",
+    "xpos": "JJ",
+    "feats": "Degree=Pos",
     "head": 6,
     "deprel": "obl:npmod",
     "edeps": "6:obl:npmod",
@@ -54998,7 +55506,7 @@
    {
     "#": 6,
     "word": "better",
-    "lemma": "better",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -55035,7 +55543,7 @@
     "head": 14,
     "deprel": "nsubj",
     "edeps": "14:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -55137,7 +55645,24 @@
     "lextag": "O-N-n.GROUP"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "its",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "service",
@@ -55167,7 +55692,7 @@
     ]
    },
    "6": {
-    "lexlemma": "better",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -55465,7 +55990,7 @@
     "head": 15,
     "deprel": "advmod",
     "edeps": "15:advmod",
-    "misc": null,
+    "misc": "CorrectForm=too",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -55934,7 +56459,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -55967,7 +56492,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -56057,7 +56582,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "conj",
     "edeps": "5:conj:and",
@@ -56211,7 +56736,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -56498,8 +57023,8 @@
     "#": 8,
     "word": "at",
     "lemma": "at",
-    "upos": "ADV",
-    "xpos": "RB",
+    "upos": "ADP",
+    "xpos": "IN",
     "feats": null,
     "head": 9,
     "deprel": "case",
@@ -56516,8 +57041,8 @@
     "#": 9,
     "word": "all",
     "lemma": "all",
-    "upos": "ADV",
-    "xpos": "RB",
+    "upos": "DET",
+    "xpos": "DT",
     "feats": null,
     "head": 7,
     "deprel": "nmod",
@@ -56555,7 +57080,7 @@
     "head": 14,
     "deprel": "nsubj",
     "edeps": "14:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -56566,7 +57091,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 14,
     "deprel": "cop",
     "edeps": "14:cop",
@@ -56641,7 +57166,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 18,
     "deprel": "cop",
     "edeps": "18:cop",
@@ -56681,7 +57206,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -56889,7 +57431,7 @@
    {
     "#": 2,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -56947,7 +57489,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -56958,7 +57500,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "aux",
     "edeps": "7:aux",
@@ -57070,7 +57612,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -57082,7 +57641,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -57212,7 +57771,7 @@
     "lemma": "help",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -57306,7 +57865,7 @@
     "head": 10,
     "deprel": "nmod:poss",
     "edeps": "10:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-N-n.GROUP"
@@ -57434,7 +57993,7 @@
    {
     "#": 17,
     "word": "happier",
-    "lemma": "happier",
+    "lemma": "happy",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -57462,7 +58021,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "firm's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "Michael",
@@ -57630,7 +58206,7 @@
     ]
    },
    "17": {
-    "lexlemma": "happier",
+    "lexlemma": "happy",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -57678,7 +58254,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -57954,7 +58530,7 @@
     "lemma": "wish",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 18,
     "deprel": "acl:relcl",
     "edeps": "18:acl:relcl",
@@ -58059,7 +58635,7 @@
     "lemma": "make",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -58075,9 +58651,9 @@
     "upos": "PRON",
     "xpos": "DT",
     "feats": "Number=Sing|PronType=Dem",
-    "head": 29,
-    "deprel": "nsubj",
-    "edeps": "29:nsubj",
+    "head": 27,
+    "deprel": "obj",
+    "edeps": "27:obj|29:nsubj:xsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -58091,8 +58667,8 @@
     "xpos": "VB",
     "feats": "VerbForm=Inf",
     "head": 27,
-    "deprel": "ccomp",
-    "edeps": "27:ccomp",
+    "deprel": "xcomp",
+    "edeps": "27:xcomp",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
@@ -58427,7 +59003,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -58517,7 +59093,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "He's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "he",
@@ -58604,7 +59197,7 @@
     "lemma": "be",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -58846,7 +59439,7 @@
     "lemma": "provide",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -58942,7 +59535,7 @@
     "lemma": "come",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "conj",
     "edeps": "3:conj:and",
@@ -59343,7 +59936,7 @@
     "lemma": "make",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -59584,7 +60177,7 @@
    {
     "#": 4,
     "word": "worst",
-    "lemma": "worst",
+    "lemma": "bad",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -59606,7 +60199,7 @@
     "head": 7,
     "deprel": "nmod:poss",
     "edeps": "7:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -59620,11 +60213,11 @@
     "lemma": "'s",
     "upos": "PART",
     "xpos": "POS",
-    "feats": null,
+    "feats": "Typo=Yes",
     "head": 5,
     "deprel": "case",
     "edeps": "5:case",
-    "misc": null,
+    "misc": "CorrectForm='s",
     "smwe": [
      1,
      2
@@ -59660,7 +60253,7 @@
     "head": 11,
     "deprel": "nsubj",
     "edeps": "11:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -59671,7 +60264,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 11,
     "deprel": "aux",
     "edeps": "11:aux",
@@ -59732,7 +60325,40 @@
     "lextag": "I_"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "Sams",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     8,
+     9,
+     "8-9"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -59762,7 +60388,7 @@
     ]
    },
    "4": {
-    "lexlemma": "worst",
+    "lexlemma": "bad",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -59837,8 +60463,8 @@
     "xpos": "WDT",
     "feats": "PronType=Int",
     "head": 5,
-    "deprel": "det",
-    "edeps": "5:det",
+    "deprel": "det:predet",
+    "edeps": "5:det:predet",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -59869,7 +60495,7 @@
     "head": 4,
     "deprel": "compound",
     "edeps": "4:compound",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectSpaceAfter=Yes|SpaceAfter=No",
     "smwe": [
      1,
      1
@@ -59982,7 +60608,7 @@
     "lemma": "treat",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -60001,7 +60627,7 @@
     "head": 4,
     "deprel": "nmod:poss",
     "edeps": "4:nmod:poss",
-    "misc": null,
+    "misc": "CorrectForm=their",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"
@@ -60102,7 +60728,7 @@
     "lemma": "expect",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -60241,7 +60867,7 @@
     "head": 20,
     "deprel": "nmod:poss",
     "edeps": "20:nmod:poss",
-    "misc": null,
+    "misc": "CorrectForm=their",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"
@@ -60531,7 +61157,7 @@
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": null,
+    "misc": "CorrectForm=review",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-N-n.COMMUNICATION"
@@ -60588,7 +61214,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -60615,7 +61241,7 @@
    {
     "#": 4,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -60742,7 +61368,7 @@
     ]
    },
    "4": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -60825,7 +61451,7 @@
    {
     "#": 1,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -60843,7 +61469,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -60885,7 +61511,7 @@
    {
     "#": 5,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -60946,7 +61572,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -60989,7 +61615,7 @@
     }
    },
    "5": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -61052,7 +61678,7 @@
    {
     "#": 2,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -61167,7 +61793,7 @@
     ]
    },
    "2": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -61275,7 +61901,7 @@
     "lemma": "ruin",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -61335,7 +61961,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "acl:relcl",
     "edeps": "5:acl:relcl",
@@ -61584,7 +62210,7 @@
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -61611,7 +62237,24 @@
     "lextag": "I_"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "Ralph's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -61697,7 +62340,7 @@
     "lemma": "call",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -61806,7 +62449,7 @@
     "head": 12,
     "deprel": "nmod:poss",
     "edeps": "12:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -61866,7 +62509,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     10,
+     11,
+     "10-11"
+    ],
+    "word": "Ralph's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -62109,7 +62769,7 @@
     "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -62170,7 +62830,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -63228,7 +63888,7 @@
     "#": 5,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 7,
@@ -63237,7 +63897,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 6,
@@ -63260,7 +63920,7 @@
     "lemma": "need",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "advcl",
     "edeps": "3:advcl:when",
@@ -63343,7 +64003,7 @@
    },
    "5": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -63664,7 +64324,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 14,
     "deprel": "aux",
     "edeps": "14:aux",
@@ -63905,7 +64565,7 @@
     "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -64264,14 +64924,14 @@
    {
     "#": 2,
     "word": "bast",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup|Typo=Yes",
     "head": 3,
     "deprel": "amod",
     "edeps": "3:amod",
-    "misc": null,
+    "misc": "CorrectForm=best",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -64309,7 +64969,7 @@
    {
     "#": 5,
     "word": "minneapolis",
-    "lemma": "minneapolis",
+    "lemma": "Minneapolis",
     "upos": "PROPN",
     "xpos": "NNP",
     "feats": "Number=Sing",
@@ -64334,7 +64994,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -64363,12 +65023,12 @@
      "gov": 3,
      "govlemma": "cab",
      "obj": 5,
-     "objlemma": "minneapolis",
+     "objlemma": "Minneapolis",
      "config": "default"
     }
    },
    "5": {
-    "lexlemma": "minneapolis",
+    "lexlemma": "Minneapolis",
     "lexcat": "N",
     "ss": "n.LOCATION",
     "ss2": null,
@@ -64452,7 +65112,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -64842,7 +65502,7 @@
    {
     "#": 1,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -64860,7 +65520,7 @@
     "lemma": "wish",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -64917,7 +65577,7 @@
    {
     "#": 6,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -64935,7 +65595,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "acl:relcl",
     "edeps": "5:acl:relcl",
@@ -65007,7 +65667,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "ccomp",
     "edeps": "2:ccomp",
@@ -65131,7 +65791,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -65176,7 +65836,7 @@
     ]
    },
    "6": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -65970,7 +66630,7 @@
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj|15:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -65981,7 +66641,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
@@ -66131,7 +66791,7 @@
     "lemma": "open",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "advcl",
     "edeps": "6:advcl:since",
@@ -66176,7 +66836,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "conj",
     "edeps": "6:conj:and",
@@ -66296,7 +66956,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 25,
     "deprel": "cop",
     "edeps": "25:cop",
@@ -66351,7 +67011,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -66763,7 +67440,7 @@
     "head": 13,
     "deprel": "nsubj",
     "edeps": "13:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -66829,7 +67506,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     10,
+     11,
+     "10-11"
+    ],
+    "word": "she's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "particularly",
@@ -67150,7 +67844,7 @@
     "lemma": "listen",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -67231,7 +67925,7 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
@@ -67599,7 +68293,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
@@ -67830,7 +68524,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 20,
     "deprel": "aux",
     "edeps": "20:aux",
@@ -69145,7 +69839,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 8,
     "deprel": "cop",
     "edeps": "8:cop",
@@ -69191,9 +69885,9 @@
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Plur|Person=3|PronType=Prs",
-    "head": 11,
+    "head": 10,
     "deprel": "nsubj",
-    "edeps": "11:nsubj",
+    "edeps": "10:nsubj|11:nsubj:xsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -69205,10 +69899,10 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
-    "head": 11,
-    "deprel": "aux",
-    "edeps": "11:aux",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+    "head": 8,
+    "deprel": "parataxis",
+    "edeps": "8:parataxis",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -69221,9 +69915,9 @@
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
-    "head": 8,
-    "deprel": "parataxis",
-    "edeps": "8:parataxis",
+    "head": 10,
+    "deprel": "xcomp",
+    "edeps": "10:xcomp",
     "misc": null,
     "smwe": null,
     "wmwe": [
@@ -69290,9 +69984,9 @@
     "upos": "PRON",
     "xpos": "NN",
     "feats": "Number=Sing",
-    "head": 11,
+    "head": 10,
     "deprel": "obl",
-    "edeps": "11:obl:for",
+    "edeps": "10:obl:for",
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": [
@@ -69459,8 +70153,8 @@
      14
     ],
     "heuristic_relation": {
-     "gov": 11,
-     "govlemma": "mad",
+     "gov": 10,
+     "govlemma": "get",
      "obj": 15,
      "objlemma": "nothing",
      "config": "default"
@@ -69559,7 +70253,7 @@
    {
     "#": 4,
     "word": "WORST",
-    "lemma": "worst",
+    "lemma": "bad",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -69596,7 +70290,7 @@
     "head": 9,
     "deprel": "nsubj",
     "edeps": "9:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -69607,7 +70301,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "aux",
     "edeps": "9:aux",
@@ -69668,7 +70362,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     6,
+     7,
+     "6-7"
+    ],
+    "word": "IVE",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "this",
@@ -69698,7 +70409,7 @@
     ]
    },
    "4": {
-    "lexlemma": "worst",
+    "lexlemma": "bad",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -69987,7 +70698,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "cop",
     "edeps": "6:cop",
@@ -70598,7 +71309,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "cop",
     "edeps": "9:cop",
@@ -70911,7 +71622,7 @@
     "feats": "PronType=Int",
     "head": 3,
     "deprel": "obl",
-    "edeps": "3:obl:to",
+    "edeps": "3:obl:to|12:obj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -71657,7 +72368,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "cop",
     "edeps": "6:cop",
@@ -72053,7 +72764,7 @@
    {
     "#": 4,
     "word": "lower",
-    "lemma": "lower",
+    "lemma": "low",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -72105,7 +72816,7 @@
     "head": 9,
     "deprel": "nmod:poss",
     "edeps": "9:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -72225,7 +72936,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "Noonan's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "there",
@@ -72255,7 +72983,7 @@
     ]
    },
    "4": {
-    "lexlemma": "lower",
+    "lexlemma": "low",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -72612,7 +73340,7 @@
     "feats": "Number=Sing",
     "head": 1,
     "deprel": "nmod",
-    "edeps": "1:nmod:regard",
+    "edeps": "1:nmod:regarding",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -72734,7 +73462,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -72824,7 +73552,7 @@
     "lemma": "come",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "ccomp",
     "edeps": "5:ccomp",
@@ -72920,7 +73648,7 @@
     "lemma": "spray",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 8,
     "deprel": "conj",
     "edeps": "5:ccomp|8:conj:and",
@@ -73238,7 +73966,7 @@
     "lemma": "seem",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -73281,16 +74009,16 @@
     "#": 5,
     "word": "how",
     "lemma": "how",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 6,
-    "deprel": "advmod",
-    "edeps": "6:advmod",
+    "deprel": "mark",
+    "edeps": "6:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 6,
@@ -73529,7 +74257,7 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "advcl",
     "edeps": "2:advcl:so",
@@ -73630,7 +74358,7 @@
    },
    "5": {
     "lexlemma": "how",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -73823,7 +74551,7 @@
     "lemma": "thank",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -73904,7 +74632,7 @@
    {
     "#": 1,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -73956,7 +74684,7 @@
     "head": 6,
     "deprel": "nsubj",
     "edeps": "6:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -73967,7 +74695,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
@@ -74058,10 +74786,27 @@
     "lextag": "O-SYM"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     4,
+     5,
+     "4-5"
+    ],
+    "word": "I'd",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -75720,7 +76465,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -76056,7 +76801,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
@@ -76084,12 +76829,12 @@
     "#": 4,
     "word": "Bright",
     "lemma": "Bright",
-    "upos": "PROPN",
+    "upos": "ADJ",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Degree=Pos",
     "head": 5,
-    "deprel": "compound",
-    "edeps": "5:compound",
+    "deprel": "amod",
+    "edeps": "5:amod",
     "misc": null,
     "smwe": [
      1,
@@ -76101,7 +76846,7 @@
    {
     "#": 5,
     "word": "Futures",
-    "lemma": "Futures",
+    "lemma": "Future",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -76300,7 +77045,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "Bright Futures",
+    "lexlemma": "Bright Future",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -76339,7 +77084,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -76429,7 +77174,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 10,
     "deprel": "cop",
     "edeps": "10:cop",
@@ -76456,7 +77201,7 @@
    {
     "#": 10,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -76568,7 +77313,7 @@
     ]
    },
    "10": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -76616,7 +77361,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "cop",
     "edeps": "4:cop",
@@ -77300,7 +78045,7 @@
     "lemma": "call",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -78146,7 +78891,7 @@
     "lemma": "give",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "conj",
     "edeps": "4:conj:and",
@@ -78450,7 +79195,7 @@
     "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -78681,7 +79426,7 @@
     "head": 2,
     "deprel": "amod",
     "edeps": "2:amod",
-    "misc": null,
+    "misc": "CorrectForm=excellent",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -78753,7 +79498,7 @@
     "lemma": "thank",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -79058,7 +79803,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -79235,7 +79980,7 @@
     "head": 2,
     "deprel": "nmod:poss",
     "edeps": "2:nmod:poss",
-    "misc": null,
+    "misc": "CorrectForm=You",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON.POSS-p.SocialRel|p.Gestalt"
@@ -79724,7 +80469,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -80158,7 +80903,7 @@
     "lemma": "drive",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -80302,7 +81047,7 @@
     "lemma": "close",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "parataxis",
     "edeps": "1:parataxis",
@@ -80783,7 +81528,7 @@
     "lemma": "stay",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -80858,7 +81603,7 @@
     "lemma": "7th",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|NumType=Ord",
     "head": 5,
     "deprel": "obl",
     "edeps": "5:obl:from",
@@ -80903,7 +81648,7 @@
     "lemma": "14th",
     "upos": "NOUN",
     "xpos": "NN",
-    "feats": "Number=Sing",
+    "feats": "Number=Sing|NumType=Ord",
     "head": 5,
     "deprel": "obl",
     "edeps": "5:obl:to",
@@ -81281,7 +82026,7 @@
     "head": 7,
     "deprel": "obl",
     "edeps": "7:obl:from",
-    "misc": null,
+    "misc": "CorrectForm=beginning",
     "smwe": null,
     "wmwe": [
      2,
@@ -81626,7 +82371,7 @@
     "lemma": "be",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
     "head": 7,
     "deprel": "conj",
     "edeps": "7:conj:but",
@@ -81669,7 +82414,7 @@
     "#": 13,
     "word": "mega",
     "lemma": "mega",
-    "upos": "X",
+    "upos": "ADV",
     "xpos": "AFX",
     "feats": null,
     "head": 14,
@@ -81678,7 +82423,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-X"
+    "lextag": "O-ADV"
    },
    {
     "#": 14,
@@ -81973,7 +82718,7 @@
    },
    "13": {
     "lexlemma": "mega",
-    "lexcat": "X",
+    "lexcat": "ADV",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -82695,7 +83440,7 @@
    {
     "#": 1,
     "word": "BEST",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -82756,7 +83501,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -82979,7 +83724,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
@@ -83545,7 +84290,7 @@
     "lemma": "more",
     "upos": "ADJ",
     "xpos": "JJR",
-    "feats": "Degree=Cmp",
+    "feats": "Degree=Cmp|ExtPos=ADV",
     "head": 10,
     "deprel": "advmod",
     "edeps": "10:advmod",
@@ -83656,7 +84401,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 16,
     "deprel": "cop",
     "edeps": "16:cop",
@@ -83989,7 +84734,7 @@
     "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "parataxis",
     "edeps": "3:parataxis",
@@ -84204,7 +84949,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -84758,7 +85503,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -84904,7 +85649,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 3,
     "deprel": "parataxis",
     "edeps": "3:parataxis",
@@ -84950,7 +85695,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Dont",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -85331,7 +86093,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -85600,7 +86362,7 @@
    {
     "#": 4,
     "word": "bigger",
-    "lemma": "bigger",
+    "lemma": "big",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -85633,7 +86395,7 @@
     "lemma": "more",
     "upos": "ADV",
     "xpos": "RBR",
-    "feats": null,
+    "feats": "Degree=Cmp",
     "head": 8,
     "deprel": "advmod",
     "edeps": "8:advmod",
@@ -85789,7 +86551,7 @@
    {
     "#": 16,
     "word": "Bagels",
-    "lemma": "Bagels",
+    "lemma": "Bagel",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -85810,7 +86572,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 19,
     "deprel": "cop",
     "edeps": "19:cop",
@@ -85985,7 +86747,7 @@
     ]
    },
    "4": {
-    "lexlemma": "bigger",
+    "lexlemma": "big",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -86175,7 +86937,7 @@
     ]
    },
    "2": {
-    "lexlemma": "Family Bagels",
+    "lexlemma": "Family Bagel",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -86385,7 +87147,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 14,
     "deprel": "cop",
     "edeps": "14:cop",
@@ -86505,7 +87267,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 17,
     "deprel": "acl:relcl",
     "edeps": "17:acl:relcl",
@@ -86550,7 +87312,7 @@
    {
     "#": 24,
     "word": "Bagels",
-    "lemma": "Bagels",
+    "lemma": "Bagel",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -86772,7 +87534,7 @@
      "gov": 21,
      "govlemma": "get",
      "obj": 24,
-     "objlemma": "Bagels",
+     "objlemma": "Bagel",
      "config": "default"
     }
    }
@@ -86789,7 +87551,7 @@
     ]
    },
    "2": {
-    "lexlemma": "Family Bagels",
+    "lexlemma": "Family Bagel",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -86828,7 +87590,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "cop",
     "edeps": "9:cop",
@@ -87499,7 +88261,7 @@
     "lemma": "most",
     "upos": "ADV",
     "xpos": "RBS",
-    "feats": null,
+    "feats": "Degree=Sup",
     "head": 13,
     "deprel": "advmod",
     "edeps": "13:advmod",
@@ -87604,7 +88366,7 @@
     "lemma": "visit",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 17,
     "deprel": "acl:relcl",
     "edeps": "17:acl:relcl",
@@ -87634,11 +88396,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 23,
     "deprel": "aux",
     "edeps": "23:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -87677,16 +88439,16 @@
     "#": 24,
     "word": "where",
     "lemma": "where",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 26,
-    "deprel": "advmod",
-    "edeps": "26:advmod",
+    "deprel": "mark",
+    "edeps": "26:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 25,
@@ -87722,7 +88484,7 @@
     "#": 27,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 29,
@@ -87857,7 +88619,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     21,
+     22,
+     "21-22"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "5": {
     "lexlemma": ",",
@@ -88046,7 +88825,7 @@
    },
    "24": {
     "lexlemma": "where",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -88170,7 +88949,7 @@
     "lemma": "give",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -88305,7 +89084,7 @@
     "lemma": "need",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 10,
     "deprel": "acl:relcl",
     "edeps": "10:acl:relcl",
@@ -88850,7 +89629,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -88901,7 +89680,7 @@
     "lemma": "ask",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "acl:relcl",
     "edeps": "2:acl:relcl",
@@ -88929,13 +89708,13 @@
     "#": 6,
     "word": "NOT",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 8,
     "deprel": "advmod",
     "edeps": "8:advmod",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -89046,7 +89825,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     6,
+     7,
+     "6-7"
+    ],
+    "word": "NOTto",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -89272,7 +90068,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -89305,7 +90101,7 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -89429,7 +90225,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -89549,7 +90345,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "cop",
     "edeps": "4:cop",
@@ -90070,12 +90866,12 @@
     "#": 3,
     "word": "American",
     "lemma": "American",
-    "upos": "PROPN",
+    "upos": "ADJ",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Degree=Pos",
     "head": 4,
-    "deprel": "compound",
-    "edeps": "4:compound",
+    "deprel": "amod",
+    "edeps": "4:amod",
     "misc": null,
     "smwe": [
      1,
@@ -90301,7 +91097,7 @@
    {
     "#": 4,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -90353,7 +91149,7 @@
     "#": 7,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": ",",
     "feats": null,
     "head": 8,
@@ -90362,7 +91158,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 8,
@@ -90389,7 +91185,7 @@
     "head": 12,
     "deprel": "nsubj",
     "edeps": "12:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -90400,7 +91196,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 12,
     "deprel": "aux",
     "edeps": "12:aux",
@@ -90542,7 +91338,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     9,
+     10,
+     "9-10"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "Susanna",
@@ -90572,7 +91385,7 @@
     ]
    },
    "4": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -90582,7 +91395,7 @@
    },
    "7": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -90776,9 +91589,9 @@
     "upos": "NOUN",
     "xpos": "NN",
     "feats": "Number=Sing",
-    "head": 5,
-    "deprel": "nsubj",
-    "edeps": "5:nsubj",
+    "head": 2,
+    "deprel": "obj",
+    "edeps": "2:obj|5:nsubj:xsubj",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -90792,8 +91605,8 @@
     "xpos": "VB",
     "feats": "VerbForm=Inf",
     "head": 2,
-    "deprel": "ccomp",
-    "edeps": "2:ccomp",
+    "deprel": "xcomp",
+    "edeps": "2:xcomp",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -91374,7 +92187,7 @@
     "head": 4,
     "deprel": "nsubj",
     "edeps": "4:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -91412,7 +92225,7 @@
    {
     "#": 4,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -91440,7 +92253,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "She's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "she",
@@ -91470,7 +92300,7 @@
     ]
    },
    "4": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -91700,7 +92530,7 @@
     "#": 5,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 7,
@@ -91709,7 +92539,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 6,
@@ -91732,7 +92562,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "advcl",
     "edeps": "4:advcl:when",
@@ -91828,7 +92658,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "conj",
     "edeps": "4:conj:and",
@@ -91998,7 +92828,7 @@
    },
    "5": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -92180,7 +93010,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -92368,8 +93198,8 @@
     "xpos": "WP",
     "feats": "PronType=Int",
     "head": 16,
-    "deprel": "det",
-    "edeps": "16:det",
+    "deprel": "det:predet",
+    "edeps": "16:det:predet",
     "misc": null,
     "smwe": null,
     "wmwe": [
@@ -92633,7 +93463,7 @@
     "lemma": "hire",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -92909,7 +93739,7 @@
     "lemma": "give",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "acl:relcl",
     "edeps": "2:acl:relcl",
@@ -92987,7 +93817,7 @@
     "lemma": "say",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "advcl",
     "edeps": "6:advcl:so",
@@ -93255,7 +94085,7 @@
     "lemma": "show",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "advcl",
     "edeps": "6:advcl:after",
@@ -93306,7 +94136,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -93483,7 +94313,7 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "conj",
     "edeps": "6:conj:but",
@@ -93998,7 +94828,7 @@
     "lemma": "recover",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -94058,7 +94888,7 @@
     "lemma": "delete",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "acl:relcl",
     "edeps": "4:acl:relcl",
@@ -94240,7 +95070,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -94502,7 +95332,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -94629,7 +95459,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -94657,16 +95487,16 @@
     "#": 4,
     "word": "where",
     "lemma": "where",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 6,
-    "deprel": "advmod",
-    "edeps": "6:advmod",
+    "deprel": "mark",
+    "edeps": "6:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 5,
@@ -94835,7 +95665,7 @@
    },
    "4": {
     "lexlemma": "where",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -95212,7 +96042,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -95323,7 +96153,24 @@
     "lextag": "O-N-n.ARTIFACT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -95635,16 +96482,16 @@
     "#": 15,
     "word": "where",
     "lemma": "where",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Rel",
     "head": 18,
-    "deprel": "advmod",
-    "edeps": "18:advmod",
+    "deprel": "mark",
+    "edeps": "18:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 16,
@@ -95731,7 +96578,7 @@
     "head": 23,
     "deprel": "aux",
     "edeps": "23:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -95817,7 +96664,7 @@
     "lemma": "end",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "conj",
     "edeps": "5:conj:and",
@@ -95908,7 +96755,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     21,
+     22,
+     "21-22"
+    ],
+    "word": "doesn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "the",
@@ -96045,7 +96909,7 @@
    },
    "15": {
     "lexlemma": "where",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -96219,7 +97083,7 @@
     "#": 1,
     "word": "Not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 2,
@@ -96454,7 +97318,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -96501,8 +97365,8 @@
     "xpos": "CD",
     "feats": "NumType=Card",
     "head": 4,
-    "deprel": "compound",
-    "edeps": "4:compound",
+    "deprel": "nummod",
+    "edeps": "4:nummod",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -96586,7 +97450,7 @@
    {
     "#": 11,
     "word": "these",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -96619,7 +97483,7 @@
     "lemma": "fix",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -96818,7 +97682,7 @@
     ]
    },
    "11": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -97021,7 +97885,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -97147,7 +98011,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "parataxis",
     "edeps": "1:parataxis",
@@ -97577,7 +98441,7 @@
     "lemma": "schedule",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -98079,7 +98943,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -98312,7 +99176,7 @@
    {
     "#": 2,
     "word": "finest",
-    "lemma": "finest",
+    "lemma": "fine",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -98327,7 +99191,7 @@
    {
     "#": 3,
     "word": "German",
-    "lemma": "german",
+    "lemma": "German",
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
@@ -98433,7 +99297,7 @@
     ]
    },
    "2": {
-    "lexlemma": "finest",
+    "lexlemma": "fine",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -98480,7 +99344,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "german bedding",
+    "lexlemma": "German bedding",
     "lexcat": "N",
     "ss": "n.ARTIFACT",
     "ss2": null,
@@ -98549,7 +99413,7 @@
     "lemma": "come",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -98564,7 +99428,7 @@
     "lemma": "first",
     "upos": "ADV",
     "xpos": "RB",
-    "feats": null,
+    "feats": "NumType=Ord",
     "head": 4,
     "deprel": "advmod",
     "edeps": "4:advmod",
@@ -98761,7 +99625,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
@@ -98926,7 +99790,7 @@
     "lemma": "love",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "conj",
     "edeps": "4:conj:and",
@@ -100085,7 +100949,7 @@
    {
     "#": 3,
     "word": "Computers",
-    "lemma": "Computers",
+    "lemma": "Computer",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -100105,7 +100969,7 @@
   "swes": {},
   "smwes": {
    "1": {
-    "lexlemma": "Staten Island Computers",
+    "lexlemma": "Staten Island Computer",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -100224,7 +101088,7 @@
     "#": 7,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 9,
@@ -100233,7 +101097,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 8,
@@ -100256,7 +101120,7 @@
     "lemma": "need",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "advcl",
     "edeps": "5:advcl:when",
@@ -100336,7 +101200,7 @@
    },
    "7": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -100421,7 +101285,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
@@ -100643,7 +101507,7 @@
    {
     "#": 16,
     "word": "Computers",
-    "lemma": "Computers",
+    "lemma": "Computer",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -100805,7 +101669,7 @@
     ]
    },
    "3": {
-    "lexlemma": "Qualitech Computers",
+    "lexlemma": "Qualitech Computer",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -100896,11 +101760,11 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": null,
+    "misc": "CorrectForm=wants",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-V-v.cognition"
@@ -101097,7 +101961,7 @@
    {
     "#": 16,
     "word": "cheapest",
-    "lemma": "cheapest",
+    "lemma": "cheap",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -101251,9 +102115,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 21,
+    "head": 24,
     "deprel": "punct",
-    "edeps": "21:punct",
+    "edeps": "24:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -101371,7 +102235,7 @@
     ]
    },
    "16": {
-    "lexlemma": "cheapest",
+    "lexlemma": "cheap",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -101556,7 +102420,7 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
@@ -101725,7 +102589,7 @@
     "head": 17,
     "deprel": "nmod:poss",
     "edeps": "17:nmod:poss",
-    "misc": null,
+    "misc": "CorrectForm=your",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON.POSS-p.Gestalt"
@@ -102139,7 +103003,7 @@
    {
     "#": 2,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -102223,11 +103087,11 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
-    "misc": null,
+    "misc": "CorrectForm=has",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-V-v.stative"
@@ -102335,7 +103199,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -102568,9 +103432,9 @@
     "upos": "ADJ",
     "xpos": "JJ",
     "feats": "Degree=Pos",
-    "head": 2,
-    "deprel": "amod",
-    "edeps": "2:amod",
+    "head": 0,
+    "deprel": "root",
+    "edeps": "0:root",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -102583,9 +103447,9 @@
     "upos": "ADV",
     "xpos": "RB",
     "feats": null,
-    "head": 0,
-    "deprel": "root",
-    "edeps": "0:root",
+    "head": 1,
+    "deprel": "advmod",
+    "edeps": "1:advmod",
     "misc": null,
     "smwe": null,
     "wmwe": [
@@ -102666,8 +103530,8 @@
      2
     ],
     "heuristic_relation": {
-     "gov": null,
-     "govlemma": null,
+     "gov": 1,
+     "govlemma": "quick",
      "obj": null,
      "objlemma": null,
      "config": "default"
@@ -103088,7 +103952,7 @@
     "head": 2,
     "deprel": "advmod",
     "edeps": "2:advmod",
-    "misc": null,
+    "misc": "CorrectForm=Definitely",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -103389,7 +104253,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -103572,7 +104436,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "wouldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -103865,7 +104746,7 @@
    {
     "#": 1,
     "word": "These",
-    "lemma": "these",
+    "lemma": "this",
     "upos": "DET",
     "xpos": "DT",
     "feats": "Number=Plur|PronType=Dem",
@@ -103898,7 +104779,7 @@
     "lemma": "know",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -103932,7 +104813,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -103943,7 +104824,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 7,
     "deprel": "aux",
     "edeps": "7:aux",
@@ -103983,10 +104864,27 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     5,
+     6,
+     "5-6"
+    ],
+    "word": "they're",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
-    "lexlemma": "these",
+    "lexlemma": "this",
     "lexcat": "DET",
     "ss": null,
     "ss2": null,
@@ -104465,7 +105363,7 @@
     "lemma": "think",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -104537,7 +105435,7 @@
    {
     "#": 7,
     "word": "longer",
-    "lemma": "longer",
+    "lemma": "long",
     "upos": "ADV",
     "xpos": "RBR",
     "feats": "Degree=Cmp",
@@ -104658,7 +105556,7 @@
     ]
    },
    "7": {
-    "lexlemma": "longer",
+    "lexlemma": "long",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -104739,7 +105637,7 @@
     "lemma": "check",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "advcl",
     "edeps": "9:advcl:if",
@@ -104799,11 +105697,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "aux",
     "edeps": "9:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -104914,7 +105812,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "if",
@@ -105069,7 +105984,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj|5:nsubj:xsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -105246,7 +106161,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "You'll",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "you",
@@ -105468,7 +106400,7 @@
     "head": 5,
     "deprel": "nsubj",
     "edeps": "5:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -105558,7 +106490,7 @@
     "head": 12,
     "deprel": "nsubj",
     "edeps": "12:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -105569,7 +106501,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 12,
     "deprel": "cop",
     "edeps": "12:cop",
@@ -105726,7 +106658,40 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "I'm",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -105982,7 +106947,7 @@
    {
     "#": 7,
     "word": "better",
-    "lemma": "better",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -106155,7 +107120,7 @@
     ]
    },
    "7": {
-    "lexlemma": "better",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -106306,7 +107271,7 @@
     "head": 6,
     "deprel": "det",
     "edeps": "6:det",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectSpaceAfter=Yes|SpaceAfter=No",
     "smwe": [
      1,
      1
@@ -107175,11 +108140,11 @@
     "lemma": "taste",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 3,
     "deprel": "parataxis",
     "edeps": "3:parataxis",
-    "misc": null,
+    "misc": "CorrectForm=taste",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-V-v.perception"
@@ -107354,7 +108319,7 @@
     "#": 1,
     "word": "When",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 3,
@@ -107363,7 +108328,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 2,
@@ -107386,7 +108351,7 @@
     "lemma": "try",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 8,
     "deprel": "advcl",
     "edeps": "8:advcl:when",
@@ -107461,7 +108426,7 @@
     "lemma": "refuse",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -107521,7 +108486,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 8,
     "deprel": "parataxis",
     "edeps": "8:parataxis",
@@ -107676,7 +108641,7 @@
   "swes": {
    "1": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -108009,9 +108974,9 @@
     "upos": "ADV",
     "xpos": "RB",
     "feats": null,
-    "head": 11,
+    "head": 16,
     "deprel": "advmod",
-    "edeps": "11:advmod",
+    "edeps": "16:advmod",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -108035,7 +109000,7 @@
    {
     "#": 11,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -108279,7 +109244,7 @@
     ]
    },
    "11": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -108727,7 +109692,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "cop",
     "edeps": "6:cop",
@@ -108817,7 +109782,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 14,
     "deprel": "cop",
     "edeps": "14:cop",
@@ -109062,7 +110027,7 @@
     "head": 7,
     "deprel": "nsubj",
     "edeps": "7:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -109269,7 +110234,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -109428,7 +110410,7 @@
     "lemma": "plan",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -109931,7 +110913,7 @@
     "head": 5,
     "deprel": "advmod",
     "edeps": "5:advmod",
-    "misc": null,
+    "misc": "CorrectForm=simply",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -110036,7 +111018,7 @@
    {
     "#": 1,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -110157,7 +111139,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -110270,7 +111252,7 @@
    {
     "#": 2,
     "word": "Limos",
-    "lemma": "Limos",
+    "lemma": "Limo",
     "upos": "PROPN",
     "xpos": "NNP",
     "feats": "Number=Sing",
@@ -110307,7 +111289,7 @@
     "head": 10,
     "deprel": "case",
     "edeps": "10:case",
-    "misc": null,
+    "misc": "CorrectForm=in",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-P-p.Locus"
@@ -110322,7 +111304,7 @@
     "head": 10,
     "deprel": "det",
     "edeps": "10:det",
-    "misc": null,
+    "misc": "CorrectForm=the",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-DET"
@@ -110445,7 +111427,7 @@
     ]
    },
    "2": {
-    "lexlemma": "Limos",
+    "lexlemma": "Limo",
     "lexcat": "N",
     "ss": "n.ARTIFACT",
     "ss2": null,
@@ -110549,7 +111531,7 @@
     "lemma": "use",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -111035,7 +112017,7 @@
     "lemma": "use",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -111153,7 +112135,7 @@
     "head": 10,
     "deprel": "det",
     "edeps": "10:det",
-    "misc": "SpaceAfter=No",
+    "misc": "CorrectSpaceAfter=Yes|SpaceAfter=No",
     "smwe": [
      2,
      2
@@ -111440,7 +112422,7 @@
     "lemma": "try",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:but",
@@ -112053,11 +113035,11 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -112123,7 +113105,24 @@
     "lextag": "O-ADV"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "dont",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -112210,7 +113209,7 @@
     "lemma": "give",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -112569,7 +113568,7 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
@@ -112967,7 +113966,7 @@
    {
     "#": 5,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -113015,7 +114014,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 10,
     "deprel": "aux",
     "edeps": "10:aux",
@@ -113091,7 +114090,7 @@
     ]
    },
    "5": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -113225,7 +114224,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "cop",
     "edeps": "6:cop",
@@ -113606,7 +114605,7 @@
    {
     "#": 5,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -113655,7 +114654,7 @@
     ]
    },
    "5": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -114060,7 +115059,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "acl:relcl",
     "edeps": "2:acl:relcl",
@@ -114476,7 +115475,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -114731,7 +115730,7 @@
     "lemma": "more",
     "upos": "ADV",
     "xpos": "RBR",
-    "feats": null,
+    "feats": "Degree=Cmp",
     "head": 20,
     "deprel": "advmod",
     "edeps": "20:advmod",
@@ -114819,7 +115818,7 @@
     "#": 25,
     "word": "/",
     "lemma": "/",
-    "upos": "PUNCT",
+    "upos": "SYM",
     "xpos": ",",
     "feats": null,
     "head": 26,
@@ -114828,7 +115827,7 @@
     "misc": "SpaceAfter=No",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PUNCT"
+    "lextag": "O-SYM"
    },
    {
     "#": 26,
@@ -115116,7 +116115,7 @@
    },
    "25": {
     "lexlemma": "/",
-    "lexcat": "PUNCT",
+    "lexcat": "SYM",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -115169,7 +116168,7 @@
    {
     "#": 2,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -115290,7 +116289,7 @@
     ]
    },
    "2": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -115366,7 +116365,7 @@
     "#": 1,
     "word": "Not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 2,
@@ -115513,7 +116512,7 @@
     "lemma": "act",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
@@ -115558,7 +116557,7 @@
     "lemma": "rush",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "conj",
     "edeps": "5:conj:and",
@@ -115616,7 +116615,7 @@
     "#": 12,
     "word": "when",
     "lemma": "when",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 14,
@@ -115625,7 +116624,7 @@
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 13,
@@ -115664,9 +116663,9 @@
     "upos": "ADV",
     "xpos": "RB",
     "feats": null,
-    "head": 17,
+    "head": 16,
     "deprel": "advmod",
-    "edeps": "17:advmod",
+    "edeps": "16:advmod",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -115873,7 +116872,7 @@
    },
    "12": {
     "lexlemma": "when",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -116003,7 +117002,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -116054,7 +117053,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "won't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -116818,7 +117834,7 @@
     "lemma": "pick",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -116929,7 +117945,7 @@
     "lemma": "tow",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "conj",
     "edeps": "2:conj:and",
@@ -117567,7 +118583,7 @@
    {
     "#": 1,
     "word": "Best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -117628,7 +118644,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -117701,7 +118717,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
@@ -117936,7 +118952,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
@@ -118281,9 +119297,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -118945,7 +119961,7 @@
     "#": 15,
     "word": "not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 16,
@@ -119040,11 +120056,11 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBZ",
-    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin",
     "head": 19,
     "deprel": "acl:relcl",
     "edeps": "19:acl:relcl",
-    "misc": null,
+    "misc": "CorrectForm=takes",
     "smwe": [
      1,
      2
@@ -119351,7 +120367,7 @@
     "lemma": "thank",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "parataxis",
     "edeps": "4:parataxis",
@@ -119646,7 +120662,7 @@
    {
     "#": 4,
     "word": "better",
-    "lemma": "better",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -119698,7 +120714,7 @@
     "head": 9,
     "deprel": "nsubj",
     "edeps": "9:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -119709,7 +120725,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "aux",
     "edeps": "9:aux",
@@ -119779,7 +120795,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     7,
+     8,
+     "7-8"
+    ],
+    "word": "I've",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "one",
@@ -119816,7 +120849,7 @@
     ]
    },
    "4": {
-    "lexlemma": "better",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -120270,7 +121303,7 @@
    {
     "#": 1,
     "word": "Cleanest",
-    "lemma": "cleanest",
+    "lemma": "clean",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -120300,7 +121333,7 @@
    {
     "#": 3,
     "word": "i",
-    "lemma": "i",
+    "lemma": "I",
     "upos": "PRON",
     "xpos": "PRP",
     "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs",
@@ -120318,7 +121351,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "aux",
     "edeps": "6:aux",
@@ -120367,7 +121400,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "cleanest",
+    "lexlemma": "clean",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -120385,7 +121418,7 @@
     ]
    },
    "3": {
-    "lexlemma": "i",
+    "lexlemma": "I",
     "lexcat": "PRON",
     "ss": null,
     "ss2": null,
@@ -120429,7 +121462,7 @@
     "lemma": "stay",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -120828,7 +121861,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -121180,7 +122213,7 @@
     "lemma": "make",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -121547,7 +122580,7 @@
     "lemma": "want",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 12,
     "deprel": "advcl",
     "edeps": "12:advcl:if",
@@ -121574,7 +122607,7 @@
    {
     "#": 5,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -121656,7 +122689,7 @@
     "head": 12,
     "deprel": "aux",
     "edeps": "12:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -121746,7 +122779,7 @@
     "head": 17,
     "deprel": "amod",
     "edeps": "17:amod",
-    "misc": null,
+    "misc": "CorrectForm=wonderful",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADJ"
@@ -121782,7 +122815,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     10,
+     11,
+     "10-11"
+    ],
+    "word": "don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "if",
@@ -121821,7 +122871,7 @@
     ]
    },
    "5": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -121839,7 +122889,7 @@
     ],
     "heuristic_relation": {
      "gov": 5,
-     "govlemma": "best",
+     "govlemma": "good",
      "obj": 8,
      "objlemma": "child",
      "config": "default"
@@ -122040,7 +123090,7 @@
    {
     "#": 5,
     "word": "best",
-    "lemma": "best",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -122158,7 +123208,7 @@
     ]
    },
    "5": {
-    "lexlemma": "best",
+    "lexlemma": "good",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -122176,7 +123226,7 @@
     ],
     "heuristic_relation": {
      "gov": 5,
-     "govlemma": "best",
+     "govlemma": "good",
      "obj": 8,
      "objlemma": "Gables",
      "config": "default"
@@ -122628,7 +123678,7 @@
     "#": 1,
     "word": "Not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 3,
@@ -122713,7 +123763,7 @@
     "#": 1,
     "word": "Not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 2,
@@ -122875,10 +123925,10 @@
    {
     "#": 3,
     "word": "over",
-    "lemma": "over",
-    "upos": "X",
+    "lemma": "overcooked",
+    "upos": "ADJ",
     "xpos": "GW",
-    "feats": null,
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
@@ -122893,10 +123943,10 @@
    {
     "#": 4,
     "word": "cooked",
-    "lemma": "cooked",
-    "upos": "ADJ",
+    "lemma": "_",
+    "upos": "X",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": null,
     "head": 3,
     "deprel": "goeswith",
     "edeps": "3:goeswith",
@@ -122956,7 +124006,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "over cooked",
+    "lexlemma": "overcooked",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -122995,7 +124045,7 @@
     "lemma": "feel",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -123103,10 +124153,10 @@
    {
     "#": 9,
     "word": "over",
-    "lemma": "over",
-    "upos": "X",
+    "lemma": "overpriced",
+    "upos": "ADJ",
     "xpos": "GW",
-    "feats": null,
+    "feats": "Degree=Pos|Typo=Yes",
     "head": 12,
     "deprel": "amod",
     "edeps": "12:amod",
@@ -123121,10 +124171,10 @@
    {
     "#": 10,
     "word": "priced",
-    "lemma": "priced",
-    "upos": "ADJ",
+    "lemma": "_",
+    "upos": "X",
     "xpos": "JJ",
-    "feats": "Degree=Pos",
+    "feats": null,
     "head": 9,
     "deprel": "goeswith",
     "edeps": "9:goeswith",
@@ -123280,7 +124330,7 @@
     }
    },
    "2": {
-    "lexlemma": "over priced",
+    "lexlemma": "overpriced",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -123668,9 +124718,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 2,
+    "head": 3,
     "deprel": "punct",
-    "edeps": "2:punct",
+    "edeps": "3:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -124132,7 +125182,7 @@
     "head": 5,
     "deprel": "advmod",
     "edeps": "5:advmod",
-    "misc": null,
+    "misc": "CorrectForm=Definitely",
     "smwe": null,
     "wmwe": null,
     "lextag": "O-ADV"
@@ -124147,7 +125197,7 @@
     "head": 5,
     "deprel": "aux",
     "edeps": "5:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -124213,7 +125263,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "won't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "definitely",
@@ -124285,7 +125352,7 @@
     "lemma": "travel",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -124699,7 +125766,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "ccomp",
     "edeps": "1:ccomp",
@@ -124811,7 +125878,7 @@
     "lemma": "get",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -124871,7 +125938,7 @@
     "lemma": "be",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 1,
     "deprel": "conj",
     "edeps": "1:conj:and",
@@ -124990,7 +126057,7 @@
     "#": 1,
     "word": "Not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 2,
@@ -125077,7 +126144,7 @@
     "lemma": "do",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -125599,7 +126666,7 @@
     "lemma": "remain",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -125723,7 +126790,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -125880,7 +126947,7 @@
     "lemma": "have",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -126084,7 +127151,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -126401,7 +127468,7 @@
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -126566,7 +127633,7 @@
     "head": 15,
     "deprel": "aux",
     "edeps": "15:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -126662,7 +127729,40 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     2,
+     3,
+     "2-3"
+    ],
+    "word": "wouldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   },
+   {
+    "#": [
+     13,
+     14,
+     "13-14"
+    ],
+    "word": "wouldn't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "I",
@@ -127443,7 +128543,7 @@
     "lemma": "look",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -127503,7 +128603,7 @@
    {
     "#": 7,
     "word": "better",
-    "lemma": "better",
+    "lemma": "good",
     "upos": "ADJ",
     "xpos": "JJR",
     "feats": "Degree=Cmp",
@@ -127691,7 +128791,7 @@
   },
   "smwes": {
    "1": {
-    "lexlemma": "the better part of",
+    "lexlemma": "the good part of",
     "lexcat": "N",
     "ss": "n.QUANTITY",
     "ss2": null,
@@ -127807,7 +128907,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 18,
     "deprel": "cop",
     "edeps": "18:cop",
@@ -128361,7 +129461,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 9,
     "deprel": "cop",
     "edeps": "9:cop",
@@ -128673,7 +129773,7 @@
     "lemma": "walk",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -128801,8 +129901,8 @@
     "xpos": "DT",
     "feats": "Definite=Def|PronType=Art",
     "head": 13,
-    "deprel": "det",
-    "edeps": "13:det",
+    "deprel": "reparandum",
+    "edeps": "13:reparandum",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -128904,7 +130004,7 @@
     "lemma": "be",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 2,
     "deprel": "advcl",
     "edeps": "2:advcl:so_that",
@@ -129172,7 +130272,7 @@
     "lemma": "find",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -129664,7 +130764,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 5,
     "deprel": "cop",
     "edeps": "5:cop",
@@ -130325,7 +131425,7 @@
     "lemma": "put",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -130436,7 +131536,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 11,
     "deprel": "cop",
     "edeps": "11:cop",
@@ -130928,7 +132028,7 @@
     "#": 8,
     "word": "not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 10,
@@ -130994,7 +132094,7 @@
     "head": 10,
     "deprel": "obl",
     "edeps": "10:obl:at",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -131012,7 +132112,7 @@
     "head": 12,
     "deprel": "case",
     "edeps": "12:case",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      2
@@ -131036,7 +132136,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     12,
+     13,
+     "12-13"
+    ],
+    "word": "Sprecher's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": "SpaceAfter=No"
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "even",
@@ -131906,9 +133023,9 @@
     "upos": "NOUN",
     "xpos": "NN",
     "feats": "Number=Sing",
-    "head": 1,
+    "head": 4,
     "deprel": "parataxis",
-    "edeps": "1:parataxis",
+    "edeps": "4:parataxis",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -131981,9 +133098,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 4,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "4:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -132368,7 +133485,7 @@
     "lemma": "do",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "aux",
     "edeps": "4:aux",
@@ -132776,7 +133893,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
     "head": 6,
     "deprel": "cop",
     "edeps": "6:cop",
@@ -132912,7 +134029,7 @@
     "lemma": "work",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -132999,7 +134116,7 @@
     "lemma": "take",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "acl:relcl",
     "edeps": "4:acl:relcl",
@@ -133290,7 +134407,7 @@
    {
     "#": 6,
     "word": "best",
-    "lemma": "best",
+    "lemma": "well",
     "upos": "ADV",
     "xpos": "RBS",
     "feats": "Degree=Sup",
@@ -133408,7 +134525,7 @@
     ]
    },
    "6": {
-    "lexlemma": "best",
+    "lexlemma": "well",
     "lexcat": "ADV",
     "ss": null,
     "ss2": null,
@@ -133581,7 +134698,7 @@
    {
     "#": 4,
     "word": "greatest",
-    "lemma": "greatest",
+    "lemma": "great",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -133714,7 +134831,7 @@
     ]
    },
    "4": {
-    "lexlemma": "greatest",
+    "lexlemma": "great",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -133836,9 +134953,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -133929,7 +135046,7 @@
     "lemma": "enjoy",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 9,
     "deprel": "advcl",
     "edeps": "9:advcl:if",
@@ -134053,7 +135170,7 @@
     "head": 14,
     "deprel": "nmod:poss",
     "edeps": "14:nmod:poss",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": [
      1,
      1
@@ -134083,12 +135200,12 @@
     "#": 13,
     "word": "Finest",
     "lemma": "Finest",
-    "upos": "PROPN",
+    "upos": "ADJ",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Degree=Pos",
     "head": 14,
-    "deprel": "compound",
-    "edeps": "14:compound",
+    "deprel": "amod",
+    "edeps": "14:amod",
     "misc": null,
     "smwe": [
      1,
@@ -134131,7 +135248,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     11,
+     12,
+     "11-12"
+    ],
+    "word": "World's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "if",
@@ -134298,7 +135432,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VB",
-    "feats": "VerbForm=Inf",
+    "feats": "Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin",
     "head": 4,
     "deprel": "cop",
     "edeps": "4:cop",
@@ -134416,7 +135550,7 @@
     "lemma": "give",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -134751,9 +135885,9 @@
     "upos": "PUNCT",
     "xpos": ".",
     "feats": null,
-    "head": 1,
+    "head": 2,
     "deprel": "punct",
-    "edeps": "1:punct",
+    "edeps": "2:punct",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -134973,7 +136107,7 @@
     "lemma": "check",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 4,
     "deprel": "conj",
     "edeps": "4:conj:and",
@@ -135138,10 +136272,10 @@
     "lemma": "think",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 4,
-    "deprel": "conj",
-    "edeps": "4:conj:and",
+    "deprel": "parataxis",
+    "edeps": "4:parataxis",
     "misc": null,
     "smwe": null,
     "wmwe": null,
@@ -135484,7 +136618,7 @@
     "lemma": "turn",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -136966,7 +138100,7 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 10,
     "deprel": "cop",
     "edeps": "10:cop",
@@ -137292,7 +138426,7 @@
     "lemma": "recommend",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -137325,7 +138459,7 @@
    {
     "#": 5,
     "word": "Pros",
-    "lemma": "Pros",
+    "lemma": "Pro",
     "upos": "PROPN",
     "xpos": "NNPS",
     "feats": "Number=Plur",
@@ -137486,7 +138620,7 @@
   },
   "smwes": {
    "2": {
-    "lexlemma": "Garage Pros",
+    "lexlemma": "Garage Pro",
     "lexcat": "N",
     "ss": "n.GROUP",
     "ss2": null,
@@ -137535,7 +138669,7 @@
     "lemma": "appreciate",
     "upos": "VERB",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 0,
     "deprel": "root",
     "edeps": "0:root",
@@ -137743,12 +138877,12 @@
     "#": 16,
     "word": "American",
     "lemma": "American",
-    "upos": "PROPN",
+    "upos": "ADJ",
     "xpos": "NNP",
-    "feats": "Number=Sing",
+    "feats": "Degree=Pos",
     "head": 17,
-    "deprel": "compound",
-    "edeps": "17:compound",
+    "deprel": "amod",
+    "edeps": "17:amod",
     "misc": null,
     "smwe": [
      1,
@@ -138342,11 +139476,11 @@
     "lemma": "be",
     "upos": "AUX",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
     "head": 6,
     "deprel": "aux:pass",
     "edeps": "6:aux:pass",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -138447,7 +139581,7 @@
     "lemma": "go",
     "upos": "VERB",
     "xpos": "VBD",
-    "feats": "Mood=Ind|Tense=Past|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
     "head": 8,
     "deprel": "acl:relcl",
     "edeps": "8:acl:relcl",
@@ -138487,7 +139621,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     3,
+     4,
+     "3-4"
+    ],
+    "word": "weren't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "my",
@@ -138678,7 +139829,7 @@
     "#": 5,
     "word": "not",
     "lemma": "not",
-    "upos": "ADV",
+    "upos": "PART",
     "xpos": "RB",
     "feats": null,
     "head": 6,
@@ -139049,7 +140200,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -139100,7 +140251,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "Don't",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
@@ -139158,7 +140326,7 @@
     "head": 3,
     "deprel": "nsubj",
     "edeps": "3:nsubj",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-PRON"
@@ -139227,16 +140395,16 @@
     "#": 6,
     "word": "how",
     "lemma": "how",
-    "upos": "ADV",
+    "upos": "SCONJ",
     "xpos": "WRB",
     "feats": "PronType=Int",
     "head": 10,
-    "deprel": "advmod",
-    "edeps": "10:advmod",
+    "deprel": "mark",
+    "edeps": "10:mark",
     "misc": null,
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-ADV"
+    "lextag": "O-SCONJ"
    },
    {
     "#": 7,
@@ -139314,7 +140482,24 @@
     "lextag": "O-PUNCT"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "It's",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "it",
@@ -139363,7 +140548,7 @@
    },
    "6": {
     "lexlemma": "how",
-    "lexcat": "ADV",
+    "lexcat": "SCONJ",
     "ss": null,
     "ss2": null,
     "toknums": [
@@ -139428,7 +140613,7 @@
    {
     "#": 1,
     "word": "Worst",
-    "lemma": "worst",
+    "lemma": "bad",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -139629,7 +140814,7 @@
    {
     "#": 14,
     "word": "rudest",
-    "lemma": "rudest",
+    "lemma": "rude",
     "upos": "ADJ",
     "xpos": "JJS",
     "feats": "Degree=Sup",
@@ -139677,7 +140862,7 @@
     "lemma": "have",
     "upos": "AUX",
     "xpos": "VBP",
-    "feats": "Mood=Ind|Tense=Pres|VerbForm=Fin",
+    "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
     "head": 19,
     "deprel": "aux",
     "edeps": "19:aux",
@@ -139735,7 +140920,7 @@
   "etoks": [],
   "swes": {
    "1": {
-    "lexlemma": "worst",
+    "lexlemma": "bad",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -139848,7 +141033,7 @@
     ]
    },
    "14": {
-    "lexlemma": "rudest",
+    "lexlemma": "rude",
     "lexcat": "ADJ",
     "ss": null,
     "ss2": null,
@@ -139941,7 +141126,7 @@
     "head": 3,
     "deprel": "aux",
     "edeps": "3:aux",
-    "misc": "SpaceAfter=No",
+    "misc": null,
     "smwe": null,
     "wmwe": null,
     "lextag": "O-AUX"
@@ -139992,7 +141177,24 @@
     "lextag": "O-ADV"
    }
   ],
-  "etoks": [],
+  "etoks": [
+   {
+    "#": [
+     1,
+     2,
+     "1-2"
+    ],
+    "word": "DONt",
+    "lemma": "_",
+    "upos": "_",
+    "xpos": null,
+    "feats": null,
+    "head": null,
+    "deprel": null,
+    "edeps": null,
+    "misc": null
+   }
+  ],
   "swes": {
    "1": {
     "lexlemma": "do",
