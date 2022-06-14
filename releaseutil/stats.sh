@@ -20,10 +20,16 @@ echo "* [MWEs](MWES.txt)" >> STATS.md
 echo "* [Supersenses](SUPERSENSES.txt)" >> STATS.md
 
 echo -n "Strong MWEs: " > MWES.txt
+SMWES=`egrep -v '^$' $DATA | egrep -v '^#' | cut -f11 | egrep ':1$' | wc -l`
+printf "%4d\n" "$SMWES" >> MWES.txt
+echo -n "...not counting goeswith MWEs: " >> MWES.txt
 SMWES=`egrep -v '^$' $DATA | egrep -v '^#' | cut -f13 | fgrep ' ' | wc -l`
 printf "%4d\n" "$SMWES" >> MWES.txt
 
 echo -n "Weak MWEs:   " >> MWES.txt
+WMWES=`egrep -v '^$' $DATA | egrep -v '^#' | cut -f16 | egrep ':1$' | wc -l`
+printf "%4d\n" "$WMWES" >> MWES.txt
+echo -n "...not counting goeswith MWEs: " >> MWES.txt
 WMWES=`egrep -v '^$' $DATA | egrep -v '^#' | cut -f18 | fgrep ' ' | wc -l`
 printf "%4d\n" "$WMWES" >> MWES.txt
 
@@ -62,7 +68,7 @@ echo "" >> MWES.txt
 echo "Strong MWEs by LexCat" >> MWES.txt
 echo "=====================" >> MWES.txt
 
-egrep -v '^$' $DATA | egrep -v '^#' | cut -f12-13 | fgrep ' ' | cut -f1 | sort | uniq -c >> MWES.txt
+egrep -v '^$' $DATA | egrep -v '^#' | cut -f11-12 | egrep ':1	' | cut -f2 | sort | uniq -c >> MWES.txt
 
 
 
