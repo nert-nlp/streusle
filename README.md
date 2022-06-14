@@ -7,7 +7,7 @@ STREUSLE Dataset
 
 STREUSLE stands for Supersense-Tagged Repository of English with a Unified Semantics for Lexical Expressions. The text is from the web reviews portion of the English Web Treebank [9]. STREUSLE incorporates comprehensive annotations of __multiword expressions__ (MWEs) [1] and semantic __supersenses__ for lexical expressions. The supersense labels apply to single- and multiword __noun__ and __verb__ expressions, as described in [2], and __prepositional__/__possessive__ expressions, as described in [3, 4, 5, 6, 7, 8]. Lexical expressions also feature a __lexical category__ label indicating its holistic grammatical status; for verbal multiword expressions, these labels incorporate categories from the PARSEME 1.1 guidelines [15]. For each token, these pieces of information are concatenated together into a __lextag__: a sentence's words and their lextags are sufficient to recover lexical categories, supersenses, and multiword expressions [8].
 
-🧮 **_[Corpus Stats](STATS.MD)_**: >55k words, >3k multiword expression instances, >22k supersense-tagged expressions
+🧮 **_[Corpus Stats](STATS.md)_**: >55k words, >3k multiword expression instances, >22k supersense-tagged expressions
 
 👩‍💻 **_Using the data_**: The canonical file with source annotations is streusle.conllulex.
 **For scripting, the JSON format will likely be preferred. See [Formats](#formats) below.**
