@@ -91,7 +91,7 @@ Citations describing the annotations in this corpus (main STREUSLE papers in __b
 
 - [4] Jena D. Hwang, Archna Bhatia, Na-Rae Han, Tim O’Gorman, Vivek Srikumar, and Nathan Schneider. Double trouble: the problem of construal in semantic annotation of adpositions. _Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics_, Vancouver, British Columbia, Canada, August 3–4, 2017. <http://people.cs.georgetown.edu/nschneid/p/prepconstrual2.pdf>
 
-- [5] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Archna Bhatia, Na-Rae Han, Tim O'Gorman, Sarah R. Moeller, Omri Abend, Adi Shalev, Austin Blodgett, and Jakob Prange (June 14, 2022). Adposition and Case Supersenses v2.6: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
+- [5] Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Archna Bhatia, Na-Rae Han, Tim O'Gorman, Sarah R. Moeller, Omri Abend, Adi Shalev, Austin Blodgett, and Jakob Prange (June 15, 2022). Adposition and Case Supersenses v2.6: Guidelines for English. arXiv preprint. <https://arxiv.org/abs/1704.02134>
 
 - [6] Austin Blodgett and Nathan Schneider (2018). Semantic supersenses for English possessives. _Proceedings of the 11th International Conference on Language Resources and Evaluation_, Miyazaki, Japan, May 9–11, 2018. <http://people.cs.georgetown.edu/nschneid/p/gensuper.pdf>
 
@@ -137,7 +137,7 @@ The 4.0 release [7] updates the inventory and application of preposition superse
 
 ### Detailed changes
 
-  - STREUSLE 4.5: 2022-06-14.
+  - STREUSLE 4.5: 2022-06-15.
      * Update SNACS annotations to the v2.6 standard (automatically rename p.Causer -> p.Force and p.RateUnit -> p.SetIteration).
      * Update UD to v2.10. This affects many UPOS tags and lemmas, especially for proper names. The UD update also introduces lines encoding multiword tokens (not to be confused with multiword *expressions*) for clitics.
   - STREUSLE 4.4: 2020-11-04.
