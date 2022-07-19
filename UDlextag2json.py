@@ -132,7 +132,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
         lexes_to_validate = chain(sent['swes'].values(), sent['smwes'].values()) if validate_type else []
         for lexe in lexes_to_validate:
             sent['toks'][lexe['toknums'][0]-1]
-            assert assert lexe['lexlemma']==' '.join(lem for i in lexe['toknums'] for lem in [sent['toks'][i-1]['lemma']] if lem!='_'),f"In {sent['sent_id']}, MWE lemma is incorrect: {lexe} vs. {sent['toks'][lexe['toknums'][0]-1]}"
+            assert lexe['lexlemma']==' '.join(lem for i in lexe['toknums'] for lem in [sent['toks'][i-1]['lemma']] if lem!='_'),f"In {sent['sent_id']}, MWE lemma is incorrect: {lexe} vs. {sent['toks'][lexe['toknums'][0]-1]}"
             lc = lexe['lexcat']
             if lc.endswith('!@'): lc_tbd += 1
             valid_ss = supersenses_for_lexcat(lc)
