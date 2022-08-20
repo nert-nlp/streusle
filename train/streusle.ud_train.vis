@@ -1838,9 +1838,10 @@ reviews-275919-0006	How|ADV FusionRetail|N-n.GROUP has|AUX overcome_ these|DET _
 reviews-275919-0007	FusionRetail|N-n.GROUP helps|V-v.social us|PRON to|INF maintain|V-v.social the|DET store|N-n.GROUP in|P-p.Manner an|DET organised|ADJ way|N-n.STATE .|PUNCT
 reviews-275919-0008	Usage|N-n.ACT of|P-p.Instrument:p.Theme product|N-n.ARTIFACT barcodes|N-n.COMMUNICATION and|CCONJ smooth|ADJ maintenance|N-n.ACT of|P-p.Theme inventory|N-n.ARTIFACT with|P-p.Means proper|ADJ recording|N-n.COMMUNICATION of|P-p.Topic transactions|N-n.POSSESSION like|P-p.PartPortion:p.ComparisonRef sale|N-n.POSSESSION ,|PUNCT purchase|N-n.POSSESSION and|CCONJ returns|N-n.POSSESSION was|V-v.stative never|ADV easy|ADJ before|P-p.Time .|PUNCT
 reviews-275919-0009	How|ADV long|ADV does|AUX it|PRON take|V-v.stative to|INF train|V-v.social new|ADJ people|N-n.GROUP at|P-p.Locus work|N-n.ACT ?|PUNCT
-reviews-275919-0010	Billing|N-n.POSSESSION takes|V-v.stative 15|NUM minutes|N-n.TIME and|CCONJ back_office|N-n.COGNITION jobs|N-n.COGNITION takes|V-v.stative 1|NUM day|N-n.TIME 's|POSS-p.Duration:p.Gestalt training|N-n.ACT How|ADV fast|ADJ your|PRON.POSS-p.Originator:p.Gestalt support|N-n.COGNITION queries|N-n.COMMUNICATION get|AUX answered|V-v.communication ?|PUNCT
-reviews-275919-0011	Over|P-p.Instrument:p.Path telephone|N-n.ARTIFACT ,|PUNCT immediate|ADJ .|PUNCT
-reviews-275919-0012	On_call|PP-p.Characteristic:p.Locus ,|PUNCT it|PRON takes|V-v.stative a|DET day|N-n.TIME to|INF.P-p.Purpose get|V-v.stative our|PRON.POSS-p.Experiencer:p.Gestalt issues|N-n.COGNITION resolved|V-v.stative .|PUNCT
+reviews-275919-0010	Billing|N-n.POSSESSION takes|V-v.stative 15|NUM minutes|N-n.TIME and|CCONJ back_office|N-n.COGNITION jobs|N-n.COGNITION takes|V-v.stative 1|NUM day|N-n.TIME 's|POSS-p.Duration:p.Gestalt training|N-n.ACT
+reviews-275919-0011	How|ADV fast|ADJ your|PRON.POSS-p.Originator:p.Gestalt support|N-n.COGNITION queries|N-n.COMMUNICATION get|AUX answered|V-v.communication ?|PUNCT
+reviews-275919-0012	Over|P-p.Instrument:p.Path telephone|N-n.ARTIFACT ,|PUNCT immediate|ADJ .|PUNCT
+reviews-275919-0013	On_call|PP-p.Characteristic:p.Locus ,|PUNCT it|PRON takes|V-v.stative a|DET day|N-n.TIME to|INF.P-p.Purpose get|V-v.stative our|PRON.POSS-p.Experiencer:p.Gestalt issues|N-n.COGNITION resolved|V-v.stative .|PUNCT
 reviews-276689-0001	The|DET landlord|N-n.PERSON is|V-v.stative not|ADV nice|ADJ nor|CCONJ helpful|ADJ
 reviews-276689-0002	I|PRON have|AUX lived|V-v.social in|P-p.Locus Buckingham_Condominiums|N-n.GROUP townhouse|N-n.ARTIFACT for|P-p.Duration 2|NUM years|N-n.TIME .|PUNCT
 reviews-276689-0003	I|PRON love|V-v.emotion the|DET location|N-n.LOCATION and|CCONJ the|DET apartment|N-n.ARTIFACT !!|PUNCT
