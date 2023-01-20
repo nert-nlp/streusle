@@ -306,13 +306,11 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                 elif '-' in tokNum:
                     isMWT = True # multiword token (e.g. 10-11), used for clitics
             if isEllipsis or isMWT:
-                if store_conllulex=='full': sent_conllulex += ln + '\n'
                 part1, part2 = tokNum.split('.' if isEllipsis else '-')
                 part1 = int(part1)
                 part2 = int(part2)
                 tokNum = (part1, part2, tokNum) # token offset is a tuple. include the string for convenience
             else:
-                sent_conllulex += ln + '\n'
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
