@@ -43,22 +43,26 @@ def build_conllulex(sents):
         # merge regular and ellipsis tokens
         toks = sent["toks"]
         for etok in reversed(sent["etoks"]):
-            before, subnum, s = etok["#"]
+            part1, part2, s = etok["#"]
             etok["#"] = s
-            toks.insert(before, etok)
+            toks.insert(part1-1 if '-' in s else part1, etok)
         for tok in toks:
-            isEllipsis = isinstance(tok["#"], str)
-            if isEllipsis: assert '.' in tok["#"]
+            isEllipsis = isMWT = False
+            if isinstance(tok["#"], str):
+                if '.' in tok["#"]:
+                    isEllipsis = True
+                elif '-' in tok["#"]:
+                    isMWT = True
             row = []
             for fld in CONLLU:
                 v = tok[CONLLU_TO_JSON_FIELDS.get(fld, fld.lower())]
                 if not v and v!=0:
-                    assert isEllipsis or fld in ('FEATS', 'MISC'),(fld,v)
+                    assert isEllipsis or isMWT or fld in ('FEATS', 'MISC'),(fld,v)
                     v = '_'
                 row.append(str(v))
 
             # SMWE
-            if isEllipsis:
+            if isEllipsis or isMWT:
                 # this is an ellipsis token. it doesn't have any lexical semantic info
                 row.extend(list('_'*9))
                 result += '\t'.join(row) + '\n'
