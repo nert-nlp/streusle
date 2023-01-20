@@ -65,9 +65,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                 for mwe_position,tokNum in enumerate(sorted(g), start=1):
                     sent['toks'][tokNum-1][x+'mwe'] = mwe_group, mwe_position
                     sent[x+'mwes'][mwe_group]['toknums'].append(tokNum)
-                    sent[x+'mwes'][mwe_group]['lexlemma'] += ' ' + sent['toks'][tokNum-1]['lemma']
+                    if sent['toks'][tokNum-1]['lemma']!='_':    # goeswith is the exception
+                        sent[x+'mwes'][mwe_group]['lexlemma'] += ' ' + sent['toks'][tokNum-1]['lemma']
                 sent[x+'mwes'][mwe_group]['lexlemma'] = sent[x+'mwes'][mwe_group]['lexlemma'][1:] # delete leading space
-                assert ' ' in sent[x+'mwes'][mwe_group]['lexlemma']  # TODO: may need to be commented out to allow for goeswith MWEs
+                #assert ' ' in sent[x+'mwes'][mwe_group]['lexlemma']  # TODO: may need to be commented out to allow for goeswith MWEs
                 mwe_group += 1
         del mwe_group
 
@@ -274,8 +275,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
             continue
 
         if ln.startswith('#'):
-            if ln.startswith('# newdoc ') or ln.startswith('# newpar '): continue
+            if ln.startswith('# newdoc ') or ln.startswith('# newpar ') or ln.startswith('# TODO'): continue
             m = re.match(r'^# (\w+) = (.*)$', ln)
+            assert m,ln
             k, v = m.group(1), m.group(2)
             assert k not in ('toks', 'swes', 'smwes', 'wmwes')
             sent[k] = v
@@ -306,13 +308,11 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, validate_pos=True
                 elif '-' in tokNum:
                     isMWT = True # multiword token (e.g. 10-11), used for clitics
             if isEllipsis or isMWT:
-                if store_conllulex=='full': sent_conllulex += ln + '\n'
                 part1, part2 = tokNum.split('.' if isEllipsis else '-')
                 part1 = int(part1)
                 part2 = int(part2)
                 tokNum = (part1, part2, tokNum) # token offset is a tuple. include the string for convenience
             else:
-                sent_conllulex += ln + '\n'
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
