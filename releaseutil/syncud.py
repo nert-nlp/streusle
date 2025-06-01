@@ -79,7 +79,9 @@ for sent in sentences(CONLLULEX):
                 streusle[2] = newudtok.lemma
                 nAutoLemmaFix += 1
             if old_lexcat!='_' and old_lextag=='O-'+old_lexcat and tok.ud_pos!=newudtok.ud_pos:
-                assert old_lexcat==tok.ud_pos or old_lexcat=='PRON' and old_lextag=='O-PRON' and tok.ud_pos=='NOUN',(old_lextag,tok.ud_pos,newudtok.ud_pos)
+                assert (old_lexcat==tok.ud_pos 
+                    or old_lexcat=='PRON' and old_lextag=='O-PRON' and tok.ud_pos=='NOUN'
+                    or old_lexcat=='DISC' and newudtok.ud_pos=='INTJ'),(old_lextag,tok.ud_pos,newudtok.ud_pos)
                 # 'other', 'none', 'one' in some cases had UPOS NOUN/lexcat PRON
 
                 newlexcat = {'ADP': 'P', 'NOUN': 'N', 'PROPN': 'N', 'VERB': 'V'}.get(newudtok.ud_pos, newudtok.ud_pos)
