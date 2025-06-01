@@ -1,10 +1,10 @@
       6 ??	_
-   3276 _	_
+   3275 _	_
       2 `$	`$
     123 n.ACT	_
       4 n.ANIMAL	_
-     84 n.ARTIFACT	_
-     32 n.ATTRIBUTE	_
+     83 n.ARTIFACT	_
+     33 n.ATTRIBUTE	_
      12 n.BODY	_
      69 n.COGNITION	_
      46 n.COMMUNICATION	_

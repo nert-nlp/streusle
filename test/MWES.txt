@@ -1,5 +1,5 @@
-Strong MWEs:  283
-...not counting goeswith MWEs:  281
+Strong MWEs:  284
+...not counting goeswith MWEs:  280
 Weak MWEs:     80
 ...not counting goeswith MWEs:   80
 
@@ -13,8 +13,8 @@ Multi-gap MWEs:   0
 Strong MWE token positions
 ==========================
 There are ... MWEs >= ... tokens long:
-    283 1
-    283 2
+    284 1
+    284 2
      69 3
      19 4
       7 5
@@ -40,7 +40,7 @@ Strong MWEs by LexCat
      10 DET
      10 DISC
       1 INTJ
-    129 N
+    130 N
      10 P
      18 PP
       2 PRON

@@ -1,5 +1,5 @@
 Strong MWEs: 2448
-...not counting goeswith MWEs: 2436
+...not counting goeswith MWEs: 2435
 Weak MWEs:    558
 ...not counting goeswith MWEs:  558
 

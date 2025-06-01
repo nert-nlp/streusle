@@ -1,28 +1,27 @@
-   4156 ADJ
-   3454 ADV
-   2021 AUX
-   2173 CCONJ
-   4057 DET
-    214 DISC
+   4134 ADJ
+   3656 ADV
+   2022 AUX
+   2172 CCONJ
+   4054 DET
+    212 DISC
     482 INF
     254 INF.P
-    137 INTJ
-   9258 N
-    604 NUM
+    139 INTJ
+   9261 N
+    597 NUM
    4007 P
      59 POSS
     187 PP
-   5098 PRON
+   5123 PRON
    1058 PRON.POSS
-   5857 PUNCT
-    664 SCONJ
-    153 SYM
-   6837 V
+   5856 PUNCT
+    482 SCONJ
+    154 SYM
+   6836 V
     121 V.IAV
      12 V.LVC.cause
     124 V.LVC.full
     320 V.VID
     207 V.VPC.full
      98 V.VPC.semi
-     16 X
-   4739 _
+   4737 _
