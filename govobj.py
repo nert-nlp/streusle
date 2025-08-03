@@ -260,14 +260,18 @@ def findgovobj(pexpr, sent):
 
     #print(sent['mwe'], (gtok['word'], plemma, otok['word']), config)
 
-with open(sys.argv[1], encoding='utf-8') as inF:
-    data = json.load(inF)
-
-for sent in data:
+def add_gov_obj(sent):
     enhance(sent)   # apply Enhanced Dependencies instead of superficial conj relations for coordination
     for lexe in chain(sent['swes'].values(), sent['smwes'].values()):
         if lexe['lexcat'] in {'P','PP','INF.P','POSS','PRON.POSS'}:
             gov = findgovobj(lexe, sent)
     deenhance(sent) # now that we've extracted prepositional/possessive gov & obj, revert to Basic Dependencies in the output
 
-print(json.dumps(data, indent=1))
+if __name__=='__main__':
+    with open(sys.argv[1], encoding='utf-8') as inF:
+        data = json.load(inF)
+
+    for sent in data:
+        add_gov_obj(sent)
+
+    print(json.dumps(data, indent=1))
