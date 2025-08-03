@@ -6,6 +6,7 @@ import sys
 from argparse import ArgumentParser, FileType
 from collections import defaultdict
 from itertools import chain
+from typing import Literal
 
 from lexcatter import supersenses_for_lexcat, ALL_LEXCATS
 from mwerender import render
@@ -25,7 +26,8 @@ Also performs validation checks on the input.
 
 
 
-def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None, store_conllulex=False and 'full' and 'toks',
+def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
+               store_conllulex: Literal[False, 'full', 'toks'] = False,
                validate_pos=True, validate_type=True):
     """Given a .conllulex or .json file, return an iterator over sentences.
     If a .conllulex file, performs consistency checks.
