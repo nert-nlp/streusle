@@ -48,6 +48,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
     """
     if store_conllulex: assert store_conllulex in {'full', 'toks'}
 
+    if ss_mapper is None:
+        ss_mapper = lambda ss: ss
+
     # If .json: just load the data
     if inF.name.endswith('.json'):
         for sent in json.load(inF):
@@ -218,9 +221,6 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
         if sent['mwe']!=s:
             caveat = ' (may be due to simplification)' if '$1' in sent['mwe'] else ''
             print(f'MWE string mismatch{caveat}:', s,sent['mwe'],sent['sent_id'], file=sys.stderr)
-
-    if ss_mapper is None:
-        ss_mapper = lambda ss: ss
 
     sent = {}
     sent_conllulex = ''
