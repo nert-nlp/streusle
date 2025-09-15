@@ -27,14 +27,14 @@ such as Excel: see [EXCEL.md](EXCEL.md) for instructions).
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_	_	PRON	I	_	_	_	_	_	O-PRON
 2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	4:aux	_	_	AUX	do	_	_	_	_	_	O-AUX
 3	not	not	PART	RB	_	4	advmod	4:advmod	_	_	ADV	not	_	_	_	_	_	O-ADV
-4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:1	V.LVC.full	have experience	v.stative	_	3:1	_	have experience with	B-V.LVC.full-v.stative
+4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_	1:1	V.LVC.full	have experience	v.stative	_	2:1	_	have experience with	B-V.LVC.full-v.stative
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_	_	DET	a	_	_	_	_	_	o-DET
 6	good	good	ADJ	JJ	Degree=Pos	7	amod	7:amod	_	_	ADJ	good	_	_	_	_	_	o-ADJ
-7	experience	experience	NOUN	NN	Number=Sing	4	obj	4:obj	_	1:2	_	_	_	_	3:2	_	_	I_
-8	w	with	ADP	IN	Abbr=Yes	10	case	10:case	SpaceAfter=No	_	P	with	p.Topic	p.Topic	3:3	_	_	I~-P-p.Topic
+7	experience	experience	NOUN	NN	Number=Sing	4	obj	4:obj	_	1:2	_	_	_	_	2:2	_	_	I_
+8	w	with	ADP	IN	Abbr=Yes	10	case	10:case	SpaceAfter=No	_	P	with	p.Topic	p.Topic	2:3	_	_	I~-P-p.Topic
 9	/	/	PUNCT	,	_	10	punct	10:punct	_	_	PUNCT	/	_	_	_	_	_	O-PUNCT
-10	Dr.	Dr.	PROPN	NNP	Number=Sing	7	nmod	7:nmod	_	2:1	N	Dr. Ghassemlou	n.PERSON	_	_	_	_	B-N-n.PERSON
-11	Ghassemlou	Ghassemlou	PROPN	NNP	Number=Sing	10	flat	10:flat	SpaceAfter=No	2:2	_	_	_	_	_	_	_	I_
+10	Dr.	Dr.	PROPN	NNP	Number=Sing	7	nmod	7:nmod	_	3:1	N	Dr. Ghassemlou	n.PERSON	_	_	_	_	B-N-n.PERSON
+11	Ghassemlou	Ghassemlou	PROPN	NNP	Number=Sing	10	flat	10:flat	SpaceAfter=No	3:2	_	_	_	_	_	_	_	I_
 12	.	.	PUNCT	.	_	4	punct	4:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 ```
 
@@ -63,8 +63,7 @@ Each token line has the following 19 columns, with `_` indicating an empty value
 in a column.
 
 The first 10 columns are copied exactly from the UD_English corpus following the
-UDv2 standard. __TODO: The UD_English version is ..., subsequent to 2.0 to incorporate
-corrections (primarily to lemmas and POS tags).__
+UDv2 standard.
 Refer to [this page](http://universaldependencies.org/format.html)
 and others on the UD website for documentation of UD's conventions for
 encoding orthography, morphology, and syntax.
@@ -104,7 +103,7 @@ The set of valid supersense labels (SS and SS2) is determined based on LEXCAT.
 
 15. SS2: Second supersense label; used only for adpositional expressions, which always have two labels listed, a role label in SS and a function label in SS2 (often these are identical).
 
-16. WMWE: Weak MWE grouping and position, analogous to the SMWE column. In the example, *have experience w* forms a weak MWE, and this is indicated with WMWE=`3:1`, `3:2`, and `3:3` on the respective tokens. Weak MWE identifiers are kept distinct from strong MWE identifiers.
+16. WMWE: Weak MWE grouping and position, analogous to the SMWE column. In the example, *have experience w* forms a weak MWE, and this is indicated with WMWE=`2:1`, `2:2`, and `2:3` on the respective tokens. Weak MWE identifiers are kept distinct from strong MWE identifiers.
 
 17. WCAT: Placeholder for a weak MWE category (currently not used).
 
