@@ -15,6 +15,8 @@ MWE attributes
         `V.IAV`, `V.LVC.cause`, `V.LVC.full`, `V.VID`, `V.VPC.full`, `V.VPC.semi`
   - `MWELemma` (sequence of word lemmas and gap-lengths, e.g. "go out of <1> way"
       for "went out of their way")
+  - `MWEString` (surface forms if different from `MWELemma` beyond capitalization).
+      N.B. `goeswith` tokens are separated by spaces in `MWEString` but not `MWELemma`.
   - `MWELen` (length of span from first to last token of the MWE)
 
 The attributes are placed on the first word of the MWE.
@@ -60,22 +62,27 @@ def load_ss(exp, target):
         if rel['obj'] is not None:
             target['PRel[obj]'] = f'{rel['obj']}:{rel['objlemma']}'
 
-def load_mwe(exp, target, weak=False):
+def load_mwe(exp, all_toks, target, weak=False):
     if not weak:
         target['MWECat'] = exp['lexcat']
         MWELen_KEY = 'MWELen'
         MWELemma_KEY = 'MWELemma'
+        MWEString_KEY = 'MWEString'
     else:
         MWELen_KEY = 'MWELen[weak]'
         MWELemma_KEY = 'MWELemma[weak]'
+        MWEString_KEY = 'MWEString[weak]'
     target[MWELen_KEY] = str(exp['toknums'][-1] - exp['toknums'][0] + 1)
     lemma_nongap_parts = exp['lexlemma'].split()
     target[MWELemma_KEY] = []
+    target[MWEString_KEY] = []
     prevI = None
     for i in exp['toknums']:
         if prevI is not None and i > prevI+1:
             gaplen = i - prevI - 1
             target[MWELemma_KEY].append(f'<{gaplen}>')
+            target[MWEString_KEY].append(f'<{gaplen}>')
+        target[MWEString_KEY].append(all_toks[i-1]['word'])
         if not lemma_nongap_parts:
             # probably a 2-token goeswith expression so not a real MWE.
             # a few exceptions contain a goeswith within a larger MWE:
@@ -91,6 +98,9 @@ def load_mwe(exp, target, weak=False):
         prevI = i
     if target:
         target[MWELemma_KEY] = ' '.join(target[MWELemma_KEY])
+        target[MWEString_KEY] = ' '.join(target[MWEString_KEY])
+        if target[MWEString_KEY].lower()==target[MWELemma_KEY].lower():
+            del target[MWEString_KEY]   # only include MWEString= if distinct from MWELemma= (inflection, typo)
 
 if __name__ == '__main__':
     argparser = ArgumentParser(description=desc)
@@ -108,10 +118,10 @@ if __name__ == '__main__':
         for smwe in smwes.values():
             target = miscattrs[smwe['toknums'][0]]
             load_ss(smwe, target)
-            load_mwe(smwe, target)
+            load_mwe(smwe, sent['toks'], target)
         for wmwe in wmwes.values():
             target = miscattrs[wmwe['toknums'][0]]
-            load_mwe(wmwe, target, weak=True)
+            load_mwe(wmwe, sent['toks'], target, weak=True)
             
             #print(smwe['toknums'][0], target)
         for ln in conllulex.splitlines():
