@@ -32,8 +32,8 @@ Supersense attributes
       SNACS supersenses start with `p.`, except for the special labels `` `$ ``
       (possessive slot in idiom) and `??` (ungrammatical/unintelligible).
       Other special labels are `` `d `` (single-word discourse expression tagged as a noun,
-      verb, or preposition/possessive) and `` `j `` (single-word adjectival expression
-      tagged as a verb).
+      verb, or preposition/possessive), `` `j `` (single-word adjectival expression
+      tagged as a verb), and `` `c `` (coordinator tagged as an ADP).
   - `PRel[config]`, `PRel[gov]`, `PRel[obj]` (structure of the prepositional/possessive 
       relation associated with a SNACS supersense; some constructions lack a governor
       [approximator or PP idiom] or an object [intransitive P])
@@ -67,6 +67,8 @@ def load_ss(exp, all_toks, target):
     if not exp['ss'] and len(exp['toknums'])==1:
         if exp['lexcat']=='DISC':
             target['Supersense'] = '`d'
+        if exp['lexcat']=='CCONJ' and all_toks[exp['toknums'][0]-1]['upos']=='ADP':
+            target['Supersense'] = '`c'
         elif exp['lexcat']=='ADJ' and all_toks[exp['toknums'][0]-1]['upos']=='VERB':
             target['Supersense'] = '`j'
 
