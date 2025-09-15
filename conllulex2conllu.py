@@ -31,6 +31,9 @@ Supersense attributes
       Noun and verb supersenses start with `n.` and `v.` respectively.
       SNACS supersenses start with `p.`, except for the special labels `` `$ ``
       (possessive slot in idiom) and `??` (ungrammatical/unintelligible).
+      Other special labels are `` `d `` (single-word discourse expression tagged as a noun,
+      verb, or preposition/possessive) and `` `j `` (single-word adjectival expression
+      tagged as a verb).
   - `PRel[config]`, `PRel[gov]`, `PRel[obj]` (structure of the prepositional/possessive 
       relation associated with a SNACS supersense; some constructions lack a governor
       [approximator or PP idiom] or an object [intransitive P])
@@ -46,7 +49,7 @@ from argparse import ArgumentParser, FileType
 from conllulex2json import load_sents
 from govobj import add_gov_obj
 
-def load_ss(exp, target):
+def load_ss(exp, all_toks, target):
     if exp['ss']:
         if exp['ss2'] and exp['ss2']!=exp['ss']:
             target['Supersense[scene]'] = exp['ss']
@@ -61,6 +64,11 @@ def load_ss(exp, target):
             target['PRel[gov]'] = f'{rel['gov']}:{rel['govlemma']}'
         if rel['obj'] is not None:
             target['PRel[obj]'] = f'{rel['obj']}:{rel['objlemma']}'
+    if not exp['ss'] and len(exp['toknums'])==1:
+        if exp['lexcat']=='DISC':
+            target['Supersense'] = '`d'
+        elif exp['lexcat']=='ADJ' and all_toks[exp['toknums'][0]-1]['upos']=='VERB':
+            target['Supersense'] = '`j'
 
 def load_mwe(exp, all_toks, target, weak=False):
     if not weak:
@@ -113,11 +121,11 @@ if __name__ == '__main__':
 
         for swe in swes.values():
             target = miscattrs[swe['toknums'][0]]
-            load_ss(swe, target)
+            load_ss(swe, sent['toks'], target)
             #print(swe['toknums'][0], target)
         for smwe in smwes.values():
             target = miscattrs[smwe['toknums'][0]]
-            load_ss(smwe, target)
+            load_ss(smwe, sent['toks'], target)
             load_mwe(smwe, sent['toks'], target)
         for wmwe in wmwes.values():
             target = miscattrs[wmwe['toknums'][0]]
