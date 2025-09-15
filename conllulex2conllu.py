@@ -98,13 +98,17 @@ def load_mwe(exp, all_toks, target, weak=False):
                 pass
             else:
                 assert target[MWELen_KEY]=='2',(i,exp['toknums'],target,lemma_nongap_parts)
-                target.clear()
+                # target may still contain legit Supersense annotation
+                del target['MWECat']
+                del target[MWELen_KEY]
+                del target[MWELemma_KEY]
+                del target[MWEString_KEY]
                 break
         else:
             part = lemma_nongap_parts.pop(0)
             target[MWELemma_KEY].append(part)
         prevI = i
-    if target:
+    if target and MWELemma_KEY in target:
         target[MWELemma_KEY] = ' '.join(target[MWELemma_KEY])
         target[MWEString_KEY] = ' '.join(target[MWEString_KEY])
         if target[MWEString_KEY].lower()==target[MWELemma_KEY].lower():
