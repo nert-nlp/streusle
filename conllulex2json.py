@@ -93,10 +93,9 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
         xmwes =  [(e["toknums"][0], 's', mwenum) for mwenum,e in sent['smwes'].items()]
         xmwes += [(e["toknums"][0], 'w', mwenum) for mwenum,e in sent['wmwes'].items()]
         xmwes.sort()
-        for k,mwe in chain(sent['smwes'].items(), sent['wmwes'].items()):
-            assert int(k)-1<len(xmwes),f"In {sent['sent_id']}, MWE index {k} exceeds number of MWEs in the sentence"
-            assert xmwes[int(k)-1][2]==k,f"In {sent['sent_id']}, MWEs are not numbered in the correct order: use normalize_mwe_numbering.py to fix"
-
+        for k,(_,_,mwenum) in enumerate(xmwes, start=1):
+            assert mwenum==k,f"In {sent['sent_id']}, MWEs are not numbered in the correct order: use normalize_mwe_numbering.py to fix"
+        
         # check that lexical & weak MWE lemmas are correct
         lexes_to_validate = chain(sent['swes'].values(), sent['smwes'].values()) if validate_type else []
         for lexe in lexes_to_validate:
