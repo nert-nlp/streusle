@@ -96,16 +96,17 @@ def load_mwe(exp, all_toks, target, weak=False):
         if not lemma_nongap_parts:
             # probably a 2-token goeswith expression so not a real MWE.
             # a few exceptions contain a goeswith within a larger MWE:
-            if ' '.join(target[MWELemma_KEY]) in {'Award Dance Centre', 'in the meantime', 'go downhill', 'forget that'}:
-                pass
-            else:
-                assert target[MWELen_KEY]=='2',(i,exp['toknums'],target,lemma_nongap_parts)
-                # target may still contain legit Supersense annotation
-                del target['MWECat']
-                del target[MWELen_KEY]
-                del target[MWELemma_KEY]
-                del target[MWEString_KEY]
-                break
+            pass
+            # if ' '.join(target[MWELemma_KEY]) in {'Award Dance Centre', 'in the meantime', 'go downhill', 'forget that'}:
+            #     pass
+            # else:
+            #     assert target[MWELen_KEY]=='2',(i,exp['toknums'],target,lemma_nongap_parts)
+            #     # target may still contain legit Supersense annotation
+            #     del target['MWECat']
+            #     del target[MWELen_KEY]
+            #     del target[MWELemma_KEY]
+            #     del target[MWEString_KEY]
+            #     break
         else:
             part = lemma_nongap_parts.pop(0)
             target[MWELemma_KEY].append(part)
