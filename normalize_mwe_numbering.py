@@ -27,10 +27,15 @@ with open(inFname, encoding='utf-8') as inF:
         smwes = sent["smwes"]
         wmwes = sent["wmwes"]
         allmwes = []
+        oldnums = set()
         for oldnum,e in smwes.items():
             allmwes.append((e["toknums"][0], 's', oldnum))
+            assert oldnum not in oldnums,f'Duplicate MWE group number: {oldnum} in {sent["sent_id"]}'
+            oldnums.add(oldnum)
         for oldnum,e in wmwes.items():
             allmwes.append((e["toknums"][0], 'w', oldnum))
+            assert oldnum not in oldnums,f'Duplicate MWE group number: {oldnum} in {sent["sent_id"]}'
+            oldnums.add(oldnum)
         allmwes.sort()
         current_sort = sorted(allmwes, key=lambda x: x[2])
         if allmwes!=current_sort:
