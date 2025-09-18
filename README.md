@@ -133,10 +133,13 @@ History
 
 ### Synopsis of changes since 4.0
 
-The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the semantic annotations. The 4.4 release updates only UD annotations. The 4.5 release updates UD annotations and renames a couple of semantic labels. The 4.6 release updates UD annotations.
+The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the semantic annotations. The 4.4 release updates only UD annotations. The 4.5 release updates UD annotations and renames a couple of semantic labels. The 4.6 release updates UD annotations. The 4.7 contains minor fixes.
 
 ### Detailed changes
 
+  - STREUSLE 4.7: 2025-09-18.
+     * Fix a couple of data consistency errors and buggy validation checks.
+     * govobj.py can now be imported as a library.
   - STREUSLE 4.6: 2025-06-01.
      * Update UD to v2.16.
   - STREUSLE 4.5: 2022-06-15.

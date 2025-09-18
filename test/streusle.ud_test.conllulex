@@ -6729,7 +6729,7 @@
 # newpar id = reviews-307170-p0002
 # text = Great Limos company int he DFW fort Worth Metro area.
 # streusle_sent_id = ewtb.r.307170.2
-# mwe = Great Limos company int he DFW_ fort_Worth _Metro_area .
+# mwe = Great_Limos company int he DFW_ fort_Worth _Metro_area .
 1	Great	Great	ADJ	NNP	Degree=Pos	3	amod	3:amod	_	1:1	N	Great Limo	n.GROUP	_	_	_	_	B-N-n.GROUP
 2	Limos	Limo	PROPN	NNP	Number=Sing	3	compound	3:compound	_	1:2	_	_	_	_	_	_	_	I_
 3	company	company	NOUN	NN	Number=Sing	0	root	0:root	_	_	N	company	n.GROUP	_	_	_	_	O-N-n.GROUP
