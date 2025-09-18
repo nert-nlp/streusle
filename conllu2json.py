@@ -24,6 +24,9 @@ Also performs validation checks on the input.
 @since: 2025-09-13
 """
 
+def regex_filter(pattern: str, items: Iterable[str]):
+    return [s for s in items if re.search(pattern, s)]
+
 class SENTINEL: pass
 sentinel = SENTINEL()
 
@@ -355,6 +358,29 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
                     ss2 = ss2[ss2.index('=')+1:]
                 if not ss2 and (ss or '').startswith(('p.','`$')):
                     ss2 = ss
+
+                # read P relations (gov/obj)
+                if regex_filter(r'^PRel\[', tok['misc'] or ''):
+                    prel_config = regex_filter_uniq(r'^PRel\[config\]=', tok['misc'] or '')
+                    prel_config = prel_config[13:]
+
+                    prel_govoffsetlemma = regex_filter_uniq(r'^PRel\[gov\]=', tok['misc'] or '', default=None)
+                    if prel_govoffsetlemma:
+                        prel_igov, prel_govlemma = (m := re.search(r'^PRel\[gov\]=(\d+):(.+)', prel_govoffsetlemma)).group(1), m.group(2)
+                        prel_igov = int(prel_igov)
+                    else:
+                        prel_igov = prel_govlemma = None
+
+                    prel_objoffsetlemma = regex_filter_uniq(r'^PRel\[obj\]=', tok['misc'] or '', default=None)
+                    if prel_objoffsetlemma:
+                        prel_iobj, prel_objlemma = (m := re.search(r'^PRel\[obj\]=(\d+):(.+)', prel_objoffsetlemma)).group(1), m.group(2)
+                        prel_iobj = int(prel_iobj)
+                    else:
+                        prel_iobj = prel_objlemma = None
+
+                    tok['heuristic_relation'] = {'gov': prel_igov, 'govlemma': prel_govlemma,
+                                                 'obj': prel_iobj, 'objlemma': prel_objlemma,
+                                                 'config': prel_config}
 
                 # read expression units: SMWE, SWE
                 if (smweLemma := regex_filter_uniq(r'^MWELemma=', tok['misc'] or '', default=None)):
