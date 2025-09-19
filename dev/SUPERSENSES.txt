@@ -82,7 +82,7 @@
       4 p.PartPortion	p.PartPortion
       4 p.Possession	p.Ancillary
       1 p.Possession	p.Locus
-     21 p.Possessor	p.Possessor
+     22 p.Possessor	p.Possessor
      42 p.Purpose	p.Purpose
       2 p.QuantityItem	p.QuantityItem
       1 p.QuantityItem	p.Stuff
@@ -118,11 +118,11 @@
      20 v.perception	_
      18 v.possession	_
      90 v.social	_
-    292 v.stative	_
+    291 v.stative	_
 ========================
 1040 n.*
-661 v.*
-461 p.*
+660 v.*
+462 p.*
 
 n.* by LexCat
 ========================
@@ -133,7 +133,7 @@ v.* by LexCat
     608 V
       5 V.IAV
       7 V.LVC.full
-     24 V.VID
+     23 V.VID
      12 V.VPC.full
       5 V.VPC.semi
 
@@ -143,7 +143,7 @@ p.* by LexCat
     329 P
       6 POSS
      19 PP
-     80 PRON.POSS
+     81 PRON.POSS
 
 p.* by LexCat + construal type
 ========================
@@ -155,7 +155,7 @@ p.* by LexCat + construal type
       5 POSS	p.X ~> p.Y
       8 PP	p.X ~> p.X
      11 PP	p.X ~> p.Y
-     26 PRON.POSS	p.X ~> p.X
+     27 PRON.POSS	p.X ~> p.X
      54 PRON.POSS	p.X ~> p.Y
 
 p.* by LexCat + spatiotemporality
@@ -169,5 +169,5 @@ p.* by LexCat + spatiotemporality
       5 POSS 	p.OTH ~> *
      11 PP 	p.LOC ~> *
       8 PP 	p.OTH ~> *
-     80 PRON.POSS 	p.OTH ~> *
+     81 PRON.POSS 	p.OTH ~> *
 

@@ -5327,7 +5327,7 @@
       {"#": 12, "word": "discussing", "lemma": "disgusting", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos|Typo=Yes", "head": 2, "deprel": "list", "edeps": "2:list", "misc": "CorrectForm=disgusting", "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 13, "word": "meat", "lemma": "meat", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 15, "deprel": "nsubj", "edeps": "15:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.FOOD"},
       {"#": 14, "word": "all", "lemma": "all", "upos": "ADV", "xpos": "RB", "feats": null, "head": 15, "deprel": "advmod", "edeps": "15:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
-      {"#": 15, "word": "over", "lemma": "overcooked", "upos": "ADJ", "xpos": "AFX", "feats": "Degree=Pos|Typo=Yes", "head": 2, "deprel": "list", "edeps": "2:list", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-V.VID-v.stative"},
+      {"#": 15, "word": "over", "lemma": "overcooked", "upos": "ADJ", "xpos": "AFX", "feats": "Degree=Pos|Typo=Yes", "head": 2, "deprel": "list", "edeps": "2:list", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-ADJ"},
       {"#": 16, "word": "cooked", "lemma": "_", "upos": "X", "xpos": "JJ", "feats": null, "head": 15, "deprel": "goeswith", "edeps": "15:goeswith", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 17, "word": "was", "lemma": "be", "upos": "AUX", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin", "head": 18, "deprel": "cop", "edeps": "18:cop", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 18, "word": "good", "lemma": "good", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 2, "deprel": "list", "edeps": "2:list", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
@@ -5367,7 +5367,7 @@
       "24": {"lexlemma": "have", "lexcat": "AUX", "ss": null, "ss2": null, "toknums": [24]}
     },
     "smwes": {
-      "1": {"lexlemma": "overcooked", "lexcat": "V.VID", "ss": "v.stative", "ss2": null, "toknums": [15, 16]},
+      "1": {"lexlemma": "overcooked", "lexcat": "ADJ", "ss": null, "ss2": null, "toknums": [15, 16]},
       "2": {"lexlemma": "go downhill", "lexcat": "V.VID", "ss": "v.change", "ss2": null, "toknums": [25, 26, 27]}
     },
     "wmwes": {}
@@ -13412,7 +13412,7 @@
       {"#": 3, "word": "this", "lemma": "this", "upos": "DET", "xpos": "DT", "feats": "Number=Sing|PronType=Dem", "head": 4, "deprel": "det", "edeps": "4:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 4, "word": "listing", "lemma": "listing", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 2, "deprel": "obj", "edeps": "2:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-N-n.COMMUNICATION"},
       {"#": 5, "word": "in", "lemma": "in", "upos": "ADP", "xpos": "IN", "feats": null, "head": 7, "deprel": "case", "edeps": "7:case", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-P-p.Locus"},
-      {"#": 6, "word": "you", "lemma": "your", "upos": "PRON", "xpos": "PRP$", "feats": "Case=Gen|Person=2|Poss=Yes|PronType=Prs|Typo=Yes", "head": 7, "deprel": "nmod:poss", "edeps": "7:nmod:poss", "misc": "CorrectForm=your", "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 6, "word": "you", "lemma": "your", "upos": "PRON", "xpos": "PRP$", "feats": "Case=Gen|Person=2|Poss=Yes|PronType=Prs|Typo=Yes", "head": 7, "deprel": "nmod:poss", "edeps": "7:nmod:poss", "misc": "CorrectForm=your", "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Possessor"},
       {"#": 7, "word": "database", "lemma": "database", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 2, "deprel": "obl", "edeps": "2:obl:in", "misc": "SpaceAfter=No", "smwe": null, "wmwe": null, "lextag": "O-N-n.COGNITION"},
       {"#": 8, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 2, "deprel": "punct", "edeps": "2:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -13423,7 +13423,7 @@
       "3": {"lexlemma": "this", "lexcat": "DET", "ss": null, "ss2": null, "toknums": [3]},
       "4": {"lexlemma": "listing", "lexcat": "N", "ss": "n.COMMUNICATION", "ss2": null, "toknums": [4]},
       "5": {"lexlemma": "in", "lexcat": "P", "ss": "p.Locus", "ss2": "p.Locus", "toknums": [5]},
-      "6": {"lexlemma": "your", "lexcat": "PRON", "ss": null, "ss2": null, "toknums": [6]},
+      "6": {"lexlemma": "your", "lexcat": "PRON.POSS", "ss": "p.Possessor", "ss2": "p.Possessor", "toknums": [6]},
       "7": {"lexlemma": "database", "lexcat": "N", "ss": "n.COGNITION", "ss2": null, "toknums": [7]},
       "8": {"lexlemma": ".", "lexcat": "PUNCT", "ss": null, "ss2": null, "toknums": [8]}
     },
