@@ -13967,7 +13967,7 @@
  "sent_id": "reviews-307170-0002",
  "text": "Great Limos company int he DFW fort Worth Metro area.",
  "streusle_sent_id": "ewtb.r.307170.2",
- "mwe": "Great Limos company int he DFW_ fort_Worth _Metro_area .",
+ "mwe": "Great_Limos company int he DFW_ fort_Worth _Metro_area .",
     "toks": [
       {"#": 1, "word": "Great", "lemma": "Great", "upos": "ADJ", "xpos": "NNP", "feats": "Degree=Pos", "head": 3, "deprel": "amod", "edeps": "3:amod", "misc": null, "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
       {"#": 2, "word": "Limos", "lemma": "Limo", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 3, "deprel": "compound", "edeps": "3:compound", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},

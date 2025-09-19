@@ -1,5 +1,5 @@
      35 ??	_
-  27235 _	_
+  27234 _	_
      15 `$	`$
     493 n.ACT	_
      78 n.ANIMAL	_
@@ -147,7 +147,7 @@
      25 p.Possession	p.Theme
       4 p.Possessor	p.Ancillary
       1 p.Possessor	p.Locus
-    270 p.Possessor	p.Possessor
+    271 p.Possessor	p.Possessor
       2 p.Purpose	p.Locus
     292 p.Purpose	p.Purpose
       2 p.QuantityItem	p.Gestalt
@@ -214,7 +214,7 @@
 ========================
 7235 n.*
 6360 v.*
-4552 p.*
+4553 p.*
 
 n.* by LexCat
 ========================
@@ -236,7 +236,7 @@ p.* by LexCat
    3279 P
      51 POSS
     150 PP
-    865 PRON.POSS
+    866 PRON.POSS
 
 p.* by LexCat + construal type
 ========================
@@ -248,7 +248,7 @@ p.* by LexCat + construal type
      31 POSS	p.X ~> p.Y
      84 PP	p.X ~> p.X
      66 PP	p.X ~> p.Y
-    353 PRON.POSS	p.X ~> p.X
+    354 PRON.POSS	p.X ~> p.X
     512 PRON.POSS	p.X ~> p.Y
 
 p.* by LexCat + spatiotemporality
@@ -264,5 +264,5 @@ p.* by LexCat + spatiotemporality
      50 PP 	p.LOC ~> *
      89 PP 	p.OTH ~> *
      11 PP 	p.TMP ~> *
-    865 PRON.POSS 	p.OTH ~> *
+    866 PRON.POSS 	p.OTH ~> *
 

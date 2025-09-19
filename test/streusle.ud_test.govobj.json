@@ -111215,7 +111215,7 @@
   "sent_id": "reviews-307170-0002",
   "text": "Great Limos company int he DFW fort Worth Metro area.",
   "streusle_sent_id": "ewtb.r.307170.2",
-  "mwe": "Great Limos company int he DFW_ fort_Worth _Metro_area .",
+  "mwe": "Great_Limos company int he DFW_ fort_Worth _Metro_area .",
   "toks": [
    {
     "#": 1,
