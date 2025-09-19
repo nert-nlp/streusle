@@ -1,4 +1,4 @@
-    605 ADJ
+    606 ADJ
     353 ADV
     159 AUX
     199 CCONJ
@@ -12,15 +12,15 @@
     335 P
       6 POSS
      19 PP
-    365 PRON
-     83 PRON.POSS
+    364 PRON
+     84 PRON.POSS
     648 PUNCT
      20 SCONJ
      18 SYM
     608 V
       5 V.IAV
       7 V.LVC.full
-     24 V.VID
+     23 V.VID
      12 V.VPC.full
       5 V.VPC.semi
     467 _

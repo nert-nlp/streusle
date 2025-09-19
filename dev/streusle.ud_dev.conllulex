@@ -2571,7 +2571,7 @@
 12	discussing	disgusting	ADJ	JJ	Degree=Pos|Typo=Yes	2	list	2:list	CorrectForm=disgusting	_	ADJ	disgusting	_	_	_	_	_	O-ADJ
 13	meat	meat	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_	_	N	meat	n.FOOD	_	_	_	_	O-N-n.FOOD
 14	all	all	ADV	RB	_	15	advmod	15:advmod	_	_	ADV	all	_	_	_	_	_	O-ADV
-15	over	overcooked	ADJ	AFX	Degree=Pos|Typo=Yes	2	list	2:list	_	1:1	V.VID	overcooked	v.stative	_	_	_	_	B-V.VID-v.stative
+15	over	overcooked	ADJ	AFX	Degree=Pos|Typo=Yes	2	list	2:list	_	1:1	ADJ	overcooked	_	_	_	_	_	B-ADJ
 16	cooked	_	X	JJ	_	15	goeswith	15:goeswith	_	1:2	_	_	_	_	_	_	_	I_
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	18:cop	_	_	V	be	v.stative	_	_	_	_	O-V-v.stative
 18	good	good	ADJ	JJ	Degree=Pos	2	list	2:list	_	_	ADJ	good	_	_	_	_	_	O-ADJ
@@ -6456,7 +6456,7 @@
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	_	_	DET	this	_	_	_	_	_	O-DET
 4	listing	listing	NOUN	NN	Number=Sing	2	obj	2:obj	_	_	N	listing	n.COMMUNICATION	_	_	_	_	O-N-n.COMMUNICATION
 5	in	in	ADP	IN	_	7	case	7:case	_	_	P	in	p.Locus	p.Locus	_	_	_	O-P-p.Locus
-6	you	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs|Typo=Yes	7	nmod:poss	7:nmod:poss	CorrectForm=your	_	PRON	your	_	_	_	_	_	O-PRON
+6	you	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs|Typo=Yes	7	nmod:poss	7:nmod:poss	CorrectForm=your	_	PRON.POSS	your	p.Possessor	p.Possessor	_	_	_	O-PRON.POSS-p.Possessor
 7	database	database	NOUN	NN	Number=Sing	2	obl	2:obl:in	SpaceAfter=No	_	N	database	n.COGNITION	_	_	_	_	O-N-n.COGNITION
 8	.	.	PUNCT	.	_	2	punct	2:punct	_	_	PUNCT	.	_	_	_	_	_	O-PUNCT
 

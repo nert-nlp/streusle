@@ -163,7 +163,7 @@ reviews-099279-0002	answered|V-v.communication~ all|DET my|PRON.POSS-p.Originato
 reviews-099279-0003	highly|ADV~recommended|V-v.communication !|PUNCT
 reviews-103609-0001	Great|ADJ Family_Fun|N-n.COGNITION and|CCONJ Bonding|N-n.ACT
 reviews-103609-0002	What|PRON more|ADJ can|AUX be|AUX said|V-v.communication :|PUNCT "|PUNCT Burch_'s_Karate|N-n.GROUP is|V-v.stative the|DET GREATEST|ADJ !|PUNCT "|PUNCT
-reviews-105237-0001	Worst|ADJ place|N-n.GROUP flour|N-n.FOOD tortillas|N-n.FOOD are|V-v.stative always|ADV hard|ADJ the|DET beef|N-n.FOOD enchiladas|N-n.FOOD are|V-v.stative discussing|ADJ meat|N-n.FOOD all|ADV over_cooked|V.VID-v.stative was|V-v.stative good|ADJ many|ADJ yrs|N-n.TIME ago|P-p.Time:p.Interval but|CCONJ restaurant|N-n.GROUP has|AUX gone_down_hill|V.VID-v.change
+reviews-105237-0001	Worst|ADJ place|N-n.GROUP flour|N-n.FOOD tortillas|N-n.FOOD are|V-v.stative always|ADV hard|ADJ the|DET beef|N-n.FOOD enchiladas|N-n.FOOD are|V-v.stative discussing|ADJ meat|N-n.FOOD all|ADV over_cooked|ADJ was|V-v.stative good|ADJ many|ADJ yrs|N-n.TIME ago|P-p.Time:p.Interval but|CCONJ restaurant|N-n.GROUP has|AUX gone_down_hill|V.VID-v.change
 reviews-105326-0001	How|ADV a|DET pizza_place|N-n.GROUP should|AUX be|V-v.stative !|PUNCT
 reviews-105326-0002	+|SYM there|PRON is|V-v.stative a|DET free|ADJ cola|N-n.FOOD with|P-p.Ancillary every|DET pizza|N-n.FOOD .|PUNCT
 reviews-105719-0001	Over_priced|ADJ for|P-p.ComparisonRef Mexican|ADJ food|N-n.FOOD
@@ -409,7 +409,7 @@ reviews-287501-0001	Kliotech|N-n.GROUP
 reviews-287501-0002	A|DET company|N-n.GROUP which|PRON provide|V-v.stative good|ADJ quality|N-n.ATTRIBUTE portals|N-n.COMMUNICATION ,|PUNCT E-commerce|N-n.GROUP~solutions|N-n.COGNITION ,|PUNCT web|N-n.COMMUNICATION based|V-v.stative MMOG|N-n.COGNITION ...|PUNCT etc|PRON
 reviews-288894-0001	Wrong|ADJ Information|N-n.COGNITION
 reviews-288894-0002	The|DET address|N-n.LOCATION is|V-v.stative for|P-p.Gestalt:p.Purpose Noida|N-n.LOCATION Location|N-n.LOCATION not|ADV for|P-p.Gestalt:p.Purpose Gurgaon|N-n.LOCATION Location|N-n.LOCATION .|PUNCT
-reviews-288894-0003	Please|INTJ update|V-v.change this|DET listing|N-n.COMMUNICATION in|P-p.Locus you|PRON database|N-n.COGNITION .|PUNCT
+reviews-288894-0003	Please|INTJ update|V-v.change this|DET listing|N-n.COMMUNICATION in|P-p.Locus you|PRON.POSS-p.Possessor database|N-n.COGNITION .|PUNCT
 reviews-288930-0001	great|ADJ !|PUNCT :P|SYM
 reviews-288930-0002	you|PRON get|V-v.stative a|DET really|ADV good|ADJ view|N-n.COGNITION of|P-p.Stimulus:p.Theme the|DET city|N-n.LOCATION and|CCONJ there|PRON is|V-v.stative also|ADV attractions|N-n.ARTIFACT like|P-p.PartPortion:p.ComparisonRef simulator|N-n.ARTIFACT ,|PUNCT short|ADJ movies|N-n.COMMUNICATION .|PUNCT
 reviews-288930-0003	Try|V-v.social the|DET 360_restraunt|N-n.GROUP u|PRON spin|V-v.motion in|P-p.Locus the|DET cn_tower|N-n.LOCATION with|P-p.Characteristic a|DET beautiful|ADJ view|N-n.ATTRIBUTE the|DET sky_pod|N-n.ARTIFACT~elevator|N-n.ARTIFACT is|V-v.stative about|P-p.Approximator an|DET hour|N-n.TIME line_up|N-n.ACT in|P-p.Time the|DET summer|N-n.TIME

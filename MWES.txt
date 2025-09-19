@@ -35,7 +35,7 @@ Weak MWE token positions
 
 Strong MWEs by LexCat
 =====================
-    115 ADJ
+    116 ADJ
      47 ADV
     131 AUX
       9 CCONJ
@@ -53,6 +53,6 @@ Strong MWEs by LexCat
     121 V.IAV
      12 V.LVC.cause
     124 V.LVC.full
-    320 V.VID
+    319 V.VID
     207 V.VPC.full
      98 V.VPC.semi

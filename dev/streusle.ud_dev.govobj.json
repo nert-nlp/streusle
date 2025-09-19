@@ -41367,7 +41367,7 @@
      1
     ],
     "wmwe": null,
-    "lextag": "B-V.VID-v.stative"
+    "lextag": "B-ADJ"
    },
    {
     "#": 16,
@@ -41773,8 +41773,8 @@
   "smwes": {
    "1": {
     "lexlemma": "overcooked",
-    "lexcat": "V.VID",
-    "ss": "v.stative",
+    "lexcat": "ADJ",
+    "ss": null,
     "ss2": null,
     "toknums": [
      15,
@@ -104735,7 +104735,7 @@
     "misc": "CorrectForm=your",
     "smwe": null,
     "wmwe": null,
-    "lextag": "O-PRON"
+    "lextag": "O-PRON.POSS-p.Possessor"
    },
    {
     "#": 7,
@@ -104824,12 +104824,19 @@
    },
    "6": {
     "lexlemma": "your",
-    "lexcat": "PRON",
-    "ss": null,
-    "ss2": null,
+    "lexcat": "PRON.POSS",
+    "ss": "p.Possessor",
+    "ss2": "p.Possessor",
     "toknums": [
      6
-    ]
+    ],
+    "heuristic_relation": {
+     "gov": 7,
+     "govlemma": "database",
+     "obj": null,
+     "objlemma": null,
+     "config": "possessive"
+    }
    },
    "7": {
     "lexlemma": "database",

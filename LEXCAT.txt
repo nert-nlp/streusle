@@ -1,4 +1,4 @@
-   4134 ADJ
+   4135 ADJ
    3656 ADV
    2022 AUX
    2172 CCONJ
@@ -12,8 +12,8 @@
    4007 P
      59 POSS
     187 PP
-   5122 PRON
-   1059 PRON.POSS
+   5121 PRON
+   1060 PRON.POSS
    5856 PUNCT
     482 SCONJ
     154 SYM
@@ -21,7 +21,7 @@
     121 V.IAV
      12 V.LVC.cause
     124 V.LVC.full
-    320 V.VID
+    319 V.VID
     207 V.VPC.full
      98 V.VPC.semi
    4737 _
