@@ -16,7 +16,7 @@ STREUSLE stands for Supersense-Tagged Repository of English with a Unified Seman
 
 Release URL: <https://github.com/nert-nlp/streusle>  
 Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>  
-Online corpus search in ANNIS: <https://corpling.uis.georgetown.edu/annis/#_c=c3RyZXVzbGVfNC4z> ([instructions](https://docs.google.com/document/d/e/2PACX-1vTpRsg7B4lj_YnVf-tVGNZCekg_I2k81sGfLayyaJW35k8L8eJJrt4IC-qESrWcl494NXGh2SIeSwi5/pub))
+Online corpus search in ANNIS: <https://corpling.uis.georgetown.edu/annis/#_c=c3RyZXVzbGVfNC4z> ([instructions](https://docs.google.com/document/d/e/2PACX-1vTpRsg7B4lj_YnVf-tVGNZCekg_I2k81sGfLayyaJW35k8L8eJJrt4IC-qESrWcl494NXGh2SIeSwi5/pub))  
 Browse semantic annotations of prepositions/possessives on the Xposition website [17]: <http://www.xposition.org/en/>
 
 The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [10]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.16 (released May 15, 2025); these follow the UD v2 standard.
@@ -31,24 +31,20 @@ An independent effort to improve the MWE annotations from those in STREUSLE 3.0 
 Files
 -----
 
-- streusle.conllulex: Full dataset.
+- streusle.conllu: Full dataset.
 - STATS.md, LEXCAT.txt, MWES.txt, SUPERSENSES.txt: Statistics summarizing the full dataset.
 - train/, dev/, test/: Data splits established by the UD project and accompanying statistics.
 - releaseutil/: Scripts for preparing the data for release.
 
 - ACKNOWLEDGMENTS.md: Contributors and support that made this dataset possible.
-- CONLLULEX.md: Description of data format.
-- EXCEL.md: Instructions for working with the data as a spreadsheet.
+- FORMAT.md: Description of canonical data format. Lexical semantic annotations are implemented as a layer within the .conllu format, which is the standard format for Universal Dependencies treebanks. To modify the annotations it is recommended to use a text editor or UD-compliant tooling such as [ArboratorGrew](https://arborator.grew.fr/).
 - LICENSE.txt: License.
 - ACL2018.md: Links to resources reported in [7].
 
-- conllulex2json.py: Script to validate the data and convert it to JSON.
-- json2conllulex.py: Script to convert STREUSLE JSON to .conllulex.
-- conllulex2csv.py: Script to create an Excel-readable CSV file with the data.
-- csv2conllulex.py: Script to convert an Excel-generated CSV file to .conllulex.
-- conllulex2UDlextag.py: Script to remove all STREUSLE fields except lextags.
+- conllu2json.py: Script to validate the data and convert it to JSON.
+- json2conllu.py: Script to convert STREUSLE JSON to .conllu.
+- conllu2UDlextag.py: Script to generate a file with an additional column for lextags.
 - UDlextag2json.py: Script to unpack lextags, populating remaining STREUSLE fields.
-- normalize_mwe_numbering.py: Script to ensure MWEs within each sentence are numbered in a consistent order.
 
 - govobj.py: Utility for adding heuristic preposition/possessor governor and object links to the JSON.
 - lexcatter.py: Utilities for working with lexical categories.
@@ -63,20 +59,20 @@ Files
 - psseval.py: Evaluation script for preposition/possessive supersense labeling only.
 - pssid/: Heuristics for identifying SNACS targets.
 
+- deprecated/: Files based on the old .conllulex format.
+
 - setup.py: Setup script for installing this as a Python package via setuptools.
 
 Formats
 -------
 
-- The canonical data format for STREUSLE 4.0+ is the [CONLLULEX](CONLLULEX.md) tabular format. It extends the CoNLL-U format from the Universal Dependencies project with additional columns for lexical semantic annotations. (The .sst and .tags formats from STREUSLE 3.0 are not expressive enough and are no longer supported.)
+- **CoNLL-U:** The [canonical data format](FORMAT.md) for STREUSLE 5.0+ is the CoNLL-U format from the Universal Dependencies project with lexical semantic annotations specified in the MISC field. (The .conllulex format from STREUSLE 4.x is deprecated.)
 
-- Scripts support conversion between .conllulex and a JSON format: conllulex2json.py, json2conllulex.py.
-A JSON file can be enriched with syntactic details of the preposition/possessive relations via the govobj.py script.
+- **JSON:** Scripts support conversion between .conllu and a JSON format: conllu2json.py, json2conllu.py. The JSON format is designed for API access.
+A JSON file can be enriched with syntactic details of the preposition/possessive relations via the govobj.py script (for existing annotations, this information is included in `PRel` attributes in streusle.conllu).
 JSON files are included in the train, dev, and test subdirectories.
 
-- Other scripts support conversion between .conllulex and [Excel-compatible CSV](EXCEL.md).
-
-- Luke Gessler has written a module for the [Pepper](http://corpus-tools.org/pepper/) tool so that STREUSLE data can be converted to other Pepper-supported formats, including PAULA XML and ANNIS. See [instructions for converting](https://github.com/nert-nlp/streusle-pepper-importer).
+- **Pepper:** Luke Gessler has written a module for the [Pepper](http://corpus-tools.org/pepper/) tool so that STREUSLE data can be converted to other Pepper-supported formats, including PAULA XML and ANNIS. See [instructions for converting](https://github.com/nert-nlp/streusle-pepper-importer).
 
 References
 ----------
