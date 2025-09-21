@@ -135,8 +135,20 @@ History
 
 The 4.0 release [7] updates the inventory and application of preposition supersenses, applies those supersenses to possessives (detailed in [6]), incorporates the syntactic annotations from the Universal Dependencies project, and adds __lexical category__ labels to indicate the holistic grammatical status of strong multiword expressions. The 4.1 release adds subtypes for verbal MWEs (VID, VPC.{full,semi}, LVC.{full,cause}, IAV) according to PARSEME 1.1 guidelines [15]. The 4.2 and 4.3 releases revise some of the semantic annotations. The 4.4 release updates only UD annotations. The 4.5 release updates UD annotations and renames a couple of semantic labels. The 4.6 release updates UD annotations. The 4.7.1 release contains minor fixes.
 
+The 5.0 release institutes a new canonical data format and updates scripts to support it. The new canonical format is more compact, human-readable, and standards-compliant. The API-friendly JSON format is unmodified.
+
 ### Detailed changes
 
+  - STREUSLE 5.0: XXXX-XX-XX.
+     * The canonical file is now **streusle.conllu**. Lexical semantic annotations are now featurized and stored within the MISC column, which is valid per the CoNLL-U standard in UD. The extra columns of .conllulex are thus unnecessary.
+        - The new format is optimized for integration within the official UD treebank release, and human-friendliness. Counting columns is no longer necessary for understanding/modifying the lexical semantic annotations. There are fewer redundancies across fields, and the redundancies are now text-based rather than offset-based, which simplifies manual editing.
+        - MWE group numbers are not represented, which simplifies modifications to MWE annotations in a sentence.
+        - MWEs are indicated with multiword lemmas/strings including the lengths of any gaps, allowing for token offsets to be recovered.
+        - Non-MWE lexcats are not represented explicitly as they are mostly redundant with or trivially predictable from UPOS + supersense annotation. In the few cases where this is not the case (supersense annotators declined to assign a semantic label despite the syntactic category), this is made explicit with special labels in the `Supersense` attribute. MWE lexcats are rechirstened as `MWECat`.
+        - The strong/weak MWE distinction is now made explicit with the `[weak]` sub-label, rather than requiring separate columns.
+        - Linguistic information in the data has not changed with this release, but the attribute/value format is more extensible for the future.
+     * **The JSON format has not changed.** conllulex2json.py has been replaced by conllu2json.py. The JSON serves as the basis for API access, so for the most part, tools that process the data will not require modification.
+     * Heuristically-derived governor/object relations that previously were added by govobj.py are now incorporated directly into the .conllu format as `PRel` features. It is therefore unnecessary to run govobj.py unless the trees in streusle.conllu have changed.
   - STREUSLE 4.7, 4.7.1: 2025-09-18.
      * Fix a couple of data consistency errors and buggy validation checks.
      * govobj.py can now be imported as a library.
