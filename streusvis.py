@@ -4,7 +4,7 @@ import os, sys, fileinput, re, json, argparse
 from collections import defaultdict, Counter
 from itertools import chain
 
-from conllulex2json import load_sents
+from conllu2json import load_sents
 from supersenses import coarsen_pss
 from mwerender import render, makelabelmap
 
