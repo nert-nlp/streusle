@@ -5,7 +5,6 @@ STREUSLE Stats
 * Sentences:           535
 * Tokens:              5381 (excludes UD ellipsis nodes and UD multiword tokens)
 * Unique lemmas:       1241
-* Unique full lextags: 1
 * [LexCat](LEXCAT.txt)
 * [MWEs](MWES.txt)
 * [Supersenses](SUPERSENSES.txt)

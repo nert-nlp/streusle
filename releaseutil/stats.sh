@@ -13,8 +13,8 @@ WORDS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-\.][0-9]' | wc -
 echo "* Tokens:              $WORDS (excludes UD ellipsis nodes and UD multiword tokens)" >> STATS.md
 LEMMAS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-\.][0-9]' | cut -f3 | sort | uniq | wc -l`
 echo "* Unique lemmas:       $LEMMAS" >> STATS.md
-LEXTAGS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-\.][0-9]' | cut -f19 | sort | uniq | wc -l`
-echo "* Unique full lextags: $LEXTAGS" >> STATS.md
+#LEXTAGS=`egrep -v '^$' $DATA | egrep -v '^#' | egrep -v '^[0-9]+[-\.][0-9]' | cut -f19 | sort | uniq | wc -l`
+#echo "* Unique full lextags: $LEXTAGS" >> STATS.md
 echo "* [LexCat](LEXCAT.txt)" >> STATS.md
 echo "* [MWEs](MWES.txt)" >> STATS.md
 echo "* [Supersenses](SUPERSENSES.txt)" >> STATS.md
