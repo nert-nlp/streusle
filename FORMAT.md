@@ -79,7 +79,7 @@ JSON files are included in the release for the [train](train/streusle.ud_train.j
 
 Each sentence is an object with the following keys:
 
-|||
+| Key | Explanation |
 ----------|-------------------------------------------------
 `sent_id` | UD sentence ID
 `text`    | surface sentence string
