@@ -68,7 +68,7 @@ Formats
 
 - **CoNLL-U:** The [canonical data format](FORMAT.md) for STREUSLE 5.0+ is the CoNLL-U format from the Universal Dependencies project with lexical semantic annotations specified in the MISC field. (The .conllulex format from STREUSLE 4.x is deprecated.)
 
-- **JSON:** Scripts support conversion between .conllu and a JSON format: conllu2json.py, json2conllu.py. The JSON format is designed for API access.
+- **JSON:** Scripts support conversion between .conllu and a [JSON format](FORMAT.md#json-format): conllu2json.py, json2conllu.py. The JSON format is designed for API access.
 A JSON file can be enriched with syntactic details of the preposition/possessive relations via the govobj.py script (for existing annotations, this information is included in `PRel` attributes in streusle.conllu).
 JSON files are included in the train, dev, and test subdirectories.
 
