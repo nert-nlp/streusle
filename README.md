@@ -145,6 +145,8 @@ The 5.0 release institutes a new canonical data format and updates scripts to su
         - Linguistic information in the data has not changed with this release, but the attribute/value format is more extensible for the future.
      * **The JSON format is unchanged.** conllulex2json.py has been replaced by conllu2json.py. The JSON serves as the basis for API access, so for the most part, tools that process the data will not require modification. There is one change to the default behavior of conllu2json.py: unparsed metadata lines are now included by default (but this can be disabled with a flag).
      * Heuristically-derived governor/object relations that previously were added by govobj.py are now incorporated directly into the .conllu format as `PRel` features. It is therefore unnecessary to run govobj.py unless the trees in streusle.conllu have changed.
+     * **KNOWN ISSUES:** Little-used scripts like supdate.py and pssid/identify.py are retained in their old form.
+     They will need to be updated to support the new format. Old versions of other scripts, data, and docs can be found in deprecated/.
   - STREUSLE 4.7, 4.7.1: 2025-09-18.
      * Fix a couple of data consistency errors and buggy validation checks.
      * govobj.py can now be imported as a library.

@@ -116,6 +116,8 @@ in the JSON format:
   Examples include `O-ADV`, `B-V.LVC.full-v.stative`, `I_`. Lextags are generated in the JSON
   (see below).
 
+For details on interpreting these fields see [CONLLULEX.md](deprecated/CONLLULEX.md).
+
 An example
 ----------
 

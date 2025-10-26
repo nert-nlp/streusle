@@ -62,11 +62,11 @@ def parse_mwe_lemma(mwelemma: str) -> list[str]:
     return mwe_tok_lemmas
 
 def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
-               store_conllulex: Literal[False, 'full', 'toks'] = False,
+               store_conllu: Literal[False, 'full', 'toks'] = False,
                store_extrameta=True,
                validate_pos=True, validate_type=True):
-    """Given a .conllulex or .json file, return an iterator over sentences.
-    If a .conllulex file, performs consistency checks.
+    """Given a .conllu or .json file, return an iterator over sentences.
+    If a .conllu file, performs consistency checks.
 
     @param morph_syn: Whether to include CoNLL-U morphological features
     and syntactic dependency relations, if available.
@@ -85,7 +85,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
     @param validate_type: Validate SWE-specific or SMWE-specific tags only apply to the corresponding MWE type
     Has no effect if input is JSON.
     """
-    if store_conllulex: assert store_conllulex in {'full', 'toks'}
+    if store_conllu: assert store_conllu in {'full', 'toks'}
 
     if ss_mapper is None:
         ss_mapper = lambda ss: ss
@@ -113,7 +113,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
             yield sent
         return
 
-    # Otherwise, .conllulex: create data structures and check consistency
+    # Otherwise, .conllu: create data structures and check consistency
 
     lc_tbd = 0
 
@@ -260,7 +260,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
             print(f'MWE string mismatch{caveat}:', s,sent['mwe'],sent['sent_id'], file=sys.stderr)
 
     sent = {}
-    sent_conllulex = ''
+    sent_conllu = ''
     toknum2smwe = {}
     toknum2wmwe = {}
 
@@ -268,17 +268,17 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
         ln = ln.strip()
         if not ln:
             if sent:
-                if store_conllulex: sent['conllulex'] = sent_conllulex
+                if store_conllu: sent['conllu'] = sent_conllu
                 _postproc_sent(sent)
                 yield sent
                 sent = {}
-                sent_conllulex = ''
+                sent_conllu = ''
                 toknum2smwe = {}
                 toknum2wmwe = {}
             continue
 
         if ln.startswith('#'):  # metadata
-            if store_conllulex=='full': sent_conllulex += ln + '\n'
+            if store_conllu=='full': sent_conllu += ln + '\n'
             if ln.startswith('# newdoc ') or ln.startswith('# TODO: '): continue  # the 2 TODO comments will be moved to MISC
             elif ln.startswith('# newpar '):
                 if store_extrameta:
@@ -315,13 +315,13 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
                 elif '-' in tokNum:
                     isMWT = True # multiword token (e.g. 10-11), used for clitics
             if isEllipsis or isMWT:
-                if store_conllulex=='full': sent_conllulex += ln + '\n'
+                if store_conllu=='full': sent_conllu += ln + '\n'
                 part1, part2 = tokNum.split('.' if isEllipsis else '-')
                 part1 = int(part1)
                 part2 = int(part2)
                 tokNum = (part1, part2, tokNum) # token offset is a tuple. include the string for convenience
             else:
-                sent_conllulex += ln + '\n'
+                sent_conllu += ln + '\n'
                 tokNum = int(tokNum)
             tok['#'] = tokNum
             tok['word'], tok['lemma'], tok['upos'], tok['xpos'] = conllu_cols[1:5]
@@ -541,7 +541,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
             else:
                 sent['toks'].append(tok)
     if sent:
-        if store_conllulex: sent['conllulex'] = sent_conllulex
+        if store_conllu: sent['conllu'] = sent_conllu
         _postproc_sent(sent)
         yield sent
 
@@ -596,5 +596,5 @@ if __name__ == '__main__':
     argparser.add_argument("--no-extra-meta", action="store_false", dest="store_extrameta")
     argparser.add_argument("--no-validate-pos", action="store_false", dest="validate_pos")
     argparser.add_argument("--no-validate-type", action="store_false", dest="validate_type")
-    argparser.add_argument("--store-conllulex", choices=(False, 'full', 'toks'))
+    argparser.add_argument("--store-conllu", choices=(False, 'full', 'toks'))
     print_json(load_sents(**vars(argparser.parse_args())))

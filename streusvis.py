@@ -267,9 +267,9 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description='For each sentence in a corpus, visualize MWE and supersense analyses'
         ' in one or more files, optionally highlighting differences relative to the first file.')
     parser.add_argument('goldfile', type=argparse.FileType('r'),
-                        help='gold standard .conllulex or .json file')
+                        help='gold standard .conllu or .json file')
     parser.add_argument('sysfile', type=argparse.FileType('r'), nargs='*',
-                        help='system prediction file: BASENAME.{goldid,autoid}.{conllulex,json}')
+                        help='system prediction file: BASENAME.{goldid,autoid}.{conllu,json}')
     parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
                         help='depth of hierarchy at which to cluster SNACS supersense labels (default: 4, i.e. no collapsing)')
     parser.add_argument('-C', '--colorless', action='store_true',
