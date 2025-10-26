@@ -19,7 +19,7 @@ Additional information: <http://www.cs.cmu.edu/~ark/LexSem/>
 Online corpus search in ANNIS: <https://corpling.uis.georgetown.edu/annis/#_c=c3RyZXVzbGVfNC4z> ([instructions](https://docs.google.com/document/d/e/2PACX-1vTpRsg7B4lj_YnVf-tVGNZCekg_I2k81sGfLayyaJW35k8L8eJJrt4IC-qESrWcl494NXGh2SIeSwi5/pub))  
 Browse semantic annotations of prepositions/possessives on the Xposition website [17]: <http://www.xposition.org/en/>
 
-The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [10]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.16 (released May 15, 2025); these follow the UD v2 standard.
+The English Web Treebank sentences were also used by the [Universal Dependencies](http://universaldependencies.org/) (UD) project as the primary reference corpus for English [10]. STREUSLE incorporates the syntactic and morphological parses from UD\_English-EWT v2.17 (released November 15, 2025); these follow the UD v2 standard.
 
 This dataset's multiword expression and supersense annotations are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (see LICENSE). The UD annotations are redistributed under the same license. The source sentences and PTB part-of-speech annotations, which are from the Reviews section of the __English Web Treebank__ (EWTB; [9]), are redistributed with permission of Google and the Linguistic Data Consortium, respectively.
 
@@ -147,6 +147,7 @@ The 5.0 release institutes a new canonical data format and updates scripts to su
      * Heuristically-derived governor/object relations that previously were added by govobj.py are now incorporated directly into the .conllu format as `PRel` features. It is therefore unnecessary to run govobj.py unless the trees in streusle.conllu have changed.
      * **KNOWN ISSUES:** Little-used scripts like supdate.py and pssid/identify.py are retained in their old form.
      They will need to be updated to support the new format. Old versions of other scripts, data, and docs can be found in deprecated/.
+     * Update UD to v2.17.
   - STREUSLE 4.7, 4.7.1: 2025-09-18.
      * Fix a couple of data consistency errors and buggy validation checks.
      * govobj.py can now be imported as a library.

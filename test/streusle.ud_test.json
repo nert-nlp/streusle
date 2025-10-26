@@ -204,7 +204,7 @@
  "mwe": "thank_you",
     "toks": [
       {"#": 1, "word": "thank", "lemma": "thank", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWECat=DISC", "MWELemma=thank you", "MWELen=2"], "smwe": [1, 1], "wmwe": null, "lextag": "B-DISC"},
-      {"#": 2, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"}
+      {"#": 2, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"}
     ],
     "etoks": [],
     "swes": {},
@@ -441,7 +441,7 @@
       {"#": 2, "word": "contrast", "lemma": "contrast", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Supersense=n.RELATION"], "smwe": null, "wmwe": null, "lextag": "O-N-n.RELATION"},
       {"#": 3, "word": "to", "lemma": "to", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 4, "deprel": "mark", "edeps": "4:mark", "misc": ["PRel[config]=subordinating", "PRel[gov]=2:contrast", "PRel[obj]=4:get", "Supersense[coding]=p.Goal", "Supersense[scene]=p.ComparisonRef"], "heuristic_relation": {"gov": 2, "govlemma": "contrast", "obj": 4, "objlemma": "get", "config": "subordinating"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.ComparisonRef|p.Goal"},
       {"#": 4, "word": "getting", "lemma": "get", "upos": "VERB", "xpos": "VBG", "feats": "VerbForm=Ger", "head": 2, "deprel": "acl", "edeps": "2:acl:to", "misc": ["Supersense=v.social"], "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
-      {"#": 5, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 4, "deprel": "obj", "edeps": "4:obj|6:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 5, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 4, "deprel": "obj", "edeps": "4:obj|6:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 6, "word": "done", "lemma": "do", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part|Voice=Pass", "head": 4, "deprel": "xcomp", "edeps": "4:xcomp", "misc": ["Supersense=v.change"], "smwe": null, "wmwe": null, "lextag": "O-V-v.change"},
       {"#": 7, "word": "at", "lemma": "at", "upos": "ADP", "xpos": "IN", "feats": null, "head": 8, "deprel": "case", "edeps": "8:case", "misc": ["PRel[config]=default", "PRel[gov]=6:do", "PRel[obj]=8:Karol", "Supersense=p.Locus"], "heuristic_relation": {"gov": 6, "govlemma": "do", "obj": 8, "objlemma": "Karol", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Locus"},
       {"#": 8, "word": "karol", "lemma": "Karol", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 6, "deprel": "obl", "edeps": "6:obl:at|12:nsubj:pass", "misc": ["MWECat=N", "MWELemma=Karol Bagh", "MWELen=2", "Supersense=n.GROUP"], "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
@@ -1148,7 +1148,7 @@
  "streusle_sent_id": "ewtb.r.025894.5",
  "mwe": "There must be a better mexican place in Rockland .",
     "toks": [
-      {"#": 1, "word": "There", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 3, "deprel": "expl", "edeps": "3:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 1, "word": "There", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 3, "deprel": "expl", "edeps": "3:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 2, "word": "must", "lemma": "must", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 3, "deprel": "aux", "edeps": "3:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 3, "word": "be", "lemma": "be", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 4, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 7, "deprel": "det", "edeps": "7:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
@@ -1710,7 +1710,7 @@
  "mwe": "Thank_you for fixing the leak on my bathroom !",
     "toks": [
       {"#": 1, "word": "Thank", "lemma": "thank", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWECat=DISC", "MWELemma=thank you", "MWELen=2"], "smwe": [1, 1], "wmwe": null, "lextag": "B-DISC"},
-      {"#": 2, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 2, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 3, "word": "for", "lemma": "for", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 4, "deprel": "mark", "edeps": "4:mark", "misc": ["PRel[config]=subordinating", "PRel[gov]=1:thank", "PRel[obj]=4:fix", "Supersense=p.Explanation"], "heuristic_relation": {"gov": 1, "govlemma": "thank", "obj": 4, "objlemma": "fix", "config": "subordinating"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Explanation"},
       {"#": 4, "word": "fixing", "lemma": "fix", "upos": "VERB", "xpos": "VBG", "feats": "Tense=Pres|VerbForm=Part", "head": 1, "deprel": "advcl", "edeps": "1:advcl:for", "misc": ["Supersense=v.change"], "smwe": null, "wmwe": null, "lextag": "O-V-v.change"},
       {"#": 5, "word": "the", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art", "head": 6, "deprel": "det", "edeps": "6:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
@@ -3625,7 +3625,7 @@
       {"#": 11, "word": "...", "lemma": "...", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 13, "deprel": "punct", "edeps": "13:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 12, "word": "just", "lemma": "just", "upos": "ADV", "xpos": "RB", "feats": null, "head": 13, "deprel": "advmod", "edeps": "13:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 13, "word": "love", "lemma": "love", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 8, "deprel": "parataxis", "edeps": "8:parataxis", "misc": ["Supersense=v.emotion"], "smwe": null, "wmwe": null, "lextag": "O-V-v.emotion"},
-      {"#": 14, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 13, "deprel": "obj", "edeps": "13:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"}
+      {"#": 14, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 13, "deprel": "obj", "edeps": "13:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"}
     ],
     "etoks": [],
     "swes": {
@@ -4096,8 +4096,8 @@
  "streusle_sent_id": "ewtb.r.085009.2",
  "mwe": "MFJ_Inc transformed our run_down back_yard into a place of beauty .",
     "toks": [
-      {"#": 1, "word": "MFJ", "lemma": "MFJ", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 2, "deprel": "compound", "edeps": "2:compound", "misc": ["MWECat=N", "MWELemma=MFJ Inc", "MWELen=2", "Supersense=n.GROUP"], "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
-      {"#": 2, "word": "Inc", "lemma": "Inc", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 3, "deprel": "nsubj", "edeps": "3:nsubj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 1, "word": "MFJ", "lemma": "MFJ", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 3, "deprel": "nsubj", "edeps": "3:nsubj", "misc": ["MWECat=N", "MWELemma=MFJ Inc", "MWELen=2", "Supersense=n.GROUP"], "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
+      {"#": 2, "word": "Inc", "lemma": "Inc", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 1, "deprel": "nmod:desc", "edeps": "1:nmod:desc", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 3, "word": "transformed", "lemma": "transform", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Supersense=v.change"], "smwe": null, "wmwe": null, "lextag": "O-V-v.change"},
       {"#": 4, "word": "our", "lemma": "our", "upos": "PRON", "xpos": "PRP$", "feats": "Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs", "head": 8, "deprel": "nmod:poss", "edeps": "8:nmod:poss", "misc": ["PRel[config]=possessive", "PRel[gov]=8:yard", "Supersense=p.Possessor"], "heuristic_relation": {"gov": 8, "govlemma": "yard", "obj": null, "objlemma": null, "config": "possessive"}, "smwe": null, "wmwe": null, "lextag": "O-PRON.POSS-p.Possessor"},
       {"#": 5, "word": "run", "lemma": "run", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part|Voice=Pass", "head": 8, "deprel": "amod", "edeps": "8:amod", "misc": ["MWECat=ADJ", "MWELemma=run down", "MWELen=2"], "smwe": [2, 1], "wmwe": null, "lextag": "B-ADJ"},
@@ -4239,7 +4239,7 @@
       {"#": 5, "word": "often", "lemma": "often", "upos": "ADV", "xpos": "RB", "feats": null, "head": 2, "deprel": "advmod", "edeps": "2:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 6, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 7, "deprel": "cc", "edeps": "7:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
       {"#": 7, "word": "love", "lemma": "love", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 2, "deprel": "conj", "edeps": "2:conj:and", "misc": ["Supersense=v.emotion"], "smwe": null, "wmwe": null, "lextag": "O-V-v.emotion"},
-      {"#": 8, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 7, "deprel": "obj", "edeps": "7:obj", "misc": ["MWELemma[weak]=you guy", "MWELen[weak]=2", "MWEString[weak]=you guys"], "smwe": null, "wmwe": [2, 1], "lextag": "B-PRON"},
+      {"#": 8, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 7, "deprel": "obj", "edeps": "7:obj", "misc": ["MWELemma[weak]=you guy", "MWELen[weak]=2", "MWEString[weak]=you guys"], "smwe": null, "wmwe": [2, 1], "lextag": "B-PRON"},
       {"#": 9, "word": "guys", "lemma": "guy", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 8, "deprel": "nmod:unmarked", "edeps": "8:nmod:unmarked", "misc": ["SpaceAfter=No", "Supersense=n.GROUP"], "smwe": null, "wmwe": [2, 2], "lextag": "I~-N-n.GROUP"},
       {"#": 10, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 2, "deprel": "punct", "edeps": "2:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -4519,7 +4519,7 @@
       {"#": 9, "word": "food", "lemma": "food", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 4, "deprel": "obl", "edeps": "4:obl:on", "misc": ["Supersense=n.FOOD"], "smwe": null, "wmwe": null, "lextag": "O-N-n.FOOD"},
       {"#": 10, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 11, "deprel": "mark", "edeps": "11:mark", "misc": ["PRel[config]=subordinating", "PRel[gov]=4:put", "PRel[obj]=11:make", "Supersense=p.Purpose"], "heuristic_relation": {"gov": 4, "govlemma": "put", "obj": 11, "objlemma": "make", "config": "subordinating"}, "smwe": null, "wmwe": null, "lextag": "O-INF.P-p.Purpose"},
       {"#": 11, "word": "make", "lemma": "make", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 4, "deprel": "advcl", "edeps": "4:advcl:to", "misc": ["Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
-      {"#": 12, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 11, "deprel": "obj", "edeps": "11:obj|13:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 12, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 11, "deprel": "obj", "edeps": "11:obj|13:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 13, "word": "moist", "lemma": "moist", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 11, "deprel": "xcomp", "edeps": "11:xcomp", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 14, "word": "!", "lemma": "!", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 1, "deprel": "punct", "edeps": "1:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -4812,7 +4812,7 @@
       {"#": 25, "word": "KKK", "lemma": "KKK", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 24, "deprel": "appos", "edeps": "24:appos", "misc": ["SpaceAfter=No", "Supersense=n.COMMUNICATION"], "smwe": null, "wmwe": null, "lextag": "O-N-n.COMMUNICATION"},
       {"#": 26, "word": "....", "lemma": "....", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 27, "deprel": "punct", "edeps": "27:punct", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 27, "word": "is", "lemma": "be", "upos": "VERB", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 6, "deprel": "parataxis", "edeps": "6:parataxis", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
-      {"#": 28, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 27, "deprel": "expl", "edeps": "27:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 28, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 27, "deprel": "expl", "edeps": "27:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 29, "word": "something", "lemma": "something", "upos": "PRON", "xpos": "NN", "feats": "Number=Sing|PronType=Ind", "head": 27, "deprel": "nsubj", "edeps": "27:nsubj", "misc": ["CxnElt=27:Existential-CopPred-ThereExpl.Pivot"], "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 30, "word": "behind", "lemma": "behind", "upos": "ADP", "xpos": "IN", "feats": null, "head": 32, "deprel": "case", "edeps": "32:case", "misc": ["MWECat=PP", "MWELemma=behind the scene", "MWELen=3", "MWEString=behind the scenes", "PRel[config]=default", "PRel[gov]=29:something", "PRel[obj]=32:scene", "Supersense[coding]=p.Locus", "Supersense[scene]=p.Characteristic"], "heuristic_relation": {"gov": 29, "govlemma": "something", "obj": 32, "objlemma": "scene", "config": "default"}, "smwe": [2, 1], "wmwe": null, "lextag": "B-PP-p.Characteristic|p.Locus"},
       {"#": 31, "word": "the", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art", "head": 32, "deprel": "det", "edeps": "32:det", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "I_"},
@@ -5150,7 +5150,7 @@
       {"#": 13, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 15, "deprel": "cc", "edeps": "15:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
       {"#": 14, "word": "will", "lemma": "will", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 15, "deprel": "aux", "edeps": "15:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 15, "word": "help", "lemma": "help", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 7, "deprel": "conj", "edeps": "7:conj:and", "misc": ["Supersense=v.social"], "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
-      {"#": 16, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 15, "deprel": "obj", "edeps": "15:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 16, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 15, "deprel": "obj", "edeps": "15:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 17, "word": "as", "lemma": "as", "upos": "ADV", "xpos": "RB", "feats": null, "head": 18, "deprel": "advmod", "edeps": "18:advmod", "misc": ["PRel[config]=default", "PRel[gov]=15:help", "PRel[obj]=18:much", "Supersense=p.Extent"], "heuristic_relation": {"gov": 15, "govlemma": "help", "obj": 18, "objlemma": "much", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Extent"},
       {"#": 18, "word": "much", "lemma": "much", "upos": "ADV", "xpos": "RB", "feats": null, "head": 15, "deprel": "advmod", "edeps": "15:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 19, "word": "as", "lemma": "as", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 21, "deprel": "mark", "edeps": "21:mark", "misc": ["PRel[config]=subordinating", "PRel[gov]=18:much", "PRel[obj]=21:can", "Supersense=p.ComparisonRef"], "heuristic_relation": {"gov": 18, "govlemma": "much", "obj": 21, "objlemma": "can", "config": "subordinating"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.ComparisonRef"},
@@ -5472,7 +5472,7 @@
       {"#": 3, "word": "I", "lemma": "I", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs", "head": 5, "deprel": "nsubj", "edeps": "5:nsubj|15:nsubj|17:nsubj:xsubj|18:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 4, "word": "'ve", "lemma": "have", "upos": "AUX", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 5, "deprel": "aux", "edeps": "5:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 5, "word": "given", "lemma": "give", "upos": "VERB", "xpos": "VBN", "feats": "Tense=Past|VerbForm=Part", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWELemma[weak]=give <4> try", "MWELen[weak]=6", "MWEString[weak]=given <4> tries", "Supersense=v.social"], "smwe": null, "wmwe": [1, 1], "lextag": "B-V-v.social"},
-      {"#": 6, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 5, "deprel": "iobj", "edeps": "5:iobj", "misc": null, "smwe": null, "wmwe": null, "lextag": "o-PRON"},
+      {"#": 6, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 5, "deprel": "iobj", "edeps": "5:iobj", "misc": null, "smwe": null, "wmwe": null, "lextag": "o-PRON"},
       {"#": 7, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 8, "deprel": "det", "edeps": "8:det", "misc": ["MWECat=DET", "MWELemma=a couple", "MWELen=2"], "smwe": [2, 1], "wmwe": null, "lextag": "b-DET"},
       {"#": 8, "word": "couple", "lemma": "couple", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "i_"},
       {"#": 9, "word": "of", "lemma": "of", "upos": "ADP", "xpos": "IN", "feats": null, "head": 10, "deprel": "case", "edeps": "10:case", "misc": ["PRel[config]=default", "PRel[gov]=8:couple", "PRel[obj]=10:try", "Supersense=p.QuantityItem"], "heuristic_relation": {"gov": 8, "govlemma": "couple", "obj": 10, "objlemma": "try", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "o-P-p.QuantityItem"},
@@ -6386,7 +6386,7 @@
       {"#": 35, "word": "we", "lemma": "we", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Plur|Person=1|PronType=Prs", "head": 37, "deprel": "nsubj", "edeps": "37:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 36, "word": "will", "lemma": "will", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 37, "deprel": "aux", "edeps": "37:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 37, "word": "refer", "lemma": "refer", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 29, "deprel": "conj", "edeps": "29:conj:and", "misc": ["Supersense=v.communication"], "smwe": null, "wmwe": null, "lextag": "O-V-v.communication"},
-      {"#": 38, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 37, "deprel": "obj", "edeps": "37:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 38, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 37, "deprel": "obj", "edeps": "37:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 39, "word": "to", "lemma": "to", "upos": "ADP", "xpos": "IN", "feats": null, "head": 41, "deprel": "case", "edeps": "41:case", "misc": ["PRel[config]=default", "PRel[gov]=37:refer", "PRel[obj]=41:people", "Supersense[coding]=p.Goal", "Supersense[scene]=p.Recipient"], "heuristic_relation": {"gov": 37, "govlemma": "refer", "obj": 41, "objlemma": "people", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Recipient|p.Goal"},
       {"#": 40, "word": "other", "lemma": "other", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 41, "deprel": "amod", "edeps": "41:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 41, "word": "people", "lemma": "people", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 37, "deprel": "obl", "edeps": "37:obl:to", "misc": ["Supersense=n.PERSON"], "smwe": null, "wmwe": null, "lextag": "O-N-n.PERSON"},
@@ -6692,7 +6692,7 @@
  "mwe": "Keep_it_up .",
     "toks": [
       {"#": 1, "word": "Keep", "lemma": "keep", "upos": "VERB", "xpos": "VB", "feats": "Mood=Imp|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWECat=DISC", "MWELemma=keep it up", "MWELen=3"], "smwe": [1, 1], "wmwe": null, "lextag": "B-DISC"},
-      {"#": 2, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 2, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 3, "word": "up", "lemma": "up", "upos": "ADP", "xpos": "RP", "feats": null, "head": 1, "deprel": "compound:prt", "edeps": "1:compound:prt", "misc": ["SpaceAfter=No"], "smwe": [1, 3], "wmwe": null, "lextag": "I_"},
       {"#": 4, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 1, "deprel": "punct", "edeps": "1:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -9485,7 +9485,7 @@
  "streusle_sent_id": "ewtb.r.210153.2",
  "mwe": "There is no lower rating for Noonan_'s_Liquor , owners and employees .",
     "toks": [
-      {"#": 1, "word": "There", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 2, "deprel": "expl", "edeps": "2:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 1, "word": "There", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 2, "deprel": "expl", "edeps": "2:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 2, "word": "is", "lemma": "be", "upos": "VERB", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 3, "word": "no", "lemma": "no", "upos": "DET", "xpos": "DT", "feats": "PronType=Neg", "head": 5, "deprel": "det", "edeps": "5:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 4, "word": "lower", "lemma": "low", "upos": "ADJ", "xpos": "JJR", "feats": "Degree=Cmp", "head": 5, "deprel": "amod", "edeps": "5:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
@@ -9600,7 +9600,7 @@
     "toks": [
       {"#": 1, "word": "Just", "lemma": "just", "upos": "ADV", "xpos": "RB", "feats": null, "head": 2, "deprel": "advmod", "edeps": "2:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 2, "word": "wanted", "lemma": "want", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Supersense=v.cognition"], "smwe": null, "wmwe": null, "lextag": "O-V-v.cognition"},
-      {"#": 3, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 2, "deprel": "obj", "edeps": "2:obj|5:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 3, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 2, "deprel": "obj", "edeps": "2:obj|5:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 4, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 5, "deprel": "mark", "edeps": "5:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF"},
       {"#": 5, "word": "know", "lemma": "know", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 2, "deprel": "xcomp", "edeps": "2:xcomp", "misc": ["Supersense=v.cognition"], "smwe": null, "wmwe": null, "lextag": "O-V-v.cognition"},
       {"#": 6, "word": "that", "lemma": "that", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 8, "deprel": "mark", "edeps": "8:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-SCONJ"},
@@ -10390,7 +10390,7 @@
     "toks": [
       {"#": 1, "word": "\"", "lemma": "\"", "upos": "PUNCT", "xpos": "``", "feats": null, "head": 2, "deprel": "punct", "edeps": "2:punct", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 2, "word": "Thank", "lemma": "thank", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWECat=DISC", "MWELemma=thank you", "MWELen=2"], "smwe": [1, 1], "wmwe": null, "lextag": "B-DISC"},
-      {"#": 3, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 2, "deprel": "obj", "edeps": "2:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 3, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 2, "deprel": "obj", "edeps": "2:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 4, "word": "so", "lemma": "so", "upos": "ADV", "xpos": "RB", "feats": null, "head": 5, "deprel": "advmod", "edeps": "5:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 5, "word": "much", "lemma": "much", "upos": "ADV", "xpos": "RB", "feats": null, "head": 2, "deprel": "advmod", "edeps": "2:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 6, "word": "for", "lemma": "for", "upos": "ADP", "xpos": "IN", "feats": null, "head": 9, "deprel": "case", "edeps": "9:case", "misc": ["PRel[config]=default", "PRel[gov]=2:thank", "PRel[obj]=9:job", "Supersense=p.Explanation"], "heuristic_relation": {"gov": 2, "govlemma": "thank", "obj": 9, "objlemma": "job", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Explanation"},
@@ -11036,7 +11036,7 @@
       {"#": 4, "word": ",", "lemma": ",", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 6, "deprel": "punct", "edeps": "6:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 5, "word": "I", "lemma": "I", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs", "head": 6, "deprel": "nsubj", "edeps": "6:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 6, "word": "recommend", "lemma": "recommend", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 3, "deprel": "parataxis", "edeps": "3:parataxis", "misc": ["Supersense=v.communication"], "smwe": null, "wmwe": null, "lextag": "O-V-v.communication"},
-      {"#": 7, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 6, "deprel": "obj", "edeps": "6:obj", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 7, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 6, "deprel": "obj", "edeps": "6:obj", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 8, "word": "!", "lemma": "!", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 3, "deprel": "punct", "edeps": "3:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
     "etoks": [],
@@ -11297,7 +11297,7 @@
  "streusle_sent_id": "ewtb.r.229442.2",
  "mwe": "there might be bigger and more well_known bagel places in the area but Family_Bagels are nice people , small shop and incredibly friendly .",
     "toks": [
-      {"#": 1, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 3, "deprel": "expl", "edeps": "3:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 1, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 3, "deprel": "expl", "edeps": "3:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 2, "word": "might", "lemma": "might", "upos": "AUX", "xpos": "MD", "feats": "VerbForm=Fin", "head": 3, "deprel": "aux", "edeps": "3:aux", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-AUX"},
       {"#": 3, "word": "be", "lemma": "be", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 4, "word": "bigger", "lemma": "big", "upos": "ADJ", "xpos": "JJR", "feats": "Degree=Cmp", "head": 10, "deprel": "amod", "edeps": "10:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
@@ -11496,7 +11496,7 @@
  "mwe": "Believe_it_or_not , but the channel guide has been most helpful to my family members that visit and do n't know where to start when_it_comes_to watching satellite_tv .",
     "toks": [
       {"#": 1, "word": "Believe", "lemma": "believe", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWECat=V.VID", "MWELemma=believe it or not", "MWELen=4", "Supersense=v.cognition"], "smwe": [1, 1], "wmwe": null, "lextag": "B-V.VID-v.cognition"},
-      {"#": 2, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
+      {"#": 2, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 1, "deprel": "obj", "edeps": "1:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 3, "word": "or", "lemma": "or", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 4, "deprel": "cc", "edeps": "4:cc", "misc": null, "smwe": [1, 3], "wmwe": null, "lextag": "I_"},
       {"#": 4, "word": "not", "lemma": "not", "upos": "PART", "xpos": "RB", "feats": "Polarity=Neg", "head": 1, "deprel": "conj", "edeps": "1:conj:or", "misc": ["SpaceAfter=No"], "smwe": [1, 4], "wmwe": null, "lextag": "I_"},
       {"#": 5, "word": ",", "lemma": ",", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 13, "deprel": "punct", "edeps": "13:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
@@ -11699,7 +11699,7 @@
     "toks": [
       {"#": 1, "word": "Did", "lemma": "do", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["MWELemma[weak]=do service", "MWELen[weak]=2", "MWEString[weak]=Did services", "Supersense=v.stative"], "smwe": null, "wmwe": [1, 1], "lextag": "B-V-v.stative"},
       {"#": 2, "word": "services", "lemma": "service", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 1, "deprel": "obj", "edeps": "1:obj|8:obj", "misc": ["Supersense=n.ACT"], "smwe": null, "wmwe": [1, 2], "lextag": "I~-N-n.ACT"},
-      {"#": 3, "word": "I", "lemma": "I", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs", "head": 4, "deprel": "nsubj", "edeps": "4:nsubj|8:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 3, "word": "I", "lemma": "I", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Sing|Person=1|PronType=Prs", "head": 4, "deprel": "nsubj", "edeps": "4:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 4, "word": "asked", "lemma": "ask", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin", "head": 2, "deprel": "acl:relcl", "edeps": "2:acl:relcl", "misc": ["Cxn=rc-red-obj_xcomp", "Supersense=v.communication"], "smwe": null, "wmwe": null, "lextag": "O-V-v.communication"},
       {"#": 5, "word": "them", "lemma": "they", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Number=Plur|Person=3|PronType=Prs", "head": 4, "deprel": "iobj", "edeps": "4:iobj|8:nsubj:xsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 6, "word": "NOT", "lemma": "not", "upos": "PART", "xpos": "RB", "feats": "Polarity=Neg", "head": 8, "deprel": "advmod", "edeps": "8:advmod", "misc": ["CorrectSpaceAfter=Yes", "SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-ADV"},
@@ -11981,7 +11981,7 @@
       {"#": 3, "word": "every", "lemma": "every", "upos": "DET", "xpos": "DT", "feats": "PronType=Tot", "head": 4, "deprel": "det", "edeps": "4:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 4, "word": "item", "lemma": "item", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 2, "deprel": "obj", "edeps": "2:obj|5:nsubj:xsubj", "misc": ["Supersense=n.ARTIFACT"], "smwe": null, "wmwe": null, "lextag": "O-N-n.ARTIFACT"},
       {"#": 5, "word": "fit", "lemma": "fit", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 2, "deprel": "xcomp", "edeps": "2:xcomp", "misc": ["Supersense=v.body"], "smwe": null, "wmwe": null, "lextag": "O-V-v.body"},
-      {"#": 6, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 6, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 7, "word": "perfectly", "lemma": "perfectly", "upos": "ADV", "xpos": "RB", "feats": null, "head": 5, "deprel": "advmod", "edeps": "5:advmod", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 8, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 2, "deprel": "punct", "edeps": "2:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
@@ -12288,7 +12288,7 @@
       {"#": 2, "word": "they", "lemma": "they", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Plur|Person=3|PronType=Prs", "head": 3, "deprel": "nsubj", "edeps": "3:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 3, "word": "showed", "lemma": "show", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin", "head": 6, "deprel": "advcl", "edeps": "6:advcl:after", "misc": ["MWECat=V.VPC.full", "MWELemma=show up", "MWELen=2", "MWEString=showed up", "Supersense=v.social"], "smwe": [1, 1], "wmwe": null, "lextag": "B-V.VPC.full-v.social"},
       {"#": 4, "word": "up", "lemma": "up", "upos": "ADP", "xpos": "RP", "feats": null, "head": 3, "deprel": "compound:prt", "edeps": "3:compound:prt", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
-      {"#": 5, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 6, "deprel": "expl", "edeps": "6:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 5, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 6, "deprel": "expl", "edeps": "6:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 6, "word": "was", "lemma": "be", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 7, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 9, "deprel": "det", "edeps": "9:det", "misc": ["MWECat=DET", "MWELemma=a little", "MWELen=2"], "smwe": [2, 1], "wmwe": null, "lextag": "B-DET"},
       {"#": 8, "word": "little", "lemma": "little", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 9, "deprel": "amod", "edeps": "9:amod", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "I_"},
@@ -12725,7 +12725,7 @@
       {"#": 11, "word": "these", "lemma": "this", "upos": "DET", "xpos": "DT", "feats": "Number=Plur|PronType=Dem", "head": 12, "deprel": "det", "edeps": "12:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 12, "word": "guys", "lemma": "guy", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 13, "deprel": "nsubj", "edeps": "13:nsubj", "misc": ["Supersense=n.PERSON"], "smwe": null, "wmwe": null, "lextag": "O-N-n.PERSON"},
       {"#": 13, "word": "fixed", "lemma": "fix", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin", "head": 2, "deprel": "conj", "edeps": "2:conj:and", "misc": ["Supersense=v.change"], "smwe": null, "wmwe": null, "lextag": "O-V-v.change"},
-      {"#": 14, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 13, "deprel": "obj", "edeps": "13:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 14, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 13, "deprel": "obj", "edeps": "13:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 15, "word": "for", "lemma": "for", "upos": "ADP", "xpos": "IN", "feats": null, "head": 16, "deprel": "case", "edeps": "16:case", "misc": ["PRel[config]=default", "PRel[gov]=13:fix", "PRel[obj]=16:$", "Supersense=p.Cost"], "heuristic_relation": {"gov": 13, "govlemma": "fix", "obj": 16, "objlemma": "$", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Cost"},
       {"#": 16, "word": "$", "lemma": "$", "upos": "SYM", "xpos": "$", "feats": null, "head": 13, "deprel": "obl", "edeps": "13:obl:for", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-SYM"},
       {"#": 17, "word": "90", "lemma": "90", "upos": "NUM", "xpos": "CD", "feats": "NumForm=Digit|NumType=Card", "head": 16, "deprel": "nummod", "edeps": "16:nummod", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-NUM"},
@@ -13321,7 +13321,7 @@
       {"#": 22, "word": "unless", "lemma": "unless", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 24, "deprel": "mark", "edeps": "24:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-SCONJ"},
       {"#": 23, "word": "he", "lemma": "he", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs", "head": 24, "deprel": "nsubj", "edeps": "24:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 24, "word": "knows", "lemma": "know", "upos": "VERB", "xpos": "VBZ", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin", "head": 3, "deprel": "parataxis", "edeps": "3:parataxis", "misc": ["Supersense=v.cognition"], "smwe": null, "wmwe": null, "lextag": "O-V-v.cognition"},
-      {"#": 25, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 24, "deprel": "obj", "edeps": "24:obj", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 25, "word": "you", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 24, "deprel": "obj", "edeps": "24:obj", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 26, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 24, "deprel": "punct", "edeps": "24:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
     "etoks": [],
@@ -14226,7 +14226,7 @@
       {"#": 3, "word": "tried", "lemma": "try", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin", "head": 8, "deprel": "advcl", "edeps": "8:advcl:when", "misc": ["Supersense=v.social"], "smwe": null, "wmwe": null, "lextag": "O-V-v.social"},
       {"#": 4, "word": "to", "lemma": "to", "upos": "PART", "xpos": "TO", "feats": null, "head": 5, "deprel": "mark", "edeps": "5:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-INF"},
       {"#": 5, "word": "return", "lemma": "return", "upos": "VERB", "xpos": "VB", "feats": "VerbForm=Inf", "head": 3, "deprel": "xcomp", "edeps": "3:xcomp", "misc": ["Supersense=v.possession"], "smwe": null, "wmwe": null, "lextag": "O-V-v.possession"},
-      {"#": 6, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 6, "word": "it", "lemma": "it", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 7, "word": "they", "lemma": "they", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Number=Plur|Person=3|PronType=Prs", "head": 8, "deprel": "nsubj", "edeps": "8:nsubj", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 8, "word": "refused", "lemma": "refuse", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["SpaceAfter=No", "Supersense=v.communication"], "smwe": null, "wmwe": null, "lextag": "O-V-v.communication"},
       {"#": 9, "word": ",", "lemma": ",", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 12, "deprel": "punct", "edeps": "12:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
@@ -14611,14 +14611,14 @@
  "streusle_sent_id": "ewtb.r.307170.2",
  "mwe": "Great_Limos company int he DFW_ fort_Worth _Metro_area .",
     "toks": [
-      {"#": 1, "word": "Great", "lemma": "Great", "upos": "ADJ", "xpos": "NNP", "feats": "Degree=Pos", "head": 3, "deprel": "amod", "edeps": "3:amod", "misc": ["MWECat=N", "MWELemma=Great Limo", "MWELen=2", "MWEString=Great Limos", "Supersense=n.GROUP"], "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
+      {"#": 1, "word": "Great", "lemma": "Great", "upos": "ADJ", "xpos": "NNP", "feats": "Degree=Pos", "head": 2, "deprel": "amod", "edeps": "2:amod", "misc": ["MWECat=N", "MWELemma=Great Limo", "MWELen=2", "MWEString=Great Limos", "Supersense=n.GROUP"], "smwe": [1, 1], "wmwe": null, "lextag": "B-N-n.GROUP"},
       {"#": 2, "word": "Limos", "lemma": "Limo", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 3, "deprel": "compound", "edeps": "3:compound", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"},
       {"#": 3, "word": "company", "lemma": "company", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Supersense=n.GROUP"], "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 4, "word": "int", "lemma": "in", "upos": "ADP", "xpos": "IN", "feats": "Typo=Yes", "head": 10, "deprel": "case", "edeps": "10:case", "misc": ["CorrectForm=in", "PRel[config]=default", "PRel[gov]=3:company", "PRel[obj]=10:area", "Supersense=p.Locus"], "heuristic_relation": {"gov": 3, "govlemma": "company", "obj": 10, "objlemma": "area", "config": "default"}, "smwe": null, "wmwe": null, "lextag": "O-P-p.Locus"},
       {"#": 5, "word": "he", "lemma": "the", "upos": "DET", "xpos": "DT", "feats": "Definite=Def|PronType=Art|Typo=Yes", "head": 10, "deprel": "det", "edeps": "10:det", "misc": ["CorrectForm=the"], "smwe": null, "wmwe": null, "lextag": "O-DET"},
-      {"#": 6, "word": "DFW", "lemma": "DFW", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 8, "deprel": "compound", "edeps": "8:compound", "misc": ["MWECat=N", "MWELemma=DFW <2> metro area", "MWELen=5", "Supersense=n.LOCATION"], "smwe": [2, 1], "wmwe": null, "lextag": "B-N-n.LOCATION"},
-      {"#": 7, "word": "fort", "lemma": "fort", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 8, "deprel": "compound", "edeps": "8:compound", "misc": ["MWECat=N", "MWELemma=fort Worth", "MWELen=2", "Supersense=n.LOCATION"], "smwe": [3, 1], "wmwe": null, "lextag": "b-N-n.LOCATION"},
-      {"#": 8, "word": "Worth", "lemma": "Worth", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 10, "deprel": "compound", "edeps": "10:compound", "misc": null, "smwe": [3, 2], "wmwe": null, "lextag": "i_"},
+      {"#": 6, "word": "DFW", "lemma": "DFW", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 7, "deprel": "compound", "edeps": "7:compound", "misc": ["MWECat=N", "MWELemma=DFW <2> metro area", "MWELen=5", "Supersense=n.LOCATION"], "smwe": [2, 1], "wmwe": null, "lextag": "B-N-n.LOCATION"},
+      {"#": 7, "word": "fort", "lemma": "Fort", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 10, "deprel": "compound", "edeps": "10:compound", "misc": ["MWECat=N", "MWELemma=Fort Worth", "MWELen=2", "Supersense=n.LOCATION"], "smwe": [3, 1], "wmwe": null, "lextag": "b-N-n.LOCATION"},
+      {"#": 8, "word": "Worth", "lemma": "Worth", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 7, "deprel": "flat", "edeps": "7:flat", "misc": null, "smwe": [3, 2], "wmwe": null, "lextag": "i_"},
       {"#": 9, "word": "Metro", "lemma": "metro", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 10, "deprel": "compound", "edeps": "10:compound", "misc": null, "smwe": [2, 2], "wmwe": null, "lextag": "I_"},
       {"#": 10, "word": "area", "lemma": "area", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 3, "deprel": "nmod", "edeps": "3:nmod:in", "misc": ["SpaceAfter=No"], "smwe": [2, 3], "wmwe": null, "lextag": "I_"},
       {"#": 11, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 3, "deprel": "punct", "edeps": "3:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
@@ -14633,7 +14633,7 @@
     "smwes": {
       "1": {"lexlemma": "Great Limo", "lexcat": "N", "ss": "n.GROUP", "ss2": null, "toknums": [1, 2]},
       "2": {"lexlemma": "DFW metro area", "lexcat": "N", "ss": "n.LOCATION", "ss2": null, "toknums": [6, 9, 10]},
-      "3": {"lexlemma": "fort Worth", "lexcat": "N", "ss": "n.LOCATION", "ss2": null, "toknums": [7, 8]}
+      "3": {"lexlemma": "Fort Worth", "lexcat": "N", "ss": "n.LOCATION", "ss2": null, "toknums": [7, 8]}
     },
     "wmwes": {}
 },
@@ -15244,7 +15244,7 @@
       {"#": 10, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 11, "deprel": "det", "edeps": "11:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 11, "word": "time", "lemma": "time", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 8, "deprel": "obl", "edeps": "8:obl:at", "misc": ["Supersense=n.EVENT"], "smwe": null, "wmwe": null, "lextag": "O-N-n.EVENT"},
       {"#": 12, "word": "when", "lemma": "when", "upos": "ADV", "xpos": "WRB", "feats": "PronType=Int", "head": 14, "deprel": "advmod", "edeps": "14:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
-      {"#": 13, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 14, "deprel": "expl", "edeps": "14:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 13, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 14, "deprel": "expl", "edeps": "14:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 14, "word": "was", "lemma": "be", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin", "head": 8, "deprel": "advcl", "edeps": "8:advcl:when", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 15, "word": "very", "lemma": "very", "upos": "ADV", "xpos": "RB", "feats": null, "head": 16, "deprel": "advmod", "edeps": "16:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 16, "word": "few", "lemma": "few", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 17, "deprel": "amod", "edeps": "17:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
@@ -15722,7 +15722,7 @@
       {"#": 3, "word": "GREAT", "lemma": "great", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 4, "deprel": "amod", "edeps": "4:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADJ"},
       {"#": 4, "word": "DEAL", "lemma": "deal", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Supersense=n.COMMUNICATION"], "smwe": null, "wmwe": null, "lextag": "O-N-n.COMMUNICATION"},
       {"#": 5, "word": "THANK", "lemma": "thank", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 4, "deprel": "parataxis", "edeps": "4:parataxis", "misc": ["MWECat=DISC", "MWELemma=thank you", "MWELen=2"], "smwe": [1, 1], "wmwe": null, "lextag": "B-DISC"},
-      {"#": 6, "word": "YOU", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Nom|Person=2|PronType=Prs", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"}
+      {"#": 6, "word": "YOU", "lemma": "you", "upos": "PRON", "xpos": "PRP", "feats": "Case=Acc|Person=2|PronType=Prs", "head": 5, "deprel": "obj", "edeps": "5:obj", "misc": null, "smwe": [1, 2], "wmwe": null, "lextag": "I_"}
     ],
     "etoks": [],
     "swes": {
@@ -16511,7 +16511,7 @@
       {"#": 1, "word": "Get", "lemma": "get", "upos": "VERB", "xpos": "VBP", "feats": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin", "head": 0, "deprel": "root", "edeps": "0:root", "misc": ["Supersense=v.motion"], "smwe": null, "wmwe": null, "lextag": "O-V-v.motion"},
       {"#": 2, "word": "there", "lemma": "there", "upos": "ADV", "xpos": "RB", "feats": "PronType=Dem", "head": 1, "deprel": "advmod", "edeps": "1:advmod", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-ADV"},
       {"#": 3, "word": "and", "lemma": "and", "upos": "CCONJ", "xpos": "CC", "feats": null, "head": 5, "deprel": "cc", "edeps": "5:cc", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-CCONJ"},
-      {"#": 4, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 5, "deprel": "expl", "edeps": "5:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 4, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 5, "deprel": "expl", "edeps": "5:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 5, "word": "was", "lemma": "be", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin", "head": 1, "deprel": "conj", "edeps": "1:conj:and", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 6, "word": "nothing", "lemma": "nothing", "upos": "PRON", "xpos": "NN", "feats": "Number=Sing|PronType=Neg", "head": 5, "deprel": "nsubj", "edeps": "5:nsubj", "misc": ["CxnElt=5:Existential-CopPred-ThereExpl.Pivot", "SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 7, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 1, "deprel": "punct", "edeps": "1:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
@@ -17086,7 +17086,7 @@
       {"#": 13, "word": "project", "lemma": "project", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 8, "deprel": "obl", "edeps": "8:obl:in", "misc": ["Supersense=n.ACT"], "smwe": null, "wmwe": null, "lextag": "O-N-n.ACT"},
       {"#": 14, "word": "so", "lemma": "so", "upos": "SCONJ", "xpos": "IN", "feats": "ExtPos=SCONJ", "head": 17, "deprel": "mark", "edeps": "17:mark", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-SCONJ"},
       {"#": 15, "word": "that", "lemma": "that", "upos": "SCONJ", "xpos": "IN", "feats": null, "head": 14, "deprel": "fixed", "edeps": "14:fixed", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-SCONJ"},
-      {"#": 16, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": null, "head": 17, "deprel": "expl", "edeps": "17:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
+      {"#": 16, "word": "there", "lemma": "there", "upos": "PRON", "xpos": "EX", "feats": "PronType=Dem", "head": 17, "deprel": "expl", "edeps": "17:expl", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PRON"},
       {"#": 17, "word": "were", "lemma": "be", "upos": "VERB", "xpos": "VBD", "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin", "head": 2, "deprel": "advcl", "edeps": "2:advcl:so_that", "misc": ["Cxn=Existential-CopPred-ThereExpl", "Supersense=v.stative"], "smwe": null, "wmwe": null, "lextag": "O-V-v.stative"},
       {"#": 18, "word": "no", "lemma": "no", "upos": "DET", "xpos": "DT", "feats": "PronType=Neg", "head": 19, "deprel": "det", "edeps": "19:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 19, "word": "surprises", "lemma": "surprise", "upos": "NOUN", "xpos": "NNS", "feats": "Number=Plur", "head": 17, "deprel": "nsubj", "edeps": "17:nsubj", "misc": ["CxnElt=17:Existential-CopPred-ThereExpl.Pivot", "SpaceAfter=No", "Supersense=n.COGNITION"], "smwe": null, "wmwe": null, "lextag": "O-N-n.COGNITION"},
@@ -17878,7 +17878,7 @@
       {"#": 3, "word": "this", "lemma": "this", "upos": "DET", "xpos": "DT", "feats": "Number=Sing|PronType=Dem", "head": 4, "deprel": "det", "edeps": "4:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-DET"},
       {"#": 4, "word": "place", "lemma": "place", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 2, "deprel": "iobj", "edeps": "2:iobj", "misc": ["Supersense=n.GROUP"], "smwe": null, "wmwe": null, "lextag": "O-N-n.GROUP"},
       {"#": 5, "word": "11", "lemma": "11", "upos": "NUM", "xpos": "CD", "feats": "NumForm=Digit|NumType=Card", "head": 2, "deprel": "obj", "edeps": "2:obj", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-NUM"},
-      {"#": 6, "word": "/", "lemma": "/", "upos": "SYM", "xpos": "SYM", "feats": null, "head": 7, "deprel": "case", "edeps": "7:case", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-SYM"},
+      {"#": 6, "word": "/", "lemma": "/", "upos": "SYM", "xpos": "SYM", "feats": "ExtPos=ADP", "head": 7, "deprel": "case", "edeps": "7:case", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-SYM"},
       {"#": 7, "word": "10", "lemma": "10", "upos": "NUM", "xpos": "CD", "feats": "NumForm=Digit|NumType=Card", "head": 5, "deprel": "nmod", "edeps": "5:nmod", "misc": ["SpaceAfter=No"], "smwe": null, "wmwe": null, "lextag": "O-NUM"},
       {"#": 8, "word": ".", "lemma": ".", "upos": "PUNCT", "xpos": ".", "feats": null, "head": 2, "deprel": "punct", "edeps": "2:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"}
     ],
