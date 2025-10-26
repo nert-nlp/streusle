@@ -30,7 +30,7 @@
 2	best	good	ADJ	JJS	Degree=Sup	4	amod	4:amod	_
 3	climbing	climbing	NOUN	NN	Number=Sing	4	compound	4:compound	Supersense=n.ACT
 4	club	club	NOUN	NN	Number=Sing	0	root	0:root	Supersense=n.GROUP
-5	around	around	ADV	RB	_	4	advmod	4:advmod	SpaceAfter=No|PRel[config]=default|PRel[gov]=4:club|Supersense=p.Locus
+5	around	around	ADV	RB	_	4	advmod	4:advmod	PRel[config]=default|PRel[gov]=4:club|SpaceAfter=No|Supersense=p.Locus
 6	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = reviews-001325-0004
@@ -477,10 +477,10 @@
 3	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Supersense=v.consumption
 4	here	here	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 5	several	several	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
-6	times	time	NOUN	NNS	Number=Plur	3	obl:unmarked	3:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+6	times	time	NOUN	NNS	Number=Plur	3	obl:unmarked	3:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 7	and	and	CCONJ	CC	_	13	cc	13:cc	_
 8	every	every	DET	DT	PronType=Tot	9	det	9:det	CorrectSpaceAfter=Yes|SpaceAfter=No
-9	time	time	NOUN	NN	Number=Sing	13	obl:unmarked	13:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+9	time	time	NOUN	NN	Number=Sing	13	obl:unmarked	13:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_
 11	service	service	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Supersense=n.ACT
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	Supersense=v.stative
@@ -494,7 +494,7 @@
 # streusle_sent_id = ewtb.r.025894.3
 # mwe = One time we even left after sitting at the table for 20 minutes and not being greeted with a drink order .
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	_
-2	time	time	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+2	time	time	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
 4	even	even	ADV	RB	_	5	advmod	5:advmod	_
 5	left	leave	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Supersense=v.stative
@@ -816,7 +816,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_
 8	dates	date	NOUN	NNS	Number=Plur	6	obj	6:obj	Supersense=n.EVENT
 9	every	every	DET	DT	PronType=Tot	10	det	10:det	_
-10	time	time	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No|TemporalNPAdjunct=Yes|Supersense=n.TIME
+10	time	time	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No|Supersense=n.TIME|TemporalNPAdjunct=Yes
 11	!	!	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = reviews-034995-0002
@@ -858,7 +858,7 @@
 6	lasted	last	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	Cxn=rc-red-nsubj|Supersense=v.stative
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_
 8	long	long	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
-9	while	while	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.TIME
+9	while	while	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked	Supersense=n.TIME|TemporalNPAdjunct=Yes
 10	in	in	ADP	IN	_	12	case	12:case	PRel[config]=default|PRel[gov]=6:last|PRel[obj]=12:vase|Supersense=p.Locus
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_
 12	vase	vase	NOUN	NN	Number=Sing	6	obl	6:obl:in	SpaceAfter=No|Supersense=n.ARTIFACT
@@ -1265,11 +1265,11 @@
 # text = Ladies room, Open Sundays
 # streusle_sent_id = ewtb.r.046500.2
 # mwe = Ladies_room , Open Sundays
-1	Ladies	lady	NOUN	NNS	Number=Plur	2	nmod:poss	2:nmod:poss	MissingWordsAfter='|MWECat=N|MWELemma=lady room|MWELen=2|MWEString=Ladies room|Supersense=n.GROUP
+1	Ladies	lady	NOUN	NNS	Number=Plur	2	nmod:poss	2:nmod:poss	MWECat=N|MWELemma=lady room|MWELen=2|MWEString=Ladies room|MissingWordsAfter='|Supersense=n.GROUP
 2	room	room	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	Open	open	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_
-5	Sundays	Sunday	PROPN	NNPS	Number=Plur	2	nmod:unmarked	2:nmod:unmarked	TemporalNPAdjunct=Yes|Supersense=n.TIME
+5	Sundays	Sunday	PROPN	NNPS	Number=Plur	2	nmod:unmarked	2:nmod:unmarked	Supersense=n.TIME|TemporalNPAdjunct=Yes
 
 # newdoc id = reviews-047891
 # sent_id = reviews-047891-0001
@@ -1352,7 +1352,7 @@
 14	up	up	ADP	RP	_	13	compound:prt	13:compound:prt	_
 15	for	for	ADP	IN	_	20	case	20:case	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	_
-17	lack	lack	ADJ	JJ	Degree=Pos	19	amod	19:amod	SpaceAfter=No|MWECat=ADJ|MWELemma=lack - luster|MWELen=3
+17	lack	lack	ADJ	JJ	Degree=Pos	19	amod	19:amod	MWECat=ADJ|MWELemma=lack - luster|MWELen=3|SpaceAfter=No
 18	-	-	PUNCT	HYPH	_	17	punct	17:punct	SpaceAfter=No
 19	luster	luster	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	product	product	NOUN	NN	Number=Sing	13	obl	13:obl:for	SpaceAfter=No|Supersense=n.ARTIFACT
@@ -1845,7 +1845,7 @@
 13	in	in	ADP	IN	_	15	case	15:case	PRel[config]=default|PRel[gov]=12:shop|PRel[obj]=15:Road|Supersense=p.Locus
 14	Morningside	Morningside	PROPN	NNP	Number=Sing	15	compound	15:compound	MWECat=N|MWELemma=Morningside Road|MWELen=2|Supersense=n.LOCATION
 15	Road	Road	PROPN	NNP	Number=Sing	12	nmod	12:nmod:in	_
-16	today	today	NOUN	NN	Number=Sing	10	obl:unmarked	10:obl:unmarked	SpaceAfter=No|TemporalNPAdjunct=Yes|Supersense=n.TIME
+16	today	today	NOUN	NN	Number=Sing	10	obl:unmarked	10:obl:unmarked	SpaceAfter=No|Supersense=n.TIME|TemporalNPAdjunct=Yes
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = reviews-083563-0002
@@ -1861,7 +1861,7 @@
 7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	situation	situation	NOUN	NN	Number=Sing	5	obj	5:obj	Supersense=n.EVENT
 9	getting	get	VERB	VBG	VerbForm=Ger	8	acl	8:acl	MWELemma[weak]=get <2> bad|MWELen[weak]=4|MWEString[weak]=getting <2> worse|Supersense=v.change
-10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	CorrectSpaceAfter=Yes|SpaceAfter=No|MWECat=DET|MWELemma=a lot|MWELen=2
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	CorrectSpaceAfter=Yes|MWECat=DET|MWELemma=a lot|MWELen=2|SpaceAfter=No
 11	lot	lot	NOUN	NN	Number=Sing	12	obl:unmarked	12:obl:unmarked	_
 12	worse	bad	ADJ	JJR	Degree=Cmp	9	xcomp	9:xcomp	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -2015,7 +2015,7 @@
 2	store	store	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No|Supersense=n.ARTIFACT
 3	,	,	PUNCT	,	_	8	punct	8:punct	_
 4	friendly	friendly	ADV	RB	_	8	advmod	8:advmod	_
-5	check	check	VERB	VB	VerbForm=Inf	8	compound	8:compound	SpaceAfter=No|MWECat=N|MWELemma=check - out|MWELen=3|Supersense=n.ACT
+5	check	check	VERB	VB	VerbForm=Inf	8	compound	8:compound	MWECat=N|MWELemma=check - out|MWELen=3|SpaceAfter=No|Supersense=n.ACT
 6	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
 7	out	out	ADP	RP	_	5	compound	5:compound	_
 8	staff	staff	NOUN	NN	Number=Sing	2	list	2:list	Supersense=n.GROUP
@@ -2046,7 +2046,7 @@
 7	communication	communication	NOUN	NN	Number=Sing	4	parataxis	4:parataxis	Supersense=n.COMMUNICATION
 8	and	and	CCONJ	CC	_	13	cc	13:cc	_
 9	best	well	ADV	RBS	Degree=Sup	13	advmod	13:advmod	_
-10	of	of	ADP	IN	_	9	obl	9:obl	MissingWordsAfter=all|Promoted=Yes|PRel[config]=default|PRel[gov]=9:well|Supersense=??
+10	of	of	ADP	IN	_	9	obl	9:obl	MissingWordsAfter=all|PRel[config]=default|PRel[gov]=9:well|Promoted=Yes|Supersense=??
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
 12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	Supersense=v.stative
 13	transparent	transparent	ADJ	JJ	Degree=Pos	7	conj	7:conj:and	_
@@ -2124,9 +2124,9 @@
 17	so	so	ADV	RB	_	19	advmod	19:advmod	_
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	19:nsubj	_
 19	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	Supersense=v.stative
-20	in	in	ADV	RB	_	19	advmod	19:advmod	SpaceAfter=No|PRel[config]=default|PRel[gov]=19:be|Supersense=p.Locus
+20	in	in	ADV	RB	_	19	advmod	19:advmod	PRel[config]=default|PRel[gov]=19:be|SpaceAfter=No|Supersense=p.Locus
 21	,	,	PUNCT	,	_	22	punct	22:punct	_
-22	out	out	ADV	RB	_	20	conj	19:advmod|20:conj:and	SpaceAfter=No|PRel[config]=default|PRel[gov]=19:be|Supersense=p.Locus
+22	out	out	ADV	RB	_	20	conj	19:advmod|20:conj:and	PRel[config]=default|PRel[gov]=19:be|SpaceAfter=No|Supersense=p.Locus
 23	,	,	PUNCT	,	_	25	punct	25:punct	_
 24	and	and	CCONJ	CC	_	25	cc	25:cc	_
 25	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	conj	19:advmod|20:conj:and	Supersense=v.possession
@@ -2627,7 +2627,7 @@
 # streusle_sent_id = ewtb.r.122564.1
 # mwe = good outside , bad inside
 1	good	good	ADJ	JJ	Degree=Pos	0	root	0:root	_
-2	outside	outside	ADV	RB	_	1	advmod	1:advmod	SpaceAfter=No|PRel[config]=default|PRel[gov]=1:good|Supersense=p.Locus
+2	outside	outside	ADV	RB	_	1	advmod	1:advmod	PRel[config]=default|PRel[gov]=1:good|SpaceAfter=No|Supersense=p.Locus
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	bad	bad	ADJ	JJ	Degree=Pos	1	conj	1:conj	_
 5	inside	inside	ADV	RB	_	4	advmod	4:advmod	PRel[config]=default|PRel[gov]=4:bad|Supersense=p.Locus
@@ -2662,7 +2662,7 @@
 6	even	even	ADV	RB	_	8	advmod	8:advmod	_
 7	never	never	ADV	RB	PronType=Neg	8	advmod	8:advmod	_
 8	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	Cxn=rc-red-obj|Supersense=v.perception
-9	before	before	ADV	RB	_	8	advmod	8:advmod	SpaceAfter=No|PRel[config]=default|PRel[gov]=8:see|Supersense=p.Time
+9	before	before	ADV	RB	_	8	advmod	8:advmod	PRel[config]=default|PRel[gov]=8:see|SpaceAfter=No|Supersense=p.Time
 10	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = reviews-122564-0004
@@ -2734,11 +2734,11 @@
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj	_
 12	moved	move	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	2:parataxis	Supersense=v.motion
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	12:obj	_
-14	before	before	ADV	RB	_	12	advmod	12:advmod	SpaceAfter=No|PRel[config]=default|PRel[gov]=12:move|Supersense=p.Time
+14	before	before	ADV	RB	_	12	advmod	12:advmod	PRel[config]=default|PRel[gov]=12:move|SpaceAfter=No|Supersense=p.Time
 15	,	,	PUNCT	,	_	21	punct	21:punct	_
 16	but	but	CCONJ	CC	_	21	cc	21:cc	_
 17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	18:det	_
-18	time	time	NOUN	NN	Number=Sing	21	obl:unmarked	21:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+18	time	time	NOUN	NN	Number=Sing	21	obl:unmarked	21:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	_
 20	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	cop	21:cop	Supersense=v.stative
 21	awesome	awesome	ADJ	JJ	Degree=Pos	12	conj	12:conj:but	_
@@ -2839,7 +2839,7 @@
 13	house	house	NOUN	NN	Number=Sing	11	obj	11:obj	Supersense=n.LOCATION
 14	five	five	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	_
 15	minutes	minute	NOUN	NNS	Number=Plur	16	obl:unmarked	16:obl:unmarked	Supersense=n.TIME
-16	ago	ago	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No|PRel[config]=default|PRel[gov]=11:leave|Supersense[coding]=p.Interval|Supersense[scene]=p.Time
+16	ago	ago	ADV	RB	_	11	advmod	11:advmod	PRel[config]=default|PRel[gov]=11:leave|SpaceAfter=No|Supersense[coding]=p.Interval|Supersense[scene]=p.Time
 17	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = reviews-130216-0002
@@ -3033,7 +3033,7 @@
 3	use	use	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	0	root	0:root	CorrectForm=used|Supersense=v.social
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	3:obj	_
 5	four	four	NUM	CD	NumForm=Word|NumType=Card	6	nummod	6:nummod	_
-6	times	time	NOUN	NNS	Number=Plur	3	obl:unmarked	3:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+6	times	time	NOUN	NNS	Number=Plur	3	obl:unmarked	3:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 7	for	for	SCONJ	IN	_	8	mark	8:mark	PRel[config]=subordinating|PRel[gov]=3:use|PRel[obj]=8:fix|Supersense=p.Purpose
 8	fixing	fix	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl:for	Supersense=v.change
 9	items	item	NOUN	NNS	Number=Plur	8	obj	8:obj	Supersense=n.ARTIFACT
@@ -3386,7 +3386,7 @@
 4	so	so	ADV	RB	_	5	advmod	5:advmod	_
 5	helpful	helpful	ADJ	JJ	Degree=Pos	0	root	0:root	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	_
-7	week	week	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+7	week	week	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 8	and	and	CCONJ	CC	_	9	cc	9:cc	_
 9	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj:and	Supersense=v.stative
 10	everything	everything	PRON	NN	Number=Sing|PronType=Tot	9	obj	9:obj	_
@@ -3606,7 +3606,7 @@
 # mwe = what a mind_blowing servicing
 1	what	what	DET	WDT	PronType=Int	5	det:predet	5:det:predet	_
 2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	_
-3	mind	mind	NOUN	NN	Number=Sing	4	compound	4:compound	CorrectSpaceAfter=Yes|SpaceAfter=No|MWECat=N|MWELemma=mind blow|MWELen=2|MWEString=mind blowing|Supersense=n.COGNITION
+3	mind	mind	NOUN	NN	Number=Sing	4	compound	4:compound	CorrectSpaceAfter=Yes|MWECat=N|MWELemma=mind blow|MWELen=2|MWEString=mind blowing|SpaceAfter=No|Supersense=n.COGNITION
 4	blowing	blow	VERB	VBG	VerbForm=Ger	5	amod	5:amod	_
 5	servicing	servicing	NOUN	NN	Number=Sing	0	root	0:root	Supersense=n.ACT
 
@@ -3951,7 +3951,7 @@
 12	people	people	NOUN	NNS	Number=Plur	11	obj	11:obj	Supersense=n.PERSON
 13	to	to	PART	TO	_	14	mark	14:mark	PRel[config]=subordinating|PRel[gov]=12:people|PRel[obj]=14:work|Supersense=p.Purpose
 14	work	work	VERB	VB	VerbForm=Inf	12	acl	12:acl:to	MWELemma[weak]=work with|MWELen[weak]=2|Supersense=v.social
-15	with	with	ADP	IN	_	14	obl	14:obl	Promoted=Yes|PRel[config]=stranded|PRel[gov]=14:work|PRel[obj]=12:people|Supersense[coding]=p.Ancillary|Supersense[scene]=p.SocialRel
+15	with	with	ADP	IN	_	14	obl	14:obl	PRel[config]=stranded|PRel[gov]=14:work|PRel[obj]=12:people|Promoted=Yes|Supersense[coding]=p.Ancillary|Supersense[scene]=p.SocialRel
 16	like	like	ADP	IN	_	17	case	17:case	PRel[config]=default|PRel[gov]=12:people|PRel[obj]=17:this|Supersense=p.ComparisonRef
 17	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nmod	12:nmod:like	SpaceAfter=No
 18	..	..	PUNCT	.	_	2	punct	2:punct	_
@@ -4129,7 +4129,7 @@
 13	family	family	NOUN	NN	Number=Sing	3	obl	3:obl:in	Supersense=n.GROUP
 14	and	and	CCONJ	CC	_	20	cc	20:cc	_
 15	both	both	DET	DT	PronType=Tot	16	det	16:det	_
-16	times	time	NOUN	NNS	Number=Plur	20	obl:unmarked	20:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+16	times	time	NOUN	NNS	Number=Plur	20	obl:unmarked	20:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 17	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	20:cop	Supersense=v.stative
 19	very	very	ADV	RB	_	20	advmod	20:advmod	_
@@ -4440,7 +4440,7 @@
 9	by	by	ADV	RB	_	8	advmod	8:advmod	_
 10	as	as	SCONJ	IN	_	11	mark	11:mark	PRel[config]=subordinating|PRel[gov]=8:come|PRel[obj]=11:schedule|Supersense=p.ComparisonRef
 11	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	8:advcl:as	Supersense=v.social
-12	today	today	NOUN	NN	Number=Sing	8	obl:unmarked	8:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.TIME
+12	today	today	NOUN	NN	Number=Sing	8	obl:unmarked	8:obl:unmarked	Supersense=n.TIME|TemporalNPAdjunct=Yes
 13	and	and	CCONJ	CC	_	14	cc	14:cc	_
 14	sprayed	spray	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	5:ccomp|8:conj:and	MWELemma[weak]=spray <2> for|MWELen[weak]=4|MWEString[weak]=sprayed <2> for|Supersense=v.contact
 15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	PRel[config]=possessive|PRel[gov]=16:house|Supersense=p.Possessor
@@ -4743,7 +4743,7 @@
 7	nice	nice	ADJ	JJ	Degree=Pos	4	conj	4:conj:and	_
 8	to	to	PART	TO	_	9	mark	9:mark	_
 9	work	work	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:to	MWELemma[weak]=work with|MWELen[weak]=2|Supersense=v.social
-10	with	with	ADP	IN	_	9	obl	9:obl	Promoted=Yes|PRel[config]=stranded|PRel[gov]=9:work|Supersense[coding]=p.Ancillary|Supersense[scene]=p.SocialRel
+10	with	with	ADP	IN	_	9	obl	9:obl	PRel[config]=stranded|PRel[gov]=9:work|Promoted=Yes|Supersense[coding]=p.Ancillary|Supersense[scene]=p.SocialRel
 11	and	and	CCONJ	CC	_	12	cc	12:cc	_
 12	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	MWELemma[weak]=give <3> price|MWELen[weak]=5|MWEString[weak]=gave <3> price|Supersense=v.communication
 13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	_
@@ -4858,7 +4858,7 @@
 7	people	people	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Supersense=n.PERSON
 8	to	to	PART	TO	_	9	mark	9:mark	PRel[config]=subordinating|PRel[gov]=7:people|PRel[obj]=9:talk|Supersense=p.Purpose
 9	talk	talk	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	Supersense=v.communication
-10	to	to	ADP	IN	_	9	obl	9:obl	Promoted=Yes|PRel[config]=stranded|PRel[gov]=9:talk|PRel[obj]=7:people|Supersense[coding]=p.Goal|Supersense[scene]=p.Recipient
+10	to	to	ADP	IN	_	9	obl	9:obl	PRel[config]=stranded|PRel[gov]=9:talk|PRel[obj]=7:people|Promoted=Yes|Supersense[coding]=p.Goal|Supersense[scene]=p.Recipient
 11	and	and	CCONJ	CC	_	16	cc	16:cc	_
 12	school	school	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Supersense=n.GROUP
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	Supersense=v.stative
@@ -5072,7 +5072,7 @@
 8	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	10	advmod	10:advmod	MWECat=P|MWELemma=more than|MWELen=2|PRel[config]=default|PRel[obj]=10:two|Supersense=p.Approximator
 9	than	than	ADP	IN	_	8	fixed	8:fixed	_
 10	two	two	NUM	CD	NumForm=Word|NumType=Card	11	nummod	11:nummod	_
-11	minutes	minute	NOUN	NNS	Number=Plur	3	obl:unmarked	3:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.TIME
+11	minutes	minute	NOUN	NNS	Number=Plur	3	obl:unmarked	3:obl:unmarked	Supersense=n.TIME|TemporalNPAdjunct=Yes
 12	and	and	CCONJ	CC	_	16	cc	16:cc	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
 14	cleanings	cleaning	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj|18:nsubj	Supersense=n.ACT
@@ -5881,7 +5881,7 @@
 # mwe = Call them today !
 1	Call	call	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	Supersense=v.communication
 2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	1:obj	_
-3	today	today	NOUN	NN	Number=Sing	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No|TemporalNPAdjunct=Yes|Supersense=n.TIME
+3	today	today	NOUN	NN	Number=Sing	1	obl:unmarked	1:obl:unmarked	SpaceAfter=No|Supersense=n.TIME|TemporalNPAdjunct=Yes
 4	!	!	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = reviews-263909-0004
@@ -6226,7 +6226,7 @@
 1	quick	quick	ADJ	JJ	Degree=Pos	0	root	0:root	_
 2	in	in	ADV	RB	_	1	advmod	1:advmod	MWELemma[weak]=in & out|MWELen[weak]=3|PRel[config]=default|PRel[gov]=1:quick|Supersense=p.Direction
 3	&	&	CCONJ	CC	_	4	cc	4:cc	_
-4	out	out	ADV	RB	_	2	conj	2:conj	SpaceAfter=No|PRel[config]=default|Supersense=p.Direction
+4	out	out	ADV	RB	_	2	conj	2:conj	PRel[config]=default|SpaceAfter=No|Supersense=p.Direction
 5	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = reviews-283903-0003
@@ -6486,7 +6486,7 @@
 2	Informative	informative	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	website	website	NOUN	NN	Number=Sing	0	root	0:root	Supersense=n.COMMUNICATION
 4	with	with	ADP	IN	_	6	case	6:case	PRel[config]=default|PRel[gov]=3:website|PRel[obj]=6:lot|Supersense=p.Characteristic
-5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	CorrectSpaceAfter=Yes|SpaceAfter=No|MWECat=DET|MWELemma=a lot|MWELen=2
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	CorrectSpaceAfter=Yes|MWECat=DET|MWELemma=a lot|MWELen=2|SpaceAfter=No
 6	lot	lot	NOUN	NN	Number=Sing	3	nmod	3:nmod:with	_
 7	of	of	ADP	IN	_	9	case	9:case	PRel[config]=default|PRel[gov]=6:lot|PRel[obj]=9:work|Supersense=p.QuantityItem
 8	good	good	ADJ	JJ	Degree=Pos	9	amod	9:amod	MWELemma[weak]=good work|MWELen[weak]=2
@@ -6588,7 +6588,7 @@
 9	still	still	ADV	RB	_	16	advmod	16:advmod	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	_
 11	best	good	ADJ	JJS	Degree=Sup	16	amod	16:amod	_
-12	go	go	VERB	VB	VerbForm=Inf	16	amod	16:amod	SpaceAfter=No|MWECat=ADJ|MWELemma=go - to|MWELen=3
+12	go	go	VERB	VB	VerbForm=Inf	16	amod	16:amod	MWECat=ADJ|MWELemma=go - to|MWELen=3|SpaceAfter=No
 13	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
 14	to	to	ADP	IN	_	12	obl	12:obl	Promoted=Yes
 15	burger	burger	NOUN	NN	Number=Sing	16	compound	16:compound	Supersense=n.FOOD
@@ -6945,7 +6945,7 @@
 # streusle_sent_id = ewtb.r.314880.2
 # mwe = Last time I went however , my beer was warm and the service was so_-_so .
 1	Last	last	ADJ	JJ	Degree=Pos	2	amod	2:amod	_
-2	time	time	NOUN	NN	Number=Sing	10	obl:unmarked	4:obl|10:obl:unmarked	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+2	time	time	NOUN	NN	Number=Sing	10	obl:unmarked	4:obl|10:obl:unmarked	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
 4	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Cxn=rc-red-obl|Supersense=v.motion
 5	however	however	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
@@ -6958,7 +6958,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	_
 13	service	service	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Supersense=n.ACT
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	17:cop	Supersense=v.stative
-15	so	so	ADJ	JJ	Degree=Pos	17	amod	17:amod	SpaceAfter=No|MWECat=ADJ|MWELemma=so - so|MWELen=3
+15	so	so	ADJ	JJ	Degree=Pos	17	amod	17:amod	MWECat=ADJ|MWELemma=so - so|MWELen=3|SpaceAfter=No
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
 17	so	so	ADJ	JJ	Degree=Pos	10	conj	10:conj:and	SpaceAfter=No
 18	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -7727,7 +7727,7 @@
 5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	_
 6	place	place	NOUN	NN	Number=Sing	4	obj	4:obj	Supersense=n.GROUP
 7	last	last	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
-8	year	year	NOUN	NN	Number=Sing	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No|TemporalNPAdjunct=Yes|Supersense=n.TIME
+8	year	year	NOUN	NN	Number=Sing	4	obl:unmarked	4:obl:unmarked	SpaceAfter=No|Supersense=n.TIME|TemporalNPAdjunct=Yes
 9	,	,	PUNCT	,	_	15	punct	15:punct	_
 10	and	and	CCONJ	CC	_	15	cc	15:cc	_
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	_
@@ -7738,7 +7738,7 @@
 15	recommend	recommend	VERB	VB	VerbForm=Inf	4	conj	4:conj:and	Supersense=v.communication
 16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	15:obj	_
 17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	18:det	_
-18	year	year	NOUN	NN	Number=Sing	15	obl:unmarked	15:obl:unmarked	SpaceAfter=No|TemporalNPAdjunct=Yes|Supersense=n.TIME
+18	year	year	NOUN	NN	Number=Sing	15	obl:unmarked	15:obl:unmarked	SpaceAfter=No|Supersense=n.TIME|TemporalNPAdjunct=Yes
 19	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # newdoc id = reviews-351950
@@ -7856,7 +7856,7 @@
 11	clear	clear	ADJ	JJ	Degree=Pos	9	conj	9:conj:and	_
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	work	work	VERB	VB	VerbForm=Inf	9	advcl	9:advcl:to	MWELemma[weak]=work with|MWELen[weak]=2|Supersense=v.social
-14	with	with	ADP	IN	_	13	obl	13:obl	Promoted=Yes|SpaceAfter=No|PRel[config]=stranded|PRel[gov]=13:work|PRel[obj]=2:people|Supersense[coding]=p.Ancillary|Supersense[scene]=p.SocialRel
+14	with	with	ADP	IN	_	13	obl	13:obl	PRel[config]=stranded|PRel[gov]=13:work|PRel[obj]=2:people|Promoted=Yes|SpaceAfter=No|Supersense[coding]=p.Ancillary|Supersense[scene]=p.SocialRel
 15	.	.	PUNCT	.	_	9	punct	9:punct	_
 
 # sent_id = reviews-354474-0003
@@ -8389,7 +8389,7 @@
 11	to	to	PART	TO	_	12	mark	12:mark	_
 12	get	get	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:to	MWECat=V.IAV|MWELemma=get along|MWELemma[weak]=get along with|MWELen=2|MWELen[weak]=3|Supersense=v.social
 13	along	along	ADV	RB	_	12	advmod	12:advmod	_
-14	with	with	ADP	IN	_	12	obl	12:obl	Promoted=Yes|SpaceAfter=No|PRel[config]=stranded|PRel[gov]=12:get|PRel[obj]=3:staff|Supersense[coding]=p.Ancillary|Supersense[scene]=p.Agent
+14	with	with	ADP	IN	_	12	obl	12:obl	PRel[config]=stranded|PRel[gov]=12:get|PRel[obj]=3:staff|Promoted=Yes|SpaceAfter=No|Supersense[coding]=p.Ancillary|Supersense[scene]=p.Agent
 15	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = reviews-389298-0004
@@ -8469,7 +8469,7 @@
 5	fully	fully	ADV	RB	_	6	advmod	6:advmod	_
 6	cooked	cook	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Supersense=v.creation
 7	last	last	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
-8	time	time	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked|10:obl	TemporalNPAdjunct=Yes|Supersense=n.EVENT
+8	time	time	NOUN	NN	Number=Sing	6	obl:unmarked	6:obl:unmarked|10:obl	Supersense=n.EVENT|TemporalNPAdjunct=Yes
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	_
 10	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obl|Supersense=v.motion
 11	there	there	ADV	RB	PronType=Dem	10	advmod	10:advmod	SpaceAfter=No
