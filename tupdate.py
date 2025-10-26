@@ -18,7 +18,7 @@ import sys, json, fileinput, re
 import shlex, subprocess
 from itertools import chain
 
-from conllulex2json import print_json
+from conllu2json import print_json
 from mwerender import makelabel
 from tquery import ALL_FIELDS, LEX_LEVEL_FIELDS
 

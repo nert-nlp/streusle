@@ -1,6 +1,7 @@
       6 ??	_
-   3310 _	_
-      3 `$	`$
+      3 `$	_
+     14 `d	_
+      4 `j	_
     108 n.ACT	_
       6 n.ANIMAL	_
     103 n.ARTIFACT	_
@@ -124,50 +125,9 @@
 660 v.*
 462 p.*
 
-n.* by LexCat
-========================
-   1040 N
-
-v.* by LexCat
-========================
-    608 V
-      5 V.IAV
-      7 V.LVC.full
-     23 V.VID
-     12 V.VPC.full
-      5 V.VPC.semi
-
-p.* by LexCat
-========================
-     27 INF.P
-    329 P
-      6 POSS
-     19 PP
-     81 PRON.POSS
-
-p.* by LexCat + construal type
-========================
-     26 INF.P	p.X ~> p.X
-      1 INF.P	p.X ~> p.Y
-    243 P	p.X ~> p.X
-     86 P	p.X ~> p.Y
-      1 POSS	p.X ~> p.X
-      5 POSS	p.X ~> p.Y
-      8 PP	p.X ~> p.X
-     11 PP	p.X ~> p.Y
-     27 PRON.POSS	p.X ~> p.X
-     54 PRON.POSS	p.X ~> p.Y
-
-p.* by LexCat + spatiotemporality
+p.* by spatiotemporality
 (TMP = Time|Frequency|Duration|Interval|Temporal, LOC=Locus|Source|Path|Goal|Direction|Extent [not necessarily concrete])
 ========================
-     27 INF.P 	p.OTH ~> *
-    100 P 	p.LOC ~> *
-    202 P 	p.OTH ~> *
-     27 P 	p.TMP ~> *
-      1 POSS 	p.LOC ~> *
-      5 POSS 	p.OTH ~> *
-     11 PP 	p.LOC ~> *
-      8 PP 	p.OTH ~> *
-     81 PRON.POSS 	p.OTH ~> *
-
+    112 p.LOC ~> *
+    323 p.OTH ~> *
+     27 p.TMP ~> *

@@ -3,15 +3,15 @@
 import os, sys, fileinput, re, json, argparse
 from collections import defaultdict, Counter
 
-from conllulex2json import load_sents
+from conllu2json import load_sents
 from supersenses import coarsen_pss
 
 """
 Evaluation script for adposition supersense disambiguation (also includes possessives).
 With --json, outputs result as JSON; otherwise outputs a TSV file for viewing in a spreadsheet editor.
 The first positional argument is the gold standard; subsequent arguments are system outputs,
-and each of these must have a filename of the form BASENAME.goldid.{conllulex,json}
-or BASENAME.autoid.{conllulex,json}.
+and each of these must have a filename of the form BASENAME.goldid.{conllu,json}
+or BASENAME.autoid.{conllu,json}.
 Sentences must be in the same order in all files.
 
 Tokens are scored if the first supersense label starts with 'p.'.
@@ -172,9 +172,9 @@ def main(args):
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description='Evaluate system output for preposition supersense disambiguation against a gold standard.')
     parser.add_argument('goldfile', type=argparse.FileType('r'),
-                        help='gold standard .conllulex or .json file')
+                        help='gold standard .conllu or .json file')
     parser.add_argument('sysfile', type=argparse.FileType('r'), nargs='+',
-                        help='system prediction file: BASENAME.{goldid,autoid}.{conllulex,json}')
+                        help='system prediction file: BASENAME.{goldid,autoid}.{conllu,json}')
     parser.add_argument('--depth', metavar='D', type=int, choices=range(1,5), default=4,
                         help='depth of hierarchy at which to cluster supersense labels (default: 4, i.e. no collapsing)')
     # parser.add_argument('--prec-rank', metavar='K', type=int, default=1,

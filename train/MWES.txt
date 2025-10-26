@@ -6,34 +6,39 @@ Weak MWEs:    558
 MWE Gaps
 ========
 Strong gaps:    320
-Weak gaps:      117
-Total gaps:     437
-Multi-gap MWEs:   4
+Weak gaps:      129
+Total gaps:     449
+Multi-gap MWEs:   6
+MWELemma[weak]=pass away <1> in <1> sleep
+MWELemma=put <1> at <1> ease
+MWELemma=take <1> as far as <1> can
+MWELemma=tell <2> to <1> face
+MWELemma[weak]=offer <2> bang for <1> buck
+MWELemma=ask <1> for <2> back
+NOTE: The weak/total gap counts now include any gaps for a strong MWE subsumed within a weak MWE (e.g. 'offer _ bang for _ buck' subsumes 'bang for _ buck', for a total gap count of 3)
 
-Strong MWE token positions
-==========================
-There are ... MWEs >= ... tokens long:
-   2448 1
-   2448 2
-    572 3
-    129 4
-     35 5
-     11 6
-      1 7
+Strong MWE lengths
+==================
+There are ... MWEs ... lemmas long (omitting gaps):
+     13 1
+   1864 2
+    444 3
+     92 4
+     24 5
+     10 6
       1 8
 
-Weak MWE token positions
-========================
-    558 1
-    558 2
-    203 3
-     72 4
-     20 5
-      5 6
-      3 7
+Weak MWE lengths
+================
+    355 2
+    131 3
+     52 4
+     15 5
+      2 6
+      2 7
       1 8
 
-Strong MWEs by LexCat
+Strong MWEs by MWECat
 =====================
      83 ADJ
      36 ADV
@@ -55,3 +60,6 @@ Strong MWEs by LexCat
     272 V.VID
     184 V.VPC.full
      88 V.VPC.semi
+
+Weak MWEs by MWECat (where present)
+===================================

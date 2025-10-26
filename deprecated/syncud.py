@@ -2,13 +2,11 @@
 
 import sys, re, json, fileinput, glob
 
-from helpers import sentences, streusle_annos
+from helpers import sentences
 
 REVIEWSDIR='UD_English-EWT/not-to-release/sources/reviews'
 
-EWT_HAS_STREUSLE = False    # If false, need to copy over all STREUSLE annotations.
-
-STREUSLE_CONLLU=sys.argv[1]
+CONLLULEX=sys.argv[1]
 
 # load UD data
 
@@ -19,8 +17,7 @@ for udDoc in udDocs:
         ud[sent.meta_dict['sent_id']] = (udDoc, sent)
 
 nSentsChanged = nToksChanged = nToksAdded = nTagsChanged = nLemmasChanged = nMorphChanged = nDepsChanged = nEDepsChanged = nAutoLemmaFix = nAutoUPOSLexcatFix = nMiscChanged = 0
-for sent in sentences(STREUSLE_CONLLU):
-    # "old" = from local STREUSLE repo, "new" = from EWT repo
+for sent in sentences(CONLLULEX):
     newudDoc, newudsent = ud[sent.meta_dict['sent_id']]
     if len(sent.tokens)!=len(newudsent.tokens):
         print(f"Number of tokens for sentence {sent.meta_dict['sent_id']} has changed", file=sys.stderr)
@@ -65,55 +62,45 @@ for sent in sentences(STREUSLE_CONLLU):
                     nMorphChanged += 1
                 elif tok.edeps!=newudtok.edeps:
                     nEDepsChanged += 1
-                elif tok.misc==newudtok.misc:
+                elif tok.misc!=newudtok.misc:
+                    nMiscChanged += 1
+                else:
                     print(oldud, newud, sep='\n', file=sys.stderr)
                     assert False,'Unexpected change in UD (see last 2 data lines above)'
-                
-                if tok.misc!=newudtok.misc:
-                    if not EWT_HAS_STREUSLE:
-                        omisc = '' if tok.misc=='_' else tok.misc
-                        nmisc = '' if newudtok.misc=='_' else newudtok.misc
-                        # ensure the only changes to MISC are the STREUSLE fields
-                        streusle_fields = streusle_annos(omisc)
-                        other_change = False
-                        if omisc:
-                            for x in omisc.split('|'):
-                                if not (x in streusle_fields or x in nmisc.split('|')):
-                                    other_change = True
-                                    break
-                        if nmisc:
-                            for x in nmisc.split('|'):
-                                if x not in omisc.split('|'):
-                                    other_change = True
-                                    break
-
-                        # record the changes
-                        if streusle_fields:
-                            if not other_change:
-                                # auto-add the STREUSLE fields
-                                newudtok.misc = tok.misc
-                            elif tok.misc=='Supersense=n.LOCATION' and newudtok.misc=='Superlocation=Yes':
-                                newudtok.misc = 'Superlocation=Yes|Supersense=n.LOCATION'
-                            elif tok.misc=='SpaceAfter=No|Supersense=n.LOCATION' and newudtok.misc=='SpaceAfter=No|Superlocation=Yes':
-                                newudtok.misc = 'SpaceAfter=No|Superlocation=Yes|Supersense=n.LOCATION'
-                            else:
-                                # need to manually merge as there are both STREUSLE and new non-STREUSLE MISC fields
-                                print(tok, newudtok, sep='\n', file=sys.stderr)
-                                assert False,'Unexpected change in MISC: need to manually update the local STREUSLE file first'
-                        elif other_change:
-                            nMiscChanged += 1
-                    else:
-                        nMiscChanged += 1
             else:
                 nToksAdded += 1
 
-        print(newudtok)
+        if tok:
+            streusle = tok.orig.split('\t')[10:]
+            old_lexcat = streusle[1]
+            old_strong_lemma = streusle[2]
+            old_lextag = streusle[8]
+            if old_strong_lemma!='_' and tok.lemma!=newudtok.lemma and old_strong_lemma==tok.lemma:
+                streusle[2] = newudtok.lemma
+                nAutoLemmaFix += 1
+            if old_lexcat!='_' and old_lextag=='O-'+old_lexcat and tok.ud_pos!=newudtok.ud_pos:
+                assert (old_lexcat==tok.ud_pos 
+                    or old_lexcat=='PRON' and old_lextag=='O-PRON' and tok.ud_pos=='NOUN'
+                    or old_lexcat=='DISC' and newudtok.ud_pos=='INTJ'),(old_lextag,tok.ud_pos,newudtok.ud_pos)
+                # 'other', 'none', 'one' in some cases had UPOS NOUN/lexcat PRON
+
+                newlexcat = {'ADP': 'P', 'NOUN': 'N', 'PROPN': 'N', 'VERB': 'V'}.get(newudtok.ud_pos, newudtok.ud_pos)
+                if newlexcat=='N' and newudtok.lemma in ('etc.','etc','one'):
+                    newlexcat = 'PRON'
+                streusle[1] = newlexcat
+                streusle[8] = 'O-'+newlexcat
+                nAutoUPOSLexcatFix += 1
+        else:
+            streusle = '_'*9
+
+        streusle = '\t'.join(streusle)
+        print(f'{newud}\t{streusle}')
         # NOTE: lemmas updated in column 3 need to be manually fixed in the STREUSLE columns
-        # These will be caught by running conllu2json.py
+        # These will be caught by running conllulex2json.py
     if sentChanged:
         nSentsChanged += 1
     print()
 
-print(f'Changes to {nToksChanged} tokens ({nToksAdded} new tokens + {nTagsChanged} tags + {nDepsChanged} additional deps + {nLemmasChanged} additional lemmas + {nMorphChanged} additional morphology + {nEDepsChanged} additional enhanced deps + {nMiscChanged} total MISC) in {nSentsChanged} sentences', file=sys.stderr)
+print(f'Changes to {nToksChanged} tokens ({nToksAdded} new tokens + {nTagsChanged} tags + {nDepsChanged} additional deps + {nLemmasChanged} additional lemmas + {nMorphChanged} additional morphology + {nEDepsChanged} additional enhanced deps + {nMiscChanged} additional MISC) in {nSentsChanged} sentences', file=sys.stderr)
 print(f'{nAutoLemmaFix} STREUSLE single-word lemmas were automatically fixed, but multiword lemmas may need to be fixed manually', file=sys.stderr)
 print(f'{nAutoUPOSLexcatFix} single-word UPOS/Lexcat tags were automatically fixed, but multiword lemmas may need to be fixed manually', file=sys.stderr)
