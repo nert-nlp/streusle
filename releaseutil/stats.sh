@@ -1,5 +1,7 @@
 #!/bin/bash
 # Arg: .conllu file, e.g. streusle.conllu
+export LC_COLLATE=C
+
 DATA=$1
 
 echo "STREUSLE Stats" > STATS.md

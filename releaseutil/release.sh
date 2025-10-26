@@ -2,6 +2,8 @@
 #
 set -eux
 
+export LC_COLLATE=C
+
 RELUTILDIR='releaseutil'
 # Run from the main release directory
 
