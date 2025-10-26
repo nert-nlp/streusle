@@ -211,6 +211,10 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
                 if upos=='ADP' and lc=='CCONJ':
                     assert tok['lemma']=='versus'
                     mismatchOK = True
+                if upos=='SYM' and lc=='P': # "@"
+                    assert tok['lemma']=='at'
+                    assert 'ExtPos=ADP' in tok['feats']
+                    mismatchOK = True
 
                 assert mismatchOK,message
             if validate_type:
@@ -448,6 +452,8 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
                         elif tok['xpos']=='POS':
                             lc = 'POSS'
                         elif tok['upos'] in ('ADV','SCONJ') and (ss or '').startswith(('p.','??')):
+                            lc = 'P'
+                        elif tok['feats'] and 'ExtPos=ADP' in tok['feats'] and (ss or '').startswith(('p.','??')):
                             lc = 'P'
                         elif tok['upos'] in ('AUX',) and (ss or '').startswith('v.'):
                             lc = 'V'
