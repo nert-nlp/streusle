@@ -341,7 +341,7 @@ def load_sents(inF, morph_syn=True, misc=True, ss_mapper=None,
 
             if not isEllipsis and not isMWT:
                 # Load lexical semantic features:
-                #   MWECat, MWELemma, MWELen, MWEString, Supersense, TODO: PRel
+                #   MWECat, MWELemma, MWELen, MWEString, Supersense, PRel
 
                 assert isinstance(tokNum,int)
 

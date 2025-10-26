@@ -1,5 +1,10 @@
 import sys
 
+STREUSLE_FIELDS = 'MWECat', 'MWELemma', 'MWELen', 'MWEString', 'Supersense', 'PRel'
+
+def streusle_annos(misc: str):
+    return [x for x in misc.split('|') if x.startswith(STREUSLE_FIELDS)]
+
 class Token:
     def __init__(self, string):
         self.fields = string.split("\t")
@@ -14,6 +19,9 @@ class Token:
             self.edeps, \
             self.misc = self.fields[:10]
         self.orig = string
+
+    def __str__(self):
+        return f'{self.offset}\t{self.word}\t{self.lemma}\t{self.ud_pos}\t{self.ptb_pos}\t{self.morph}\t{self.head}\t{self.deprel}\t{self.edeps}\t{self.misc}'
 
 class Sentence:
     def __init__(self, tokens, meta):
