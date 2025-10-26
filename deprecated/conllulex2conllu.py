@@ -148,6 +148,7 @@ if __name__ == '__main__':
                     if (newattrs := miscattrs[int(tokid)]):
                         tailstripped = ln.strip()[:-1] if ln.strip()[-1]=='_' else ln.strip()+'|'
                         updatedln = tailstripped + '|'.join(k+'='+v for k,v in sorted(newattrs.items()))
+                        # TODO: if there are existing MISC attrs like SpaceAfter=No, the full list won't be sorted
                         ln = updatedln
             print(ln)
         print()

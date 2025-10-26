@@ -122,6 +122,9 @@ An example
 ```json
 {
  "sent_id": "reviews-010378-0002",
+ "extra_meta": [
+  "# newpar id = reviews-010378-p0002"
+ ],
  "text": "I did not have a good experience w/ Dr. Ghassemlou.",
  "streusle_sent_id": "ewtb.r.010378.2",
  "mwe": "I did not have_ a good _experience~w / Dr._Ghassemlou .",
@@ -133,7 +136,7 @@ An example
       {"#": 5, "word": "a", "lemma": "a", "upos": "DET", "xpos": "DT", "feats": "Definite=Ind|PronType=Art", "head": 7, "deprel": "det", "edeps": "7:det", "misc": null, "smwe": null, "wmwe": null, "lextag": "o-DET"},
       {"#": 6, "word": "good", "lemma": "good", "upos": "ADJ", "xpos": "JJ", "feats": "Degree=Pos", "head": 7, "deprel": "amod", "edeps": "7:amod", "misc": null, "smwe": null, "wmwe": null, "lextag": "o-ADJ"},
       {"#": 7, "word": "experience", "lemma": "experience", "upos": "NOUN", "xpos": "NN", "feats": "Number=Sing", "head": 4, "deprel": "obj", "edeps": "4:obj", "misc": null, "smwe": [1, 2], "wmwe": [2, 2], "lextag": "I_"},
-      {"#": 8, "word": "w", "lemma": "with", "upos": "ADP", "xpos": "IN", "feats": "Abbr=Yes", "head": 11, "deprel": "case", "edeps": "11:case", "misc": ["SpaceAfter=No", "PRel[config]=default", "PRel[gov]=7:experience", "PRel[obj]=11:Ghassemlou", "Supersense=p.Topic"], "heuristic_relation": {"gov": 7, "govlemma": "experience", "obj": 11, "objlemma": "Ghassemlou", "config": "default"}, "smwe": null, "wmwe": [2, 3], "lextag": "I~-P-p.Topic"},
+      {"#": 8, "word": "w", "lemma": "with", "upos": "ADP", "xpos": "IN", "feats": "Abbr=Yes", "head": 11, "deprel": "case", "edeps": "11:case", "misc": ["PRel[config]=default", "PRel[gov]=7:experience", "PRel[obj]=11:Ghassemlou", "SpaceAfter=No", "Supersense=p.Topic"], "heuristic_relation": {"gov": 7, "govlemma": "experience", "obj": 11, "objlemma": "Ghassemlou", "config": "default"}, "smwe": null, "wmwe": [2, 3], "lextag": "I~-P-p.Topic"},
       {"#": 9, "word": "/", "lemma": "/", "upos": "PUNCT", "xpos": ",", "feats": null, "head": 8, "deprel": "punct", "edeps": "8:punct", "misc": null, "smwe": null, "wmwe": null, "lextag": "O-PUNCT"},
       {"#": 10, "word": "Dr.", "lemma": "Dr.", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 11, "deprel": "nmod:desc", "edeps": "11:nmod:desc", "misc": ["MWECat=N", "MWELemma=Dr. Ghassemlou", "MWELen=2", "Supersense=n.PERSON"], "smwe": [3, 1], "wmwe": null, "lextag": "B-N-n.PERSON"},
       {"#": 11, "word": "Ghassemlou", "lemma": "Ghassemlou", "upos": "PROPN", "xpos": "NNP", "feats": "Number=Sing", "head": 7, "deprel": "nmod", "edeps": "7:nmod:with", "misc": ["SpaceAfter=No"], "smwe": [3, 2], "wmwe": null, "lextag": "I_"},

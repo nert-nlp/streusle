@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/nert-nlp/streusle",
     py_modules=["govobj", "lexcatter",
                 "streusvis", "supersenses", "tquery", "UDlextag2json", "conllu2json",
-                "json2conllulex", "mwerender", "psseval", "streuseval", "supdate",
+                "json2conllu", "mwerender", "psseval", "streuseval", "supdate",
                 "tagging", "tupdate"],
     classifiers=[
         "Programming Language :: Python :: 3",
