@@ -6,7 +6,7 @@ from helpers import sentences, streusle_annos
 
 REVIEWSDIR='UD_English-EWT/not-to-release/sources/reviews'
 
-EWT_HAS_STREUSLE = False    # If false, need to copy over all STREUSLE annotations.
+EWT_HAS_STREUSLE = True    # If false, need to copy over all STREUSLE annotations.
 
 STREUSLE_CONLLU=sys.argv[1]
 

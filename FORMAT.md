@@ -63,7 +63,7 @@ An example
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 6	good	good	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
 7	experience	experience	NOUN	NN	Number=Sing	4	obj	4:obj	_
-8	w	with	ADP	IN	Abbr=Yes	11	case	11:case	SpaceAfter=No|PRel[config]=default|PRel[gov]=7:experience|PRel[obj]=11:Ghassemlou|Supersense=p.Topic
+8	w	with	ADP	IN	Abbr=Yes	11	case	11:case	PRel[config]=default|PRel[gov]=7:experience|PRel[obj]=11:Ghassemlou|SpaceAfter=No|Supersense=p.Topic
 9	/	/	PUNCT	,	_	8	punct	8:punct	_
 10	Dr.	Dr.	PROPN	NNP	Number=Sing	11	nmod:desc	11:nmod:desc	MWECat=N|MWELemma=Dr. Ghassemlou|MWELen=2|Supersense=n.PERSON
 11	Ghassemlou	Ghassemlou	PROPN	NNP	Number=Sing	7	nmod	7:nmod:with	SpaceAfter=No
